@@ -4,6 +4,7 @@ pages:
   script:
     - npm install
     - npm run build
+    - mv public dummy # rename the existing public
     - mv dist public
   artifacts:
     paths:
