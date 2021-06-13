@@ -12,7 +12,6 @@ cache:
 stages:
   - install
   - test
-  - build
   - deploy
 
 install:
@@ -27,5 +26,8 @@ pages:
   stage: deploy
   script:
     - npm run build
-    - mv public dummy
+    - mv public dummy # rename existing public directory..
     - mv dist public
+  artifacts:
+    paths:
+      - public
