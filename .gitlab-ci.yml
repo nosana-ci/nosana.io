@@ -20,7 +20,7 @@ install:
   script: npm install
 
 test:
-  stage: install
+  stage: test
   script: npm run lint
 
 build:
