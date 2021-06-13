@@ -13,7 +13,7 @@ stages:
   - install
   - test
   - build
-  - pages
+  - deploy
 
 install:
   stage: install
@@ -23,13 +23,9 @@ test:
   stage: test
   script: npm run lint
 
-build:
-  stage: build
-  script: npm run build
-
 pages:
-  stage: pages
-  script: mv public dummy && mv dist public
-  artifacts:
-    paths:
-      - public
+  stage: deploy
+  script:
+    - npm run build
+    - mv public dummy
+    - mv dist public
