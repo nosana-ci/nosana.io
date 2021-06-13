@@ -1,17 +1,35 @@
 image: vuejs/ci
 
+workflow:
+  rules:
+    - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
+
+cache:
+  paths:
+    - node_modules
+  key: project
+
+stages:
+  - install
+  - test
+  - build
+  - pages
+
+install:
+  stage: install
+  script: npm install
+
+test:
+  stage: install
+  script: npm run lint
+
+build:
+  stage: build
+  script: npm run build
+
 pages:
-  script:
-    - npm install
-    - npm run build
-    - mv public dummy # rename the existing public
-    - mv dist public
+  stage: pages
+  script: mv public dummy && mv dist public
   artifacts:
     paths:
       - public
-  cache:
-    paths:
-      - node_modules
-    key: project
-  rules:
-    - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
