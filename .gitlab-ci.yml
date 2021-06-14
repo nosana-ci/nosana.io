@@ -1,9 +1,5 @@
 image: vuejs/ci
 
-workflow:
-  rules:
-    - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
-
 cache:
   paths:
     - node_modules
@@ -17,10 +13,16 @@ stages:
 install:
   stage: install
   script: npm install
+  only:
+    - merge_requests
+    - main
 
 test:
   stage: test
   script: npm run lint
+  only:
+    - merge_requests
+    - main
 
 pages:
   stage: deploy
@@ -31,3 +33,5 @@ pages:
   artifacts:
     paths:
       - public
+  only:
+    - main
