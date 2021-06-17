@@ -22,3 +22,18 @@ pnpm-debug.log*
 *.sln
 *.sw?
 *.iml
+
+# nuxt.js build output
+.nuxt
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Service worker
+sw.*
+
+# Vim swap files
+*.swp
