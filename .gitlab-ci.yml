@@ -28,7 +28,6 @@ pages:
   stage: deploy
   script:
     - npm run generate
-    - mv public dummy # rename existing public directory..
     - mv dist public
   artifacts:
     paths:
