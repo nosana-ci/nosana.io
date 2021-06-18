@@ -1,0 +1,36 @@
+/* Import Bulma Utilities */
+@import '~bulma/sass/utilities/initial-variables';
+@import '~bulma/sass/utilities/functions';
+
+@import url('https://fonts.cdnfonts.com/css/circular-std-book');
+$family-sans-serif: 'Circular Std Book', sans-serif;
+$family-headers: 'Circular Std Bold', sans-serif;
+
+// Colors
+$primary: #0a0c56;
+$secondary: #9373ff;
+$accent: #09d1fd;
+
+$secondary-invert: findColorInvert($secondary) !default;
+$accent-invert: findColorInvert($accent) !default;
+
+$custom-colors: (
+  "secondary":($secondary, $secondary-invert),
+  "accent":($accent, $accent-invert),
+);
+
+$text: $primary;
+
+//$link: $secondary;
+//$link-hover: lighten($secondary, 20%);
+//$link-focus: lighten($secondary, 20%);
+//$link-active: lighten($secondary, 20%);
+
+$title-weight: 400;
+$title-color: $primary;
+// $subtitle-color: $secondary;
+$title-family: $family-headers;
+$subtitle-family: $family-headers;
+
+$body-line-height: 1.7;
+$button-padding-horizontal: 1.7em;

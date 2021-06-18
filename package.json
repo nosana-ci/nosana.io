@@ -11,6 +11,7 @@
     "lint": "npm run lint:js"
   },
   "dependencies": {
+    "bulma": "^0.9.2",
     "core-js": "^3.9.1",
     "nuxt": "^2.15.3"
   },
