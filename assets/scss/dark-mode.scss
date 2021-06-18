@@ -1,0 +1,59 @@
+html {
+  transition: background 0.2s;
+  &.dark-mode {
+    background: url('~assets/img/bg-1.jpg');
+    body {
+      color: $text-invert;
+    }
+    strong {
+      color: $text-invert;
+    }
+    .always-light {
+      color: $text;
+      strong {
+        color: $text;
+      }
+    }
+    //.title, .subtitle, h1, h2, h3, h4, h5, h6 {
+    //  color: $primary-invert;
+    //}
+    .always-light {
+      .title, .subtitle, h1, h2, h3, h4, h5, h6 {
+        color: $primary;
+      }
+    }
+    .button {
+      &.is-primary {
+        background-color: $primary-invert;
+        color: $primary;
+      }
+    }
+    .has-background-light:not(.always-light) {
+      background: $dark-mode-background !important;
+    }
+    .has-text-primary {
+      color: $primary-invert !important;
+    }
+    .card:not(.always-light) {
+      background-color: darken($dark-mode-background, 5%);
+      color: white;
+      .card-header-title {
+        color: white;
+      }
+      &:hover {
+        color: white;
+      }
+    }
+    .menu-label {
+      color: white;
+    }
+    .menu-list {
+      a {
+        color: white;
+        &:hover {
+          color: $menu-item-hover-color;
+        }
+      }
+    }
+  }
+}

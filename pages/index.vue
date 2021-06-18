@@ -9,7 +9,9 @@
 </template>
 
 <script>
-export default {}
+export default {
+  colorMode: 'dark'
+}
 </script>
 
 <style lang="scss" scoped>
