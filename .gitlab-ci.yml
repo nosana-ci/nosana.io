@@ -27,7 +27,7 @@ test:
 pages:
   stage: deploy
   script:
-    - npm run build
+    - npm run generate
     - mv public dummy # rename existing public directory..
     - mv dist public
   artifacts:

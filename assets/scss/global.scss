@@ -1,0 +1,113 @@
+/* Import the rest of Bulma */
+@import '../../node_modules/bulma';
+@import 'dark-mode';
+
+a {
+  outline: 0;
+}
+
+.has-limited-width {
+  width: 670px;
+  max-width: 100%;
+}
+.is-horizontal-centered {
+  margin-left: auto;
+  margin-right: auto;
+}
+.has-text-shadow {
+  text-shadow: 2px 2px 4px #000000;
+}
+.has-border {
+  border: 2px solid $grey-lightest;
+}
+.card {
+  //transition: box-shadow 0.2s;
+  display: block;
+  &.is-flat {
+    border: $card-footer-border-top;
+    box-shadow: none;
+    .card-header {
+      box-shadow: none;
+      border-bottom: $card-footer-border-top;
+    }
+    &.is-hoverable {
+      cursor: pointer;
+      &:hover {
+        //border: 1px solid rgba($scheme-invert, 0);
+        box-shadow: $card-shadow;
+      }
+    }
+  }
+}
+a.card {
+  color: $text;
+}
+
+.notification {
+  &.is-primary {
+    &.is-outlined {
+      border: 2px solid $primary;
+      color: $text;
+      background: none;
+    }
+  }
+}
+
+.input {
+  &.is-primary {
+    &.is-outlined {
+      border: 1px solid $primary;
+      color: $primary;
+      background: none;
+
+    }
+  }
+  &.is-white {
+    &.is-outlined {
+      border: 1px solid $white;
+      color: $white;
+      background: none;
+      &::placeholder {
+        color: white;
+        opacity: 0.5;
+      }
+    }
+  }
+}
+.hero-body {
+  max-width: 100%;
+}
+
+.image {
+  overflow: hidden;
+  img {
+    height: auto !important;
+  }
+}
+.has-background-image {
+  background-size: cover;
+  background-position: top center;
+  background-repeat: no-repeat;
+}
+
+.card-content {
+  position: relative;
+}
+
+.button {
+  &.is-wide {
+    min-width: 200px;
+  }
+}
+
+.has-radius {
+  border-radius: 7px;
+}
+
+.has-shadow {
+  box-shadow: $box-shadow;
+}
+
+.box {
+  position: relative;
+}
