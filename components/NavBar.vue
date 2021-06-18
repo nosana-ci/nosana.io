@@ -4,7 +4,7 @@
       <div class="container">
         <div class="navbar-brand">
           <nuxt-link class="navbar-item" to="/">
-            Nosana CI
+            <img class="logo" :src="$colorMode.value === 'dark' ? require('@/assets/img/logo-white.svg') : require('@/assets/img/logo.svg')"> Nosana CI
           </nuxt-link>
 
           <a
@@ -73,7 +73,7 @@ export default {
     height: 50px;
     max-width: none;
     max-height: none;
-    margin-top: 5px;
+    margin-top: 0px;
     margin-right: 8px;
   }
 
