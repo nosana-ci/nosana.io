@@ -14,17 +14,12 @@ html {
         color: $text;
       }
     }
-    //.title, .subtitle, h1, h2, h3, h4, h5, h6 {
-    //  color: $primary-invert;
-    //}
-    .always-light {
-      .title, .subtitle, h1, h2, h3, h4, h5, h6 {
-        color: $primary;
-      }
+    .title, .subtitle, h1, h2, h3, h4, h5, h6 {
+      color: white;
     }
     .button {
       &.is-primary {
-        background-color: $primary-invert;
+        background-color: white;
         color: $primary;
       }
     }
@@ -32,7 +27,7 @@ html {
       background: $dark-mode-background !important;
     }
     .has-text-primary {
-      color: $primary-invert !important;
+      color: white !important;
     }
     .card:not(.always-light) {
       background-color: darken($dark-mode-background, 5%);

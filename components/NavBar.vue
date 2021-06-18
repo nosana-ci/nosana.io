@@ -11,6 +11,7 @@
             role="button"
             class="navbar-burger"
             aria-label="menu"
+            :class="{'is-active': mobileMenu}"
             aria-expanded="false"
             data-target="navbar"
             @click="mobileMenu = !mobileMenu"
@@ -92,7 +93,6 @@ export default {
       font-weight: 500;
       padding: 10px 20px;
       text-align: center;
-      color: white;
       font-size: .9rem;
 
       &:after {
@@ -117,12 +117,69 @@ export default {
     }
   }
 }
+.dark-mode {
+  .navbar-burger {
+    color: $white;
+  }
+
+  .navbar-dropdown {
+    background: $primary;
+    border-top-color: $primary
+  }
+
+  .navbar-menu {
+    .navbar-link {
+      color: $grey-light;
+
+      &:after {
+        border-color: $grey-light;
+      }
+
+      &.is-active, &:hover {
+        color: white;
+
+        &:after {
+          border-color: white;
+        }
+      }
+    }
+
+    .navbar-item {
+      color: $grey-light;
+
+      &:after {
+        background: white;
+      }
+
+      &.is-active, &:hover {
+        color: white;
+      }
+
+      &.dapps .navbar-item:hover {
+        background-color: rgba(0, 0, 0, 0.3) !important
+      }
+    }
+  }
+
+  .navbar-brand {
+    .navbar-item {
+      color: white;
+
+      &.is-active, &:hover {
+        color: white;
+      }
+    }
+  }
+}
 
 @media screen and (max-width: 1024px) {
   .navbar {
     .navbar-menu {
       .navbar-item {
         color: black;
+        &.is-active, &:hover {
+          color: black;
+        }
       }
     }
   }
