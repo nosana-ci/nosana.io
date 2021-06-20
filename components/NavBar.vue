@@ -4,7 +4,10 @@
       <div class="container">
         <div class="navbar-brand">
           <nuxt-link class="navbar-item" to="/">
-            Nosana CI
+            <img class="logo" :src="$colorMode.value === 'dark' ? require('@/assets/img/logo-white.svg') : require('@/assets/img/logo.svg')">
+            <h2 class="title is-5">
+              Nosana
+            </h2>
           </nuxt-link>
 
           <a
@@ -31,19 +34,21 @@
               </nuxt-link>
             </div>
             <div @click="mobileMenu = false">
-              <nuxt-link class="navbar-item" to="/docs" exact-active-class="is-active">
+              <a target="_blank" href="https://docs.nosana.io" class="navbar-item" to="/docs" exact-active-class="is-active">
                 <div>Docs</div>
-              </nuxt-link>
+              </a>
             </div>
             <div @click="mobileMenu = false">
-              <nuxt-link class="navbar-item" to="/community" exact-active-class="is-active">
-                <div>Community</div>
-              </nuxt-link>
+              <div class="navbar-item is-disabled" to="/community" exact-active-class="is-active">
+                <div class="has-tooltip-bottom has-tooltip-arrow" data-tooltip="Coming Soon!">
+                  Community
+                </div>
+              </div>
             </div>
             <div class="navbar-item" exact-active-class="is-active" @click="mobileMenu = false">
-              <nuxt-link class="button is-accent is-rounded px-5" to="/account" exact-active-class="is-active">
+              <a target="_blank" href="mailto:info@nosana.io" class="button is-accent is-rounded px-5 is-small" to="/account" exact-active-class="is-active">
                 <div>Contact</div>
-              </nuxt-link>
+              </a>
             </div>
           </div>
         </div>
@@ -70,10 +75,10 @@ export default {
   }
 
   .logo {
-    height: 50px;
+    height: 40px;
     max-width: none;
     max-height: none;
-    margin-top: 5px;
+    margin-top: 0px;
     margin-right: 8px;
   }
 
