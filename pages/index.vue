@@ -1,8 +1,8 @@
 <template>
   <section class="section">
     <div class="blur-background">
-      <img src="~assets/img/oval-green.png" />
-      <img src="~assets/img/oval-yellow.png" />
+      <img src="~assets/img/oval-green.png">
+      <img src="~assets/img/oval-yellow.png">
     </div>
     <div class="container ">
       <div class="columns is-vcentered" style="min-height: 65vh;">
