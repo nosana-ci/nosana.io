@@ -13,7 +13,7 @@
           <h2 class="subtitle">
             A decentralized CI/CD solution on the Solana blockchain.
           </h2>
-          <p>
+          <p class="block">
             Nostromo leverages the Proof-of-History consensus of the Solana Network to build a decentralized continuous integration, delivery, and deployment platform for open source projects.
           </p>
           <div>
