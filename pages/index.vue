@@ -11,10 +11,10 @@
             Nosana CI
           </h1>
           <h2 class="subtitle">
-            A decentralized CI/CD solution on the Solana blockchain.
+            For every developer that values transparency and trust.
           </h2>
           <p class="block">
-            Nostromo leverages the Proof-of-History consensus of the Solana Network to build a decentralized continuous integration, delivery, and deployment platform for open source projects.
+            Nosana CI is a decentralized CI/CD solution on the Solana blockchain. We leverage Proof-of-History consensus and the SPL logic of the Solana Network to build a decentralized continuous integration, delivery, and deployment platform for open source projects.
           </p>
           <div>
             <div class="button is-secondary is-wide has-tooltip-bottom has-tooltip-arrow" data-tooltip="Coming Soon!">

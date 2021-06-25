@@ -46,7 +46,7 @@
               </div>
             </div>
             <div class="navbar-item" exact-active-class="is-active" @click="mobileMenu = false">
-              <a target="_blank" href="mailto:info@nosana.io" class="button is-accent is-rounded px-5 is-small" to="/account" exact-active-class="is-active">
+              <a target="_blank" href="mailto:team@nosana.io" class="button is-accent is-rounded px-5 is-small" to="/account" exact-active-class="is-active">
                 <div>Contact</div>
               </a>
             </div>
