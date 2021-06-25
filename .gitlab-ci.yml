@@ -1,25 +1,14 @@
 image: node:14
 
-cache:
-  paths:
-    - node_modules
-  key: project
-
 stages:
-  - install
   - test
   - deploy
 
-install:
-  stage: install
-  script: npm ci
-  only:
-    - merge_requests
-    - main
-
 test:
   stage: test
-  script: npm run lint
+  script:
+    - npm ci
+    - npm run lint
   only:
     - merge_requests
     - main
@@ -27,6 +16,7 @@ test:
 pages:
   stage: deploy
   script:
+    - npm ci
     - npm run generate
     - mv dist public
   artifacts:
