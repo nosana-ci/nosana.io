@@ -39,6 +39,11 @@
               </a>
             </div>
             <div @click="mobileMenu = false">
+              <a target="_blank" href="onepager.pdf" class="navbar-item" to="/docs" exact-active-class="is-active">
+                <div>Onepager</div>
+              </a>
+            </div>
+            <div @click="mobileMenu = false">
               <div class="navbar-item is-disabled" to="/community" exact-active-class="is-active">
                 <div class="has-tooltip-bottom has-tooltip-arrow" data-tooltip="Coming Soon!">
                   Community
