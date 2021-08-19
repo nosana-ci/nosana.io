@@ -11,10 +11,16 @@
             Nosana CI
           </h1>
           <h2 class="subtitle">
-            For every developer that values transparency and trust.
+            CI by the people, for the people.
           </h2>
           <p class="block">
-            Nosana CI is a decentralized CI/CD solution on the Solana blockchain. We leverage Proof-of-History consensus and the SPL logic of the Solana Network to build a decentralized continuous integration, delivery, and deployment platform for open source projects.
+            Nosana is for every software developer that values transparency and trust.
+            It's a decentralized CI/CD platform on the Solana Network,
+            and fueled by the <strong>NOS</strong> token.
+          </p>
+          <p class="block">
+            Run code checks and build container images to earn tokens.
+            Or simply use other Nosana nodes to run your pipelines on demand!
           </p>
           <div>
             <div class="button is-secondary is-wide has-tooltip-bottom has-tooltip-arrow" data-tooltip="Coming Soon!">
