@@ -23,9 +23,9 @@
             Or simply use other Nosana nodes to run your pipelines on demand!
           </p>
           <div>
-            <div class="button is-secondary is-wide has-tooltip-bottom has-tooltip-arrow" data-tooltip="Coming Soon!">
+            <a href="https://demo.nosana.io" target="_blank" class="button is-secondary is-wide">
               Demo
-            </div>
+            </a>
           </div>
         </div>
       </div>
