@@ -4,10 +4,7 @@
       <div class="container">
         <div class="navbar-brand">
           <nuxt-link class="navbar-item" to="/">
-            <img class="logo" :src="$colorMode.value === 'dark' ? require('@/assets/img/logo-white.svg') : require('@/assets/img/logo.svg')">
-            <h2 class="title is-5">
-              Nosana
-            </h2>
+            <img class="logo" :src="$colorMode.value === 'dark' ? require('@/assets/img/logo.svg') : require('@/assets/img/logo.svg')">
           </nuxt-link>
 
           <a
@@ -51,7 +48,7 @@
               </div>
             </div>
             <div class="navbar-item" exact-active-class="is-active" @click="mobileMenu = false">
-              <a target="_blank" href="mailto:team@nosana.io" class="button is-accent is-rounded px-5 is-small" to="/account" exact-active-class="is-active">
+              <a target="_blank" href="mailto:team@nosana.io" class="button is-accent is-outlined px-5 is-wide" to="/account" exact-active-class="is-active">
                 <div>Contact</div>
               </a>
             </div>
@@ -80,7 +77,7 @@ export default {
   }
 
   .logo {
-    height: 40px;
+    height: 18px;
     max-width: none;
     max-height: none;
     margin-top: 0px;

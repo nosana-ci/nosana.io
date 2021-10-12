@@ -1,7 +1,8 @@
 html {
   transition: background 0.2s;
   &.dark-mode {
-    background-image: url('~assets/img/bg-1.jpg');
+    //background-image: url('~assets/img/bg-1.jpg');
+    background: #010C04;
     body {
       color: rgba($text-invert, 0.8);
     }

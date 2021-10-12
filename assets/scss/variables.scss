@@ -2,14 +2,15 @@
 @import '~bulma/sass/utilities/initial-variables';
 @import '~bulma/sass/utilities/functions';
 
-@import url("https://use.typekit.net/bsr3vel.css");
-$family-sans-serif: pragmatica,sans-serif;
-$family-headers: pragmatica-extended,sans-serif;
+//@import url("https://use.typekit.net/bsr3vel.css");
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+$family-sans-serif: 'Space Mono', monospace;
+$family-headers: 'Space Mono', monospace;
 
 // Colors
 $primary: #1c282a;
 $secondary: #20cf8d;
-$accent: red;
+$accent: #5FFF00;
 
 $secondary-invert: findColorInvert($secondary) !default;
 $accent-invert: findColorInvert($accent) !default;
@@ -26,7 +27,7 @@ $text: $primary;
 //$link-focus: lighten($secondary, 20%);
 //$link-active: lighten($secondary, 20%);
 
-$title-weight: 400;
+$title-weight: 600;
 $title-color: $primary;
 // $subtitle-color: $secondary;
 $title-family: $family-headers;
@@ -36,3 +37,6 @@ $body-line-height: 1.7;
 $button-padding-horizontal: 1.7em;
 
 $dark-mode-background: #101D56;
+
+$navbar-height: 5rem;
+$control-border-width: 2px;

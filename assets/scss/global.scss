@@ -8,7 +8,11 @@ a {
 }
 
 .has-limited-width {
-  width: 670px;
+  width: 640px;
+  max-width: 100%;
+}
+.has-limited-width-small {
+  width: 460px;
   max-width: 100%;
 }
 .is-horizontal-centered {
@@ -103,7 +107,7 @@ a.card {
 
 .button {
   &.is-wide {
-    min-width: 200px;
+    min-width: 140px;
   }
 }
 
