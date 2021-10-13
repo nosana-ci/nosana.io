@@ -9,6 +9,11 @@
       <div class="container">
         <partners />
         <three-blocks class="mt-6" />
+      </div>
+    </section>
+    <run />
+    <section class="section">
+      <div class="container">
         <roadmap />
         <!--        <slogan-block />-->
       </div>
