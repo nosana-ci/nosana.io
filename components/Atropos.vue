@@ -3,7 +3,7 @@
     <div class="atropos-scale">
       <div class="atropos-rotate">
         <div class="atropos-inner">
-          <slot></slot>
+          <slot />
         </div>
       </div>
     </div>
