@@ -16,7 +16,7 @@
                 max-height="80px"
                 contain
                 class="ma-2 greyscale-false"
-                :src="require('@/assets/img/partners/solana.png')"
+                :src="require('@/assets/img/partners/solana-foundation.svg')"
               >
             </div>
           </div>
@@ -29,7 +29,7 @@
                 max-height="80px"
                 contain
                 class="ma-2 greyscale-false"
-                :src="require('@/assets/img/partners/solanium.png') "
+                :src="require('@/assets/img/partners/SolaniumVenturesWhiteWide.svg') "
               >
             </div>
           </div>
