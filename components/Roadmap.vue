@@ -5,15 +5,17 @@
     </h2>
     <div class="roadmap py-6 mb-6">
       <div class="roadmap-item is-completed">
-        <div class="quarter-block has-radius-small p-3">
-          <div class="quarter">
-            21/07
-            <span class="is-pulled-right is-size-6">2021</span>
+        <atropos :options="{highlight: false, rotateYMax: 0}">
+          <div class="quarter-block has-radius-small p-3">
+            <div class="quarter">
+              21/07
+              <span class="is-pulled-right is-size-6">2021</span>
+            </div>
+            <div>
+              Demo environment build
+            </div>
           </div>
-          <div>
-            Demo environment build
-          </div>
-        </div>
+        </atropos>
         <!--        <ul>-->
         <!--          <li>Team Formation</li>-->
         <!--          <li>Technical Roadmap</li>-->
@@ -21,59 +23,69 @@
         <!--        </ul>-->
       </div>
       <div class="roadmap-item is-completed">
-        <div class="quarter-block has-radius-small p-3">
-          <div class="quarter">
-            11/08
-            <span class="is-pulled-right is-size-6">2021</span>
+        <atropos :options="{highlight: false, rotateYMax: 0}">
+          <div class="quarter-block has-radius-small p-3">
+            <div class="quarter">
+              11/08
+              <span class="is-pulled-right is-size-6">2021</span>
+            </div>
+            <div>
+              Solana Grant backing
+            </div>
           </div>
-          <div>
-            Solana Grant backing
-          </div>
-        </div>
+        </atropos>
       </div>
       <div class="roadmap-item is-active">
-        <div class="quarter-block has-radius-small p-3">
-          <div class="quarter">
-            07-10/11
-            <span class="is-pulled-right is-size-6">2021</span>
+        <atropos :options="{highlight: false, rotateYMax: 0}">
+          <div class="quarter-block has-radius-small p-3">
+            <div class="quarter">
+              07-10/11
+              <span class="is-pulled-right is-size-6">2021</span>
+            </div>
+            <div>
+              Attend Breakpoint (Solana Event)
+            </div>
           </div>
-          <div>
-            Attend Breakpoint (Solana Event)
-          </div>
-        </div>
+        </atropos>
       </div>
       <div class="roadmap-item">
-        <div class="quarter-block has-radius-small p-3">
-          <div class="quarter">
-            07-13/12
-            <span class="is-pulled-right is-size-6">2021</span>
+        <atropos :options="{highlight: false, rotateYMax: 0}">
+          <div class="quarter-block has-radius-small p-3">
+            <div class="quarter">
+              07-13/12
+              <span class="is-pulled-right is-size-6">2021</span>
+            </div>
+            <div class="has-text-white">
+              Public Tokensale
+            </div>
           </div>
-          <div class="has-text-white">
-            Public Tokensale
-          </div>
-        </div>
+        </atropos>
       </div>
       <div class="roadmap-item">
-        <div class="quarter-block has-radius-small p-3">
-          <div class="quarter">
-            December
-            <span class="is-pulled-right is-size-6">2021</span>
+        <atropos :options="{highlight: false, rotateYMax: 0}">
+          <div class="quarter-block has-radius-small p-3">
+            <div class="quarter">
+              December
+              <span class="is-pulled-right is-size-6">2021</span>
+            </div>
+            <div class="has-text-white">
+              Incentivized Testnet live
+            </div>
           </div>
-          <div class="has-text-white">
-            Incentivized Testnet live
-          </div>
-        </div>
+        </atropos>
       </div>
       <div class="roadmap-item">
-        <div class="quarter-block has-radius-small p-3">
-          <div class="quarter">
-            December
-            <span class="is-pulled-right is-size-6">2021</span>
+        <atropos :options="{highlight: false, rotateYMax: 0}">
+          <div class="quarter-block has-radius-small p-3">
+            <div class="quarter">
+              December
+              <span class="is-pulled-right is-size-6">2021</span>
+            </div>
+            <div class="has-text-white">
+              Token Staking live
+            </div>
           </div>
-          <div class="has-text-white">
-            Token Staking live
-          </div>
-        </div>
+        </atropos>
       </div>
     </div>
   </div>
