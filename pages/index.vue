@@ -1,36 +1,24 @@
 <template>
-  <section class="section">
-    <div class="blur-background">
-      <img src="~assets/img/oval-green.png">
-      <img src="~assets/img/oval-yellow.png">
-    </div>
-    <div class="container ">
-      <div class="columns is-vcentered" style="min-height: 65vh;">
-        <div class="column is-5 has-background-black-blur">
-          <h1 class="title is-spaced site-title">
-            Nosana CI
-          </h1>
-          <h2 class="subtitle">
-            CI by the people, for the people.
-          </h2>
-          <p class="block">
-            Nosana is for every software developer that values transparency and trust.
-            It's a decentralized CI/CD platform on the Solana Network,
-            and fueled by the <strong>NOS</strong> token.
-          </p>
-          <p class="block">
-            Run code checks and build container images to earn tokens.
-            Or simply use other Nosana nodes to run your pipelines on demand!
-          </p>
-          <div>
-            <div class="button is-secondary is-wide has-tooltip-bottom has-tooltip-arrow" data-tooltip="Coming Soon!">
-              Demo
-            </div>
-          </div>
-        </div>
+  <div>
+    <!--    <div class="blur-background">-->
+    <!--      <img src="~assets/img/oval-green.png">-->
+    <!--      <img src="~assets/img/oval-yellow.png">-->
+    <!--    </div>-->
+    <home-intro />
+    <section class="section">
+      <div class="container">
+       <!--    <partners /> -->
+        <three-blocks class="mt-6" />
       </div>
-    </div>
-  </section>
+    </section>
+    <run />
+    <section class="section">
+      <div class="container">
+        <roadmap />
+        <!--        <slogan-block />-->
+      </div>
+    </section>
+  </div>
 </template>
 
 <script>
@@ -56,6 +44,12 @@ export default {
   100% {
     top: 90%;
   }
+}
+.home-block {
+  background-image: url('~assets/img/nosana_bg.png');
+  background-size: 65%;
+  background-repeat: no-repeat;
+  background-position: bottom right -30px;
 }
 .has-background-black-blur {
   position: relative;
@@ -103,9 +97,5 @@ export default {
       animation: moveY 38s linear 0s infinite alternate-reverse, moveX 24s linear 0s infinite alternate-reverse;
     }
   }
-}
-
-.site-title {
-  font-size: 60px;
 }
 </style>

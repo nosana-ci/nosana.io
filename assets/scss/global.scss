@@ -1,6 +1,7 @@
 /* Import the rest of Bulma */
 @import '../../node_modules/bulma';
 @import '../../node_modules/@creativebulma/bulma-tooltip';
+@import '../../node_modules/atropos/atropos.scss';
 @import 'dark-mode';
 
 a {
@@ -8,7 +9,11 @@ a {
 }
 
 .has-limited-width {
-  width: 670px;
+  width: 640px;
+  max-width: 100%;
+}
+.has-limited-width-small {
+  width: 460px;
   max-width: 100%;
 }
 .is-horizontal-centered {
@@ -21,12 +26,23 @@ a {
   opacity: .65;
 }
 
+.site-title {
+  font-size: 60px;
+}
+
 .has-text-shadow {
   text-shadow: 2px 2px 4px #000000;
 }
 .has-border {
   border: 2px solid $grey-lightest;
 }
+.has-border-accent {
+  border: 1px $accent solid;
+}
+.has-border-accent-light {
+  border: 1px rgba(95, 255, 0, 0.1) solid;
+}
+
 .card {
   //transition: box-shadow 0.2s;
   display: block;
@@ -103,12 +119,16 @@ a.card {
 
 .button {
   &.is-wide {
-    min-width: 200px;
+    min-width: 140px;
   }
 }
 
 .has-radius {
   border-radius: 7px;
+}
+
+.has-radius-small {
+  border-radius: 2px;
 }
 
 .has-shadow {

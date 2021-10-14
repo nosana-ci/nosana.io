@@ -2,6 +2,7 @@
   <div id="app">
     <nav-bar />
     <Nuxt />
+    <foot />
   </div>
 </template>
 
