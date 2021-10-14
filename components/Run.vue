@@ -22,7 +22,7 @@
                 <div class="title mb-0 has-text-accent">
                   2
                 </div>
-                <div>Log in with your wallet & connect your Open Source Resource Depository</div>
+                <div>Log in with your wallet & connect your Open Source Software Repository</div>
               </div>
               <div class="column is-half mb-5">
                 <div class="title mb-0 has-text-accent">
