@@ -5,7 +5,7 @@
     </h2>
     <div class="roadmap py-6 mb-6">
       <div class="roadmap-item is-completed">
-        <atropos :options="{highlight: false, rotateYMax: 0}">
+        <atropos :options="{highlight: false, rotateYMax: 0, rotateTouch: false}" class="my-atropos">
           <div class="quarter-block has-radius-small p-3">
             <div class="quarter">
               21/07
@@ -23,7 +23,7 @@
         <!--        </ul>-->
       </div>
       <div class="roadmap-item is-completed">
-        <atropos :options="{highlight: false, rotateYMax: 0}">
+        <atropos :options="{highlight: false, rotateYMax: 0, rotateTouch: false}" class="my-atropos">
           <div class="quarter-block has-radius-small p-3">
             <div class="quarter">
               11/08
@@ -36,7 +36,7 @@
         </atropos>
       </div>
       <div class="roadmap-item is-active">
-        <atropos :options="{highlight: false, rotateYMax: 0}">
+        <atropos :options="{highlight: false, rotateYMax: 0, rotateTouch: false}" class="my-atropos">
           <div class="quarter-block has-radius-small p-3">
             <div class="quarter">
               07-10/11
@@ -49,7 +49,7 @@
         </atropos>
       </div>
       <div class="roadmap-item">
-        <atropos :options="{highlight: false, rotateYMax: 0}">
+        <atropos :options="{highlight: false, rotateYMax: 0, rotateTouch: false}" class="my-atropos">
           <div class="quarter-block has-radius-small p-3">
             <div class="quarter">
               07-13/12
@@ -62,7 +62,7 @@
         </atropos>
       </div>
       <div class="roadmap-item">
-        <atropos :options="{highlight: false, rotateYMax: 0}">
+        <atropos :options="{highlight: false, rotateYMax: 0, rotateTouch: false}" class="my-atropos">
           <div class="quarter-block has-radius-small p-3">
             <div class="quarter">
               December
@@ -75,7 +75,7 @@
         </atropos>
       </div>
       <div class="roadmap-item">
-        <atropos :options="{highlight: false, rotateYMax: 0}">
+        <atropos :options="{highlight: false, rotateYMax: 0, rotateTouch: false}" class="my-atropos">
           <div class="quarter-block has-radius-small p-3">
             <div class="quarter">
               December
@@ -96,6 +96,9 @@
   background: url('~assets/img/field.svg') no-repeat;
   background-position: bottom center;
   background-size: contain;
+}
+.my-atropos {
+  max-width: 100%;
 }
 .roadmap {
   width: fit-content;
@@ -158,9 +161,10 @@
   .quarter-block {
     height: 100px;
     width: 365px;
+    max-width: 100%;
     border: 1px solid $accent;
     color: $accent;
-    margin: 10px 11px 10px 60px;
+    margin: 25px 25px 25px 60px;
     position: relative;
     background: $dark-mode-background;
     &:before {
@@ -213,7 +217,7 @@
       box-shadow: 0 0 7px 0 rgba($accent,0.4);
     }
     to {
-      box-shadow: 0 0 27px 8px rgba($accent,0.6);
+      box-shadow: 0 0 17px 8px rgba($accent,0.6);
     }
 
   }
@@ -234,6 +238,14 @@
       &:before, &:after {
         background: $accent;
       }
+    }
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .roadmap-item {
+    .quarter-block {
+      margin: 25px 25px 25px -1px;
     }
   }
 }
