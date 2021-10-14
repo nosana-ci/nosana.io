@@ -7,7 +7,7 @@
     <home-intro />
     <section class="section">
       <div class="container">
-        <partners />
+       <!--    <partners /> -->
         <three-blocks class="mt-6" />
       </div>
     </section>
