@@ -10,8 +10,10 @@
             <a target="_blank" href="https://docs.nosana.io" class="navbar-item" to="/docs" exact-active-class="is-active">
               <div>Docs</div>
             </a>
-            <a target="_blank" href="onepager.pdf" class="navbar-item" to="/docs" exact-active-class="is-active">
-              <div>Onepager</div>
+            <a target="_blank" class="navbar-item is-disabled" exact-active-class="is-active">
+              <div class="has-tooltip-bottom has-tooltip-arrow" data-tooltip="Coming Soon!">
+                Onepager
+              </div>
             </a>
             <div class="navbar-item is-disabled" to="/community" exact-active-class="is-active">
               <div class="has-tooltip-bottom has-tooltip-arrow" data-tooltip="Coming Soon!">
