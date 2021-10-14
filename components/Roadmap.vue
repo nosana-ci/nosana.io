@@ -45,6 +45,17 @@
       <div class="roadmap-item">
         <div class="quarter-block has-radius-small p-3">
           <div class="quarter">
+            07-13/12
+            <span class="is-pulled-right is-size-6">2021</span>
+          </div>
+          <div class="has-text-white">
+            Public Tokensale
+          </div>
+        </div>
+      </div>
+      <div class="roadmap-item">
+        <div class="quarter-block has-radius-small p-3">
+          <div class="quarter">
             December
             <span class="is-pulled-right is-size-6">2021</span>
           </div>
