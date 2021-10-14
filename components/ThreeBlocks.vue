@@ -6,10 +6,10 @@
           <atropos :options="{}">
             <div class="has-border-accent-light has-radius p-4" style="min-height: 300px">
               <h3 class="subtitle is-6 has-text-accent mt-2">
-                Work more efficiently
+                Marketplace
               </h3>
               <p class="block">
-                With automated testing, Static Analysis Security Testing, Dynamic Analysis Security testing and code quality analysis you get fast feedback about the quality of your code. More time to focus resources on innovation, satisfaction, and downsizing technical debt.
+                Tech companies are running millions of CI/CD pipelines daily to operate. The size of this market is estimated to reach over $13 billion in 2023 of which half is centralized at the top 5 providers.
               </p>
             </div>
           </atropos>
@@ -18,10 +18,10 @@
           <atropos :options="{}">
             <div class="has-border-accent-light has-radius p-4" style="min-height: 300px">
               <h3 class="subtitle is-6 has-text-accent mt-2">
-                Deliver better software faster
+                Staking
               </h3>
               <p class="block">
-                Run pipelines that enable concurrent testing and parallel execution to get the realtime insights you need. Ensure that codebases remain stable and release-ready at any time.
+                Anyone that has the Nosana app can run CI/CD pipelines from our marketplace. It’s that simple. Run the app, stake NOS tokens, and start earning!
               </p>
             </div>
           </atropos>
@@ -30,10 +30,10 @@
           <atropos :options="{}">
             <div class="has-border-accent-light has-radius p-4" style="min-height: 300px">
               <h3 class="subtitle is-6 has-text-accent mt-2">
-                Reduce risk and cost
+                Governance
               </h3>
               <p class="block">
-                Run decentralized pipelines through the Nosana Network, without the heavy monthly fees of centralized competitors!
+                Nosana is the decentralized replacement for the CI/CD industry. Network updates and funding initiatives will be governed by a proposal system based on the NOS token.
               </p>
             </div>
           </atropos>
