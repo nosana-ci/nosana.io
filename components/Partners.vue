@@ -29,7 +29,7 @@
                 max-height="80px"
                 contain
                 class="ma-2 greyscale-false"
-                :src="require('@/assets/img/partners/SolaniumVenturesWhiteWide.svg') "
+                :src="require('@/assets/img/partners/SolaniumVenturesWhiteWide.png') "
               >
             </div>
           </div>
