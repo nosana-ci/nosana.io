@@ -3,7 +3,7 @@
     <div class="container">
       <div class="columns">
         <div class="column is-one-third">
-          <atropos :options="{}">
+          <atropos :options="{rotateTouch: false}">
             <div class="has-border-accent-light has-radius p-4" style="min-height: 300px">
               <h3 class="subtitle is-6 has-text-accent mt-2">
                 Marketplace
@@ -15,7 +15,7 @@
           </atropos>
         </div>
         <div class="column is-one-third">
-          <atropos :options="{}">
+          <atropos :options="{rotateTouch: false}">
             <div class="has-border-accent-light has-radius p-4" style="min-height: 300px">
               <h3 class="subtitle is-6 has-text-accent mt-2">
                 Staking
@@ -27,7 +27,7 @@
           </atropos>
         </div>
         <div class="column is-one-third">
-          <atropos :options="{}">
+          <atropos :options="{rotateTouch: false}">
             <div class="has-border-accent-light has-radius p-4" style="min-height: 300px">
               <h3 class="subtitle is-6 has-text-accent mt-2">
                 Governance
