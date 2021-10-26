@@ -7,30 +7,19 @@
         </h4>
         <div class="columns is-vcentered mt-4">
           <div class="column is-2" />
-          <div class="column">
+          <div v-for="partner in partners" :key="partner" class="column">
             <div>
-              <img
-                width="160px"
-                max-width="200px"
-                height="64px"
-                max-height="80px"
-                contain
-                class="ma-2 greyscale-false"
-                :src="require('@/assets/img/partners/solana-foundation.svg')"
-              >
-            </div>
-          </div>
-          <div class="column">
-            <div>
-              <img
-                width="160px"
-                max-width="200px"
-                height="64px"
-                max-height="80px"
-                contain
-                class="ma-2 greyscale-false"
-                :src="require('@/assets/img/partners/SolaniumVenturesWhiteWide.png') "
-              >
+              <a :href="partner.url" target="_blank">
+                <img
+                  width="160px"
+                  max-width="200px"
+                  height="64px"
+                  max-height="80px"
+                  contain
+                  class="ma-2 greyscale-false"
+                  :src="partner.logo"
+                >
+              </a>
             </div>
           </div>
           <div class="column is-2" />
@@ -39,6 +28,27 @@
     </div>
   </div>
 </template>
+
+<script>
+
+export default {
+  data () {
+    return {
+      partners: [
+        {
+          url: 'https://solana.foundation/',
+          logo: require('@/assets/img/partners/solana-foundation.svg')
+        },
+        {
+          url: 'https://www.solanium.io/',
+          logo: require('@/assets/img/partners/SolaniumVenturesWhiteWide.png')
+        }
+      ]
+    }
+  }
+}
+
+</script>
 
 <style lang="scss" scoped>
 .greyscale {
