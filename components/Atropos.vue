@@ -13,7 +13,14 @@
 const Atropos = require('atropos/atropos')
 export default {
   name: 'Altropos',
-  props: ['options'],
+  props: {
+    options: {
+      type: [Array, Object],
+      default () {
+        return {}
+      }
+    }
+  },
   mounted () {
     Atropos({
       el: this.$el,
