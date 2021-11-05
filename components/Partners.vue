@@ -42,6 +42,14 @@ export default {
         {
           url: 'https://www.solanium.io/',
           logo: require('@/assets/img/partners/SolaniumVenturesWhiteWide.png')
+        },
+        {
+          url: 'https://www.altcoinbuzz.io/',
+          logo: require('@/assets/img/partners/Altcoin-Buzz-Logo-272x90-dark.png')
+        },
+        {
+          url: 'https://synaps.io/',
+          logo: require('@/assets/img/partners/synaps.png')
         }
       ]
     }
