@@ -5,6 +5,6 @@
       for the people.
     </div>
 
-      <img src="~assets/img/tornado_animated.svg" width="536" data-atropos-offset="3" />
+    <img src="~assets/img/tornado_animated.svg" width="536" data-atropos-offset="3">
   </div>
 </template>

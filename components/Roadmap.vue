@@ -4,92 +4,77 @@
       Roadmap
     </h2>
     <div class="roadmap py-6 mb-6">
-      <div class="roadmap-item is-completed">
+      <div v-for="item in roadmap" :key="item" :class="'roadmap-item ' + item.class">
         <atropos :options="{highlight: false, rotateYMax: 0, rotateTouch: false}" class="my-atropos">
           <div class="quarter-block has-radius-small p-3">
             <div class="quarter">
-              21/07
-              <span class="is-pulled-right is-size-6">2021</span>
+              {{ item.date }}
+              <span class="is-pulled-right is-size-6">{{ item.year ? item.year : 2022 }}</span>
             </div>
             <div>
-              Demo environment build
+              {{ item.milestone }}
             </div>
           </div>
         </atropos>
-        <!--        <ul>-->
-        <!--          <li>Team Formation</li>-->
-        <!--          <li>Technical Roadmap</li>-->
-        <!--          <li>Seed Round</li>-->
-        <!--        </ul>-->
-      </div>
-      <div class="roadmap-item is-completed">
-        <atropos :options="{highlight: false, rotateYMax: 0, rotateTouch: false}" class="my-atropos">
-          <div class="quarter-block has-radius-small p-3">
-            <div class="quarter">
-              11/08
-              <span class="is-pulled-right is-size-6">2021</span>
-            </div>
-            <div>
-              Solana Grant backing
-            </div>
-          </div>
-        </atropos>
-      </div>
-      <div class="roadmap-item is-active">
-        <atropos :options="{highlight: false, rotateYMax: 0, rotateTouch: false}" class="my-atropos">
-          <div class="quarter-block has-radius-small p-3">
-            <div class="quarter">
-              07-10/11
-              <span class="is-pulled-right is-size-6">2021</span>
-            </div>
-            <div>
-              Attend Breakpoint (Solana Event)
-            </div>
-          </div>
-        </atropos>
-      </div>
-      <div class="roadmap-item">
-        <atropos :options="{highlight: false, rotateYMax: 0, rotateTouch: false}" class="my-atropos">
-          <div class="quarter-block has-radius-small p-3">
-            <div class="quarter">
-              07-13/12
-              <span class="is-pulled-right is-size-6">2021</span>
-            </div>
-            <div class="has-text-white">
-              Public Tokensale
-            </div>
-          </div>
-        </atropos>
-      </div>
-      <div class="roadmap-item">
-        <atropos :options="{highlight: false, rotateYMax: 0, rotateTouch: false}" class="my-atropos">
-          <div class="quarter-block has-radius-small p-3">
-            <div class="quarter">
-              December
-              <span class="is-pulled-right is-size-6">2021</span>
-            </div>
-            <div class="has-text-white">
-              Incentivized Testnet live
-            </div>
-          </div>
-        </atropos>
-      </div>
-      <div class="roadmap-item">
-        <atropos :options="{highlight: false, rotateYMax: 0, rotateTouch: false}" class="my-atropos">
-          <div class="quarter-block has-radius-small p-3">
-            <div class="quarter">
-              December
-              <span class="is-pulled-right is-size-6">2021</span>
-            </div>
-            <div class="has-text-white">
-              Token Staking live
-            </div>
-          </div>
-        </atropos>
+        <ul v-if="item.points">
+          <li v-for="point in item.points" :key="point">
+            {{ point }}
+          </li>
+        </ul>
       </div>
     </div>
   </div>
 </template>
+
+<script>
+
+export default {
+  data () {
+    return {
+      roadmap: [
+        {
+          date: '21/07',
+          milestone: 'Nosana Demo live',
+          class: 'is-completed',
+          year: 2021
+        },
+        {
+          date: '11/08',
+          milestone: 'Solana Grant backing',
+          year: 2021,
+          class: 'is-completed'
+        },
+        {
+          date: '07-10/11',
+          milestone: 'Solana Breakpoint Lissabon',
+          year: 2021,
+          class: 'is-active'
+        },
+        {
+          date: 'December',
+          milestone: 'Nosana Testnet launch',
+          year: 2021,
+          points: ['Incentivized Testnet live'],
+          class: ''
+        },
+        {
+          date: '11-17/1',
+          milestone: 'Public tokensale',
+          points: ['Airdrop'],
+          class: ''
+        },
+        {
+          date: 'January',
+          milestone: 'Nosana Mainnet launch',
+          points: ['Nosana Phase 1 live', 'Token staking live'],
+          class: ''
+        }
+      ]
+    }
+  }
+}
+
+</script>
 
 <style lang="scss" scoped>
 .roadmap-container {
