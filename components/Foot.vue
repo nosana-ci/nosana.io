@@ -26,7 +26,7 @@
       </div>
     </nav>
     <div class="px-5 m-2 py-4 has-radius has-text-centered">
-      <img src="~/assets/img/logo-outlined.svg" class="logo">
+      <img src="~/assets/img/Nosana_Logo_vertical_color_white.svg" class="logo" style="height: 80px">
     </div>
     <div class="px-6 m-2 py-4 has-radius has-text-centered">
       <small class="is-size-7"><span style="font-family: monospace">©</span> NOSANA 2021</small>
