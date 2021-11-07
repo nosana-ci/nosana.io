@@ -32,12 +32,16 @@
             </div>
             <div @click="mobileMenu = false">
               <a target="_blank" href="https://docs.nosana.io" class="navbar-item" to="/docs" exact-active-class="is-active">
-                <div>Docs</div>
+                <div>
+                  Docs
+                </div>
               </a>
             </div>
             <div @click="mobileMenu = false">
               <a target="_blank" href="onepager.pdf" class="navbar-item" to="/onepager" exact-active-class="is-active">
-                Onepager
+                <div>
+                  Onepager
+                </div>
               </a>
             </div>
             <div @click="mobileMenu = false">
@@ -49,7 +53,9 @@
             </div>
             <div class="navbar-item" exact-active-class="is-active" @click="mobileMenu = false">
               <a target="_blank" href="mailto:team@nosana.io" class="button is-accent is-outlined px-5 is-wide" to="/account" exact-active-class="is-active">
-                <div>Contact</div>
+                <div>
+                  Contact
+                </div>
               </a>
             </div>
           </div>

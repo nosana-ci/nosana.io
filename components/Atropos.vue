@@ -13,7 +13,14 @@
 <script>
 export default {
   name: 'Altropos',
-  props: ['options'],
+  props: {
+    options: {
+      type: [Array, Object],
+      default () {
+        return {}
+      }
+    }
+  },
   mounted () {
     // eslint-disable-next-line nuxt/no-env-in-hooks
     if (process.client) {
