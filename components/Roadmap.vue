@@ -51,7 +51,7 @@ export default {
         },
         {
           date: '07-10/11',
-          milestone: 'Solana Breakpoint Lissabon',
+          milestone: 'Solana Breakpoint Lisbon',
           year: 2021,
           class: 'is-active'
         },
