@@ -4,7 +4,7 @@
       Roadmap
     </h2>
     <div class="roadmap py-6 mb-6">
-      <div v-for="item in roadmap" :key="item" :class="'roadmap-item ' + item.class">
+      <div v-for="item in roadmap" :key="item.milestone" :class="'roadmap-item ' + item.class">
         <atropos :options="{highlight: false, rotateYMax: 0, rotateTouch: false}" class="my-atropos">
           <div class="quarter-block has-radius-small p-3">
             <div class="quarter">

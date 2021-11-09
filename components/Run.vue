@@ -40,7 +40,22 @@
           </div>
         </div>
       </div>
-      <img src="~assets/img/spiral.svg" width="35%" class="is-hidden-touch" style="position: absolute; top: 0px; left:0;">
     </section>
+    <img src="~assets/img/spiral.svg" width="35%" class="spiral">
   </div>
 </template>
+
+<style lang="scss" scoped>
+@import 'bulma/sass/utilities/mixins';
+.spiral {
+  position: absolute;
+  top: 0px;
+  left:0;
+}
+@include touch {
+  .spiral {
+    position: relative;
+    width: 100%;
+  }
+}
+</style>
