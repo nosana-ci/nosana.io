@@ -4,7 +4,7 @@
       Roadmap
     </h2>
     <div class="roadmap py-6 mb-6">
-      <div v-for="item in roadmap" :key="item" :class="'roadmap-item ' + item.class">
+      <div v-for="item in roadmap" :key="item.milestone" :class="'roadmap-item ' + item.class">
         <atropos :options="{highlight: false, rotateYMax: 0, rotateTouch: false}" class="my-atropos">
           <div class="quarter-block has-radius-small p-3">
             <div class="quarter">
@@ -14,9 +14,14 @@
             <div>
               {{ item.milestone }}
             </div>
+            <ul v-if="item.points" class="is-hidden-desktop">
+              <li v-for="point in item.points" :key="point">
+                {{ point }}
+              </li>
+            </ul>
           </div>
         </atropos>
-        <ul v-if="item.points">
+        <ul v-if="item.points" class="is-hidden-touch">
           <li v-for="point in item.points" :key="point">
             {{ point }}
           </li>
@@ -46,7 +51,7 @@ export default {
         },
         {
           date: '07-10/11',
-          milestone: 'Solana Breakpoint Lissabon',
+          milestone: 'Solana Breakpoint Lisbon',
           year: 2021,
           class: 'is-active'
         },
@@ -144,7 +149,7 @@ export default {
     }
   }
   .quarter-block {
-    height: 100px;
+    min-height: 100px;
     width: 365px;
     max-width: 100%;
     border: 1px solid $accent;

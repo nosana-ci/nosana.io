@@ -7,7 +7,7 @@
         </h4>
         <div class="columns is-vcentered mt-4">
           <div class="column is-2" />
-          <div v-for="partner in partners" :key="partner" class="column">
+          <div v-for="partner in partners" :key="partner.url" class="column">
             <div>
               <a :href="partner.url" target="_blank">
                 <img
