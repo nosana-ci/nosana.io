@@ -45,11 +45,9 @@
               </a>
             </div>
             <div @click="mobileMenu = false">
-              <div class="navbar-item is-disabled" to="/community" exact-active-class="is-active">
-                <div class="has-tooltip-bottom has-tooltip-arrow" data-tooltip="Coming Soon!">
-                  Community
-                </div>
-              </div>
+              <nuxt-link class="navbar-item" to="/blog" exact-active-class="is-active">
+                <div>Blog</div>
+              </nuxt-link>
             </div>
             <div class="navbar-item" exact-active-class="is-active" @click="mobileMenu = false">
               <a target="_blank" href="mailto:team@nosana.io" class="button is-accent is-outlined px-5 is-wide" to="/account" exact-active-class="is-active">

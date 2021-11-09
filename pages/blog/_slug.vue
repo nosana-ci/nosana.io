@@ -2,11 +2,25 @@
   <section class="section">
     <div class="container">
       <article class="content blog">
-        <h1>{{ blog.title }}</h1>
-        <p>{{ blog.description }}</p>
-        <img :src="blog.img" width="200">
-        <p>Article last updated: {{ formatDate(blog.updatedAt) }}</p>
-        <nuxt-content :document="blog" />
+        <div class="columns is-centered">
+          <div class="column is-2">
+            <nuxt-link to="/blog">
+              &lt; All blogs
+            </nuxt-link>
+          </div>
+          <div class="column is-8">
+            <h1>{{ blog.title }}</h1>
+            <img :src="blog.img" style="max-height: 350px;">
+            <p class="has-text-accent">
+              <span v-if="blog.author">By <b>{{ blog.author }} </b> </span>
+              <span>- Article last updated: <b>{{ formatDate(blog.updatedAt) }}</b></span>
+            </p>
+            <nuxt-content :document="blog" />
+          </div>
+          <div class="column is-2">
+            &nbsp;
+          </div>
+        </div>
       </article>
     </div>
   </section>
@@ -14,6 +28,7 @@
 
 <script>
 export default {
+  colorMode: 'dark',
   async asyncData ({ $content, params }) {
     const blog = await $content('blogs', params.slug).fetch()
 

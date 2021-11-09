@@ -1,34 +1,68 @@
 <template>
   <section class="section">
     <div class="container">
-      <h1>Blog Posts</h1>
-      <ul>
-        <li v-for="blog of blogs" :key="blog.slug">
-          <NuxtLink :to="{ name: 'blog-slug', params: { slug: blog.slug } }">
-            <img :src="blog.img" width="100">
-            <div>
-              <h2 class="subtitle">
+      <h1 class="has-text-centered title">
+        Blog Posts
+      </h1>
+      <div class="columns my-6">
+        <nuxt-link v-for="blog of blogs" :key="blog.slug" class="column is-one-third" :to="{ name: 'blog-slug', params: { slug: blog.slug } }">
+          <atropos :options="{rotateTouch: false}">
+            <div class="has-border-accent-light has-radius p-4" style="min-height: 300px">
+              <img :src="blog.img" style="height: 50px">
+              <h3 class="title is-5 has-text-accent mt-2">
                 {{ blog.title }}
-              </h2>
-              <p>{{ blog.description }}</p>
+              </h3>
+              <h4 class="subtitle is-7">
+                Created {{ formatDate(blog.createdAt) }}
+              </h4>
+              <p class="block has-text-white">
+                {{ blog.description }} <nuxt-link :to="{ name: 'blog-slug', params: { slug: blog.slug } }">
+                  Read more
+                </nuxt-link>
+              </p>
             </div>
-          </NuxtLink>
-        </li>
-      </ul>
+          </atropos>
+        </nuxt-link>
+        <div class="column is-one-third">
+          <atropos :options="{rotateTouch: false}">
+            <div class="has-border-accent-light has-radius p-4" style="min-height: 300px">
+              <h3 class="title is-5 has-text-accent mt-2">
+                More coming soon
+              </h3>
+              <h4 class="subtitle is-7">
+                &nbsp;
+              </h4>
+              <p class="block has-text-white">
+                ...
+              </p>
+            </div>
+          </atropos>
+        </div>
+      </div>
+      <slogan-block class="mt-6" />
     </div>
   </section>
 </template>
 
 <script>
+import SloganBlock from '../../components/SloganBlock.vue'
 export default {
+  components: { SloganBlock },
+  colorMode: 'dark',
   async asyncData ({ $content, params }) {
     const blogs = await $content('blogs')
-      .only(['title', 'description', 'img', 'slug'])
-      .sortBy('createdAt', 'asc')
+      .only(['title', 'createdAt', 'description', 'img', 'slug'])
+      .sortBy('createdAt', 'desc')
       .fetch()
 
     return {
       blogs
+    }
+  },
+  methods: {
+    formatDate (date) {
+      const options = { year: 'numeric', month: 'long', day: 'numeric' }
+      return new Date(date).toLocaleDateString('en', options)
     }
   }
 }

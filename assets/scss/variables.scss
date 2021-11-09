@@ -23,9 +23,9 @@ $custom-colors: (
 $text: $primary;
 
 //$link: $secondary;
-//$link-hover: lighten($secondary, 20%);
-//$link-focus: lighten($secondary, 20%);
-//$link-active: lighten($secondary, 20%);
+$link-hover: $accent;
+$link-focus: $accent;
+$link-active: $accent;
 
 $title-weight: 600;
 $title-color: $primary;
