@@ -28,6 +28,8 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+@import 'bulma/sass/utilities/mixins';
+
 @keyframes moveX {
   0% {
     left: 10%;
@@ -45,12 +47,7 @@ export default {
     top: 90%;
   }
 }
-.home-block {
-  background-image: url('~assets/img/nosana_bg.png');
-  background-size: 65%;
-  background-repeat: no-repeat;
-  background-position: bottom right -30px;
-}
+
 .has-background-black-blur {
   position: relative;
   * {
