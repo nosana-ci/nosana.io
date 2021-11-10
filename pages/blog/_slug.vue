@@ -3,21 +3,21 @@
     <div class="container">
       <article class="content blog">
         <div class="columns is-centered">
-          <div class="column is-2">
+          <div class="column is-3">
             <nuxt-link to="/blog">
               &lt; All blogs
             </nuxt-link>
           </div>
-          <div class="column is-8">
+          <div class="column is-6">
             <h1>{{ blog.title }}</h1>
-            <img :src="blog.img" style="max-height: 350px;">
+            <div style="height: 350px; width: 100%;" :style="{'background-image': `url('${blog.img}')`}" class="has-background-image" />
             <p class="has-text-accent">
               <span v-if="blog.author">By <b>{{ blog.author }} </b> </span>
               <span>- Article last updated: <b>{{ formatDate(blog.updatedAt) }}</b></span>
             </p>
             <nuxt-content :document="blog" />
           </div>
-          <div class="column is-2">
+          <div class="column is-3">
             &nbsp;
           </div>
         </div>

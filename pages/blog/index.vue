@@ -8,7 +8,7 @@
         <nuxt-link v-for="blog of blogs" :key="blog.slug" class="column is-one-third" :to="{ name: 'blog-slug', params: { slug: blog.slug } }">
           <atropos :options="{rotateTouch: false}">
             <div class="has-border-accent-light has-radius p-4" style="min-height: 300px">
-              <img :src="blog.img" style="height: 50px">
+              <div style="height: 250px; width: 100%;" :style="{'background-image': `url('${blog.img}')`}" class="has-background-image" />
               <h3 class="title is-5 has-text-accent mt-2">
                 {{ blog.title }}
               </h3>
@@ -25,7 +25,7 @@
         </nuxt-link>
         <div class="column is-one-third">
           <atropos :options="{rotateTouch: false}">
-            <div class="has-border-accent-light has-radius p-4" style="min-height: 300px">
+            <div class="has-border-accent-light has-radius p-4" style="min-height: 432px">
               <h3 class="title is-5 has-text-accent mt-2">
                 More coming soon
               </h3>
@@ -39,7 +39,7 @@
           </atropos>
         </div>
       </div>
-      <slogan-block class="mt-6" />
+      <slogan-block class="mt-6 pt-6" />
     </div>
   </section>
 </template>
