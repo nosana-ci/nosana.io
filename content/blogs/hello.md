@@ -1,6 +1,5 @@
 ---
 title: Hello Devs! We’re Nosana
-author: Wesley
 description: Hello Devs! We’re Nosana. We help DevOps teams to build software faster, more cost-effective and secure.
 img: /img/hello-world.jpg
 ---

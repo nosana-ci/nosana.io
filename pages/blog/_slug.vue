@@ -9,8 +9,8 @@
             </nuxt-link>
           </div>
           <div class="column is-6">
-            <h1>{{ blog.title }}</h1>
             <div style="height: 350px; width: 100%;" :style="{'background-image': `url('${blog.img}')`}" class="has-background-image" />
+            <h1>{{ blog.title }}</h1>
             <p class="has-text-accent">
               <span v-if="blog.author">By <b>{{ blog.author }} </b> </span>
               <span>- Article last updated: <b>{{ formatDate(blog.updatedAt) }}</b></span>
