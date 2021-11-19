@@ -66,6 +66,10 @@ export default {
         {
           url: 'https://insquarevc.com/',
           logo: require('@/assets/img/partners/insquare.png')
+        },
+        {
+          url: 'https://blockasset.co/',
+          logo: require('@/assets/img/partners/blockasset.png')
         }
       ]
     }
