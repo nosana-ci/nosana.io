@@ -50,6 +50,22 @@ export default {
         {
           url: 'https://synaps.io/',
           logo: require('@/assets/img/partners/synaps.png')
+        },
+        {
+          url: 'https://dutchcryptoinvestors.com/',
+          logo: require('@/assets/img/partners/dci.png')
+        },
+        {
+          url: '',
+          logo: require('@/assets/img/partners/whitelist.png')
+        },
+        {
+          url: 'https://www.petrock.capital/',
+          logo: require('@/assets/img/partners/petrock.png')
+        },
+        {
+          url: 'https://insquarevc.com/',
+          logo: require('@/assets/img/partners/insquare.png')
         }
       ]
     }
