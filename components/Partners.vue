@@ -5,24 +5,22 @@
         <h4 class="subtitle is-5">
           Backed by
         </h4>
-        <div class="columns is-vcentered mt-4">
-          <div class="column is-2" />
-          <div v-for="partner in partners" :key="partner.url" class="column">
-            <div>
-              <a :href="partner.url" target="_blank">
-                <img
-                  width="160px"
-                  max-width="200px"
-                  height="64px"
-                  max-height="80px"
-                  contain
-                  class="ma-2 greyscale-false"
-                  :src="partner.logo"
-                >
-              </a>
-            </div>
-          </div>
-          <div class="column is-2" />
+      </div>
+    </div>
+    <div class="columns is-vcentered  mt-4 is-multiline is-mobile">
+      <div v-for="partner in partners" :key="partner.url" class="column is-2-desktop is-6-mobile has-text-centered is-horizontal-centered">
+        <div>
+          <a :href="partner.url" target="_blank">
+            <img
+              width="160px"
+              max-width="200px"
+              height="64px"
+              max-height="80px"
+              contain
+              class="mx-2 greyscale-false"
+              :src="partner.logo"
+            >
+          </a>
         </div>
       </div>
     </div>
