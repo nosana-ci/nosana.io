@@ -66,6 +66,10 @@ export default {
           logo: require('@/assets/img/partners/whitelist.png')
         },
         {
+          url: 'https://www.nxgen.xyz/',
+          logo: require('@/assets/img/partners/nxgen.png')
+        },
+        {
           url: 'https://www.petrock.capital/',
           logo: require('@/assets/img/partners/petrock.png')
         },
