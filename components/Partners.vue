@@ -50,11 +50,19 @@ export default {
           logo: require('@/assets/img/partners/synaps.png')
         },
         {
+          url: 'https://genblock.capital/',
+          logo: require('@/assets/img/partners/genblock.png')
+        },
+        {
+          url: 'https://www.stratoslp.com/',
+          logo: require('@/assets/img/partners/stratos.png')
+        },
+        {
           url: 'https://dutchcryptoinvestors.com/',
           logo: require('@/assets/img/partners/dci.png')
         },
         {
-          url: '',
+          url: 'https://whitelistventures.com/',
           logo: require('@/assets/img/partners/whitelist.png')
         },
         {
