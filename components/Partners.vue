@@ -58,6 +58,10 @@ export default {
           logo: require('@/assets/img/partners/stratos.png')
         },
         {
+          url: 'https://indigo.amsterdam/',
+          logo: require('@/assets/img/partners/Indigo-logo-120px.png')
+        },
+        {
           url: 'https://dutchcryptoinvestors.com/',
           logo: require('@/assets/img/partners/dci.png')
         },
