@@ -38,7 +38,7 @@
               </a>
             </div>
             <div @click="mobileMenu = false">
-              <a target="_blank" href="onepager.pdf" class="navbar-item" to="/onepager" exact-active-class="is-active">
+              <a target="_blank" href="/onepager.pdf" class="navbar-item" to="/onepager" exact-active-class="is-active">
                 <div>
                   Onepager
                 </div>
