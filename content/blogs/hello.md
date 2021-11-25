@@ -1,11 +1,29 @@
 ---
 title: Hello Devs! We’re Nosana
 description: Hello Devs! We’re Nosana. We help DevOps teams to build software faster, more cost-effective and secure.
-img: /img/hello-world.jpg
+img: /img/blog_4.jpg
 ---
-We help DevOps teams to build software faster, more cost-effective and secure. We’re the only decentralized CI/CD platform, powered by the <a href="https://solana.com/" target="_blank">Solana Network</a>, and fueled by the NOS token.
+We help open source projects to build software faster, more cost-effective and secure.
+We’re the first decentralized computation platform powered by the [Solana Network](https://solana.com/), 
+and fueled by the NOS token.
 
+Nowadays most software is run in the cloud, which is made out of large server farms run by big companies. 
+As we move towards a more decentralized future, 
+projects should not have to rely on these faceless parties for their daily operation.
+We believe that communities can provide this compute in a decentralized way, 
+and a strong community can keep a project powered for eternity. 
+The computations in the Metaverse should not require a credit card attached to your Amazon account, 
+but should be provided directly by its users. 
+Nosana enables projects to move from the cloud to the crowd.
 
-To build great projects, you’ll need great software. No matter the size of your open source project, CI/CD automation should play a central role in your development. The number of open source projects is growing every day, in crypto and beyond, and the need for DevOps tooling is greater than ever. Solana is the fastest blockchain in the world and the fastest growing ecosystem in crypto, with over 400 projects spanning DeFi, NFTs, Web3 and more. As a result, we have chosen Solana to power our CI/CD solution. Nosana leverages the Proof-of-History consensus of the Solana Network to build out decentralized software pipelines.
+At its core Nosana is a crowd-computing platform, 
+where community members can rent out the CPU capacity of their devices to their favorite projects and earn NOS tokens. 
+Most consumer hardware will be supported, making it a very accessible way to generate extra income. 
+With Nosana, open source projects do not have to rely on Big Tech for their automation needs.
 
-Start using Nosana  pipelines for your crypto and open source projects. Our community-driven platform accelerates software development immensely. The platform combines edge-computing and blockchain functionality into a CI/CD marketplace. The NOS token lives in the centre, incentivizing CI/CD artifacts. Developers & supporters can use and share each other's compute power to execute their software delivery pipelines. Support others by running code checks or build container images and get NOS tokens in return. No technological knowledge is required, only a strong belief in the projects of our open source and crypto community. Use this power to your advantage as a developer and use Nosana nodes to run your pipelines on demand. CI by the people, for the people! 
+Our launching product is a platform for software automation pipelines. 
+Developers & supporters can use and share each other's compute power to execute their software delivery pipelines. 
+Support others by running code checks or build container images and get NOS tokens in return.
+No technological knowledge is required, only a strong belief in the projects of our open source and crypto communities. 
+Use this power to your advantage and start using Nosana nodes to run your pipelines. 
+CI by the people, for the people!
