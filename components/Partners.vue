@@ -58,6 +58,10 @@ export default {
           logo: require('@/assets/img/partners/stratos.png')
         },
         {
+          url: 'https://www.skyvisioncapital.com/',
+          logo: require('@/assets/img/partners/svc.png')
+        },
+        {
           url: 'https://indigo.amsterdam/',
           logo: require('@/assets/img/partners/Indigo-logo-120px.png')
         },
@@ -80,6 +84,14 @@ export default {
         {
           url: 'https://insquarevc.com/',
           logo: require('@/assets/img/partners/insquare.png')
+        },
+        {
+          url: 'https://gate.io/',
+          logo: require('@/assets/img/partners/gate.png')
+        },
+        {
+          url: 'https://www.mexc.com/',
+          logo: require('@/assets/img/partners/mexc.svg')
         },
         {
           url: 'https://blockasset.co/',
