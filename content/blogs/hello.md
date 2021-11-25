@@ -7,11 +7,12 @@ We help open source projects to build software faster, more cost-effective and s
 We’re the first decentralized computation platform powered by the [Solana Network](https://solana.com/), 
 and fueled by the NOS token.
 
-Nowadays most software is run in the cloud, which is made out of large server farms run by big companies. 
+Most software runs in the public cloud. 
+Public cloud consists of large server farms owned by big companies. 
 As we move towards a more decentralized future, 
-projects should not have to rely on these faceless parties for their daily operation.
-We believe that communities can provide this compute in a decentralized way, 
-and a strong community can keep a project powered for eternity. 
+projects should not have to rely on these faceless parties for daily operation. 
+Nosana believes that communities can provide the computation that is needed in a decentralized way. 
+Furthermore, a strong community can keep a project powered for eternity. 
 The computations in the Metaverse should not require a credit card attached to your Amazon account, 
 but should be provided directly by its users. 
 Nosana enables projects to move from the cloud to the crowd.
