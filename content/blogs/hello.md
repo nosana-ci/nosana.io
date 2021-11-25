@@ -1,6 +1,6 @@
 ---
 title: Hello Devs! We’re Nosana
-description: Hello Devs! We’re Nosana. We help DevOps teams to build software faster, more cost-effective and secure.
+description: Nosana enables projects to move from the cloud to the crowd.
 img: /img/blog_4.jpg
 ---
 We help open source projects to build software faster, more cost-effective and secure.
