@@ -39,11 +39,11 @@ export default {
         },
         {
           url: 'https://www.solanium.io/',
-          logo: require('@/assets/img/partners/SolaniumVenturesWhiteWide.png')
+          logo: require('@/assets/img/partners/solanium.png')
         },
         {
           url: 'https://www.altcoinbuzz.io/',
-          logo: require('@/assets/img/partners/Altcoin-Buzz-Logo-272x90-dark.png')
+          logo: require('@/assets/img/partners/altcoin-buzz.png')
         },
         {
           url: 'https://synaps.io/',
@@ -63,7 +63,7 @@ export default {
         },
         {
           url: 'https://indigo.amsterdam/',
-          logo: require('@/assets/img/partners/Indigo-logo-120px.png')
+          logo: require('@/assets/img/partners/indigo.png')
         },
         {
           url: 'https://dutchcryptoinvestors.com/',
@@ -92,6 +92,14 @@ export default {
         {
           url: 'https://www.mexc.com/',
           logo: require('@/assets/img/partners/mexc.svg')
+        },
+        {
+          url: 'https://www.primeblock.ventures/',
+          logo: require('@/assets/img/partners/primeblock.png')
+        },
+        {
+          url: 'https://ratio.finance/',
+          logo: require('@/assets/img/partners/ratio.png')
         },
         {
           url: 'https://blockasset.co/',
