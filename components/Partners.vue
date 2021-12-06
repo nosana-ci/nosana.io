@@ -39,23 +39,43 @@ export default {
         },
         {
           url: 'https://www.solanium.io/',
-          logo: require('@/assets/img/partners/SolaniumVenturesWhiteWide.png')
+          logo: require('@/assets/img/partners/solanium.png')
         },
         {
           url: 'https://www.altcoinbuzz.io/',
-          logo: require('@/assets/img/partners/Altcoin-Buzz-Logo-272x90-dark.png')
+          logo: require('@/assets/img/partners/altcoin-buzz.png')
         },
         {
           url: 'https://synaps.io/',
           logo: require('@/assets/img/partners/synaps.png')
         },
         {
+          url: 'https://genblock.capital/',
+          logo: require('@/assets/img/partners/genblock.png')
+        },
+        {
+          url: 'https://www.stratoslp.com/',
+          logo: require('@/assets/img/partners/stratos.png')
+        },
+        {
+          url: 'https://www.skyvisioncapital.com/',
+          logo: require('@/assets/img/partners/svc.png')
+        },
+        {
+          url: 'https://indigo.amsterdam/',
+          logo: require('@/assets/img/partners/indigo.png')
+        },
+        {
           url: 'https://dutchcryptoinvestors.com/',
           logo: require('@/assets/img/partners/dci.png')
         },
         {
-          url: '',
+          url: 'https://whitelistventures.com/',
           logo: require('@/assets/img/partners/whitelist.png')
+        },
+        {
+          url: 'https://www.nxgen.xyz/',
+          logo: require('@/assets/img/partners/nxgen.png')
         },
         {
           url: 'https://www.petrock.capital/',
@@ -64,6 +84,22 @@ export default {
         {
           url: 'https://insquarevc.com/',
           logo: require('@/assets/img/partners/insquare.png')
+        },
+        {
+          url: 'https://gate.io/',
+          logo: require('@/assets/img/partners/gate.png')
+        },
+        {
+          url: 'https://www.mexc.com/',
+          logo: require('@/assets/img/partners/mexc.svg')
+        },
+        {
+          url: 'https://www.primeblock.ventures/',
+          logo: require('@/assets/img/partners/primeblock.png')
+        },
+        {
+          url: 'https://ratio.finance/',
+          logo: require('@/assets/img/partners/ratio.png')
         },
         {
           url: 'https://blockasset.co/',

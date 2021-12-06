@@ -9,8 +9,8 @@
     </div>
   </div>
 </template>
+
 <script>
-const Atropos = require('atropos/atropos')
 export default {
   name: 'Altropos',
   props: {
@@ -22,10 +22,14 @@ export default {
     }
   },
   mounted () {
-    Atropos({
-      el: this.$el,
-      ...this.options
-    })
+    // eslint-disable-next-line nuxt/no-env-in-hooks
+    if (process.client) {
+      const Atropos = require('atropos/atropos')
+      Atropos({
+        el: this.$el,
+        ...this.options
+      })
+    }
   }
 }
 </script>

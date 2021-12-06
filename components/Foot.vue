@@ -13,11 +13,9 @@
             <a target="_blank" href="onepager.pdf" class="navbar-item" to="/onepager" exact-active-class="is-active">
               Onepager
             </a>
-            <div class="navbar-item is-disabled" to="/community" exact-active-class="is-active">
-              <div class="has-tooltip-bottom has-tooltip-arrow" data-tooltip="Coming Soon!">
-                Community
-              </div>
-            </div>
+            <nuxt-link class="navbar-item" to="/blog" exact-active-class="is-active">
+              <div>Blog</div>
+            </nuxt-link>
             <a target="_blank" href="mailto:team@nosana.io" class="navbar-item" exact-active-class="is-active">
               <div>Contact</div>
             </a>
