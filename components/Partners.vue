@@ -7,8 +7,8 @@
         </h4>
       </div>
     </div>
-    <div class="columns is-vcentered  mt-4 is-multiline is-mobile">
-      <div v-for="partner in partners" :key="partner.url" class="column is-2-desktop is-6-mobile has-text-centered is-horizontal-centered">
+    <div class="columns is-vcentered mt-4 is-multiline is-mobile">
+      <div v-for="partner in partners" :key="partner.url" class="column is-2-desktop is-4-tablet is-6-mobile has-text-centered is-horizontal-centered">
         <div>
           <a :href="partner.url" target="_blank">
             <img
