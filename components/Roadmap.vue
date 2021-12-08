@@ -53,14 +53,14 @@ export default {
           date: '07-10/11',
           milestone: 'Solana Breakpoint Lisbon',
           year: 2021,
-          class: 'is-active'
+          class: 'is-completed'
         },
         {
           date: 'December',
           milestone: 'Nosana Testnet launch',
           year: 2021,
           points: ['Incentivized Testnet live'],
-          class: ''
+          class: 'is-active'
         },
         {
           date: '11-17/1',
