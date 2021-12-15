@@ -51,5 +51,20 @@ html {
         }
       }
     }
+    code {
+      background-color: #1c282a;
+      color: $accent;
+    }
+    pre {
+      background-color: #1c282a;
+      color: $accent;
+    }
+    .table {
+      background-color: $dark-mode-background;
+      color: white;
+      thead td, thead th {
+        color: white;
+      }
+    }
   }
 }
