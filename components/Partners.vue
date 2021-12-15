@@ -85,10 +85,10 @@ export default {
           url: 'https://insquarevc.com/',
           logo: require('@/assets/img/partners/insquare.png')
         },
-        {
-          url: 'https://gate.io/',
-          logo: require('@/assets/img/partners/gate.png')
-        },
+        // {
+        //   url: 'https://gate.io/',
+        //   logo: require('@/assets/img/partners/gate.png')
+        // },
         {
           url: 'https://www.mexc.com/',
           logo: require('@/assets/img/partners/mexc.svg')
