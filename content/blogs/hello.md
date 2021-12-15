@@ -2,6 +2,7 @@
 title: Hello Devs! We’re Nosana
 description: Nosana enables projects to move from the cloud to the crowd.
 img: /img/blog_4.jpg
+createdAt: '2021-11-11'
 ---
 We help open source projects to build software faster, more cost-effective and secure.
 We’re the first decentralized computation platform powered by the [Solana Network](https://solana.com/), 

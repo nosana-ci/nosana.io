@@ -6,10 +6,10 @@
           <atropos :options="{rotateTouch: false}">
             <div class="has-border-accent-light has-radius p-4" style="min-height: 300px">
               <h3 class="subtitle is-6 has-text-accent mt-2">
-                Marketplace
+                Decentralized Marketplace
               </h3>
               <p class="block">
-                Tech companies are running millions of CI/CD pipelines daily to operate. The size of this market is estimated to reach over $13 billion in 2023 of which half is centralized at the top 5 providers.
+                Tech companies are running millions of CI/CD pipelines daily to operate. Nosana provides a cheaper, accessible, and sustainable alternative for centralized cloud solutions by utilizing spare capacity.
               </p>
             </div>
           </atropos>

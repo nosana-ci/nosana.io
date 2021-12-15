@@ -8,14 +8,14 @@
     <section class="section">
       <div class="container">
         <partners />
-        <three-blocks class="mt-6" />
       </div>
     </section>
-    <run />
-    <section class="section">
+    <run class="my-6" />
+    <section class="section mt-6">
       <div class="container">
-        <roadmap />
-        <!--        <slogan-block />-->
+        <three-blocks class="mt-6" />
+        <latest-news class="mt-6 pb-6" />
+        <roadmap class="mt-6" />
       </div>
     </section>
   </div>
