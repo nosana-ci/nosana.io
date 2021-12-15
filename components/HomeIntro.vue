@@ -5,17 +5,16 @@
         <div class="columns mt-6" style="min-height: 75vh">
           <div class="column has-background-black-blur-false">
             <h1 class="title is-spaced site-title">
-              Crowd <br>
-              Computing <br>
-              the Metaverse
+              Start a crowd  <br>
+              revolution <br>
             </h1>
             <h2 class="subtitle">
-              Community powered pipelines
+              The decentralized <s>cloud</s> crowd computing network.
             </h2>
             <div class="has-limited-width-small mt-4">
               <p class="block">
-                Run code checks and build container images to earn tokens.
-                Or simply use other Nosana nodes to run your pipelines on demand!
+                The Nosana Network will be the leading provider of decentralized CPU-based Dev(ops) solutions,
+                revolutionizing the development process of Metaverse projects.
               </p>
             </div>
             <div class="mt-6">
