@@ -8,8 +8,8 @@
         This is the brand kit of Nosana. This style guide
         includes logo use and colors.
       </p>
-      <div class="title is-6 mt-4">
-        LOGO
+      <div class="subtitle is-4 mt-6">
+        <span class="has-text-accent">01</span> Logo
       </div>
       <div class="mb-5">
         Use of the Nosana logo
@@ -38,8 +38,8 @@
         </div>
         <a class="is-size-7 has-text-accent" target="_blank" href="/img/Nosana_Logo_vertical_color_white.svg" download>.svg</a>
       </div>
-      <div class="title is-6 mt-6">
-        COLOR PALETTE
+      <div class="subtitle is-4 mt-6">
+        <span class="has-text-accent">02</span> Color Pallete
       </div>
       <div class="color">
         <div class="menu-label my-0">
@@ -84,7 +84,7 @@
         </div>
       </div>
       <br><br>
-      <div class="subtitle is-4 mt-4">
+      <div class="subtitle is-4 mt-6">
         <span class="has-text-accent">03</span> Buttons
       </div>
       <div class="subtitle is-5">
@@ -126,7 +126,7 @@
       </button>
       <br><br>
 
-      <div class="subtitle is-4 mt-4">
+      <div class="subtitle is-4 mt-6">
         <span class="has-text-accent">04</span> Typography
       </div>
       <div class="subtitle is-5">
