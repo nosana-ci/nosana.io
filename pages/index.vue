@@ -13,7 +13,15 @@
     <run class="my-6" />
     <section class="section mt-6">
       <div class="container">
-        <three-blocks class="mt-6" />
+        <div class="has-text-centered mt-6">
+          <h2 class="title ">
+            Project Galactica
+          </h2>
+          <h4 class="subtitle">
+            commitment
+          </h4>
+        </div>
+        <three-blocks />
         <latest-news class="mt-6 pb-6" />
         <roadmap class="mt-6" />
       </div>
