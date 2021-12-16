@@ -8,7 +8,7 @@
         <client-only>
           <nuxt-link v-for="blog of blogs" :key="blog.slug" class="column is-one-third" :to="{ name: 'blog-slug', params: { slug: blog.slug } }">
             <atropos :options="{rotateTouch: false}">
-              <div class="has-border-accent-light has-radius p-4" style="min-height: 300px">
+              <div class="has-border-accent-light has-radius p-4" style="min-height: 432px">
                 <div style="height: 250px; width: 100%;" :style="{'background-image': `url('${blog.thumbnail ? blog.thumbnail : blog.img}')`}" class="has-background-image" />
                 <h3 class="title is-5 has-text-accent mt-2">
                   {{ blog.title }}
