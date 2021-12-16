@@ -8,12 +8,13 @@
     <section class="section">
       <div class="container">
         <partners />
+        <end-users />
       </div>
     </section>
-    <run class="my-6" />
+    <!-- <run class="my-6" /> -->
     <section class="section mt-6">
       <div class="container">
-        <div class="has-text-centered mt-6">
+        <div class="has-text-centered">
           <h2 class="title ">
             Project Galactica
           </h2>
@@ -22,7 +23,7 @@
           </h4>
         </div>
         <three-blocks />
-        <latest-news class="mt-6 pb-6" />
+        <!-- <latest-news class="mt-6 pb-6" /> -->
         <roadmap class="mt-6" />
       </div>
     </section>

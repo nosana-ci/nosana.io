@@ -4,7 +4,7 @@
       <div class="columns">
         <div class="column is-one-third">
           <atropos :options="{rotateTouch: false}">
-            <div class="has-border-accent-light has-radius p-4" style="min-height: 300px">
+            <div class="has-border-accent-light has-radius p-4" style="min-height: 260px">
               <h3 class="subtitle is-6 has-text-accent mt-2">
                 Decentralized Marketplace
               </h3>
@@ -16,7 +16,7 @@
         </div>
         <div class="column is-one-third">
           <atropos :options="{rotateTouch: false}">
-            <div class="has-border-accent-light has-radius p-4" style="min-height: 300px">
+            <div class="has-border-accent-light has-radius p-4" style="min-height: 260px">
               <h3 class="subtitle is-6 has-text-accent mt-2">
                 Staking
               </h3>
@@ -28,7 +28,7 @@
         </div>
         <div class="column is-one-third">
           <atropos :options="{rotateTouch: false}">
-            <div class="has-border-accent-light has-radius p-4" style="min-height: 300px">
+            <div class="has-border-accent-light has-radius p-4" style="min-height: 260px">
               <h3 class="subtitle is-6 has-text-accent mt-2">
                 Governance
               </h3>
