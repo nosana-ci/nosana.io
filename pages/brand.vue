@@ -134,7 +134,8 @@
         preview and the css values that are used, like font-family, font-size, font-weight and line-height etc.
       </div>
       <div>
-        - Main Font: <a href="https://fonts.google.com/specimen/Space+Mono" target="_blank">Space Mono</a>
+        - Header Font: <a href="https://fonts.google.com/specimen/Space+Mono" target="_blank">Space Mono</a><br>
+        - Body Font: <a href="https://fonts.google.com/specimen/Space+Grotesk" target="_blank">Space Grotesk</a>
       </div>
       <div class="table-container">
         <table class="typography table">
@@ -181,8 +182,7 @@ line-height: 1.25;</pre>
             <tr>
               <td class="py-2">
                 <pre class="grey&#45;&#45;text">
-font-family: 'Space Mono', monospace;
-color: #363636;
+font-family: 'Space Grotesk', sans-serif;
 font-size: 16px;
 font-weight: 400;</pre>
               </td>
