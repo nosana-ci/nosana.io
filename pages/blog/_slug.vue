@@ -13,7 +13,7 @@
             <h1>{{ blog.title }}</h1>
             <p class="has-text-accent">
               <span v-if="blog.author">By <b>{{ blog.author }} </b> </span>
-              <span>- Article last updated: <b>{{ formatDate(blog.updatedAt) }}</b></span>
+              <span>- Article created: <b>{{ formatDate(blog.createdAt) }}</b></span>
             </p>
             <nuxt-content :document="blog" />
           </div>
