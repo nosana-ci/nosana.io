@@ -5,38 +5,12 @@
         <div class="columns">
           <div class="column is-5" />
           <div class="column">
-            <h1 class="title is-spaced is-2">
-              Run CI/CD
-            </h1>
-            <!--          <h2 class="subtitle">-->
-            <!--            Community powered CI and CD-->
-            <!--          </h2>-->
-            <div class="columns is-multiline">
-              <div class="column is-half mb-5">
-                <div class="title mb-0 has-text-accent">
-                  1
-                </div>
-                <div>Go to Nosana.io or download our app</div>
-              </div>
-              <div class="column is-half mb-5">
-                <div class="title mb-0 has-text-accent">
-                  2
-                </div>
-                <div>Log in with your wallet & connect your Open Source Software Repository</div>
-              </div>
-              <div class="column is-half mb-5">
-                <div class="title mb-0 has-text-accent">
-                  3
-                </div>
-                <div>Select your project(s)</div>
-              </div>
-              <div class="column is-half mb-5">
-                <div class="title mb-0 has-text-accent">
-                  4
-                </div>
-                <div>Start running pipelines on demand</div>
-              </div>
-            </div>
+            <h2 class="title">
+              Give power back to the end users
+            </h2>
+            <p>
+              Our vision is to democratize CPU cloud computing. Nosana connects blockchain developers and services to a global pool of computing power. As a result, everyone will be able to rent out their spare CPU to power the next Metaverse. Our first project (Galactica) is focused on providing the compute power required to run projects' CI/CD infrastructure. So they no longer have to rely on Big Tech for their computational needs.
+            </p>
           </div>
         </div>
       </div>

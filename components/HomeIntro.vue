@@ -5,28 +5,39 @@
         <div class="columns mt-6" style="min-height: 75vh">
           <div class="column has-background-black-blur-false">
             <h1 class="title is-spaced site-title">
-              Nosana CI
+              Start a crowd  <br>
+              revolution <br>
             </h1>
             <h2 class="subtitle">
-              Community powered CI and CD
+              The decentralized <s>cloud</s> crowd computing network.
             </h2>
-            <div class="has-limited-width-small">
+            <div class="has-limited-width-small mt-4">
               <p class="block">
-                Nosana is for every software developer that values transparency and trust.
-                It's a decentralized CI/CD platform on the Solana Network,
-                and fueled by the <strong>NOS</strong> token.
-              </p>
-              <p class="block">
-                Run code checks and build container images to earn tokens.
-                Or simply use other Nosana nodes to run your pipelines on demand!
+                The Nosana Network will be the leading provider of decentralized CPU-based Dev(Ops) solutions,
+                revolutionizing the development process of Metaverse projects.
               </p>
             </div>
             <div class="mt-6">
               <a href="https://demo.nosana.io" target="_blank" class="button is-accent is-wide" data-atropos-offset="10">
-                <b>Demo</b>
+                <b>Launch</b>
               </a>
             </div>
             <socials class="mt-6" />
+            <div class="has-limited-width-small mt-5">
+              <p>
+                Powered by
+                <img
+                  width="20px"
+                  max-width="200px"
+                  height="32px"
+                  max-height="80px"
+                  contain
+                  class="mx-2 greyscale-false"
+                  :src="require('@/assets/img/solana.svg')"
+                  alt="Solana"
+                > Solana
+              </p>
+            </div>
           </div>
         </div>
       </div>

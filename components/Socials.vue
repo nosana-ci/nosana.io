@@ -1,15 +1,39 @@
 <template>
   <div>
-    <a href="https://twitter.com/nosana_ci" target="_blank" class="subtitle is-5 mx-2"><i class="fab fa-twitter" /></a>
-    <!--    <a href="https://discord.com" target="_blank" class="subtitle is-5 mx-2"><i class="fab fa-discord" /></a>-->
-    <!--    <a href="https://t.me/" target="_blank" class="subtitle is-5 mx-2"><i class="fab fa-telegram" /></a>-->
-    <a href="https://nosana.medium.com/" target="_blank" class="subtitle is-5 mx-2"><i class="fab fa-medium" /></a>
+    <a v-for="social in socials" :key="social.icon" :href="social.link" target="_blank" class="subtitle is-5 mx-2">
+      <i :class="'fab fa-' + social.icon" />
+    </a>
   </div>
 </template>
 
 <script>
+
 export default {
-  components: {
+  data () {
+    return {
+      socials: [
+        {
+          link: 'https://twitter.com/nosana_ci',
+          icon: 'twitter'
+        },
+        {
+          link: 'https://discord.gg/bb546e8SKp',
+          icon: 'discord'
+        },
+        {
+          link: 'https://t.me/NosanaCI',
+          icon: 'telegram'
+        },
+        {
+          link: 'https://nosana.medium.com/',
+          icon: 'medium'
+        },
+        {
+          link: 'https://github.com/nosana-ci',
+          icon: 'github'
+        }
+      ]
+    }
   }
 }
 </script>
