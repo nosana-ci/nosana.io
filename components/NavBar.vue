@@ -38,13 +38,6 @@
               </a>
             </div>
             <div @click="mobileMenu = false">
-              <a target="_blank" href="/onepager.pdf" class="navbar-item" to="/onepager" exact-active-class="is-active">
-                <div>
-                  Onepager
-                </div>
-              </a>
-            </div>
-            <div @click="mobileMenu = false">
               <nuxt-link class="navbar-item" to="/blog" exact-active-class="is-active">
                 <div>Blog</div>
               </nuxt-link>
