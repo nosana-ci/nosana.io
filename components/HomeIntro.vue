@@ -13,7 +13,7 @@
             </h2>
             <div class="has-limited-width-small mt-4">
               <p class="block">
-                The Nosana Network will be the leading provider of decentralized CPU-based Dev(ops) solutions,
+                The Nosana Network will be the leading provider of decentralized CPU-based Dev(Ops) solutions,
                 revolutionizing the development process of Metaverse projects.
               </p>
             </div>

@@ -17,7 +17,7 @@ export default {
           icon: 'twitter'
         },
         {
-          link: 'https://discord.gg/9pGJ35SU',
+          link: 'https://discord.gg/bb546e8SKp',
           icon: 'discord'
         },
         {
