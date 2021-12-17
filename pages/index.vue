@@ -1,13 +1,9 @@
 <template>
   <div>
-    <!--    <div class="blur-background">-->
-    <!--      <img src="~assets/img/oval-green.png">-->
-    <!--      <img src="~assets/img/oval-yellow.png">-->
-    <!--    </div>-->
     <home-intro />
+    <partners />
     <section class="section">
       <div class="container">
-        <partners />
         <end-users />
       </div>
     </section>

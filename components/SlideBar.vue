@@ -5,7 +5,7 @@ export default {
     barStyle: Object,
     duration: {
       type: String,
-      default: '12s'
+      default: '20s'
     },
     direction: {
       type: String,
@@ -50,9 +50,9 @@ export default {
   overflow: hidden;
 
   &:hover {
-      .vifnslb-element {
-          animation-play-state: 'paused';
-      }
+    .vifnslb-element {
+      animation-play-state: paused !important;
+    }
   }
 }
 .vifnslb-element {
@@ -70,5 +70,6 @@ export default {
   width: 50%;
   min-width: max-content;
   display: flex;
+  align-items: center;
 }
 </style>
