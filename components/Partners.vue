@@ -64,7 +64,7 @@ export default {
         },
         {
           url: 'https://www.altcoinbuzz.io/',
-          logo: require('@/assets/img/partners/altcoin-buzz.png')
+          logo: require('@/assets/img/partners/altcoin-buzz.svg')
         },
         {
           url: 'https://synaps.io/',
