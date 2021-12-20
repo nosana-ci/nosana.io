@@ -7,29 +7,50 @@
         </h4>
       </div>
     </div>
-    <div class="columns is-vcentered mt-4 is-multiline is-mobile">
-      <div v-for="partner in partners" :key="partner.url" class="column is-2-desktop is-4-tablet is-6-mobile has-text-centered is-horizontal-centered">
+    <slide-bar duration="60s" direction="reverse">
+      <div v-for="partner in partners.slice(0, Math.ceil(partners.length / 2))" :key="partner.url" class="mx-6">
         <div>
-          <a :href="partner.url" target="_blank">
+          <a :href="partner.url" target="_blank" class="partner">
             <img
               width="160px"
               max-width="200px"
               height="64px"
               max-height="80px"
               contain
-              class="mx-2 greyscale-false"
+              class="mx-2"
               :src="partner.logo"
             >
           </a>
         </div>
       </div>
-    </div>
+    </slide-bar>
+    <slide-bar duration="60s">
+      <div v-for="partner in partners.slice(Math.ceil(partners.length / 2), partners.length)" :key="partner.url" class="mx-6">
+        <div>
+          <a :href="partner.url" target="_blank" class="partner">
+            <img
+              width="160px"
+              max-width="200px"
+              height="64px"
+              max-height="80px"
+              contain
+              class="mx-2"
+              :src="partner.logo"
+            >
+          </a>
+        </div>
+      </div>
+    </slide-bar>
   </div>
 </template>
 
 <script>
+import SlideBar from '@/components/SlideBar'
 
 export default {
+  components: {
+    SlideBar
+  },
   data () {
     return {
       partners: [
@@ -113,14 +134,15 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.greyscale {
-  filter: grayscale(100%);
-  opacity: 0.7;
-  transition: 0.1s;
-
+.partner {
+  img {
+    transform-origin: center center;
+    transition: transform 0.2s;
+  }
   &:hover {
-    filter: grayscale(0%);
-    opacity: 1;
+    img {
+      transform: scale(1.1);
+    }
   }
 }
 </style>
