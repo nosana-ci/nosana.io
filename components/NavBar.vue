@@ -31,16 +31,14 @@
               </nuxt-link>
             </div>
             <div @click="mobileMenu = false">
+              <nuxt-link class="navbar-item" to="/earn" exact-active-class="is-active">
+                <div>Earn</div>
+              </nuxt-link>
+            </div>
+            <div @click="mobileMenu = false">
               <a target="_blank" href="https://docs.nosana.io" class="navbar-item" to="/docs" exact-active-class="is-active">
                 <div>
                   Docs
-                </div>
-              </a>
-            </div>
-            <div @click="mobileMenu = false">
-              <a target="_blank" href="/onepager.pdf" class="navbar-item" to="/onepager" exact-active-class="is-active">
-                <div>
-                  Onepager
                 </div>
               </a>
             </div>

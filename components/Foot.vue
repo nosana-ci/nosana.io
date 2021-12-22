@@ -7,11 +7,11 @@
             <nuxt-link class="navbar-item" to="/" exact-active-class="is-active">
               <div>Home</div>
             </nuxt-link>
+            <nuxt-link class="navbar-item" to="/earn" exact-active-class="is-active">
+              <div>Earn</div>
+            </nuxt-link>
             <a target="_blank" href="https://docs.nosana.io" class="navbar-item" to="/docs" exact-active-class="is-active">
               <div>Docs</div>
-            </a>
-            <a target="_blank" href="onepager.pdf" class="navbar-item" to="/onepager" exact-active-class="is-active">
-              Onepager
             </a>
             <nuxt-link class="navbar-item" to="/blog" exact-active-class="is-active">
               <div>Blog</div>
