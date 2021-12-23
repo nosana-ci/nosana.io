@@ -179,9 +179,23 @@ export default {
       }
     }
   }
+  @media screen and (max-width: 1023px) {
+  .navbar {
+    .navbar-menu {
+      background-color: $dark-mode-background;
+      .navbar-item {
+        color: white;
+        &.is-active, &:hover {
+          background-color: $dark-mode-background;
+          color: white;
+        }
+      }
+    }
+  }
+}
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1023px) {
   .navbar {
     .navbar-menu {
       .navbar-item {
