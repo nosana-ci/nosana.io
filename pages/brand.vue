@@ -14,29 +14,143 @@
       <div class="mb-5">
         Use of the Nosana logo
       </div>
-      <div class="is-inline-block  has-text-centered mr-4">
-        <div class="has-border has-radius p-5">
-          <img
-            src="~assets/img/Nosana_Logo_horizontal_color_white.svg"
-            style="height:70px;"
-          >
+      <div class="columns">
+        <div class="column is-one-quarter has-text-centered">
+          <div class="has-border has-radius p-5">
+            <img
+              src="~assets/img/Nosana_Logo_horizontal_color_white.svg"
+            >
+          </div>
+          <div class="subtitle is-6 mb-0">
+            Logo Horizontal Color White
+          </div>
+          <a class="is-size-7 has-text-accent" target="_blank" href="/img/Nosana_Logo_horizontal_color_white.svg" download>.svg</a>
+          <a class="is-size-7 ml-5 has-text-accent" target="_blank" href="/img/Nosana_Logo_horizontal_color_white.png" download>.png</a>
         </div>
-        <div class="subtitle is-6 mb-0">
-          Logo Horizontal
+        <div class="column is-one-quarter has-text-centered">
+          <div class="has-border has-radius p-5">
+            <img
+              src="~assets/img/Nosana_Logo_horizontal_white.svg"
+            >
+          </div>
+          <div class="subtitle is-6 mb-0">
+            Logo Horizontal White
+          </div>
+          <a class="is-size-7 has-text-accent" target="_blank" href="/img/Nosana_Logo_horizontal_white.svg" download>.svg</a>
+          <a class="is-size-7 ml-5 has-text-accent" target="_blank" href="/img/Nosana_Logo_horizontal_white.png" download>.png</a>
         </div>
-        <a class="is-size-7 has-text-accent" target="_blank" href="/img/Nosana_Logo_horizontal_color_white.svg" download>.svg</a>
+        <div class="column is-one-quarter has-text-centered">
+          <div class="has-border has-radius p-5 has-background-white">
+            <img
+              src="~assets/img/Nosana_Logo_horizontal_color_black.svg"
+            >
+          </div>
+          <div class="subtitle is-6 mb-0">
+            Logo Horizontal Color Black
+          </div>
+          <a class="is-size-7 has-text-accent" target="_blank" href="/img/Nosana_Logo_horizontal_color_black.svg" download>.svg</a>
+          <a class="is-size-7 ml-5 has-text-accent" target="_blank" href="/img/Nosana_Logo_horizontal_color_black.png" download>.png</a>
+        </div>
+        <div class="column is-one-quarter has-text-centered">
+          <div class="has-border has-radius p-5 has-background-white">
+            <img
+              src="~assets/img/Nosana_Logo_horizontal_black.svg"
+            >
+          </div>
+          <div class="subtitle is-6 mb-0">
+            Logo Horizontal Black
+          </div>
+          <a class="is-size-7 has-text-accent" target="_blank" href="/img/Nosana_Logo_horizontal_black.svg" download>.svg</a>
+          <a class="is-size-7 ml-5 has-text-accent" target="_blank" href="/img/Nosana_Logo_horizontal_black.png" download>.png</a>
+        </div>
       </div>
-      <div class="is-inline-block  has-text-centered mr-4 ">
-        <div class="has-border has-radius p-5">
-          <img
-            src="~assets/img/Nosana_Logo_vertical_color_white.svg"
-            style="height:150px;"
-          >
+      <div class="columns">
+        <div class="column is-one-quarter has-text-centered">
+          <div class="has-border has-radius p-5">
+            <img
+              src="~assets/img/Nosana_Logo_vertical_color_white.svg"
+            >
+          </div>
+          <div class="subtitle is-6 mb-0">
+            Logo Vertical Color White
+          </div>
+          <a class="is-size-7 has-text-accent" target="_blank" href="/img/Nosana_Logo_vertical_color_white.svg" download>.svg</a>
+          <a class="is-size-7 ml-5 has-text-accent" target="_blank" href="/img/Nosana_Logo_vertical_color_white.png" download>.png</a>
         </div>
-        <div class="subtitle is-6 mb-0">
-          Logo Vertical
+        <div class="column is-one-quarter has-text-centered">
+          <div class="has-border has-radius p-5">
+            <img
+              src="~assets/img/Nosana_Logo_vertical_white.svg"
+            >
+          </div>
+          <div class="subtitle is-6 mb-0">
+            Logo Vertical White
+          </div>
+          <a class="is-size-7 has-text-accent" target="_blank" href="/img/Nosana_Logo_vertical_white.svg" download>.svg</a>
+          <a class="is-size-7 ml-5 has-text-accent" target="_blank" href="/img/Nosana_Logo_vertical_white.png" download>.png</a>
         </div>
-        <a class="is-size-7 has-text-accent" target="_blank" href="/img/Nosana_Logo_vertical_color_white.svg" download>.svg</a>
+        <div class="column is-one-quarter has-text-centered">
+          <div class="has-border has-radius p-5 has-background-white">
+            <img
+              src="~assets/img/Nosana_Logo_vertical_color_black.svg"
+            >
+          </div>
+          <div class="subtitle is-6 mb-0">
+            Logo Vertical Color Black
+          </div>
+          <a class="is-size-7 has-text-accent" target="_blank" href="/img/Nosana_Logo_vertical_color_black.svg" download>.svg</a>
+          <a class="is-size-7 ml-5 has-text-accent" target="_blank" href="/img/Nosana_Logo_vertical_color_black.png" download>.png</a>
+        </div>
+        <div class="column is-one-quarter has-text-centered">
+          <div class="has-border has-radius p-5 has-background-white">
+            <img
+              src="~assets/img/Nosana_Logo_vertical_black.svg"
+            >
+          </div>
+          <div class="subtitle is-6 mb-0">
+            Logo Vertical Black
+          </div>
+          <a class="is-size-7 has-text-accent" target="_blank" href="/img/Nosana_Logo_vertical_black.svg" download>.svg</a>
+          <a class="is-size-7 ml-5 has-text-accent" target="_blank" href="/img/Nosana_Logo_vertical_black.png" download>.png</a>
+        </div>
+      </div>
+      <div class="columns">
+        <div class="column is-one-quarter has-text-centered">
+          <div class="has-border has-radius p-5">
+            <img
+              src="~assets/img/Nosana_Logomark_color.svg"
+            >
+          </div>
+          <div class="subtitle is-6 mb-0">
+            Logomark Color
+          </div>
+          <a class="is-size-7 has-text-accent" target="_blank" href="/img/Nosana_Logomark_color.svg" download>.svg</a>
+          <a class="is-size-7 ml-5 has-text-accent" target="_blank" href="/img/Nosana_Logomark_color.png" download>.png</a>
+        </div>
+        <div class="column is-one-quarter has-text-centered">
+          <div class="has-border has-radius p-5">
+            <img
+              src="~assets/img/Nosana_Logomark_white.svg"
+            >
+          </div>
+          <div class="subtitle is-6 mb-0">
+            Logomark White
+          </div>
+          <a class="is-size-7 has-text-accent" target="_blank" href="/img/Nosana_Logomark_white.svg" download>.svg</a>
+          <a class="is-size-7 ml-5 has-text-accent" target="_blank" href="/img/Nosana_Logomark_white.png" download>.png</a>
+        </div>
+        <div class="column is-one-quarter has-text-centered">
+          <div class="has-border has-radius p-5 has-background-white">
+            <img
+              src="~assets/img/Nosana_Logomark_black.svg"
+            >
+          </div>
+          <div class="subtitle is-6 mb-0">
+            Logomark Black
+          </div>
+          <a class="is-size-7 has-text-accent" target="_blank" href="/img/Nosana_Logomark_black.svg" download>.svg</a>
+          <a class="is-size-7 ml-5 has-text-accent" target="_blank" href="/img/Nosana_Logomark_black.png" download>.png</a>
+        </div>
       </div>
       <div class="subtitle is-4 mt-6">
         <span class="has-text-accent">02</span> Color Pallete
