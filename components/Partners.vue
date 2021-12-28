@@ -106,6 +106,10 @@ export default {
           url: 'https://insquarevc.com/',
           logo: require('@/assets/img/partners/insquare.png')
         },
+        {
+          url: 'https://minted-lab.com/',
+          logo: require('@/assets/img/partners/minted.png')
+        },
         // {
         //   url: 'https://gate.io/',
         //   logo: require('@/assets/img/partners/gate.png')
