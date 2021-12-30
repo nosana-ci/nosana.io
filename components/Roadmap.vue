@@ -11,9 +11,7 @@
               {{ item.date }}
               <span class="is-pulled-right is-size-6">{{ item.year ? item.year : 2022 }}</span>
             </div>
-            <div>
-              {{ item.milestone }}
-            </div>
+            <div v-html="item.milestone" />
             <ul v-if="item.points" class="is-hidden-desktop">
               <li v-for="point in item.points" :key="point">
                 {{ point }}
@@ -38,41 +36,52 @@ export default {
     return {
       roadmap: [
         {
-          date: '21/07',
-          milestone: 'Nosana Demo live',
+          date: '1.',
+          milestone: 'Complete demo for Solana Foundation & finalize release strategy for the incentivized Testnet and Mainnet',
           class: 'is-completed',
-          year: 2021
+          year: 'Done'
         },
         {
-          date: '11/08',
-          milestone: 'Solana Grant backing',
-          year: 2021,
-          class: 'is-completed'
+          date: '2.',
+          milestone: 'Further development, Private fundraise',
+          class: 'is-completed',
+          year: 'Done'
         },
         {
-          date: '07-10/11',
-          milestone: 'Solana Breakpoint Lisbon',
-          year: 2021,
-          class: 'is-completed'
+          date: '3.',
+          milestone: 'Complete the Incentivised Testnet - mining & staking module',
+          class: 'is-active',
+          year: ' '
         },
         {
-          date: 'December',
-          milestone: 'Nosana Testnet launch',
-          year: 2021,
-          points: ['Incentivized Testnet live'],
-          class: 'is-active'
+          date: '4.',
+          milestone: 'Complete Smart Contract security audit, conduct <b>Solanium Public Sale</b>, and distribute $NOS tokens',
+          class: '',
+          year: '17-1'
         },
         {
-          date: '11-17/1',
-          milestone: 'Public tokensale',
-          points: ['Airdrop'],
-          class: ''
+          date: '5.',
+          milestone: 'Incentivized Testnet goes Live',
+          class: '',
+          year: ' '
         },
         {
-          date: 'January',
-          milestone: 'Nosana Mainnet launch',
-          points: ['Nosana Phase 1 live', 'Token staking live'],
-          class: ''
+          date: '6.',
+          milestone: 'First Phase Nosana Launch: Test Suite',
+          class: '',
+          year: ' '
+        },
+        {
+          date: '7.',
+          milestone: 'Second Phase Nosana Launch: Deployment Suite',
+          class: '',
+          year: ' '
+        },
+        {
+          date: '8.',
+          milestone: 'Third Phase Nosana Launch: DAO',
+          class: '',
+          year: ' '
         }
       ]
     }
