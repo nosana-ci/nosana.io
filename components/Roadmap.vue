@@ -11,9 +11,7 @@
               {{ item.date }}
               <span class="is-pulled-right is-size-6">{{ item.year ? item.year : 2022 }}</span>
             </div>
-            <div>
-              {{ item.milestone }}
-            </div>
+            <div v-html="item.milestone" />
             <ul v-if="item.points" class="is-hidden-desktop">
               <li v-for="point in item.points" :key="point">
                 {{ point }}
@@ -56,8 +54,8 @@ export default {
           year: ' '
         },
         {
-          date: '4. Public Token Sale',
-          milestone: 'Complete Smart Contract security audit, conduct Solanium Public Sale, and distribute $NOS tokens',
+          date: '4.',
+          milestone: 'Complete Smart Contract security audit, conduct <b>Solanium Public Sale</b>, and distribute $NOS tokens',
           class: '',
           year: '17-1'
         },
