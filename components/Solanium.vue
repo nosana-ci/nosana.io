@@ -8,7 +8,7 @@
         {
           id: '4',
           steps: 20,
-          size: 130,
+          size: 125,
           value: days,
           stepLength: -1,
           label: 'days',
@@ -22,7 +22,7 @@
         {
           id: '3',
           steps: 24,
-          size: 130,
+          size: 125,
           value: hours,
           stepLength: -1,
           label: 'hours',
@@ -37,7 +37,7 @@
         {
           id: '2',
           steps: 60,
-          size: 130,
+          size: 125,
           value: minutes,
           stepLength: -1,
           label: 'minutes',
@@ -53,7 +53,7 @@
         {
           id: '1',
           steps: 60,
-          size: 130,
+          size: 125,
           value: seconds,
           stepLength: -1,
           label: 'seconds',
@@ -100,6 +100,7 @@ export default {
 .circles__container {
   justify-content: center;
   flex-wrap: wrap;
+  align-items: center;
   .circle__item {
     margin: 15px;
   }
