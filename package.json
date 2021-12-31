@@ -18,7 +18,8 @@
     "atropos": "^0.10.1",
     "bulma": "^0.9.2",
     "core-js": "^3.9.1",
-    "nuxt": "^2.15.3"
+    "nuxt": "^2.15.3",
+    "vue-circular-count-down-timer": "^2.0.0"
   },
   "devDependencies": {
     "@nuxtjs/color-mode": "^2.0.10",
