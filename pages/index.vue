@@ -3,7 +3,7 @@
     <home-intro />
     <section class="section">
       <div class="container">
-<!--        <solanium class="my-6" />-->
+        <solanium class="my-6" />
         <partners />
         <end-users />
       </div>

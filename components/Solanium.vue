@@ -4,6 +4,7 @@
       Whitelist for IDO on Solanium starts in
     </h1>
     <circular-count-down-timer
+      class="circles__container"
       :circles="[
         {
           id: '4',
@@ -99,6 +100,7 @@ export default {
 <style lang="scss">
 .circles__container {
   justify-content: center;
+  display: flex;
   flex-wrap: wrap;
   align-items: center;
   .circle__item {
