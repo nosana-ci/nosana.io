@@ -20,8 +20,8 @@
           </h4>
         </div>
         <three-blocks />
-        <!-- <latest-news class="mt-6 pb-6" /> -->
         <roadmap class="mt-6" />
+        <latest-news class="mt-6 pb-6" />
       </div>
     </section>
   </div>
