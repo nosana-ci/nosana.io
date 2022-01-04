@@ -4,7 +4,7 @@
       <h1 class="has-text-centered title">
         Blog Posts
       </h1>
-      <div class="columns my-6">
+      <div class="columns my-6 is-multiline">
         <client-only>
           <nuxt-link v-for="blog of blogs" :key="blog.slug" class="column is-one-third" :to="{ name: 'blog-slug', params: { slug: blog.slug } }">
             <atropos :options="{rotateTouch: false}">
@@ -25,21 +25,6 @@
             </atropos>
           </nuxt-link>
         </client-only>
-        <div class="column is-one-third">
-          <atropos :options="{rotateTouch: false}">
-            <div class="has-border-accent-light has-radius p-4" style="min-height: 432px">
-              <h3 class="title is-5 has-text-accent mt-2">
-                More coming soon
-              </h3>
-              <h4 class="subtitle is-7">
-                &nbsp;
-              </h4>
-              <p class="block has-text-white">
-                ...
-              </p>
-            </div>
-          </atropos>
-        </div>
       </div>
       <slogan-block class="mt-6 pt-6" />
     </div>

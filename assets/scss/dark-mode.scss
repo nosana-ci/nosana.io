@@ -59,6 +59,11 @@ html {
       background-color: #1c282a;
       color: $accent;
     }
+    .content blockquote {
+      background-color: $dark-mode-background;
+      border-left: 3px solid $accent;
+      font-size: 24px;
+  }
     .table {
       background-color: $dark-mode-background;
       color: white;
