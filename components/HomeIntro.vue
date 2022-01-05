@@ -2,7 +2,7 @@
   <div>
     <section class="section home-block">
       <div class="container">
-        <div class="columns mt-6" style="min-height: 75vh">
+        <div class="columns mt-6 mt-mobile-0" style="min-height: 75vh">
           <div class="column has-background-black-blur-false">
             <h1 class="title is-spaced site-title">
               Start a crowd  <br>
@@ -61,6 +61,9 @@
   right:0;
 }
 @include touch {
+  .mt-mobile-0 {
+    margin-top: 0 !important;
+  }
     .home-block {
     background: none;
   }

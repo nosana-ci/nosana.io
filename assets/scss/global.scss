@@ -3,6 +3,8 @@
 @import '../../node_modules/@creativebulma/bulma-tooltip';
 @import '../../node_modules/atropos/atropos.scss';
 @import 'dark-mode';
+@import 'bulma/sass/utilities/mixins';
+
 
 a {
   outline: 0;
@@ -137,4 +139,9 @@ a.card {
 
 .box {
   position: relative;
+}
+@include touch {
+  .site-title {
+    font-size: 40px;
+  }
 }
