@@ -4,7 +4,11 @@
     <section class="section">
       <div class="container">
         <solanium class="my-6" />
-        <partners />
+      </div>
+    </section>
+    <partners />
+    <section class="section">
+      <div class="container">
         <end-users />
       </div>
     </section>
