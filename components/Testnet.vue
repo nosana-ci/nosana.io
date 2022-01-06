@@ -10,7 +10,7 @@
               Receive tokens for running free pipelines
             </h2>
             <h2 class="subtitle">
-              Pre-register now for our incentivized Testnet
+              Pre-register now for our Incentivized Testnet
             </h2>
             <p class="block">
               The Testnet program is intended to test Nosana's CI features and tools, before going to Mainnet. Projects that participate the Incentivized Testnet program will be able to acquire NOS tokens. A total of 5,000,000 NOS tokens are available for giveaway to participants in the Testnet Program.
