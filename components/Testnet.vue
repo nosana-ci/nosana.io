@@ -1,6 +1,6 @@
 
 <template>
-  <div style="position: relative">
+  <div id="testnet" style="position: relative">
     <section class="section">
       <div class="container">
         <div class="columns">
@@ -16,7 +16,7 @@
               The Testnet program is intended to test Nosana's CI features and tools, before going to Mainnet. Projects that participate the Incentivized Testnet program will be able to acquire NOS tokens. A total of 5,000,000 NOS tokens are available for giveaway to participants in the Testnet Program.
             </p>
             <p class="block">
-              <a href="https://docs.google.com/forms/d/e/1FAIpQLSfZ8lKQv_2L5ngsFhCfGO39EzQCuUEs7RFwQICf32zr7xAbQQ/viewform" class="button is-accent" target="_blank">Pre-register</a>
+              <a href="https://docs.google.com/forms/d/e/1FAIpQLSfZ8lKQv_2L5ngsFhCfGO39EzQCuUEs7RFwQICf32zr7xAbQQ/viewform" class="button is-accent has-text-weight-semibold" target="_blank">Pre-register</a>
             </p>
           </div>
         </div>

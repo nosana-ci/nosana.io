@@ -18,8 +18,11 @@
               </p>
             </div>
             <div class="mt-6">
-              <a href="https://demo.nosana.io" target="_blank" class="button is-accent is-wide" data-atropos-offset="10">
-                <b>Launch</b>
+              <a href="#testnet" class="button is-outlined is-accent m-2">
+                <b>Pre-register Testnet</b>
+              </a>
+              <a href="https://demo.nosana.io" target="_blank" class="m-2 button is-accent is-wide">
+                <b>Demo</b>
               </a>
             </div>
             <socials class="mt-6" />
