@@ -7,8 +7,13 @@
       <h2 class="title">
         Give power back to the end users
       </h2>
-      <p>
+      <p class="block">
         Our vision is to democratize CPU cloud computing. Nosana connects blockchain developers and services to a global pool of computing power. As a result, everyone will be able to rent out their spare CPU to power the next Metaverse. Our first project (Galactica) is focused on providing the compute power required to run projects' CI/CD infrastructure. So they no longer have to rely on Big Tech for their computational needs.
+      </p>
+      <p class="block">
+        <a href="https://demo.nosana.io" target="_blank" class="button is-accent is-wide">
+          <b>Demo</b>
+        </a>
       </p>
     </div>
   </div>

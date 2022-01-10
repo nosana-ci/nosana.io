@@ -24,6 +24,11 @@
           </h4>
         </div>
         <three-blocks />
+      </div>
+    </section>
+    <testnet />
+    <section class="section mt-6">
+      <div class="container">
         <roadmap class="mt-6" />
         <latest-news class="mt-6 pb-6" />
       </div>
