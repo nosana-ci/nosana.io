@@ -1,7 +1,7 @@
 <template>
   <div class="has-text-centered">
     <h1 class="title">
-      Whitelist for IDO on Solanium starts in
+      Whitelist for IDO now open!
     </h1>
     <circular-count-down-timer
       class="circles__container"
@@ -69,14 +69,14 @@
       ]"
       :main-circle-id="'1'"
     />
-    <a class="button is-accent is-medium has-text-weight-semibold mt-4" target="_blank" href="https://www.solanium.io/project/nosana/">Go to IDO</a>
+    <a class="button is-accent is-medium has-text-weight-semibold mt-4" target="_blank" href="https://www.solanium.io/project/nosana/">Register for Whitelist</a>
   </div>
 </template>
 
 <script>
 export default {
   data () {
-    const dateFuture = new Date(1641823200000)
+    const dateFuture = new Date(1642003200000)
     const dateNow = new Date()
 
     let seconds = Math.floor((dateFuture - (dateNow)) / 1000)
