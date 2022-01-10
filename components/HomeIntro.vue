@@ -21,8 +21,8 @@
               <a href="#testnet" class="button is-outlined is-accent m-2">
                 <b>Pre-register Testnet</b>
               </a>
-              <a href="https://demo.nosana.io" target="_blank" class="m-2 button is-accent is-wide">
-                <b>Demo</b>
+              <a href="https://discord.gg/nosana" target="_blank" class="m-2 button is-accent is-wide">
+                <b>Join Discord</b>
               </a>
             </div>
             <socials class="mt-6" />
