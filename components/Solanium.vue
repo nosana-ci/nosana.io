@@ -76,7 +76,7 @@
 <script>
 export default {
   data () {
-    const dateFuture = new Date(1642003200000)
+    const dateFuture = new Date(1641996000000)
     const dateNow = new Date()
 
     let seconds = Math.floor((dateFuture - (dateNow)) / 1000)
