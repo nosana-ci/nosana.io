@@ -72,7 +72,7 @@
       :stop-conditions="{ '1': 0, '2': 0, '3': 0, '4': 0}"
       @finished="updateTimer"
     />
-    <a class="button is-accent is-medium has-text-weight-semibold mt-4" target="_blank" href="https://www.solanium.io/project/nosana/">Register for Whitelist</a>
+    <a class="button is-accent is-medium has-text-weight-semibold mt-4" target="_blank" href="https://www.solanium.io/project/nosana/">{{ button }}</a>
   </div>
 </template>
 
@@ -85,20 +85,28 @@ export default {
     const dateNow = new Date()
     let dateEnd
     let title
+    let button
     let showTimer = true
     if (dateNow < dateWhitelistEnd) {
       title = 'Whitelist for IDO now open!'
+      button = 'Register for Whitelist'
       console.log('dateWhitelistEnd', dateWhitelistEnd)
       dateEnd = dateWhitelistEnd
     } else if (dateNow < dateSaleSart) {
       title = 'Tokensale starts in:'
+      button = 'Go to IDO'
+
       console.log('dateSaleSart', dateSaleSart)
       dateEnd = dateSaleSart
     } else if (dateNow < dateSaleEnd) {
       title = 'IDO Tokensale now open!'
+      button = 'Go to Tokensale'
+
       console.log('dateSaleEnd', dateSaleEnd)
       dateEnd = dateSaleEnd
     } else {
+      title = 'IDO on Solanium'
+      button = 'Go to IDO'
       showTimer = false
     }
 
@@ -115,7 +123,8 @@ export default {
       hours,
       minutes,
       seconds,
-      title
+      title,
+      button
     }
   },
   methods: {
@@ -131,17 +140,25 @@ export default {
       this.showTimer = true
       if (dateNow < dateWhitelistEnd) {
         this.title = 'Whitelist for IDO now open!'
+        this.button = 'Register for Whitelist'
+
         console.log('dateWhitelistEnd', dateWhitelistEnd)
         dateEnd = dateWhitelistEnd
       } else if (dateNow < dateSaleSart) {
         this.title = 'Tokensale starts in:'
+        this.button = 'Go to IDO'
+
         console.log('dateSaleSart', dateSaleSart)
         dateEnd = dateSaleSart
       } else if (dateNow < dateSaleEnd) {
         this.title = 'IDO Tokensale now open!'
+        this.button = 'Go to Tokensale'
+
         console.log('dateSaleEnd', dateSaleEnd)
         dateEnd = dateSaleEnd
       } else {
+        this.title = 'IDO on Solanium'
+        this.button = 'Go to IDO'
         this.showTimer = false
       }
 
