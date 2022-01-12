@@ -151,6 +151,17 @@
           <a class="is-size-7 has-text-accent" target="_blank" href="/img/Nosana_Logomark_black.svg" download>.svg</a>
           <a class="is-size-7 ml-5 has-text-accent" target="_blank" href="/img/Nosana_Logomark_black.png" download>.png</a>
         </div>
+        <div class="column is-one-quarter has-text-centered">
+          <div class="has-border has-radius p-5 has-background-white">
+            <img
+              src="~assets/img/NOS_logo.png"
+            >
+          </div>
+          <div class="subtitle is-6 mb-0">
+            NOS Token Logo
+          </div>
+          <a class="is-size-7 has-text-accent" target="_blank" href="/img/NOS_logo.png" download>.png</a>
+        </div>
       </div>
       <div class="subtitle is-4 mt-6">
         <span class="has-text-accent">02</span> Color Pallete
