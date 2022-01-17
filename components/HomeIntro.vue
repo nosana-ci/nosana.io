@@ -26,6 +26,7 @@
               </a>
             </div>
             <socials class="mt-6" />
+            <exchanges class="mt-3" />
             <div class="has-limited-width-small mt-5">
               <p>
                 Powered by
