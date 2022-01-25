@@ -1,11 +1,6 @@
 <template>
   <div>
     <home-intro />
-    <section class="section">
-      <div class="container">
-        <solanium class="my-6" />
-      </div>
-    </section>
     <partners />
     <section class="section">
       <div class="container">
@@ -16,12 +11,8 @@
     <section class="section mt-6">
       <div class="container">
         <div class="has-text-centered">
-          <h2 class="title ">
-            Project Galactica
-          </h2>
-          <h4 class="subtitle">
-            commitment
-          </h4>
+          <h2 class="title">Project Galactica</h2>
+          <h4 class="subtitle">commitment</h4>
         </div>
         <three-blocks />
       </div>
@@ -43,7 +34,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-@import 'bulma/sass/utilities/mixins';
+@import "bulma/sass/utilities/mixins";
 
 @keyframes moveX {
   0% {
@@ -74,7 +65,7 @@ export default {
     width: 100%;
     position: absolute;
     height: 100%;
-    opacity: .7;
+    opacity: 0.7;
     top: 0;
     filter: blur(50px);
     left: 0;
@@ -100,13 +91,16 @@ export default {
     transform: translate(-50%, -50%);
     mix-blend-mode: difference;
     &:nth-child(1) {
-      animation: moveX 38s linear 0s infinite alternate-reverse, moveY 24s linear 0s infinite alternate-reverse;
+      animation: moveX 38s linear 0s infinite alternate-reverse,
+        moveY 24s linear 0s infinite alternate-reverse;
     }
     &:nth-child(2) {
-      animation: moveX 34s linear 0s infinite alternate, moveY 15s linear 0s infinite alternate-reverse;
+      animation: moveX 34s linear 0s infinite alternate,
+        moveY 15s linear 0s infinite alternate-reverse;
     }
     &:nth-child(3) {
-      animation: moveY 38s linear 0s infinite alternate-reverse, moveX 24s linear 0s infinite alternate-reverse;
+      animation: moveY 38s linear 0s infinite alternate-reverse,
+        moveX 24s linear 0s infinite alternate-reverse;
     }
   }
 }
