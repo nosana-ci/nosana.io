@@ -1,14 +1,32 @@
-<svg width="780" height="471" viewBox="0 0 780 471" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M297.548 227L297.548 23.6936" stroke="#5FFF00" stroke-width="2.05578" stroke-linecap="round" stroke-linejoin="round"/>
-<circle cx="297.393" cy="23.41" r="5.49663" transform="rotate(-180 297.393 23.41)" fill="#5FFF00" stroke="#5FFF00" stroke-width="2"/>
-<circle cx="297.547" cy="23.3115" r="9.81818" transform="rotate(90 297.547 23.3115)" stroke="#5FFF00"/>
-<circle opacity="0.4" cx="297.547" cy="23.3114" r="15.8926" transform="rotate(90 297.547 23.3114)" stroke="#5FFF00" stroke-width="1.08017"/>
-<circle opacity="0.06" cx="298.312" cy="23.3114" r="22.7714" transform="rotate(90 298.312 23.3114)" stroke="#5FFF00" stroke-width="1.08017"/>
+<svg width="780" height="371" viewBox="0 0 780 471" fill="none" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<style>.line path {  stroke-dasharray: 215;  stroke-dashoffset: 215;  animation: draw 2s ease forwards; animation-delay: 1s;}@keyframes draw {from {stroke-dashoffset: 215;}to {stroke-dashoffset: 0;}}</style>
+<style>.circle {  opacity:0; animation: pulse 2s infinite; animation-delay: 3s;}@keyframes pulse {0% {opacity: 0;} 50% {opacity: 1;} 100% {opacity: 0;}</style>
+</defs>
+<g class="line">
+<path  d="M297.548 227L297.548 23.6936" stroke="#5FFF00"  stroke-width="2.05578" stroke-linecap="round" stroke-linejoin="round" />
+<g class="circle">
+<g><circle cx="297.393" cy="23.41" r="5.49663" transform="rotate(-180 297.393 23.41)" fill="#5FFF00" stroke="#5FFF00" stroke-width="2"/></g>
+<g><circle cx="297.547" cy="23.3115" r="9.81818" transform="rotate(90 297.547 23.3115)" stroke="#5FFF00"/></g>
+<g><circle opacity="0.4" cx="297.547" cy="23.3114" r="15.8926" transform="rotate(90 297.547 23.3114)" stroke="#5FFF00" stroke-width="1.08017"/></g>
+<g><circle opacity="0.06" cx="298.312" cy="23.3114" r="22.7714" transform="rotate(90 298.312 23.3114)" stroke="#5FFF00" stroke-width="1.08017"/></g>
+</g></g>
+<g class="line">
 <path d="M593.548 318L593.548 114.694" stroke="#5FFF00" stroke-width="2.05578" stroke-linecap="round" stroke-linejoin="round"/>
-<circle cx="593.393" cy="114.41" r="5.49663" transform="rotate(-180 593.393 114.41)" fill="#5FFF00" stroke="#5FFF00" stroke-width="2"/>
-<circle cx="593.547" cy="114.311" r="9.81818" transform="rotate(90 593.547 114.311)" stroke="#5FFF00"/>
-<circle opacity="0.4" cx="593.547" cy="114.311" r="15.8926" transform="rotate(90 593.547 114.311)" stroke="#5FFF00" stroke-width="1.08017"/>
-<circle opacity="0.06" cx="594.312" cy="114.311" r="22.7714" transform="rotate(90 594.312 114.311)" stroke="#5FFF00" stroke-width="1.08017"/>
+<g class="circle">
+<g><circle cx="593.393" cy="114.41" r="5.49663" transform="rotate(-180 593.393 114.41)" fill="#5FFF00" stroke="#5FFF00" stroke-width="2"/></g>
+<g><circle cx="593.547" cy="114.311" r="9.81818" transform="rotate(90 593.547 114.311)" stroke="#5FFF00"/></g>
+<g><circle opacity="0.4" cx="593.547" cy="114.311" r="15.8926" transform="rotate(90 593.547 114.311)" stroke="#5FFF00" stroke-width="1.08017"/></g>
+<g><circle opacity="0.06" cx="594.312" cy="114.311" r="22.7714" transform="rotate(90 594.312 114.311)" stroke="#5FFF00" stroke-width="1.08017"/></g>
+</g></g>
+<g class="line">
+<path d="M201.548 357L201.548 153.694" stroke="#5FFF00" stroke-width="2.05578" stroke-linecap="round" stroke-linejoin="round"/>
+<g class="circle">
+<g><circle cx="201.393" cy="153.41" r="5.49663" transform="rotate(-180 201.393 153.41)" fill="#5FFF00" stroke="#5FFF00" stroke-width="2"/></g>
+<g><circle cx="201.547" cy="153.311" r="9.81818" transform="rotate(90 201.547 153.311)" stroke="#5FFF00"/></g>
+<g><circle opacity="0.4" cx="201.547" cy="153.311" r="15.8926" transform="rotate(90 201.547 153.311)" stroke="#5FFF00" stroke-width="1.08017"/></g>
+<g><circle opacity="0.06" cx="202.312" cy="153.311" r="22.7714" transform="rotate(90 202.312 153.311)" stroke="#5FFF00" stroke-width="1.08017"/></g>
+</g></g>
 <g clip-path="url(#clip0_567_409)">
 <path d="M571.298 242.612L593.279 293.21L615.81 329.433L639.165 348.369" stroke="#10E80C" stroke-linecap="round" stroke-linejoin="round"/>
 <path d="M490.324 235.351L512.864 279.101L535.349 328.316L558.374 359.457L582.013 376.772" stroke="#10E80C" stroke-linecap="round" stroke-linejoin="round"/>
@@ -85,11 +103,7 @@
 <path d="M586.822 194.688L595.486 203.679L598.911 207.241L621.442 226.991" stroke="#10E80C" stroke-linecap="round" stroke-linejoin="round"/>
 <path d="M316.068 260.669L303.814 248.939L295.965 241.431L276.127 226.616L256.646 219.694L237.458 214.401" stroke="#10E80C" stroke-linecap="round" stroke-linejoin="round"/>
 <path d="M197.187 215.509L204.495 214.163L208.91 213.358L217.4 211.792L225.698 212.872L238.282 212.698L257.589 209.567L276.566 203.533L295.268 196.4L314.172 203.048L332.618 195.924L350.817 188.892L368.777 181.942L386.5 175.093L405.577 181.475L424.903 187.042L444.466 192.527L456.034 194.651" stroke="#10E80C" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M201.548 357L201.548 153.694" stroke="#5FFF00" stroke-width="2.05578" stroke-linecap="round" stroke-linejoin="round"/>
-<circle cx="201.393" cy="153.41" r="5.49663" transform="rotate(-180 201.393 153.41)" fill="#5FFF00" stroke="#5FFF00" stroke-width="2"/>
-<circle cx="201.547" cy="153.311" r="9.81818" transform="rotate(90 201.547 153.311)" stroke="#5FFF00"/>
-<circle opacity="0.4" cx="201.547" cy="153.311" r="15.8926" transform="rotate(90 201.547 153.311)" stroke="#5FFF00" stroke-width="1.08017"/>
-<circle opacity="0.06" cx="202.312" cy="153.311" r="22.7714" transform="rotate(90 202.312 153.311)" stroke="#5FFF00" stroke-width="1.08017"/>
+
 </g>
 <defs>
 <clipPath id="clip0_567_409">

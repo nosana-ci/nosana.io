@@ -29,30 +29,40 @@
     </section>
     <section class="section">
       <div class="container">
-        <accordion>
-          <accordion-item v-for="faq in filteredFaqs" :key="faq.question">
-            <!-- This slot will handle the title/header of the accordion and is the part you click on -->
-            <template slot="accordion-trigger">
-              <h3 class="subtitle mb-4 has-text-weight-semibold">
-                {{ faq.question }}
-              </h3>
-            </template>
-            <!-- This slot will handle all the content that is passed to the accordion -->
-            <template slot="accordion-content">
-              <span v-html="faq.answer" />
-            </template>
-          </accordion-item>
-        </accordion>
-        <div class="columns mt-6 pt-6">
-          <div class="column is-4">
-            <h1 class="title">Didn't find your answer?</h1>
-            <p>Write us a message on discord</p>
+        <div
+          class="has-limited-width is-horizontal-centered"
+          style="width: 960px"
+        >
+          <accordion>
+            <accordion-item v-for="faq in filteredFaqs" :key="faq.question">
+              <!-- This slot will handle the title/header of the accordion and is the part you click on -->
+              <template slot="accordion-trigger">
+                <h3 class="subtitle mb-4 has-text-weight-semibold">
+                  {{ faq.question }}
+                </h3>
+              </template>
+              <!-- This slot will handle all the content that is passed to the accordion -->
+              <template slot="accordion-content">
+                <span v-html="faq.answer" />
+              </template>
+            </accordion-item>
+          </accordion>
+        </div>
+      </div>
+    </section>
+    <section class="section has-background-image has-text-centered half-circle">
+      <div class="container">
+        <div class="mt-6 pt-6">
+          <div class="">
+            <h1 class="title">Didn't find your<br />answer?</h1>
+            <p>Join our Discord</p>
           </div>
-          <div class="column is-offset-1 pt-6">
+          <div class="mt-6">
             <a
               href="https://discord.gg/nosana"
               target="_blank"
-              class="subtitle is-1"
+              class="subtitle is-1 px-4"
+              style="background: rgba(0, 0, 0, 0.6)"
             >
               <i class="fab fa-discord" />
             </a>
@@ -161,5 +171,9 @@ export default {
 <style lang="scss" scoped>
 .faq-header {
   background-image: url("~assets/img/faq.png");
+}
+.half-circle {
+  background-image: url("~assets/img/half-circle.svg");
+  background-position: bottom center;
 }
 </style>
