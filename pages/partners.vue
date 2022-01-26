@@ -84,6 +84,58 @@
         </div>
       </div>
     </section>
+    <section class="section py-6">
+      <div class="container">
+        <div class="has-text-centered">
+          <h2 class="title">Empower your Crowd</h2>
+        </div>
+        <div class="columns mt-6">
+          <div class="column is-one-third">
+            <atropos :options="{ rotateTouch: false }">
+              <div
+                class="has-border-accent-light has-radius p-4"
+                style="min-height: 260px"
+              >
+                <h3 class="subtitle is-1 has-text-accent mt-2">1</h3>
+                <p class="block">
+                  Reward the best contributors after each software development
+                  cycle.
+                </p>
+              </div>
+            </atropos>
+          </div>
+          <div class="column is-one-third">
+            <atropos :options="{ rotateTouch: false }">
+              <div
+                class="has-border-accent-light has-radius p-4"
+                style="min-height: 260px"
+              >
+                <h3 class="subtitle is-1 has-text-accent mt-2">2</h3>
+                <p class="block">
+                  Get the community involved with regular updates. Keep them
+                  happy, involved & active during development cycles.
+                </p>
+              </div>
+            </atropos>
+          </div>
+          <div class="column is-one-third">
+            <atropos :options="{ rotateTouch: false }">
+              <div
+                class="has-border-accent-light has-radius p-4"
+                style="min-height: 260px"
+              >
+                <h3 class="subtitle is-1 has-text-accent mt-2">3</h3>
+                <p class="block">
+                  Get your development extra exposure through (y)our channels,
+                  boosting confidence that your project is moving in the right
+                  direction.
+                </p>
+              </div>
+            </atropos>
+          </div>
+        </div>
+      </div>
+    </section>
   </div>
 </template>
 
