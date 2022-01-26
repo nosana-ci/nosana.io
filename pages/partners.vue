@@ -3,16 +3,20 @@
     <section class="section partners-background has-background-image">
       <div class="container">
         <div class="columns">
-          <div class="column is-6">
-            <h1 class="title is-1 mt-6">The future of development is now.</h1>
-            <p class="mt-6">
-              We’re Nosana. We help your team to develop software faster, more
-              cost-effective, and secure through the Nosana network. Keep your
-              project running for eternity with Nosana, all with the help of
-              (y)our community. The computations in the Metaverse should not
-              require a credit card attached to your Amazon account, but should
-              be provided directly by the users. We enable your project to move
-              from the cloud to the crowd.
+          <div class="column is-6 mt-6">
+            <h1 class="title is-1 mt-6 is-spaced">
+              The future of development is now.
+            </h1>
+            <h2 class="subtitle mt-6">
+              We're Nosana. We help your team to develop software faster, more
+              cost-effective, and secure through the Nosana network.
+            </h2>
+            <p class="block">
+              Keep your project running for eternity with Nosana, all with the
+              help of (y)our community. The computations in the Metaverse should
+              not require a credit card attached to your Amazon account, but
+              should be provided directly by the users. We enable your project
+              to move from the cloud to the crowd.
             </p>
           </div>
         </div>
