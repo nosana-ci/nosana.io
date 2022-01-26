@@ -39,10 +39,25 @@
             </template>
             <!-- This slot will handle all the content that is passed to the accordion -->
             <template slot="accordion-content">
-              <span v-html="faq.answer"></span>
+              <span v-html="faq.answer" />
             </template>
           </accordion-item>
         </accordion>
+        <div class="columns mt-6 pt-6">
+          <div class="column is-4">
+            <h1 class="title">Didn't find your answer?</h1>
+            <p>Write us a message on discord</p>
+          </div>
+          <div class="column is-offset-1 pt-6">
+            <a
+              href="https://discord.gg/nosana"
+              target="_blank"
+              class="subtitle is-1"
+            >
+              <i class="fab fa-discord" />
+            </a>
+          </div>
+        </div>
       </div>
     </section>
   </div>

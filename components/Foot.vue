@@ -16,6 +16,9 @@
             <nuxt-link class="navbar-item" to="/blog" exact-active-class="is-active">
               <div>Blog</div>
             </nuxt-link>
+            <nuxt-link class="navbar-item" to="/faq" exact-active-class="is-active">
+              <div>FAQ</div>
+            </nuxt-link>
             <a target="_blank" href="mailto:team@nosana.io" class="navbar-item" exact-active-class="is-active">
               <div>Contact</div>
             </a>
@@ -27,7 +30,9 @@
       <img src="~/assets/img/Nosana_Logo_vertical_color_white.svg" class="logo" style="height: 80px">
     </div>
     <div class="px-6 m-2 py-4 has-radius has-text-centered">
-      <small class="is-size-7"><span style="font-family: monospace">©</span> NOSANA 2021</small>
+      <small
+      class="is-size-7"
+      ><span style="font-family: monospace">©</span> NOSANA 2021</small>
     </div>
   </footer>
 </template>
