@@ -41,23 +41,24 @@
           <div class="title">Phase 2</div>
           <div>
             <h2 class="subtitle is-3">Nosana Testnet for users</h2>
+
             <ul>
               <li>
-                Open-source software projects are Incentivized based on their
-                Nosana network usage. In other words, you will receive tokens
-                for running free pipelines.
+                Once projects are successfully running pipelines in the Testnet
+                we’ll expand the program for users to become a node.
               </li>
               <li>
-                All participants will receive a limited amount of Testnet
-                tokens.
+                Lend out spare CPU from your devicesl to power pipelines and
+                you'll earn free tokens.
               </li>
               <li>
-                We will begin the testnet with certified nodes, to make sure
-                your tests run smoothly.
+                Token rewards are calculated based on pipeline seconds and
+                resource capacity.
               </li>
               <li>
-                These tokens can only be used to run Nosana pipelines, and
-                cannot be traded till our mainnet product is launched.
+                These tokens can only be used to run Nosana pipelines in
+                TestNet, and cannot be traded till our mainnet product is
+                launched.
               </li>
             </ul>
             <p class="block">

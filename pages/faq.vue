@@ -78,7 +78,7 @@ export default {
         {
           question: 'Who is the team behind Nosana?',
           answer:
-            'The Nosana team is a distributed group of individuals with a strong technical background in the blockchain and CI/CD industry. We share a drive to disrupt the established cloud computing industry using decentralized technologies. We want to make the Metaverse a safe place of freedom where people don\'t have to sacrifice their privacy to large corps.  If you feel you belong here as well send an email to team@nosana.io - developers, marketeers, content writers, community mods, designers, and in general people of passion are welcome." More information about the team is coming soon!'
+            "The Nosana team is a distributed group of individuals with a strong technical background in the blockchain and CI/CD industry. We share a drive to disrupt the established cloud computing industry using decentralized technologies. We want to make the Metaverse a safe place of freedom where people don't have to sacrifice their privacy to large corps.  If you feel you belong here as well send an email to team@nosana.io - developers, marketeers, content writers, community mods, designers, and in general people of passion are welcome. More information about the team is coming soon!"
         },
         {
           question: 'Will there be a public token sale?',
@@ -88,7 +88,7 @@ export default {
         {
           question: 'When did the IDO take place?',
           answer:
-            'The IDO took place on Solanium on the 17th of January. For more information, please go to: <a target="_blank" href="https://solanium.io/project/nosana">https://solanium.io/project/nosana</a>'
+            'The IDO took place on Solanium on the 17th of January, 2022. For more information, please go to: <a target="_blank" href="https://solanium.io/project/nosana">https://solanium.io/project/nosana</a>'
         },
         {
           question: 'How will the incentivized Testnet work?',
@@ -106,19 +106,19 @@ export default {
             'Yes, as part of our Incentivized Testnet program. Selected open source projects will be able to join our airdrop.'
         },
         {
-          question: 'Why stake NOS tokens with Mainnet release?',
+          question: 'Why stake NOS tokens with the Mainnet release?',
           answer:
             'By staking you’ll become a verified node. Run a pipeline. Earn NOS. Testing nodes run pipelines, verifying the coding of projects through our CI/CD network. By staking NOS tokens we secure the network from false nodes. Staking will have other benefits as well. More info will be provided later.'
         },
         {
-          question: 'How to earn NOS tokens with Mainnet release?',
+          question: 'How to earn NOS tokens with the Mainnet release?',
           answer:
-            'It’s simple: just open the App, no more technological knowledge is required. You can run the App on a range of different devices like your home computer, a Raspberry PI, or your phone.'
+            'It’s simple: just open the app, no further technological knowledge is required. You can run the app on a range of devices like your home computer, a Raspberry PI, or your phone.'
         },
         {
           question: 'What is the token address?',
           answer:
-            'The token address is nosXBVoaCTtYdLvKY6Csb4AC8JCdQKKAaWYtx2ZMoo7. The token is an SPL token on the Solana network. Be aware of scammers! You can find the most up-to-date information on our <a target="_blank" href="https://docs.nosana.io/tokenomics/metrics.html#token-distribution">token page</a>.'
+            'The token address is nosXBVoaCTtYdLvKY6Csb4AC8JCdQKKAaWYtx2ZMoo7. NOS is an SPL token on the Solana network. Be aware of scammers! You can find the most up-to-date information on our <a target="_blank" href="https://docs.nosana.io/tokenomics/metrics.html#token-distribution">token page</a>.'
         },
         {
           question: 'How can I contact the team?',
@@ -128,10 +128,10 @@ export default {
         {
           question: 'What wallet can I use for NOS tokens?',
           answer:
-            'For the majority of users, we recommend using one of the <a href="https://docs.solana.com/wallet-guide/apps" target="_blank">app wallets</a> or a browser-based <a href="https://docs.solana.com/wallet-guide/web-wallets" target="_blank">web wallet</a>, which will provide a more familiar user experience rather than needing to learn command line tools.'
+            'For the majority of users, we recommend using one of the <a href="https://docs.solana.com/wallet-guide/apps" target="_blank">app wallets</a> or a browser-based <a href="https://docs.solana.com/wallet-guide/web-wallets" target="_blank">web wallet</a>, which will provide a more familiar user experience rather than needing to learn command-line tools.'
         },
         {
-          question: 'What is the minimum buy in?',
+          question: 'What is the minimum buy-in?',
           answer:
             'Thanks for your interest in our project. The Seed round and private round are closed'
         },
