@@ -11,7 +11,7 @@ export default {
     return {
       Accordion: {
         count: 0,
-        active: null
+        active: 0
       }
     }
   },

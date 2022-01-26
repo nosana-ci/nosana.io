@@ -1,12 +1,15 @@
 <template>
-  <li class="accordion__item">
+  <li class="accordion__item" @click="open">
     <div
       class="accordion__trigger"
       :class="{ accordion__trigger_active: visible }"
-      @click="open"
     >
       <!-- This slot will handle the title/header of the accordion and is the part you click on -->
       <slot name="accordion-trigger" />
+      <span class="is-size-3 has-text-accent" style="line-height: 1">
+        <span v-if="visible">-</span>
+        <span v-else>+</span>
+      </span>
     </div>
 
     <transition
@@ -65,13 +68,23 @@ export default {
 .accordion__item {
   cursor: pointer;
   padding: 10px 20px 10px 40px;
-  border-bottom: 1px solid #ebebeb;
+  border-bottom: 1px solid $accent;
   position: relative;
+  transition: background-color 0.2s ease;
+  &:hover {
+    background-color: rgba($accent, 0.08);
+  }
 }
 
 .accordion__trigger {
   display: flex;
   justify-content: space-between;
+  &.accordion__trigger_active {
+    color: $accent;
+    > * {
+      color: $accent;
+    }
+  }
 }
 
 .accordion-enter-active,
