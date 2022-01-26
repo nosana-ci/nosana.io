@@ -8,6 +8,14 @@
 
 a {
   outline: 0;
+  &.subtitle {
+    &:hover {
+      color: $accent;
+    }
+  }
+}
+.input {
+  border-width: 1px;
 }
 
 .has-limited-width {
@@ -141,7 +149,7 @@ a.card {
   position: relative;
 }
 @include touch {
-  .site-title {
+  .site-title, .title.is-1 {
     font-size: 40px;
   }
 }
