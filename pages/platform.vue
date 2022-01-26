@@ -37,7 +37,7 @@
           </div>
         </div>
       </section>
-      <img src="~assets/img/area.svg" width="35%" class="area" />
+      <areasvg width="35%" class="area" />
     </div>
     <section class="section">
       <div class="container">
@@ -52,7 +52,12 @@
 </template>
 
 <script>
+import Areasvg from '~/assets/img/area.svg?inline'
+
 export default {
+  components: {
+    Areasvg
+  },
   colorMode: 'dark'
 }
 </script>
