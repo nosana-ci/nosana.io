@@ -32,7 +32,7 @@
             </div>
             <div @click="mobileMenu = false">
               <nuxt-link class="navbar-item" to="/platform" exact-active-class="is-active">
-                <div>Tesnet</div>
+                <div>Testnet</div>
               </nuxt-link>
             </div>
             <div @click="mobileMenu = false">
