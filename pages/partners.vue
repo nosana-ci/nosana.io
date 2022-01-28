@@ -24,8 +24,10 @@
     </section>
     <section class="section">
       <div class="container">
-        <div class="columns">
-          <div class="column is-6"></div>
+        <div class="columns mt-6">
+          <div class="column is-6">
+            <img src="~assets/img/cloud-crowd.png" />
+          </div>
           <div class="column is-5 is-offset-1">
             <h1 class="subtitle is-3 mt-6">
               Move from the Cloud to the Crowd.

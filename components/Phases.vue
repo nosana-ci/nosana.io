@@ -63,7 +63,7 @@
             </ul>
             <p class="block">
               <a
-                href="https://bit.ly/NosanaBetaForm-hp"
+                href="https://bit.ly/NosanaUserForm-hp"
                 class="button is-accent is-outlined has-text-weight-semibold"
                 target="_blank"
                 >Pre-register users</a
