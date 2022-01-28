@@ -31,6 +31,11 @@
               </nuxt-link>
             </div>
             <div @click="mobileMenu = false">
+              <nuxt-link class="navbar-item" to="/platform" exact-active-class="is-active">
+                <div>Tesnet</div>
+              </nuxt-link>
+            </div>
+            <div @click="mobileMenu = false">
               <nuxt-link class="navbar-item" to="/earn" exact-active-class="is-active">
                 <div>Earn</div>
               </nuxt-link>
