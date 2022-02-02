@@ -135,7 +135,6 @@ export default {
     }
   }
   ul {
-    font-size: 12px;
     line-height: 25px;
     margin: 20px;
     font-weight: 300;
