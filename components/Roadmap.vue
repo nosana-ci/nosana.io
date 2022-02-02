@@ -1,6 +1,8 @@
 <template>
   <div class="roadmap-container pb-6 my-6">
-    <h2 class="title has-text-centered">Roadmap</h2>
+    <h2 class="title has-text-centered">
+      Roadmap
+    </h2>
     <div class="roadmap py-6 mb-6">
       <div
         v-for="item in roadmap"

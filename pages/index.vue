@@ -11,8 +11,12 @@
     <section class="section mt-6">
       <div class="container">
         <div class="has-text-centered">
-          <h2 class="title">Project Galactica</h2>
-          <h4 class="subtitle">commitment</h4>
+          <h2 class="title">
+            Project Galactica
+          </h2>
+          <h4 class="subtitle">
+            commitment
+          </h4>
         </div>
         <three-blocks />
       </div>

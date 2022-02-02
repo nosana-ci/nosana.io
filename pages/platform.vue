@@ -11,7 +11,7 @@
             </div>
             <div class="column is-4 mt-6 pt-6">
               <div class="block mt-6">
-                <img src="~assets/img/icon-testnet-1.svg" height="42" />
+                <img src="~assets/img/icon-testnet-1.svg" height="42">
                 <p>
                   The Testnet program is intended to rigorously test Nosana's
                   platform, before going to Mainnet. We need the community's
@@ -19,14 +19,14 @@
                 </p>
               </div>
               <div class="block mt-6">
-                <img src="~assets/img/icon-testnet-2.svg" height="42" />
+                <img src="~assets/img/icon-testnet-2.svg" height="42">
                 <p>
                   We're giving away a total of <b>5,000,000 NOS</b> tokens to
                   participants of the Testnet Program.
                 </p>
               </div>
               <div class="block mt-6">
-                <img src="~assets/img/icon-testnet-3.svg" height="42" />
+                <img src="~assets/img/icon-testnet-3.svg" height="42">
                 <p>
                   Testnet access will be open for projects first. After extended
                   testing, the platform will open for a selection of
@@ -46,7 +46,7 @@
             <phases />
           </div>
           <div class="column is-6 is-offset-1">
-            <img src="~assets/img/testnet-desktop.png" />
+            <img src="~assets/img/testnet-desktop.png">
           </div>
         </div>
       </div>
