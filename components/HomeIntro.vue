@@ -5,8 +5,8 @@
         <div class="columns mt-6 mt-mobile-0" style="min-height: 75vh">
           <div class="column has-background-black-blur-false">
             <h1 class="title is-spaced site-title">
-              Start a crowd <br />
-              revolution <br />
+              Start a crowd <br>
+              revolution <br>
             </h1>
             <h2 class="subtitle">
               The decentralized <s>cloud</s> crowd computing network.
@@ -35,16 +35,18 @@
             <div class="has-limited-width-small mt-5">
               <p>
                 Powered by
-                <img
-                  width="20px"
-                  max-width="200px"
-                  height="32px"
-                  max-height="80px"
-                  contain
-                  class="mx-2 greyscale-false"
-                  :src="require('@/assets/img/solana.svg')"
-                  alt="Solana"
-                />
+                <a href="https://explorer.solana.com/address/nosXBVoaCTtYdLvKY6Csb4AC8JCdQKKAaWYtx2ZMoo7">
+                  <img
+                    width="20px"
+                    max-width="200px"
+                    height="32px"
+                    max-height="80px"
+                    contain
+                    class="mx-2 greyscale-false"
+                    :src="require('@/assets/img/solana.svg')"
+                    alt="Solana"
+                  >
+                </a>
                 Solana
               </p>
             </div>
@@ -52,7 +54,7 @@
         </div>
       </div>
     </section>
-    <img src="~assets/img/ring_animated.svg" width="45%" class="ring" />
+    <img src="~assets/img/ring_animated.svg" width="45%" class="ring">
   </div>
 </template>
 

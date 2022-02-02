@@ -3,9 +3,13 @@
     <div class="roadmap py-6 mb-6">
       <div class="roadmap-item is-completed">
         <div class="content has-radius-small p-3 pl-6">
-          <div class="title">Phase 1</div>
+          <div class="title">
+            Phase 1
+          </div>
           <div>
-            <h2 class="subtitle is-3">Nosana Testnet for projects</h2>
+            <h2 class="subtitle is-3">
+              Nosana Testnet for projects
+            </h2>
             <ul>
               <li>
                 Open-source software projects are Incentivized based on their
@@ -30,17 +34,20 @@
                 href="https://bit.ly/NosanaBetaForm-hp"
                 class="button is-accent is-outlined has-text-weight-semibold"
                 target="_blank"
-                >Pre-register projects</a
-              >
+              >Pre-register projects</a>
             </p>
           </div>
         </div>
       </div>
       <div class="roadmap-item">
         <div class="content has-radius-small p-3 pl-6">
-          <div class="title">Phase 2</div>
+          <div class="title">
+            Phase 2
+          </div>
           <div>
-            <h2 class="subtitle is-3">Nosana Testnet for users</h2>
+            <h2 class="subtitle is-3">
+              Nosana Testnet for users
+            </h2>
 
             <ul>
               <li>
@@ -66,8 +73,7 @@
                 href="https://bit.ly/NosanaUserForm-hp"
                 class="button is-accent is-outlined has-text-weight-semibold"
                 target="_blank"
-                >Pre-register users</a
-              >
+              >Pre-register users</a>
             </p>
           </div>
         </div>

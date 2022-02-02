@@ -2,7 +2,9 @@
   <div>
     <section class="section has-background-image faq-header">
       <div class="container has-text-centered">
-        <h1 class="title is-1">FAQ</h1>
+        <h1 class="title is-1">
+          FAQ
+        </h1>
         <p>Everything you need to get started on Nosana</p>
         <div
           class="
@@ -19,7 +21,7 @@
               class="input is-accent"
               type="text"
               placeholder="Search by keyword"
-            />
+            >
           </div>
           <div class="control">
             <a class="button is-accent has-text-weight-semibold"> Search </a>
@@ -43,6 +45,7 @@
               </template>
               <!-- This slot will handle all the content that is passed to the accordion -->
               <template slot="accordion-content">
+                <!-- eslint-disable vue/no-v-html -->
                 <span v-html="faq.answer" />
               </template>
             </accordion-item>
@@ -54,7 +57,9 @@
       <div class="container">
         <div class="mt-6 pt-6">
           <div class="">
-            <h1 class="title">Didn't find your<br />answer?</h1>
+            <h1 class="title">
+              Didn't find your<br>answer?
+            </h1>
             <p>Join our Discord</p>
           </div>
           <div class="mt-6">

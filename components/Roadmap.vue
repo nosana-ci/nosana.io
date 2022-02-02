@@ -1,6 +1,8 @@
 <template>
   <div class="roadmap-container pb-6 my-6">
-    <h2 class="title has-text-centered">Roadmap</h2>
+    <h2 class="title has-text-centered">
+      Roadmap
+    </h2>
     <div class="roadmap py-6 mb-6">
       <div
         v-for="item in roadmap"
@@ -18,6 +20,7 @@
                 item.year ? item.year : 2022
               }}</span>
             </div>
+            <!-- eslint-disable vue/no-v-html -->
             <div v-html="item.milestone" />
             <ul v-if="item.points" class="is-hidden-desktop">
               <li v-for="point in item.points" :key="point">

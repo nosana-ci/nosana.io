@@ -6,7 +6,9 @@
         <div class="columns">
           <div class="column is-5" />
           <div class="column">
-            <h2 class="title">Receive tokens for running free pipelines</h2>
+            <h2 class="title">
+              Receive tokens for running free pipelines
+            </h2>
             <h2 class="subtitle">
               Pre-register now for our Incentivized Testnet
             </h2>
@@ -21,14 +23,15 @@
               <nuxt-link
                 to="/platform"
                 class="button is-accent has-text-weight-semibold"
-                >Pre-register</nuxt-link
               >
+                Pre-register
+              </nuxt-link>
             </p>
           </div>
         </div>
       </div>
     </section>
-    <img src="~assets/img/spiral.svg" width="35%" class="spiral" />
+    <img src="~assets/img/spiral.svg" width="35%" class="spiral">
   </div>
 </template>
 

@@ -26,7 +26,7 @@
       <div class="container">
         <div class="columns mt-6">
           <div class="column is-6">
-            <img src="~assets/img/cloud-crowd.png" />
+            <img src="~assets/img/cloud-crowd.png">
           </div>
           <div class="column is-5 is-offset-1">
             <h1 class="subtitle is-3 mt-6">
@@ -49,7 +49,9 @@
       <div class="container">
         <div class="columns">
           <div class="column is-5">
-            <h1 class="subtitle is-3 mt-6">Benefits for early partnerships</h1>
+            <h1 class="subtitle is-3 mt-6">
+              Benefits for early partnerships
+            </h1>
             <ul>
               <li>
                 Guaranteed access to our Incentivized TestNet (5 million $NOS
@@ -84,7 +86,7 @@
           >
             <div />
             <div style="margin-bottom: -57px">
-              <img src="~assets/img/phone.png" />
+              <img src="~assets/img/phone.png">
             </div>
           </div>
         </div>
@@ -93,7 +95,9 @@
     <section class="section py-6">
       <div class="container">
         <div class="has-text-centered">
-          <h2 class="title">Empower your Crowd</h2>
+          <h2 class="title">
+            Empower your Crowd
+          </h2>
         </div>
         <div class="columns mt-6">
           <div class="column is-one-third">
@@ -102,7 +106,9 @@
                 class="has-border-accent-light has-radius p-4"
                 style="min-height: 260px"
               >
-                <h3 class="subtitle is-1 has-text-accent mt-2">1</h3>
+                <h3 class="subtitle is-1 has-text-accent mt-2">
+                  1
+                </h3>
                 <p class="block">
                   Reward the best contributors after each software development
                   cycle.
@@ -116,7 +122,9 @@
                 class="has-border-accent-light has-radius p-4"
                 style="min-height: 260px"
               >
-                <h3 class="subtitle is-1 has-text-accent mt-2">2</h3>
+                <h3 class="subtitle is-1 has-text-accent mt-2">
+                  2
+                </h3>
                 <p class="block">
                   Get the community involved with regular updates. Keep them
                   happy, involved & active during development cycles.
@@ -130,7 +138,9 @@
                 class="has-border-accent-light has-radius p-4"
                 style="min-height: 260px"
               >
-                <h3 class="subtitle is-1 has-text-accent mt-2">3</h3>
+                <h3 class="subtitle is-1 has-text-accent mt-2">
+                  3
+                </h3>
                 <p class="block">
                   Get your development extra exposure through (y)our channels,
                   boosting confidence that your project is moving in the right
