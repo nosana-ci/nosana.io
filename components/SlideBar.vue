@@ -2,7 +2,12 @@
 export default {
   name: 'VueInfiniteSlideBar',
   props: {
-    barStyle: Object,
+    barStyle: {
+      type: Object,
+      default () {
+        return {}
+      }
+    },
     duration: {
       type: String,
       default: '20s'
@@ -27,13 +32,21 @@ export default {
         'animation-duration': this.duration,
         'animation-direction': this.direction,
         'animation-delay': this.delay,
-        'animation-play-state': (this.paused) ? 'paused' : 'running'
+        'animation-play-state': this.paused ? 'paused' : 'running'
       }
     }
   },
   render (createElement) {
-    const bar = createElement('div', { class: 'vifnslb-bar' }, this.$slots.default)
-    const slider = createElement('div', { class: ['vifnslb-element'], style: this.customStyle }, [bar, bar])
+    const bar = createElement(
+      'div',
+      { class: 'vifnslb-bar' },
+      this.$slots.default
+    )
+    const slider = createElement(
+      'div',
+      { class: ['vifnslb-element'], style: this.customStyle },
+      [bar, bar]
+    )
     return createElement('div', { class: ['vifnslb-container'] }, [slider])
   }
 }

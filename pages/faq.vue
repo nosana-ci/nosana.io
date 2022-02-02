@@ -45,6 +45,7 @@
               </template>
               <!-- This slot will handle all the content that is passed to the accordion -->
               <template slot="accordion-content">
+                <!-- eslint-disable vue/no-v-html -->
                 <span v-html="faq.answer" />
               </template>
             </accordion-item>

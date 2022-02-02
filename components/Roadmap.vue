@@ -20,6 +20,7 @@
                 item.year ? item.year : 2022
               }}</span>
             </div>
+            <!-- eslint-disable vue/no-v-html -->
             <div v-html="item.milestone" />
             <ul v-if="item.points" class="is-hidden-desktop">
               <li v-for="point in item.points" :key="point">
