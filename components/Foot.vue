@@ -16,6 +16,9 @@
             <nuxt-link class="navbar-item" to="/blog" exact-active-class="is-active">
               <div>Blog</div>
             </nuxt-link>
+            <nuxt-link class="navbar-item" to="/team" exact-active-class="is-active">
+              <div>Team</div>
+            </nuxt-link>
             <nuxt-link class="navbar-item" to="/faq" exact-active-class="is-active">
               <div>FAQ</div>
             </nuxt-link>
