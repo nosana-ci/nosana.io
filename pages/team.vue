@@ -64,7 +64,7 @@ export default {
         },
         {
           name: 'Nahil',
-          description: 'Our graphic design extraordinaire. Using traditional art tools and computer software to communicate ideas, and develops the overall layout and production design for everything we do.'
+          description: 'Our graphic design extraordinaire. Using traditional art tools and computer software to communicate ideas, he develops the overall layout and production design for everything we do.'
         }
       ]
     }
