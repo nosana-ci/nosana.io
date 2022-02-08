@@ -165,7 +165,7 @@ export default {
 .partners-background {
   background-image: url("~assets/img/partners.png");
   min-height: 100vh;
-  margin-top: -70px;
+  margin-top: -80px;
   padding-top: 100px;
 }
 .benefits-background {
