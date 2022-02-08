@@ -20,7 +20,7 @@
             </div>
             <div class="mt-6">
               <a href="#testnet" class="button is-outlined is-accent m-2">
-                <b>Incentived Testnet</b>
+                <b>Incentivized Testnet</b>
               </a>
               <a
                 href="https://discord.gg/nosana"
