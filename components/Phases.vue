@@ -55,7 +55,7 @@
                 we’ll expand the program for users to become a node.
               </li>
               <li>
-                Lend out spare CPU from your devicesl to power pipelines and
+                Lend out spare CPU from your devices to power pipelines and
                 you'll earn free tokens.
               </li>
               <li>
