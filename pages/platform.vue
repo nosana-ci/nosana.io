@@ -30,7 +30,7 @@
                 <p>
                   Testnet access will be open for projects first. After extended
                   testing, the platform will open for a selection of
-                  pre-register users.
+                  pre-registered users.
                 </p>
               </div>
             </div>
