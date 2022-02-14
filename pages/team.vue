@@ -17,7 +17,7 @@
         <div class="columns is-multiline is-variable is-8">
           <div v-for="person in team" :key="person.name" class="column is-6">
             <div class="px-2 mt-6">
-              <img src="~assets/img/head.svg">
+              <img :src="require(`@/assets/img/team/${person.name}.png`)">
               <h2 class="subtitle is-5 mt-2 mb-4">
                 {{ person.name }}
               </h2>
