@@ -19,9 +19,9 @@
               </p>
             </div>
             <div class="mt-6">
-              <a href="#testnet" class="button is-outlined is-accent m-2">
+              <nuxt-link to="/platform" class="button is-outlined is-accent m-2">
                 <b>Incentivized Testnet</b>
-              </a>
+              </nuxt-link>
               <a
                 href="https://discord.gg/nosana"
                 target="_blank"

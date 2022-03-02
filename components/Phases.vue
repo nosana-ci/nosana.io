@@ -12,29 +12,27 @@
             </h2>
             <ul>
               <li>
-                Open-source software projects are Incentivized based on their
-                Nosana network usage. In other words, you will receive tokens
-                for running free pipelines.
+                Open-source software projects are Incentivized based on their Nosana network usage. In other words, <b>you will receive tokens for running free pipelines.</b>
               </li>
               <li>
-                All participants will receive a limited amount of Testnet
-                tokens.
+                Selected projects will automatically receive 500 $NOS tokens for onboarding our Testnet. You can <b>earn up to 10.000 $NOS tokens</b> by testing code with our Network.
               </li>
               <li>
-                We will begin the testnet with certified nodes, to make sure
-                your tests run smoothly.
+                Our pipelines will support basic ESLint checks. More features and supported languages will be added, development will be based on community feedback. Make sure to follow our <a href="https://discord.gg/nosana" target="_blank">Discord</a>.
               </li>
               <li>
-                These tokens can only be used to run Nosana pipelines, and
-                cannot be traded till our mainnet product is launched.
+                We will begin the testnet with certified nodes, to make sure your tests run smoothly.
+              </li>
+              <li>
+                Testnet tokens can only be used to run Nosana pipelines, and will convert to vested Mainnet tokens after we launch our mainnet product.
               </li>
             </ul>
             <p class="block">
               <a
-                href="https://bit.ly/NosanaBetaForm-hp"
+                href="https://testnet.nosana.io"
                 class="button is-accent is-outlined has-text-weight-semibold"
                 target="_blank"
-              >Pre-register projects</a>
+              >Join Incentivized Testnet</a>
             </p>
           </div>
         </div>

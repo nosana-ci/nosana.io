@@ -67,14 +67,14 @@ export default {
         {
           date: '4.',
           milestone:
-            'Complete the Incentivized Testnet - mining & staking module',
-          class: 'is-active',
-          year: ' '
+            'Complete the Incentivized Testnet',
+          class: 'is-completed',
+          year: 'Done'
         },
         {
           date: '5.',
           milestone: 'Incentivized Testnet goes Live',
-          class: '',
+          class: 'is-active',
           year: ' '
         },
         {

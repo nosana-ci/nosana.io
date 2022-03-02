@@ -7,26 +7,22 @@
           <div class="column is-5" />
           <div class="column">
             <h2 class="title">
-              Receive tokens for running free pipelines
+              Give power back to the end users
             </h2>
-            <h2 class="subtitle">
+            <!-- <h2 class="subtitle">
               Pre-register now for our Incentivized Testnet
-            </h2>
+            </h2> -->
             <p class="block">
-              The Testnet program is intended to test Nosana's CI features and
-              tools, before going to Mainnet. Projects that participate the
-              Incentivized Testnet program will be able to acquire NOS tokens. A
-              total of 5,000,000 NOS tokens are available for giveaway to
-              participants in the Testnet Program.
+              Our vision is to democratize CPU cloud computing. Nosana connects blockchain developers and services to a global pool of computing power. As a result, everyone will be able to rent out their spare CPU to power the next Metaverse. Our first project (Galactica) is focused on providing compute power that is required to run projects' CI/CD infrastructure, so they no longer have to rely on Big Tech for their computational needs.
             </p>
-            <p class="block">
+            <!-- <p class="block">
               <nuxt-link
                 to="/platform"
                 class="button is-accent has-text-weight-semibold"
               >
                 Pre-register
               </nuxt-link>
-            </p>
+            </p> -->
           </div>
         </div>
       </div>

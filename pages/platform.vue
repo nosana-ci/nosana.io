@@ -9,28 +9,28 @@
                 The Nosana Incentivized Testnet program
               </h1>
             </div>
-            <div class="column is-4 mt-6 pt-6">
+            <div class="column is-4 mt-6">
+              <div class="block">
+                <p>
+                  The Testnet program is intended to rigorously test Nosana's platform, before going to Mainnet. We need the community's help to make our testphase as successful as possible.
+                </p>
+              </div>
               <div class="block mt-6">
                 <img src="~assets/img/icon-testnet-1.svg" height="42">
                 <p>
-                  The Testnet program is intended to rigorously test Nosana's
-                  platform, before going to Mainnet. We need the community's
-                  help to make our testphase as successful as possible.
+                  Projects are now able to <a href="https://testnet.nosana.io" target="_blank">join our Incentivized Testnet.</a>
                 </p>
               </div>
               <div class="block mt-6">
                 <img src="~assets/img/icon-testnet-2.svg" height="42">
                 <p>
-                  We're giving away a total of <b>5,000,000 NOS</b> tokens to
-                  participants of the Testnet Program.
+                  We’re <b>giving away $NOS tokens to all active participants of the Testnet Program.</b> We have now specified the amount of tokens that projects can earn below.
                 </p>
               </div>
               <div class="block mt-6">
                 <img src="~assets/img/icon-testnet-3.svg" height="42">
                 <p>
-                  Testnet access will be open for projects first. After extended
-                  testing, the platform will open for a selection of
-                  pre-registered users.
+                  Testnet access is now available for selected projects. After extended testing, the platform will open for a selection of pre-registered users.
                 </p>
               </div>
             </div>

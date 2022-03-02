@@ -5,14 +5,20 @@
     </div>
     <div class="column is-offset-1 is-5">
       <h2 class="title">
-        Give power back to the end users
+        Receive tokens for running free pipelines
       </h2>
+      <h4 class="subtitle">
+        Incentivized Testnet is now live for projects!
+      </h4>
       <p class="block">
-        Our vision is to democratize CPU cloud computing. Nosana connects blockchain developers and services to a global pool of computing power. As a result, everyone will be able to rent out their spare CPU to power the next Metaverse. Our first project (Galactica) is focused on providing the compute power required to run projects' CI/CD infrastructure. So they no longer have to rely on Big Tech for their computational needs.
+        Open-source software projects are incentivized based on their Nosana network usage. In other words, <b>you will receive tokens for running free pipelines.</b> Selected projects will automatically receive 500 $NOS tokens for onboarding our Testnet and can <b>earn up to 10.000 $NOS tokens</b> by running ESLint pipelines with our Network.
       </p>
       <p class="block">
-        <a href="https://demo.nosana.io" target="_blank" class="button is-accent is-wide">
-          <b>Demo</b>
+        <nuxt-link to="/platform" class="button is-accent is-outlined is-wide mr-4">
+          <b>More information</b>
+        </nuxt-link>
+        <a href="https://testnet.nosana.io" target="_blank" class="button is-accent is-wide">
+          <b>Join our Testnet now</b>
         </a>
       </p>
     </div>
