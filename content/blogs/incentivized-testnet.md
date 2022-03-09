@@ -1,6 +1,6 @@
 ---
-title: 'Nosana Incentivized Testnet'
-description: Technical details of the Nosana Incentivized Testnet program
+title: 'Technical details Nosana Incentivized Testnet'
+description: This post will provide an overview of the decentralized technical architecture
 img: /img/testnet.png
 createdAt: '2022-02-16'
 ---
