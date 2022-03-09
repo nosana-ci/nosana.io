@@ -53,9 +53,9 @@
               </nuxt-link>
             </div>
             <div class="navbar-item" exact-active-class="is-active" @click="mobileMenu = false">
-              <a target="_blank" href="mailto:team@nosana.io" class="button is-accent is-outlined px-5 is-wide" to="/account" exact-active-class="is-active">
+              <a target="_blank" href="https://testnet.nosana.io" class="button is-accent is-outlined px-5 is-wide" exact-active-class="is-active">
                 <div>
-                  Contact
+                  Launch
                 </div>
               </a>
             </div>
