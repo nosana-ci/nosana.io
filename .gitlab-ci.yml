@@ -6,11 +6,6 @@ stages:
   - deploy
   - post
 
-cache:
-  paths:
-    - node_modules
-  key: project
-
 build:
   stage: build
   script:
@@ -18,6 +13,10 @@ build:
   only:
     - merge_requests
     - main
+  cache:
+    paths:
+      - node_modules
+    key: project
 
 test:
   stage: test
