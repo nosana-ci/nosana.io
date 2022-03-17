@@ -9,6 +9,7 @@ stages:
 cache:
   paths:
     - node_modules
+  key: $CI_COMMIT_REF_SLUG
 
 build:
   stage: build
