@@ -2,7 +2,7 @@
   <div id="app">
     <nav-bar />
     <Nuxt />
-    <foot />
+    <foot data-aos="slide-up" />
   </div>
 </template>
 

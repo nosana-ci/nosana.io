@@ -1,9 +1,9 @@
 <template>
   <div class="columns is-vcentered">
-    <div class="column is-6">
+    <div class="column is-6" data-aos="zoom-in">
       <grid class="mt-6" />
     </div>
-    <div class="column is-offset-1 is-5">
+    <div class="column is-offset-1 is-5" data-aos="fade-left">
       <h2 class="title">
         Receive tokens for running free pipelines
       </h2>

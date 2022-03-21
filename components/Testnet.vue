@@ -5,7 +5,7 @@
       <div class="container">
         <div class="columns">
           <div class="column is-5" />
-          <div class="column">
+          <div class="column" data-aos="fade-up">
             <h2 class="title">
               Give power back to the end users
             </h2>
@@ -27,7 +27,7 @@
         </div>
       </div>
     </section>
-    <img src="~assets/img/spiral.svg" width="35%" class="spiral">
+    <img src="~assets/img/spiral.svg" width="35%" class="spiral" data-aos="fade-right">
   </div>
 </template>
 

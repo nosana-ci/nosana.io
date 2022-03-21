@@ -1,11 +1,18 @@
 <template>
   <div>
-    <h1 class="has-text-centered title">
+    <h1 class="has-text-centered title" data-aos="fade-up">
       Latest News
     </h1>
     <div class="columns my-6">
       <client-only>
-        <nuxt-link v-for="blog of blogs" :key="blog.slug" class="column is-one-third" :to="{ name: 'blog-slug', params: { slug: blog.slug } }">
+        <nuxt-link
+          v-for="(blog, i) of blogs"
+          :key="blog.slug"
+          class="column is-one-third"
+          :to="{ name: 'blog-slug', params: { slug: blog.slug } }"
+          data-aos="fade-up"
+          :data-aos-delay="200*i"
+        >
           <atropos :options="{rotateTouch: false}">
             <div class="has-border-accent-light has-radius p-4" style="min-height: 325px">
               <div style="height: 150px; width: 100%;" :style="{'background-image': `url('${blog.thumbnail ? blog.thumbnail : blog.img}')`}" class="has-background-image" />

@@ -1,6 +1,6 @@
 <template>
   <div class="roadmap-container pb-6 my-6">
-    <h2 class="title has-text-centered">
+    <h2 class="title has-text-centered" data-aos="fade-up">
       Roadmap
     </h2>
     <div class="roadmap py-6 mb-6">
@@ -8,6 +8,7 @@
         v-for="item in roadmap"
         :key="item.milestone"
         :class="'roadmap-item ' + item.class"
+        data-aos="flip-up"
       >
         <atropos
           :options="{ highlight: false, rotateYMax: 0, rotateTouch: false }"

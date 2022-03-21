@@ -7,7 +7,7 @@
         </h4>
       </div>
     </div>
-    <slide-bar duration="60s" direction="reverse">
+    <slide-bar duration="60s" direction="reverse" data-aos="fade-right">
       <div v-for="partner in partners.slice(0, Math.ceil(partners.length / 2))" :key="partner.url" class="mx-6">
         <div>
           <a :href="partner.url" target="_blank" class="partner">
@@ -24,7 +24,7 @@
         </div>
       </div>
     </slide-bar>
-    <slide-bar duration="60s">
+    <slide-bar duration="60s" data-aos="fade-left">
       <div v-for="partner in partners.slice(Math.ceil(partners.length / 2), partners.length)" :key="partner.url" class="mx-6">
         <div>
           <a :href="partner.url" target="_blank" class="partner">

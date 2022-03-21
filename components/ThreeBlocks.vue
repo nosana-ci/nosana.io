@@ -2,7 +2,7 @@
   <section class="section py-6">
     <div class="container">
       <div class="columns">
-        <div class="column is-one-third">
+        <div class="column is-one-third" data-aos="fade-up" data-aos-delay="200">
           <atropos :options="{rotateTouch: false}">
             <div class="has-border-accent-light has-radius p-4" style="min-height: 260px">
               <h3 class="subtitle is-6 has-text-accent mt-2">
@@ -14,7 +14,7 @@
             </div>
           </atropos>
         </div>
-        <div class="column is-one-third">
+        <div class="column is-one-third" data-aos="fade-up" data-aos-delay="400">
           <atropos :options="{rotateTouch: false}">
             <div class="has-border-accent-light has-radius p-4" style="min-height: 260px">
               <h3 class="subtitle is-6 has-text-accent mt-2">
@@ -26,7 +26,7 @@
             </div>
           </atropos>
         </div>
-        <div class="column is-one-third">
+        <div class="column is-one-third" data-aos="fade-up" data-aos-delay="600">
           <atropos :options="{rotateTouch: false}">
             <div class="has-border-accent-light has-radius p-4" style="min-height: 260px">
               <h3 class="subtitle is-6 has-text-accent mt-2">

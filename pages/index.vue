@@ -11,10 +11,10 @@
     <section class="section mt-6">
       <div class="container">
         <div class="has-text-centered">
-          <h2 class="title">
+          <h2 class="title" data-aos="fade-up">
             Project Galactica
           </h2>
-          <h4 class="subtitle">
+          <h4 class="subtitle" data-aos="fade-up">
             commitment
           </h4>
         </div>
