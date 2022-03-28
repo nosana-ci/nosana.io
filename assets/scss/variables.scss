@@ -43,3 +43,10 @@ $control-border-width: 2px;
 $footer-background-color: transparent;
 $input-background-color: rgba($accent, 0.08);
 $input-color: white;
+
+$border: $accent;
+$tabs-link-hover-border-bottom-color: $accent;
+$tabs-link-active-border-bottom-color: $accent;
+$tabs-link-color: white;
+$tabs-link-hover-color: $accent;
+$tabs-link-active-color: $accent;
