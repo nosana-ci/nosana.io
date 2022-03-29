@@ -61,13 +61,13 @@
               </p>
             </div>
             <div class="column is-4" data-aos="fade-up" data-aos-delay="400">
-              <img src="~assets/img/icons/content.svg" height="80">
+              <img src="~assets/img/icons/apps.svg" height="80">
               <p>
                 Build real-world Blockchain experience and gain new marketable skills to help push your career to new heights.
               </p>
             </div>
             <div class="column is-4" data-aos="fade-up" data-aos-delay="600">
-              <img src="~assets/img/icons/develop.svg" height="80">
+              <img src="~assets/img/icons/badge.svg" height="80">
               <p>
                 Get a distinctive Server Bounty Badge for your contributions to our Discourse community.
               </p>
@@ -80,7 +80,7 @@
           </h2>
           <div class="columns is-variable is-1">
             <div class="column is-4" data-aos="fade-up" data-aos-delay="200">
-              <img src="~assets/img/icons/token.svg" height="80">
+              <img src="~assets/img/icons/community.svg" height="80">
               <p>
                 You’re a crypto enthusiast, a community leader, an influencer, or an CICD expert and have the capability to promote Nosana within your group.
               </p>
