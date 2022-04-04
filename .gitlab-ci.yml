@@ -1,4 +1,7 @@
-image: node:14
+- project: nosana-ci/tools/cicd/gitlab-ci
+  file: templates/release.yml
+- project: nosana-ci/tools/cicd/gitlab-ci
+  file: templates/cacheflush.yml
 
 stages:
   - build
@@ -6,28 +9,31 @@ stages:
   - deploy
   - post
 
-cache:
-  paths:
-    - node_modules
-  key: $CI_COMMIT_REF_SLUG
+.npm:
+  image: node:14
+  cache:
+    paths:
+      - node_modules
+    key: $CI_COMMIT_SHORT_SHA
 
 build:
+  extends: .npm
   stage: build
-  script:
-    - npm ci
-  only:
-    - merge_requests
-    - main
+  script: npm ci
+  rules:
+    - if: $CI_MERGE_REQUEST_ID
+    - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
 
 test:
+  extends: .npm
   stage: test
-  script:
-    - npm run lint
-  only:
-    - merge_requests
-    - main
+  script: npm run lint
+  rules:
+    - if: $CI_MERGE_REQUEST_ID
+    - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
 
 pages:
+  extends: .npm
   stage: deploy
   script:
     - npm run generate
@@ -35,24 +41,17 @@ pages:
   artifacts:
     paths:
       - public
-  only:
-    - main
+  rules:
+    - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
 
 release:
-  image: registry.gitlab.com/nosana-ci/tools/containers/semver
+  extends: .release
   stage: post
-  script: release.sh
-  only:
-    - main
+  rules:
+    - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
 
 cacheflush:
+  extends: .cacheflush
   stage: post
-  script:
-    - |
-      curl -X POST \
-        --header "Content-Type: application/json" \
-        --header "Authorization: Bearer $CF_TOKEN_CACHE_PURGE_NOSANA_IO" \
-        --data '{"purge_everything":true}' \
-        "https://api.cloudflare.com/client/v4/zones/$CF_ZONE_ID_NOSANA_IO/purge_cache"
-  only:
-    - main
+  rules:
+    - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
