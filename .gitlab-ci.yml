@@ -1,7 +1,8 @@
-- project: nosana-ci/tools/cicd/gitlab-ci
-  file: templates/release.yml
-- project: nosana-ci/tools/cicd/gitlab-ci
-  file: templates/cacheflush.yml
+include:
+  - project: nosana-ci/tools/cicd/gitlab-ci
+    file: templates/release.yml
+  - project: nosana-ci/tools/cicd/gitlab-ci
+    file: templates/cacheflush.yml
 
 stages:
   - build
