@@ -1,4 +1,4 @@
-# nosana
+# nosana.io website
 
 ## Build Setup
 
