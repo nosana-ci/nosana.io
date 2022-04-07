@@ -1,6 +1,6 @@
 # nosana.io website
 
-## Build Setup
+## Build
 
 ```bash
 # install dependencies
