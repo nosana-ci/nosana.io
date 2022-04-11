@@ -37,7 +37,7 @@ export default {
         create: {
           img: require('@/assets/img/icons/create.svg'),
           title: 'Create',
-          body: 'Earn bounties by creating compelling content. As we grow, we need more tailored content that resonates in specific markets, as well as translation.'
+          body: 'Earn bounties by creating compelling content. As we grow, we more tailored content that resonates in specific markets, as well as translation.'
         },
         manage: {
           img: require('@/assets/img/icons/manage.svg'),
@@ -47,12 +47,12 @@ export default {
         code: {
           img: require('@/assets/img/icons/code.svg'),
           title: 'Code',
-          body: 'Earn bounties by developing Github tickets and Bugfix new features for the Nosana Network.'
+          body: 'Earn bounties by developing GitHub tickets and bugfix new features for the Nosana Network.'
         },
         reach: {
           img: require('@/assets/img/icons/reach.svg'),
           title: 'Reach out',
-          body: 'Earn bounties by finding open-source and crypto projects to run on our Network'
+          body: 'Earn bounties by finding open-source and crypto projects to run on our network'
         }
       }
     };
