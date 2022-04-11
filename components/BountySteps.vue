@@ -37,7 +37,7 @@ export default {
         create: {
           img: require('@/assets/img/icons/create.svg'),
           title: 'Create',
-          body: 'Earn bounties by creating compelling content. As we grow, we more tailored content that resonates in specific markets, as well as translation.'
+          body: 'Earn bounties by creating compelling content. As we grow, we need tailored content that resonates in specific markets, as well as translation.'
         },
         manage: {
           img: require('@/assets/img/icons/manage.svg'),
