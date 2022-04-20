@@ -7,7 +7,7 @@
 <script>
 export default {
   provide () {
-    return { Accordion: this.Accordion }
+    return { Accordion: this.Accordion };
   },
   props: {},
   data () {
@@ -16,9 +16,9 @@ export default {
         count: 0,
         active: 0
       }
-    }
+    };
   }
-}
+};
 </script>
 
 <style lang="scss" scoped>

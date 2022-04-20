@@ -13,7 +13,13 @@
               Pre-register now for our Incentivized Testnet
             </h2> -->
             <p class="block">
-              Our vision is to democratize CPU cloud computing. Nosana connects blockchain developers and services to a global pool of computing power. As a result, everyone will be able to rent out their spare CPU to power the next Metaverse. Our first project (Galactica) is focused on providing compute power that is required to run projects' CI/CD infrastructure, so they no longer have to rely on Big Tech for their computational needs.
+              Our vision is to democratize CPU cloud computing. Nosana connects
+              blockchain developers and services to a global pool of computing
+              power. As a result, everyone will be able to rent out their spare
+              CPU to power the next Metaverse. Our first project (Galactica) is
+              focused on providing compute power that is required to run
+              projects' CI/CD infrastructure, so they no longer have to rely on
+              Big Tech for their computational needs.
             </p>
             <!-- <p class="block">
               <nuxt-link
@@ -27,7 +33,12 @@
         </div>
       </div>
     </section>
-    <img src="~assets/img/spiral.svg" width="35%" class="spiral" data-aos="fade-right">
+    <img
+      src="~assets/img/spiral.svg"
+      width="35%"
+      class="spiral"
+      data-aos="fade-right"
+    >
   </div>
 </template>
 

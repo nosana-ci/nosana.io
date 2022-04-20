@@ -97,9 +97,9 @@ export default {
           year: ' '
         }
       ]
-    }
+    };
   }
-}
+};
 </script>
 
 <style lang="scss" scoped>

@@ -7,14 +7,19 @@
         <end-users />
       </div>
     </section>
-    <!-- <run class="my-6" /> -->
     <section class="section mt-6">
       <div class="container">
         <div class="has-text-centered">
-          <h2 class="title" data-aos="fade-up">
+          <h2
+            class="title"
+            data-aos="fade-up"
+          >
             Project Galactica
           </h2>
-          <h4 class="subtitle" data-aos="fade-up">
+          <h4
+            class="subtitle"
+            data-aos="fade-up"
+          >
             commitment
           </h4>
         </div>
@@ -34,7 +39,7 @@
 <script>
 export default {
   colorMode: 'dark'
-}
+};
 </script>
 
 <style lang="scss" scoped>

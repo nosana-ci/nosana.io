@@ -6,10 +6,26 @@
       </h1>
       <div class="columns my-6 is-multiline">
         <client-only>
-          <nuxt-link v-for="blog of blogs" :key="blog.slug" class="column is-one-third" :to="{ name: 'blog-slug', params: { slug: blog.slug } }">
-            <atropos :options="{rotateTouch: false}">
-              <div class="has-border-accent-light has-radius p-4" style="min-height: 432px">
-                <div style="height: 250px; width: 100%;" :style="{'background-image': `url('${blog.thumbnail ? blog.thumbnail : blog.img}')`}" class="has-background-image" />
+          <nuxt-link
+            v-for="blog of blogs"
+            :key="blog.slug"
+            class="column is-one-third"
+            :to="{ name: 'blog-slug', params: { slug: blog.slug } }"
+          >
+            <atropos :options="{ rotateTouch: false }">
+              <div
+                class="has-border-accent-light has-radius p-4"
+                style="min-height: 432px"
+              >
+                <div
+                  style="height: 250px; width: 100%"
+                  :style="{
+                    'background-image': `url('${
+                      blog.thumbnail ? blog.thumbnail : blog.img
+                    }')`,
+                  }"
+                  class="has-background-image"
+                />
                 <h3 class="title is-5 has-text-accent mt-2">
                   {{ blog.title }}
                 </h3>
@@ -17,7 +33,10 @@
                   Created {{ formatDate(blog.createdAt) }}
                 </h4>
                 <p class="block has-text-white">
-                  {{ blog.description }} <nuxt-link :to="{ name: 'blog-slug', params: { slug: blog.slug } }">
+                  {{ blog.description }}
+                  <nuxt-link
+                    :to="{ name: 'blog-slug', params: { slug: blog.slug } }"
+                  >
                     Read more
                   </nuxt-link>
                 </p>
@@ -32,7 +51,7 @@
 </template>
 
 <script>
-import SloganBlock from '../../components/SloganBlock.vue'
+import SloganBlock from '../../components/SloganBlock.vue';
 export default {
   components: { SloganBlock },
   colorMode: 'dark',
@@ -40,17 +59,17 @@ export default {
     const blogs = await $content('blogs')
       .only(['title', 'createdAt', 'description', 'img', 'slug'])
       .sortBy('createdAt', 'desc')
-      .fetch()
+      .fetch();
 
     return {
       blogs
-    }
+    };
   },
   methods: {
     formatDate (date) {
-      const options = { year: 'numeric', month: 'long', day: 'numeric' }
-      return new Date(date).toLocaleDateString('en', options)
+      const options = { year: 'numeric', month: 'long', day: 'numeric' };
+      return new Date(date).toLocaleDateString('en', options);
     }
   }
-}
+};
 </script>

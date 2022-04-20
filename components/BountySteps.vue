@@ -55,9 +55,9 @@ export default {
           body: 'Earn bounties by finding open-source and crypto projects to run on our Network'
         }
       }
-    }
+    };
   }
-}
+};
 </script>
 
 <style lang="scss" scoped>

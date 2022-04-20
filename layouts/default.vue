@@ -2,18 +2,18 @@
   <div id="app">
     <nav-bar />
     <Nuxt />
-    <foot data-aos="zoom-in" />
+    <nos-foot data-aos="zoom-in" />
   </div>
 </template>
 
 <script>
-import NavBar from '@/components/NavBar'
+import NavBar from '@/components/NavBar';
 
 export default {
   components: {
     NavBar
   }
-}
+};
 </script>
 
 <style lang="scss">

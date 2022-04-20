@@ -33,9 +33,9 @@ export default {
           icon: 'github'
         }
       ]
-    }
+    };
   }
-}
+};
 </script>
 
 <style lang="scss" scoped>

@@ -2,12 +2,33 @@
   <div>
     <section class="section teams-background has-background-image">
       <div class="container">
-        <div class="mt-6 py-2 has-text-centered has-limited-width is-horizontal-centered" style="background: linear-gradient(180deg, #010C04 0%, rgba(1, 12, 4, 0) 180.4%);">
+        <div
+          class="
+            mt-6
+            py-2
+            has-text-centered has-limited-width
+            is-horizontal-centered
+          "
+          style="
+            background: linear-gradient(
+              180deg,
+              #010c04 0%,
+              rgba(1, 12, 4, 0) 180.4%
+            );
+          "
+        >
           <h1 class="title is-spaced is-1 has-text-weight-semibold">
             Team overview
           </h1>
           <p class="is-size-6 has-text-weight-semibold has-text-white">
-            The Nosana team is a distributed group of individuals with a strong technical background in the blockchain and CI/CD industry. We share a drive to disrupt the established cloud computing industry using decentralized technologies. We want to make the Metaverse a safe place of freedom where people don't have to sacrifice their privacy to large corps.  If you feel you belong here as well send an email to team@nosana.io - developers, marketeers, content writers, community mods, designers, and in general people of passion are welcome."
+            The Nosana team is a distributed group of individuals with a strong
+            technical background in the blockchain and CI/CD industry. We share
+            a drive to disrupt the established cloud computing industry using
+            decentralized technologies. We want to make the Metaverse a safe
+            place of freedom where people don't have to sacrifice their privacy
+            to large corps. If you feel you belong here as well send an email to
+            team@nosana.io - developers, marketeers, content writers, community
+            mods, designers, and in general people of passion are welcome."
           </p>
         </div>
       </div>
@@ -67,9 +88,9 @@ export default {
           description: 'Our graphic design extraordinaire. Using traditional art tools and computer software to communicate ideas, he develops the overall layout and production design for everything we do.'
         }
       ]
-    }
+    };
   }
-}
+};
 </script>
 
 <style lang="scss" scoped>

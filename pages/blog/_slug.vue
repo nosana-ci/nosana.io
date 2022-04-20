@@ -9,16 +9,22 @@
             </nuxt-link>
           </div>
           <div class="column is-6">
-            <div style="height: 350px; width: 100%;" :style="{'background-image': `url('${blog.img}')`}" class="has-background-image" />
+            <div
+              style="height: 350px; width: 100%"
+              :style="{ 'background-image': `url('${blog.img}')` }"
+              class="has-background-image"
+            />
             <h1>{{ blog.title }}</h1>
             <p class="has-text-accent">
-              <span v-if="blog.author">By <b>{{ blog.author }} </b> </span>
-              <span>- Article created: <b>{{ formatDate(blog.createdAt) }}</b></span>
+              <span v-if="blog.author">By <b>{{ blog.author }} </b>
+              </span>
+              <span>- Article created:
+                <b>{{ formatDate(blog.createdAt) }}</b></span>
             </p>
             <nuxt-content :document="blog" />
           </div>
           <div class="column is-3">
-            &nbsp;
+&nbsp;
           </div>
         </div>
       </article>
@@ -30,17 +36,17 @@
 export default {
   colorMode: 'dark',
   async asyncData ({ $content, params }) {
-    const blog = await $content('blogs', params.slug).fetch()
+    const blog = await $content('blogs', params.slug).fetch();
 
-    return { blog }
+    return { blog };
   },
   methods: {
     formatDate (date) {
-      const options = { year: 'numeric', month: 'long', day: 'numeric' }
-      return new Date(date).toLocaleDateString('en', options)
+      const options = { year: 'numeric', month: 'long', day: 'numeric' };
+      return new Date(date).toLocaleDateString('en', options);
     }
   }
-}
+};
 </script>
 
 <style lang="scss">
@@ -52,7 +58,7 @@ export default {
     height: auto;
     margin-right: 0;
     min-width: initial;
-    padding:0;
+    padding: 0;
     text-align: initial;
     vertical-align: initial;
     background-color: transparent;
@@ -63,16 +69,16 @@ export default {
     width: auto;
     height: auto;
     &:after {
-      content: '';
+      content: "";
       position: absolute;
       left: -23px;
-      padding-right:8px;
-      top:0;
+      padding-right: 8px;
+      top: 0;
       display: block;
     }
   }
   *:hover > a > .icon-link:after {
-    content: '#'
+    content: "#";
   }
 }
 </style>

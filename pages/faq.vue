@@ -93,7 +93,7 @@ export default {
         {
           question: 'Who is the team behind Nosana?',
           answer:
-            "The Nosana team is a distributed group of individuals with a strong technical background in the blockchain and CI/CD industry. We share a drive to disrupt the established cloud computing industry using decentralized technologies. We want to make the Metaverse a safe place of freedom where people don't have to sacrifice their privacy to large corps.  If you feel you belong here as well send an email to team@nosana.io - developers, marketeers, content writers, community mods, designers, and in general people of passion are welcome. More information about the team is coming soon!"
+            'The Nosana team is a distributed group of individuals with a strong technical background in the blockchain and CI/CD industry. We share a drive to disrupt the established cloud computing industry using decentralized technologies. We want to make the Metaverse a safe place of freedom where people don\'t have to sacrifice their privacy to large corps.  If you feel you belong here as well send an email to team@nosana.io - developers, marketeers, content writers, community mods, designers, and in general people of passion are welcome. More information about the team is coming soon!'
         },
         {
           question: 'Will there be a public token sale?',
@@ -108,7 +108,7 @@ export default {
         {
           question: 'How will the incentivized Testnet work?',
           answer:
-            "The Testnet program is intended to test Nosana's CI features and tools, before going to Mainnet. Projects that participate in the Incentivized Testnet program will be able to acquire NOS tokens. A total of 5,000,000 NOS tokens are available for giveaway to participants in the Testnet Program."
+            'The Testnet program is intended to test Nosana\'s CI features and tools, before going to Mainnet. Projects that participate in the Incentivized Testnet program will be able to acquire NOS tokens. A total of 5,000,000 NOS tokens are available for giveaway to participants in the Testnet Program.'
         },
         {
           question: 'When will the incentivized Testnet start?',
@@ -155,22 +155,20 @@ export default {
           answer: 'Total supply: 100,000,000 NOS'
         }
       ]
-    }
+    };
   },
   computed: {
     filteredFaqs () {
       if (this.search !== null) {
-        return this.faqs.filter((faq) => {
-          return (
-            faq.question.toLowerCase().includes(this.search.toLowerCase()) ||
+        return this.faqs.filter(faq => (
+          faq.question.toLowerCase().includes(this.search.toLowerCase()) ||
             faq.answer.toLowerCase().includes()
-          )
-        })
+        ));
       }
-      return this.faqs
+      return this.faqs;
     }
   }
-}
+};
 </script>
 
 <style lang="scss" scoped>
