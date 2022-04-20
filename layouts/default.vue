@@ -2,7 +2,7 @@
   <div id="app">
     <nav-bar />
     <Nuxt />
-    <foot data-aos="zoom-in" />
+    <nos-foot data-aos="zoom-in" />
   </div>
 </template>
 

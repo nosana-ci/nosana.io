@@ -12,25 +12,38 @@
             <div class="column is-4 mt-6">
               <div class="block">
                 <p>
-                  The Testnet program is intended to rigorously test Nosana's platform, before going to Mainnet. We need the community's help to make our testphase as successful as possible.
+                  The Testnet program is intended to rigorously test Nosana's
+                  platform, before going to Mainnet. We need the community's
+                  help to make our testphase as successful as possible.
                 </p>
               </div>
               <div class="block mt-6">
                 <img src="~assets/img/icon-testnet-1.svg" height="42">
                 <p>
-                  Projects are now able to <a href="https://testnet.nosana.io" target="_blank">join our Incentivized Testnet.</a>
+                  Projects are now able to
+                  <a href="https://testnet.nosana.io" target="_blank">
+                    join our Incentivized Testnet.
+                  </a>
                 </p>
               </div>
               <div class="block mt-6">
                 <img src="~assets/img/icon-testnet-2.svg" height="42">
                 <p>
-                  We’re <b>giving away $NOS tokens to all active participants of the Testnet Program.</b> We have now specified the amount of tokens that projects can earn below.
+                  We’re
+                  <b>
+                    giving away $NOS tokens to all active participants of the
+                    Testnet Program.
+                  </b>
+                  We have now specified the amount of tokens that projects can
+                  earn below.
                 </p>
               </div>
               <div class="block mt-6">
                 <img src="~assets/img/icon-testnet-3.svg" height="42">
                 <p>
-                  Testnet access is now available for selected projects. After extended testing, the platform will open for a selection of pre-registered users.
+                  Testnet access is now available for selected projects. After
+                  extended testing, the platform will open for a selection of
+                  pre-registered users.
                 </p>
               </div>
             </div>

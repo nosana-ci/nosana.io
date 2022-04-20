@@ -42,6 +42,7 @@ module.exports = {
     'no-param-reassign': 2,
     'no-shadow': 2,
     'no-tabs': 2,
-    'no-underscore-dangle': 2
+    'no-underscore-dangle': 2,
+    'vue/multi-word-component-names': 1
   }
 };

@@ -12,19 +12,30 @@
             </h2>
             <ul>
               <li>
-                Open-source software projects are Incentivized based on their Nosana network usage. In other words, <b>you will receive tokens for running free pipelines.</b>
+                Open-source software projects are Incentivized based on their
+                Nosana network usage. In other words,
+                <b>you will receive tokens for running free pipelines.</b>
               </li>
               <li>
-                Selected projects will automatically receive 500 $NOS tokens for onboarding our Testnet. You can <b>earn up to 10.000 $NOS tokens</b> by testing code with our Network.
+                Selected projects will automatically receive 500 $NOS tokens for
+                onboarding our Testnet. You can
+                <b>earn up to 10.000 $NOS tokens</b> by testing code with our
+                Network.
               </li>
               <li>
-                Our pipelines will support basic ESLint checks. More features and supported languages will be added, development will be based on community feedback. Make sure to follow our <a href="https://discord.gg/nosana" target="_blank">Discord</a>.
+                Our pipelines will support basic ESLint checks. More features
+                and supported languages will be added, development will be based
+                on community feedback. Make sure to follow our
+                <a href="https://discord.gg/nosana" target="_blank">Discord</a>.
               </li>
               <li>
-                We will begin the testnet with certified nodes, to make sure your tests run smoothly.
+                We will begin the testnet with certified nodes, to make sure
+                your tests run smoothly.
               </li>
               <li>
-                Testnet tokens can only be used to run Nosana pipelines, and will convert to vested Mainnet tokens after we launch our mainnet product.
+                Testnet tokens can only be used to run Nosana pipelines, and
+                will convert to vested Mainnet tokens after we launch our
+                mainnet product.
               </li>
             </ul>
             <p class="block">
