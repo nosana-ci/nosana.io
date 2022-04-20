@@ -45,7 +45,7 @@
 </template>
 
 <script>
-import SlideBar from '@/components/SlideBar'
+import SlideBar from '@/components/SlideBar';
 
 export default {
   components: {
@@ -131,9 +131,9 @@ export default {
           logo: require('@/assets/img/partners/blockasset.png')
         }
       ]
-    }
+    };
   }
-}
+};
 
 </script>
 

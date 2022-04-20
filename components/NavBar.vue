@@ -77,9 +77,9 @@ export default {
   data () {
     return {
       mobileMenu: false
-    }
+    };
   }
-}
+};
 </script>
 
 <style lang="scss">

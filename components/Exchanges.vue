@@ -25,9 +25,9 @@ export default {
           image: require('@/assets/img/exchanges/raydium.svg')
         }
       ]
-    }
+    };
   }
-}
+};
 </script>
 
 <style lang="scss" scoped>

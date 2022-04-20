@@ -32,7 +32,7 @@
 </template>
 
 <script>
-import SloganBlock from '../../components/SloganBlock.vue'
+import SloganBlock from '../../components/SloganBlock.vue';
 export default {
   components: { SloganBlock },
   colorMode: 'dark',
@@ -40,17 +40,17 @@ export default {
     const blogs = await $content('blogs')
       .only(['title', 'createdAt', 'description', 'img', 'slug'])
       .sortBy('createdAt', 'desc')
-      .fetch()
+      .fetch();
 
     return {
       blogs
-    }
+    };
   },
   methods: {
     formatDate (date) {
-      const options = { year: 'numeric', month: 'long', day: 'numeric' }
-      return new Date(date).toLocaleDateString('en', options)
+      const options = { year: 'numeric', month: 'long', day: 'numeric' };
+      return new Date(date).toLocaleDateString('en', options);
     }
   }
-}
+};
 </script>

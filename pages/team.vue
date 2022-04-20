@@ -67,9 +67,9 @@ export default {
           description: 'Our graphic design extraordinaire. Using traditional art tools and computer software to communicate ideas, he develops the overall layout and production design for everything we do.'
         }
       ]
-    }
+    };
   }
-}
+};
 </script>
 
 <style lang="scss" scoped>

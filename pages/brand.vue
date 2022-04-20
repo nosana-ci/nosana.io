@@ -334,32 +334,32 @@ export default {
   data () {
     return {
       example: null
-    }
+    };
   },
   mounted () {
-    const hoverButtons = document.querySelectorAll('.hoverButton')
+    const hoverButtons = document.querySelectorAll('.hoverButton');
     for (const hoverButton of hoverButtons) {
-      hoverButton.focus()
+      hoverButton.focus();
     }
   },
   methods: {
     copyToClipboard (text) {
-      const reflink = document.createElement('input')
-      reflink.setAttribute('value', text)
-      document.body.appendChild(reflink)
+      const reflink = document.createElement('input');
+      reflink.setAttribute('value', text);
+      document.body.appendChild(reflink);
       try {
-        reflink.select()
-        document.execCommand('copy')
+        reflink.select();
+        document.execCommand('copy');
         // const msg = successful ? 'successful' : 'unsuccessfully'
         // this.$snackbar.show({text: text + ' is copied ' + msg, color: successful ? 'success' : 'error'});
       } catch (err) {
-        console.log(err)
-        alert('unable to copy')
+        console.log(err);
+        alert('unable to copy');
       }
-      document.body.removeChild(reflink)
+      document.body.removeChild(reflink);
     }
   }
-}
+};
 </script>
 <style lang="scss" scoped>
 .color {

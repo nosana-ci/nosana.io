@@ -5,7 +5,7 @@ export default {
     barStyle: {
       type: Object,
       default () {
-        return {}
+        return {};
       }
     },
     duration: {
@@ -33,7 +33,7 @@ export default {
         'animation-direction': this.direction,
         'animation-delay': this.delay,
         'animation-play-state': this.paused ? 'paused' : 'running'
-      }
+      };
     }
   },
   render (createElement) {
@@ -41,15 +41,15 @@ export default {
       'div',
       { class: 'vifnslb-bar' },
       this.$slots.default
-    )
+    );
     const slider = createElement(
       'div',
       { class: ['vifnslb-element'], style: this.customStyle },
       [bar, bar]
-    )
-    return createElement('div', { class: ['vifnslb-container'] }, [slider])
+    );
+    return createElement('div', { class: ['vifnslb-container'] }, [slider]);
   }
-}
+};
 </script>
 
 <style lang="scss" scoped>

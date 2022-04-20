@@ -30,17 +30,17 @@
 export default {
   colorMode: 'dark',
   async asyncData ({ $content, params }) {
-    const blog = await $content('blogs', params.slug).fetch()
+    const blog = await $content('blogs', params.slug).fetch();
 
-    return { blog }
+    return { blog };
   },
   methods: {
     formatDate (date) {
-      const options = { year: 'numeric', month: 'long', day: 'numeric' }
-      return new Date(date).toLocaleDateString('en', options)
+      const options = { year: 'numeric', month: 'long', day: 'numeric' };
+      return new Date(date).toLocaleDateString('en', options);
     }
   }
-}
+};
 </script>
 
 <style lang="scss">

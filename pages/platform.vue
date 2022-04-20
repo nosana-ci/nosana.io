@@ -55,14 +55,14 @@
 </template>
 
 <script>
-import Areasvg from '~/assets/img/area.svg?inline'
+import Areasvg from '~/assets/img/area.svg?inline';
 
 export default {
   components: {
     Areasvg
   },
   colorMode: 'dark'
-}
+};
 </script>
 
 <style lang="scss" scoped>

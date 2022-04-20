@@ -79,44 +79,44 @@
 <script>
 export default {
   data () {
-    const dateWhitelistEnd = new Date(1641996000000)
-    const dateSaleSart = new Date(1642003200000)
-    const dateSaleEnd = new Date(1642168800000)
-    const dateNow = new Date()
-    let dateEnd
-    let title
-    let button
-    let showTimer = true
+    const dateWhitelistEnd = new Date(1641996000000);
+    const dateSaleSart = new Date(1642003200000);
+    const dateSaleEnd = new Date(1642168800000);
+    const dateNow = new Date();
+    let dateEnd;
+    let title;
+    let button;
+    let showTimer = true;
     if (dateNow < dateWhitelistEnd) {
-      title = 'Whitelist for IDO now open!'
-      button = 'Register for Whitelist'
-      console.log('dateWhitelistEnd', dateWhitelistEnd)
-      dateEnd = dateWhitelistEnd
+      title = 'Whitelist for IDO now open!';
+      button = 'Register for Whitelist';
+      console.log('dateWhitelistEnd', dateWhitelistEnd);
+      dateEnd = dateWhitelistEnd;
     } else if (dateNow < dateSaleSart) {
-      title = 'Tokensale starts in:'
-      button = 'Go to IDO'
+      title = 'Tokensale starts in:';
+      button = 'Go to IDO';
 
-      console.log('dateSaleSart', dateSaleSart)
-      dateEnd = dateSaleSart
+      console.log('dateSaleSart', dateSaleSart);
+      dateEnd = dateSaleSart;
     } else if (dateNow < dateSaleEnd) {
-      title = 'IDO Tokensale now open!'
-      button = 'Go to Tokensale'
+      title = 'IDO Tokensale now open!';
+      button = 'Go to Tokensale';
 
-      console.log('dateSaleEnd', dateSaleEnd)
-      dateEnd = dateSaleEnd
+      console.log('dateSaleEnd', dateSaleEnd);
+      dateEnd = dateSaleEnd;
     } else {
-      title = 'IDO on Solanium'
-      button = 'Go to IDO'
-      showTimer = false
+      title = 'IDO on Solanium';
+      button = 'Go to IDO';
+      showTimer = false;
     }
 
-    let seconds = Math.floor((dateEnd - (dateNow)) / 1000)
-    let minutes = Math.floor(seconds / 60)
-    let hours = Math.floor(minutes / 60)
-    const days = Math.floor(hours / 24)
-    hours = hours - (days * 24)
-    minutes = minutes - (days * 24 * 60) - (hours * 60)
-    seconds = seconds - (days * 24 * 60 * 60) - (hours * 60 * 60) - (minutes * 60)
+    let seconds = Math.floor((dateEnd - (dateNow)) / 1000);
+    let minutes = Math.floor(seconds / 60);
+    let hours = Math.floor(minutes / 60);
+    const days = Math.floor(hours / 24);
+    hours = hours - (days * 24);
+    minutes = minutes - (days * 24 * 60) - (hours * 60);
+    seconds = seconds - (days * 24 * 60 * 60) - (hours * 60 * 60) - (minutes * 60);
     return {
       showTimer,
       days,
@@ -125,58 +125,58 @@ export default {
       seconds,
       title,
       button
-    }
+    };
   },
   methods: {
     updateTimer () {
-      console.log('Update timer')
-      const dateWhitelistEnd = new Date(1641996000000)
-      const dateSaleSart = new Date(1642003200000)
-      const dateSaleEnd = new Date(1642168800000)
-      const dateNow = new Date()
+      console.log('Update timer');
+      const dateWhitelistEnd = new Date(1641996000000);
+      const dateSaleSart = new Date(1642003200000);
+      const dateSaleEnd = new Date(1642168800000);
+      const dateNow = new Date();
       // add 5 second error marge
-      dateNow.setSeconds(dateNow.getSeconds() + 5)
-      let dateEnd
-      this.showTimer = true
+      dateNow.setSeconds(dateNow.getSeconds() + 5);
+      let dateEnd;
+      this.showTimer = true;
       if (dateNow < dateWhitelistEnd) {
-        this.title = 'Whitelist for IDO now open!'
-        this.button = 'Register for Whitelist'
+        this.title = 'Whitelist for IDO now open!';
+        this.button = 'Register for Whitelist';
 
-        console.log('dateWhitelistEnd', dateWhitelistEnd)
-        dateEnd = dateWhitelistEnd
+        console.log('dateWhitelistEnd', dateWhitelistEnd);
+        dateEnd = dateWhitelistEnd;
       } else if (dateNow < dateSaleSart) {
-        this.title = 'Tokensale starts in:'
-        this.button = 'Go to IDO'
+        this.title = 'Tokensale starts in:';
+        this.button = 'Go to IDO';
 
-        console.log('dateSaleSart', dateSaleSart)
-        dateEnd = dateSaleSart
+        console.log('dateSaleSart', dateSaleSart);
+        dateEnd = dateSaleSart;
       } else if (dateNow < dateSaleEnd) {
-        this.title = 'IDO Tokensale now open!'
-        this.button = 'Go to Tokensale'
+        this.title = 'IDO Tokensale now open!';
+        this.button = 'Go to Tokensale';
 
-        console.log('dateSaleEnd', dateSaleEnd)
-        dateEnd = dateSaleEnd
+        console.log('dateSaleEnd', dateSaleEnd);
+        dateEnd = dateSaleEnd;
       } else {
-        this.title = 'IDO on Solanium'
-        this.button = 'Go to IDO'
-        this.showTimer = false
+        this.title = 'IDO on Solanium';
+        this.button = 'Go to IDO';
+        this.showTimer = false;
       }
 
-      let seconds = Math.floor((dateEnd - (dateNow)) / 1000)
-      let minutes = Math.floor(seconds / 60)
-      let hours = Math.floor(minutes / 60)
-      const days = Math.floor(hours / 24)
-      hours = hours - (days * 24)
-      minutes = minutes - (days * 24 * 60) - (hours * 60)
-      seconds = seconds - (days * 24 * 60 * 60) - (hours * 60 * 60) - (minutes * 60)
+      let seconds = Math.floor((dateEnd - (dateNow)) / 1000);
+      let minutes = Math.floor(seconds / 60);
+      let hours = Math.floor(minutes / 60);
+      const days = Math.floor(hours / 24);
+      hours = hours - (days * 24);
+      minutes = minutes - (days * 24 * 60) - (hours * 60);
+      seconds = seconds - (days * 24 * 60 * 60) - (hours * 60 * 60) - (minutes * 60);
 
-      this.days = days
-      this.hours = hours
-      this.minutes = minutes
-      this.seconds = seconds
+      this.days = days;
+      this.hours = hours;
+      this.minutes = minutes;
+      this.seconds = seconds;
     }
   }
-}
+};
 </script>
 
 <style lang="scss">

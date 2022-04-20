@@ -45,10 +45,10 @@ export default {
   data () {
     return {
       blogs: null
-    }
+    };
   },
   created () {
-    this.getLatestBlogs()
+    this.getLatestBlogs();
   },
   methods: {
     async getLatestBlogs () {
@@ -56,12 +56,12 @@ export default {
         .only(['title', 'createdAt', 'description', 'img', 'slug'])
         .limit(3)
         .sortBy('createdAt', 'desc')
-        .fetch()
+        .fetch();
     },
     formatDate (date) {
-      const options = { year: 'numeric', month: 'long', day: 'numeric' }
-      return new Date(date).toLocaleDateString('en', options)
+      const options = { year: 'numeric', month: 'long', day: 'numeric' };
+      return new Date(date).toLocaleDateString('en', options);
     }
   }
-}
+};
 </script>

@@ -26,11 +26,11 @@
 </template>
 
 <script>
-import Grid from '~/assets/img/grid.svg?inline'
+import Grid from '~/assets/img/grid.svg?inline';
 
 export default {
   components: { Grid }
-}
+};
 </script>
 
 <style lang="scss">

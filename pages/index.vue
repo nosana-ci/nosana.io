@@ -34,7 +34,7 @@
 <script>
 export default {
   colorMode: 'dark'
-}
+};
 </script>
 
 <style lang="scss" scoped>

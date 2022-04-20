@@ -17,21 +17,21 @@ export default {
     options: {
       type: [Array, Object],
       default () {
-        return {}
+        return {};
       }
     }
   },
   mounted () {
     // eslint-disable-next-line nuxt/no-env-in-hooks
     if (process.client) {
-      const Atropos = require('atropos/atropos')
+      const Atropos = require('atropos/atropos');
       Atropos({
         el: this.$el,
         ...this.options
-      })
+      });
     }
   }
-}
+};
 </script>
 <style lang="scss">
 .atropos-shadow {
