@@ -18,7 +18,7 @@
     "aos": "2.3.4",
     "atropos": "1.0.2",
     "bulma": "0.9.3",
-    "core-js": "3.22.1",
+    "core-js": "3.22.2",
     "nuxt": "2.15.8",
     "vue-circular-count-down-timer": "2.0.0"
   },
@@ -33,6 +33,6 @@
     "eslint-plugin-promise": "6.0.0",
     "eslint-plugin-vue": "8.7.0",
     "node-sass": "6.0.1",
-    "sass-loader": "10.2.0"
+    "sass-loader": "10.2.1"
   }
 }
