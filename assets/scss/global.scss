@@ -14,6 +14,9 @@ a {
     }
   }
 }
+a:not(.navbar-item):not(.button) {
+  border-bottom: $link 1px solid;
+}
 .input {
   border-width: 1px;
 }
@@ -24,6 +27,10 @@ a {
 }
 .has-limited-width-small {
   width: 460px;
+  max-width: 100%;
+}
+.has-limited-width-smaller {
+  width: 300px;
   max-width: 100%;
 }
 .is-horizontal-centered {
@@ -39,6 +46,10 @@ a {
 .site-title {
   font-size: 60px;
   font-family: $family-headers;
+}
+
+.has-background-gradient {
+  background: linear-gradient(180deg, rgba(10, 35, 4, 0.4) 0%, #010C04 100%);
 }
 
 .has-text-shadow {

@@ -22,10 +22,10 @@ $custom-colors: (
 
 $text: $primary;
 
-//$link: $secondary;
-$link-hover: $accent;
-$link-focus: $accent;
-$link-active: $accent;
+$link: $accent;
+$link-hover: lighten($accent, 20%);
+$link-focus: lighten($accent, 20%);
+$link-active: lighten($accent, 20%);
 
 $title-weight: 600;
 $title-color: $primary;
@@ -35,6 +35,7 @@ $subtitle-family: $family-headers;
 
 $body-line-height: 1.7;
 $button-padding-horizontal: 1.7em;
+$button-text-color: $accent;
 
 $dark-mode-background: #010C04;
 
