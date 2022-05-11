@@ -55,7 +55,7 @@
           </div>
         </div>
         <div class="columns pt-6 is-vcentered">
-          <div class="column is-5 has-background-gradient" data-aos="fade-left">
+          <div class="column is-5 has-background-gradient" data-aos="fade-right">
             <h2 class="title is-2">
               <span class="has-text-accent">Technology</span> Partners
             </h2>
@@ -93,14 +93,14 @@
             </p>
             <p class="block">
               <a href="#" class="mt-4"><b>Become a Network Partner &nbsp;&nbsp;↘</b></a>
-              <nuxt-link to="/partner/technology" class="mt-4 ml-6">
+              <nuxt-link to="/partner/network" class="mt-4 ml-6">
                 <b>More info &nbsp;&nbsp;↘</b>
               </nuxt-link>
             </p>
           </div>
         </div>
         <div class="columns is-vcentered">
-          <div class="column is-5  has-background-gradient" data-aos="fade-left">
+          <div class="column is-5  has-background-gradient" data-aos="fade-right">
             <h2 class="title is-2">
               <span class="has-text-accent">Portfolio</span> Partners
             </h2>
@@ -110,7 +110,7 @@
             </p>
             <p class="block">
               <a href="#" class="mt-4"><b>Become a Portfolio Partner &nbsp;&nbsp;↘</b></a>
-              <nuxt-link to="/partner/technology" class="mt-4 ml-6">
+              <nuxt-link to="/partner/portfolio" class="mt-4 ml-6">
                 <b>More info &nbsp;&nbsp;↘</b>
               </nuxt-link>
             </p>
