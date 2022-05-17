@@ -5,7 +5,7 @@
         <h1 class="title site-title is-spaced has-limited-width mt-6" style="width: 800px">
           Become a <span class="has-text-accent">Technology</span> Partner
         </h1>
-        <div class="columns mt-6">
+        <div class="columns mt-5">
           <div class="column is-7" data-aos="fade-up">
             <h2 class="subtitle">
               Expand your reach with Nosana
@@ -26,13 +26,13 @@
               </p>
             </div>
           </div>
-          <div class="is-offset-1 column has-text-centered">
+          <div class="column has-text-centered mb-6">
             <div>
-              <img src="~assets/img/bounty_animated.svg">
+              <img src="~assets/img/partners/technology.svg">
             </div>
           </div>
         </div>
-        <div class="my-6 pt-6 has-text-centered has-background-gradient">
+        <div class="my-6 py-6 has-text-centered has-background-gradient">
           <h2 class="title mb-6" data-aos="fade-right">
             Easily integrate your solution<br>with Nosana with tailored-made flows
           </h2>
@@ -41,7 +41,7 @@
           </p>
           <div class="has-background-accent is-horizontal-centered my-5" style="width: 80px; height: 2px" />
         </div>
-        <div class="columns pt-6 is-vcentered">
+        <div class="columns py-6 is-vcentered">
           <div class="column is-5" data-aos="fade-right">
             <h2 class="title is-2">
               Powerful and efficient
@@ -53,14 +53,14 @@
             </p>
           </div>
           <div class="column is-5 is-offset-2" data-aos="zoom-in">
-            <img src="~assets/img/tokens.png">
+            <img src="~assets/img/partners/technology-graph.svg">
           </div>
         </div>
         <div class="columns is-vcentered">
-          <div class="column is-5" data-aos="zoom-in">
-            <img src="~assets/img/tokens.png">
+          <div class="column is-7" data-aos="zoom-in">
+            <img src="~assets/img/partners/technology-computer.svg">
           </div>
-          <div class="column is-offset-2 is-5" data-aos="fade-left">
+          <div class="column is-5" data-aos="fade-left">
             <h2 class="title is-2">
               Cleaner config and code versioning
             </h2>

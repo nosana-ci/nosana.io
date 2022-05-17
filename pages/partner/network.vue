@@ -22,20 +22,28 @@
                 <a
                   href="#"
                   target="_blank"
-                  class="button is-accent is-wide"
+                  class="mr-3 button is-accent is-wide"
                 >
                   <b>Become a partner</b>
+                </a>
+
+                <a
+                  href="#"
+                  target="_blank"
+                  class="button is-accent is-outlined is-wide"
+                >
+                  <b>See partner overiew</b>
                 </a>
               </p>
             </div>
           </div>
-          <div class="is-offset-1 column has-text-centered">
+          <div class="column has-text-centered">
             <div>
-              <img src="~assets/img/bounty_animated.svg">
+              <img src="~assets/img/partners/network.svg" style="width: 100%;">
             </div>
           </div>
         </div>
-        <div class="my-6 pt-6 has-text-centered has-background-gradient">
+        <div class="my-6 py-6 has-text-centered has-background-gradient">
           <h2 class="title mb-6" data-aos="fade-right">
             Move from the cloud<br>to the crowd
           </h2>
@@ -53,7 +61,7 @@
             Software development<br>is challenging.
           </h1>
         </div>
-        <div class="columns pt-6 is-vcentered">
+        <div class="columns py-6 is-vcentered">
           <div class="column is-5" data-aos="fade-right">
             <h2 class="title is-spaced is-2">
               Hiring is difficult
@@ -67,12 +75,12 @@
             </p>
           </div>
           <div class="column is-5 is-offset-2" data-aos="zoom-in">
-            <img src="~assets/img/tokens.png">
+            <img src="~assets/img/partners/technology-graph.svg">
           </div>
         </div>
-        <div class="columns is-vcentered">
+        <div class="columns py-6 is-vcentered">
           <div class="column is-5" data-aos="zoom-in">
-            <img src="~assets/img/tokens.png">
+            <img src="~assets/img/partners/devops.svg">
           </div>
           <div class="column is-offset-2 is-5" data-aos="fade-left">
             <h2 class="title is-=spaced is-2">
@@ -108,37 +116,49 @@
             </p>
           </div>
           <div class="column is-5 is-offset-2" data-aos="zoom-in">
-            <img src="~assets/img/tokens.png">
+            <img src="~assets/img/partners/technology-computer.svg">
           </div>
         </div>
         <div class="my-6 pt-6 has-text-centered">
           <h2 class="title mb-6 is-2" data-aos="fade-right">
             Benefits for Network Partners
           </h2>
-          <div class="columns is-variable is-8">
-            <div class="column is-one-third" data-aos="fade-up" data-aos-delay="200">
-              <img src="~assets/img/icons/token.svg" height="80">
+          <div class="columns is-variable is-multiline is-centered">
+            <div class="column is-one-third mt-6" data-aos="fade-up" data-aos-delay="200">
+              <img src="~assets/img/icons/browser.svg" height="80">
               <p class="has-limited-width-smaller is-horizontal-centered">
-                Reach our growing crypto-communities with our go-to-market initiatives.
+                Free access to our Incentivized TestnNet (earn up to 10.000 $NOS with your development)
               </p>
             </div>
-            <div class="column is-one-third" data-aos="fade-up" data-aos-delay="400">
-              <img src="~assets/img/icons/apps.svg" height="80">
+            <div class="column is-one-third mt-6" data-aos="fade-up" data-aos-delay="400">
+              <img src="~assets/img/icons/nodes.svg" height="80">
               <p class="has-limited-width-smaller is-horizontal-centered">
-                Build your expertise in continuous integration and delivery with technical support from Nosana.
+                Exclusive for partnerships: higher max. limit of nodes during the test period.
+                That means higher rewards!
               </p>
             </div>
-            <div class="column is-one-third" data-aos="fade-up" data-aos-delay="600">
-              <img src="~assets/img/icons/badge.svg" height="80">
+            <div class="column is-one-third mt-6" data-aos="fade-up" data-aos-delay="600">
+              <img src="~assets/img/icons/server.svg" height="80">
               <p class="has-limited-width-smaller is-horizontal-centered">
-                Work with Nosana to help your clients achieve new levels of DevOps maturity.
+                No longer rely on Big Tech for your computational needs!
+              </p>
+            </div>
+            <div class="column is-one-third mt-6" data-aos="fade-up" data-aos-delay="600">
+              <img src="~assets/img/icons/devops.svg" height="80">
+              <p class="has-limited-width-smaller is-horizontal-centered">
+                DevOps as a Service. Improve the level of automation, quality of software, developer experience,
+                and the frequency of delivery without disruption. We help you get the most out of your development.
+              </p>
+            </div>
+            <div class="column is-one-third mt-6" data-aos="fade-up" data-aos-delay="600">
+              <img src="~assets/img/icons/chat-group.svg" height="80">
+              <p class="has-limited-width-smaller is-horizontal-centered">
+                Continuous exposure within the Nosana community with multiple go-to-market strategies.
+                You can even be part of our upcoming NFT!
               </p>
             </div>
           </div>
         </div>
-        <p class="has-text-centered mt-6">
-          <a href="#" target="_blank" class="is-size-5">Join as a network partner &nbsp;&nbsp;↘</a>
-        </p>
       </div>
     </section>
   </div>

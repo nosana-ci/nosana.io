@@ -26,9 +26,9 @@
               </p>
             </div>
           </div>
-          <div class="is-offset-1 column has-text-centered">
+          <div class="column has-text-centered">
             <div>
-              <img src="~assets/img/bounty_animated.svg">
+              <img src="~assets/img/partners/portfolio.svg" style="width: 100%;">
             </div>
           </div>
         </div>
@@ -48,25 +48,25 @@
           </h2>
           <div class="columns is-variable is-8">
             <div class="column is-one-quarter" data-aos="fade-up" data-aos-delay="200">
-              <img src="~assets/img/icons/token.svg" height="80">
+              <img src="~assets/img/icons/tab.svg" height="80" class="mb-2">
               <p class="has-limited-width-smaller is-horizontal-centered">
                 Support your early-stage startups as they scale
               </p>
             </div>
             <div class="column s-one-quarter" data-aos="fade-up" data-aos-delay="400">
-              <img src="~assets/img/icons/apps.svg" height="80">
+              <img src="~assets/img/icons/analytics.svg" height="80" class="mb-2">
               <p class="has-limited-width-smaller is-horizontal-centered">
                 Free for VC firms and accelerators to join
               </p>
             </div>
             <div class="column s-one-quarter" data-aos="fade-up" data-aos-delay="600">
-              <img src="~assets/img/icons/badge.svg" height="80">
+              <img src="~assets/img/icons/roadmap.svg" class="mb-2" height="80">
               <p class="has-limited-width-smaller is-horizontal-centered">
                 Access to product roadmap insights
               </p>
             </div>
             <div class="column s-one-quarter" data-aos="fade-up" data-aos-delay="600">
-              <img src="~assets/img/icons/badge.svg" height="80">
+              <img src="~assets/img/icons/network.svg" height="80" class="mb-2">
               <p class="has-limited-width-smaller is-horizontal-centered">
                 Networking and co-marketing opportunities
               </p>
@@ -76,7 +76,7 @@
         <p class="block has-text-centered">
           <a href="#" class="is-size-5" target="_blank">Apply to become a Portfolio Partner &nbsp;&nbsp;↘</a>
         </p>
-        <div class="columns pt-6 is-vcentered">
+        <div class="columns py-6 is-vcentered">
           <div class="column is-5" data-aos="fade-right">
             <h2 class="title is-2">
               Build faster with Nosana
@@ -89,7 +89,7 @@
             </p>
           </div>
           <div class="column is-5 is-offset-2" data-aos="zoom-in">
-            <img src="~assets/img/tokens.png">
+            <img src="~assets/img/partners/portfolio-strategy.svg">
           </div>
         </div>
       </div>
