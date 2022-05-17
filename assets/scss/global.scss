@@ -14,8 +14,9 @@ a {
     }
   }
 }
-a:not(.navbar-item):not(.button) {
+a.is-underlined {
   border-bottom: $link 1px solid;
+  text-decoration: none !important;
 }
 .input {
   border-width: 1px;

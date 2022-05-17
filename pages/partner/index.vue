@@ -69,8 +69,8 @@
               Be part of our growing network of partner companies.
             </p>
             <p class="block">
-              <a href="#" class="mt-4"><b>Become a Technology Partner &nbsp;&nbsp;↘</b></a>
-              <nuxt-link to="/partner/technology" class="mt-4 ml-6">
+              <a href="#" class="mt-4 is-underlined"><b>Become a Technology Partner &nbsp;&nbsp;↘</b></a>
+              <nuxt-link to="/partner/technology" class="mt-4 ml-6 is-underlined">
                 <b>More info &nbsp;&nbsp;↘</b>
               </nuxt-link>
             </p>
@@ -100,8 +100,8 @@
               We help you get the most out of your development.
             </p>
             <p class="block">
-              <a href="#" class="mt-4"><b>Become a Network Partner &nbsp;&nbsp;↘</b></a>
-              <nuxt-link to="/partner/network" class="mt-4 ml-6">
+              <a href="#" class="mt-4 is-underlined"><b>Become a Network Partner &nbsp;&nbsp;↘</b></a>
+              <nuxt-link to="/partner/network" class="mt-4 ml-6 is-underlined">
                 <b>More info &nbsp;&nbsp;↘</b>
               </nuxt-link>
             </p>
@@ -121,8 +121,8 @@
               exclusive benefit to startups in their ecosystem.
             </p>
             <p class="block">
-              <a href="#" class="mt-4"><b>Become a Portfolio Partner &nbsp;&nbsp;↘</b></a>
-              <nuxt-link to="/partner/portfolio" class="mt-4 ml-6">
+              <a href="#" class="mt-4 is-underlined"><b>Become a Portfolio Partner &nbsp;&nbsp;↘</b></a>
+              <nuxt-link to="/partner/portfolio" class="mt-4 ml-6 is-underlined">
                 <b>More info &nbsp;&nbsp;↘</b>
               </nuxt-link>
             </p>

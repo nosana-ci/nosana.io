@@ -112,7 +112,7 @@
           </div>
         </div>
         <p class="has-text-centered mt-6">
-          <a href="#" target="_blank" class="is-size-5">Join as a technology partner &nbsp;&nbsp;↘</a>
+          <a href="#" target="_blank" class="is-size-5 is-underlined">Join as a technology partner &nbsp;&nbsp;↘</a>
         </p>
       </div>
     </section>

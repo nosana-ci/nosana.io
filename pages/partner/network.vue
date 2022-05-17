@@ -27,13 +27,12 @@
                   <b>Become a partner</b>
                 </a>
 
-                <a
-                  href="#"
-                  target="_blank"
+                <nuxt-link
+                  to="/partner"
                   class="button is-accent is-outlined is-wide"
                 >
                   <b>See partner overiew</b>
-                </a>
+                </nuxt-link>
               </p>
             </div>
           </div>
