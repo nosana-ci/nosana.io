@@ -13,7 +13,7 @@
             <div class="has-limited-width-small mt-4">
               <p class="block">
                 Startups that are part of a VC or accelerator program can enjoy Nosana
-                with 5,000 test tokens, an exclusive perk.
+                with 5,000 free Network tokens (non-transferable), an exclusive perk.
               </p>
               <p class="block">
                 <a

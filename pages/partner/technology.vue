@@ -34,7 +34,7 @@
         </div>
         <div class="my-6 py-6 has-text-centered has-background-gradient">
           <h2 class="title mb-6" data-aos="fade-right">
-            Easily integrate your solution<br>with Nosana with tailored-made flows
+            Get in the Flow
           </h2>
           <p class="has-limited-width-small is-horizontal-centered" data-aos="fade-up">
             Flows are packages of Nosana that we use to integrate third-party services into your build processes.
@@ -65,9 +65,8 @@
               Cleaner config and code versioning
             </h2>
             <p class="block">
-              It’s simple: just open the App, no more technological knowledge is required.
-              You can run the App on a range of different devices like your home computer,
-              a Raspberry PI or your phone.
+              With an intuitive design and framework, flows are easily maintained through
+              configuration and versioning.
             </p>
           </div>
         </div>

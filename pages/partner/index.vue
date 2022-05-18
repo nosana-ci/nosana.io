@@ -8,8 +8,8 @@
               Nosana Partner Program
             </h1>
             <h2 class="subtitle">
-              Join our growing community
-              Integrate your solution with Nosana Network.
+              Join our growing community!<br>
+              Be part of the Nosana Network.
             </h2>
             <div class="has-limited-width mt-4">
               <p class="block">
@@ -37,7 +37,7 @@
             <div class="column is-one-third" data-aos="fade-up" data-aos-delay="200">
               <img src="~assets/img/icons/chat-group.svg" height="80">
               <p class="has-limited-width-smaller is-horizontal-centered">
-                Reach our growing crypto-communities with our go-to-market initiatives.
+                Reach out to the crypto community with our go-to-market initiatives.
               </p>
             </div>
             <div class="column is-one-third" data-aos="fade-up" data-aos-delay="400">
@@ -64,8 +64,8 @@
               <span class="has-text-accent">Technology</span> Partners
             </h2>
             <p class="block">
-              Make it easy for your customers to integrate your toold with their CI/CD pipeline,
-              get extra exposure to other Nosana customers as we automate their DevOps processes.
+              Make it easy for your customers to integrate your tools with their CI/CD pipeline,
+              and get extra exposure to other Nosana customers as we automate their DevOps processes.
               Be part of our growing network of partner companies.
             </p>
             <p class="block">
@@ -92,12 +92,11 @@
               <span class="has-text-accent">Network</span> Partners
             </h2>
             <p class="block">
-              Open up new dev opportunities for your company by partnering
-              with the first decentralized CICD as a Service provider.
-              Network Partners need to have open-source & public repositories.
-              Improve the level of automation, quality of software,
-              developer experience and the frequency of delivery with tailored-made pipelines.
-              We help you get the most out of your development.
+              Open up new dev opportunities for your company by partnering with the first
+              decentralized CICD as a Service provider. Improve the level of automation,
+              quality of software, developer experience, and the frequency of delivery
+              with our tailor-made pipelines. Network Partners need to have open-source
+              & public repositories.
             </p>
             <p class="block">
               <a href="#" class="mt-4 is-underlined"><b>Become a Network Partner &nbsp;&nbsp;↘</b></a>
