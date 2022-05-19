@@ -49,52 +49,85 @@
                 <div>Home</div>
               </nuxt-link>
             </div>
-            <div @click="mobileMenu = false">
-              <nuxt-link
-                class="navbar-item"
-                to="/platform"
-                exact-active-class="is-active"
-              >
-                <div>Testnet</div>
-              </nuxt-link>
-            </div>
-            <div @click="mobileMenu = false">
-              <nuxt-link
-                class="navbar-item"
-                to="/earn"
-                exact-active-class="is-active"
-              >
-                <div>Earn</div>
-              </nuxt-link>
-            </div>
-            <div @click="mobileMenu = false">
-              <nuxt-link
-                class="navbar-item"
-                to="/bounty"
-                exact-active-class="is-active"
-              >
-                <div>Bounty</div>
-              </nuxt-link>
-            </div>
-            <div @click="mobileMenu = false">
+            <div class="navbar-item has-dropdown is-hoverable" @click="mobileMenu = false">
               <a
-                target="_blank"
-                href="https://docs.nosana.io"
-                class="navbar-item"
-                to="/docs"
+                class="navbar-link"
                 exact-active-class="is-active"
               >
-                <div>Docs</div>
+                <div>The Network</div>
               </a>
+              <div class="navbar-dropdown is-boxed">
+                <nuxt-link class="navbar-item" to="/platform" exact-active-class="is-active">
+                  Testnet
+                </nuxt-link>
+              </div>
             </div>
-            <div @click="mobileMenu = false">
-              <nuxt-link
-                class="navbar-item"
-                to="/blog"
+            <div class="navbar-item has-dropdown is-hoverable" @click="mobileMenu = false">
+              <a
+                class="navbar-link"
                 exact-active-class="is-active"
               >
-                <div>Blog</div>
-              </nuxt-link>
+                <div>Community</div>
+              </a>
+              <div class="navbar-dropdown is-boxed">
+                <nuxt-link class="navbar-item" to="/bounty" exact-active-class="is-active">
+                  Bounty Program
+                </nuxt-link>
+                <nuxt-link class="navbar-item" to="/earn" exact-active-class="is-active">
+                  Earn
+                </nuxt-link>
+                <nuxt-link class="navbar-item" to="/blog" exact-active-class="is-active">
+                  Blogs
+                </nuxt-link>
+                <a href="https://twitter.com/nosana_ci" target="_blank" class="navbar-item">
+                  <i class="fab fa-twitter mr-2" aria-hidden="true" />
+                  <span>Twitter</span>
+                </a>
+                <a href="https://discord.gg/nosana" target="_blank" class="navbar-item">
+                  <i class="fab fa-discord mr-2" aria-hidden="true" />
+                  <span>Discord</span>
+                </a>
+                <a href="https://nosana.medium.com" target="_blank" class="navbar-item">
+                  <i class="fab fa-medium mr-2" aria-hidden="true" />
+                  <span>Medium</span>
+                </a>
+              </div>
+            </div>
+            <div class="navbar-item has-dropdown is-hoverable" @click="mobileMenu = false">
+              <a
+                class="navbar-link"
+                exact-active-class="is-active"
+              >
+                <div>Company</div>
+              </a>
+              <div class="navbar-dropdown is-boxed">
+                <nuxt-link class="navbar-item" to="/partner" exact-active-class="is-active">
+                  Nosana Partner Program
+                  <span class="icon ml-3">
+                    <i class="fas fa-chevron-down" />
+                  </span>
+                </nuxt-link>
+                <div class="ml-2">
+                  <nuxt-link class="navbar-item" to="/partner/technology" exact-active-class="is-active">
+                    > Technology Partnership
+                  </nuxt-link>
+                  <nuxt-link class="navbar-item" to="/partner/network" exact-active-class="is-active">
+                    > Network Partnership
+                  </nuxt-link>
+                  <nuxt-link class="navbar-item" to="/partner/portfolio" exact-active-class="is-active">
+                    > Portfolio Partnership
+                  </nuxt-link>
+                </div>
+                <nuxt-link class="navbar-item" to="/team" exact-active-class="is-active">
+                  Team page
+                </nuxt-link>
+                <nuxt-link class="navbar-item" to="/brand" exact-active-class="is-active">
+                  Brand page
+                </nuxt-link>
+                <a target="_blank" href="https://docs.nosana.io" class="navbar-item">
+                  <div>Docs</div>
+                </a>
+              </div>
             </div>
             <div
               class="navbar-item"
