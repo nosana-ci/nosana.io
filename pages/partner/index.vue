@@ -14,7 +14,7 @@
             <div class="has-limited-width mt-4">
               <p class="block">
                 <a
-                  href="#"
+                  href="https://forms.gle/W7aXsha5SVDuahuaA"
                   target="_blank"
                   class="button is-accent is-wide"
                 >
@@ -69,7 +69,7 @@
               Be part of our growing network of partner companies.
             </p>
             <p class="block">
-              <a href="#" class="mt-4 is-underlined"><b>Become a Technology Partner &nbsp;&nbsp;↘</b></a>
+              <a href="https://forms.gle/W7aXsha5SVDuahuaA" target="_blank" class="mt-4 is-underlined"><b>Become a Technology Partner &nbsp;&nbsp;↘</b></a>
               <nuxt-link to="/partner/technology" class="mt-4 ml-6 is-underlined">
                 <b>More info &nbsp;&nbsp;↘</b>
               </nuxt-link>
@@ -99,7 +99,7 @@
               & public repositories.
             </p>
             <p class="block">
-              <a href="#" class="mt-4 is-underlined"><b>Become a Network Partner &nbsp;&nbsp;↘</b></a>
+              <a href="https://forms.gle/W7aXsha5SVDuahuaA" target="_blank" class="mt-4 is-underlined"><b>Become a Network Partner &nbsp;&nbsp;↘</b></a>
               <nuxt-link to="/partner/network" class="mt-4 ml-6 is-underlined">
                 <b>More info &nbsp;&nbsp;↘</b>
               </nuxt-link>
@@ -120,7 +120,7 @@
               exclusive benefit to startups in their ecosystem.
             </p>
             <p class="block">
-              <a href="#" class="mt-4 is-underlined"><b>Become a Portfolio Partner &nbsp;&nbsp;↘</b></a>
+              <a href="https://forms.gle/W7aXsha5SVDuahuaA" target="_blank" class="mt-4 is-underlined"><b>Become a Portfolio Partner &nbsp;&nbsp;↘</b></a>
               <nuxt-link to="/partner/portfolio" class="mt-4 ml-6 is-underlined">
                 <b>More info &nbsp;&nbsp;↘</b>
               </nuxt-link>

@@ -74,7 +74,7 @@
           </div>
         </div>
         <p class="block has-text-centered">
-          <a href="#" class="is-size-5 is-underlined" target="_blank">
+          <a href="https://forms.gle/W7aXsha5SVDuahuaA" class="is-size-5 is-underlined" target="_blank">
             Apply to become a Portfolio Partner &nbsp;&nbsp;↘</a>
         </p>
         <div class="columns py-6 is-vcentered">
@@ -86,7 +86,7 @@
               Early-stage startups can feel confident as they build and scale with the help of our DevOps team.
             </p>
             <p class="block">
-              <a href="#" target="_blank" class="is-underlined">Apply as a start-up partner &nbsp;&nbsp;↘</a>
+              <a href="https://forms.gle/W7aXsha5SVDuahuaA" target="_blank" class="is-underlined">Apply as a start-up partner &nbsp;&nbsp;↘</a>
             </p>
           </div>
           <div class="column is-5 is-offset-2" data-aos="zoom-in">

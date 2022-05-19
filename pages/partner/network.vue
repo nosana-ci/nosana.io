@@ -19,7 +19,7 @@
               </p>
               <p class="block">
                 <a
-                  href="#"
+                  href="https://forms.gle/W7aXsha5SVDuahuaA"
                   target="_blank"
                   class="mr-3 button is-accent is-wide"
                 >

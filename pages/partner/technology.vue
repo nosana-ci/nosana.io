@@ -17,7 +17,7 @@
               </p>
               <p class="block">
                 <a
-                  href="#"
+                  href="https://forms.gle/W7aXsha5SVDuahuaA"
                   target="_blank"
                   class="button is-accent is-wide"
                 >
@@ -47,9 +47,8 @@
               Powerful and efficient
             </h2>
             <p class="block">
-              Simplify customers' integration efforts by encapsulating any
-              complexities of scripting your integrations into drop-in jobs
-              and commands.
+              We'll write a pipeline flow specific for your services
+              so that every project can easily integrate with your services in their job flows
             </p>
           </div>
           <div class="column is-5 is-offset-2" data-aos="zoom-in">
@@ -65,8 +64,7 @@
               Cleaner config and code versioning
             </h2>
             <p class="block">
-              With an intuitive design and framework, flows are easily maintained through
-              configuration and versioning.
+              Our Flows are easily maintained through Open Source configuration and versioning.
             </p>
           </div>
         </div>
@@ -111,7 +109,7 @@
           </div>
         </div>
         <p class="has-text-centered mt-6">
-          <a href="#" target="_blank" class="is-size-5 is-underlined">Join as a technology partner &nbsp;&nbsp;↘</a>
+          <a href="https://forms.gle/W7aXsha5SVDuahuaA" target="_blank" class="is-size-5 is-underlined">Join as a technology partner &nbsp;&nbsp;↘</a>
         </p>
       </div>
     </section>
