@@ -19,10 +19,16 @@
                 <a
                   href="https://forms.gle/W7aXsha5SVDuahuaA"
                   target="_blank"
-                  class="button is-accent is-wide"
+                  class="mr-3 button is-accent is-wide"
                 >
                   <b>Become a partner</b>
                 </a>
+                <nuxt-link
+                  to="/partner"
+                  class="button is-accent is-outlined is-wide"
+                >
+                  <b>See all partnerships</b>
+                </nuxt-link>
               </p>
             </div>
           </div>

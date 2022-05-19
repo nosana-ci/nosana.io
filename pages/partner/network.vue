@@ -30,7 +30,7 @@
                   to="/partner"
                   class="button is-accent is-outlined is-wide"
                 >
-                  <b>See partner overiew</b>
+                  <b>See all partnerships</b>
                 </nuxt-link>
               </p>
             </div>
