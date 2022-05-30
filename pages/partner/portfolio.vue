@@ -40,7 +40,7 @@
         </div>
         <div class="my-6 pt-6 has-text-centered has-background-gradient">
           <h2 class="title mb-6" data-aos="fade-right">
-            Fast, reliable CI/CD<br>that scales with you
+            Fast, reliable CICD<br>that scales with you
           </h2>
           <p class="has-limited-width-small is-horizontal-centered" data-aos="fade-up">
             When startups join Nosana through a VC firm or accelerator,
