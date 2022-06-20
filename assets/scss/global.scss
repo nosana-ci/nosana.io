@@ -52,6 +52,9 @@ a.is-underlined {
 .has-background-gradient {
   background: linear-gradient(180deg, rgba(10, 35, 4, 0.4) 0%, #010C04 100%);
 }
+.has-background-gradient-accent {
+  background: linear-gradient(180deg, rgba($accent, 0) 0%, $accent 100%);
+}
 
 .has-text-shadow {
   text-shadow: 2px 2px 4px #000000;
