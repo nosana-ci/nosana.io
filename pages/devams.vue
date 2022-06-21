@@ -31,7 +31,7 @@
               Partnering with the first decentralized CI/CD network will make your business future-proof
               when it comes to providing high-quality software on a regular basis using custom pipelines.
             </p>
-            <a href="https://testnet.nosana.io" target="_blank" class="button is-accent mt-6 has-text-weight-bold">
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSe4Oa-OCOYxdLeAacySbMZCLHKF5LBA1hDnChcaU2TiexZxNQ/viewform?usp=sf_link" target="_blank" class="button is-accent mt-6 has-text-weight-bold">
               I want €1000,- free credits
             </a>
           </div>
