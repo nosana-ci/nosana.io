@@ -21,7 +21,7 @@
     <section class="section">
       <div class="container">
         <div class="column is-10 is-offset-1" style="margin-top: -330px;">
-          <div class="box p-6 has-text-centered">
+          <div class="box p-6 has-text-centered has-border-accent">
             <h1 class="title">
               Our special<br><span class="has-text-accent">Devopsdays</span> offer
             </h1>
