@@ -15,7 +15,7 @@
         </p>
       </div>
     </section>
-    <section class="section has-background-gradient-accent">
+    <section class="section has-background-gradient-accent has-text-centered">
       <img src="~assets/img/floor.svg" class="mt-6">
     </section>
     <section class="section">
