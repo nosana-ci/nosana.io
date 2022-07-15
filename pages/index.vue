@@ -1,35 +1,126 @@
 <template>
   <div>
     <home-intro />
-    <partners />
+    <!-- <partners /> -->
+    <section class="section has-background-gradient-accent">
+      <div class="container">
+        <div class="columns is-variable is-8 has-text-centered">
+          <div class="column is-one-third" data-aos="fade-up" data-aos-delay="200">
+            <div class="has-background-gradient  has-border-accent px-4 py-5">
+              <img src="~assets/img/icons/develop.svg" style="height: 42px;">
+              <h2 class="title is-4 my-3">
+                Build with Nosana
+              </h2>
+              <p class="has-text-accent">
+                Join our growing dev community
+              </p>
+            </div>
+          </div>
+          <div class="column is-one-third " data-aos="fade-up" data-aos-delay="400">
+            <div class="has-background-gradient has-border-accent px-4 py-5">
+              <img src="~assets/img/icons/earn.svg" style="height: 42px;">
+              <h2 class="title is-4 my-3">
+                Earn with Nosana
+              </h2>
+              <p class="has-text-accent">
+                Share your computing power
+              </p>
+            </div>
+          </div>
+          <div class="column is-one-third " data-aos="fade-up" data-aos-delay="600">
+            <div class="has-background-gradient has-border-accent px-4 py-5">
+              <img src="~assets/img/icons/token.svg" style="height: 42px;">
+              <h2 class="title is-4 my-3">
+                Trade with Nosana
+              </h2>
+              <p class="has-text-accent">
+                Trade your $NOS tokens
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
     <section class="section">
       <div class="container">
-        <end-users />
+        <div class="columns is-vcentered">
+          <div class="column is-6" data-aos="zoom-in">
+            <img src="~assets/img/tokens.png">
+          </div>
+          <div class="column is-offset-1 is-4" data-aos="fade-left">
+            <h2 class="title is-1">
+              The Nosana Token: <span class="has-text-accent">$NOS</span>
+            </h2>
+            <p class="block">
+              NOS is the native token of the Nosana Network.
+              In exchange for NOS tokens, you can use our network to run CICD for all your development projects.
+            </p>
+            <div class="mt-6">
+              <nuxt-link to="/token" class="button is-outlined is-accent m-2 is-wider">
+                <b>Learn more</b>
+              </nuxt-link>
+              <nuxt-link
+                to="/token#buy"
+                class="m-2 button is-accent is-wider"
+              >
+                <b>Buy tokens</b>
+              </nuxt-link>
+            </div>
+          </div>
+        </div>
+        <div class="has-text-centered mt-6">
+          <h2
+            class="title"
+            data-aos="fade-up"
+          >
+            Solana Summer Camp Hackathon 2022
+          </h2>
+          <h2
+            class="subtitle"
+            data-aos="fade-up"
+          >
+            at Nosana Office in Amsterdam
+          </h2>
+          <p
+            class="has-limited-width is-horizontal-centered"
+            data-aos="fade-up"
+          >
+            Participate at the Solana Summer Camp Hackathon 2022 IRL at the Nosana Office!
+            Plenty of time to work on your project, network, find team members for your idea,
+            or join an existing team and be able to fight for the pool of <b class="has-text-accent">$5m prizes</b>.
+            </h4>
+          </p>
+        </div>
+        <div class="columns is-centered my-6">
+          <div class="has-text-centered column is-8">
+            <a href="https://solana.com/summercamp" target="_blank"><img class="has-radius" src="~assets/img/solana-summercamp.jpg"></a>
+          </div>
+        </div>
+        <!-- <end-users /> -->
       </div>
     </section>
     <section class="section mt-6">
       <div class="container">
         <div class="has-text-centered">
           <h2
-            class="title"
+            class="title is-2"
             data-aos="fade-up"
           >
-            Project Galactica
+            Supercharged DevOps<br>engineering
           </h2>
           <h4
-            class="subtitle"
             data-aos="fade-up"
           >
-            commitment
+            Brought to you by a global pool of computing power
           </h4>
         </div>
         <three-blocks />
       </div>
     </section>
-    <testnet />
+    <!-- <testnet /> -->
     <section class="section mt-6">
       <div class="container">
-        <roadmap class="mt-6" />
+        <!-- <roadmap class="mt-6" /> -->
         <latest-news class="mt-6 pb-6" />
       </div>
     </section>
