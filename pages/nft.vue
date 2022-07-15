@@ -135,13 +135,13 @@
               <p>
                 <ul>
                   <li class="bronze">
-                    Bronze: get 5% extra $CPU when you stake the NFT
+                    Bronze: get 5% extra $NOS when you stake the NFT
                   </li>
                   <li class="silver">
-                    Silver: get 10% extra $CPU when you stake the NFT
+                    Silver: get 10% extra $NOS when you stake the NFT
                   </li>
                   <li class="gold">
-                    Gold: get 15% extra $CPU when you stake the NFT
+                    Gold: get 15% extra $NOS when you stake the NFT
                   </li>
                 </ul>
               </p>
