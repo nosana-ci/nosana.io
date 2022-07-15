@@ -2,7 +2,7 @@
   <div>
     <section class="section home-block">
       <div class="container">
-        <div class="columns mt-6 mt-mobile-0" style="min-height: 75vh" data-aos="fade-up">
+        <div class="columns mt-6 mt-mobile-0" style="min-height: 60vh" data-aos="fade-up">
           <div class="column has-background-black-blur-false">
             <h1 class="title is-spaced site-title">
               Start a crowd <br>
@@ -31,7 +31,7 @@
               </a>
             </div>
             <socials class="mt-6" />
-            <exchanges class="mt-3" />
+            <!-- <exchanges class="mt-3" /> -->
             <div class="has-limited-width-small mt-5">
               <p>
                 Powered by
@@ -61,7 +61,7 @@
 <style lang="scss" scoped>
 @import "bulma/sass/utilities/mixins";
 .home-block {
-  background-image: url("~assets/img/nosana_bg.png");
+  // background-image: url("~assets/img/nosana_bg.png");
   background-size: 65%;
   background-repeat: no-repeat;
   background-position: bottom right -30px;
