@@ -1,0 +1,121 @@
+<template>
+  <div>
+    <section class="section">
+      <div class="container">
+        <div class="columns mt-6">
+          <div class="column is-4" data-aos="fade-up">
+            <h1 class="title site-title is-spaced">
+              Get paid in <span class="has-text-accent">$NOS tokens</span>
+            </h1>
+            <p>
+              As a Nosana contributor, you get paid in $NOS tokens, powering our easy-to-use network.
+            </p>
+            <div class="has-limited-width mt-4">
+              <p class="block">
+                <a
+                  href="#buy"
+                  class="button is-accent is-wide is-outlined"
+                >
+                  Buy $NOS
+                </a>
+              </p>
+            </div>
+          </div>
+          <div class="column has-text-centered">
+            <div>
+              <img src="~assets/img/nos-tokens-2.png">
+            </div>
+          </div>
+        </div>
+        <div class="my-6 pt-6 has-text-centered">
+          <h2 class="title" data-aos="fade-up">
+            About $NOS
+          </h2>
+          <p class="has-limited-width-small is-horizontal-centered" data-aos="fade-up">
+            $NOS is a cryptocurrency that lets you pay within the Nosana marketplace.
+          </p>
+        </div>
+        <div class="my-6 py-6 has-text-centered">
+          <div class="columns is-variable is-8">
+            <div class="column is-one-third" data-aos="fade-up" data-aos-delay="200">
+              <img src="~assets/img/icons/badge.svg" style="height: 42px">
+              <h2 class="title is-4">
+                Secure payments
+              </h2>
+              <p class="has-limited-width-smaller is-horizontal-centered">
+                $NOS is a completely secure way to pay. Plus, it’s easy to store, transfer, trade and dive.
+              </p>
+            </div>
+            <div class="column is-one-third" data-aos="fade-up" data-aos-delay="400">
+              <img src="~assets/img/icons/network.svg" style="height: 42px">
+              <h2 class="title is-4">
+                Pay as you go
+              </h2>
+              <p class="has-limited-width-smaller is-horizontal-centered">
+                Need Nosana resources? Use $NOS to pay as you go. It’s quick and hassle-free.
+              </p>
+            </div>
+            <div class="column is-one-third" data-aos="fade-up" data-aos-delay="600">
+              <img src="~assets/img/icons/develop.svg" style="height: 42px">
+              <h2 class="title is-4">
+                SPL-compliant
+              </h2>
+              <p class="has-limited-width-smaller is-horizontal-centered">
+                $NOS is an SPL-compliant digital asset on Solana.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div id="buy" class="my-6 pt-6 has-text-centered">
+          <h2 class="title" data-aos="fade-up">
+            Where to buy<br>$NOS tokens
+          </h2>
+          <p class="has-limited-width-small is-horizontal-centered" data-aos="fade-up">
+            Buy $NOS on the following exchange platforms:
+          </p>
+        </div>
+        <div class="columns my-6 is-centered has-text-centered">
+          <div class="column is-3">
+            <img src="~assets/img/exchanges/gate.svg" style="height: 60px">
+            <br><br>
+            <a href="https://www.gate.io/trade/NOS_USDT" target="_blank" class="mt-4 is-underlined"><b>Buy $NOS &nbsp;&nbsp;↘</b></a>
+          </div>
+          <div class="column is-3">
+            <img src="~assets/img/exchanges/raydium.svg" style="height: 60px">
+            <br><br>
+            <a href="https://dex.raydium.io/#/market/8XaEfk3TURqgrJZvdJWrPLqyXSCmJ9MfSwZrkaYmsG7r" target="_blank" class="mt-4 is-underlined"><b>Buy $NOS &nbsp;&nbsp;↘</b></a>
+          </div>
+          <div class="column is-3">
+            <img src="~assets/img/exchanges/mexc.svg" style="height: 60px">
+            <br><br>
+            <a href="https://www.mexc.com/exchange/NOS_USDT" target="_blank" class="mt-4 is-underlined"><b>Buy $NOS &nbsp;&nbsp;↘</b></a>
+          </div>
+        </div>
+        <div class="columns py-6 ">
+          <div class="column is-6" data-aos="zoom-in">
+            <img src="~assets/img/nos-orbit.png" class="mt-4">
+          </div>
+          <div class="column is-4 is-offset-2" data-aos="fade-right">
+            <h2 class="title is-2">
+              Millions of $NOS in orbit
+            </h2>
+            <p class="block">
+              On February 12, 2022, our $NOS private release sold out instantly.
+              Now, there’s 33 million $NOS going around.
+              As we continue to build and grow Nosana, the amount of $NOS will hit 100 million.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+</template>
+
+<script>
+export default {
+  colorMode: 'dark'
+};
+</script>
+
+<style lang="scss" scoped>
+</style>
