@@ -6,37 +6,43 @@
       <div class="container">
         <div class="columns is-variable is-8 has-text-centered">
           <div class="column is-one-third" data-aos="fade-up" data-aos-delay="200">
-            <div class="has-background-gradient  has-border-accent px-4 py-5">
-              <img src="~assets/img/icons/develop.svg" style="height: 42px;">
-              <h2 class="title is-4 my-3">
-                Build with Nosana
-              </h2>
-              <p class="has-text-accent">
-                Join our growing dev community
-              </p>
-            </div>
+            <nuxt-link to="/developers">
+              <div class="has-background-gradient  has-border-accent px-4 py-5">
+                <img src="~assets/img/icons/develop.svg" style="height: 42px;">
+                <h2 class="title is-4 my-3">
+                  Build with Nosana
+                </h2>
+                <p class="has-text-accent">
+                  Join our growing dev community
+                </p>
+              </div>
+            </nuxt-link>
           </div>
           <div class="column is-one-third " data-aos="fade-up" data-aos-delay="400">
-            <div class="has-background-gradient has-border-accent px-4 py-5">
-              <img src="~assets/img/icons/earn.svg" style="height: 42px;">
-              <h2 class="title is-4 my-3">
-                Earn with Nosana
-              </h2>
-              <p class="has-text-accent">
-                Share your computing power
-              </p>
-            </div>
+            <nuxt-link to="/network/cpu">
+              <div class="has-background-gradient has-border-accent px-4 py-5">
+                <img src="~assets/img/icons/earn.svg" style="height: 42px;">
+                <h2 class="title is-4 my-3">
+                  Earn with Nosana
+                </h2>
+                <p class="has-text-accent">
+                  Share your computing power
+                </p>
+              </div>
+            </nuxt-link>
           </div>
           <div class="column is-one-third " data-aos="fade-up" data-aos-delay="600">
-            <div class="has-background-gradient has-border-accent px-4 py-5">
-              <img src="~assets/img/icons/token.svg" style="height: 42px;">
-              <h2 class="title is-4 my-3">
-                Trade with Nosana
-              </h2>
-              <p class="has-text-accent">
-                Trade your $NOS tokens
-              </p>
-            </div>
+            <nuxt-link to="/token">
+              <div class="has-background-gradient has-border-accent px-4 py-5">
+                <img src="~assets/img/icons/token.svg" style="height: 42px;">
+                <h2 class="title is-4 my-3">
+                  Trade with Nosana
+                </h2>
+                <p class="has-text-accent">
+                  Trade your $NOS tokens
+                </p>
+              </div>
+            </nuxt-link>
           </div>
         </div>
       </div>
