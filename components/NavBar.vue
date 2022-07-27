@@ -54,11 +54,33 @@
                 class="navbar-link"
                 exact-active-class="is-active"
               >
+                <div>Developers</div>
+              </a>
+              <div class="navbar-dropdown is-boxed">
+                <nuxt-link class="navbar-item" to="/developers" exact-active-class="is-active">
+                  Get Started
+                </nuxt-link>
+                <nuxt-link class="navbar-item" to="/developers/containers" exact-active-class="is-active">
+                  Container-Support
+                </nuxt-link>
+              </div>
+            </div>
+            <div class="navbar-item has-dropdown is-hoverable" @click="mobileMenu = false">
+              <a
+                class="navbar-link"
+                exact-active-class="is-active"
+              >
                 <div>The Network</div>
               </a>
               <div class="navbar-dropdown is-boxed">
                 <nuxt-link class="navbar-item" to="/platform" exact-active-class="is-active">
                   Testnet
+                </nuxt-link>
+                <nuxt-link class="navbar-item" to="/network/cpu" exact-active-class="is-active">
+                  Contribute CPU
+                </nuxt-link>
+                <nuxt-link class="navbar-item" to="/token" exact-active-class="is-active">
+                  The NOS Token
                 </nuxt-link>
               </div>
             </div>
@@ -75,6 +97,9 @@
                 </nuxt-link>
                 <nuxt-link class="navbar-item" to="/earn" exact-active-class="is-active">
                   Earn
+                </nuxt-link>
+                <nuxt-link class="navbar-item" to="/nft" exact-active-class="is-active">
+                  Nosana NFT
                 </nuxt-link>
                 <nuxt-link class="navbar-item" to="/blog" exact-active-class="is-active">
                   Blogs
