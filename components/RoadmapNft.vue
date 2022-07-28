@@ -78,19 +78,19 @@ export default {
           description: 'Release of 200 more Burner Phones.',
           class: '',
           right: ''
-        },
-        {
-          title: '3D models',
-          description: 'You can now get your 3D model. Minting is free!',
-          class: '',
-          right: ''
-        },
-        {
-          title: '3D printer file',
-          description: 'You can now get your 3D printer file to print your own NFT figurine. ',
-          class: '',
-          right: ''
         }
+        // {
+        //   title: '3D models',
+        //   description: 'You can now get your 3D model. Minting is free!',
+        //   class: '',
+        //   right: ''
+        // },
+        // {
+        //   title: '3D printer file',
+        //   description: 'You can now get your 3D printer file to print your own NFT figurine. ',
+        //   class: '',
+        //   right: ''
+        // }
       ]
     };
   }
