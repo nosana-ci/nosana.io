@@ -5,10 +5,11 @@
         <div class="columns mt-6">
           <div class="column is-4" data-aos="fade-up">
             <h1 class="title site-title is-spaced">
-              Get paid in <span class="has-text-accent">$NOS tokens</span>
+              The Nosana Token: <span class="has-text-accent">$NOS</span>
             </h1>
-            <p>
-              As a Nosana contributor, you get paid in $NOS tokens, powering our easy-to-use network.
+            <p class="block">
+              NOS is the native token of the Nosana Network.
+              In exchange for NOS tokens, you can use our network to run CICD for all your development projects.
             </p>
             <div class="has-limited-width mt-4">
               <p class="block">
@@ -16,7 +17,7 @@
                   href="#buy"
                   class="button is-accent is-wide is-outlined"
                 >
-                  Buy $NOS
+                  Buy tokens
                 </a>
               </p>
             </div>
