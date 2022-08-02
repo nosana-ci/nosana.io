@@ -13,7 +13,7 @@
             <div class="item-title">
               {{ item.title }}
               <span class="is-pulled-right is-size-6">{{
-                  item.right
+                item.right
               }}</span>
             </div>
             <!-- eslint-disable vue/no-v-html -->
@@ -37,7 +37,7 @@
 
 <script>
 export default {
-  data() {
+  data () {
     return {
       roadmap: [
         // {
