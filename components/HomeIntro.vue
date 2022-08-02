@@ -9,7 +9,7 @@
               revolution <br>
             </h1>
             <h2 class="subtitle">
-              The decentralized <s>cloud</s> crowd computing network.
+              Next Gen CI/CD
             </h2>
             <div class="has-limited-width-small mt-4">
               <p class="block">
@@ -22,11 +22,7 @@
               <nuxt-link to="/platform" class="button is-outlined is-accent m-2">
                 <b>Incentivized Testnet</b>
               </nuxt-link>
-              <a
-                href="https://discord.gg/nosana"
-                target="_blank"
-                class="m-2 button is-accent is-wide"
-              >
+              <a href="https://discord.gg/nosana" target="_blank" class="m-2 button is-accent is-wide">
                 <b>Join Discord</b>
               </a>
             </div>
@@ -36,16 +32,8 @@
               <p>
                 Powered by
                 <a href="https://explorer.solana.com/address/nosXBVoaCTtYdLvKY6Csb4AC8JCdQKKAaWYtx2ZMoo7">
-                  <img
-                    width="20px"
-                    max-width="200px"
-                    height="32px"
-                    max-height="80px"
-                    contain
-                    class="mx-2 greyscale-false"
-                    :src="require('@/assets/img/solana.svg')"
-                    alt="Solana"
-                  >
+                  <img width="20px" max-width="200px" height="32px" max-height="80px" contain
+                    class="mx-2 greyscale-false" :src="require('@/assets/img/solana.svg')" alt="Solana">
                 </a>
                 Solana
               </p>
@@ -60,6 +48,7 @@
 
 <style lang="scss" scoped>
 @import "bulma/sass/utilities/mixins";
+
 .home-block {
   // background-image: url("~assets/img/nosana_bg.png");
   background-size: 65%;
@@ -72,13 +61,16 @@
   top: 200px;
   right: 0;
 }
+
 @include touch {
   .mt-mobile-0 {
     margin-top: 0 !important;
   }
+
   .home-block {
     background: none;
   }
+
   .ring {
     position: relative;
     top: 0;
