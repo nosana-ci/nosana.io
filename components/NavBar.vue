@@ -79,6 +79,9 @@
                 <nuxt-link class="navbar-item" to="/network/cpu" exact-active-class="is-active">
                   Contribute CPU
                 </nuxt-link>
+                <nuxt-link class="navbar-item" to="/network/vision" exact-active-class="is-active">
+                  Vision
+                </nuxt-link>
                 <nuxt-link class="navbar-item" to="/token" exact-active-class="is-active">
                   The NOS Token
                 </nuxt-link>
