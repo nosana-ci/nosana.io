@@ -1,40 +1,80 @@
 <template>
   <div>
-    <section class="section teams-background has-background-image">
+    <section class="section">
       <div class="container">
-        <div
-          class="
-            mt-6
-            py-2
-            has-text-centered has-limited-width
-            is-horizontal-centered
-          "
-          style="
-            background: linear-gradient(
-              180deg,
-              #010c04 0%,
-              rgba(1, 12, 4, 0) 180.4%
-            );
-          "
-        >
+        <h1 class="title site-title is-spaced has-limited-width mt-6" data-aos="fade-up">
+          Join us
+        </h1>
+        <div class="columns mt-5">
+          <div class="column is-7" data-aos="fade-up">
+            <div class="has-limited-width-small mt-4">
+              <p class="block">
+                At Nosana, we’re on a mission to democratize the established cloud computing industry.
+                Want in? Great! We just so happen to be looking for new team members.
+              </p>
+              <p class="block">
+                <a class="button is-accent is-wide" target="_blank" href="https://www.linkedin.com/company/nosana/jobs/">
+                  <b>View opportunities</b>
+                </a>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="column is-8 is-offset-4 mt-0" data-aos="fade-left">
+          <img src="~assets/img/team.png">
+        </div>
+        <div class="has-text-centered mt-6 py-6">
           <h1 class="title is-spaced is-1 has-text-weight-semibold">
-            Team overview
+            About the<br>Nosana team
           </h1>
-          <p class="is-size-6 has-text-weight-semibold has-text-white">
-            The Nosana team is a distributed group of individuals with a strong
-            technical background in the blockchain and CI/CD industry. We share
-            a drive to disrupt the established cloud computing industry using
-            decentralized technologies. We want to make the Metaverse a safe
-            place of freedom where people don't have to sacrifice their privacy
-            to large corps. If you feel you belong here as well send an email to
-            team@nosana.io - developers, marketeers, content writers, community
-            mods, designers, and in general people of passion are welcome."
+          <p class="has-limited-width-small is-horizontal-centered">
+            We’re made up of very different people, but we all have a strong technical background in blockchain
+            and CI/CD. And we’re united by our drive for disruption. Using decentralized technologies,
+            we’re making the Metaverse a safe place where people are free from the clutches of Big Tech corporations.
           </p>
+        </div>
+        <div class="columns py-6 is-vcentered">
+          <div class="column is-5" data-aos="fade-right">
+            <h2 class="title is-2">
+              Work from anywhere
+            </h2>
+            <h3 class="subtitle">
+              A global network of people
+            </h3>
+            <p class="block">
+              Development is a round-the-clock job. With our team working from different time zones,
+              there’s always Nosana people building, iterating, and innovating.
+              But even more importantly, this allows for a healthier work-life balance.
+            </p>
+          </div>
+          <div class="column is-5 is-offset-2" data-aos="zoom-in">
+            <img src="~assets/img/globe_animated.svg">
+          </div>
+        </div>
+        <div class="columns is-vcentered">
+          <div class="column is-offset-7 is-5" data-aos="fade-left">
+            <h2 class="title is-2">
+              Who we’re looking for
+            </h2>
+            <p class="block">
+              Developers, marketers, content creators, community moderators, designers: we’d love to have you.
+              And if your title isn’t on that list but you’re passionate about our mission:
+              we’d love to have you as well!
+            </p>
+            <p class="block">
+              <a class="button is-accent is-wide is-outlined" target="_blank" href="https://www.linkedin.com/company/nosana/jobs/">
+                <b>Open application</b>
+              </a>
+            </p>
+          </div>
         </div>
       </div>
     </section>
     <section class="section">
       <div class="container is-max-widescreen">
+        <h1 class="title has-text-centered mt-6">
+          Get to know us better
+        </h1>
         <div class="columns is-multiline is-variable is-8">
           <div v-for="person in team" :key="person.name" class="column is-6">
             <div class="px-2 mt-6">
