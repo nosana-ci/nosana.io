@@ -5,8 +5,7 @@
         <div class="columns mt-6 mt-mobile-0" style="min-height: 60vh" data-aos="fade-up">
           <div class="column has-background-black-blur-false">
             <h1 class="title is-spaced site-title">
-              Start a crowd <br>
-              revolution <br>
+              Next Gen CI/CD
             </h1>
             <h2 class="subtitle">
               The decentralized <s>cloud</s> crowd computing network.
