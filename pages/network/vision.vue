@@ -11,12 +11,9 @@
       <div class="container py-6">
         <div class="column is-6 my-6">
           <p>
-            You’re probably familiar with NFTs – you know, unique digital collectibles.
-            Now, we’ve got our very own collection, consisting of 850 Burner Phone NTFs
-            that exist on the Solana Blockchain.
-            Think of a Burner Phone NFT as your very own Network membership card.
-            It even comes with owner-only perks,
-            which you can access on the Nosana Network, the Metaverse or at home.
+            At Nosana, we’re building a democratized CPU cloud computing network.
+            For a future internet that’s private, anonymous and easily available to anyone.
+            A future where Big Tech doesn’t call the shots, but internet users do.
           </p>
         </div>
         <div class="column is-offset-6 is-6 mb-6">
@@ -103,12 +100,12 @@
             <div class="column is-4">
               <img src="~assets/img/network.svg" height="42">
               <h2 class="title is-4 my-3">
-                Better availability
+                DevOps community
               </h2>
               <p>
-                We designed Nosana to be decentralized,
-                which means you can always rely on its availability. With an ever-growing network of nodes,
-                we’re confident in our ability to support your projects 24/7.
+                Open-source, flexible, collaborative.
+                That’s what we focus on as we build our community of developers.
+                After all, development is the driving force behind our network.
               </p>
             </div>
           </div>
