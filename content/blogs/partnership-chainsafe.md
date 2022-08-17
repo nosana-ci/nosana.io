@@ -2,7 +2,7 @@
 title: 'About our partnership with ChainSafe'
 description: ChainSafe is a fantastic partner who shares our vision for a decentralized, secure, and dependable CICD future.
 img: /img/partner_chainsafe.png
-createdAt: 2022-08-17
+createdAt: 2022-03-28
 ---
 
 
