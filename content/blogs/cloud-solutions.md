@@ -2,7 +2,7 @@
 title: 'Should we rely on current cloud solutions?'
 description: Today’s cloud computing infrastructure cannot keep up with the demands of our technology-driven society. 
 img: /img/nos_blocks.png
-createdAt: '2021-04-04'
+createdAt: '2022-04-04'
 ---
 
 ![](https://miro.medium.com/max/700/1*pgQBQCU39tUs0zJujErXFw.jpeg)
