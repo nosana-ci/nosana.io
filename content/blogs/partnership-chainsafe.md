@@ -2,10 +2,9 @@
 title: 'About our partnership with ChainSafe'
 description: ChainSafe is a fantastic partner who shares our vision for a decentralized, secure, and dependable CICD future.
 img: /img/partner_chainsafe.png
-createdAt: '2021-03-28'
+createdAt: 2022-08-17
 ---
 
-![](https://miro.medium.com/max/700/1*wXHH9zaaRx1nQWNsmnF2Ww.png)
 
 Nosana’s principal solution is to provide a crowd-based computational platform that will power the Metaverse and Web3 applications consistently and reliably during this next internet revolution. Our blockchain-based architecture allows anybody to purchase and sell computing power in a decentralized environment. On the Nosana Platform, computational nodes will be able to leverage consumer CPUs to run their CICD infrastructure, which is crucial for organizations to ship software quickly and efficiently today and tomorrow..
 
