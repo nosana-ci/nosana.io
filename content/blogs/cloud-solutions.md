@@ -5,7 +5,6 @@ img: /img/nos_blocks.png
 createdAt: '2022-04-04'
 ---
 
-![](https://miro.medium.com/max/700/1*pgQBQCU39tUs0zJujErXFw.jpeg)
 
 Today’s cloud computing infrastructure cannot keep up with the demands of our technology-driven society. Our current internet infrastructure — based on centralized services provided by cloud computing providers like Amazon Web Services AWS — may be subject to downtime and leaving users of platforms that rely on it completely stranded and at the mercy of tech giants.
 
