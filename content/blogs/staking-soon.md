@@ -5,11 +5,6 @@ img: /img/staking_soon.png
 createdAt: '2022-15-08'
 ---
 
-Our staking system is about to be deployed!
-===========================================================
-
-![](https://miro.medium.com/max/1400/1*Z5aH7frb-bx4isOEhDPE2w.png)
-
 Staking is almost here! This is a very important feature of the Nosana Network so make sure to read the details in this post carefully. When you stake your $NOS tokens they will be locked for a period of time in order to secure the network. In return, stakers will receive network benefits for their commitment. Staking your tokens is a requirement to make use of the Nosana Network but it will also provide you with many other rewards, like climbing in the Nosana Tier system and participating in the Burner Phone NFT drop.
 
 Rewards
