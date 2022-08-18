@@ -5,11 +5,6 @@ img: /img/nos_weyu.png
 createdAt: '2022-28-06'
 ---
 
-Summer is in full swing and so is development at Nosana HQ!
-===========================================================
-
-![](https://miro.medium.com/max/1400/1*bkSJChhgzlVyLg3zKDEJYQ.png)
-
 The Metaverse Will Require 1000x More Computing Power
 =====================================================
 Helping businesses gain access to compute capacity that is always “on” will become a pressing necessity over the next few years as the amount of processing power needed continues to rise in both traditional and web3 metaverse communities. Nosana brings decentralized crowd computing to the metaverse at its most critical time of need.
