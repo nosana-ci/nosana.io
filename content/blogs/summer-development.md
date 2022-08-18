@@ -2,7 +2,7 @@
 title: 'Summer is in full swing and so is development at Nosana HQ!'
 description: Nosana brings decentralized crowd computing to the metaverse at its most critical time of need. 
 img: /img/nos_weyu.png
-createdAt: '2022-28-06'
+createdAt: '2022-06-28'
 ---
 
 The Metaverse Will Require 1000x More Computing Power
