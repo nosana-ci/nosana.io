@@ -49,25 +49,25 @@ export default {
         // },
         {
           title: 'Seasonal drop 1',
-          description: 'Release of 200 more Burner Phones. Stake $NOS tokens to get access to a Burner Phone. Minting is free!',
+          description: 'Release of 50 more Burner Phones. Stake $NOS tokens to get access to a Burner Phone. Minting is free!',
           class: 'is-active',
           right: ''
         },
         {
           title: 'Drop 2',
-          description: 'Release of 200 more Burner Phones.',
+          description: 'Release of 50 more Burner Phones.',
           class: '',
           right: ''
         },
         {
           title: 'Drop 3',
-          description: 'Release of 200 more Burner Phones.',
+          description: 'Release of 50 more Burner Phones.',
           class: '',
           right: ''
         },
         {
           title: 'Drop 4',
-          description: 'Release of 200 more Burner Phones.',
+          description: 'Release of 50 more Burner Phones.',
           class: '',
           right: ''
         }
