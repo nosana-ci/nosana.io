@@ -94,6 +94,7 @@
             ref="carousel"
             :perspective="20"
             :display="3"
+            :autoplay="true"
             :loop="false"
             :width="350"
             :start-index="0"
