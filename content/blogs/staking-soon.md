@@ -23,7 +23,7 @@ Tier System
 ===========
 The benefits of this staking program go further than just earning NOS rewards, as stakers will also be part of a tier system that will give you access to different types of rewards depending on your level. The higher the level, the better the incentives. The first use case of the tier system will be the Burner Phone NFT drop. Here’s a quick list of what our tiers will look like, going from tier->name->chance to win an NFT mint token:
 
-**Tier 1 (top 100) — Bionic Kraken -> Guaranteed NFT mint token**
+**Tier 1 (top 20) — Bionic Kraken -> Guaranteed NFT mint token**
 
 **Tier 2 — Bionic Dragons -> 15 tickets**
 
@@ -43,7 +43,7 @@ Through your dashboard, you’ll be able to track your tier level, leaderboard p
 
 NFT mint token
 ==============
-Our top 100 stakers will win a NFT mint token instantly. High stakers will have a chance to win a mint token, which they can use in our vending machine to mint an NFT from our collection. These are called Burner Phones and owners will have access to many benefits such as:
+Our top 20 stakers will win a NFT mint token instantly. High stakers will have a chance to win a mint token, which they can use in our vending machine to mint an NFT from our collection. These are called Burner Phones and owners will have access to many benefits such as:
 
 **Guaranteed early access to our Incentivized Testnet during phase 2**
 
