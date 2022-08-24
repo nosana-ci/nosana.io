@@ -247,26 +247,19 @@ export default {
         }
       ],
       faqs: [
-        {
-          question: 'Are my staked NOS tokens safe?',
-          answer:
-            'Your NOS tokens are safe in your smart contract vault on the Solana Blockchain. The Nosana Staking Program is open source and audited, so nobody can access your staked tokens except for you! You can see your staked tokens on the Solana Blockchain.'
-        },
-        {
-          question: 'How do I get an xNOS score?',
-          answer:
-            'By staking NOS tokens you get an xNOS score, you can multiply this score by increasing the amount of days it takes to unstake your tokens (with a maximum of a year).'
-        },
-        {
-          question: 'What can I do with my xNOS score?',
-          answer:
-            'The higher your xNOS score, the more NOS rewards you can claim based on your share in the pool. You can also compete with other stakers to become a certain Tier and win NFTs.'
-        },
-        {
-          question: 'Why did my Tier change after staking?',
-          answer:
-            'Your tier is based on the leaderboards, so it is dependend on the other stakers as well. The leaderboards are dynamic and can change with every new staker.'
-        }
+        { question: 'Are my staked NOS tokens safe?', answer: 'Your NOS tokens are safe in your smart contract vault on the Solana Blockchain. The Nosana Staking Program is open source and audited, so nobody can access your staked tokens except for you! You can see your staked tokens on the Solana Blockchain.' },
+        { question: 'Can I lock NOS tokens?', answer: 'Yes, for a fixed time. The maximum lock time is 1 year. After you click unstake, your locktime starts decreasing. ' },
+        { question: 'How do I get an xNOS score?', answer: 'You get an xNOS score by locking the tokens in a staking contract for a certain amount of time.' },
+        { question: 'Can I transfer my xNOS score?', answer: 'No, you can’t.' },
+        { question: 'How is my xNOS score determined?', answer: 'Your xNOS score is determined by the amount of locked tokens and the time you want to have them locked. Your xNOS score is immediately gone when you unlock  your tokens. ' },
+        { question: 'Can I withdraw locked tokens before the time lock expires?', answer: 'No, but you can unlock your tokens .' },
+        { question: 'Can I change the duration of the time lock?', answer: 'Yes – but keep in mind you can only extend it, not shorten it.' },
+        { question: 'Can I add more NOS tokens to my stake?', answer: 'Absolutely! You can do so anytime.' },
+        { question: 'How can I earn NOS rewards?', answer: 'Staking NOS results in NOS rewards. For each transaction on the Network, we distribute 2% of network fees in proportion to your xNOS share in the network. Staking tokens lets you earn a percentage of those network fees. For the first year of the program, we’re also adding a substantial part of our 20 mining tokens over a duration of 1 year.' },
+        { question: 'What are the perks that come with xNOS score? ', answer: 'A higher xNOS score means you get a bigger piece of the daily $NOS rewards. xNOS score also lets you qualify for seasonal NFT giveaways through our Tiersystem, and make you eligible to vote on the NFT project’s direction. ' },
+        { question: 'What if I want to contribute my CPU as a node?', answer: 'In that case, you must also be staking. More information will be provided when node-support goes live.' },
+        { question: 'Stake to get access to our NFT collection', answer: 'Want in on our Burner Phone seasonal NFT mints? Then stake your coins! By doing so, you’ll get a chance to win a Burner Phone with network-specific utilities. Our Burner Phone NFTs have 4 guaranteed seasonal drops per year. If you stake your tokens for at least 3 months, you’ll get access to at least 1 NFT drop. ' },
+        { question: 'Why did my Tier change after staking?', answer: 'Your tier is based on the leaderboards, so it is dependend on the other stakers as well. The leaderboards are dynamic and can change with every new staker.' }
       ]
     };
   },
