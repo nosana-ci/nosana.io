@@ -164,6 +164,9 @@ a.card {
 .has-shadow {
   box-shadow: $box-shadow;
 }
+.has-shadow-accent {
+  box-shadow: 0px 0px 50px rgba($accent, 0.7);
+}
 
 .box {
   position: relative;

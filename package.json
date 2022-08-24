@@ -20,7 +20,8 @@
     "bulma": "0.9.4",
     "core-js": "3.22.4",
     "nuxt": "2.15.8",
-    "vue-circular-count-down-timer": "2.0.0"
+    "vue-circular-count-down-timer": "2.0.0",
+    "vue-countup-v2": "^4.0.0"
   },
   "devDependencies": {
     "@babel/eslint-parser": "7.17.0",

@@ -43,7 +43,7 @@
           </p>
           <div class="has-background-accent is-horizontal-centered my-5" style="width: 80px; height: 2px" />
           <p>
-            <a disabled class="is-disabled is-accent button is-outlined">Staking coming soon</a>
+            <a target="_blank" href="https://app.nosana.io/stake" class="is-accent button is-outlined">Staking Dashboard</a>
           </p>
         </div>
         <div class="has-text-centered">
