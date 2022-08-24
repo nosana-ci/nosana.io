@@ -10,6 +10,74 @@
             Calculate your xNOS depending on the amount of tokens staked and your lock time.
           </h2>
         </div>
+        <client-only>
+          <carousel-3d
+            v-if="tiers"
+            ref="carousel"
+            :perspective="20"
+            :display="3"
+            :autoplay="true"
+            :width="350"
+            :start-index="0"
+            :height="320"
+          >
+            <slide
+              v-for="slide in tiers"
+              :key="slide.tier"
+              :index="tiers.length - slide.tier"
+              class="box has-background-light has-shadow-accent has-radius"
+            >
+              <div class="columns is-mobile">
+                <div class="column is-4 is-flex is-flex-direction-column">
+                  <div class="subtitle is-6 is-size-7-touch has-text-accent">
+                    Tier {{ slide.tier }}
+                  </div>
+                  <div class="title is-5 mb-1 is-size-7-touch">
+                    {{ slide.name }}
+                  </div>
+                  <div style="line-height: 1">
+                    <span class="is-size-7">
+                      <small>Top<br></small>
+                      <span v-if="slide.tier === 1">{{ slide.number }}</span>
+                      <span v-else>{{
+                        tiers.filter(s=>s.tier !== slide.tier && s.tier < slide.tier)
+                          .reduce((a, o) => a + (o.percentage ? o.percentage : 0), 0) + slide.percentage
+                      }}%
+                        <span v-if="slide.tier > 2">
+                          - {{ tiers.filter(s=>s.tier !== slide.tier && s.tier < slide.tier)
+                            .reduce((a, o) => a + (o.percentage ? o.percentage : 0), 0) }}%
+                        </span>
+                      </span>
+                    </span>
+                  </div>
+                  <div
+                    :class="['tier-' + slide.tier]"
+                    class="has-text-accent subtitle is-6 mt-auto is-size-7-touch has-border-accent p-1 has-radius"
+                  >
+                    <span v-if="slide.tier === 1">
+                      <b>Guaranteed</b><br>NFT mint token
+                    </span>
+                    <span v-else-if="slide.tier === 2">
+                      <b class="title has-text-accent is-size-5-touch">15</b> Tickets
+                    </span>
+                    <span v-else-if="slide.tier === 3">
+                      <b class="title has-text-accent is-size-5-touch">6</b> Tickets
+                    </span>
+                    <span v-else-if="slide.tier === 4">
+                      <b class="title has-text-accent is-size-5-touch">3</b> Tickets
+                    </span>
+                    <span v-else-if="slide.tier === 5">
+                      <b class="title has-text-accent is-size-5-touch">1</b> Ticket
+                    </span>
+                  </div>
+                </div>
+                <div class="column is-8 tier-image">
+                  <img :src="require(`@/assets/img/tiers/tier${slide.tier}.svg`)">
+                </div>
+              </div>
+            </slide>
+          </carousel-3d>
+        </client-only>
         <div class="columns is-centered mt-6 ">
           <div class="has-text-centered column is-8">
             <div class="has-border-accent box">
@@ -88,74 +156,6 @@
             </div>
           </div>
         </div>
-        <client-only>
-          <carousel-3d
-            v-if="tiers"
-            ref="carousel"
-            :perspective="20"
-            :display="3"
-            :autoplay="true"
-            :width="350"
-            :start-index="0"
-            :height="320"
-          >
-            <slide
-              v-for="slide in tiers"
-              :key="slide.tier"
-              :index="tiers.length - slide.tier"
-              class="box has-background-light has-shadow-accent has-radius"
-            >
-              <div class="columns is-mobile">
-                <div class="column is-4 is-flex is-flex-direction-column">
-                  <div class="subtitle is-6 is-size-7-touch has-text-accent">
-                    Tier {{ slide.tier }}
-                  </div>
-                  <div class="title is-5 mb-1 is-size-7-touch">
-                    {{ slide.name }}
-                  </div>
-                  <div style="line-height: 1">
-                    <span class="is-size-7">
-                      <small>Top<br></small>
-                      <span v-if="slide.tier === 1">{{ slide.number }}</span>
-                      <span v-else>{{
-                        tiers.filter(s=>s.tier !== slide.tier && s.tier < slide.tier)
-                          .reduce((a, o) => a + (o.percentage ? o.percentage : 0), 0) + slide.percentage
-                      }}%
-                        <span v-if="slide.tier > 2">
-                          - {{ tiers.filter(s=>s.tier !== slide.tier && s.tier < slide.tier)
-                            .reduce((a, o) => a + (o.percentage ? o.percentage : 0), 0) }}%
-                        </span>
-                      </span>
-                    </span>
-                  </div>
-                  <div
-                    :class="['tier-' + slide.tier]"
-                    class="has-text-accent subtitle is-6 mt-auto is-size-7-touch has-border-accent p-1 has-radius"
-                  >
-                    <span v-if="slide.tier === 1">
-                      <b>Guaranteed</b><br>NFT mint token
-                    </span>
-                    <span v-else-if="slide.tier === 2">
-                      <b class="title has-text-accent is-size-5-touch">15</b> Tickets
-                    </span>
-                    <span v-else-if="slide.tier === 3">
-                      <b class="title has-text-accent is-size-5-touch">6</b> Tickets
-                    </span>
-                    <span v-else-if="slide.tier === 4">
-                      <b class="title has-text-accent is-size-5-touch">3</b> Tickets
-                    </span>
-                    <span v-else-if="slide.tier === 5">
-                      <b class="title has-text-accent is-size-5-touch">1</b> Ticket
-                    </span>
-                  </div>
-                </div>
-                <div class="column is-8 tier-image">
-                  <img :src="require(`@/assets/img/tiers/tier${slide.tier}.svg`)">
-                </div>
-              </div>
-            </slide>
-          </carousel-3d>
-        </client-only>
         <div class="column is-8 is-horizontal-centered">
           <accordion>
             <accordion-item v-for="faq in faqs" :key="faq.question">
