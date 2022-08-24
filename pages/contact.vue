@@ -37,7 +37,7 @@
         </p>
         <p class="block">
           <nuxt-link to="/brand" class="mt-4 is-underlined">
-            <b>Brand kit &nbsp;&nbsp;↘</b></a>
+            <b>Brand kit &nbsp;&nbsp;↘</b>
           </nuxt-link>
         </p>
       </div>
