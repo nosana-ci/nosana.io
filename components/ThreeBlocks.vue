@@ -60,11 +60,11 @@
                 Digital Inclusion
               </h3>
               <p class="block">
-                With the adoption of digital technologies across most sectors of society, 
-                and the increasing demand of computational services, the Nosana Network 
+                With the adoption of digital technologies across most sectors of society,
+                and the increasing demand of computational services, the Nosana Network
                 provides a path for anyone, no matter their status in the world,
-                to provide CPU capacity. 
-                Nosana believes that technological innovations should be accessible to 
+                to provide CPU capacity.
+                Nosana believes that technological innovations should be accessible to
                 all because of the implications they have for sustained economic development.
               </p>
             </div>
