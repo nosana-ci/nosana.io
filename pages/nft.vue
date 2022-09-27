@@ -196,6 +196,14 @@
             <roadmap-nft />
           </div>
         </div>
+        <div class="columns mt-6 is-vcentered">
+          <div class="column is-4 is-offset-2 has-text-centered">
+            <a href="https://nftsolana.io/" target="_blank"><img src="~assets/img/nftsolcalender.png" style="height: 70px;"></a>
+          </div>
+          <div class="column is-4 has-text-centered">
+            <a href="https://raritysniper.com/nft-drops-calendar" target="_blank"><img src="~assets/img/raritysniper.png" style="height: 70px;"></a>
+          </div>
+        </div>
       </div>
     </section>
   </div>
