@@ -123,25 +123,25 @@
         </div>
         <div class="my-6 pt-6 has-text-centered">
           <h2 class="title" data-aos="fade-up">
-            Special Burner Phone Network features
+            Special Burner Phone network boosts
           </h2>
         </div>
         <div class="columns is-variable is-8">
           <div class="column is-one-third" data-aos="fade-up" data-aos-delay="200">
             <div class="has-background-gradient  has-border-accent px-4 py-5">
               <h2 class="title is-4 has-text-accent">
-                Staking
+                Priority queue
               </h2>
               <p>
                 <ul>
                   <li class="bronze">
-                    Bronze: get 5% extra $NOS when you stake the NFT
+                    Bronze: skip a place in the Nodes Queue; wait less, earn more $NOS.
                   </li>
                   <li class="silver">
-                    Silver: get 10% extra $NOS when you stake the NFT
+                    Silver: skip a few places in the Nodes Queue; wait less, earn more $NOS.
                   </li>
                   <li class="gold">
-                    Gold: get 15% extra $NOS when you stake the NFT
+                    Gold: skip more places in the Nodes Queue; wait less, earn more $NOS.
                   </li>
                 </ul>
               </p>
@@ -150,18 +150,18 @@
           <div class="column is-one-third " data-aos="fade-up" data-aos-delay="400">
             <div class="has-background-gradient has-border-accent px-4 py-5">
               <h2 class="title is-4 has-text-accent">
-                Earning NOS
+                Discount
               </h2>
               <p>
                 <ul>
                   <li class="bronze">
-                    Bronze: earn 5% extra $NOS with each pipeline
+                    Bronze: pay less $NOS fees when posting new jobs; a lifetime platform discount.
                   </li>
                   <li class="silver">
-                    Silver: earn 10% extra $NOS with each pipeline
+                    Silver: pay little $NOS fees when posting new jobs; a lifetime platform discount.
                   </li>
                   <li class="gold">
-                    Gold: earn 15% extra $NOS with each pipeline
+                    Gold: pay no $NOS fees when posting new jobs; a lifetime platform discount.
                   </li>
                 </ul>
               </p>
@@ -170,18 +170,18 @@
           <div class="column is-one-third " data-aos="fade-up" data-aos-delay="600">
             <div class="has-background-gradient has-border-accent px-4 py-5">
               <h2 class="title is-4 has-text-accent">
-                Discount NOS
+                Extra tickets
               </h2>
               <p>
                 <ul>
                   <li class="bronze">
-                    Bronze: 5% discount $NOS with each pipeline
+                    Bronze: get an extra ticket in future raffles using the tier system; time to get lucky.
                   </li>
                   <li class="silver">
-                    Silver: 10% discount $NOS with each pipeline
+                    Silver: get a few tickets in future raffles using the tier system; time to get lucky.
                   </li>
                   <li class="gold">
-                    Gold: 15% discount $NOS with each pipeline
+                    Gold: get more tickets in future raffles using the tier system; time to get lucky.
                   </li>
                 </ul>
               </p>
