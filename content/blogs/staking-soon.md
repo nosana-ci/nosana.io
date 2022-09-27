@@ -1,11 +1,11 @@
 ---
-title: 'Our staking system is about to be deployed!'
+title: 'Our staking system is now deployed!'
 description: Bring on the new dashboard, rewards, and NFT mint tokens! 
 img: /img/staking_soon.png
-createdAt: '2022-15-08'
+createdAt: '2022-08-15'
 ---
 
-Staking is almost here! This is a very important feature of the Nosana Network so make sure to read the details in this post carefully. When you stake your $NOS tokens they will be locked for a period of time in order to secure the network. In return, stakers will receive network benefits for their commitment. Staking your tokens is a requirement to make use of the Nosana Network but it will also provide you with many other rewards, like climbing in the Nosana Tier system and participating in the Burner Phone NFT drop.
+Staking is here! This is a very important feature of the Nosana Network so make sure to read the details in this post carefully. When you stake your $NOS tokens they will be locked for a period of time in order to secure the network. In return, stakers will receive network benefits for their commitment. Staking your tokens is a requirement to make use of the Nosana Network but it will also provide you with many other rewards, like climbing in the Nosana Tier system and participating in the Burner Phone NFT drop.
 
 Rewards
 =======
