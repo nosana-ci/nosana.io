@@ -79,9 +79,9 @@
             </h2>
             <p class="block">
               Our Burner Phone vending machines will soon hit the (digital) streets.
-              To celebrate, we’ve held a mint pass lottery and have distributed 
+              To celebrate, we’ve held a mint pass lottery and have distributed
               50 mint passes – which can be used to mint a Burner Phone in our NFT vending machine.
-              You can read about our first lottery 
+              You can read about our first lottery
               [here.](https://nosana.medium.com/nosana-mint-pass-lottery-3298a3c70c89)
             </p>
           </div>
