@@ -12,7 +12,7 @@
                 You’re probably familiar with NFTs – you know, unique digital collectibles.
                 Now, we’ve got our very own collection,
                 consisting of 850 Burner Phone NTFs that exist on the Solana Blockchain.
-                Think of a Burner Phone NFT as your very own Network membership card.
+                Think of a Burner Phone NFT as your very own network membership card.
                 It even comes with owner-only perks,
                 which you can access on the Nosana Network, the Metaverse or at home.
               </p>
@@ -22,7 +22,7 @@
                   target="_blank"
                   class="mr-3 button is-accent is-wide is-disabled"
                 >
-                  NFT Machine coming soon
+                  NFT Vending Machine coming soon
                 </a>
               </p>
             </div>
@@ -51,7 +51,7 @@
             Good to know
           </h2>
           <p class="has-limited-width-small is-horizontal-centered" data-aos="fade-up">
-            We’re holding on to 100 Burner Phones.
+            We’re setting aside 100 Burner Phones.
             They’ll be used for giveaways, rewards and the creators’ Nosana Network memberships.
           </p>
         </div>
@@ -79,8 +79,10 @@
             </h2>
             <p class="block">
               Our Burner Phone vending machines will soon hit the (digital) streets.
-              To celebrate, we’ll be giving away 50 credits – which you can use to buy a Burner Phone.
-              Keep an eye out for more details on our very first community giveaway.
+              To celebrate, we’ve held a mint pass lottery and have distributed
+              50 mint passes – which can be used to mint a Burner Phone in our NFT vending machine.
+              You can read about our first lottery
+              [here.](https://nosana.medium.com/nosana-mint-pass-lottery-3298a3c70c89)
             </p>
           </div>
           <div class="column is-5 is-offset-2" data-aos="zoom-in">
@@ -93,7 +95,7 @@
           </h2>
           <p class="has-limited-width-small is-horizontal-centered" data-aos="fade-up">
             Burner Phone NFTs aren’t ‘just JPEGs’ –
-            they’re powerful assets you can use within the Network. Not to mention all the perks that come with them.
+            they’re powerful assets you can use within the Nosana Network, not to mention the boosts some of them have!
           </p>
         </div>
         <div class="columns py-6 is-vcentered mt-6">
@@ -102,28 +104,28 @@
           </div>
           <div class="column is-5" data-aos="fade-left">
             <h2 class="title">
-              Perks for Burner<br> Phone owners:
+              Perks for Burner<br> Phone Owners:
             </h2>
             <p class="block">
               <ul>
-                <li>Guaranteed early access to our Incentivized Testnet during phase 2</li>
+                <li>Guaranteed early access to our incentivized testnet during phase 2</li>
                 <li>Access to an exclusive Discord channel where you can vote on future rewards and new properties</li>
                 <li>Free virtual representation of your NFT, to be used in future metaverses</li>
                 <li>3D-printed figurine of your NFT</li>
-                <li>Upgrade to a 3D Burner Phone model in the future</li>
-                <li>Access to exclusive merch throughout the year – Burner Phones with certain properties only</li>
+                <li>Upgrade to a 3D burner phone model in the future</li>
+                <li>Access to exclusive merch throughout the year – burner phones with certain properties only</li>
                 <li>
                   One-of-a-kind reward-boosting utility when mainnet goes live
-                  – for a limited number of Burner Phones only, details to come
+                  – for a limited number of burner phones only, details to come
                 </li>
-                <li>Access to the Nosana workbench – details to come</li>
+                <li>Access to the Nosana Workbench – details to come</li>
               </ul>
             </p>
           </div>
         </div>
         <div class="my-6 pt-6 has-text-centered">
           <h2 class="title" data-aos="fade-up">
-            Special Burner Phone network boosts
+            Special Burner Phone Network Boosts
           </h2>
         </div>
         <div class="columns is-variable is-8">
@@ -135,13 +137,13 @@
               <p>
                 <ul>
                   <li class="bronze">
-                    Bronze: skip a place in the Nodes Queue; wait less, earn more $NOS.
+                    Bronze: skip a place in the nodes queue; wait less, earn more $NOS.
                   </li>
                   <li class="silver">
-                    Silver: skip a few places in the Nodes Queue; wait less, earn more $NOS.
+                    Silver: skip a few places in the nodes queue; wait less, earn more $NOS.
                   </li>
                   <li class="gold">
-                    Gold: skip more places in the Nodes Queue; wait less, earn more $NOS.
+                    Gold: skip more places in the nodes queue; wait less, earn more $NOS.
                   </li>
                 </ul>
               </p>
@@ -161,7 +163,7 @@
                     Silver: pay little $NOS fees when posting new jobs; a lifetime platform discount.
                   </li>
                   <li class="gold">
-                    Gold: pay no $NOS fees when posting new jobs; a lifetime platform discount.
+                    Gold: pay **zero** $NOS fees when posting new jobs; a lifetime platform discount.
                   </li>
                 </ul>
               </p>
@@ -175,13 +177,13 @@
               <p>
                 <ul>
                   <li class="bronze">
-                    Bronze: get an extra ticket in future raffles using the tier system; time to get lucky.
+                    Bronze: get an extra ticket in future raffles using the staking tier system.
                   </li>
                   <li class="silver">
-                    Silver: get a few tickets in future raffles using the tier system; time to get lucky.
+                    Silver: get a few tickets in future raffles using the staking tier system.
                   </li>
                   <li class="gold">
-                    Gold: get more tickets in future raffles using the tier system; time to get lucky.
+                    Gold: get more tickets in future raffles using the staking tier system.
                   </li>
                 </ul>
               </p>
