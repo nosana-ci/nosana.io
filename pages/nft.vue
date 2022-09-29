@@ -18,11 +18,11 @@
               </p>
               <p class="block">
                 <a
-                  disabled
+                  href="https://nft.nosana.io"
                   target="_blank"
-                  class="mr-3 button is-accent is-wide is-disabled"
+                  class="mr-3 button is-accent is-wide"
                 >
-                  NFT Vending Machine coming soon
+                  NFT Vending Machine
                 </a>
               </p>
             </div>
