@@ -73,11 +73,17 @@
                 <div>The Network</div>
               </a>
               <div class="navbar-dropdown is-boxed">
+                <nuxt-link class="navbar-item" to="/stake" exact-active-class="is-active">
+                  Staking & Rewards
+                </nuxt-link>
                 <nuxt-link class="navbar-item" to="/platform" exact-active-class="is-active">
                   Testnet
                 </nuxt-link>
                 <nuxt-link class="navbar-item" to="/network/cpu" exact-active-class="is-active">
                   Contribute CPU
+                </nuxt-link>
+                <nuxt-link class="navbar-item" to="/network/vision" exact-active-class="is-active">
+                  Vision
                 </nuxt-link>
                 <nuxt-link class="navbar-item" to="/token" exact-active-class="is-active">
                   The NOS Token
@@ -94,9 +100,6 @@
               <div class="navbar-dropdown is-boxed">
                 <nuxt-link class="navbar-item" to="/bounty" exact-active-class="is-active">
                   Bounty Program
-                </nuxt-link>
-                <nuxt-link class="navbar-item" to="/earn" exact-active-class="is-active">
-                  Earn
                 </nuxt-link>
                 <nuxt-link class="navbar-item" to="/nft" exact-active-class="is-active">
                   Nosana NFT

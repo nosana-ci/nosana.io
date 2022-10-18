@@ -57,7 +57,7 @@
                 Step 1
               </h2>
               <p class="is-size-5">
-                Give your configuration file a job
+                Create a new job for your project
               </p>
             </div>
           </div>
@@ -77,7 +77,7 @@
                 Step 3
               </h2>
               <p class="is-size-5">
-                Choose your Docker image
+                Specify your Docker image
               </p>
             </div>
           </div>

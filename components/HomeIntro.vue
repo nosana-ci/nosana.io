@@ -9,7 +9,7 @@
               revolution <br>
             </h1>
             <h2 class="subtitle">
-              The decentralized <s>cloud</s> crowd computing network.
+              Next Gen CI/CD
             </h2>
             <div class="has-limited-width-small mt-4">
               <p class="block">

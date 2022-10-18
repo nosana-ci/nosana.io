@@ -75,31 +75,92 @@
           </div>
         </div>
         <div class="has-text-centered mt-6">
-          <h2
-            class="title"
-            data-aos="fade-up"
-          >
-            Solana Summer Camp Hackathon 2022
+          <h2 class="title" data-aos="fade-up">
+            <span class="has-text-accent">Staking</span> is now LIVE
           </h2>
-          <h2
-            class="subtitle"
-            data-aos="fade-up"
-          >
-            at Nosana Office in Amsterdam
+          <h2 class="subtitle" data-aos="fade-up">
+            Stake your NOS tokens for daily rewards
           </h2>
-          <p
-            class="has-limited-width is-horizontal-centered"
-            data-aos="fade-up"
-          >
-            Participate at the Solana Summer Camp Hackathon 2022 IRL at the Nosana Office!
-            Plenty of time to work on your project, network, find team members for your idea,
-            or join an existing team and be able to fight for the pool of <b class="has-text-accent">$5m prizes</b>.
-            </h4>
-          </p>
         </div>
-        <div class="columns is-centered my-6">
+        <div class="columns is-centered my-6 ">
           <div class="has-text-centered column is-8">
-            <a href="https://solana.com/summercamp" target="_blank"><img class="has-radius" src="~assets/img/solana-summercamp.jpg"></a>
+            <div class="has-border-accent box">
+              <div class="columns is-vcentered">
+                <div class="column is-5 is-offset-1 has-text-left">
+                  <div class="field">
+                    <label class="label">staked NOS</label>
+                    <div class="control">
+                      <input v-model="amount" type="number" min="0" step="1" class="input">
+                    </div>
+                  </div>
+                  <div class="field">
+                    <label class="label">Unstake days</label>
+                    <div class="control">
+                      <input
+                        v-model="days"
+                        type="number"
+                        min="14"
+                        max="365"
+                        step="1"
+                        class="input"
+                      >
+                    </div>
+                  </div>
+                </div>
+                <div class="column is-6">
+                  <div class="pt-5">
+                    <div
+                      class="box has-text-centered has-background-black p-4 is-horizontal-centered has-shadow-accent"
+                      style="width: fit-content; min-width:200px"
+                    >
+                      <h2 class="title is-3 has-text-accent mb-0">
+                        <ICountUp
+                          :end-val="parseFloat(xnos)"
+                          :options="{ decimalPlaces: 0, duration:0.1 }"
+                          style="opacity:0"
+                        />
+                        <ICountUp
+                          :end-val="parseFloat(xnos)"
+                          :options="{ decimalPlaces: 0 }"
+                          style="position:absolute;width: 100%;text-align: center;left: 0;"
+                        />
+                      </h2>
+                      <p>xNOS score</p>
+                    </div>
+                    <div
+                      class="box has-text-centered has-background-black p-4 is-horizontal-centered has-shadow-accent"
+                      style="width: fit-content; min-width:200px"
+                    >
+                      <h2 class="title is-4 has-text-accent mb-0">
+                        <ICountUp
+                          :end-val="parseFloat(multiplier)"
+                          :options="{ decimalPlaces: 2, duration:0.1, prefix: 'x' }"
+                          style="opacity:0"
+                        />
+                        <ICountUp
+                          :end-val="parseFloat(multiplier)"
+                          :options="{ decimalPlaces: 2, prefix: 'x' }"
+                          style="position:absolute;width: 100%;text-align: center;left: 0;"
+                        />
+                      </h2>
+                      <p>multiplier</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div>
+                <nuxt-link to="/stake" class="button is-outlined is-accent m-2">
+                  <b>Learn more</b>
+                </nuxt-link>
+                <a
+                  href="https://app.nosana.io/stake"
+                  target="_blank"
+                  class="m-2 button is-accent is-wide"
+                >
+                  <b>Stake Now</b>
+                </a>
+              </div>
+            </div>
           </div>
         </div>
         <!-- <end-users /> -->
@@ -134,8 +195,40 @@
 </template>
 
 <script>
+import ICountUp from 'vue-countup-v2';
+const SECONDS_PER_DAY = 24 * 60 * 60;
+
 export default {
-  colorMode: 'dark'
+  components: {
+    ICountUp
+  },
+  colorMode: 'dark',
+  data () {
+    return {
+      amount: 1500,
+      days: 100
+    };
+  },
+  computed: {
+    multiplier () {
+      const unstakeTime = this.days * SECONDS_PER_DAY;
+
+      const multiplierSeconds = (SECONDS_PER_DAY * 365) / 3; // 4 months
+      const multiplier = unstakeTime / multiplierSeconds;
+      return multiplier + 1;
+    },
+    xnos () {
+      if (!this.days || !this.amount) {
+        return 0;
+      }
+      const amount = parseFloat(this.amount) || 0;
+      const unstakeTime = this.days * SECONDS_PER_DAY;
+      const multiplierSeconds = (SECONDS_PER_DAY * 365) / 3; // 4 months
+      const multiplier = unstakeTime / multiplierSeconds;
+      const xNOS = (parseFloat(amount) + parseFloat(amount) * multiplier).toFixed(2);
+      return xNOS;
+    }
+  }
 };
 </script>
 
