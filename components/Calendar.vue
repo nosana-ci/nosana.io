@@ -62,7 +62,7 @@ export default {
 </script>
 <style lang="scss" scoped>
 th {
-  border-color: $grey;
+  border: none;
 }
 td {
   min-width: 156px;
@@ -72,5 +72,20 @@ td {
 td.is-active {
   border-color: $accent;
   border-width: 2px;
+}
+table {
+  border-collapse: separate;
+  tr:first-child td:first-child {
+      border-top-left-radius: 10px;
+  }
+  tr:first-child td:last-child {
+      border-top-right-radius: 10px;
+  }
+  tr:last-child td:first-child {
+      border-bottom-left-radius: 10px;
+  }
+  tr:last-child td:last-child {
+      border-bottom-right-radius: 10px;
+  }
 }
 </style>
