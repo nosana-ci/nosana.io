@@ -2,6 +2,7 @@
   <div>
     <section class="section">
       <div class="container">
+        <!-- Intro -->
         <div class="columns mt-5">
           <div class="column is-6" data-aos="fade-up">
             <h1 class="title site-title is-spaced has-limited-width mt-6" data-aos="fade-up">
@@ -29,6 +30,7 @@
             </div>
           </div>
         </div>
+        <!-- Lootboxes -->
         <div class="box p-6 has-border-accent mt-6">
           <div class="is-pulled-right">
             <span>Results every day</span>
@@ -74,14 +76,61 @@
             </div>
           </div>
         </div>
+
+        <!-- Prizes carousel -->
+        <div class="my-6 pt-6 has-text-centered">
+          <h2 class="title" data-aos="fade-up">
+            Are you ready for the <br> hot end of summer?
+          </h2>
+          <p class="has-limited-width-small is-horizontal-centered" data-aos="fade-up">
+            Take a quick look at our amazing prizepool.
+            Are you the lucky holder to win a Ipad Air, Xbox Series X, Go Pro Hero 4 or one of the many other prizes?!
+          </p>
+        </div>
       </div>
+      <client-only>
+        <carousel-3d
+          v-if="slides"
+          ref="carousel"
+          :autoplay="true"
+          :width="320"
+          :height="275"
+          :disable3d="true"
+          :space="330"
+          :clickable="false"
+          :controls-visible="false"
+          :autoplay-timeout="4000"
+          :animation-speed="500"
+        >
+          <slide
+            v-for="(slide, index) in slides"
+            :key="slide"
+            :index="index"
+            class="prize-slide p-6 has-radius"
+          >
+            <img :src="require(`@/assets/img/festival/${slide}`)">
+          </slide>
+        </carousel-3d>
+      </client-only>
     </section>
   </div>
 </template>
 
 <script>
 export default {
-  colorMode: 'dark'
+  colorMode: 'dark',
+  data () {
+    return {
+      slides: [
+        'gopro.png',
+        'xbox.png',
+        'ipad.png',
+        'gopro.png',
+        'sonos.png',
+        'ledger.png'
+      ]
+    };
+  }
 };
 </script>
 
@@ -89,6 +138,17 @@ export default {
 .lootboxes {
   img {
     max-width: 100%;
+  }
+}
+.carousel-3d-slide {
+  filter: none !important;
+}
+
+.prize-slide {
+  background: linear-gradient(180deg, #061503 0%, #010C04 100%);
+  img {
+    height: 100%;
+    object-fit: contain;
   }
 }
 </style>
