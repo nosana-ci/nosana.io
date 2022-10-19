@@ -2,6 +2,7 @@
   <div>
     <home-intro />
     <!-- <partners /> -->
+    <calendar />
     <section class="section has-background-gradient-accent">
       <div class="container">
         <div class="columns is-variable is-8 has-text-centered">
