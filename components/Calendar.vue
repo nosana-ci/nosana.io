@@ -1,35 +1,31 @@
 <template>
-  <section class="section">
-    <div class="container">
-      <div class="table-container">
-        <table class="table is-bordered">
-          <thead>
-            <tr>
-              <th>Monday</th>
-              <th>Tuesday</th>
-              <th>Wednesday</th>
-              <th>Thursday</th>
-              <th>Friday</th>
-              <th>Saturday</th>
-              <th>Sunday</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr v-for="week in 2" :key="week">
-              <td
-                v-for="day in 7"
-                :key="day"
-                :class="{'is-active': currentDay === (day + 28 + 7*(week-1))%31 + 1,
-                         'is-selected': prizes && prizes[(day + 28 + 7*(week-1))%31 + 1].prize}"
-              >
-                {{ (day + 28 + 7*(week-1))%31 + 1 }}
-              </td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
-    </div>
-  </section>
+  <div class="table-container">
+    <table class="table is-bordered">
+      <thead>
+        <tr>
+          <th>Monday</th>
+          <th>Tuesday</th>
+          <th>Wednesday</th>
+          <th>Thursday</th>
+          <th>Friday</th>
+          <th>Saturday</th>
+          <th>Sunday</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr v-for="week in 2" :key="week">
+          <td
+            v-for="day in 7"
+            :key="day"
+            :class="{'is-active': currentDay === (day + 28 + 7*(week-1))%31 + 1,
+                     'is-selected': prizes && prizes[(day + 28 + 7*(week-1))%31 + 1].prize}"
+          >
+            {{ (day + 28 + 7*(week-1))%31 + 1 }}
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
 </template>
 
 <script>

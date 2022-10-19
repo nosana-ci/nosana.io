@@ -71,12 +71,13 @@
               <span>Rare drop</span>
             </div>
             <div class="column is-3 has-text-centered" data-aos="fade-up" data-aos-delay="800">
-              <img src="~assets/img/festival/lootbox-nos.png">
+              <img src="~assets/img/festival/lootbox-special.png">
               <span>Special drop</span>
             </div>
           </div>
         </div>
       </div>
+      <calendar />
       <!-- Prizes carousel -->
       <div class="my-6 pt-6 has-text-centered">
         <h2 class="title" data-aos="fade-up">
