@@ -76,17 +76,17 @@
             </div>
           </div>
         </div>
-      </div>
-      <calendar />
-      <!-- Prizes carousel -->
-      <div class="my-6 pt-6 has-text-centered">
-        <h2 class="title" data-aos="fade-up">
-          Are you ready for the <br> hot end of summer?
-        </h2>
-        <p class="has-limited-width-small is-horizontal-centered" data-aos="fade-up">
-          Take a quick look at our amazing prizepool.
-          Are you the lucky holder to win a Ipad Air, Xbox Series X, Go Pro Hero 4 or one of the many other prizes?!
-        </p>
+        <calendar />
+        <!-- Prizes carousel -->
+        <div class="my-6 pt-6 has-text-centered">
+          <h2 class="title" data-aos="fade-up">
+            Are you ready for the <br> hot end of summer?
+          </h2>
+          <p class="has-limited-width-small is-horizontal-centered" data-aos="fade-up">
+            Take a quick look at our amazing prizepool.
+            Are you the lucky holder to win a Ipad Air, Xbox Series X, Go Pro Hero 4 or one of the many other prizes?!
+          </p>
+        </div>
       </div>
       <client-only>
         <carousel-3d
@@ -96,8 +96,7 @@
           :autoplay="true"
           :width="320"
           :height="275"
-          :disable3d="true"
-          :space="330"
+          :space="400"
           :clickable="false"
           :controls-visible="false"
           :autoplay-timeout="3000"
@@ -176,6 +175,10 @@ export default {
   filter: none !important;
 }
 
+.carousel-3d-container {
+  padding: 0px 0;
+  box-sizing: content-box !important;
+}
 .prize-slide {
   background: linear-gradient(180deg, #061503 0%, #010C04 100%);
   img {

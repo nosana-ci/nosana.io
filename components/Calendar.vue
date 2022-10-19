@@ -1,30 +1,58 @@
 <template>
-  <div class="table-container">
-    <table class="table is-bordered">
-      <thead>
-        <tr>
-          <th>Monday</th>
-          <th>Tuesday</th>
-          <th>Wednesday</th>
-          <th>Thursday</th>
-          <th>Friday</th>
-          <th>Saturday</th>
-          <th>Sunday</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr v-for="week in 2" :key="week">
-          <td
-            v-for="day in 7"
-            :key="day"
-            :class="{'is-active': currentDay === (day + 28 + 7*(week-1))%31 + 1,
-                     'is-selected': prizes && prizes[(day + 28 + 7*(week-1))%31 + 1].prize}"
-          >
-            {{ (day + 28 + 7*(week-1))%31 + 1 }}
-          </td>
-        </tr>
-      </tbody>
-    </table>
+  <div>
+    <div class="">
+      <h4 class="subtitle has-text-accent" data-aos="fade-up">
+        Calendar
+        <span style="padding-left:100px">
+          day: <span v-if="prizes">{{ (prizes.filter(p => p.prize)).length }}</span>/10</span>
+      </h4>
+      <h2 class="title" data-aos="fade-up">
+        The Burner Phones<br>Festival
+      </h2>
+      <h4 class="mt-6 mb-4 subtitle has-text-accent has-text-centered" data-aos="fade-up">
+        October 30 – November 12
+      </h4>
+    </div>
+    <div class="table-container">
+      <table class="table is-bordered">
+        <thead>
+          <tr>
+            <th>Monday</th>
+            <th>Tuesday</th>
+            <th>Wednesday</th>
+            <th>Thursday</th>
+            <th>Friday</th>
+            <th>Saturday</th>
+            <th>Sunday</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr v-for="week in 2" :key="week">
+            <td
+              v-for="prize in prizes.slice((week-1) * 7,week * 7)"
+              :key="prize.day"
+              :class="{'is-active': currentDay === prize.day,
+                       'is-selected': currentDay !== prize.day
+                         && prizes && (prizes.find(p => p.day === prize.day)).prize}"
+            >
+              <span>{{ prize.day }}</span>
+              <div style="max-height: 120px; overflow-y: hidden" class="has-text-centered">
+                <img
+                  v-if="prize.prize"
+                  width="110"
+                  :src="require(`@/assets/img/festival/${prize.prize}.png`)"
+                >
+                <img
+                  v-else
+                  width="140"
+                  :src="require(`@/assets/img/festival/lootbox-${prize.type}.png`)"
+                >
+              </div>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
   </div>
 </template>
 
@@ -35,22 +63,22 @@ export default {
   data () {
     // const now = new Date();
     return {
-      prizes: {
-        30: { type: 'normal', prize: 1 },
-        31: { type: 'normal', prize: 2 },
-        1: { type: 'normal', prize: 3 },
-        2: { type: 'normal', prize: 4 },
-        3: { type: 'normal', prize: 5 },
-        4: { type: 'normal', prize: null },
-        5: { type: 'normal', prize: null },
-        6: { type: 'normal', prize: null },
-        7: { type: 'normal', prize: null },
-        8: { type: 'normal', prize: null },
-        9: { type: 'normal', prize: null },
-        10: { type: 'normal', prize: null },
-        11: { type: 'normal', prize: null },
-        12: { type: 'normal', prize: null }
-      },
+      prizes: [
+        { day: 30, type: 'regular', prize: 'sonos' },
+        { day: 31, type: 'regular', prize: 'apple' },
+        { day: 1, type: 'rare', prize: 'gopro' },
+        { day: 2, type: 'special', prize: 'ipad' },
+        { day: 3, type: 'regular', prize: 'ledger' },
+        { day: 4, type: 'regular', prize: null },
+        { day: 5, type: 'nos', prize: null },
+        { day: 6, type: 'special', prize: null },
+        { day: 7, type: 'nos', prize: null },
+        { day: 8, type: 'regular', prize: null },
+        { day: 9, type: 'regular', prize: null },
+        { day: 10, type: 'rare', prize: null },
+        { day: 11, type: 'regular', prize: null },
+        { day: 12, type: 'special', prize: null }
+      ],
       currentDay: 3
     };
   }
