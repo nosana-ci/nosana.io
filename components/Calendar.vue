@@ -32,7 +32,7 @@
               v-for="prize in prizes.slice((week-1) * 7,week * 7)"
               :key="prize.day"
               :data-tooltip="
-                (prize.prize && (currentDay >= prize.day || currentDay === 0) && currentDay !== -1) ? prize.info : null"
+                prize.info ? prize.info : null"
               :class="{'is-active': currentDay === prize.day,
                        'is-selected': currentDay !== prize.day
                          && prizes && (prizes.find(p => p.day === prize.day)).prize}"
@@ -40,7 +40,7 @@
               <span>{{ prize.day }}</span>
               <div style="max-height: 120px; overflow-y: hidden" class="has-text-centered">
                 <img
-                  v-if="prize.prize && (currentDay >= prize.day || currentDay === 0) && currentDay !== -1"
+                  v-if="prize.prize"
                   width="110"
                   :src="require(`@/assets/img/festival/${prize.prize}.png`)"
                 >
