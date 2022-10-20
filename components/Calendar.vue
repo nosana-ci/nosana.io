@@ -36,8 +36,11 @@
           </thead>
           <tbody>
             <tr v-for="week in 2" :key="week">
+              <td v-if="week === 1" class="has-background-black">
+                <span>31</span>
+              </td>
               <td
-                v-for="prize in prizes.slice((week-1) * 7,week * 7)"
+                v-for="prize in prizes.slice((week-1) * 6, week * 6)"
                 :key="prize.day"
                 :data-tooltip="
                   prize.info ? prize.info : null"
@@ -60,6 +63,11 @@
                   >
                 </div>
               </td>
+              <template v-if="week === 2">
+                <td v-for="i in 3" :key="i" class="has-background-black">
+                  <span>{{ 10 + i }}</span>
+                </td>
+              </template>
             </tr>
           </tbody>
         </table>
@@ -111,7 +119,7 @@ export default {
   methods: {
     async getFestivalCalendar () {
       try {
-        const response = await fetch('http://localhost:4123/festival-calendar');
+        const response = await fetch('https://app.nosana.ci/festival-calendar');
         const data = await response.json();
         this.prizes = data.prizes;
         this.currentDay = data.currentDay;
@@ -131,14 +139,14 @@ td {
   min-width: 156px;
   height: 130px;
   border-color: $grey;
-  background-color: $box-background-color !important;
+  background-color: $box-background-color;
   cursor: default !important;
   &:before {
     margin-top: 40px !important;
   }
 }
 td.is-active {
-  border-color: $accent;
+  border-color: $accent !important;
   border-width: 2px;
 }
 table {
