@@ -2,14 +2,17 @@
   <div>
     <div class="">
       <h4 class="subtitle has-text-accent" data-aos="fade-up">
-        Calendar
+        <span class="has-text-weight-bold">Calendar</span>
         <span style="padding-left:100px">
-          day: <span v-if="prizes">{{ (prizes.filter(p => p.prize)).length }}</span>/10</span>
+          day: <span
+            v-if="prizes"
+            class="has-text-weight-bold"
+          >{{ (prizes.filter(p => p.prize)).length }}</span><span class="has-text-weight-bold">/10</span></span>
       </h4>
       <h2 class="title" data-aos="fade-up">
         The Burner Phones<br>Festival
       </h2>
-      <h4 class="mt-6 mb-4 subtitle has-text-accent has-text-centered" data-aos="fade-up">
+      <h4 class="mt-6 mb-4 subtitle has-text-accent has-text-centered has-text-weight-bold mb-3" data-aos="fade-up">
         October 30 – November 12
       </h4>
     </div>
@@ -90,6 +93,7 @@ th {
   border: none;
 }
 td {
+  border-color: #303930 !important;
   min-width: 156px;
   height: 130px;
   border-color: $grey;

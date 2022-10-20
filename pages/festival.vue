@@ -157,7 +157,7 @@ export default {
         'xbox.png',
         'ipad.png',
         'apple.png',
-        'sonos.png',
+        'anker.png',
         'ledger.png'
       ]
     };
