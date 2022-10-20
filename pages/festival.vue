@@ -31,7 +31,7 @@
           </div>
         </div>
         <!-- Lootboxes -->
-        <div class="box p-6 has-border-accent mt-6">
+        <div class="box p-6 has-border-accent my-6">
           <div class="is-pulled-right" data-aos="fade-left" data-aos-delay="400">
             <span>Results every day</span>
             <div class="is-flex">
@@ -76,7 +76,7 @@
             </div>
           </div>
         </div>
-        <calendar />
+        <calendar class="pt-6" />
         <!-- Prizes carousel -->
         <div class="my-6 pt-6 has-text-centered">
           <h2 class="title" data-aos="fade-up">
