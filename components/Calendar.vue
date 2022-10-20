@@ -31,6 +31,8 @@
             <td
               v-for="prize in prizes.slice((week-1) * 7,week * 7)"
               :key="prize.day"
+              :data-tooltip="
+                (prize.prize && (currentDay >= prize.day || currentDay === 0) && currentDay !== -1) ? prize.info : null"
               :class="{'is-active': currentDay === prize.day,
                        'is-selected': currentDay !== prize.day
                          && prizes && (prizes.find(p => p.day === prize.day)).prize}"
@@ -38,7 +40,7 @@
               <span>{{ prize.day }}</span>
               <div style="max-height: 120px; overflow-y: hidden" class="has-text-centered">
                 <img
-                  v-if="prize.prize"
+                  v-if="prize.prize && (currentDay >= prize.day || currentDay === 0) && currentDay !== -1"
                   width="110"
                   :src="require(`@/assets/img/festival/${prize.prize}.png`)"
                 >
@@ -61,26 +63,25 @@
 export default {
 
   data () {
-    // const now = new Date();
     return {
-      prizes: [
-        { day: 30, type: 'regular', prize: 'sonos' },
-        { day: 31, type: 'regular', prize: 'apple' },
-        { day: 1, type: 'rare', prize: 'gopro' },
-        { day: 2, type: 'special', prize: 'ipad' },
-        { day: 3, type: 'regular', prize: 'ledger' },
-        { day: 4, type: 'regular', prize: null },
-        { day: 5, type: 'nos', prize: null },
-        { day: 6, type: 'special', prize: null },
-        { day: 7, type: 'nos', prize: null },
-        { day: 8, type: 'regular', prize: null },
-        { day: 9, type: 'regular', prize: null },
-        { day: 10, type: 'rare', prize: null },
-        { day: 11, type: 'regular', prize: null },
-        { day: 12, type: 'special', prize: null }
-      ],
-      currentDay: 3
+      prizes: [],
+      currentDay: null
     };
+  },
+  mounted () {
+    this.getFestivalCalendar();
+  },
+  methods: {
+    async getFestivalCalendar () {
+      try {
+        const response = await fetch('http://localhost:4123/festival-calendar');
+        const data = await response.json();
+        this.prizes = data.prizes;
+        this.currentDay = data.currentDay;
+      } catch (error) {
+        console.error(error);
+      }
+    }
   }
 };
 </script>
@@ -92,6 +93,11 @@ td {
   min-width: 156px;
   height: 130px;
   border-color: $grey;
+  background-color: $box-background-color !important;
+  cursor: default !important;
+  &:before {
+    margin-top: 40px !important;
+  }
 }
 td.is-active {
   border-color: $accent;
