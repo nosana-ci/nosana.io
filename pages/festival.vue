@@ -10,10 +10,10 @@
             </h1>
             <div class="has-limited-width-small mt-4">
               <p class="block">
-                What could be the first of many to come.
-                During the 20-day event we're giving away daily prizes to our NFT holders!
-                With around 50 Burner Phones available with the first initial drop,
-                the chance to win one of our prizes is insanely high
+                What could be the first of many in the future. Throughout the 10-day event,
+                we will be awarding daily prizes to our NFT holders!
+                With approximately 50 Burner Phones only minted in the initial drop,
+                your chances of winning one of our prizes is insanely high!
               </p>
               <p class="block">
                 <a
@@ -53,9 +53,10 @@
             Lootbox Drop incoming!
           </h1>
           <p class="has-limited-width-small" data-aos="fade-in">
-            Wait for that call with our droplocation to come in. We have four different drops during the festival.
-            The price of the day will be shared every morning at 10:00 CET.
-            The winner will be published around 20:00 CET.
+            Wait for that call with our drop location to come in.
+            We have four different loot box drops during the festival.
+            The prize of the day will be shared every morning at 10:00 CET.
+            The day's winner will be announced around 20:00 CET.
           </p>
           <div class="columns lootboxes mt-5">
             <div class="column is-3 has-text-centered" data-aos="fade-up" data-aos-delay="200">
@@ -84,7 +85,7 @@
           </h2>
           <p class="has-limited-width-small is-horizontal-centered" data-aos="fade-up">
             Take a quick look at our amazing prizepool.
-            Are you the lucky holder to win a Ipad Air, Xbox Series X, Go Pro Hero 4 or one of the many other prizes?!
+            Are you the lucky holder to win a Xbox Series X, Go Pro Hero 4 or one of the many other prizes?!
           </p>
         </div>
       </div>
@@ -129,9 +130,9 @@
               data-aos="fade-up"
             >
               <h2 class="title">
-                Only for Burner Phones holders
+                Only for Burner Phone holders
               </h2>
-              <p>This is a Burner Phones holders event only. Do you wanna get your hand on a BurnerPhone?</p>
+              <p>This is a Burner Phone holders event only. Do you wanna get your hand on a BurnerPhone?</p>
               <br>
               <p>
                 <a href="https://app.nosana.io/stake" target="_blank" class="has-text-accent">Stake</a> your NOS tokens and
@@ -155,7 +156,6 @@ export default {
       slides: [
         'gopro.png',
         'xbox.png',
-        'ipad.png',
         'apple.png',
         'anker.png',
         'ledger.png'
