@@ -9,8 +9,7 @@
           <div class="column is-7" data-aos="fade-up">
             <div class="has-limited-width-small mt-4">
               <p class="block">
-                Our decentralized crowd-hosted platform has computing options for every development need.
-                Whether you’re building mobile apps or the next DEX.
+                Our decentralized crowd-hosted platform has computing options for every development need, whether you’re building mobile apps or the next DEX.
               </p>
             </div>
           </div>
@@ -21,7 +20,7 @@
         <div class="column is-10 is-offset-1 mt-6">
           <div class="box p-6 has-text-centered has-border-accent">
             <h1 class="title">
-              Container support
+              Container Support
             </h1>
             <p class="has-limited-width-small is-horizontal-centered">
               Need native support for images within containers? We can pull from all public repositories.
@@ -33,7 +32,7 @@
         </div>
         <div class="my-6 pt-6 has-text-centered">
           <h2 class="title" data-aos="fade-up">
-            Get Started in 4 steps
+            Get Started in 4 easy steps
           </h2>
           <!-- <p class="has-limited-width-smaller is-horizontal-centered" data-aos="fade-up">
             It’s easy to get up and running as a Nosana Technology Partner.
@@ -46,11 +45,11 @@
                 1
               </h2>
               <h2 class="title is-5">
-                Join our testnet
+                Join our free testnet
               </h2>
               <p class="">
                 You’ll find our incentivized testnet at testnet.nosana.io.
-                To join, you’ll have to complete three actions. (Don’t worry, they’re simple.)
+                To join, you’ll have to complete a few actions. (Don’t worry, they’re simple.)
               </p>
             </div>
           </div>
@@ -89,13 +88,12 @@
                 4
               </h2>
               <h2 class="title is-5">
-                Request funds
+                Request testnet tokens
               </h2>
               <p class="">
-                Add details about your project and make a funding request.
-                Please note we can only host a limited amount of projects on our testnet.
-                And we have to manually approve each project, so bear with us!
-                We’ll email you as soon as we’ve approved your request. Until then, its status will be ‘pending’.
+                Add information about your project and submit a funding request for testnet tokens.
+                We'll review your information and notify you through email once your request has been approved.
+                Until then, the status will show as 'pending.'
               </p>
             </div>
           </div>
