@@ -3,7 +3,7 @@
     <section class="section">
       <div class="container">
         <h1 class="title is-1 is-spaced has-text-centered mt-6">
-          Democratizing CPU<br>cloud computing
+          Democratizing CPU<br>Cloud Computing
         </h1>
       </div>
     </section>
@@ -11,17 +11,15 @@
       <div class="container py-6">
         <div class="column is-6 my-6">
           <p>
-            At Nosana, we’re building a democratized CPU cloud computing network.
-            For a future internet that’s private, anonymous and easily available to anyone.
-            A future where Big Tech doesn’t call the shots, but internet users do.
+            We're creating a democratized CPU cloud computing network for a private, anonymous,
+            and easily accessible future internet. A future in which internet users, not Big Tech, make the decisions.
           </p>
         </div>
         <div class="column is-offset-6 is-6 mb-6">
           <p>
-            That’s why we connect blockchain developers and services to a global pool of computing power.
-            This way, everyone will be able to rent out their spare CPU to power the projects they believe in.
-            We especially focus on running project CI/CD infrastructure,
-            so devs are free to build without having to depend on Big Tech’s whims.
+            As a result, we provide blockchain developers and services with access to a global pool of computing power.
+            This way, everyone will be able to rent out their spare CPU to power the projects they care about.
+            We place a special emphasis on project CI/CD infrastructure, allowing developers to build without having to rely on Big Tech's whims.
           </p>
         </div>
       </div>
@@ -41,9 +39,9 @@
                 Better for people
               </h2>
               <p>
-                We’re here to empower regular people by eliminating Big-Tech middlemen and offering an affordable,
-                reliable solution. Make money by sharing your idle computing resources with us.
-                It’s easy and accessible for anyone – including people with lower incomes.
+                We're here to empower ordinary people by stripping away Big-Tech middlemen
+                and providing an affordable, dependable solution. Earn money by lending  your
+                idle computing resources on our network. It is simple and accessible to anyone with an internet connection.
               </p>
             </div>
             <div class="column is-4">
@@ -84,7 +82,7 @@
               </h2>
               <p>
                 Selling? You always get paid. Buying? You always get what you pay for.
-                Thank our smart contracts, which enforce all cloud computing transactions.
+                Transactions are guaranteed thanks to our smart contracts, which enforce all cloud computing transactions.
               </p>
             </div>
             <div class="column is-4">
@@ -93,7 +91,7 @@
                 Encrypted for your privacy
               </h2>
               <p>
-                Privacy is everything. That’s why our decentralized network is encrypted at several levels.
+                Privacy is everything. That’s why our decentralized network is encrypted on several levels.
                 You – and your stuff – are completely anonymous, private and secure.
               </p>
             </div>
