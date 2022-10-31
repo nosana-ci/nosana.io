@@ -76,7 +76,7 @@
         </div>
         <div class="has-text-centered mt-6">
           <h2 class="title" data-aos="fade-up">
-            <span class="has-text-accent">Staking</span> is now LIVE
+            <span class="has-text-accent">Staking</span> is LIVE!
           </h2>
           <h2 class="subtitle" data-aos="fade-up">
             Stake your NOS tokens for daily rewards
@@ -88,7 +88,7 @@
               <div class="columns is-vcentered">
                 <div class="column is-5 is-offset-1 has-text-left">
                   <div class="field">
-                    <label class="label">staked NOS</label>
+                    <label class="label">Staked NOS</label>
                     <div class="control">
                       <input v-model="amount" type="number" min="0" step="1" class="input">
                     </div>
@@ -173,7 +173,7 @@
             class="title is-2"
             data-aos="fade-up"
           >
-            Supercharged DevOps<br>engineering
+            Supercharged DevOps<br>Engineering
           </h2>
           <h4
             data-aos="fade-up"

@@ -98,9 +98,6 @@
                 <div>Community</div>
               </a>
               <div class="navbar-dropdown is-boxed">
-                <nuxt-link class="navbar-item" to="/bounty" exact-active-class="is-active">
-                  Bounty Program
-                </nuxt-link>
                 <nuxt-link class="navbar-item" to="/nft" exact-active-class="is-active">
                   Nosana NFT
                 </nuxt-link>
