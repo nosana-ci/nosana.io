@@ -84,8 +84,8 @@
             Are you ready for the <br> hot end of summer?
           </h2>
           <p class="has-limited-width-small is-horizontal-centered" data-aos="fade-up">
-            Take a quick look at our amazing prizepool.
-            Are you the lucky holder to win a Xbox Series X, Go Pro Hero 4 or one of the many other prizes?!
+            Take a quick look at our amazing prize pool.
+            Will you be the lucky holder to win a Xbox Series X, GoPro HERO 4, or any of the other amazing prizes?!
           </p>
         </div>
       </div>
@@ -132,12 +132,12 @@
               <h2 class="title">
                 Only for Burner Phone holders
               </h2>
-              <p>This is a Burner Phone holders event only. Do you wanna get your hand on a BurnerPhone?</p>
+              <p>This is a Burner Phone holders event only. Do you want to get your hands on a Burner Phone NFT?</p>
               <br>
               <p>
                 <a href="https://app.nosana.io/stake" target="_blank" class="has-text-accent">Stake</a> your NOS tokens and
-                <a href="https://app.nosana.io/stake" target="_blank" class="has-text-accent">Subscribe</a> for the next free mint on Nosana's Network.
-                Or take a look on Solana Marketplaces like <a href="https://magiceden.io/marketplace/nosana_burner_phone" target="_blank" class="has-text-accent">Magic Eden</a> and
+                <a href="https://app.nosana.io/stake" target="_blank" class="has-text-accent">Subscribe</a> for the next free mint on the Nosana Network.
+                Or, take a look on Solana marketplaces like <a href="https://magiceden.io/marketplace/nosana_burner_phone" target="_blank" class="has-text-accent">Magic Eden</a> or
                 <a target="_blank" href="https://opensea.io/collection/nosana-burner-phone-collection" class="has-text-accent">OpenSea</a>.
               </p>
             </div>
