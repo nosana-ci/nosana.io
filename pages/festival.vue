@@ -85,7 +85,7 @@
           </h2>
           <p class="has-limited-width-small is-horizontal-centered" data-aos="fade-up">
             Take a quick look at our amazing prize pool.
-            Will you be the lucky holder to win a Xbox Series X, GoPro HERO 4, or any of the other amazing prizes?!
+            Will you be the lucky holder to win a Xbox Series X, GoPro HERO 10, or any of the other amazing prizes?!
           </p>
         </div>
       </div>
