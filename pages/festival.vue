@@ -144,6 +144,9 @@
           </div>
         </div>
       </div>
+      <div class="has-text-centered">
+        <a href="/terms_conditions_festival.pdf" target="_blank">View Terms & Conditions</a>
+      </div>
     </section>
   </div>
 </template>
