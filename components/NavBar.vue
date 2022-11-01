@@ -107,6 +107,9 @@
                 <nuxt-link class="navbar-item" to="/blog" exact-active-class="is-active">
                   Blogs
                 </nuxt-link>
+                <nuxt-link class="navbar-item" to="/festival" exact-active-class="is-active">
+                  Burner Phones Festival
+                </nuxt-link>
                 <a href="https://twitter.com/nosana_ci" target="_blank" class="navbar-item">
                   <i class="fab fa-twitter mr-2" aria-hidden="true" />
                   <span>Twitter</span>
