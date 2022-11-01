@@ -206,6 +206,9 @@
             <a href="https://raritysniper.com/nft-drops-calendar" target="_blank"><img src="~assets/img/raritysniper.png" style="height: 70px;"></a>
           </div>
         </div>
+        <div class="has-text-centered mt-6">
+          <a target="_blank" href="https://app.nosana.io/" class="is-accent button">Nosana Dashboard</a>
+        </div>
       </div>
     </section>
   </div>
