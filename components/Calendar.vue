@@ -48,7 +48,7 @@
                          'is-selected': currentDay !== prize.day
                            && prizes && (prizes.find(p => p.day === prize.day)).prize}"
               >
-                <span>{{ prize.day + 7 }}</span>
+                <span>{{ prize.day }}</span>
                 <i v-if="prize.prize" class="fa-solid fa-circle-check is-pulled-right has-text-accent" />
                 <div style="max-height: 120px; overflow-y: hidden" class="has-text-centered">
                   <img
@@ -65,7 +65,7 @@
               </td>
               <template v-if="week === 2">
                 <td v-for="i in 3" :key="i" class="has-background-black">
-                  <span>{{ 10 + i + 7 }}</span>
+                  <span>{{ 10 + i }}</span>
                 </td>
               </template>
             </tr>
