@@ -18,7 +18,7 @@
           has-text-centered has-text-weight-bold"
           data-aos="fade-up"
         >
-          November 1 – November 10
+          November 8 – November 17
         </h4>
       </div>
       <div class="table-container">
@@ -37,7 +37,7 @@
           <tbody>
             <tr v-for="week in 2" :key="week">
               <td v-if="week === 1" class="has-background-black">
-                <span>31</span>
+                <span>7</span>
               </td>
               <td
                 v-for="prize in prizes.slice((week-1) * 6, week * 6)"
@@ -48,7 +48,7 @@
                          'is-selected': currentDay !== prize.day
                            && prizes && (prizes.find(p => p.day === prize.day)).prize}"
               >
-                <span>{{ prize.day }}</span>
+                <span>{{ prize.day + 7 }}</span>
                 <i v-if="prize.prize" class="fa-solid fa-circle-check is-pulled-right has-text-accent" />
                 <div style="max-height: 120px; overflow-y: hidden" class="has-text-centered">
                   <img
@@ -65,7 +65,7 @@
               </td>
               <template v-if="week === 2">
                 <td v-for="i in 3" :key="i" class="has-background-black">
-                  <span>{{ 10 + i }}</span>
+                  <span>{{ 10 + i + 7 }}</span>
                 </td>
               </template>
             </tr>
