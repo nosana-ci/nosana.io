@@ -33,7 +33,7 @@
             About $NOS
           </h2>
           <p class="has-limited-width-small is-horizontal-centered" data-aos="fade-up">
-            $NOS is a cryptocurrency that can be used to for services within the Nosana marketplace.
+            $NOS is a cryptocurrency that can be used to for services within the Nosana marketplace.
           </p>
         </div>
         <div class="my-6 py-6 has-text-centered">
@@ -44,7 +44,8 @@
                 Secure payments
               </h2>
               <p class="has-limited-width-smaller is-horizontal-centered">
-                $NOS is a completely secure way to pay for services in the Nosana marketplace. It's also simple to store, transfer, and trade.
+                $NOS is a completely secure way to pay for services in the Nosana marketplace.
+                It's also simple to store, transfer, and trade.
               </p>
             </div>
             <div class="column is-one-third" data-aos="fade-up" data-aos-delay="400">
@@ -103,7 +104,8 @@
             <p class="block">
               Our $NOS private release on February 12, 2022, sold out instantly.
               There are currently 33 million $NOS floating around.
-              The amount of circulating $NOS will reach 100 million as we continue to build and expand the Nosana network.
+              The amount of circulating $NOS will reach 100 million as we continue to build and .
+              expand the Nosana network.
             </p>
           </div>
         </div>

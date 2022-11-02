@@ -19,7 +19,8 @@
           <p>
             As a result, we provide blockchain developers and services with access to a global pool of computing power.
             This way, everyone will be able to rent out their spare CPU to power the projects they care about.
-            We place a special emphasis on project CI/CD infrastructure, allowing developers to build without having to rely on Big Tech's whims.
+            We place a special emphasis on project CI/CD infrastructure,
+            allowing developers to build without having to rely on Big Tech's whims.
           </p>
         </div>
       </div>
@@ -40,8 +41,9 @@
               </h2>
               <p>
                 We're here to empower ordinary people by stripping away Big-Tech middlemen
-                and providing an affordable, dependable solution. Earn money by lending  your
-                idle computing resources on our network. It is simple and accessible to anyone with an internet connection.
+                and providing an affordable, dependable solution. Earn money by lending your
+                idle computing resources on our network.
+                It is simple and accessible to anyone with an internet connection.
               </p>
             </div>
             <div class="column is-4">
@@ -82,7 +84,8 @@
               </h2>
               <p>
                 Selling? You always get paid. Buying? You always get what you pay for.
-                Transactions are guaranteed thanks to our smart contracts, which enforce all cloud computing transactions.
+                Transactions are guaranteed thanks to our smart contracts,
+                which enforce all cloud computing transactions.
               </p>
             </div>
             <div class="column is-4">

@@ -48,7 +48,7 @@
               Not just for techies
             </h2>
             <p class="block">
-              Whether you're a tech whiz or not, providing your unused CPU is simple.
+              Whether you're a tech whiz or not, providing your unused CPU is simple.
               Join our network by connecting your wallet and installing our software package.
               Multiple platforms, from desktop computers to the Raspberry Pi, are supported.
             </p>
@@ -66,10 +66,12 @@
               Protection from flase nodes
             </h2>
             <p class="block">
-              You can only become a node if you stake. Running CI/CD pipelines for other projects allows you to earn $NOS.
+              You can only become a node if you stake.
+              Running CI/CD pipelines for other projects allows you to earn $NOS.
               <br><br>
-              We safeguard the network and keep hostile nodes out. This is why staking NOS is required. If you break our standards,
-              we will slash a certain amount of staked $NOS tokens.
+              We safeguard the network and keep hostile nodes out.
+              This is why staking NOS is required. If you break our standards,
+              we will slash a certain amount of staked $NOS tokens.
             </p>
           </div>
         </div>

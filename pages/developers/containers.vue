@@ -96,8 +96,10 @@
           <h2 class="title is-4">
             Connect to get started
           </h2>
-          <p class="has-limited-width-smaller"><strong>
-            Ready to optimize your workflow with our native container executor? Connect to our testnet to get started.</strong>
+          <p class="has-limited-width-smaller">
+            <strong>
+              Ready to optimize your workflow with our native container executor?
+              Connect to our testnet to get started.</strong>
           </p>
           <p class="mt-4">
             <a href="https://testnet.nosana.io" target="_blank" class="is-underlined"><strong>Connect to Nosana testnet &nbsp;&nbsp;↘</strong></a>

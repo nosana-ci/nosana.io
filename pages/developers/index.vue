@@ -9,7 +9,8 @@
           <div class="column is-7" data-aos="fade-up">
             <div class="has-limited-width-small mt-4">
               <p class="block">
-                Our decentralized crowd-hosted platform has computing options for every development need, whether you’re building mobile apps or the next DEX.
+                Our decentralized crowd-hosted platform has computing options for every development
+                need, whether you’re building mobile apps or the next DEX.
               </p>
             </div>
           </div>
@@ -93,7 +94,7 @@
               <p class="">
                 Add information about your project and submit a funding request for testnet tokens.
                 We'll review your information and notify you through email once your request has been approved.
-                Until then, the status will show as 'pending.'
+                Until then, the status will show as 'pending.'
               </p>
             </div>
           </div>
