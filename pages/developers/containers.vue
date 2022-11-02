@@ -44,7 +44,7 @@
         </div>
         <div class="my-6 pt-6 has-text-centered">
           <h2 class="title" data-aos="fade-up">
-            Running a docker build in 4 steps
+            Running a Docker build in 4 steps
           </h2>
           <!-- <p class="has-limited-width-smaller is-horizontal-centered" data-aos="fade-up">
             It’s easy to get up and running as a Nosana Technology Partner.
@@ -96,11 +96,11 @@
           <h2 class="title is-4">
             Connect to get started
           </h2>
-          <p class="has-limited-width-smaller">
-            Ready to optimize your workflow with our native container executor? Connect to our testnet to get started.
+          <p class="has-limited-width-smaller"><strong>
+            Ready to optimize your workflow with our native container executor? Connect to our testnet to get started.</strong>
           </p>
           <p class="mt-4">
-            <a href="https://testnet.nosana.io" target="_blank" class="is-underlined">Connect to Nosana testnet &nbsp;&nbsp;↘</a>
+            <a href="https://testnet.nosana.io" target="_blank" class="is-underlined"><strong>Connect to Nosana testnet &nbsp;&nbsp;↘</strong></a>
           </p>
         </div>
       </div>
