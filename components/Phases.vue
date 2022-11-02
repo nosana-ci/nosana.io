@@ -8,7 +8,7 @@
           </div>
           <div>
             <h2 class="subtitle is-3">
-              Nosana Testnet for projects
+              Nosana Testnet For Projects
             </h2>
             <ul>
               <li>
@@ -25,8 +25,8 @@
               <li>
                 Our pipelines will support basic ESLint checks. More features
                 and supported languages will be added, development will be based
-                on community feedback. Make sure to follow our
-                <a href="https://discord.gg/nosana" target="_blank">Discord</a>.
+                on community feedback. Make sure to join our
+                <a href="https://discord.gg/nosana" target="_blank">Discord server</a>.
               </li>
               <li>
                 We will begin the testnet with certified nodes, to make sure
@@ -43,7 +43,7 @@
                 href="https://testnet.nosana.io"
                 class="button is-accent is-outlined has-text-weight-semibold"
                 target="_blank"
-              >Join Incentivized Testnet</a>
+              >Join Our Incentivized Testnet</a>
             </p>
           </div>
         </div>
@@ -55,7 +55,7 @@
           </div>
           <div>
             <h2 class="subtitle is-3">
-              Nosana Testnet for users
+              Nosana Testnet For Users
             </h2>
 
             <ul>
@@ -82,7 +82,7 @@
                 href="https://bit.ly/NosanaUserForm-hp"
                 class="button is-accent is-outlined has-text-weight-semibold"
                 target="_blank"
-              >Pre-register users</a>
+              >User Testnet Registration</a>
             </p>
           </div>
         </div>
