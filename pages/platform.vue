@@ -13,8 +13,8 @@
               <div class="block">
                 <p>
                   The Testnet program is intended to rigorously test Nosana's
-                  platform, before going to Mainnet. We need the community's
-                  help to make our testphase as successful as possible.
+                  platform, as well as give interested devs the opportunity
+                  to try out our services, risk-free.
                 </p>
               </div>
               <div class="block mt-6">
@@ -34,16 +34,14 @@
                     giving away $NOS tokens to all active participants of the
                     Testnet Program.
                   </b>
-                  We have now specified the amount of tokens that projects can
-                  earn below.
+                  You can earn up to 10.000 $NOS tokens by testing code with our Network.
                 </p>
               </div>
               <div class="block mt-6">
                 <img src="~assets/img/icon-testnet-3.svg" height="42">
                 <p>
-                  Testnet access is now available for selected projects. After
-                  extended testing, the platform will open for a selection of
-                  pre-registered users.
+                  Our testnet program is live and projects are running pipelines.
+                  Are you ready to join in? Let's go!
                 </p>
               </div>
             </div>
