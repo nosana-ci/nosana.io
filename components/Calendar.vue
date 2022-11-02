@@ -18,7 +18,7 @@
           has-text-centered has-text-weight-bold"
           data-aos="fade-up"
         >
-          November 1 – November 10
+          November 7 – November 16
         </h4>
       </div>
       <div class="table-container">
@@ -36,11 +36,8 @@
           </thead>
           <tbody>
             <tr v-for="week in 2" :key="week">
-              <td v-if="week === 1" class="has-background-black">
-                <span>31</span>
-              </td>
               <td
-                v-for="prize in prizes.slice((week-1) * 6, week * 6)"
+                v-for="prize in prizes.slice((week-1) * 7, week * 7)"
                 :key="prize.day"
                 :data-tooltip="
                   prize.info ? prize.info : null"
@@ -64,8 +61,8 @@
                 </div>
               </td>
               <template v-if="week === 2">
-                <td v-for="i in 3" :key="i" class="has-background-black">
-                  <span>{{ 10 + i }}</span>
+                <td v-for="i in 4" :key="i" class="has-background-black">
+                  <span>{{ 16 + i }}</span>
                 </td>
               </template>
             </tr>

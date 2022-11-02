@@ -132,7 +132,12 @@
               <h2 class="title">
                 Only for Burner Phone holders
               </h2>
-              <p>This is a Burner Phone holders event only. Do you want to get your hands on a Burner Phone NFT?</p>
+              <p>
+                This is a Burner Phone holders event only. Do you wanna get your hand on a Burner Phone NFT?
+                Register for our event at <a target="_blank" href="https://app.nosana.io/">app.nosana.io</a>. You can find the subscribe button under "staking".
+                The form closes this Sunday 6 November.
+              </p>
+              <a target="_blank" href="https://app.nosana.io/stake" class="is-accent button mt-3" style="max-width:220px;">Nosana Dashboard</a>
               <br>
               <p>
                 <a href="https://app.nosana.io/stake" target="_blank" class="has-text-accent">Stake</a> your NOS tokens and
@@ -143,6 +148,9 @@
             </div>
           </div>
         </div>
+      </div>
+      <div class="has-text-centered">
+        <a href="/terms_conditions_festival.pdf" target="_blank">View Terms & Conditions</a>
       </div>
     </section>
   </div>
