@@ -84,7 +84,7 @@
               <div class="columns is-vcentered">
                 <div class="column is-5 is-offset-1 has-text-left">
                   <div class="field">
-                    <label class="label">staked NOS</label>
+                    <label class="label">Staked NOS</label>
                     <div class="control">
                       <input v-model="amount" type="number" min="0" step="1" class="input">
                     </div>
@@ -121,7 +121,7 @@
                           style="position:absolute;width: 100%;text-align: center;left: 0;"
                         />
                       </h2>
-                      <p>xNOS score</p>
+                      <p>xNOS Score</p>
                     </div>
                     <div
                       class="box has-text-centered has-background-black p-4 is-horizontal-centered has-shadow-accent"
@@ -139,7 +139,7 @@
                           style="position:absolute;width: 100%;text-align: center;left: 0;"
                         />
                       </h2>
-                      <p>multiplier</p>
+                      <p>Multiplier</p>
                     </div>
                   </div>
                 </div>
@@ -150,7 +150,7 @@
                   target="_blank"
                   class="my-5 button is-accent is-wide is-large"
                 >
-                  <b>Stake Now</b>
+                  <b>Stake now</b>
                 </a>
               </div>
             </div>
