@@ -7,16 +7,8 @@
       <h3 class="subtitle has-text-accent">
         Season 1
       </h3>
-      <div
-        v-for="item in roadmap"
-        :key="item.milestone"
-        :class="'roadmap-item ' + item.class"
-        data-aos="flip-up"
-      >
-        <atropos
-          :options="{ highlight: false, rotateYMax: 0, rotateTouch: false }"
-          class="my-atropos"
-        >
+      <div v-for="item in roadmap" :key="item.milestone" :class="'roadmap-item ' + item.class" data-aos="flip-up">
+        <atropos :options="{ highlight: false, rotateYMax: 0, rotateTouch: false }" class="my-atropos">
           <div class="item-block has-radius-small p-3">
             <div class="item-title">
               {{ item.title }}
@@ -48,34 +40,34 @@ export default {
   data () {
     return {
       roadmap: [
+        // {
+        //   title: 'Free Giveaway',
+        //   description:
+        //     'Release of 50 Burner Phones with direct access to our TestNet. Be one of the first to connect to the Nosana Network and earn $NOS for your CPU.',
+        //   class: 'is-active',
+        //   right: ''
+        // },
         {
-          title: 'Free Giveaway',
-          description:
-            'Release of 50 Burner Phones with direct access to our TestNet. Be one of the first to connect to the Nosana Network and earn $NOS for your CPU.',
+          title: 'Seasonal drop 1',
+          description: 'Release of 50 more Burner Phones. Stake $NOS tokens to get access to a Burner Phone. Minting is free!',
           class: 'is-active',
           right: ''
         },
         {
-          title: 'Seasonal drop 1',
-          description: 'Release of 200 more Burner Phones. Stake $NOS tokens to get access to a Burner Phone. Minting is free!',
-          class: '',
-          right: ''
-        },
-        {
           title: 'Drop 2',
-          description: 'Release of 200 more Burner Phones.',
+          description: 'Release of 50 more Burner Phones.',
           class: '',
           right: ''
         },
         {
           title: 'Drop 3',
-          description: 'Release of 200 more Burner Phones.',
+          description: 'Release of 50 more Burner Phones.',
           class: '',
           right: ''
         },
         {
           title: 'Drop 4',
-          description: 'Release of 200 more Burner Phones.',
+          description: 'Release of 50 more Burner Phones.',
           class: '',
           right: ''
         }
@@ -101,15 +93,18 @@ export default {
 .my-atropos {
   max-width: 100%;
 }
+
 .roadmap {
   width: fit-content;
   margin: 0 auto;
   max-width: 100%;
 }
+
 .roadmap-item {
   display: flex;
   align-items: center;
   position: relative;
+
   &:before {
     content: "";
     display: block;
@@ -119,6 +114,7 @@ export default {
     height: 100%;
     background: $accent;
   }
+
   &:after {
     content: "";
     position: absolute;
@@ -134,39 +130,45 @@ export default {
 
   &:first-child {
     &:before {
-      background: linear-gradient(
-        180deg,
-        rgba($accent, 0) 0%,
-        rgba($accent, 1) 40%
-      );
+      background: linear-gradient(180deg,
+          rgba($accent, 0) 0%,
+          rgba($accent, 1) 40%);
     }
   }
+
   &:last-child {
     &:before {
-      background: linear-gradient(
-        180deg,
-        rgba($accent, 1) 40%,
-        rgba($accent, 0) 100%
-      );
+      background: linear-gradient(180deg,
+          rgba($accent, 1) 40%,
+          rgba($accent, 0) 100%);
     }
   }
+
   ul {
     font-size: 12px;
     line-height: 25px;
     margin: 20px;
     font-weight: 300;
+
     li {
       &:before {
-        content: "\2022"; /* Add content: \2022 is the CSS Code/unicode for a bullet */
-        color: white; /* Change the color */
-        font-weight: bold; /* If you want it to be bold */
+        content: "\2022";
+        /* Add content: \2022 is the CSS Code/unicode for a bullet */
+        color: white;
+        /* Change the color */
+        font-weight: bold;
+        /* If you want it to be bold */
         font-size: 14px;
-        display: inline-block; /* Needed to add space between the bullet and the text */
-        width: 1em; /* Also needed for space (tweak if needed) */
-        margin-left: -1em; /* Also needed for space (tweak if needed) */
+        display: inline-block;
+        /* Needed to add space between the bullet and the text */
+        width: 1em;
+        /* Also needed for space (tweak if needed) */
+        margin-left: -1em;
+        /* Also needed for space (tweak if needed) */
       }
     }
   }
+
   .item-block {
     min-height: 100px;
     width: 365px;
@@ -176,6 +178,7 @@ export default {
     margin: 25px 25px 25px 60px;
     position: relative;
     background: $dark-mode-background;
+
     &:before {
       content: "";
       position: absolute;
@@ -188,6 +191,7 @@ export default {
       border-top-left-radius: $size * 2;
       background: $accent;
     }
+
     &:after {
       content: "";
       position: absolute;
@@ -198,6 +202,7 @@ export default {
       width: 50px;
       background: $accent;
     }
+
     .item-title {
       color: $accent;
       font-size: 24px;
@@ -205,6 +210,7 @@ export default {
       font-weight: 400;
       line-height: 1.4;
     }
+
     .year {
       font-size: 20px;
       line-height: 1;
@@ -215,45 +221,55 @@ export default {
     &:after {
       background: $accent;
     }
+
     ul li:before {
       color: $accent;
     }
+
     .item-block {
       background-color: rgba($accent, 0.6);
       color: $dark-mode-background;
     }
+
     .item-title {
       color: $dark-mode-background;
     }
   }
+
   @-webkit-keyframes glow-box {
     from {
       box-shadow: 0 0 7px 0 rgba($accent, 0.4);
     }
+
     to {
       box-shadow: 0 0 17px 8px rgba($accent, 0.6);
     }
   }
+
   &.is-active {
     &:after {
       border-color: $accent;
       background: $accent;
       animation: glow-box 1s ease-in-out infinite alternate;
     }
+
     ul li:before {
       color: $accent;
     }
+
     .item-block {
       background-color: $accent;
       border-color: $accent;
       animation: glow-box 1s ease-in-out infinite alternate;
       color: black;
+
       &:before,
       &:after {
         background: $accent;
       }
     }
-        .item-title {
+
+    .item-title {
       color: $dark-mode-background;
     }
   }

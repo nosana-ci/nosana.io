@@ -2,8 +2,8 @@
   <div>
     <div class="hero has-radius mt-5">
       <div class="hero-body container has-text-centered" style="width: 100%">
-        <h4 class="subtitle is-5">
-          Backed by
+        <h4 class="subtitle is-4">
+          Proud to be backed by
         </h4>
       </div>
     </div>
@@ -152,11 +152,13 @@ export default {
 .partner {
   img {
     transform-origin: center center;
-    transition: transform 0.2s;
+    transition: 0.2s;
+    filter: grayscale(1);
   }
   &:hover {
     img {
       transform: scale(1.1);
+      filter: grayscale(0);
     }
   }
 }

@@ -9,15 +9,15 @@
           <div class="column is-5" data-aos="fade-up">
             <div class="has-limited-width-small mt-4">
               <p class="block">
-                The first set of nodes goes live on our testnet soon.
-                You’ll need to stake your tokens for a chance to get exclusive access to the Network.
+                The first set of nodes are live on our testnet.
+                Stake your tokens for to get exclusive access to the network.
               </p>
               <p class="block">
                 <a
                   disabled
                   class="button is-disabled is-accent is-outlined is-wide"
                 >
-                  Staking coming soon
+                  Stake Your NOS
                 </a>
               </p>
             </div>
@@ -34,11 +34,11 @@
           </div>
           <div class="column is-5" data-aos="fade-left">
             <h2 class="title is-2">
-              Earn $NOS tokens
+              Earn $NOS Tokens
             </h2>
             <p class="block">
               Put your unused computing capacity to work!
-              Have it power all kinds of open-source projects and get $NOS tokens in return.
+              You can earn $NOS tokens by having it power open source projects.
             </p>
           </div>
         </div>
@@ -48,9 +48,9 @@
               Not just for techies
             </h2>
             <p class="block">
-              Contributing your unused CPU is easy, even if you’re not a techie.
-              Connect your wallet to our network and install the software package.
-              It runs on lots of different devices, from your PC to your Raspberry Pi.
+              Whether you're a tech whiz or not, providing your unused CPU is simple.
+              Join our network by connecting your wallet and installing our software package.
+              Multiple platforms, from desktop computers to the Raspberry Pi, are supported.
             </p>
           </div>
           <div class="column is-5 is-offset-2" data-aos="zoom-in">
@@ -63,13 +63,15 @@
           </div>
           <div class="column is-5" data-aos="fade-left">
             <h2 class="title is-2">
-              Secured against false nodes
+              Protection from flase nodes
             </h2>
             <p class="block">
-              If you stake, you become a node. You earn $NOS, by running CI/CD pipelines for other projects.
+              You can only become a node if you stake.
+              Running CI/CD pipelines for other projects allows you to earn $NOS.
               <br><br>
-              We want to protect our Network from malicious nodes, which can mess things up.
-              That's why we need staking. If you act against our rules, we slash a certain amount of staked $NOS tokens,
+              We safeguard the network and keep hostile nodes out.
+              This is why staking NOS is required. If you break our standards,
+              we will slash a certain amount of staked $NOS tokens.
             </p>
           </div>
         </div>

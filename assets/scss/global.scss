@@ -164,9 +164,22 @@ a.card {
 .has-shadow {
   box-shadow: $box-shadow;
 }
+.has-shadow-accent {
+  box-shadow: 0px 0px 40px -5px rgba($accent, 0.7);
+}
 
 .box {
+  border: none;
   position: relative;
+  &:before {
+    content: '';
+    position: absolute;
+    top: 0; right: 0; bottom: 0; left: 0;
+    z-index: -1;
+    margin: -1px;
+    border-radius: inherit;
+    background: linear-gradient(to bottom, $accent, #051707);
+  }
 }
 @include touch {
   .site-title, .title.is-1 {

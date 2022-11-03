@@ -88,17 +88,17 @@ export default {
         {
           question: 'What is Nosana?',
           answer:
-            'The Nosana Network will be the leading provider of decentralized CPU-based Dev(ops) solutions, revolutionizing the development process of Metaverse projects. Our network allows you to develop your projects with the computing power of (y)our community or use your spare computing to power the computational needs of future projects in the metaverse and earn NOS tokens.'
+            'The Nosana Network will be the leading provider of decentralized CPU-based Dev(ops) solutions, revolutionizing the development process of Metaverse projects. Our network allows you to develop your projects with the computing power of (y)our community or use your spare computing to power the computational needs of future projects in the metaverse and earn NOS tokens. You can read more about it by visiting our documentation at docs.nosana.io'
         },
         {
           question: 'Who is the team behind Nosana?',
           answer:
-            'The Nosana team is a distributed group of individuals with a strong technical background in the blockchain and CI/CD industry. We share a drive to disrupt the established cloud computing industry using decentralized technologies. We want to make the Metaverse a safe place of freedom where people don\'t have to sacrifice their privacy to large corps.  If you feel you belong here as well send an email to team@nosana.io - developers, marketeers, content writers, community mods, designers, and in general people of passion are welcome. More information about the team is coming soon!'
+            'The Nosana team is a distributed group of individuals with a strong technical background in the blockchain and CI/CD industry. We share a drive to disrupt the established cloud computing industry using decentralized technologies. We want to make the Metaverse a safe place of freedom where people don\'t have to sacrifice their privacy to large corps.  If you feel you belong here as well send an email to team@nosana.io - developers, marketeers, content writers, community mods, designers, and in general people of passion are welcome. You can read about our team at nosana.io/team'
         },
         {
           question: 'Will there be a public token sale?',
           answer:
-            'Nosana launched on Solanium. Solanium is the go-to launchpad for the Solana blockchain. For more information about the IDO, please visit <a target="_blank" href="https://solanium.io/project/nosana">https://solanium.io/project/nosana</a>'
+            'Nosana launched on Solanium. Solanium is the go-to launchpad for the Solana blockchain. For more information about the IDO that took place, please visit <a target="_blank" href="https://solanium.io/project/nosana">https://solanium.io/project/nosana</a>'
         },
         {
           question: 'When did the IDO take place?',
@@ -113,22 +113,22 @@ export default {
         {
           question: 'When will the incentivized Testnet start?',
           answer:
-            'We’re working hard on realizing our Testnet. When we have a definitive date, we will make sure to publish it across all platforms.'
+            'We’re happy to report our testnet is live, and can be accessed at testnet.nosana.io'
         },
         {
           question: 'Will there be an airdrop?',
           answer:
-            'Yes, as part of our Incentivized Testnet program. Selected open source projects will be able to join our airdrop.'
+            'Yes, as part of our Incentivized Testnet program. Selected open source projects who run pipelines in our testnet will be able to join our airdrop.'
         },
         {
           question: 'Why stake NOS tokens with the Mainnet release?',
           answer:
-            'By staking you’ll become a verified node. Run a pipeline. Earn NOS. Testing nodes run pipelines, verifying the coding of projects through our CI/CD network. By staking NOS tokens we secure the network from false nodes. Staking will have other benefits as well. More info will be provided later.'
+            'By staking you’ll become a verified node. Run a pipeline. Earn NOS. Testing nodes, run pipelines, verifying the coding of projects through our CI/CD network. By staking NOS tokens we secure the network from false nodes. Staking will have other benefits as well. More info will be provided later.'
         },
         {
           question: 'How to earn NOS tokens with the Mainnet release?',
           answer:
-            'It’s simple: just open the app, no further technological knowledge is required. You can run the app on a range of devices like your home computer, a Raspberry PI, or your phone.'
+            'It’s simple: just open the app, no further technological knowledge is required. You can run the app on a range of devices like your home computer, a Raspberry PI, and eventually your phone.'
         },
         {
           question: 'What is the token address?',

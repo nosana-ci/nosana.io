@@ -33,7 +33,7 @@
             About $NOS
           </h2>
           <p class="has-limited-width-small is-horizontal-centered" data-aos="fade-up">
-            $NOS is a cryptocurrency that lets you pay within the Nosana marketplace.
+            $NOS is a cryptocurrency that can be used to for services within the Nosana marketplace.
           </p>
         </div>
         <div class="my-6 py-6 has-text-centered">
@@ -44,7 +44,8 @@
                 Secure payments
               </h2>
               <p class="has-limited-width-smaller is-horizontal-centered">
-                $NOS is a completely secure way to pay. Plus, it’s easy to store, transfer, trade and dive.
+                $NOS is a completely secure way to pay for services in the Nosana marketplace.
+                It's also simple to store, transfer, and trade.
               </p>
             </div>
             <div class="column is-one-third" data-aos="fade-up" data-aos-delay="400">
@@ -53,7 +54,7 @@
                 Pay as you go
               </h2>
               <p class="has-limited-width-smaller is-horizontal-centered">
-                Need Nosana resources? Use $NOS to pay as you go. It’s quick and hassle-free.
+                Need computing resources? Use $NOS to pay as you go. It’s quick and hassle-free.
               </p>
             </div>
             <div class="column is-one-third" data-aos="fade-up" data-aos-delay="600">
@@ -62,7 +63,7 @@
                 SPL-compliant
               </h2>
               <p class="has-limited-width-smaller is-horizontal-centered">
-                $NOS is an SPL-compliant digital asset on Solana.
+                $NOS is an SPL-compliant digital asset on the Solana blockchain.
               </p>
             </div>
           </div>
@@ -101,9 +102,10 @@
               Millions of $NOS in orbit
             </h2>
             <p class="block">
-              On February 12, 2022, our $NOS private release sold out instantly.
-              Now, there’s 33 million $NOS going around.
-              As we continue to build and grow Nosana, the amount of $NOS will hit 100 million.
+              Our $NOS private release on February 12, 2022, sold out instantly.
+              There are currently 33 million $NOS floating around.
+              The amount of circulating $NOS will reach 100 million as we continue to build and .
+              expand the Nosana network.
             </p>
           </div>
         </div>
