@@ -70,28 +70,23 @@
         </table>
       </div>
     </div>
-    <!-- TODO: Winners block -->
-    <div v-if="winners" class="column is-2 winners">
+    <div v-if="prizes.filter(p => p.winner && p.winner !== null).length > 0" class="column is-2 winners">
       <div class="mt-2 box has-border-accent has-background-light">
         <h4 class="mb-4 is-family-sans-serif subtitle has-text-centered has-text-weight-bold" data-aos="fade-up">
           Winners
         </h4>
         <ul>
-          <li class="is-flex py-1 is-justify-content-space-between is-size-7">
-            <span class="is-flex-grow-1">01 Nov.</span>
+          <li
+            v-for="prize in prizes.filter(p => p.winner && p.winner !== null)"
+            :key="prize.day"
+            class="is-flex py-1 is-justify-content-space-between is-size-7"
+          >
+            <span class="is-flex-grow-1">{{ prize.day }} Nov.</span>
             <span
-              style="max-width: 100px;"
-              class="has-text-accent blockchain-address"
+              class="has-text-accent"
             >
-              xc73wdnewa23w2wswdrwe23jweWwd</span>
-          </li>
-          <li class="is-flex py-1 is-justify-content-space-between is-size-7">
-            <span class="is-flex-grow-1">01 Nov.</span>
-            <span
-              style="max-width: 100px;"
-              class="has-text-accent blockchain-address"
-            >
-              xc73wdnewa23w2wswdrwe23jweWwd</span>
+              {{ prize.winner }}
+            </span>
           </li>
         </ul>
       </div>
@@ -107,7 +102,7 @@ export default {
     return {
       prizes: [],
       currentDay: null,
-      winners: false
+      winners: true
     };
   },
   mounted () {
