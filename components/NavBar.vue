@@ -162,10 +162,23 @@
               exact-active-class="is-active"
               @click="mobileMenu = false"
             >
+              <nuxt-link
+                to="/contact"
+                class="button is-accent is-outlined px-5 is-wide"
+                exact-active-class="is-active"
+              >
+                <div>Contact</div>
+              </nuxt-link>
+            </div>
+            <div
+              class="navbar-item"
+              exact-active-class="is-active"
+              @click="mobileMenu = false"
+            >
               <a
                 target="_blank"
                 href="https://testnet.nosana.io"
-                class="button is-accent is-outlined px-5 is-wide"
+                class="button is-accent px-5 is-wide"
                 exact-active-class="is-active"
               >
                 <div>Launch</div>
