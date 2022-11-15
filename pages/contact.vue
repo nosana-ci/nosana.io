@@ -7,7 +7,7 @@
         </h1>
       </div>
       <client-only>
-        <vue-calendly url="https://calendly.com/wesley-b" :height="650" class="calendly" />
+        <vue-calendly url="https://calendly.com/wesley-b?background_color=010c04&text_color=ffffff&primary_color=5fff00" :height="650" class="calendly" />
       </client-only>
       <div class="columns mt-6">
         <div class="column is-6 is-offset-1">
