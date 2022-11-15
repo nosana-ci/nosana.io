@@ -1,20 +1,14 @@
 <template>
   <section class="section">
     <div class="container">
-      <div class="has-limited-width-small has-text-centered is-horizontal-centered">
+      <div class=" has-text-centered is-horizontal-centered">
         <h1 class="title is-1 is-spaced">
-          Get in touch
+          Schedule time to meet<br>with one of the Nosana Team members
         </h1>
-        <h2 class="subtitle is-6">
-          Have a burning question? Want to talk shop? Interested in joining us?
-        </h2>
-        <p>
-          Shoot us an email at <a href="mailto:team@nosana.io" target="_blank">team@nosana.io</a>
-          and we’ll get back to you ASAP.
-        </p>
       </div>
-      <vue-calendly url="https://calendly.com/wesley-b" :height="650" class="calendly" />
-
+      <client-only>
+        <vue-calendly url="https://calendly.com/wesley-b" :height="650" class="calendly" />
+      </client-only>
       <div class="columns mt-6">
         <div class="column is-6 is-offset-1">
           <h1 class="title mt-6">
@@ -29,7 +23,7 @@
           <img src="~assets/img/office.svg">
         </div>
       </div>
-      <div class="column is-6 is-offset-1">
+      <!-- <div class="column is-6 is-offset-1">
         <h1 class="subtitle mt-6">
           Brand kit
         </h1>
@@ -42,7 +36,7 @@
             <b>Brand kit &nbsp;&nbsp;↘</b>
           </nuxt-link>
         </p>
-      </div>
+      </div> -->
     </div>
   </section>
 </template>
