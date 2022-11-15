@@ -13,6 +13,8 @@
           and we’ll get back to you ASAP.
         </p>
       </div>
+      <vue-calendly url="https://calendly.com/wesley-b" :height="650" />
+
       <div class="columns mt-6">
         <div class="column is-6 is-offset-1">
           <h1 class="title mt-6">
