@@ -13,7 +13,7 @@
           and we’ll get back to you ASAP.
         </p>
       </div>
-      <vue-calendly url="https://calendly.com/wesley-b" :height="650" />
+      <vue-calendly url="https://calendly.com/wesley-b" :height="650" class="calendly" />
 
       <div class="columns mt-6">
         <div class="column is-6 is-offset-1">
@@ -59,4 +59,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+.calendly {
+  display: block;
+}
 </style>
