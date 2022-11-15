@@ -2,8 +2,8 @@
   <section class="section">
     <div class="container">
       <div class=" has-text-centered is-horizontal-centered">
-        <h1 class="title is-1 is-spaced">
-          Schedule time to meet<br>with one of the Nosana Team members
+        <h1 class="subtitle is-3 has-text-weight-bold">
+          Schedule time to meet with one of the Nosana Team members
         </h1>
       </div>
       <client-only>
