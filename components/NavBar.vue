@@ -107,6 +107,10 @@
                 <nuxt-link class="navbar-item" to="/festival" exact-active-class="is-active">
                   Burner Phones Festival
                 </nuxt-link>
+                <a href="https://github.com/nosana-ci" target="_blank" class="navbar-item">
+                  <i class="fab fa-github mr-2" aria-hidden="true" />
+                  <span>Github</span>
+                </a>
                 <a href="https://twitter.com/nosana_ci" target="_blank" class="navbar-item">
                   <i class="fab fa-twitter mr-2" aria-hidden="true" />
                   <span>Twitter</span>
