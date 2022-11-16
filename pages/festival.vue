@@ -6,22 +6,14 @@
         <div class="columns mt-6 mb-6 pb-6 intro">
           <div class="column is-6 is-offset-1" data-aos="fade-up">
             <h1 class="title site-title is-spaced has-limited-width mt-6" data-aos="fade-up">
-              Welcome to the first Burner Phones Festival!
+              Nosana's First Burner Phone Festival!
             </h1>
             <div class="has-limited-width-small mt-4">
               <p class="block">
-                What could be the first of many in the future. Throughout the 10-day event,
-                we will be awarding daily prizes to our NFT holders!
-                With approximately 50 Burner Phones only minted in the initial drop,
-                your chances of winning one of our prizes is insanely high!
+                Throughout the 10-day event, which took place in November of 2022,
+                we awarded daily prizes to our NFT holders!
               </p>
-              <p class="block">
-                <a
-                  class="button is-accent is-outlined is-wide"
-                >
-                  Learn more
-                </a>
-              </p>
+
             </div>
           </div>
           <div class="column has-text-centered is-4 mb-6">
@@ -30,63 +22,11 @@
             </div>
           </div>
         </div>
-        <!-- Lootboxes -->
-        <div class="box p-6 has-border-accent my-6">
-          <div class="is-pulled-right" data-aos="fade-left" data-aos-delay="400">
-            <span>Results every day</span>
-            <div class="is-flex">
-              <p class="mr-3">
-                <span class="is-size-7">Prize</span><br>
-                <span class="has-text-accent">
-                  <b>10:00</b> CET
-                </span>
-              </p>
-              <p>
-                <span class="is-size-7">Winner</span><br>
-                <span class="has-text-accent">
-                  <b>20:00</b> CET
-                </span>
-              </p>
-            </div>
-          </div>
-          <h1 class="title" data-aos="fade-up" data-aos-delay="200">
-            Lootbox Drop incoming!
-          </h1>
-          <p class="has-limited-width-small" data-aos="fade-in">
-            Wait for that call with our drop location to come in.
-            We have four different loot box drops during the festival.
-            The prize of the day will be shared every morning at 10:00 CET.
-            The day's winner will be announced around 20:00 CET.
-          </p>
-          <div class="columns lootboxes mt-5">
-            <div class="column is-3 has-text-centered" data-aos="fade-up" data-aos-delay="200">
-              <img src="~assets/img/festival/lootbox-regular.png">
-              <span>Regular drop</span>
-            </div>
-            <div class="column is-3 has-text-centered" data-aos="fade-up" data-aos-delay="400">
-              <img src="~assets/img/festival/lootbox-nos.png">
-              <span>NOS drop</span>
-            </div>
-            <div class="column is-3 has-text-centered" data-aos="fade-up" data-aos-delay="600">
-              <img src="~assets/img/festival/lootbox-rare.png">
-              <span>Rare drop</span>
-            </div>
-            <div class="column is-3 has-text-centered" data-aos="fade-up" data-aos-delay="800">
-              <img src="~assets/img/festival/lootbox-special.png">
-              <span>Special drop</span>
-            </div>
-          </div>
-        </div>
         <calendar class="pt-6" />
         <!-- Prizes carousel -->
         <div class="my-6 pt-6 has-text-centered">
-          <h2 class="title" data-aos="fade-up">
-            Are you ready for the <br> hot end of summer?
-          </h2>
           <p class="has-limited-width-small is-horizontal-centered" data-aos="fade-up">
-            Take a quick look at our amazing prize pool.
-            Will you be the lucky holder to win a Xbox Series X, GoPro HERO 10, or any of the other amazing prizes?!
-          </p>
+            Take a look at the prizes our Burner Phone NFT holders won!.</p>
         </div>
       </div>
       <client-only>
@@ -133,11 +73,9 @@
                 Only for Burner Phone holders
               </h2>
               <p>
-                This is a Burner Phone holders event only. Do you wanna get your hand on a Burner Phone NFT?
-                Register for our event at <a target="_blank" href="https://app.nosana.io/">app.nosana.io</a>. You can find the subscribe button under "staking".
-                The form closes this Sunday 6 November.
-              </p>
-              <a target="_blank" href="https://app.nosana.io/stake" class="is-accent button mt-3" style="max-width:220px;">Nosana Dashboard</a>
+                This was a Burner Phone holders event only. Do you want to get your hands on a Burner Phone NFT?
+                Sign up for notifications about the next mint at <a target="_blank" href="https://app.nosana.io/">app.nosana.io</a>.</p>
+              <a target="_blank" href="https://app.nosana.io/" class="is-accent button mt-3" style="max-width:220px;">Nosana Dashboard</a>
               <br>
               <p>
                 <a href="https://app.nosana.io/stake" target="_blank" class="has-text-accent">Stake</a> your NOS tokens and
