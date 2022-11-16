@@ -107,6 +107,10 @@
                 <nuxt-link class="navbar-item" to="/festival" exact-active-class="is-active">
                   Burner Phones Festival
                 </nuxt-link>
+                <a href="https://github.com/nosana-ci" target="_blank" class="navbar-item">
+                  <i class="fab fa-github mr-2" aria-hidden="true" />
+                  <span>Github</span>
+                </a>
                 <a href="https://twitter.com/nosana_ci" target="_blank" class="navbar-item">
                   <i class="fab fa-twitter mr-2" aria-hidden="true" />
                   <span>Twitter</span>
@@ -162,10 +166,23 @@
               exact-active-class="is-active"
               @click="mobileMenu = false"
             >
+              <nuxt-link
+                to="/contact"
+                class="button is-accent is-outlined px-5 is-wide"
+                exact-active-class="is-active"
+              >
+                <div>Contact</div>
+              </nuxt-link>
+            </div>
+            <div
+              class="navbar-item"
+              exact-active-class="is-active"
+              @click="mobileMenu = false"
+            >
               <a
                 target="_blank"
                 href="https://testnet.nosana.io"
-                class="button is-accent is-outlined px-5 is-wide"
+                class="button is-accent px-5 is-wide"
                 exact-active-class="is-active"
               >
                 <div>Launch</div>
