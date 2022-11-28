@@ -12,6 +12,16 @@ import NavBar from '@/components/NavBar';
 export default {
   components: {
     NavBar
+  },
+  head () {
+    return {
+      link: [
+        {
+          rel: 'canonical',
+          href: 'https://nosana.io' + this.$route.path
+        }
+      ]
+    };
   }
 };
 </script>
