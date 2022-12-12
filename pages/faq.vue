@@ -96,16 +96,6 @@ export default {
             'The Nosana team is a distributed group of individuals with a strong technical background in the blockchain and CI/CD industry. We share a drive to disrupt the established cloud computing industry using decentralized technologies. We want to make the Metaverse a safe place of freedom where people don\'t have to sacrifice their privacy to large corps.  If you feel you belong here as well send an email to team@nosana.io - developers, marketeers, content writers, community mods, designers, and in general people of passion are welcome. You can read about our team at nosana.io/team'
         },
         {
-          question: 'Will there be a public token sale?',
-          answer:
-            'Nosana launched on Solanium. Solanium is the go-to launchpad for the Solana blockchain. For more information about the IDO that took place, please visit <a target="_blank" href="https://solanium.io/project/nosana">https://solanium.io/project/nosana</a>'
-        },
-        {
-          question: 'When did the IDO take place?',
-          answer:
-            'The IDO took place on Solanium on the 17th of January, 2022. For more information, please go to: <a target="_blank" href="https://solanium.io/project/nosana">https://solanium.io/project/nosana</a>'
-        },
-        {
           question: 'How will the incentivized Testnet work?',
           answer:
             'The Testnet program is intended to test Nosana\'s CI features and tools, before going to Mainnet. Projects that participate in the Incentivized Testnet program will be able to acquire NOS tokens. A total of 5,000,000 NOS tokens are available for giveaway to participants in the Testnet Program.'
