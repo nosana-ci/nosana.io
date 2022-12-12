@@ -43,7 +43,7 @@ Are you ready to stake for your chance at a Nosana NFT Mint Pass? Let’s go! �
 
 Follow us on Twitter → [Click here](https://twitter.com/nosana_ci)
 
-Join our Discord Server → [Click here](http://discord.gg/nosana)
+Join our Discord Server → [Click here](https://discord.gg/nosana)
 
 Thanks for reading!
 

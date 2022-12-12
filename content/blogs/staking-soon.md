@@ -64,7 +64,7 @@ You can learn more about our decentralized CPU-based solutions on https://nosana
 
 Follow us on [Twitter](https://twitter.com/nosana_ci) 
 
-Join our [Discord Server](http://discord.gg/nosana)
+Join our [Discord Server](https://discord.gg/nosana)
 
 Thanks for reading!
 

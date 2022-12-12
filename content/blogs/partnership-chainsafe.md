@@ -16,7 +16,7 @@ One of the repositories that we’re building a tailored static-code-analysis pi
 About ChainSafe
 ---------------
 
-ChainSafe is a global leader in blockchain protocol and infrastructure development. They contribute to major ecosystems including Ethereum, Polkadot, Filecoin, Cosmos, Mina, and many more. You can learn more about ChainSafe at their [website,](http://chainsafe.io/) [Github,](https://github.com/ChainSafe) [Twitter](https://twitter.com/chainsafeth) and [Medium.](https://blog.chainsafe.io/)
+ChainSafe is a global leader in blockchain protocol and infrastructure development. They contribute to major ecosystems including Ethereum, Polkadot, Filecoin, Cosmos, Mina, and many more. You can learn more about ChainSafe at their [website,](https://chainsafe.io/) [Github,](https://github.com/ChainSafe) [Twitter](https://twitter.com/chainsafeth) and [Medium.](https://blog.chainsafe.io/)
 
 
 Thanks for reading!

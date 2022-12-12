@@ -10,7 +10,7 @@ The Testnet program is designed to put Nosana's CI features and tools to the tes
 
 ##### How-to guide
 
-**Step 1: Visit [testnet.nosana.io](http://testnet.nosana.io/)**\
+**Step 1: Visit [app.nosana.io](https://app.nosana.io/)**\
 Here you'll find our Incentivized Testnet interface. We'll focus on the top section for now. As you can see below, we provided three simple steps to be eligible to participate in our Incentivized Testnet.
 
 ![](https://miro.medium.com/max/700/1*7oVoIIQ04qTu-QZq0k6amA.png)
@@ -48,7 +48,7 @@ Participation eligibility is dependent on complete and accurate information, so 
 
 That's it! If you've followed the steps above, you have successfully requested funds to participate in our Incentivized Testnet. If your project is selected, it will automatically receive 500 $NOS tokens for joining our Testnet and has the possibility to **earn up to 10.000 $NOS tokens** by testing code with our Network.
 
-Register your project [here!](http://testnet.nosana.io/)
+Register your project [here!](https://app.nosana.io/)
 
 ---
 

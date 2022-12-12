@@ -133,7 +133,7 @@ export default {
         {
           question: 'What is the token address?',
           answer:
-            'The token address is nosXBVoaCTtYdLvKY6Csb4AC8JCdQKKAaWYtx2ZMoo7. NOS is an SPL token on the Solana network. Be aware of scammers! You can find the most up-to-date information on our <a target="_blank" href="https://docs.nosana.io/tokenomics/metrics.html#token-distribution">token page</a>.'
+            'The token address is nosXBVoaCTtYdLvKY6Csb4AC8JCdQKKAaWYtx2ZMoo7. NOS is an SPL token on the Solana network. Be aware of scammers! You can find the most up-to-date information on our <a target="_blank" href="https://docs.nosana.io/credits/credits.html">token page</a>.'
         },
         {
           question: 'How can I contact the team?',
@@ -143,7 +143,7 @@ export default {
         {
           question: 'What wallet can I use for NOS tokens?',
           answer:
-            'For the majority of users, we recommend using one of the <a href="https://docs.solana.com/wallet-guide/apps" target="_blank">app wallets</a> or a browser-based <a href="https://docs.solana.com/wallet-guide/web-wallets" target="_blank">web wallet</a>, which will provide a more familiar user experience rather than needing to learn command-line tools.'
+            'For the majority of users, we recommend using one of the <a href="https://solana.com/ecosystem/explore?categories=wallet" target="_blank">solana wallets</a>.'
         },
         {
           question: 'What is the minimum buy-in?',

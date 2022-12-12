@@ -19,7 +19,7 @@ Nosana’s CICD tooling makes it possible for developers to run fully automated 
 
 Nosana Partners with WEYU to Power WEYU WORLD
 =============================================
-[WEYU](http://weyu.io/) has been working on the development of its own web3 virtual environment, known as WEYU World. Our crowd computing platform will be WEYU World’s premier compute to enable its metaverse economy and ecosystem. WEYU World will be the first metaverse to be supported by Nosana’s CICD tools. The Nosana community is growing, and there are now over 30 thousand people eager to offer their processing power to the WEYU world initiative.
+[WEYU](https://weyu.io/) has been working on the development of its own web3 virtual environment, known as WEYU World. Our crowd computing platform will be WEYU World’s premier compute to enable its metaverse economy and ecosystem. WEYU World will be the first metaverse to be supported by Nosana’s CICD tools. The Nosana community is growing, and there are now over 30 thousand people eager to offer their processing power to the WEYU world initiative.
 
 The introduction of Nosana Burner Phone NFTs
 ============================================

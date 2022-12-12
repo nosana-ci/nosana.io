@@ -16,7 +16,7 @@ Crowd computing is the decentralized counterpart to cloud-computing, in which th
 Cost-effective crowd computing app
 ==================================
 
-We're building our own crowd computing app, which you can use to earn $NOS tokens anywhere and anytime, even while you sleep. With the [Nosana](http://nosana.io/) app, we address the ever-increasing computing power demand and supply gap.
+We're building our own crowd computing app, which you can use to earn $NOS tokens anywhere and anytime, even while you sleep. With the [Nosana](https://nosana.io/) app, we address the ever-increasing computing power demand and supply gap.
 
 The Nosana app is also a cost-effective alternative to cloud infrastructures. Usually, buying and maintaining the necessary high-performance computing systems are extremely expensive endeavors. That's why cloud infrastructures are a monopoly with a few large corporations. But because our app runs on users' computing power, it also acts as a high-performance computing facility. Only a much more affordable one, and completely on-demand.
 
