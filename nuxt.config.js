@@ -17,7 +17,22 @@ export default {
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: '' }
+      { hid: 'description', name: 'description', content: 'Next Gen CI/CD' },
+      {
+        hid: 'og:title',
+        property: 'og:title',
+        content: 'Nosana Network'
+      },
+      {
+        hid: 'og:description',
+        property: 'og:description',
+        content: 'The Nosana Network will be the leading provider of decentralized CPU-based Dev(Ops) solutions, revolutionizing the development process of Metaverse projects.'
+      },
+      {
+        hid: 'og:image',
+        property: 'og:image',
+        content: 'https://nosana.io/img/screenshot-website.png'
+      }
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
