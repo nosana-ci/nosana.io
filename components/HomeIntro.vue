@@ -30,6 +30,10 @@
                 <b>Join Discord</b>
               </a>
             </div>
+            <h2 class="subtitle has-text-accent mt-6">
+              Sign up for our newsletter
+            </h2>
+            <zoho-subscribe class="has-limited-width is-flex" />
             <socials class="mt-6" />
             <!-- <exchanges class="mt-3" /> -->
             <div class="has-limited-width-small mt-5">
