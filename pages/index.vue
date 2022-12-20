@@ -202,13 +202,22 @@ export default {
   components: {
     ICountUp
   },
-  colorMode: 'dark',
   data () {
     return {
       amount: 1500,
       days: 100
     };
   },
+  head () {
+    return {
+      script: [
+        {
+          src: 'https://nosa-zcmp.maillist-manage.eu/js/optin.min.js'
+        }
+      ]
+    };
+  },
+  colorMode: 'dark',
   computed: {
     multiplier () {
       const unstakeTime = this.days * SECONDS_PER_DAY;
@@ -227,6 +236,18 @@ export default {
       const multiplier = unstakeTime / multiplierSeconds;
       const xNOS = (parseFloat(amount) + parseFloat(amount) * multiplier).toFixed(2);
       return xNOS;
+    }
+  },
+  mounted () {
+    this.onloadzoho();
+  },
+  methods: {
+    onloadzoho () {
+      if (process.client) {
+        setTimeout(() => {
+          window.setupSF('sf3z9a076f5f29a9fd801a28da97bec35eb01a772f5d1208839cc76c7a9ab4e1ffe5', 'ZCFORMVIEW', false, 'light');
+        }, 500);
+      }
     }
   }
 };
