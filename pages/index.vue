@@ -212,7 +212,8 @@ export default {
     return {
       script: [
         {
-          src: 'https://nosa-zcmp.maillist-manage.eu/js/optin.min.js'
+          src: 'https://nosa-zcmp.maillist-manage.eu/js/optin.min.js',
+          onload: this.onloadzoho()
         }
       ]
     };
@@ -239,7 +240,7 @@ export default {
     }
   },
   mounted () {
-    this.onloadzoho();
+    // this.onloadzoho();
   },
   methods: {
     onloadzoho () {
