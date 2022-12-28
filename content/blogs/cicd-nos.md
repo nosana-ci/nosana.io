@@ -5,8 +5,6 @@ img: /img/cicd_nosana.png
 createdAt: '2022-12-28'
 ---
 
-### What is CI/CD?
-
 CI/CD stands for Continuous Integration and Continuous Delivery. Today, it also stands for Continuous Deployment. It is a set of practices that allow you to continuously test, build, and deploy your code. Software developers live and breathe version control systems like Git. They use them to track changes to their code and to collaborate with their team members. This led to the first practice of CI/CD: Continuous Integration.
 
 Continuous Integration is the practice of integrating code changes into a shared repository as often as possible. This allows developers to catch bugs early, and to collaborate more efficiently. The second practice of CI/CD is Continuous Delivery.
@@ -19,7 +17,7 @@ Let's imagine that you are developing a new payments rail for your fintech start
 
 Here at Nosana, we are taking the concept of CI/CD to its next logical step: A distributed network of CI/CD environment. You use a distributed version control system, so why not use a distributed CI/CD environment? But before we get to the next logical step, we need to focus on the basics of CI/C-Delivery. Let’s jump in.
 
-### What is Continuous Integration
+## What is Continuous Integration
 
 To encourage development teams to make frequent, small changes to code and to verify those changes in a central repository, the concept and set of procedures known as “continuous integration” emerged. It was first introduced by software engineer Grady Booch in 1991, who suggested that developers should integrate their code changes daily to reduce the risk of integration problems. However, it wasn't until the early 2000s that CI began to gain widespread adoption, thanks in part to the popularity of agile software development methodologies.
 
