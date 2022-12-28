@@ -7,6 +7,17 @@
             <nuxt-link to="/blog">
               &lt; All blogs
             </nuxt-link>
+            <ul style="position: sticky; top: 20px">
+              <li
+                v-for="link of blog.toc"
+                :key="link.id"
+                :class="{ 'ml-0': link.depth === 2, 'ml-4': link.depth === 3 }"
+              >
+                <a @click="scrollTo(link.id)">
+                  {{ link.text }}
+                </a>
+              </li>
+            </ul>
           </div>
           <div class="column is-6">
             <div
@@ -41,6 +52,11 @@ export default {
     return { blog };
   },
   methods: {
+    scrollTo (id) {
+      document.getElementById(id).scrollIntoView({
+        behavior: 'smooth'
+      });
+    },
     formatDate (date) {
       const options = { year: 'numeric', month: 'long', day: 'numeric' };
       return new Date(date).toLocaleDateString('en', options);
