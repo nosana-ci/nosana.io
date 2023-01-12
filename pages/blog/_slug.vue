@@ -51,6 +51,28 @@ export default {
 
     return { blog };
   },
+  head () {
+    return {
+      title: this.blog.title,
+      meta: [
+        {
+          hid: 'og:title',
+          property: 'og:title',
+          content: this.blog.title
+        },
+        {
+          hid: 'og:description',
+          property: 'og:description',
+          content: this.blog.description
+        },
+        {
+          hid: 'og:image',
+          property: 'og:image',
+          content: 'https://nosana.io/' + this.blog.img
+        }
+      ]
+    };
+  },
   methods: {
     scrollTo (id) {
       document.getElementById(id).scrollIntoView({
