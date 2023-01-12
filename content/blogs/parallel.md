@@ -1,8 +1,8 @@
 ---
 title: 'Why You Should Start with Parallel Testing in Your CI/CD Flow'
 description: At last, the Nosana Mint Pass Lottery date is set!Parallel testing is a software testing technique that involves running multiple tests at the same time to reduce the overall time required to complete the testing process. 
-img: /img/parallel testing-blogg.png
-createdAt: '2022-12-28'
+img: /img/parallel_testing.png
+createdAt: '2023-01-12'
 ---
 Parallel testing is a software testing technique that involves running multiple tests at the same time to reduce the overall time required to complete the testing process. When done correctly, running tests in parallel can accelerate the testing process by an order of magnitude and provide feedback on code changes more quickly.
  
@@ -13,7 +13,7 @@ To begin with, parallel testing is not the most fundamental idea. Other testing 
 The name does speak for itself in this case. But before we get there, it is worthwhile to think about what the objective of CICD is. It’s to be able to quickly and efficiently integrate and deploy your codebase to production, especially when working with a large team of software contributors. Let's imagine the following scenario: You’ve assembled a sizeable team of software engineers working on a large codebase. Fortunately, you have a version control system in place, such as Git, where you can keep track of all the changes that are made to the codebase, including every time a feature gets developed, a bug gets fixed, or a new branch is made. Afterward, the branch is merged with the mainline, where the code is tested and deployed to production. 
 This is a process that should be done often to make sure that the mainline remains clean so that the team can continue to work on a clean mainline.
  
-This is a familiar scenario, and it is a common practice in the software industry. The testing phase of the scenario, where the code is being merged with the mainline, is the phase where you should be most interested. It needs to be tested as quickly as possible.
+This is a familiar scenario, and it is a common practice in the software industry. The testing phase of the scenario, where the code is being merged with the mainline, is the phase where you should be most interested. It needs to be tested as quickly as possible.p
  
 There are several tests that you can run to make sure that your code is working as expected, such as:
  
