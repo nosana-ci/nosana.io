@@ -2,7 +2,12 @@ export default {
   // Target: https://go.nuxtjs.dev/config-target
   target: 'static',
   generate: {
-    fallback: true
+    fallback: true,
+    routes () {
+      return [
+        '/blog/parallel'
+      ];
+    }
   },
   // router: {
   //   base: '/frontend/'
