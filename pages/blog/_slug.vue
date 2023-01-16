@@ -47,7 +47,7 @@
 export default {
   colorMode: 'dark',
   async asyncData ({ $content, params }) {
-    const blog = await $content('blogs', params.slug).fetch();
+    const blog = await $content('blog', params.slug).fetch();
 
     return { blog };
   },
