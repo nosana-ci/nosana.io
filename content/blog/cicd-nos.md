@@ -1,6 +1,6 @@
 ---
 title: 'What is CI/CD?'
-description: At last, the Nosana Mint Pass Lottery date is set! 
+description: A set of practices that allow you to continuously test, build, and deploy your code. 
 img: /img/cicd_nosana.png
 createdAt: '2022-12-28'
 ---
