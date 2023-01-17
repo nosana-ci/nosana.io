@@ -56,7 +56,7 @@ export default {
   components: { SloganBlock },
   colorMode: 'dark',
   async asyncData ({ $content, params }) {
-    const blogs = await $content('blogs')
+    const blogs = await $content('blog')
       .only(['title', 'createdAt', 'description', 'img', 'slug'])
       .sortBy('createdAt', 'desc')
       .fetch();

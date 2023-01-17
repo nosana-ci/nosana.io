@@ -7,6 +7,17 @@
             <nuxt-link to="/blog">
               &lt; All blogs
             </nuxt-link>
+            <ul style="position: sticky; top: 20px">
+              <li
+                v-for="link of blog.toc"
+                :key="link.id"
+                :class="{ 'ml-0': link.depth === 2, 'ml-4': link.depth === 3 }"
+              >
+                <a @click="scrollTo(link.id)">
+                  {{ link.text }}
+                </a>
+              </li>
+            </ul>
           </div>
           <div class="column is-6">
             <div
@@ -36,11 +47,38 @@
 export default {
   colorMode: 'dark',
   async asyncData ({ $content, params }) {
-    const blog = await $content('blogs', params.slug).fetch();
+    const blog = await $content('blog', params.slug).fetch();
 
     return { blog };
   },
+  head () {
+    return {
+      title: this.blog.title,
+      meta: [
+        {
+          hid: 'og:title',
+          property: 'og:title',
+          content: this.blog.title
+        },
+        {
+          hid: 'og:description',
+          property: 'og:description',
+          content: this.blog.description
+        },
+        {
+          hid: 'og:image',
+          property: 'og:image',
+          content: 'https://nosana.io/' + this.blog.img
+        }
+      ]
+    };
+  },
   methods: {
+    scrollTo (id) {
+      document.getElementById(id).scrollIntoView({
+        behavior: 'smooth'
+      });
+    },
     formatDate (date) {
       const options = { year: 'numeric', month: 'long', day: 'numeric' };
       return new Date(date).toLocaleDateString('en', options);

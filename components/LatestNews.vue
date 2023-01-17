@@ -69,7 +69,7 @@ export default {
   },
   methods: {
     async getLatestBlogs () {
-      this.blogs = await this.$content('blogs')
+      this.blogs = await this.$content('blog')
         .only(['title', 'createdAt', 'description', 'img', 'slug'])
         .limit(3)
         .sortBy('createdAt', 'desc')

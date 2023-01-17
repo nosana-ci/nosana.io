@@ -212,7 +212,8 @@ export default {
     return {
       script: [
         {
-          src: 'https://nosa-zcmp.maillist-manage.eu/js/optin.min.js'
+          src: 'https://nosa-zcmp.maillist-manage.eu/js/optin.min.js',
+          onload: this.onloadzoho()
         }
       ]
     };
@@ -239,14 +240,14 @@ export default {
     }
   },
   mounted () {
-    this.onloadzoho();
+    // this.onloadzoho();
   },
   methods: {
     onloadzoho () {
       if (process.client) {
         setTimeout(() => {
           window.setupSF('sf3z9a076f5f29a9fd801a28da97bec35eb01a772f5d1208839cc76c7a9ab4e1ffe5', 'ZCFORMVIEW', false, 'light');
-        }, 500);
+        }, 1000);
       }
     }
   }
