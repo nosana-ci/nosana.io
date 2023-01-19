@@ -1,7 +1,7 @@
 ---
 title: 'Nosana: A Year in Review'
 description: We're taking a moment to look back and appreciate how far we've come before setting our sights on the epic adventure that lies ahead. 
-img: /img/goodbye 2022.png
+img: /img/goodbye_2022.png
 createdAt: '2022-12-28'
 ---
 
