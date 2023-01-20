@@ -69,7 +69,33 @@ export default {
           hid: 'og:image',
           property: 'og:image',
           content: 'https://nosana.io' + this.blog.img
+        },
+        {
+          hid: 'twitter:card',
+          property: 'twitter:card',
+          content: 'summary_large_image'
+        },
+        {
+          hid: 'twitter:domain',
+          property: 'twitter:domain',
+          content: 'nosana.io'
+        },
+        {
+          hid: 'twitter:title',
+          property: 'twitter:title',
+          content: this.blog.title
+        },
+        {
+          hid: 'twitter:description',
+          property: 'twitter:description',
+          content: this.blog.description
+        },
+        {
+          hid: 'twitter:image',
+          property: 'twitter:image',
+          content: 'https://nosana.io' + this.blog.img
         }
+
       ]
     };
   },
