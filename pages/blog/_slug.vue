@@ -68,7 +68,7 @@ export default {
         {
           hid: 'og:image',
           property: 'og:image',
-          content: 'https://nosana.io/' + this.blog.img
+          content: 'https://nosana.io' + this.blog.img
         }
       ]
     };
