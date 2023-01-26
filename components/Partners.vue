@@ -2,7 +2,7 @@
   <div>
     <div class="hero has-radius mt-5">
       <div class="hero-body container has-text-centered" style="width: 100%">
-        <h4 class="subtitle is-4">
+        <h4 class="subtitle is-4 has-text-weight-semibold">
           Proud to be backed by
         </h4>
       </div>

@@ -49,6 +49,10 @@ a.is-underlined {
   font-family: $family-headers;
 }
 
+.title.is-1 {
+  line-height: 1.25;
+}
+
 .has-background-gradient {
   background: linear-gradient(180deg, rgba(10, 35, 4, 0.4) 0%, #010C04 100%);
 }
