@@ -8,9 +8,9 @@
         <div class="columns mt-5">
           <div class="column is-7" data-aos="fade-up">
             <div class="has-limited-width-small mt-4">
-              <p class="block">
-                If it works in a container, it works on the Nosana Network.
-                We can run any container command, letting you ship faster than ever before.
+              <p class="block has-text-weight-medium">
+                Our decentralized crowd-hosted platform has computing options for every development need.
+                Whether you’re building mobile apps or the next DEX.
               </p>
             </div>
           </div>
@@ -27,15 +27,14 @@
         <div class="columns py-6 is-vcentered">
           <div class="column is-5" data-aos="fade-right">
             <h2 class="title is-2">
-              CI/CD made easy
+              Containerized Pipelines
             </h2>
             <p class="block">
-              While CI/CD (continuous integration, continuous delivery, and continuous deployment) isn’t new,
-              there are always new ways to implement it.
-              Implementation methods evolve alongside cloud-native architecture,
-              site reliability engineering and DevOps. But finding the right DevOps engineer isn’t easy.
-              That’s where we come in. With our out-of-the-box flows and tailored-made pipelines,
-              you’re free to focus on core development.
+              We allow for versatile containerized pipeline creation by running any container tool you like.
+              Specify which container you’d like to use for each step, and the agent fetches and starts the container
+              in which the job will run.
+              Because each step is run in its own container and all the plugins have their own containers,
+              you don’t need to worry about dependency hell.
             </p>
           </div>
           <div class="column is-5 is-offset-2" data-aos="zoom-in">
@@ -57,7 +56,7 @@
                 Step 1
               </h2>
               <p class="is-size-5">
-                Create a new job for your project
+                Give your configuration file a job
               </p>
             </div>
           </div>
@@ -77,7 +76,7 @@
                 Step 3
               </h2>
               <p class="is-size-5">
-                Specify your Docker image
+                Choose your Docker image
               </p>
             </div>
           </div>
@@ -92,18 +91,20 @@
             </div>
           </div>
         </div>
-        <div class="box p-6 has-border-accent has-background-image mountain-grid">
-          <h2 class="title is-4">
-            Connect to get started
-          </h2>
-          <p class="has-limited-width-smaller">
-            <strong>
-              Ready to optimize your workflow with our native container executor?
-              Connect to our testnet to get started.</strong>
-          </p>
-          <p class="mt-4">
-            <a href="https://testnet.nosana.io" target="_blank" class="is-underlined"><strong>Connect to Nosana testnet &nbsp;&nbsp;↘</strong></a>
-          </p>
+        <div class="box p-6 mt-6 has-border-accent has-background-image mountain-grid">
+          <div class="">
+            <h2 class="title is-4">
+              Connect to get started
+            </h2>
+            <div class="has-limited-width-smaller">
+              <strong>
+                Ready to optimize your workflow with our native container executor?
+                Connect to our testnet to get started.</strong>
+            </div>
+            <p class="mt-4">
+              <a href="https://app.nosana.io" target="_blank" class="is-underlined"><strong>Connect to Nosana Network &nbsp;&nbsp;↘</strong></a>
+            </p>
+          </div>
         </div>
       </div>
     </section>
@@ -122,6 +123,9 @@ export default {
     position: relative;
   }
   background-image: url('~assets/img/mountain-grid_animated.svg');
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: contain;
   position: relative;
   &:before {
     border-radius: 6px;
