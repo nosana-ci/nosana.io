@@ -40,21 +40,12 @@
         >
           <div class="navbar-start" />
           <div class="navbar-end is-align-items-center">
-            <div @click="mobileMenu = false">
-              <nuxt-link
-                class="navbar-item"
-                to="/"
-                exact-active-class="is-active"
-              >
-                <div>Home</div>
-              </nuxt-link>
-            </div>
             <div class="navbar-item has-dropdown is-hoverable" @click="mobileMenu = false">
               <a
                 class="navbar-link"
                 exact-active-class="is-active"
               >
-                <div>Developers</div>
+                <div>Product</div>
               </a>
               <div class="navbar-dropdown is-boxed">
                 <nuxt-link class="navbar-item" to="/developers" exact-active-class="is-active">
@@ -65,12 +56,15 @@
                 </nuxt-link>
               </div>
             </div>
+            <a target="_blank" href="https://docs.nosana.io" class="navbar-item">
+              <div>Docs</div>
+            </a>
             <div class="navbar-item has-dropdown is-hoverable" @click="mobileMenu = false">
               <a
                 class="navbar-link"
                 exact-active-class="is-active"
               >
-                <div>The Network</div>
+                <div>Decentralized Network</div>
               </a>
               <div class="navbar-dropdown is-boxed">
                 <nuxt-link class="navbar-item" to="/stake" exact-active-class="is-active">
@@ -156,23 +150,7 @@
                 <nuxt-link class="navbar-item" to="/brand" exact-active-class="is-active">
                   Brand page
                 </nuxt-link>
-                <a target="_blank" href="https://docs.nosana.io" class="navbar-item">
-                  <div>Docs</div>
-                </a>
               </div>
-            </div>
-            <div
-              class="navbar-item"
-              exact-active-class="is-active"
-              @click="mobileMenu = false"
-            >
-              <nuxt-link
-                to="/contact"
-                class="button is-accent is-outlined px-5 is-wide"
-                exact-active-class="is-active"
-              >
-                <div>Contact</div>
-              </nuxt-link>
             </div>
             <div
               class="navbar-item"
@@ -182,10 +160,10 @@
               <a
                 target="_blank"
                 href="https://testnet.nosana.io"
-                class="button is-accent px-5 is-wide"
+                class="button is-accent is-outlined px-5 is-wide"
                 exact-active-class="is-active"
               >
-                <div>Launch</div>
+                <div>Get started</div>
               </a>
             </div>
           </div>
