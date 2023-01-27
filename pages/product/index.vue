@@ -19,7 +19,7 @@
           <img src="~assets/img/grid-field_animated.svg">
         </div>
         <div class="column is-10 is-offset-1 mt-6">
-          <div class="box p-6 has-text-centered has-border-accent">
+          <div class="box p-6 has-text-centered has-border-accent fade-border">
             <h1 class="title">
               Container Support
             </h1>

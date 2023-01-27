@@ -4,7 +4,7 @@
     <!-- <partners /> -->
     <section class="section has-background-gradient">
       <div class="container">
-        <div class="columns is-variable is-8 has-text-centered">
+        <div class="columns is-variable is-8 has-text-centered py-5">
           <div class="column is-one-third" data-aos="fade-up" data-aos-delay="200">
             <div class="px-4 py-5">
               <img src="~assets/img/icons/develop.svg" style="height: 42px;">
@@ -21,7 +21,7 @@
           </div>
           <div class="column is-one-third " data-aos="fade-up" data-aos-delay="400">
             <div class="px-4 py-5">
-              <img src="~assets/img/icons/earn.svg" style="height: 42px;">
+              <img src="~assets/img/home/planet.svg" style="height: 42px;">
               <h2 class="title is-4 my-3">
                 Decentralized Network
               </h2>

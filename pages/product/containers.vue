@@ -45,9 +45,6 @@
           <h2 class="title" data-aos="fade-up">
             Running a Docker build in 4 steps
           </h2>
-          <!-- <p class="has-limited-width-smaller is-horizontal-centered" data-aos="fade-up">
-            It’s easy to get up and running as a Nosana Technology Partner.
-          </p> -->
         </div>
         <div class="columns is-variable is-8">
           <div class="column is-one-quarter" data-aos="fade-up" data-aos-delay="200">

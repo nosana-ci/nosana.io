@@ -189,6 +189,9 @@ a.card {
     border-radius: inherit;
     background: linear-gradient(to bottom, $accent, #051707);
   }
+  &.fade-border {
+    border: none;
+  }
 }
 @include touch {
   .site-title, .title.is-1 {
