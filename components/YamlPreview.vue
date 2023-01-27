@@ -1,15 +1,16 @@
 <template>
   <client-only>
-    <div v-if="templates && templates.length > 0">
+    <div v-if="templates && templates.length > 0" class="preview-container has-radius">
       <div class="tabs">
         <ul>
           <li
             v-for="(template, index) in templates"
             :key="index"
             :class="{'is-active': template.name === activeTab}"
+            style="width: 20%;"
             @click="activeTab = template.name, code = template.code"
           >
-            <a>{{ template.name }}</a>
+            <a class="has-text-weight-bold">{{ template.name }}</a>
           </li>
         </ul>
       </div>
@@ -31,8 +32,7 @@ import 'vue-prism-editor/dist/prismeditor.min.css'; // import the styles somewhe
 
 // import highlighting library (you can use any library you want just return html string)
 import { highlight, languages } from 'prismjs/components/prism-core';
-import 'prismjs/components/prism-clike';
-import 'prismjs/components/prism-javascript';
+import 'prismjs/components/prism-yaml';
 import 'prismjs/themes/prism-tomorrow.css'; // import syntax highlighting styles
 
 export default {
@@ -52,7 +52,7 @@ nosana:
     backend: IPFS
 
 global:
-    image: registry.hub.docker.com/projectserum/build:v0.25.0
+    image: projectserum/build:v0.25.0
 
     # Trigger pipeline on these branches:
     trigger:
@@ -107,11 +107,12 @@ jobs:
         },
         {
           name: 'Python',
-          code: `nosana:
+          code: `# .nosana-ci.yml
+nosana:
   description: Nosana-Node Pipeline
 
 global:
-  image: registry.hub.docker.com/library/python:latest
+  image: python:latest
 
   trigger:
     branch:
@@ -145,7 +146,7 @@ nosana:
     description: NPM Template
 
 global:
-    image: registry.hub.docker.com/library/node:18
+    image: node:18
 
     # Git, trigger on these branches
     trigger:
@@ -188,11 +189,12 @@ jobs:
         },
         {
           name: 'Go',
-          code: `nosana:
+          code: `# .nosana-ci.yml
+nosana:
   description: Nosana-Node Pipeline
 
 global:
-  image: registry.hub.docker.com/library/golang:latest
+  image: golang:latest
 
   trigger:
     branch:
@@ -230,11 +232,12 @@ jobs:
         },
         {
           name: 'Rust',
-          code: `nosana:
+          code: `# .nosana-ci.yml
+nosana:
   description: Nosana-Node Pipeline
 
 global:
-  image: registry.hub.docker.com/library/rust:latest
+  image: rust:latest
 
   trigger:
     branch:
@@ -275,18 +278,15 @@ jobs:
   },
   methods: {
     highlighter (code) {
-      return highlight(code, languages.js); // languages.<insert language> to return html with markup
+      return highlight(code, languages.yaml); // languages.<insert language> to return html with markup
     }
   }
 };
 </script>
 
-<style lang="scss" scoped>
-  /* required class */
+<style lang="scss">
   .my-editor {
-    /* we dont use `language-` classes anymore so thats why we need to add background and text color manually */
-    background: $dark-mode-background;
-    color: #ccc;
+    color: #E6E7E6;
 
     /* you must provide font-family font-size line-height. Example: */
     font-family: Fira code, Fira Mono, Consolas, Menlo, Courier, monospace;
@@ -294,10 +294,45 @@ jobs:
     line-height: 1.5;
     padding: 5px;
     max-height: 600px;
+    pre {
+    color: #E6E7E6 !important;
+  }
+  }
+
+  .preview-container {
+    background: $dark-mode-background;
+    border: #343D36 1px solid;
   }
 
   /* optional class for removing the outline */
   .prism-editor__textarea:focus {
     outline: none;
+  }
+  .token.number, .token.tag {
+    background-color: transparent;
+    border-radius: 9999px;
+    display: inline;
+    font-size: 1em;
+    height: auto;
+    margin-right: 0;
+    min-width: 0;
+    padding: 0;
+    text-align: left;
+    vertical-align: unset;
+    color: #E6E7E6;
+  }
+
+  .token.key.atrule {
+    color: #B5FF8A;
+  }
+
+  .preview-container .tabs {
+    a {
+      font-size: 18px;
+      border-bottom: 2px solid#343D36;
+      &.is-active {
+        border-bottom: 2px solid $accent;
+      }
+    }
   }
 </style>

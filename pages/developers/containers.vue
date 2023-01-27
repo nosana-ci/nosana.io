@@ -93,7 +93,7 @@
         </div>
       </div>
       <div class="my-6 py-6 has-radius yaml-preview">
-        <div class="container">
+        <div class="container py-6">
           <div class="columns">
             <div class="column is-half">
               <yaml-preview />
