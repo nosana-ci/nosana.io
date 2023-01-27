@@ -1,7 +1,7 @@
 <template>
   <div>
     <section class="section">
-      <div class="container">
+      <div class="container my-6">
         <h1 class="title site-title is-spaced has-limited-width mt-6">
           Run any container command
         </h1>
@@ -92,6 +92,36 @@
           </div>
         </div>
       </div>
+      <div class="my-6 py-6 has-radius yaml-preview">
+        <div class="container">
+          <div class="columns">
+            <div class="column is-half">
+              <yaml-preview />
+            </div>
+
+            <div class="column is-5 is-offset-1">
+              <h2 class="title is-2">
+                Open-source flows
+              </h2>
+              <p class="block">
+                Find all Nosana flows packages on GitHub.
+                Think our flows could be better?
+                Feel free to tinker with them! They’re made for better development, after all.
+              </p>
+              <a href="https://app.nosana.io/" target="_blank" class="button is-outlined is-accent m-2">
+                Get started
+              </a>
+              <a
+                href="https://docs.nosana.io/"
+                target="_blank"
+                class="m-2 button is-accent is-wide"
+              >
+                <b>Explore docs</b>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
       <connect />
     </section>
   </div>
@@ -102,3 +132,6 @@ export default {
   colorMode: 'dark'
 };
 </script>
+<style lang="scss" scoped>
+.yaml-preview { background: $background-gradient}
+</style>
