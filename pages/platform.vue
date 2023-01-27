@@ -6,58 +6,43 @@
           <div class="columns">
             <div class="column is-7">
               <h1 class="title is-1 mt-6 has-limited-width-small">
-                The Nosana Incentivized Testnet program
+                Private Beta
               </h1>
+              <p>Open for selected Solana Projects.</p>
             </div>
             <div class="column is-4 mt-6">
-              <div class="block">
-                <p>
-                  The Testnet program is intended to rigorously test Nosana's
-                  platform, as well as give interested devs the opportunity
-                  to try out our services, risk-free.
-                </p>
-              </div>
               <div class="block mt-6">
                 <img src="~assets/img/icon-testnet-1.svg" height="42">
                 <p>
-                  Projects are now able to
-                  <a href="https://testnet.nosana.io" target="_blank">
-                    join our Incentivized Testnet.
-                  </a>
+                  The private beta is intended to rigorously test Nosana's platform,
+                  before releasing beta to the public. We select a limited amount of projects during the first phase.
                 </p>
               </div>
               <div class="block mt-6">
                 <img src="~assets/img/icon-testnet-2.svg" height="42">
                 <p>
-                  We’re
-                  <b>
-                    giving away $NOS tokens to all active participants of the
-                    Testnet Program.
-                  </b>
-                  You can earn up to 10.000 $NOS tokens by testing code with our Network.
+                  Selected projects can use the beta product for free by running their pipelines on
+                  verified nodes within our Community Market.
                 </p>
               </div>
               <div class="block mt-6">
                 <img src="~assets/img/icon-testnet-3.svg" height="42">
                 <p>
-                  Our testnet program is live and projects are running pipelines.
-                  Are you ready to join in? Let's go!
+                  The private and open Beta will be available for projects first.
+                  After extended testing, the platform will open steadily for nodes.
                 </p>
               </div>
             </div>
           </div>
         </div>
       </section>
-      <areasvg width="35%" class="area" />
+      <areasvg width="45%" class="area" />
     </div>
     <section class="section">
       <div class="container">
         <div class="columns">
-          <div class="column is-5">
+          <div class="column is-6 is-offset-3">
             <phases />
-          </div>
-          <div class="column is-6 is-offset-1">
-            <img src="~assets/img/testnet-desktop.png">
           </div>
         </div>
       </div>

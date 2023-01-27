@@ -15,20 +15,20 @@
               </p>
             </div>
             <div class="mt-5">
-              <a href="https://app.nosana.io" target="_blank" class="button is-outlined is-accent mr-2">
+              <a href="https://app.nosana.io" target="_blank" class="button is-accent mr-2">
                 Try it out now
               </a>
               <a
                 href="https://docs.nosana.io"
                 target="_blank"
-                class="ml-2 button is-accent is-wide"
+                class="ml-2 button is-outlined is-accent is-wide"
               >
                 Explore the docs
               </a>
             </div>
           </div>
-          <div class="column">
-            <yaml-preview />
+          <div class="column mb-6">
+            <yaml-preview class="yaml-preview" />
           </div>
         </div>
       </div>
@@ -62,5 +62,8 @@
     top: 0;
     width: 100%;
   }
+}
+.yaml-preview {
+  box-shadow: 0px 0px 50px 0px rgba(95,255,0,0.5);
 }
 </style>

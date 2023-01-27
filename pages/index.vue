@@ -14,7 +14,7 @@
               <p class="mb-3">
                 Identify and fix errors quickly with our CI Solution
               </p>
-              <nuxt-link to="/developers">
+              <nuxt-link to="/product">
                 Explore
               </nuxt-link>
             </div>
@@ -54,7 +54,7 @@
       <div class="container mb-6 pb-6">
         <!-- text blocks -->
         <div class="columns my-6 py-6">
-          <div class="column is-6">
+          <div class="column is-6" data-aos="fade-right">
             <h2 class="title is-2">
               Robust and resilient
             </h2>
@@ -72,15 +72,15 @@
               Explore
             </nuxt-link>
           </div>
-          <div class="column is-6">
+          <div class="column is-6" data-aos="fade-left">
             <img src="~assets/img/home/robust.svg">
           </div>
         </div>
         <div class="columns my-6 py-6">
-          <div class="column is-6">
+          <div class="column is-6" data-aos="fade-right">
             <img src="~assets/img/home/transparent.svg">
           </div>
-          <div class="column is-5 is-offset-1">
+          <div class="column is-5 is-offset-1" data-aos="fade-left">
             <h2 class="title is-2">
               Transparent and secure
             </h2>
@@ -100,7 +100,7 @@
           </div>
         </div>
         <div class="columns my-6 py-6">
-          <div class="column is-6">
+          <div class="column is-6" data-aos="fade-right">
             <h2 class="title is-2">
               In control of your own compute
             </h2>
@@ -118,15 +118,15 @@
               Explore
             </nuxt-link>
           </div>
-          <div class="column is-6">
+          <div class="column is-6" data-aos="fade-left">
             <img src="~assets/img/home/control.svg">
           </div>
         </div>
         <div class="columns my-6 py-6">
-          <div class="column is-6">
+          <div class="column is-6" data-aos="fade-right">
             <img src="~assets/img/home/environment.svg">
           </div>
-          <div class="column is-5 is-offset-1">
+          <div class="column is-5 is-offset-1" data-aos="fade-left">
             <h2 class="title is-2">
               Environment-friendly alternative
             </h2>

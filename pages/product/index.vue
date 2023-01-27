@@ -3,14 +3,14 @@
     <section class="section">
       <div class="container">
         <h1 class="title site-title is-spaced has-limited-width mt-6" data-aos="fade-up">
-          Works with any execution environment
+          Flexibility to use any execution environment
         </h1>
         <div class="columns mt-5">
           <div class="column is-7" data-aos="fade-up">
             <div class="has-limited-width-small mt-4">
               <p class="block">
-                Our decentralized crowd-hosted platform has computing options for every development
-                need, whether you’re building mobile apps or the next DEX.
+                Nosana’s decentralized engine has the compute options you need to support your development,
+                whether you’re building mobile apps or the next decentralized exchange.
               </p>
             </div>
           </div>
@@ -26,18 +26,15 @@
             <p class="has-limited-width-small is-horizontal-centered">
               Need native support for images within containers? We can pull from all public repositories.
             </p>
-            <nuxt-link to="/developers/containers" class="button is-accent mt-5 has-text-weight-bold">
+            <nuxt-link to="/product/containers" class="button is-accent mt-5 has-text-weight-bold">
               Learn more
             </nuxt-link>
           </div>
         </div>
         <div class="my-6 pt-6 has-text-centered">
           <h2 class="title" data-aos="fade-up">
-            Get Started in 4 easy steps
+            Get started with Nosana
           </h2>
-          <!-- <p class="has-limited-width-smaller is-horizontal-centered" data-aos="fade-up">
-            It’s easy to get up and running as a Nosana Technology Partner.
-          </p> -->
         </div>
         <div class="columns">
           <div class="column is-one-quarter" data-aos="fade-up" data-aos-delay="200">
@@ -46,11 +43,14 @@
                 1
               </h2>
               <h2 class="title is-5">
-                Join our free testnet
+                Visit app.nosana.io
               </h2>
               <p class="">
-                You’ll find our incentivized testnet at testnet.nosana.io.
-                To join, you’ll have to complete a few actions. (Don’t worry, they’re simple.)
+                Our decentralized CI engine can be found here.
+                <br>
+                <a href="https://app.nosana.io" target="_blank" class="button mt-3 is-accent is-outlined">
+                  Get started
+                </a>
               </p>
             </div>
           </div>
@@ -60,11 +60,13 @@
                 2
               </h2>
               <h2 class="title is-5">
-                Connect your wallet
+                Connect your Github account
               </h2>
               <p class="">
-                Link your wallet to one of our Solana-based wallet providers.
-                Choose the account you want to use for Nosana.
+                You’re almost ready to build! Our onboarding flow will guide you through
+                the process of building your first pipeline.
+                Start with approving the Nosana Platform to access your GitHub account,
+                enabling us to install the GitHub app required to run  Nosana pipelines.
               </p>
             </div>
           </div>
@@ -74,12 +76,12 @@
                 3
               </h2>
               <h2 class="title is-5">
-                Connect your GitHub account
+                Choose a template
               </h2>
               <p class="">
-                When you add a pipeline for the first time,
-                a pop-up will appear asking you to let Nosana access your GitHub account.
-                Grant permission and we’ll be able to install the GitHub app necessary to run Nosana pipelines
+                When you add a pipeline for the first time, a pop-up will appear asking you to let Nosana access your
+                GitHub account.Grant permission and we’ll be able to install the GitHub app necessary to run
+                Nosana pipelines
               </p>
             </div>
           </div>
@@ -89,12 +91,13 @@
                 4
               </h2>
               <h2 class="title is-5">
-                Request testnet tokens
+                Start running pipelines!
               </h2>
               <p class="">
-                Add information about your project and submit a funding request for testnet tokens.
-                We'll review your information and notify you through email once your request has been approved.
-                Until then, the status will show as 'pending.'
+                Add details about your project and make a funding request.
+                Please note we can only host a limited amount of projects on our testnet.
+                And we have to manually approve each project, so bear with us!
+                We’ll email you as soon as we’ve approved your request. Until then, its status will be ‘pending’.
               </p>
             </div>
           </div>

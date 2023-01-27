@@ -5,6 +5,11 @@
 @import 'dark-mode';
 @import 'bulma/sass/utilities/mixins';
 
+@media screen and (min-width: 1408px) {
+  .container:not(.is-max-desktop):not(.is-max-widescreen) {
+      max-width: 1440px;
+  }
+}
 
 a {
   outline: 0;

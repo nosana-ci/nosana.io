@@ -8,42 +8,27 @@
           </div>
           <div>
             <h2 class="subtitle is-3">
-              Nosana Testnet For Projects
+              Private Beta
             </h2>
             <ul>
               <li>
-                Open-source software projects are Incentivized based on their
-                Nosana network usage. In other words,
-                <b>you will receive tokens for running free pipelines.</b>
+                Open-source software projects can use Nosana’s engine to run CI jobs for free.
               </li>
               <li>
-                Selected projects will automatically receive 500 $NOS tokens for
-                onboarding our Testnet. You can
-                <b>earn up to 10.000 $NOS tokens</b> by testing code with our
-                Network.
+                Projects can securely store their secrets to a Secret Manager
+                (hosted for free by Nosana, or you can host your own) and specify per job which secrets
+                the node running the job can retrieve.
               </li>
               <li>
-                Our pipelines will support basic ESLint checks. More features
-                and supported languages will be added, development will be based
-                on community feedback. Make sure to join our
-                <a href="https://discord.gg/nosana" target="_blank">Discord server</a>.
-              </li>
-              <li>
-                We will begin the testnet with certified nodes, to make sure
-                your tests run smoothly.
-              </li>
-              <li>
-                Testnet tokens can only be used to run Nosana pipelines, and
-                will convert to vested Mainnet tokens after we launch our
-                mainnet product.
+                The beta program runs on verified nodes, to make sure your tests run smoothly.
               </li>
             </ul>
-            <p class="block">
+            <p class="block has-text-centered">
               <a
-                href="https://testnet.nosana.io"
+                href="https://app.nosana.io"
                 class="button is-accent is-outlined has-text-weight-semibold"
                 target="_blank"
-              >Join Our Incentivized Testnet</a>
+              >Get Started</a>
             </p>
           </div>
         </div>
@@ -55,35 +40,30 @@
           </div>
           <div>
             <h2 class="subtitle is-3">
-              Nosana Testnet For Users
+              Public Beta
             </h2>
 
             <ul>
               <li>
-                Once projects are successfully running pipelines in the Testnet
-                we’ll expand the program for users to become a node.
+                Excpected 1st of April 2023
               </li>
               <li>
-                Lend out spare CPU from your devices to power pipelines and
-                you'll earn free tokens.
-              </li>
-              <li>
-                Token rewards are calculated based on pipeline seconds and
-                resource capacity.
-              </li>
-              <li>
-                These tokens can only be used to run Nosana pipelines in
-                TestNet, and cannot be traded till our mainnet product is
-                launched.
+                Once selected projects are successfully running pipelines in our beta we’ll
+                open the App to all projects.
               </li>
             </ul>
-            <p class="block">
-              <a
-                href="https://bit.ly/NosanaUserForm-hp"
-                class="button is-accent is-outlined has-text-weight-semibold"
-                target="_blank"
-              >User Testnet Registration</a>
-            </p>
+          </div>
+        </div>
+      </div>
+      <div class="roadmap-item">
+        <div class="content has-radius-small p-3 pl-6">
+          <div class="title">
+            Phase 3
+          </div>
+          <div>
+            <h2 class="subtitle is-3">
+              Mainnet Release
+            </h2>
           </div>
         </div>
       </div>

@@ -48,10 +48,10 @@
                 <div>Product</div>
               </a>
               <div class="navbar-dropdown is-boxed">
-                <nuxt-link class="navbar-item" to="/developers" exact-active-class="is-active">
+                <nuxt-link class="navbar-item" to="/product" exact-active-class="is-active">
                   Get Started
                 </nuxt-link>
-                <nuxt-link class="navbar-item" to="/developers/containers" exact-active-class="is-active">
+                <nuxt-link class="navbar-item" to="/product/containers" exact-active-class="is-active">
                   Container-Support
                 </nuxt-link>
               </div>
@@ -71,7 +71,7 @@
                   Staking & Rewards
                 </nuxt-link>
                 <nuxt-link class="navbar-item" to="/platform" exact-active-class="is-active">
-                  Testnet
+                  Private Beta
                 </nuxt-link>
                 <nuxt-link class="navbar-item" to="/network/cpu" exact-active-class="is-active">
                   Contribute CPU
