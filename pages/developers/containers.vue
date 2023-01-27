@@ -91,22 +91,8 @@
             </div>
           </div>
         </div>
-        <div class="box p-6 mt-6 has-border-accent has-background-image mountain-grid">
-          <div class="">
-            <h2 class="title is-4">
-              Connect to get started
-            </h2>
-            <div class="has-limited-width-smaller">
-              <strong>
-                Ready to optimize your workflow with our native container executor?
-                Connect to our testnet to get started.</strong>
-            </div>
-            <p class="mt-4">
-              <a href="https://app.nosana.io" target="_blank" class="is-underlined"><strong>Connect to Nosana Network &nbsp;&nbsp;↘</strong></a>
-            </p>
-          </div>
-        </div>
       </div>
+      <connect />
     </section>
   </div>
 </template>
@@ -116,27 +102,3 @@ export default {
   colorMode: 'dark'
 };
 </script>
-
-<style lang="scss" scoped>
-.mountain-grid {
-  > *{
-    position: relative;
-  }
-  background-image: url('~assets/img/mountain-grid_animated.svg');
-  background-repeat: no-repeat;
-  background-position: right;
-  background-size: contain;
-  position: relative;
-  &:before {
-    border-radius: 6px;
-    position: absolute;
-    display: block;
-    content: "";
-    top:0;
-    left:0;
-    width:100%;
-    height: 100%;
-    background: linear-gradient(90deg, #010C04 28.85%, rgba(1, 12, 4, 0) 100%);
-  }
-}
-</style>
