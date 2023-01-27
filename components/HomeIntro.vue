@@ -5,54 +5,26 @@
         <div class="columns mt-6 mt-mobile-0" style="min-height: 60vh" data-aos="fade-up">
           <div class="column has-background-black-blur-false">
             <h1 class="title is-spaced site-title">
-              Start a crowd <br>
-              revolution <br>
+              Thrustless CI/CD<br>
+              for Web3.
             </h1>
-            <h2 class="subtitle">
-              Next Gen CI/CD
-            </h2>
-            <div class="has-limited-width-small mt-4">
+            <div class="has-limited-width-small py-2">
               <p class="block">
-                The Nosana Network will be the leading provider of decentralized
-                CPU-based Dev(Ops) solutions, revolutionizing the development
-                process of Metaverse projects.
+                Nosana is a decentralized engine running continuous integration.
+                Providing extra resilience, security and privacy to your build with the power of blockchain technology.
               </p>
             </div>
-            <div class="mt-6">
-              <nuxt-link to="/platform" class="button is-outlined is-accent m-2">
-                <b>Incentivized Testnet</b>
-              </nuxt-link>
-              <a
-                href="https://discord.gg/nosana"
-                target="_blank"
-                class="m-2 button is-accent is-wide"
-              >
-                <b>Join Discord</b>
+            <div class="mt-5">
+              <a href="https://app.nosana.io" target="_blank" class="button is-outlined is-accent mr-2">
+                Try it out now
               </a>
-            </div>
-            <h2 class="subtitle has-text-accent mt-6">
-              Sign up for our newsletter
-            </h2>
-            <zoho-subscribe class="has-limited-width" />
-            <socials class="mt-6" />
-            <!-- <exchanges class="mt-3" /> -->
-            <div class="has-limited-width-small mt-5">
-              <p>
-                Powered by
-                <a href="https://explorer.solana.com/address/nosXBVoaCTtYdLvKY6Csb4AC8JCdQKKAaWYtx2ZMoo7">
-                  <img
-                    width="20px"
-                    max-width="200px"
-                    height="32px"
-                    max-height="80px"
-                    contain
-                    class="mx-2 greyscale-false"
-                    :src="require('@/assets/img/solana.svg')"
-                    alt="Solana"
-                  >
-                </a>
-                Solana
-              </p>
+              <a
+                href="https://docs.nosana.io"
+                target="_blank"
+                class="ml-2 button is-accent is-wide"
+              >
+                Explore the docs
+              </a>
             </div>
           </div>
           <div class="column">
