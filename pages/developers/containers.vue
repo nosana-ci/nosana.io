@@ -133,5 +133,10 @@ export default {
 };
 </script>
 <style lang="scss" scoped>
-.yaml-preview { background: $background-gradient}
+.yaml-preview {
+  background: $background-gradient;
+  @media screen and (max-width: $tablet) {
+    background: $black;
+  }
+}
 </style>

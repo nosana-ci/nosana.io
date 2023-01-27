@@ -55,10 +55,12 @@
               </p>
             </div>
           </div>
+          <div class="column">
+            <yaml-preview />
+          </div>
         </div>
       </div>
     </section>
-    <img src="~assets/img/ring_animated.svg" width="45%" class="ring">
   </div>
 </template>
 

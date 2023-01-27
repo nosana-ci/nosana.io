@@ -109,35 +109,35 @@ jobs:
           name: 'Python',
           code: `# .nosana-ci.yml
 nosana:
-  description: Nosana-Node Pipeline
+    description: Nosana-Node Pipeline
 
 global:
-  image: python:latest
+    image: python:latest
 
-  trigger:
-    branch:
-      - all
+    trigger:
+        branch:
+          - all
 
 jobs:
-  - name: install deps and build container
-    commands:
-      # Initialize
-      - python -m venv count
-      - . count/bin/activate
-      - pip install numpy flake8 pytest
-      - pip freeze > requirements.txt
-    artifacts:
-      - name: count
-        path: count/
+    - name: install deps and build container
+        commands:
+            # Initialize
+            - python -m venv count
+            - . count/bin/activate
+            - pip install numpy flake8 pytest
+            - pip freeze > requirements.txt
+        artifacts:
+          - name: count
+            path: count/
 
-  - name: test
-    commands:
-      - . count/bin/activate
-      - pip install -r requirements.txt
-      - pytest -v --cov=count/
-    resources:
-      - name: count
-        path: ./`
+    - name: test
+        commands:
+            - . count/bin/activate
+            - pip install -r requirements.txt
+            - pytest -v --cov=count/
+        resources:
+            - name: count
+              path: ./`
         },
         {
           name: 'Node.JS',
@@ -191,82 +191,82 @@ jobs:
           name: 'Go',
           code: `# .nosana-ci.yml
 nosana:
-  description: Nosana-Node Pipeline
+    description: Nosana-Node Pipeline
 
 global:
-  image: golang:latest
+    image: golang:latest
 
-  trigger:
-    branch:
-      - all
+    trigger:
+        branch:
+            - all
 
-  environment:
-    # Specify that apt will be used in noninteractive env.
-    # https://www.debian.org/releases/sarge/s390/ch05s02.html.en
-    DEBIAN_FRONTEND: noninteractive
+    environment:
+        # Specify that apt will be used in noninteractive env.
+        # https://www.debian.org/releases/sarge/s390/ch05s02.html.en
+        DEBIAN_FRONTEND: noninteractive
 
 jobs:
-  - name: install deps and build container
-    commands:
-      - pwd
-      - go mod init example/hello  # Initialize
-      - touch hello.go
-      - echo 'package main' >> hello.go
-      - echo 'import "fmt"' >> hello.go
-      - echo 'func main() { fmt.Println("Hello, World!") }' >> hello.go
-      - echo >> hello.go
-      - cat hello.go
-      - go run hello.go
-      - mkdir build
-      - go build -o build/
-    artifacts:
-      - name: build
-        path: ./build/
+    - name: install deps and build container
+        commands:
+            - pwd
+            - go mod init example/hello  # Initialize
+            - touch hello.go
+            - echo 'package main' >> hello.go
+            - echo 'import "fmt"' >> hello.go
+            - echo 'func main() { fmt.Println("Hello, World!") }' >> hello.go
+            - echo >> hello.go
+            - cat hello.go
+            - go run hello.go
+            - mkdir build
+            - go build -o build/
+        artifacts:
+            - name: build
+              path: ./build/
 
-  - name: release
-    commands:
-      - ./build/hello
-    resources:
-      - name: build
-        path: ./`
+            - name: release
+                commands:
+                    - ./build/hello
+                resources:
+                    - name: build
+                    path: ./`
         },
         {
           name: 'Rust',
           code: `# .nosana-ci.yml
 nosana:
-  description: Nosana-Node Pipeline
+    description: Nosana-Node Pipeline
 
 global:
-  image: rust:latest
+    image: rust:latest
 
   trigger:
-    branch:
-      - all
+      branch:
+          - all
 
   environment:
-    # Specify that apt will be used in noninteractive env.
-    # https://www.debian.org/releases/sarge/s390/ch05s02.html.en
-    DEBIAN_FRONTEND: noninteractive
+      # Specify that apt will be used in noninteractive env.
+      # https://www.debian.org/releases/sarge/s390/ch05s02.html.en
+      DEBIAN_FRONTEND: noninteractive
 
 jobs:
-  - name: install deps and build container
-    commands:
-      # Initialize
-      - cargo init hello
-      - cd hello
-      - cargo add rand
-      - cargo check
-      - cargo build --release
-    artifacts:
-      - name: target_release
-        path: hello/target/release
+    - name: install deps and build container
+        commands:
+            # Initialize
+            - cargo init hello
+            - cd hello
+            - cargo add rand
+            - cargo check
+            - cargo build --release
+        artifacts:
+            - name: target_release
+              path: hello/target/release
 
-  - name: release
-    commands:
-      - ./release/hello
-    resources:
-      - name: target_release
-        path: ./`
+        - name: release
+          commands:
+              - ./release/hello
+          resources:
+              - name: target_release
+              path: ./`
         }
       ]
   }),
