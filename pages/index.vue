@@ -77,8 +77,10 @@
           </div>
         </div>
         <div class="columns my-6 py-6">
-          <div class="column is-6" data-aos="fade-right">
-            <img src="~assets/img/home/transparent.svg">
+          <div class="column is-6 px-0 video-frame has-radius" data-aos="fade-right">
+            <video autoplay muted loop>
+              <source src="~assets/img/pipeline-video.mp4" type="video/mp4">
+            </video>
           </div>
           <div class="column is-5 is-offset-1" data-aos="fade-left">
             <h2 class="title is-2">
@@ -92,7 +94,7 @@
               you can rest assured that your information is protected at all times.
             </p>
             <nuxt-link
-              to="/platform"
+              to="/product"
               class="button mt-2 is-accent is-outlined is-wide"
             >
               Explore
@@ -112,7 +114,7 @@
               and the risk of vendor-side malicious insiders.
             </p>
             <nuxt-link
-              to="/platform"
+              to="/product"
               class="button mt-2 is-accent is-outlined is-wide"
             >
               Explore
@@ -136,7 +138,7 @@
               providing an eco-friendly alternative to using big datacenters.
             </p>
             <nuxt-link
-              to="/platform"
+              to="/product"
               class="button mt-2 is-accent is-outlined is-wide"
             >
               Explore
@@ -168,6 +170,18 @@ export default {
 
 <style lang="scss" scoped>
 @import "bulma/sass/utilities/mixins";
+video {
+  height: auto;
+  width: 100%;
+}
+
+.video-frame {
+  background-image: url('~assets/img/video-frame.svg');
+  background-size: 101%;
+  background-repeat: no-repeat;
+  border: 1px solid #343D36;
+  background-position: top left;
+}
 
 @keyframes moveX {
   0% {

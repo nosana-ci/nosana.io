@@ -2,10 +2,10 @@
   <div>
     <section class="section home-block">
       <div class="container">
-        <div class="columns mt-6 mt-mobile-0" style="min-height: 60vh" data-aos="fade-up">
+        <div class="columns mt-6 mt-mobile-0" style="min-height: 60vh">
           <div class="column has-background-black-blur-false">
             <h1 class="title is-spaced site-title">
-              Thrustless CI/CD<br>
+              Trustless CI/CD<br>
               for Web3.
             </h1>
             <div class="has-limited-width-small py-2">
@@ -27,7 +27,7 @@
               </a>
             </div>
           </div>
-          <div class="column mb-6">
+          <div class="column yaml-bg p-6">
             <yaml-preview class="yaml-preview" />
           </div>
         </div>
@@ -38,11 +38,11 @@
 
 <style lang="scss" scoped>
 @import "bulma/sass/utilities/mixins";
-.home-block {
-  // background-image: url("~assets/img/nosana_bg.png");
-  background-size: 65%;
+.yaml-bg {
+  background-image: url("~assets/img/home/preview-bg.png");
+  background-size: 100% 100%;
   background-repeat: no-repeat;
-  background-position: bottom right -30px;
+  padding: 8rem 10rem !important;
 }
 
 .ring {

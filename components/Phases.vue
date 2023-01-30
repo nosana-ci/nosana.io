@@ -80,6 +80,20 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+.roadmap {
+  &:before {
+    content: "";
+    position: absolute;
+    width: 7px;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    top: -9px;
+    background: $accent;
+  }
+}
 .roadmap-item {
   background: #010C04;
   position: relative;

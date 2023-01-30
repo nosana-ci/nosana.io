@@ -67,20 +67,20 @@
                 <div>Decentralized Network</div>
               </a>
               <div class="navbar-dropdown is-boxed">
-                <nuxt-link class="navbar-item" to="/stake" exact-active-class="is-active">
-                  Staking & Rewards
-                </nuxt-link>
                 <nuxt-link class="navbar-item" to="/platform" exact-active-class="is-active">
                   Private Beta
-                </nuxt-link>
-                <nuxt-link class="navbar-item" to="/network/cpu" exact-active-class="is-active">
-                  Contribute CPU
                 </nuxt-link>
                 <nuxt-link class="navbar-item" to="/network/vision" exact-active-class="is-active">
                   Vision
                 </nuxt-link>
                 <nuxt-link class="navbar-item" to="/token" exact-active-class="is-active">
                   The NOS Token
+                </nuxt-link>
+                <nuxt-link class="navbar-item" to="/stake" exact-active-class="is-active">
+                  Staking & Rewards
+                </nuxt-link>
+                <nuxt-link class="navbar-item" to="/network/cpu" exact-active-class="is-active">
+                  Contribute CPU
                 </nuxt-link>
               </div>
             </div>
@@ -92,14 +92,8 @@
                 <div>Community</div>
               </a>
               <div class="navbar-dropdown is-boxed">
-                <nuxt-link class="navbar-item" to="/nft" exact-active-class="is-active">
-                  Nosana NFT
-                </nuxt-link>
                 <nuxt-link class="navbar-item" to="/blog" exact-active-class="is-active">
                   Blogs
-                </nuxt-link>
-                <nuxt-link class="navbar-item" to="/festival" exact-active-class="is-active">
-                  Burner Phones Festival
                 </nuxt-link>
                 <a href="https://github.com/nosana-ci" target="_blank" class="navbar-item">
                   <i class="fab fa-github mr-2" aria-hidden="true" />
@@ -117,6 +111,9 @@
                   <i class="fab fa-medium mr-2" aria-hidden="true" />
                   <span>Medium</span>
                 </a>
+                <nuxt-link class="navbar-item" to="/nft" exact-active-class="is-active">
+                  Nosana NFT
+                </nuxt-link>
               </div>
             </div>
             <div class="navbar-item has-dropdown is-hoverable" @click="mobileMenu = false">
