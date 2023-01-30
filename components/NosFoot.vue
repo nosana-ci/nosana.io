@@ -43,6 +43,9 @@
 
 <style lang="scss" scoped>
 .footer {
+  .navbar-menu {
+    display: block !important;
+  }
   border-top: 1px solid rgba($accent, 0.1);
 }
 </style>

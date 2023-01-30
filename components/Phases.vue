@@ -1,6 +1,6 @@
 <template>
   <div class="roadmap-container">
-    <div class="roadmap py-6 mb-6">
+    <div class="roadmap mb-6">
       <div class="roadmap-item is-completed box">
         <div class="content has-radius-small p-3" data-aos="fade-up">
           <div class="title mb-0 has-text-centered">
@@ -82,9 +82,10 @@ export default {
 <style lang="scss" scoped>
 .roadmap {
   &:before {
+    mask-image: linear-gradient(180deg, transparent 0%, rgba(0, 0, 0, 1) 13%, rgba(0, 0, 0, 1) 48%, transparent 98%);
     content: "";
     position: absolute;
-    width: 7px;
+    width: 6px;
     height: 100%;
     margin-left: auto;
     margin-right: auto;
@@ -98,6 +99,12 @@ export default {
   background: #010C04;
   position: relative;
   padding-bottom: 60px;
+  margin-top: 5rem !important;
+  &:last-child {
+    .title, h2, ul {
+      mask-image: linear-gradient(to bottom, black 0%, transparent 100%);
+    }
+  }
   &:before {
     content: '';
     position: absolute;

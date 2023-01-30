@@ -248,10 +248,10 @@ export default {
 
   .navbar-menu {
     .navbar-link {
-      color: $grey-light;
+      color: $white;
 
       &:after {
-        border-color: $grey-light;
+        border-color: $white;
       }
 
       &.is-active,
@@ -265,7 +265,7 @@ export default {
     }
 
     .navbar-item {
-      color: $grey-light;
+      color: $white;
 
       &:after {
         background: white;
