@@ -27,7 +27,7 @@
               </a>
             </div>
           </div>
-          <div class="column yaml-bg p-6">
+          <div class="column yaml-bg">
             <yaml-preview class="yaml-preview" />
           </div>
         </div>
@@ -42,28 +42,17 @@
   background-image: url("~assets/img/home/preview-bg.png");
   background-size: 100% 100%;
   background-repeat: no-repeat;
-  padding: 8rem 10rem !important;
-}
+  background-position: center;
+  padding: 5.7rem 6.2rem;
 
-.ring {
-  position: absolute;
-  top: 200px;
-  right: 0;
-}
-@include touch {
-  .mt-mobile-0 {
-    margin-top: 0 !important;
-  }
-  .home-block {
-    background: none;
-  }
-  .ring {
-    position: relative;
-    top: 0;
-    width: 100%;
+  @media screen and (max-width: $tablet) {
+    background-image: none;
+    padding: 8px;
   }
 }
 .yaml-preview {
+  margin-top: 18px;
+  margin-left: 3px;
   box-shadow: 0px 0px 50px 0px rgba(95,255,0,0.5);
 }
 </style>

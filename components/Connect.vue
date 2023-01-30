@@ -16,6 +16,8 @@
 
 <style lang="scss" scoped>
 .mountain-grid {
+  max-width: 1920px;
+  margin: 0 auto;
   > *{
     position: relative;
   }

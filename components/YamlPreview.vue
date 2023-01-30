@@ -293,7 +293,7 @@ jobs:
     font-size: 14px;
     line-height: 1.5;
     padding: 5px;
-    max-height: 600px;
+    max-height: 550px;
     pre {
     color: #E6E7E6 !important;
   }
