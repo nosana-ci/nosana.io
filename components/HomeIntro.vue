@@ -55,4 +55,10 @@
   margin-left: 3px;
   box-shadow: 0px 0px 50px 0px rgba(95,255,0,0.5);
 }
+@media screen and (max-width: $tablet) {
+  .button {
+    margin-left: 0 !important;
+    margin-top: 10px;
+  }
+}
 </style>

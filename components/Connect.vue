@@ -42,6 +42,7 @@
     background: linear-gradient(90deg, rgba(10,10,10,1) 85%, rgba(10,10,10,0) 100%);
     @media screen and (max-width: $tablet) {
       background: $black;
+      padding: 1.5rem !important;
     }
   }
 }

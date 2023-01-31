@@ -174,6 +174,9 @@ export default {
       &:after {
         width: 100%;
       }
+      .px-5 {
+        padding: 0 !important;
+      }
     }
   }
 }

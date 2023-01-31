@@ -78,7 +78,7 @@
         </div>
         <div class="columns my-6 py-6">
           <div class="column is-6 px-0 video-frame has-radius" data-aos="fade-right">
-            <video autoplay muted loop>
+            <video autoplay muted @ended="onVideoEnd">
               <source src="~assets/img/pipeline-video.mp4" type="video/mp4">
             </video>
           </div>
@@ -163,7 +163,15 @@ export default {
   },
   colorMode: 'dark',
   mounted () {
-    // this.onloadzoho();
+  },
+  destroyed () {
+  },
+  methods: {
+    onVideoEnd (event) {
+      setTimeout(() => {
+        event.target.play();
+      }, 2000);
+    }
   }
 };
 </script>
