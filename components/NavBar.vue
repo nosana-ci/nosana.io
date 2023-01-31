@@ -214,8 +214,10 @@ export default {
       text-align: center;
       font-size: 0.9rem;
 
-      &.has-dropdown > a {
-        background: $primary;
+      @media screen and (max-width: $tablet) {
+        &.has-dropdown > a {
+          background: $primary;
+        }
       }
 
       &:after {
@@ -246,7 +248,11 @@ export default {
   }
 
   .navbar-dropdown {
+    background: $primary;
     border-top-color: $primary;
+    @media screen and (max-width: $tablet) {
+      background: none;
+    }
   }
 
   .navbar-menu {
