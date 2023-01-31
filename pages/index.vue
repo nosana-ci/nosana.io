@@ -88,8 +88,8 @@
             </h2>
             <p class="mb-5 has-limited-width-small">
               We prioritize both transparency and security.
-              A decentralized network allows for increased trust and visibility, as
-              all users have access to the same information andcan verify its accuracy.
+              A decentralized network allows for increased trust and visibility,
+              as all users have access to the same information and can verify its accuracy.
               Combined with our advanced security measures, including our state-of-the-art secret manager,
               you can rest assured that your information is protected at all times.
             </p>

@@ -93,7 +93,7 @@
         <div class="container py-6">
           <div class="columns">
             <div class="column is-half">
-              <yaml-preview />
+              <yaml-preview class="preview-box" />
             </div>
 
             <div class="column is-5 is-offset-1">
@@ -134,6 +134,9 @@ export default {
   background: $background-gradient;
   @media screen and (max-width: $tablet) {
     background: $black;
+  }
+  .preview-box {
+    box-shadow: 0px 15px 26px -15px rgba(95,255,0,.5);
   }
 }
 </style>

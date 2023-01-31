@@ -18,7 +18,7 @@
         <div class="column is-8 is-offset-4 mt-0" data-aos="fade-left">
           <img src="~assets/img/grid-field_animated.svg">
         </div>
-        <div class="column is-10 is-offset-1 mt-6">
+        <div class="column is-10 is-offset-1 my-6 pb-6">
           <div class="box p-6 has-text-centered has-border-accent fade-border">
             <h1 class="title">
               Container Support
@@ -31,6 +31,78 @@
             </nuxt-link>
           </div>
         </div>
+
+        <div class="columns my-6">
+          <div class="column is-6 px-0 video-frame has-radius" data-aos="fade-right">
+            <img src="~assets/img/product/secrets.svg">
+          </div>
+          <div class="column is-5 is-offset-1" data-aos="fade-left">
+            <h2 class="title is-2">
+              Your secrets are safe
+            </h2>
+            <p class="mb-5 has-limited-width-small">
+              Private repos that upload jobs/pipelines to the Nosana Network may want to
+              share secrets that are required to run their jobs with the Nodes that are performing
+              their jobs. This is now possible with the Nosana Secret Manager.
+              Projects can securely store their secrets in a secret manager (hosted by Nosana or you can
+              host your own) and select which secrets the node conducting the job can retrieve per job.
+            </p>
+            <a
+              target="_blank"
+              href="https://docs.nosana.io/secrets/start.html"
+              class="button mt-2 is-accent is-outlined is-wide"
+            >
+              Check docs
+            </a>
+          </div>
+        </div>
+        <div class="columns my-6 py-6">
+          <div class="column is-6" data-aos="fade-right">
+            <h2 class="title is-2">
+              Choose your template or start from scratch
+            </h2>
+            <p class="mb-5 has-limited-width-small">
+              With our out-of-the-box CI open-source templates, you can get started in minutes.
+              We are always adding new templates to our flow to help you get started on your build,
+              ranging from Node.js to SPL. Experienced DevOps engineers can also develop their pipeline
+              from the ground up, if necessary.
+            </p>
+            <a
+              target="_blank"
+              href="https://github.com/nosana-ci/pipeline-templates"
+              class="button mt-2 is-accent is-outlined is-wide"
+            >
+              View our templates
+            </a>
+          </div>
+          <div class="column is-5 is-offset-1" data-aos="fade-left">
+            <img src="~assets/img/product/templates.svg">
+          </div>
+        </div>
+        <div class="columns my-6 py-6">
+          <div class="column is-6" data-aos="fade-left">
+            <img src="~assets/img/product/market.svg">
+          </div>
+          <div class="column is-5 is-offset-1" data-aos="fade-right">
+            <h2 class="title is-2">
+              Free community market
+            </h2>
+            <p class="mb-5 has-limited-width-small">
+              If we may say so, our decentralized CI engine is amazing.
+              But don't just take our word for it. Simply put it to the test.
+              With our community market, you can operate your own CI pipelines for free!
+            </p>
+            <a
+              target="_blank"
+              href="https://app.nosana.io/"
+              class="button mt-2 is-accent is-outlined is-wide"
+            >
+              Test Now
+            </a>
+          </div>
+        </div>
+
+        <!-- Steps -->
         <div class="my-6 pt-6 has-text-centered">
           <h2 class="title" data-aos="fade-up">
             Get started with Nosana
