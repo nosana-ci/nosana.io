@@ -15,7 +15,8 @@
                 <img src="~assets/img/icon-testnet-1.svg" height="42">
                 <p>
                   The private beta is intended to rigorously test Nosana's platform,
-                  before releasing beta to the public. We select a limited amount of projects during the first phase.
+                  before releasing our beta to the public.
+                  We select a limited amount of projects during the first phase.
                 </p>
               </div>
               <div class="block mt-6">

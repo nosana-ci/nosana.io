@@ -98,11 +98,10 @@
 
             <div class="column is-5 is-offset-1">
               <h2 class="title is-2">
-                Open-source flows
+                Prebuilt templates
               </h2>
               <p class="block">
-                Find all Nosana flows packages on GitHub.
-                Think our flows could be better?
+                Find all open-source Nosana templates on GitHub. Think our flows could be better?
                 Feel free to tinker with them! They’re made for better development, after all.
               </p>
               <a href="https://app.nosana.io/" target="_blank" class="button is-outlined is-accent m-2">

@@ -5,9 +5,10 @@
         <h2 class="title is-4">
           Connect to get started
         </h2>
-        Ready to optimize your workflow with our native container executor? Connect with our app to get started.
+        Ready to optimize your workflow with our decentralized CI service?<br>
+        Connect with our app to get started.
         <p class="mt-4">
-          <a href="https://app.nosana.io" target="_blank" class="is-underlined"><strong class="has-text-accent">Connect to Nosana Network &nbsp;&nbsp;↘</strong></a>
+          <a href="https://app.nosana.io" target="_blank" class="is-underlined"><strong class="has-text-accent">Try it out now &nbsp;&nbsp;↘</strong></a>
         </p>
       </div>
     </div>

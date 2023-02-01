@@ -62,10 +62,11 @@
               Choose your template or start from scratch
             </h2>
             <p class="mb-5 has-limited-width-small">
-              With our out-of-the-box CI open-source templates, you can get started in minutes.
+              With our out-of-the-box CI open-source templates,
+              you can get started in minutes.
               We are always adding new templates to our flow to help you get started on your build,
-              ranging from Node.js to SPL. Experienced DevOps engineers can also develop their pipeline
-              from the ground up, if necessary.
+              ranging from Node.js to SPL.
+              You can also built your pipeline from the ground up, if necessary.
             </p>
             <a
               target="_blank"
