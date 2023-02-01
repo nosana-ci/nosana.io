@@ -12,7 +12,7 @@
                 Product
               </h2>
               <p class="mb-3">
-                Identify and fix errors quickly with our CI Solution
+                Identify and fix errors quickly with our CI Solution<br><br>
               </p>
               <nuxt-link to="/product">
                 Explore
@@ -40,7 +40,7 @@
                 Contact us
               </h2>
               <p class="mb-3">
-                We’re always open to explore new opportunities.
+                We’re always open to explore new opportunities.<br><br>
               </p>
               <nuxt-link to="/contact">
                 Explore

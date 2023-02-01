@@ -9,7 +9,7 @@
           <div class="column is-5" data-aos="fade-up">
             <div class="has-limited-width-small mt-4">
               <p class="block">
-                The first set of nodes goes live on our testnet soon.
+                The first set of nodes goes live soon.
                 You’ll need to stake your tokens for a chance to get exclusive access to the Network.
               </p>
               <p class="block">
