@@ -1,16 +1,16 @@
 <template>
   <div>
     <section class="section">
-      <div class="container">
+      <div class="container my-6">
         <h1 class="title site-title is-spaced has-limited-width mt-6">
           Run any container command
         </h1>
         <div class="columns mt-5">
           <div class="column is-7" data-aos="fade-up">
             <div class="has-limited-width-small mt-4">
-              <p class="block">
-                If it works in a container, it works on the Nosana Network.
-                We can run any container command, letting you ship faster than ever before.
+              <p class="block has-text-weight-medium">
+                Our decentralized crowd-hosted platform has computing options for every development need.
+                Whether you’re building mobile apps or the next DEX.
               </p>
             </div>
           </div>
@@ -27,15 +27,14 @@
         <div class="columns py-6 is-vcentered">
           <div class="column is-5" data-aos="fade-right">
             <h2 class="title is-2">
-              CI/CD made easy
+              Containerized Pipelines
             </h2>
             <p class="block">
-              While CI/CD (continuous integration, continuous delivery, and continuous deployment) isn’t new,
-              there are always new ways to implement it.
-              Implementation methods evolve alongside cloud-native architecture,
-              site reliability engineering and DevOps. But finding the right DevOps engineer isn’t easy.
-              That’s where we come in. With our out-of-the-box flows and tailored-made pipelines,
-              you’re free to focus on core development.
+              We allow for versatile containerized pipeline creation by running any container tool you like.
+              Specify which container you’d like to use for each step, and the agent fetches and starts the container
+              in which the job will run.
+              Because each step is run in its own container and all the plugins have their own containers,
+              you don’t need to worry about dependency hell.
             </p>
           </div>
           <div class="column is-5 is-offset-2" data-aos="zoom-in">
@@ -46,9 +45,6 @@
           <h2 class="title" data-aos="fade-up">
             Running a Docker build in 4 steps
           </h2>
-          <!-- <p class="has-limited-width-smaller is-horizontal-centered" data-aos="fade-up">
-            It’s easy to get up and running as a Nosana Technology Partner.
-          </p> -->
         </div>
         <div class="columns is-variable is-8">
           <div class="column is-one-quarter" data-aos="fade-up" data-aos-delay="200">
@@ -57,7 +53,7 @@
                 Step 1
               </h2>
               <p class="is-size-5">
-                Create a new job for your project
+                Give your configuration file a job
               </p>
             </div>
           </div>
@@ -77,7 +73,7 @@
                 Step 3
               </h2>
               <p class="is-size-5">
-                Specify your Docker image
+                Choose your Docker image
               </p>
             </div>
           </div>
@@ -92,20 +88,37 @@
             </div>
           </div>
         </div>
-        <div class="box p-6 has-border-accent has-background-image mountain-grid">
-          <h2 class="title is-4">
-            Connect to get started
-          </h2>
-          <p class="has-limited-width-smaller">
-            <strong>
-              Ready to optimize your workflow with our native container executor?
-              Connect to our testnet to get started.</strong>
-          </p>
-          <p class="mt-4">
-            <a href="https://testnet.nosana.io" target="_blank" class="is-underlined"><strong>Connect to Nosana testnet &nbsp;&nbsp;↘</strong></a>
-          </p>
+      </div>
+      <div class="my-6 py-6 has-radius yaml-preview">
+        <div class="container py-6">
+          <div class="columns">
+            <div class="column is-half">
+              <yaml-preview class="preview-box" />
+            </div>
+
+            <div class="column is-5 is-offset-1">
+              <h2 class="title is-2">
+                Prebuilt templates
+              </h2>
+              <p class="block">
+                Find all open-source Nosana templates on GitHub. Think our flows could be better?
+                Feel free to tinker with them! They’re made for better development, after all.
+              </p>
+              <a href="https://app.nosana.io/" target="_blank" class="button is-outlined is-accent m-2">
+                Get started
+              </a>
+              <a
+                href="https://docs.nosana.io/"
+                target="_blank"
+                class="m-2 button is-accent is-wide"
+              >
+                <b>Explore docs</b>
+              </a>
+            </div>
+          </div>
         </div>
       </div>
+      <connect />
     </section>
   </div>
 </template>
@@ -115,24 +128,14 @@ export default {
   colorMode: 'dark'
 };
 </script>
-
 <style lang="scss" scoped>
-.mountain-grid {
-  > *{
-    position: relative;
+.yaml-preview {
+  background: $background-gradient;
+  @media screen and (max-width: $tablet) {
+    background: $black;
   }
-  background-image: url('~assets/img/mountain-grid_animated.svg');
-  position: relative;
-  &:before {
-    border-radius: 6px;
-    position: absolute;
-    display: block;
-    content: "";
-    top:0;
-    left:0;
-    width:100%;
-    height: 100%;
-    background: linear-gradient(90deg, #010C04 28.85%, rgba(1, 12, 4, 0) 100%);
+  .preview-box {
+    box-shadow: 0px 15px 26px -15px rgba(95,255,0,.5);
   }
 }
 </style>

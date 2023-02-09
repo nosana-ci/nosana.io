@@ -40,53 +40,47 @@
         >
           <div class="navbar-start" />
           <div class="navbar-end is-align-items-center">
-            <div @click="mobileMenu = false">
-              <nuxt-link
-                class="navbar-item"
-                to="/"
-                exact-active-class="is-active"
-              >
-                <div>Home</div>
-              </nuxt-link>
-            </div>
             <div class="navbar-item has-dropdown is-hoverable" @click="mobileMenu = false">
               <a
                 class="navbar-link"
                 exact-active-class="is-active"
               >
-                <div>Developers</div>
+                <div>Product</div>
               </a>
               <div class="navbar-dropdown is-boxed">
-                <nuxt-link class="navbar-item" to="/developers" exact-active-class="is-active">
+                <nuxt-link class="navbar-item" to="/product" exact-active-class="is-active">
                   Get Started
                 </nuxt-link>
-                <nuxt-link class="navbar-item" to="/developers/containers" exact-active-class="is-active">
+                <nuxt-link class="navbar-item" to="/product/containers" exact-active-class="is-active">
                   Container-Support
                 </nuxt-link>
               </div>
             </div>
+            <a target="_blank" href="https://docs.nosana.io" class="navbar-item">
+              <div>Docs</div>
+            </a>
             <div class="navbar-item has-dropdown is-hoverable" @click="mobileMenu = false">
               <a
                 class="navbar-link"
                 exact-active-class="is-active"
               >
-                <div>The Network</div>
+                <div>Decentralized Network</div>
               </a>
               <div class="navbar-dropdown is-boxed">
-                <nuxt-link class="navbar-item" to="/stake" exact-active-class="is-active">
-                  Staking & Rewards
-                </nuxt-link>
                 <nuxt-link class="navbar-item" to="/platform" exact-active-class="is-active">
-                  Testnet
-                </nuxt-link>
-                <nuxt-link class="navbar-item" to="/network/cpu" exact-active-class="is-active">
-                  Contribute CPU
+                  Private Beta
                 </nuxt-link>
                 <nuxt-link class="navbar-item" to="/network/vision" exact-active-class="is-active">
                   Vision
                 </nuxt-link>
                 <nuxt-link class="navbar-item" to="/token" exact-active-class="is-active">
                   The NOS Token
+                </nuxt-link>
+                <nuxt-link class="navbar-item" to="/stake" exact-active-class="is-active">
+                  Staking & Rewards
+                </nuxt-link>
+                <nuxt-link class="navbar-item" to="/network/cpu" exact-active-class="is-active">
+                  Contribute CPU
                 </nuxt-link>
               </div>
             </div>
@@ -98,14 +92,8 @@
                 <div>Community</div>
               </a>
               <div class="navbar-dropdown is-boxed">
-                <nuxt-link class="navbar-item" to="/nft" exact-active-class="is-active">
-                  Nosana NFT
-                </nuxt-link>
                 <nuxt-link class="navbar-item" to="/blog" exact-active-class="is-active">
                   Blogs
-                </nuxt-link>
-                <nuxt-link class="navbar-item" to="/festival" exact-active-class="is-active">
-                  Burner Phones Festival
                 </nuxt-link>
                 <a href="https://github.com/nosana-ci" target="_blank" class="navbar-item">
                   <i class="fab fa-github mr-2" aria-hidden="true" />
@@ -123,6 +111,9 @@
                   <i class="fab fa-medium mr-2" aria-hidden="true" />
                   <span>Medium</span>
                 </a>
+                <nuxt-link class="navbar-item" to="/nft" exact-active-class="is-active">
+                  Nosana NFT
+                </nuxt-link>
               </div>
             </div>
             <div class="navbar-item has-dropdown is-hoverable" @click="mobileMenu = false">
@@ -156,23 +147,7 @@
                 <nuxt-link class="navbar-item" to="/brand" exact-active-class="is-active">
                   Brand page
                 </nuxt-link>
-                <a target="_blank" href="https://docs.nosana.io" class="navbar-item">
-                  <div>Docs</div>
-                </a>
               </div>
-            </div>
-            <div
-              class="navbar-item"
-              exact-active-class="is-active"
-              @click="mobileMenu = false"
-            >
-              <nuxt-link
-                to="/contact"
-                class="button is-accent is-outlined px-5 is-wide"
-                exact-active-class="is-active"
-              >
-                <div>Contact</div>
-              </nuxt-link>
             </div>
             <div
               class="navbar-item"
@@ -182,10 +157,10 @@
               <a
                 target="_blank"
                 href="https://testnet.nosana.io"
-                class="button is-accent px-5 is-wide"
+                class="button is-accent is-outlined px-5 is-wide"
                 exact-active-class="is-active"
               >
-                <div>Launch</div>
+                <div>Get started</div>
               </a>
             </div>
           </div>
@@ -239,6 +214,12 @@ export default {
       text-align: center;
       font-size: 0.9rem;
 
+      @media screen and (max-width: $tablet) {
+        &.has-dropdown > a {
+          background: $primary;
+        }
+      }
+
       &:after {
         display: block;
         width: 0;
@@ -269,14 +250,23 @@ export default {
   .navbar-dropdown {
     background: $primary;
     border-top-color: $primary;
+    @media screen and (max-width: $tablet) {
+      background: none;
+    }
   }
 
   .navbar-menu {
     .navbar-link {
-      color: $grey-light;
+      color: $white;
+
+      @media screen and (max-width: $tablet) {
+        &:not(.is-arrowless) {
+          padding-right: 0.75rem;
+        }
+      }
 
       &:after {
-        border-color: $grey-light;
+        border-color: $white;
       }
 
       &.is-active,
@@ -290,7 +280,7 @@ export default {
     }
 
     .navbar-item {
-      color: $grey-light;
+      color: $white;
 
       &:after {
         background: white;

@@ -19,11 +19,13 @@
     "atropos": "1.0.2",
     "bulma": "0.9.4",
     "core-js": "3.22.4",
-    "countup.js": "^2.3.2",
+    "countup.js": "^2.4.1",
     "nuxt": "2.15.8",
+    "prismjs": "^1.29.0",
     "vue-carousel-3d": "^1.0.1",
     "vue-circular-count-down-timer": "2.0.0",
-    "vue-countup-v2": "^4.0.0"
+    "vue-countup-v2": "^4.0.0",
+    "vue-prism-editor": "^1.3.0"
   },
   "devDependencies": {
     "@babel/eslint-parser": "7.17.0",

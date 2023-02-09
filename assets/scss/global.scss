@@ -5,6 +5,11 @@
 @import 'dark-mode';
 @import 'bulma/sass/utilities/mixins';
 
+@media screen and (min-width: 1408px) {
+  .container:not(.is-max-desktop):not(.is-max-widescreen) {
+      max-width: 1440px;
+  }
+}
 
 a {
   outline: 0;
@@ -47,6 +52,10 @@ a.is-underlined {
 .site-title {
   font-size: 60px;
   font-family: $family-headers;
+}
+
+.title.is-1 {
+  line-height: 1.25;
 }
 
 .has-background-gradient {
@@ -145,6 +154,7 @@ a.card {
 }
 
 .button {
+  height: 3em;
   &.is-wide {
     min-width: 140px;
   }
@@ -154,7 +164,7 @@ a.card {
 }
 
 .has-radius {
-  border-radius: 7px;
+  border-radius: 6px;
 }
 
 .has-radius-small {
@@ -169,7 +179,6 @@ a.card {
 }
 
 .box {
-  border: none;
   position: relative;
   &:before {
     content: '';
@@ -179,6 +188,9 @@ a.card {
     margin: -1px;
     border-radius: inherit;
     background: linear-gradient(to bottom, $accent, #051707);
+  }
+  &.fade-border {
+    border: none;
   }
 }
 @include touch {

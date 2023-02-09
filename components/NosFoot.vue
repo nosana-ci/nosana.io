@@ -1,5 +1,5 @@
 <template>
-  <footer class="footer container py-6 px-4">
+  <footer class="footer container py-5 px-4">
     <nav class="navbar is-transparent" role="navigation" aria-label="main navigation">
       <div class="container">
         <div id="navbar" class="navbar-menu">
@@ -30,18 +30,22 @@
       </div>
     </nav>
     <div class="px-5 m-2 py-4 has-radius has-text-centered">
-      <img src="~/assets/img/Nosana_Logo_vertical_color_white.svg" class="logo" style="height: 80px">
+      <socials class="mb-4"/>
+      <img src="~/assets/img/footer-logo.svg" class="logo" style="height: 20px">
     </div>
     <div class="px-6 m-2 py-4 has-radius has-text-centered">
       <small
         class="is-size-7"
-      ><span style="font-family: monospace">©</span> NOSANA 2022</small>
+      ><span style="font-family: monospace">©</span> NOSANA 2023</small>
     </div>
   </footer>
 </template>
 
 <style lang="scss" scoped>
 .footer {
+  .navbar-menu {
+    display: flex !important;
+  }
   border-top: 1px solid rgba($accent, 0.1);
 }
 </style>
