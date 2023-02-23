@@ -1,6 +1,6 @@
 ---
-title: 'Maximizing Agile Software Development with CI/CD'
-description: For the Agile approach to be truly effective, it must be paired with a robust continuous integration and continuous deployment pipeline.
+title: 'We’re all sitting on a computational stockpile that is largely untapped'
+description: Did you know that manufacturing electronic devices such as smartphones is an insanely energy-intensive process, accounting for 70-85% of the lifetime carbon footprint of the phone itself?
 img: /img/repurposephones1.png
 createdAt: '2023-02-23'
 ---
