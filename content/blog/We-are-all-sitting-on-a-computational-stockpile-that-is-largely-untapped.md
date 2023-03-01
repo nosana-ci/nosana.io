@@ -4,7 +4,6 @@ description: Did you know that manufacturing electronic devices such as smartpho
 img: /img/repurposephones1.png
 createdAt: '2023-02-23'
 ---
-# We’re all sitting on a computational stockpile that is largely untapped.
 Did you know that manufacturing electronic devices such as smartphones is an insanely energy-intensive process, accounting for 70-85% of the lifetime carbon footprint of the phone itself? Still, we’re seeing 150 million smartphones discarded every year in the United States alone, amounting to one phone discarded per person every two years. And those phones are not properly discarded or recycled but simply forgotten in drawers and storage units, creating a computational stockpile that is largely untapped. So we’re all sitting on this computational goldmine while damaging the environment with our behavior. Not ideal, right? 
 
 
