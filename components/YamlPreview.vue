@@ -297,6 +297,10 @@ jobs:
     pre {
     color: #E6E7E6 !important;
   }
+    @media screen and (min-height: 1200px) and (min-width: 1000px) {
+      height: 50vh;
+      max-height: none;
+    }
   }
 
   .preview-container {
