@@ -4,6 +4,18 @@
       <h1 class="has-text-centered title">
         Blog Posts
       </h1>
+      <div class="tabs is-centered py-3">
+        <ul style="border: none;">
+          <li class="is-active">
+            <a>Blogs</a>
+          </li>
+          <li>
+            <nuxt-link to="/changelog">
+              Changelogs
+            </nuxt-link>
+          </li>
+        </ul>
+      </div>
       <div class="columns my-6 is-multiline">
         <client-only>
           <nuxt-link
@@ -73,3 +85,19 @@ export default {
   }
 };
 </script>
+
+<style lang="scss" scoped>
+.tabs {
+  font-size: 1.1rem;
+  li {
+    font-weight: 500;
+    margin: 0 10px;
+    a {
+      border-bottom: 0px;
+    }
+    &.is-active {
+      border-bottom: 2px solid $accent;
+    }
+  }
+}
+</style>
