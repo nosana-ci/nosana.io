@@ -46,29 +46,22 @@ export default {
       [
         {
           name: 'SPL',
-          code: `# .nosana-ci.yml
+          code: `\
 nosana:
-    description: Build and Test Nosana Contracts
-    backend: IPFS
+    description: Nosana SPL Template
 
 global:
     image: projectserum/build:v0.25.0
 
-    # Trigger pipeline on these branches:
     trigger:
         branch:
             - main
 
-    # Allow pipeline to stop if one job fails
-    allow_failure: true  # default: false
-
 jobs:
-
     - name: install_build
       commands:
           - npm ci
           - anchor build
-
       artifacts:
           - name: anchor_target
             path: ./target/
@@ -103,170 +96,154 @@ jobs:
           - name: node_modules
             path: ./
           - name: anchor_target
-            path: ./`
+            path: ./
+`
         },
         {
           name: 'Python',
-          code: `# .nosana-ci.yml
+          code: `\
 nosana:
-    description: Nosana-Node Pipeline
+    description: Nosana Python Template
 
 global:
     image: python:latest
 
     trigger:
         branch:
-          - all
+            - main
 
 jobs:
     - name: install deps and build container
-        commands:
-            # Initialize
-            - python -m venv count
-            - . count/bin/activate
-            - pip install numpy flake8 pytest
-            - pip freeze > requirements.txt
-        artifacts:
+      commands:
+          # Initialize
+          - python -m venv count
+          - . count/bin/activate
+          - pip install numpy flake8 pytest
+          - pip freeze > requirements.txt
+      artifacts:
           - name: count
             path: count/
 
     - name: test
-        commands:
-            - . count/bin/activate
-            - pip install -r requirements.txt
-            - pytest -v --cov=count/
-        resources:
-            - name: count
-              path: ./`
+      commands:
+          - . count/bin/activate
+          - pip install -r requirements.txt
+          - pytest -v --cov=count/
+      resources:
+          - name: count
+            path: ./
+`
         },
         {
           name: 'Node.JS',
-          code: `# .nosana-ci.yml
+          code: `/
 nosana:
-    description: NPM Template
+    description: Nosana NPM Template
 
 global:
     image: node:18
 
-    # Git, trigger on these branches
     trigger:
         branch:
             - main
 
-    # Environment variables
-    environment:
-        APP_ENV: production  # comment here about this var
-
 jobs:
-    # Install dependencies
-    - name: install
+    - name: Install Dependencies
       commands:
           - npm ci
-      artifacts:  # artifact for the next job
+      artifacts:
           - name: node_modules
             path: ./node_modules/
 
-    # Lint and generate docs.
-    - name: generate
+    - name: Lint and Genereate
       commands:
-          - npm run eslint
-          - npm run prettier
+          - npm run lint
           - npm run generate
-      resources:  # artifact from previous job
+      resources:
           - name: node_modules
             path: ./
-      artifacts:  # artifact for deployment
+      artifacts:
           - name: dist
             path: ./dist/
 
-    # Upload dist
-    - name: ditribute
+    - name: Distribute
       commands:
           - npm run upload
       resources:
           - name: dist
-            path: ./`
+            path: ./
+`
         },
         {
           name: 'Go',
-          code: `# .nosana-ci.yml
+          code: `\
 nosana:
-    description: Nosana-Node Pipeline
+    description: Nosana Go Template
 
 global:
     image: golang:latest
 
     trigger:
         branch:
-            - all
+            - main
 
     environment:
-        # Specify that apt will be used in noninteractive env.
-        # https://www.debian.org/releases/sarge/s390/ch05s02.html.en
-        DEBIAN_FRONTEND: noninteractive
+        GO_ENV: go_build_env
 
 jobs:
-    - name: install deps and build container
-        commands:
-            - pwd
-            - go mod init example/hello  # Initialize
-            - touch hello.go
-            - echo 'package main' >> hello.go
-            - echo 'import "fmt"' >> hello.go
-            - echo 'func main() { fmt.Println("Hello, World!") }' >> hello.go
-            - echo >> hello.go
-            - cat hello.go
-            - go run hello.go
-            - mkdir build
-            - go build -o build/
-        artifacts:
-            - name: build
-              path: ./build/
+    - name: Clone and build
+      commands:
+          - echo $GO_ENV
+          - git clone https://github.com/go-training/helloworld
+          - cd helloworld
+          - go run main.go
+          - mkdir build/
+          - go build main.go
+      artifacts:
+          - name: build
+            path: ./
 
-            - name: release
-                commands:
-                    - ./build/hello
-                resources:
-                    - name: build
-                    path: ./`
+    - name: Release build
+      commands:
+          - ls -lah
+          - ./helloworld/main
+      resources:
+          - name: build
+            path: ./
+`
         },
         {
           name: 'Rust',
-          code: `# .nosana-ci.yml
+          code: `\
 nosana:
-    description: Nosana-Node Pipeline
+    description: Nosana Rust Template
 
 global:
     image: rust:latest
 
-  trigger:
-      branch:
-          - all
-
-  environment:
-      # Specify that apt will be used in noninteractive env.
-      # https://www.debian.org/releases/sarge/s390/ch05s02.html.en
-      DEBIAN_FRONTEND: noninteractive
+    trigger:
+        branch:
+            - main
 
 jobs:
     - name: install deps and build container
-        commands:
-            # Initialize
-            - cargo init hello
-            - cd hello
-            - cargo add rand
-            - cargo check
-            - cargo build --release
-        artifacts:
-            - name: target_release
-              path: hello/target/release
+      commands:
+          - cargo init hello
+          - cd hello
+          - cargo add rand
+          - cargo check
+          - cargo build --release
+      artifacts:
+          - name: target_release
+            path: hello/target/release
 
-        - name: release
-          commands:
-              - ./release/hello
-          resources:
-              - name: target_release
-              path: ./`
+    - name: release
+      commands:
+          - ./release/hello
+      resources:
+          - name: target_release
+            path: ./
+`
         }
       ]
   }),
