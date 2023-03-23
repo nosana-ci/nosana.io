@@ -275,7 +275,7 @@ jobs:
     color: #E6E7E6 !important;
   }
     @media screen and (min-height: 1200px) and (min-width: 1000px) {
-      height: 50vh;
+      height: 50vh !important;
       max-height: none;
     }
   }
