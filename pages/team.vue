@@ -78,7 +78,10 @@
         <div class="columns is-multiline is-variable is-8">
           <div v-for="person in team" :key="person.name" class="column is-6">
             <div class="px-2 mt-6">
-              <img :src="require(`@/assets/img/team/${person.name}.png`)">
+              <img
+                :src="require(`@/assets/img/team/${person.image ? person.image : person.name}.png`)"
+                style="max-width:112px;"
+              >
               <h2 class="subtitle is-5 mt-2 mb-4">
                 {{ person.name }}
               </h2>
@@ -112,10 +115,6 @@ export default {
           description: 'Our marketing wizard. 7+ years experience with building brands, leading teams & working with a wide range of marketing budgets. In charge of developing the strategy for Nosana advertising and branding, as well as customer outreach. Studied a Double Psychology major at Amsterdam University with a post-master degree in Digital Marketing & Strategy. Passion for gaming.'
         },
         {
-          name: 'Mitch',
-          description: 'Our sales master. Our Business development professional with deep ties to several Blockchain projects and influencers. Currently leads partner development and handles most communication between the team & partners. Passion for discovering new opportunities and saying GM.'
-        },
-        {
           name: 'Rochelle',
           description: 'Our spider in the web. Currently leads social platform development and handles most platform communication between the team & community. Performance coach with 15+ years of people management and a passion for building out decentralized community platforms that work.'
         },
@@ -126,6 +125,27 @@ export default {
         {
           name: 'Nahil',
           description: 'Our graphic design extraordinaire. Using traditional art tools and computer software to communicate ideas, he develops the overall layout and production design for everything we do.'
+        },
+        {
+          name: 'David',
+          description: 'Our software developer who is proficient in various programming languages and frameworks. He’s also a pro at agile methodologies and best practices for software development. David enjoys breaking things apart to figure out how they work. When he is not coding, David likes to be outdoors rock climbing, hiking, and spending time with friends.'
+        },
+        {
+          name: 'Sean',
+          description: 'Sean is an accomplished entrepreneur who loves to create value and impact through his ventures. He’s an active advisor, mentor, community builder, and coach who supports aspiring and established entrepreneurs in their journeys. He shares his insights and expertise on topics such as innovation, leadership, growth, and sustainability. Sean enjoys traveling, reading, and spending time with his family and friends.'
+        },
+        {
+          name: 'Michalina',
+          description: 'Our junior graphic designer has a knack for creating eye-catching visuals. Whether it’s an element, flyer, or a social media post image, Michalina always delivers stunning designs that capture attention and convey the message. In her spare time, she enjoys playing a wide range of board games with friends.'
+        },
+        {
+          name: 'Bourjois',
+          description: 'Our business development lead and strategic advisor. Bourjois is passionate about Web3 and blockchain technologies and how they can transform the way we do business. He has a strong background in business operations, project management, and stakeholder relations. He enjoys collaborating with diverse teams and building long-term partnerships. In his free time, he is a hoop master who dish, swish, and assist.'
+        },
+        {
+          name: 'Jaïr',
+          description: 'Our software developer who turns ideas into reality. Jaïr has a passion for coding and building innovative solutions that make a difference. He’s also adept at working in agile teams and following best practices for software quality and security. Jaïr loves to learn new things and explore new possibilities with his code. In his free time, Jaïr likes to go to concerts and play football.',
+          image: 'Jair'
         }
       ]
     };
