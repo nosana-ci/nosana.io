@@ -54,6 +54,9 @@
                 <nuxt-link class="navbar-item" to="/product/containers" exact-active-class="is-active">
                   Container-Support
                 </nuxt-link>
+                <nuxt-link class="navbar-item" to="/product/multisig" exact-active-class="is-active">
+                  Multisig
+                </nuxt-link>
               </div>
             </div>
             <a target="_blank" href="https://docs.nosana.io" class="navbar-item">
