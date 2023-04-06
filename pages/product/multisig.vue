@@ -6,7 +6,7 @@
           <div class="column mb-5">
             <img src="~assets/img/multisig/keychain.png">
           </div>
-          <div class="column is-5" data-aos="fade-up">
+          <div class="column is-6" data-aos="fade-up">
             <h1 class="title site-title is-spaced has-limited-width mt-6">
               Fast and secure smart contract deployment with multisig
             </h1>
@@ -105,7 +105,7 @@
               a proven and trusted solution for managing multisig on the Solana blockchain.
             </p>
             <a
-              href="https://v3.squads.so/"
+              href="https://v3.squads.so/connect-squad"
               target="_blank"
               class="button mt-2 is-accent is-outlined is-wide"
             >
@@ -129,12 +129,13 @@
               and resources on inefficient deployment processes.Try our multisig support today and
               experience a safer and more efficient way to manage your Solana program development.
             </p>
-            <nuxt-link
-              to="/product"
+            <a
+              href="https://app.nosana.io/"
               class="button mt-2 is-accent is-outlined is-wide"
+              target="_blank"
             >
               Explore
-            </nuxt-link>
+            </a>
           </div>
         </div>
       </div>
