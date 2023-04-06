@@ -44,6 +44,7 @@
 </template>
 
 <script>
+import Prism from '~/plugins/prism';
 export default {
   colorMode: 'dark',
   async asyncData ({ $content, params }) {
@@ -104,6 +105,9 @@ export default {
       ]
     };
   },
+  mounted () {
+    Prism.highlightAll();
+  },
   methods: {
     scrollTo (id) {
       document.getElementById(id).scrollIntoView({
@@ -148,6 +152,127 @@ export default {
   }
   *:hover > a > .icon-link:after {
     content: "#";
+  }
+}
+
+// To enable line numbers in codeblocks:
+
+// pre[class*="language-"].line-numbers {
+//   position: relative;
+//   padding-left: 3.3em;
+//   counter-reset: linenumber;
+// }
+
+// pre[class*="language-"].line-numbers > code {
+//   position: relative;
+//   white-space: inherit;
+// }
+
+// .line-numbers .line-numbers-rows {
+//   position: absolute;
+//   pointer-events: none;
+//   top: 0;
+//   font-size: 100%;
+//   left: -3.8em;
+//   width: 3em; /* works for line-numbers below 1000 lines */
+//   letter-spacing: -1px;
+//   border-right: 1px solid #999;
+
+//   -webkit-user-select: none;
+//   -moz-user-select: none;
+//   -ms-user-select: none;
+//   user-select: none;
+// }
+
+// .line-numbers-rows > span {
+//   display: block;
+//   counter-increment: linenumber;
+// }
+
+// .line-numbers-rows > span:before {
+//   content: counter(linenumber);
+//   color: #999;
+//   display: block;
+//   padding-right: 0.8em;
+//   text-align: right;
+// }
+
+div.code-toolbar {
+  position: relative;
+  >.toolbar {
+    position: absolute;
+    top: .3em;
+    right: .2em;
+    transition: opacity 0.3s ease-in-out;
+    opacity: 0;
+    .toolbar-item {
+      display: inline-block;
+    }
+    a {
+      cursor: pointer;
+      color: #bbb;
+      font-size: .8em;
+      padding: 0 .5em;
+      background: #f5f2f0;
+      background: rgba(224, 224, 224, 0.2);
+      box-shadow: 0 2px 0 0 rgba(0,0,0,0.2);
+      border-radius: .5em;
+      &:hover {
+        color: inherit;
+        text-decoration: none;
+      }
+      &:focus {
+        color: inherit;
+        text-decoration: none;
+      }
+    }
+    button {
+      background: none;
+      border: 0;
+      color: inherit;
+      font: inherit;
+      line-height: normal;
+      overflow: visible;
+      padding: 0;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      color: #bbb;
+      font-size: .8em;
+      padding: 0 .5em;
+      background: #f5f2f0;
+      background: rgba(224, 224, 224, 0.2);
+      box-shadow: 0 2px 0 0 rgba(0,0,0,0.2);
+      border-radius: .5em;
+      &:hover {
+        color: inherit;
+        text-decoration: none;
+      }
+      &:focus {
+        color: inherit;
+        text-decoration: none;
+      }
+    }
+    span {
+      cursor: pointer;
+      color: #bbb;
+      font-size: .8em;
+      padding: 0.2em .5em;
+      display: block;
+      &:hover {
+        color: inherit;
+        text-decoration: none;
+      }
+      &:focus {
+        color: inherit;
+        text-decoration: none;
+      }
+    }
+  }
+  &:hover {
+    >.toolbar {
+      opacity: 1;
+    }
   }
 }
 </style>

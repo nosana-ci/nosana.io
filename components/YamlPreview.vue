@@ -28,11 +28,11 @@
 <script>
 // import Prism Editor
 import { PrismEditor } from 'vue-prism-editor';
+import { highlight } from 'prismjs/components/prism-core';
+import Prism from '~/plugins/prism';
 import 'vue-prism-editor/dist/prismeditor.min.css'; // import the styles somewhere
 
 // import highlighting library (you can use any library you want just return html string)
-import { highlight, languages } from 'prismjs/components/prism-core';
-import 'prismjs/components/prism-yaml';
 import 'prismjs/themes/prism-tomorrow.css'; // import syntax highlighting styles
 
 export default {
@@ -255,7 +255,7 @@ jobs:
   },
   methods: {
     highlighter (code) {
-      return highlight(code, languages.yaml); // languages.<insert language> to return html with markup
+      return highlight(code, Prism.languages.yaml); // languages.<insert language> to return html with markup
     }
   }
 };
