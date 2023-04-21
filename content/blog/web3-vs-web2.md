@@ -7,7 +7,6 @@ createdAt: '2023-04-21'
 
 ## Discover the ongoing challenges and future trends in the world of Web3 infrastructure
 
-Discover the ongoing challenges and future trends in the world of Web3 infrastructure
 The internet is undergoing a major transformation.
 Web2, the current version of the internet that we use every day, 
 is based on centralized platforms and intermediaries that collect our personal data and control our online experience.
