@@ -130,7 +130,6 @@ export default {
       repositories: null
     };
   },
-  colorMode: 'dark',
   created () {
     this.getStats();
     this.getActiveRepositories();
