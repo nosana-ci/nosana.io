@@ -20,11 +20,12 @@
             </ul>
           </div>
           <div class="column is-6">
-            <div
+            <!-- <div
               style="height: 350px; width: 100%"
               :style="{ 'background-image': `url('${blog.img}')` }"
               class="has-background-image"
-            />
+            /> -->
+            <img :src="blog.img" style="width: 100%; height: auto;">
             <h1>{{ blog.title }}</h1>
             <p class="has-text-accent">
               <span v-if="blog.author">By <b>{{ blog.author }} </b>
