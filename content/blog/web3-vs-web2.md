@@ -1,7 +1,7 @@
 ---
 title: 'Web3 vs. Web2: A Battle for Trust, Security, and Smart Contracts'
 description: Discover the ongoing challenges and future trends in the world of Web3 infrastructure
-img: /img/web3ecosystem.png
+img: /img/web3ecosystem2.png
 createdAt: '2023-04-21'
 ---
 
