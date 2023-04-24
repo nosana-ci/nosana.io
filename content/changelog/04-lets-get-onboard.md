@@ -5,7 +5,7 @@ tags:
   - Platform
   - Node
   - Website
-  - Gitlab Driver
+  - GitLab Driver
   - Docs
 ---
 
@@ -17,14 +17,14 @@ tags:
     - Default paths for resources and artifacts in Yaml
     - Remove deprecated Sollet wallet option
 - Node
-    - Support optional artifacts
-    - Node can work in different markets simultaneously
+    - Support for optional artifacts
+    - Nodes can work in different markets simultaneously
     - Detailed timing of pipeline steps
-    - Support private images in pipelines
+    - Support for private images in pipelines
 - GitLab Driver
-    - Replace && chain with shell script (Node CLI, Platform and Gitlab driver)
-    - Support Gitlab CI/CD caching
-    - Support Gitlab CI/CD artifacts
+    - Replace && chain with shell script (Node CLI, Platform and GitLab driver)
+    - Support for GitLab CI/CD caching
+    - Support for GitLab CI/CD artifacts
 - Docs
     - [SPL multisig pipeline tutorial](https://docs.nosana.io/tutorials/solana-multisig.html)
-    - Fine tune Squads template
+    - Fine-tune the Squads template
