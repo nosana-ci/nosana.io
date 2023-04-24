@@ -29,7 +29,7 @@
                 class="has-border-accent-light has-radius p-4"
                 style="min-height: 432px"
               >
-                <div
+                <!-- <div
                   style="height: 250px; width: 100%"
                   :style="{
                     'background-image': `url('${
@@ -37,7 +37,11 @@
                     }')`,
                   }"
                   class="has-background-image"
-                />
+                /> -->
+                <img
+                  :src="blog.thumbnail ? blog.thumbnail : blog.img"
+                  style="width: 100%; object-fit: cover;"
+                >
                 <h3 class="title is-5 has-text-accent mt-2">
                   {{ blog.title }}
                 </h3>
