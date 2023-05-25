@@ -2,7 +2,7 @@
 title: How to Break Your CI Pipeline in 10 Easy Steps
 description: We have compiled a list of 10 bad habits that will guarantee your CI pipeline fails miserably
 img: /img/break_pipeline.png
-createdAt: '2023-05/25'
+createdAt: '2023-05-25'
 ---
 Continuous integration (CI) is a great way to ensure that your code is always up-to-date, tested, and ready to deploy. But what if you don’t want to follow the best practices and instead want to sabotage your own pipeline? Well, you’re in luck because we have compiled a list of 10 bad habits that will guarantee your CI pipeline fails miserably. Read on and learn how to break your CI pipeline in 10 easy steps!
 
