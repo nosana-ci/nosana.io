@@ -1,5 +1,5 @@
 ---
-title: Devops Practices- Current Trends and Challenges
+title: 'Devops Practices: Current Trends and Challenges'
 description: DevOps is a popular and effective approach to software development and delivery that combines culture, processes, and tools to enable faster, more reliable, and more secure software releases.
 img: /img/trends.png
 createdAt: '2023-06-07'
