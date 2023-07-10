@@ -66,8 +66,7 @@ export default {
     { src: '~/plugins/countdown.js', mode: 'client' },
     { src: '~/plugins/aos', mode: 'client' },
     { src: '~/plugins/carousel.js', mode: 'client' },
-    { src: '~/plugins/calendly.js', mode: 'client' },
-    { src: '~/plugins/zoho.js', mode: 'client' }
+    { src: '~/plugins/calendly.js', mode: 'client' }
   ],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
