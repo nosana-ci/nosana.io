@@ -104,8 +104,8 @@
             <p class="block">
               Our $NOS private release on February 12, 2022, sold out instantly.
               There are currently 33 million $NOS floating around.
-              The amount of circulating $NOS will reach 100 million as we continue to build and .
-              expand the Nosana network.
+              The amount of circulating $NOS will reach 100 million as we
+              continue to build and expand the Nosana network.
             </p>
           </div>
         </div>
