@@ -5,14 +5,13 @@
         <div class="columns mt-6 mt-mobile-0" style="min-height: 60vh">
           <div class="column has-background-black-blur-false">
             <h1 class="title is-spaced site-title">
-              Trustless CI/CD<br>
-              for Web3.
+              The Future of Crowd Compute
             </h1>
             <div class="has-limited-width-small py-2">
               <p class="block">
-                Nosana is a decentralized engine running continuous integration.
-                Providing extra resilience, security and privacy to your build with the power of blockchain technology.
-              </p>
+                The market's most cost-effective spot compute, with zero lock-in.
+You can run workloads for CI/CD, AI inference, video encoding, compression, scientific, and high-performance computing on Nosana.
+Consumers, miners, and businesses can all monetize their idle hardware by becoming a Nosana Node.</p>
             </div>
             <div class="mt-5">
               <a href="https://app.nosana.io" target="_blank" class="button is-accent mr-2">

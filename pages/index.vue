@@ -56,14 +56,10 @@
         <div class="columns my-6 py-6">
           <div class="column is-6" data-aos="fade-right">
             <h2 class="title is-2">
-              Robust and resilient
+              Open Compute for All
             </h2>
             <p class="mb-5 has-limited-width-small">
-              We refuse to build in environments with a single point of failure,
-              vulnerabilities and weak spots. Our network is designed to
-              ensure that in the event of a node going offline or is malicious,
-              the workload is seamlessly passed to other nodes, keeping everything running safely.
-              A network that’s better protected against outages and cyberattacks.
+              Our cloud computing service has numerous advantages. Because our open compute marketplace allows users to bid for the best price and performance, we're up to 85% cheaper than other compute options. We support many workloads, including machine learning, gaming, web hosting, and others. We use renewable energy sources and advanced cooling systems to achieve high performance and sustainability. Our connector library allows integration with other popular cloud services and platforms.
             </p>
             <nuxt-link
               to="/platform"
