@@ -59,7 +59,13 @@
               Open Compute for All
             </h2>
             <p class="mb-5 has-limited-width-small">
-              Our cloud computing service has numerous advantages. Because our open compute marketplace allows users to bid for the best price and performance, we're up to 85% cheaper than other compute options. We support many workloads, including machine learning, gaming, web hosting, and others. We use renewable energy sources and advanced cooling systems to achieve high performance and sustainability. Our connector library allows integration with other popular cloud services and platforms.
+              Our cloud computing service has numerous advantages.
+              Because our open compute marketplace allows users to bid for the best price and performance,
+              we're up to 85% cheaper than other compute options.
+              We support many workloads, including machine learning, gaming, web hosting, and others.
+              We use renewable energy sources and advanced cooling systems to achieve high performance
+              and sustainability.
+              Our connector library allows integration with other popular cloud services and platforms.
             </p>
             <nuxt-link
               to="/platform"

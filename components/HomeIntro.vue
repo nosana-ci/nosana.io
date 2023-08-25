@@ -10,8 +10,10 @@
             <div class="has-limited-width-small py-2">
               <p class="block">
                 The market's most cost-effective spot compute, with zero lock-in.
-You can run workloads for CI/CD, AI inference, video encoding, compression, scientific, and high-performance computing on Nosana.
-Consumers, miners, and businesses can all monetize their idle hardware by becoming a Nosana Node.</p>
+                You can run workloads for CI/CD, AI inference, video encoding, compression, scientific,
+                and high-performance computing on Nosana.
+                Consumers, miners, and businesses can all monetize their idle hardware by becoming a Nosana Node.
+              </p>
             </div>
             <div class="mt-5">
               <a href="https://app.nosana.io" target="_blank" class="button is-accent mr-2">
