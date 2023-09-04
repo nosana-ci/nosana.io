@@ -2,8 +2,8 @@
   <div>
     <section class="section home-block">
       <div class="container">
-        <div class="columns mt-6 mt-mobile-0" style="min-height: 60vh">
-          <div class="column has-background-black-blur-false">
+        <div class="columns mt-6 mt-mobile-0">
+          <div class="column is-5 has-background-black-blur-false">
             <h1 class="title is-spaced site-title">
               The Future of Crowd Compute
             </h1>
@@ -28,17 +28,48 @@
               </a>
             </div>
           </div>
-          <div class="column yaml-bg">
+          <!-- <div class="column yaml-bg">
             <yaml-preview class="yaml-preview" />
-          </div>
+          </div> -->
         </div>
       </div>
+      <img src="~assets/img/swirls-02_animated.svg" class="ring">
     </section>
   </div>
 </template>
 
 <style lang="scss" scoped>
 @import "bulma/sass/utilities/mixins";
+.home-block {
+  position: relative;
+  min-height: 80vh;
+  overflow: hidden;
+}
+.ring {
+  position: absolute;
+  top: 0px;
+  right: 0;
+  height: 100%;
+  width: auto;
+}
+
+@include touch {
+  .home-block {
+    min-height: auto;
+    padding-bottom: 0;
+  }
+  .mt-mobile-0 {
+    margin-top: 0 !important;
+  }
+
+  .ring {
+    position: relative;
+    top: 0;
+    width: 100%;
+    right: -25px;
+  }
+}
+
 .yaml-bg {
   background-image: url("~assets/img/home/preview-bg.png");
   background-size: 100% 100%;
