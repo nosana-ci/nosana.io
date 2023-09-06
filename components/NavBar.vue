@@ -61,6 +61,10 @@
             </div>
             <a target="_blank" href="https://docs.nosana.io" class="navbar-item">
               <div>Docs</div>
+              <a href="https://github.com/nosana-ci" target="_blank" class="navbar-item">
+                  <i class="fab fa-github mr-2" aria-hidden="true" />
+                  <span>GitHub</span>
+                </a>
             </a>
             <div class="navbar-item has-dropdown is-hoverable" @click="mobileMenu = false">
               <a
@@ -96,12 +100,8 @@
               </a>
               <div class="navbar-dropdown is-boxed">
                 <nuxt-link class="navbar-item" to="/blog" exact-active-class="is-active">
-                  Blogs
+                  Blog
                 </nuxt-link>
-                <a href="https://github.com/nosana-ci" target="_blank" class="navbar-item">
-                  <i class="fab fa-github mr-2" aria-hidden="true" />
-                  <span>Github</span>
-                </a>
                 <a href="https://twitter.com/nosana_ci" target="_blank" class="navbar-item">
                   <i class="fab fa-twitter mr-2" aria-hidden="true" />
                   <span>Twitter</span>
@@ -110,9 +110,9 @@
                   <i class="fab fa-discord mr-2" aria-hidden="true" />
                   <span>Discord</span>
                 </a>
-                <a href="https://nosana.medium.com" target="_blank" class="navbar-item">
-                  <i class="fab fa-medium mr-2" aria-hidden="true" />
-                  <span>Medium</span>
+                <a href="https://t.me/NosanaCmpute" target="_blank" class="navbar-item">
+                  <i class="fab fa-telegram mr-2" aria-hidden="true" />
+                  <span>Telegram</span>
                 </a>
                 <nuxt-link class="navbar-item" to="/nft" exact-active-class="is-active">
                   Nosana NFT
