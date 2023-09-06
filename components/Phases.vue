@@ -45,7 +45,7 @@
 
             <ul>
               <li>
-                Excpected 1st of April 2023
+                Expected 1st of April 2023
               </li>
               <li>
                 Once selected projects are successfully running pipelines in our beta we’ll
