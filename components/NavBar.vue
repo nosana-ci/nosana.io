@@ -59,13 +59,17 @@
                 </nuxt-link>
               </div>
             </div>
-            <a target="_blank" href="https://docs.nosana.io" class="navbar-item">
-              <div>Docs</div>
-              <a href="https://github.com/nosana-ci" target="_blank" class="navbar-item">
+            <div class="navbar-item has-dropdown is-hoverable" @click="mobileMenu = false">
+              <a target="_blank" href="https://docs.nosana.io" class="navbar-link">
+                <div>Docs</div>
+              </a>
+              <div class="navbar-dropdown is-boxed">
+                <a href="https://github.com/nosana-ci" target="_blank" class="navbar-item">
                   <i class="fab fa-github mr-2" aria-hidden="true" />
                   <span>GitHub</span>
                 </a>
-            </a>
+              </div>
+            </div>
             <div class="navbar-item has-dropdown is-hoverable" @click="mobileMenu = false">
               <a
                 class="navbar-link"
