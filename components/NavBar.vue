@@ -40,7 +40,7 @@
         >
           <div class="navbar-start" />
           <div class="navbar-end is-align-items-center">
-            <div class="navbar-item has-dropdown is-hoverable" @click="mobileMenu = false">
+            <!-- <div class="navbar-item has-dropdown is-hoverable" @click="mobileMenu = false">
               <a
                 class="navbar-link"
                 exact-active-class="is-active"
@@ -58,7 +58,7 @@
                   Multisig
                 </nuxt-link>
               </div>
-            </div>
+            </div> -->
             <div class="navbar-item has-dropdown is-hoverable" @click="mobileMenu = false">
               <a target="_blank" href="https://docs.nosana.io" class="navbar-link">
                 <div>Docs</div>
@@ -70,7 +70,7 @@
                 </a>
               </div>
             </div>
-            <div class="navbar-item has-dropdown is-hoverable" @click="mobileMenu = false">
+            <!-- <div class="navbar-item has-dropdown is-hoverable" @click="mobileMenu = false">
               <a
                 class="navbar-link"
                 exact-active-class="is-active"
@@ -94,7 +94,7 @@
                   Contribute CPU
                 </nuxt-link>
               </div>
-            </div>
+            </div> -->
             <div class="navbar-item has-dropdown is-hoverable" @click="mobileMenu = false">
               <a
                 class="navbar-link"
@@ -103,9 +103,9 @@
                 <div>Community</div>
               </a>
               <div class="navbar-dropdown is-boxed">
-                <nuxt-link class="navbar-item" to="/blog" exact-active-class="is-active">
+                <!-- <nuxt-link class="navbar-item" to="/blog" exact-active-class="is-active">
                   Blog
-                </nuxt-link>
+                </nuxt-link> -->
                 <a href="https://twitter.com/nosana_ci" target="_blank" class="navbar-item">
                   <i class="fab fa-twitter mr-2" aria-hidden="true" />
                   <span>Twitter</span>
@@ -118,9 +118,9 @@
                   <i class="fab fa-telegram mr-2" aria-hidden="true" />
                   <span>Telegram</span>
                 </a>
-                <nuxt-link class="navbar-item" to="/nft" exact-active-class="is-active">
+                <!-- <nuxt-link class="navbar-item" to="/nft" exact-active-class="is-active">
                   Nosana NFT
-                </nuxt-link>
+                </nuxt-link> -->
               </div>
             </div>
             <div class="navbar-item has-dropdown is-hoverable" @click="mobileMenu = false">
@@ -131,7 +131,7 @@
                 <div>Company</div>
               </a>
               <div class="navbar-dropdown is-boxed">
-                <nuxt-link class="navbar-item" to="/partner" exact-active-class="is-active">
+                <!-- <nuxt-link class="navbar-item" to="/partner" exact-active-class="is-active">
                   Nosana Partner Program
                   <span class="icon ml-3">
                     <i class="fas fa-chevron-down" />
@@ -147,16 +147,16 @@
                   <nuxt-link class="navbar-item" to="/partner/portfolio" exact-active-class="is-active">
                     > Portfolio Partnership
                   </nuxt-link>
-                </div>
+                </div> -->
                 <nuxt-link class="navbar-item" to="/team" exact-active-class="is-active">
                   Team page
                 </nuxt-link>
-                <nuxt-link class="navbar-item" to="/brand" exact-active-class="is-active">
+                <!-- <nuxt-link class="navbar-item" to="/brand" exact-active-class="is-active">
                   Brand page
-                </nuxt-link>
+                </nuxt-link> -->
               </div>
             </div>
-            <div
+            <!-- <div
               class="navbar-item"
               exact-active-class="is-active"
               @click="mobileMenu = false"
@@ -169,7 +169,7 @@
               >
                 <div>Get started</div>
               </a>
-            </div>
+            </div> -->
           </div>
         </div>
       </div>

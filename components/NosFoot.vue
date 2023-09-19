@@ -7,21 +7,21 @@
             <nuxt-link class="navbar-item" to="/" exact-active-class="is-active">
               <div>Home</div>
             </nuxt-link>
-            <nuxt-link class="navbar-item" to="/earn" exact-active-class="is-active">
+            <!-- <nuxt-link class="navbar-item" to="/earn" exact-active-class="is-active">
               <div>Earn</div>
-            </nuxt-link>
+            </nuxt-link> -->
             <a target="_blank" href="https://docs.nosana.io" class="navbar-item" to="/docs" exact-active-class="is-active">
               <div>Docs</div>
             </a>
-            <nuxt-link class="navbar-item" to="/blog" exact-active-class="is-active">
+            <!-- <nuxt-link class="navbar-item" to="/blog" exact-active-class="is-active">
               <div>Blog</div>
-            </nuxt-link>
+            </nuxt-link> -->
             <nuxt-link class="navbar-item" to="/team" exact-active-class="is-active">
               <div>Team</div>
             </nuxt-link>
-            <nuxt-link class="navbar-item" to="/faq" exact-active-class="is-active">
+            <!-- <nuxt-link class="navbar-item" to="/faq" exact-active-class="is-active">
               <div>FAQ</div>
-            </nuxt-link>
+            </nuxt-link> -->
             <nuxt-link class="navbar-item" to="/contact" exact-active-class="is-active">
               <div>Contact</div>
             </nuxt-link>
@@ -30,7 +30,7 @@
       </div>
     </nav>
     <div class="px-5 m-2 py-4 has-radius has-text-centered">
-      <socials class="mb-4"/>
+      <socials class="mb-4" />
       <img src="~/assets/img/footer-logo.svg" class="logo" style="height: 20px">
     </div>
     <div class="px-6 m-2 py-4 has-radius has-text-centered">

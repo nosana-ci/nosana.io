@@ -5,14 +5,14 @@
         <div class="columns mt-6 mt-mobile-0">
           <div class="column is-5 has-background-black-blur-false">
             <h1 class="title is-spaced site-title">
-              The Future of Crowd Compute
+              The Future of GPU Compute
             </h1>
             <div class="has-limited-width-small py-2">
               <p class="block">
-                The market's most cost-effective spot compute, with zero lock-in.
-                You can run workloads for CI/CD, AI inference, video encoding, compression, scientific,
-                and high-performance computing on Nosana.
-                Consumers, miners, and businesses can all monetize their idle hardware by becoming a Nosana Node.
+                The market’s most cost-effective GPU grid, with zero lock-in.
+                Developed and customized for AI inference workloads.
+                Consumers, miners, and businesses can monetize their idle hardware by becoming a Nosana Node.
+                Powered by Solana and the $NOS token.
               </p>
             </div>
             <div class="mt-5">
