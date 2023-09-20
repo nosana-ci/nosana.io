@@ -9,20 +9,20 @@
             </h1>
             <div class="has-limited-width-small py-2">
               <p class="block">
-                The market’s most cost-effective GPU grid, with zero lock-in.
+                The most cost-effective GPU grid, with zero lock-in.
                 Developed and customized for AI inference workloads.
                 Consumers, miners, and businesses can monetize their idle hardware by becoming a Nosana Node.
                 Powered by Solana and the $NOS token.
               </p>
             </div>
             <div class="mt-5">
-              <a href="https://app.nosana.io" target="_blank" class="button is-accent mr-2">
-                Try it out now
-              </a>
+              <!-- <a href="https://app.nosana.io" target="_blank" class="button is-accent mr-2"> -->
+              <!--   Try it out now -->
+              <!-- </a> -->
               <a
                 href="https://docs.nosana.io"
                 target="_blank"
-                class="ml-2 button is-outlined is-accent is-wide"
+                class="ml-2 button is-accent is-wide"
               >
                 Explore the docs
               </a>

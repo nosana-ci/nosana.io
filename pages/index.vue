@@ -12,9 +12,9 @@
             </h2>
             <p class="mb-5 has-limited-width-small">
               Our decentralized GPU grid represents a revolutionary paradigm shift in the world of computing.
-              Harnessing the latent power of idle GPUs distributed globally,
-              our innovative engine provides on-demand access to GPU resources
-              that is not only highly cost-effective but also incredibly efficient.
+              By harnessing the latent power of idle GPUs globally,
+              our compute grid provides on-demand access to GPU resources
+              that is both cost-effective but highly efficient.
             </p>
             <!-- <nuxt-link
               to="/platform"
@@ -38,11 +38,11 @@
               Unrivaled power, for 85% less
             </h2>
             <p class="mb-5 has-limited-width-small">
-              With costs up to 85 percent lower than traditional public cloudS,
+              With costs up to 85% lower than traditional public clouds,
               Nosana offers a game-changing solution for organizations and individuals
               seeking massive compute power without breaking the bank.
-              Our decentralized approach allows users to instantly deploy GPU clusters,
-              scaling their computational needs as required, all while ensuring high
+              Our decentralized approach gives users direct access to GPU clusters
+              that scale with their computational needs as required, all while ensuring high
               levels of security to protect sensitive data and intellectual property.
             </p>
             <!-- <nuxt-link
@@ -62,10 +62,9 @@
               Join the Nosana Network, put your idle GPU to work,
               and earn 10-15x more than what traditional crypto mining pools offer.
               Nosana empowers anyone with spare compute to contribute their idle processing power to our GPU grid.
-              By doing so, they not only make a significant
-              impact by advancing AI projects, but also earn substantial rewards.
-              This brings financial benefits and fosters community and collaboration
-              in the decentralized digital ecosystem, enabling a new era of peer-to-peer computational power sharing.
+              By doing so you will make a significant
+              impact on the advancement of AI projects, all while earning substantial rewards.
+              Welcome to a new era of peer-to-peer computational power sharing.
             </p>
             <!-- <nuxt-link
               to="/product"
@@ -88,14 +87,14 @@
             </h2>
             <p class="mb-5 has-limited-width-small">
               With the world's data centers consuming more power than the entire UK and contributing to greenhouse
-              gas emissions,it's time for a change. Our CI engine utilizes the spare compute of the masses,
+              gas emissions, it is time for a change. Nosana utilizes the spare compute of the masses,
               providing an eco-friendly alternative to using big datacenters.
             </p>
             <!-- <nuxt-link
               to="/product"
               class="button mt-2 is-accent is-outlined is-wide"
             >
-              Explore
+               Explore
             </nuxt-link> -->
           </div>
         </div>
