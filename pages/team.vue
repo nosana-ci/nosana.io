@@ -29,8 +29,9 @@
           </h1>
           <p class="has-limited-width-small is-horizontal-centered">
             We’re made up of very different people, but we all have a strong technical background in blockchain
-            and infrastructure engineering. And we’re united by our drive for disruption. Using decentralized technologies,
-            we’re making cloud computing a safer place where people are free from the clutches of Big Tech corporations.
+            and infrastructure engineering. And we’re united by our drive for disruption. Using decentralized
+            technologies, we’re making cloud computing a safer place where people are free from the clutches of Big Tech
+            corporations.
           </p>
         </div>
         <div class="columns py-6 is-vcentered">
