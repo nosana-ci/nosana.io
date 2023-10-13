@@ -2,7 +2,7 @@
 title: How AI and ML are Taking Solana to the Next Level and How You Can Join the Fun in Amsterdam
 description: Breakpoint Amsterdam is Poised to be the Hottest Event of 2023
 img: /img/amsterdam_stars.png
-createdat: '2023-06-27'
+createdAt: '2023-06-27'
 ---
 Artificial intelligence (AI) and machine learning (ML) are transforming every industry with hundreds of use cases. From chatbots to data analytics, AI and ML enable faster, cheaper, and more scalable solutions for various problems. But did you know that there is a blockchain that is taking AI and ML to the next level? 
 

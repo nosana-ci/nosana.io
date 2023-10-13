@@ -1,5 +1,5 @@
 ---
-title: Nosana's New Direction':'AI Inferencce
+title: "Nosana's New Direction: AI Inference"
 description: GPU-compute grid for AI inference
 img: /img/browser_node.png
 createdAt: '2023-10-13'
