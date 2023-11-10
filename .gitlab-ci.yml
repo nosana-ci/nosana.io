@@ -2,6 +2,6 @@ include:
   - project: nosana-ci/tools/cicd/gitlab-ci
     file: npm-generic.yml
   
-default:
-  tags:
-    - nosana
+#default:
+#  tags:
+#    - nosana
