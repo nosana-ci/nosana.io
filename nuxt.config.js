@@ -26,12 +26,12 @@ export default {
       {
         hid: 'og:title',
         property: 'og:title',
-        content: 'Nosana Network'
+        content: 'Nosana - The Future of GPU Compute'
       },
       {
         hid: 'og:description',
         property: 'og:description',
-        content: 'The Nosana Network will be the leading provider of decentralized CPU-based Dev(Ops) solutions, revolutionizing the development process of Metaverse projects.'
+        content: 'The most cost-effective GPU grid, with zero lock-in. Developed and customized for AI inference workloads. Consumers, miners, and businesses can monetize their idle hardware by becoming a Nosana Node. Powered by Solana and the $NOS token.'
       },
       {
         hid: 'og:image',
