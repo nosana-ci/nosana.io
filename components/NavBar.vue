@@ -114,7 +114,7 @@
                   <i class="fab fa-discord mr-2" aria-hidden="true" />
                   <span>Discord</span>
                 </a>
-                <a href="https://t.me/NosanaCmpute" target="_blank" class="navbar-item">
+                <a href="https://t.me/NosanaCompute" target="_blank" class="navbar-item">
                   <i class="fab fa-telegram mr-2" aria-hidden="true" />
                   <span>Telegram</span>
                 </a>
