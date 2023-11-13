@@ -21,7 +21,7 @@ export default {
           image: require('@/assets/img/exchanges/mexc.svg')
         },
         {
-          link: 'https://dex.raydium.io/#/market/8XaEfk3TURqgrJZvdJWrPLqyXSCmJ9MfSwZrkaYmsG7r',
+          link: 'https://raydium.io/swap/',
           image: require('@/assets/img/exchanges/raydium.svg')
         }
       ]
