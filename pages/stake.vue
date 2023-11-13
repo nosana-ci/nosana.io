@@ -3,14 +3,11 @@
     <section class="section">
       <div class="container">
         <div class="has-text-centered mt-6">
-          <h1 class="title is-1 is-spaced">
-            <span class="has-text-accent">xNOS</span> Calculator
+          <h1 class="title is-1 is-spaced mb-6">
+            <span class="has-text-accent">Staking</span> FAQ
           </h1>
-          <h2 class="subtitle has-limited-width is-horizontal-centered" data-aos="fade-up">
-            Calculate your xNOS depending on the amount of tokens staked and your lock time.
-          </h2>
         </div>
-        <client-only>
+        <!-- <client-only>
           <carousel-3d
             v-if="tiers"
             ref="carousel"
@@ -77,7 +74,32 @@
               </div>
             </slide>
           </carousel-3d>
-        </client-only>
+        </client-only> -->
+        <div class="column is-8 is-horizontal-centered">
+          <accordion>
+            <accordion-item v-for="faq in faqs" :key="faq.question">
+              <!-- This slot will handle the title/header of the accordion and is the part you click on -->
+              <template slot="accordion-trigger">
+                <h3 class="subtitle mb-4 has-text-weight-semibold">
+                  {{ faq.question }}
+                </h3>
+              </template>
+              <!-- This slot will handle all the content that is passed to the accordion -->
+              <template slot="accordion-content">
+                <!-- eslint-disable vue/no-v-html -->
+                <span v-html="faq.answer" />
+              </template>
+            </accordion-item>
+          </accordion>
+        </div>
+        <div class="has-text-centered mt-6">
+          <h1 class="title is-1 is-spaced">
+            <span class="has-text-accent">xNOS</span> Calculator
+          </h1>
+          <h2 class="subtitle has-limited-width is-horizontal-centered" data-aos="fade-up">
+            Calculate your xNOS depending on the amount of tokens staked and your unstake period.
+          </h2>
+        </div>
         <div class="columns is-centered mt-6 ">
           <div class="has-text-centered column is-8">
             <div class="has-border-accent box">
@@ -156,24 +178,7 @@
             </div>
           </div>
         </div>
-        <div class="column is-8 is-horizontal-centered">
-          <accordion>
-            <accordion-item v-for="faq in faqs" :key="faq.question">
-              <!-- This slot will handle the title/header of the accordion and is the part you click on -->
-              <template slot="accordion-trigger">
-                <h3 class="subtitle mb-4 has-text-weight-semibold">
-                  {{ faq.question }}
-                </h3>
-              </template>
-              <!-- This slot will handle all the content that is passed to the accordion -->
-              <template slot="accordion-content">
-                <!-- eslint-disable vue/no-v-html -->
-                <span v-html="faq.answer" />
-              </template>
-            </accordion-item>
-          </accordion>
-        </div>
-        <div>
+        <!-- <div>
           <div class="columns py-6 is-vcentered mt-6">
             <div class="column is-5" data-aos="fade-left">
               <h2 class="title is-2">
@@ -195,7 +200,7 @@
               <img src="~assets/img/burner-phone-logo.png">
             </div>
           </div>
-        </div>
+        </div> -->
       </div>
     </section>
   </div>
@@ -248,18 +253,18 @@ export default {
       ],
       faqs: [
         { question: 'Are my staked NOS tokens safe?', answer: 'Your NOS tokens are safe in your smart contract vault on the Solana Blockchain. The Nosana Staking Program is open source and audited, so nobody can access your staked tokens except for you! You can see your staked tokens on the Solana Blockchain.' },
-        { question: 'Can I lock NOS tokens?', answer: 'Yes, for a fixed time. The maximum lock time is 1 year. After you click unstake, your locktime starts decreasing. ' },
-        { question: 'How do I get an xNOS score?', answer: 'You get an xNOS score by locking the tokens in a staking contract for a certain amount of time.' },
-        { question: 'Can I transfer my xNOS score?', answer: 'No, you can’t.' },
-        { question: 'How is my xNOS score determined?', answer: 'Your xNOS score is determined by the amount of locked tokens and the time you want to have them locked. Your xNOS score is immediately gone when you unlock  your tokens. ' },
-        { question: 'Can I withdraw locked tokens before the time lock expires?', answer: 'No, but you can unlock your tokens .' },
+        { question: 'What is the APY?', answer: 'The APY is dynamic, the more $NOS is staked in total, the lower the APY will be and vice versa. You can find the current APY at: <a href="https://app.nosana.io/stake/" target="_blank">https://app.nosana.io/stake/</a>' },
+        { question: 'What is the xNOS score?', answer: 'Your xNOS score is determined by the amount of staked tokens and the chosen unstake period. For a detailed explanation on how xNOS is calculated see: <a target="_blank" href="https://docs.nosana.io/protocols/staking.html#xnos-calculation">https://docs.nosana.io/protocols/staking.html#xnos-calculation</a>' },
+        { question: 'What are the perks that come with xNOS score? ', answer: 'A higher xNOS score means you get a bigger piece of the daily $NOS rewards.' },
+        { question: 'How does the unstake period works?', answer: 'When you unstake, your previously staked tokens will be released linearly through your unstake period. Every second some of your tokens are released, until your unstake period ends. You can withdraw the released tokens manually through our staking platform.' },
+        { question: 'Will I still get rewards after I unstake?', answer: 'No. When you unstake your xNOS score will set to 0 and you won\'t earn rewards.' },
         { question: 'Can I change the duration of the time lock?', answer: 'Yes – but keep in mind you can only extend it, not shorten it.' },
         { question: 'Can I add more NOS tokens to my stake?', answer: 'Absolutely! You can do so anytime.' },
-        { question: 'How can I earn NOS rewards?', answer: 'Staking NOS results in NOS rewards. For each transaction on the Network, we distribute 2% of network fees in proportion to your xNOS share in the network. Staking tokens lets you earn a percentage of those network fees. For the first year of the program, we’re also adding a substantial part of our 20 mining tokens over a duration of 1 year.' },
-        { question: 'What are the perks that come with xNOS score? ', answer: 'A higher xNOS score means you get a bigger piece of the daily $NOS rewards. xNOS score also lets you qualify for seasonal NFT giveaways through our Tiersystem, and make you eligible to vote on the NFT project’s direction. ' },
-        { question: 'What if I want to contribute my CPU as a node?', answer: 'In that case, you must also be staking. More information will be provided when node-support goes live.' },
-        { question: 'Stake to get access to our NFT collection', answer: 'Want in on our Burner Phone seasonal NFT mints? Then stake your coins! By doing so, you’ll get a chance to win a Burner Phone with network-specific utilities. Our Burner Phone NFTs have 4 guaranteed seasonal drops per year. If you stake your tokens for at least 3 months, you’ll get access to at least 1 NFT drop. ' },
-        { question: 'Why did my Tier change after staking?', answer: 'Your tier is based on the leaderboards, so it is dependend on the other stakers as well. The leaderboards are dynamic and can change with every new staker.' }
+        { question: 'How can I earn NOS rewards?', answer: 'Staking NOS results in NOS rewards. For each transaction on the Network, we distribute 2% of network fees in proportion to your xNOS share in the network. Staking tokens lets you earn a percentage of those network fees.' },
+        { question: 'I accidentally unstaked my tokens, can I restake them again? ', answer: 'Yes!' }
+        // { question: 'What if I want to contribute my CPU as a node?', answer: 'In that case, you must also be staking. More information will be provided when node-support goes live.' },
+        // { question: 'Stake to get access to our NFT collection', answer: 'Want in on our Burner Phone seasonal NFT mints? Then stake your coins! By doing so, you’ll get a chance to win a Burner Phone with network-specific utilities. Our Burner Phone NFTs have 4 guaranteed seasonal drops per year. If you stake your tokens for at least 3 months, you’ll get access to at least 1 NFT drop. ' },
+        // { question: 'Why did my Tier change after staking?', answer: 'Your tier is based on the leaderboards, so it is dependend on the other stakers as well. The leaderboards are dynamic and can change with every new staker.' }
       ]
     };
   },
