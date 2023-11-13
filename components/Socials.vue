@@ -21,7 +21,7 @@ export default {
           icon: 'discord'
         },
         {
-          link: 'https://t.me/NosanaCI',
+          link: 'https://t.me/NosanaCompute',
           icon: 'telegram'
         },
         {
