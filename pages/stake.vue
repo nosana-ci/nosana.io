@@ -252,6 +252,7 @@ export default {
         }
       ],
       faqs: [
+        { question: 'How do I stake my NOS tokens?', answer: '- Get started by going to: <a href="https://app.nosana.io/stake/" target="_blank">https://app.nosana.io/stake/</a><br> - Connect your Solana Wallet<br> - Define how much you want to stake and the duration of your unstake period <br>- Sign the transaction<br><br> Now you are all set! You can claim the staking rewards anytime you want.' },
         { question: 'Are my staked NOS tokens safe?', answer: 'Your NOS tokens are safe in your smart contract vault on the Solana Blockchain. The Nosana Staking Program is open source and audited, so nobody can access your staked tokens except for you! You can see your staked tokens on the Solana Blockchain.' },
         { question: 'What is the APY?', answer: 'The APY is dynamic, the more $NOS is staked in total, the lower the APY will be and vice versa. You can find the current APY at: <a href="https://app.nosana.io/stake/" target="_blank">https://app.nosana.io/stake/</a>' },
         { question: 'What is the xNOS score?', answer: 'Your xNOS score is determined by the amount of staked tokens and the chosen unstake period. The more tokens and/or unstake period, the higher the xNOS score. For a detailed explanation on how xNOS is calculated see: <a target="_blank" href="https://docs.nosana.io/protocols/staking.html#xnos-calculation">https://docs.nosana.io/protocols/staking.html#xnos-calculation</a>' },
