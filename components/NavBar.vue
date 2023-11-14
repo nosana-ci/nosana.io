@@ -103,9 +103,9 @@
                 <div>Community</div>
               </a>
               <div class="navbar-dropdown is-boxed">
-                <!-- <nuxt-link class="navbar-item" to="/blog" exact-active-class="is-active">
+                <nuxt-link class="navbar-item" to="/blog" exact-active-class="is-active">
                   Blog
-                </nuxt-link> -->
+                </nuxt-link>
                 <a href="https://twitter.com/nosana_ci" target="_blank" class="navbar-item">
                   <i class="fab fa-twitter mr-2" aria-hidden="true" />
                   <span>Twitter</span>

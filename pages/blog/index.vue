@@ -4,7 +4,7 @@
       <h1 class="has-text-centered title">
         Blog Posts
       </h1>
-      <div class="tabs is-centered py-3">
+      <!-- <div class="tabs is-centered py-3">
         <ul style="border: none;">
           <li class="is-active">
             <a>Blogs</a>
@@ -15,7 +15,7 @@
             </nuxt-link>
           </li>
         </ul>
-      </div>
+      </div> -->
       <div class="columns my-6 is-multiline">
         <client-only>
           <nuxt-link
@@ -61,15 +61,12 @@
           </nuxt-link>
         </client-only>
       </div>
-      <slogan-block class="mt-6 pt-6" />
     </div>
   </section>
 </template>
 
 <script>
-import SloganBlock from '../../components/SloganBlock.vue';
 export default {
-  components: { SloganBlock },
   colorMode: 'dark',
   async asyncData ({ $content, params }) {
     const blogs = await $content('blog')
