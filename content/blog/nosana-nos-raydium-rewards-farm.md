@@ -17,9 +17,9 @@ Farms allow liquidity providers to earn tokens for providing liquidity in additi
 ### How to Stake in the NOS-USDC Ecosystem Pool?
 1. Go to the [farm](https://raydium.io/farms/?tab=Ecosystem&farmid=13dsYRhzpfKiH1mi6UXsJZzKiRwm4ad1SxYBezMLAGqd) and connect your wallet.
 
-2. Click the NOS-USDC Pair to open its drop-down section, then click on the pair link to add liquidity (highlighted in green below). Raydium provides a detailed guide to help you understand how to add liquidity. Once you have completed the steps to add liquidity, return to the Fusion section and find the pair again.
+2. Click the NOS-USDC Pair to open its drop-down section, then click on the pair link to add liquidity (highlighted in green below). Raydium provides a detailed [guide](https://docs.raydium.io/raydium/liquidity-providers/liquidity-pools/raydium-farms) to help you understand how to add liquidity. Once you have completed the steps to add liquidity, return to the Fusion section and find the pair again.
 
-3. Once you have added liquidity and have Liquidity Pool (LP tokens) in your wallet, click 'Stake LP' in the NOS-USDC drop-down section to start farming. If you are stuck, you can reference this guide, which explains adding liquidity and obtaining LP tokens.
+3. Once you have added liquidity and have Liquidity Pool (LP tokens) in your wallet, click 'Stake LP' in the NOS-USDC drop-down section to start farming. If you are stuck, you can reference this [guide](https://docs.raydium.io/raydium/liquidity-providers/liquidity-pools/raydium-farms), which explains adding liquidity and obtaining LP tokens.
 
 4. Enter the amount you wish to stake or select 'MAX' to stake all LP tokens. Then click 'Confirm'.
 
@@ -29,7 +29,7 @@ After the transaction is confirmed, you should be staked and now earning $NOS on
 
 ### Please be aware of impermanent loss and what that means
 **Pro tip:** Read Binance's explanation of impermanent loss before taking part in the NOS Rewards Pool on Raydium.
-That's it. You should be able to receive $NOS Rewards from Raydium's Fusion Rewards Pool if you follow the steps in this article.
+That's it. You should be able to receive $NOS Rewards from Raydium's Ecosystem Farm if you follow the steps in this article.
 
 ### Who's in the pool? 
 Let us know if you've made a splash in the liquidity pool in the comments section below. Join our [Telegram](https://t.me/NosanaCompute) or [Discord](https://discord.gg/Nosana) server to stay up-to-date on our latest developments and news updates.
