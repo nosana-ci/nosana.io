@@ -17,7 +17,7 @@ Farms allow liquidity providers to earn tokens for providing liquidity in additi
 ### How to Stake in the NOS-USDC Ecosystem Pool?
 1. Go to the [farm](https://raydium.io/farms/?tab=Ecosystem&farmid=13dsYRhzpfKiH1mi6UXsJZzKiRwm4ad1SxYBezMLAGqd) and connect your wallet.
 
-2. Click the NOS-USDC Pair to open its drop-down section, then click on the pair link to add liquidity (highlighted in green below). Raydium provides a detailed [guide](https://docs.raydium.io/raydium/liquidity-providers/liquidity-pools/raydium-farms) to help you understand how to add liquidity. Once you have completed the steps to add liquidity, return to the Fusion section and find the pair again.
+2. Click the NOS-USDC Pair to open its drop-down section, then click on the pair link to add liquidity (highlighted in green below). Raydium provides a detailed [guide](https://docs.raydium.io/raydium/liquidity-providers/liquidity-pools/raydium-farms) to help you understand how to add liquidity. Once you have completed the steps to add liquidity, return to the Ecosystem section and find the pair again.
 
 3. Once you have added liquidity and have Liquidity Pool (LP tokens) in your wallet, click 'Stake LP' in the NOS-USDC drop-down section to start farming. If you are stuck, you can reference this [guide](https://docs.raydium.io/raydium/liquidity-providers/liquidity-pools/raydium-farms), which explains adding liquidity and obtaining LP tokens.
 
