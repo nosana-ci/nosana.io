@@ -41,7 +41,7 @@
               With costs up to 85% lower than traditional public clouds,
               Nosana offers a game-changing solution for organizations and individuals
               seeking massive compute power without breaking the bank.
-              Our decentralized approach gives users direct access to GPU clusters
+              Our decentralized approach gives users direct access to GPU nodes
               that scale with their computational needs as required, all while ensuring high
               levels of security to protect sensitive data and intellectual property.
             </p>
