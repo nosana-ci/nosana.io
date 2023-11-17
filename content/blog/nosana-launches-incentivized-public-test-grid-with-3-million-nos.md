@@ -10,7 +10,7 @@ Today, we are thrilled to announce the launch of Nosana's Incentivized Test Grid
 
 This month-long test grid is tailored for developers, AI enthusiasts, and all those eager to partake in the unfolding decentralization movement.
 
-> The Test Grid marks an important milestone on our journey, paving the way for Nosana’s Mainnet launch. By combining a diversity of GPUs from different stakeholders into our first compute grid, we will be able to measure and finetune the network’s performance and improve its features. This is a step towards providing decentralized cloud infrastructure, freeing users from the lock-in of cloud providers, and guiding them to the opportunities Nosana presents.-Jesse Eisses, Co-founder of Nosana
+> The Test Grid marks an important milestone on our journey, paving the way for Nosana’s Mainnet launch. By combining a diversity of GPUs from different stakeholders into our first compute grid, we will be able to measure and finetune the network’s performance and improve its features. This is a step towards providing decentralized cloud infrastructure, freeing users from the lock-in of cloud providers, and guiding them to the opportunities Nosana presents.<br><br>_-Jesse Eisses, Co-founder of Nosana_
 
 ### Unleashing the Power of Community-driven Testing
 
