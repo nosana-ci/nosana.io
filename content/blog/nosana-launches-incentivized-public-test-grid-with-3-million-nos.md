@@ -1,7 +1,7 @@
 ---
 title: "Nosana Launches Incentivized Public Test Grid with 3 Million $NOS"
 description: "A multi-phase program that will further power the AI revolution."
-img: /img/itg.png
+img: /img/itg2.png
 createdAt: '2023-11-17'
 ---
 In our recent announcement, we unveiled a pivotal shift in Nosana's direction, signaling a transition to a massive GPU-compute grid for AI inference.
@@ -14,11 +14,11 @@ This month-long test grid is tailored for developers, AI enthusiasts, and all th
 
 ### Unleashing the Power of Community-driven Testing
 
-Our Incentivized Test Grid is an open invitation to developers, data scientists, and AI enthusiasts to test the limits of our GPU-compute grid and help us refine it before we launch on the mainnet. With a total prize pot of 3 million $NOS tokens, this program is our way of recognizing and rewarding the contributions of our community as we work together to make AI more accessible and powerful than ever before.
+Our Incentivized Test Grid is an open invitation to developers, data scientists, and AI enthusiasts to test the limits of our GPU-compute grid and help us refine it before we launch on the mainnet. With a total prize pool of 3 million $NOS tokens, this program is our way of recognizing and rewarding the contributions of our community as we work together to make AI more accessible and powerful than ever before.
 
 ### A Multi-phase Approach
 
-The Incentivized Test Grid will be split into multiple phases, each designed to thoroughly evaluate specific aspects of our GPU-compute grid. The first phase will start on the 10th of December and run until the 10th of January, with a total pool of 250K tokens. Registration for phase 1 will begin on the 1st of December and will be limited both in numbers and support for select NVIDIA graphics cards.
+The Incentivized Test Grid will be split into multiple phases, each designed to thoroughly evaluate specific aspects of our GPU-compute grid. The first phase will start on the 10th of December, and run until the 10th of January, with a total pool of 250K tokens. Registration for phase 1 will begin on the 1st of December, be limited in numbers and support select NVIDIA graphics cards.
 
 As we progress through the phases, we will gradually introduce new features, expand hardware support, and enable more AI programs and models to be run. This phased approach ensures that we are gathering comprehensive feedback and addressing any potential issues before we move to the mainnet.
 
@@ -28,9 +28,9 @@ To incentivize participation and reward valuable contributions, we have allocate
 
 ### Join the Initiative
 
-With a prize pot of 250K in NOS, Test Grid Phase 1 is launching on December 10th at 10 a.m. CET and running through January 10th at 11:59 p.m. CET. The test grid is fully virtual, and we encourage participants from all regions of the world to join in and contribute to the future of Web 3.0.
+The Test Grid Phase 1 is a virtual event that starts on December 10th and runs until January 10th. We welcome everyone with a NVIDIA GPU to join the registration process, starting on December 1st. Let’s power the AI revolution together!
 
-Here are the next steps you should take to get involved:
+Here are the next steps you should take to stay updated:
 
 * Join our [Telegram](https://t.me/NosanaCompute) chat and [Discord](https://discord.gg/Nosana) server
 * Ensure you are signed up for updates [HERE](https://forms.gle/2t2eam3f6CTGoosXA)
