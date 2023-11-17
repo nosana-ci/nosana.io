@@ -8,7 +8,7 @@
         <div class="columns my-6 py-6 is-vcentered">
           <div class="column is-6" data-aos="fade-right">
             <h2 class="title is-2">
-              Powering the AI revolution
+              Open Compute for All
             </h2>
             <p class="mb-5 has-limited-width-small">
               Our decentralized GPU grid represents a revolutionary paradigm shift in the world of computing.

@@ -5,7 +5,7 @@
         <div class="columns mt-6 mt-mobile-0">
           <div class="column is-5 has-background-black-blur-false">
             <h1 class="title is-spaced site-title">
-              The Future of GPU Compute
+              Powering the AI revolution
             </h1>
             <div class="has-limited-width-small py-2">
               <p class="block">
