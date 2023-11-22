@@ -9,7 +9,7 @@
             </h1>
             <p class="block">
               NOS is the native token of the Nosana Network.
-              In exchange for NOS tokens, you can use our network to run CICD for all your development projects.
+              In exchange for NOS tokens, you can use our network to run AI workloads.
             </p>
             <div class="has-limited-width mt-4">
               <p class="block">
