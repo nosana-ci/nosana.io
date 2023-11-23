@@ -8,7 +8,7 @@
           </div>
           <div class="px-5">
             <h2 class="subtitle is-3 has-text-centered">
-            10-12-2023 → 10-01-2024
+            12/10/2023 → 1/10/2024
             </h2>
             <ul>
               <li>
@@ -33,7 +33,7 @@
                   class="mr-3 button is-accent is-wide"
                   disabled
                 >
-                  <b>Registrations opens 1-12-2023</b>
+                  <b>Registrations open on 12/1/2023</b>
                 </a>
               </p>
           </div>
