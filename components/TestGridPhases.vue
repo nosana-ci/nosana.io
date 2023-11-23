@@ -8,28 +8,34 @@
           </div>
           <div class="px-5">
             <h2 class="subtitle is-3 has-text-centered">
-              Private Beta
+            10-12-2023 → 10-01-2024
             </h2>
             <ul>
               <li>
-                Open-source software projects can use Nosana’s engine to run CI jobs for free.
+              Up to 250,000 $NOS tokens in rewards
               </li>
               <li>
-                Projects can securely store their secrets to a Secret Manager
-                (hosted for free by Nosana, or you can host your own) and specify per job which secrets
-                the node running the job can retrieve.
+              Validate our GPU grid with a variety of GPU devices
               </li>
               <li>
-                The beta program runs on verified nodes, to make sure your tests run smoothly.
+              Fine-tune the process and instructions of installing and upgrading nodes
+              </li>
+              <li>
+              Benchmark performance of various AI algorithms on the Nosana network
+              </li>
+              <li>
+              Bootstrap the network with an initial supply of GPUs
               </li>
             </ul>
-            <p class="block has-text-centered">
-              <a
-                href="https://app.nosana.io"
-                class="button is-accent is-outlined has-text-weight-semibold"
-                target="_blank"
-              >Get Started</a>
-            </p>
+              <p class="block has-text-centered">
+                <a
+                  href="#"
+                  class="mr-3 button is-accent is-wide"
+                  disabled
+                >
+                  <b>Registrations opens 1-12-2023</b>
+                </a>
+              </p>
           </div>
         </div>
       </div>
@@ -40,7 +46,7 @@
           </div>
           <div class="px-5">
             <h2 class="subtitle is-3 has-text-centered">
-              Mainnet Release
+            Feb 2024
             </h2>
           </div>
         </div>
@@ -73,6 +79,7 @@ export default {
     background: $accent;
   }
 }
+
 .roadmap-item {
   background: #010C04;
   position: relative;

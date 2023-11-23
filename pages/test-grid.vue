@@ -3,16 +3,19 @@
     <section class="section">
       <div class="container">
         <h1 class="title site-title is-spaced has-limited-width mt-6" style="width: 800px">
-          Test Grid
+        Incentivized<br/>GPU Test Grid
         </h1>
         <div class="columns mt-5">
-          <div class="column is-7" data-aos="fade-up">
+          <div class="column is-5" data-aos="fade-up">
             <h2 class="subtitle">
-              Expand your reach with Nosana
+            A multi-phase test grid for developers, data scientists, and AI enthusiasts.
             </h2>
             <div class="has-limited-width-small mt-4">
               <p class="block">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae rem, ducimus laborum maxime consectetur.
+               Join us as an early adopter and build the foundation for the world's biggest
+               GPU-compute grid. With a total prize pool of 3
+               million $NOS tokens, this program is our way of recognizing and rewarding the contributions of our
+               community as we work together to make AI more accessible and powerful than ever before.
               </p>
               <p class="block">
                 <a
@@ -20,7 +23,7 @@
                   class="mr-3 button is-accent is-wide"
                   disabled
                 >
-                  <b>Registrations opens 10-12-2023</b>
+                  <b>Registrations opens 1-12-2023</b>
                 </a>
               </p>
             </div>
@@ -31,12 +34,40 @@
             </div>
           </div>
         </div>
+
         <div class="mt-6 py-6 has-text-centered has-background-gradient">
+          <h2 class="title mb-6" data-aos="fade-right">
+          Be an Early Adopter
+          </h2>
+          <p class="has-limited-width is-horizontal-centered">
+          By joining the Test Grid you will be at the frontier of powering the AI revolution. The Test Grid is
+          split into multiple phases, each designed to thoroughly evaluate specific
+          aspects of our GPU-compute grid. As we progress through the phases, we will gradually introduce new features,
+          expand hardware support, and enable more AI models to be run. This phased approach ensures that
+          we are gathering comprehensive feedback and addressing any potential issues before we move to the mainnet.
+          </p>
+        </div>
+      </div>
+    </section>
+    <section class="section mt-5">
+      <div class="container">
+        <div class="columns">
+          <div class="column is-6 is-offset-3">
+            <test-grid-phases />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section mt-5">
+      <div class="container">
+        <div class="mt-6 py-6 has-text-centered ">
           <h2 class="title mb-6" data-aos="fade-right">
             Requirements
           </h2>
           <p class="has-limited-width-small is-horizontal-centered">
-            During the first phase of the Test Grid you will require one of the following GPUs:
+            During the first phase of the Test Grid you will require an NVIDIA GPU with CUDA.
+            The following list of models will be supported, other cards will be reviewed.
           </p>
           <div class="table-container mt-3">
             <table class="typography table is-horizontal-centered">
@@ -45,20 +76,55 @@
                   <td class="py-2">
                     NVIDIA GTX 4090
                   </td>
+                  <td class="py-2">
+                    NVIDIA GTX 4080
+                  </td>
+                  <td class="py-2">
+                    NVIDIA GTX 4070Ti
+                  </td>
+                  <td class="py-2">
+                    NVIDIA GTX 4070
+                  </td>
                 </tr>
                 <tr data-aos="fade-in" data-aos-delay="200">
                   <td class="py-2">
-                    NVIDA GTX 4080
+                    NVIDA GTX 3090Ti
+                  </td>
+                  <td class="py-2">
+                    NVIDA GTX 4090
+                  </td>
+                  <td class="py-2">
+                    NVIDA GTX 3080Ti
+                  </td>
+                  <td class="py-2">
+                    NVIDA GTX 3080
                   </td>
                 </tr>
                 <tr data-aos="fade-in" data-aos-delay="300">
                   <td class="py-2">
-                    NVIDIA GTX 4070Ti
+                    NVIDIA GTX 3060Ti
+                  </td>
+                  <td class="py-2">
+                    NVIDIA GTX 3060
+                  </td>
+                  <td class="py-2">
+                    NVIDIA GTX A4000
+                  </td>
+                  <td class="py-2">
+                    NVIDIA GTX A4500
                   </td>
                 </tr>
                 <tr data-aos="fade-in" data-aos-delay="400">
                   <td class="py-2">
-                    NVIDIA GTX 4070
+                    NVIDIA GTX A5000
+                  </td>
+                  <td class="py-2">
+                    NVIDIA GTX A5500
+                  </td>
+                  <td class="py-2">
+                    NVIDIA GTX A6000
+                  </td>
+                  <td class="py-2">
                   </td>
                 </tr>
               </tbody>
@@ -68,32 +134,64 @@
       </div>
     </section>
     <section class="section">
-      <div class="column is-8 is-horizontal-centered">
-        <h2 class="title mb-6 has-text-centered">
-          FAQ
-        </h2>
-        <accordion>
-          <accordion-item v-for="faq in faqs" :key="faq.question">
-            <!-- This slot will handle the title/header of the accordion and is the part you click on -->
-            <template slot="accordion-trigger">
-              <h3 class="subtitle mb-4 has-text-weight-semibold">
-                {{ faq.question }}
-              </h3>
-            </template>
-            <!-- This slot will handle all the content that is passed to the accordion -->
-            <template slot="accordion-content">
-              <!-- eslint-disable vue/no-v-html -->
-              <span v-html="faq.answer" />
-            </template>
-          </accordion-item>
-        </accordion>
+      <div class="container">
+        <div class="column is-8 is-horizontal-centered">
+          <h2 class="title mb-6 has-text-centered">
+            FAQ
+          </h2>
+          <accordion>
+            <accordion-item v-for="faq in faqs" :key="faq.question">
+              <!-- This slot will handle the title/header of the accordion and is the part you click on -->
+              <template slot="accordion-trigger">
+                <h3 class="subtitle mb-4 has-text-weight-semibold">
+                  {{ faq.question }}
+                </h3>
+              </template>
+              <!-- This slot will handle all the content that is passed to the accordion -->
+              <template slot="accordion-content">
+                <!-- eslint-disable vue/no-v-html -->
+                <span v-html="faq.answer" />
+              </template>
+            </accordion-item>
+          </accordion>
+        </div>
       </div>
     </section>
-    <section class="section mt-5">
-      <div class="container">
-        <div class="columns">
-          <div class="column is-6 is-offset-3">
-            <test-grid-phases />
+    <section class="section">
+      <div class="py-6 has-text-centered">
+        <h2 class="title mb-6 is-2" data-aos="fade-right">
+          Advantages of Joining the Test Grid
+        </h2>
+        <div class="columns is-variable is-multiline is-centered">
+          <div class="column is-one-third mt-6" data-aos="fade-up" data-aos-delay="200">
+            <img src="~assets/img/icons/browser.svg" height="80">
+            <p class="has-limited-width-smaller is-horizontal-centered">
+            Earn $NOS tokens for your participation (up to 250,000 NOS tokens available in Phase 1)
+            </p>
+          </div>
+          <div class="column is-one-third mt-6" data-aos="fade-up" data-aos-delay="400">
+            <img src="~assets/img/icons/devops.svg" height="80">
+            <p class="has-limited-width-smaller is-horizontal-centered">
+            Become fast-tracked as a GPU supplier for the mainnet release
+            </p>
+          </div>
+          <div class="column is-one-third mt-6" data-aos="fade-up" data-aos-delay="600">
+            <img src="~assets/img/icons/nodes.svg" height="80">
+            <p class="has-limited-width-smaller is-horizontal-centered">
+            Support the advancement of decentralized AI
+            </p>
+          </div>
+          <div class="column is-one-third mt-6" data-aos="fade-up" data-aos-delay="200">
+            <img src="~assets/img/icons/chat-group.svg" height="80">
+            <p class="has-limited-width-smaller is-horizontal-centered">
+            Be involved in the forefront of Nosana's development and connect directly with the team
+            </p>
+          </div>
+          <div class="column is-one-third mt-6" data-aos="fade-up" data-aos-delay="400">
+            <img src="~assets/img/icons/server.svg" height="80">
+            <p class="has-limited-width-smaller is-horizontal-centered">
+            Utilize your existing hardware for generating a passive income
+            </p>
           </div>
         </div>
       </div>
@@ -108,9 +206,13 @@ export default {
   data () {
     return {
       faqs: [
-        { question: 'How do I stake my NOS tokens?', answer: '- Get started by going to: <a href="https://app.nosana.io/stake/" target="_blank">https://app.nosana.io/stake/</a><br> - Connect your Solana Wallet<br> - Define how much you want to stake and the duration of your unstake period <br>- Sign the transaction<br><br> Now you are all set! You can claim the staking rewards anytime you want.' },
-        { question: 'Are my staked NOS tokens safe?', answer: 'Your NOS tokens are safe in your smart contract vault on the Solana Blockchain. The Nosana Staking Program is open source and audited, so nobody can access your staked tokens except for you! You can see your staked tokens on the Solana Blockchain.' },
-        { question: 'What is the APY?', answer: 'The APY is dynamic, the more $NOS is staked in total, the lower the APY will be and vice versa. You can find the current APY at: <a href="https://app.nosana.io/stake/" target="_blank">https://app.nosana.io/stake/</a>' }
+        { question: 'My GPU model is not listed above, can I still join?', answer: 'The list of GPU models is not exhaustive. If you have a different model you can still register for the Test Grid, your GPU will then be reviewed and potentially added to the grid (if not now, then in a later phase).' },
+        { question: 'How do I register for the Test Grid?', answer: 'The registration involves 2 steps:<br> - Registering your GPU hardware on the Nosana network <br> - Filling out an application form.<br> An in-depth tutorial on this will be released when the Test Grid opens on 1-12-2024 ' },
+        { question: 'Do I need a blockchain wallet?', answer: 'For the registration you will need a Solana address to receive your access key NFT on.<br>When joining the test grid we recommend that you generate a new Solana keypair with a small amount of SOL for transaction fees. Instructions on how to do this will be included in the registration guide that will be available on 1-12-2024.' },
+        { question: 'How do I know if I’m selected for the Test Grid?', answer: 'You will receive an email with instructions once you get selected for the Test Grid.<br>Did you submit your registration but did not receive an email? Our Test Grid is most likely oversubscribed, but we will onboard more participants as the Test Grid processes.' },
+        { question: 'What kinds of tests will I need to do?', answer: 'During the Incentivized GPU Testnet there will be a selection of markets running different workloads. The workload will include generic stress-tests, light workloads, and different AI-inference models.' },
+        { question: 'How much $NOS will I earn?', answer: 'The exact amount of NOS you can earn during this program will be shared when the registration opens. There are multiple ways you can earn rewards:<br><br>- Once your ran the benchmark job and get accepted, you will receive a base reward price<br>- For each workload you run you will receive a specific NOS reward<br>- There will be several challenges during the Test Grid that pay out additional rewards.<br><br>Some of the additional rewards require you to go through perform KYC before you can receive them.' },
+        { question: 'How long will Phase 1 last?', answer: 'It will run at least until the 10th of January - but can be extended based on the distributed rewards.' }
       ]
     };
   }
@@ -129,5 +231,9 @@ export default {
     position: relative;
     width: 100%;
   }
+}
+table {
+    border-spacing: 10px;
+    border-collapse: separate;
 }
 </style>
