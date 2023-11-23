@@ -42,7 +42,8 @@
           <p class="has-limited-width is-horizontal-centered">
             By joining the Test Grid you will be at the frontier of powering the AI revolution. The Test Grid is
             split into multiple phases, each designed to thoroughly evaluate specific
-            aspects of our GPU-compute grid. As we progress through the phases, we will gradually introduce new features,
+            aspects of our GPU-compute grid.
+            As we progress through the phases, we will gradually introduce new features,
             expand hardware support, and enable more AI models to be run. This phased approach ensures that
             we are gathering comprehensive feedback and addressing any potential issues before we move to the mainnet.
           </p>
