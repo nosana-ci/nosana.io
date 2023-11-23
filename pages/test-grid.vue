@@ -89,6 +89,47 @@
         </accordion>
       </div>
     </section>
+    <section class="section">
+      <div class="py-6 has-text-centered">
+        <h2 class="title mb-6 is-2" data-aos="fade-right">
+          Advantages for Network Partners
+        </h2>
+        <div class="columns is-variable is-multiline is-centered">
+          <div class="column is-one-third mt-6" data-aos="fade-up" data-aos-delay="200">
+            <img src="~assets/img/icons/browser.svg" height="80">
+            <p class="has-limited-width-smaller is-horizontal-centered">
+              Access to our Incentivized Testnet is free (earn up to 10.000 $NOS with your development)
+            </p>
+          </div>
+          <div class="column is-one-third mt-6" data-aos="fade-up" data-aos-delay="400">
+            <img src="~assets/img/icons/devops.svg" height="80">
+            <p class="has-limited-width-smaller is-horizontal-centered">
+              DevOps as a Service. Improve the level of automation, software quality, developer experience,
+              and delivery frequency without disruption. We assist you in making the most of your development.
+            </p>
+          </div>
+          <div class="column is-one-third mt-6" data-aos="fade-up" data-aos-delay="600">
+            <img src="~assets/img/icons/nodes.svg" height="80">
+            <p class="has-limited-width-smaller is-horizontal-centered">
+              Higher max limit of nodes during the test period. This means higher rewards!
+            </p>
+          </div>
+          <div class="column is-one-third mt-6" data-aos="fade-up" data-aos-delay="200">
+            <img src="~assets/img/icons/chat-group.svg" height="80">
+            <p class="has-limited-width-smaller is-horizontal-centered">
+              With multiple go-to-market strategies, you can maintain constant exposure within the Nosana community.
+              Your brand can even be featured as a part of our upcoming NFT!
+            </p>
+          </div>
+          <div class="column is-one-third mt-6" data-aos="fade-up" data-aos-delay="400">
+            <img src="~assets/img/icons/server.svg" height="80">
+            <p class="has-limited-width-smaller is-horizontal-centered">
+              No longer rely on Big Tech for your computational needs!
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
     <section class="section mt-5">
       <div class="container">
         <div class="columns">
