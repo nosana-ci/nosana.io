@@ -89,19 +89,33 @@
                 </tr>
                 <tr data-aos="fade-in" data-aos-delay="200">
                   <td class="py-2">
+                    NVIDIA RTX 4060Ti
+                  </td>
+                  <td class="py-2">
+                    NVIDIA RTX 4060
+                  </td>
+                  <td class="py-2">
                     NVIDA RTX 3090Ti
                   </td>
                   <td class="py-2">
                     NVIDA RTX 3090
                   </td>
+                </tr>
+                <tr data-aos="fade-in" data-aos-delay="300">
                   <td class="py-2">
                     NVIDA RTX 3080Ti
                   </td>
                   <td class="py-2">
                     NVIDA RTX 3080
                   </td>
+                  <td class="py-2">
+                    NVIDIA RTX 3070Ti
+                  </td>
+                  <td class="py-2">
+                    NVIDIA RTX 3070
+                  </td>
                 </tr>
-                <tr data-aos="fade-in" data-aos-delay="300">
+                <tr data-aos="fade-in" data-aos-delay="400">
                   <td class="py-2">
                     NVIDIA RTX 3060Ti
                   </td>
@@ -115,7 +129,7 @@
                     NVIDIA RTX A4500
                   </td>
                 </tr>
-                <tr data-aos="fade-in" data-aos-delay="400">
+                <tr data-aos="fade-in" data-aos-delay="500">
                   <td class="py-2">
                     NVIDIA RTX A5000
                   </td>
@@ -125,7 +139,7 @@
                   <td class="py-2">
                     NVIDIA RTX A6000
                   </td>
-                  <td class="py-2" />
+                  <td class="py-2"></td>
                 </tr>
               </tbody>
             </table>
@@ -211,7 +225,7 @@ export default {
         { question: 'Do I need a blockchain wallet?', answer: 'For the registration you will need a Solana address to receive your access key NFT on.<br>When joining the test grid we recommend that you generate a new Solana keypair with a small amount of SOL for transaction fees. Instructions on how to do this will be included in the registration guide that will be available on 1-12-2024.' },
         { question: 'How do I know if I’m selected for the Test Grid?', answer: 'You will receive an email with instructions once you get selected for the Test Grid.<br>Did you submit your registration but did not receive an email? Our Test Grid is most likely oversubscribed, but we will onboard more participants as the Test Grid progresses.' },
         { question: 'What kinds of tests will I need to do?', answer: 'During the Incentivized GPU Testnet there will be a selection of markets running different workloads. The workload will include generic stress-tests, light workloads, and different AI-inference models.' },
-        { question: 'How much $NOS will I earn?', answer: 'The exact amount of NOS you can earn during this program will be shared when the registration opens. There are multiple ways you can earn rewards:<br><br>- Once your ran the benchmark job and get accepted, you will receive a base reward price<br>- For each workload you run you will receive a specific NOS reward<br>- There will be several challenges during the Test Grid that pay out additional rewards, some of which require KYC.' },
+        { question: 'How much $NOS will I earn?', answer: 'The exact amount of NOS you can earn during this program will be shared when the registration opens. There are multiple ways you can earn rewards:<br><br>- Once you run the benchmark job and get accepted, you will receive a base reward price<br>- For each workload you run you will receive a specific NOS reward<br>- There will be several challenges during the Test Grid that pay out additional rewards, some of which require KYC.' },
         { question: 'How long will Phase 1 last?', answer: 'It will run at least until the 10th of January - but can be extended based on the distributed rewards.' }
       ]
     };
