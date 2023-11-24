@@ -89,30 +89,38 @@
                 </tr>
                 <tr data-aos="fade-in" data-aos-delay="200">
                   <td class="py-2">
+                    NVIDIA RTX 4060Ti
+                  </td>
+                  <td class="py-2">
+                    NVIDIA RTX 4060
+                  </td>
+                  <td class="py-2">
                     NVIDA RTX 3090Ti
                   </td>
                   <td class="py-2">
                     NVIDA RTX 3090
                   </td>
+                </tr>
+                <tr data-aos="fade-in" data-aos-delay="300">
                   <td class="py-2">
                     NVIDA RTX 3080Ti
                   </td>
                   <td class="py-2">
                     NVIDA RTX 3080
                   </td>
-                </tr>
-                <tr data-aos="fade-in" data-aos-delay="300">
-                  <td class="py-2">
-                    NVIDIA RTX 3060Ti
-                  </td>
-                  <td class="py-2">
-                    NVIDIA RTX 3060
-                  </td>
                   <td class="py-2">
                     NVIDIA RTX 3070Ti
                   </td>
                   <td class="py-2">
                     NVIDIA RTX 3070
+                  </td>
+                </tr>
+                <tr data-aos="fade-in" data-aos-delay="400">
+                  <td class="py-2">
+                    NVIDIA RTX 3060Ti
+                  </td>
+                  <td class="py-2">
+                    NVIDIA RTX 3060
                   </td>
                   <td class="py-2">
                     NVIDIA RTX A4000
@@ -121,7 +129,7 @@
                     NVIDIA RTX A4500
                   </td>
                 </tr>
-                <tr data-aos="fade-in" data-aos-delay="400">
+                <tr data-aos="fade-in" data-aos-delay="500">
                   <td class="py-2">
                     NVIDIA RTX A5000
                   </td>
@@ -131,7 +139,7 @@
                   <td class="py-2">
                     NVIDIA RTX A6000
                   </td>
-                  <td class="py-2" />
+                  <td class="py-2"></td>
                 </tr>
               </tbody>
             </table>
