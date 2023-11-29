@@ -6,6 +6,23 @@
 { # this ensures the entire script is downloaded
 
   main() {
+    if ! check_cmd lsb_release; then
+      log_err "🧯 Not running ubuntu."
+      exit 1;
+    fi
+    if cat /proc/version | grep -q 'WSL2'; then
+      WSL2=true
+    fi
+    ubuntu_version=$(lsb_release -sr)
+    cat /proc/version | grep -q 'WSL2'
+    log_std "Running ubuntu version $ubuntu_version"
+    if [[ $WSL2 == true ]]; then
+      log_std "Running on WSL2"
+      if [[ $ubuntu_version != 22.04 ]]; then
+        log_err "🧯 Not running ubuntu version 22.04 on WSL2."
+        exit 1;
+      fi
+    fi
 
     log_std "🔥 Initializing Nosana-Node."
 
@@ -27,6 +44,13 @@
       log_err "🔋 Please follow installation instructions here: https://docs.docker.com/engine/install "
       exit 1
     else
+      if [[ $WSL2 == true ]]; then
+        if docker --version | grep -q 'could not be found in this WSL 2 distro'; then
+          log_err "🧯 Docker Desktop is not running. Please install and start Docker Desktop first."
+          log_err "🔋 Please follow installation instructions here: https://docs.docker.com/desktop/install/windows-install/ "
+          exit 1
+        fi
+      fi
       log_std "✅ Docker is installed. "
     fi
 
@@ -38,6 +62,7 @@
     else
       log_std "✅ Docker is part of its own user group. "
     fi
+
 
 
     # # Check if solana is installed on the system
@@ -114,32 +139,61 @@
     else
       log_std "✅ Nvidia Container Toolkit installed. "
     fi
-
-    log_std "🔎 Checking if Nvidia Container Toolkit is configured.."
-    if docker run --gpus all nvidia/cuda:11.0.3-base-ubuntu18.04 nvidia-smi &>/dev/null; then
-      log_std "✅ Nvidia Container Toolkit configured. "
-    else
-      log_err "🧯 Nvidia Container Toolkit is not configured."
-      log_err "🔋 Please follow configuration instructions here: https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/latest/install-guide.html#configuration "
-      exit 1
-    fi
-
-    # If podman is already running, stop it.
+    
+    # If podman/node are already running, stop it.
     docker rm --force podman nosana-node &>/dev/null
 
-    log_std "🔥 Starting podman..."
-    # Start Podman
-    # NEW WAY OF STARTING PODMAN
-    docker run -d \
-      --pull=always \
-      --gpus=all \
-      --name podman \
-      --device /dev/fuse \
-      --privileged \
-      -e ENABLE_GPU=true \
-      -p 8080:8080 \
-      nosana/podman podman system service --time 0 tcp:0.0.0.0:8080
-    sleep 10 # wait for podman to start
+    if [[ $WSL2 == true ]]; then
+      if ! check_cmd podman; then
+        log_err "🧯 Podman is not installed. Please install Podman first."
+        log_err "🔋 Please follow installation instructions here: https://docs.nosana.io/nodes/testgrid-windows.html#podman"
+        exit 1
+      else
+        if ! podman --version | grep -q 'version 4.'; then
+          log_err "🧯 Podman is not the right version, need version >4.1"
+          log_err "🔋 Please follow installation instructions here: https://docs.nosana.io/nodes/testgrid-windows.html#podman "
+          exit 1
+        fi
+        log_std "✅ Podman v4 is installed. "
+      fi
+
+      log_std "🔎 Checking if Nvidia Container Toolkit is configured.."
+      if podman run --rm --device nvidia.com/gpu=all --security-opt=label=disable ubuntu nvidia-smi -L &>/dev/null; then
+        log_std "✅ Nvidia Container Toolkit configured. "
+      else
+        log_err "🧯 Nvidia Container Toolkit is not configured."
+        log_err "🔋 Please follow configuration instructions here: https://docs.nosana.io/nodes/testgrid-windows.html#configure-the-nvidia-container-toolkit "
+        exit 1
+      fi
+
+      log_std "🔥 Starting podman..."
+      # Start Podman
+      podman system service --time 0 tcp:0.0.0.0:8080&
+
+    else
+      log_std "🔎 Checking if Nvidia Container Toolkit is configured.."
+      if docker run --gpus all nvidia/cuda:11.0.3-base-ubuntu18.04 nvidia-smi &>/dev/null; then
+        log_std "✅ Nvidia Container Toolkit configured. "
+      else
+        log_err "🧯 Nvidia Container Toolkit is not configured."
+        log_err "🔋 Please follow configuration instructions here: https://docs.nosana.io/nodes/testgrid-ubuntu.html#linux-configure-the-nvidia-container-toolkit "
+        exit 1
+      fi
+
+      log_std "🔥 Starting podman in docker..."
+      # Start Podman in docker
+      docker run -d \
+        --pull=always \
+        --gpus=all \
+        --name podman \
+        --device /dev/fuse \
+        --privileged \
+        -e ENABLE_GPU=true \
+        -p 8080:8080 \
+        nosana/podman podman system service --time 0 tcp:0.0.0.0:8080
+    fi
+    
+    sleep 5 # wait for podman to start
 
     log_std "🔥 Starting Nosana-Node..."
     # Start Nosana-Node
