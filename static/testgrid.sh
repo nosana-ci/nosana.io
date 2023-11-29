@@ -9,9 +9,9 @@
 
     log_std "🔥 Initializing Nosana-Node."
 
-    read -rp "Which network: devnet or mainnet? (default: devnet) " SOL_NET_ENV
+    # read -rp "Which network: devnet or mainnet? (default: devnet) " SOL_NET_ENV
     SOL_NET_ENV="${SOL_NET_ENV:=devnet}"
-    read -rp "Please enter Nosana Market Address: (default: 2kNSniTBsLCioSr4dgdZh6S1JKQc8cZQvxrPWkEn1ERj)" USER_NOS_MARKET_ADDRESS
+    # read -rp "Please enter Nosana Market Address: (default: 2kNSniTBsLCioSr4dgdZh6S1JKQc8cZQvxrPWkEn1ERj)" USER_NOS_MARKET_ADDRESS
     USER_NOS_MARKET_ADDRESS="${USER_NOS_MARKET_ADDRESS:=2kNSniTBsLCioSr4dgdZh6S1JKQc8cZQvxrPWkEn1ERj}"
 
     # Make sure that the basics are installed
@@ -140,6 +140,7 @@
     # Start Podman
     # NEW WAY OF STARTING PODMAN
     docker run -d \
+      --pull=always \
       --gpus=all \
       --name podman \
       --device /dev/fuse \
@@ -153,10 +154,11 @@
     # Start Nosana-Node
     docker run \
       --gpus=all \
+      --pull=always \
       --name nosana-node \
       --network host  \
       --interactive \
-      --volume ~/.config/solana/id.json:/root/nosana_key.json \
+      --volume ~/.nosana/:/root/.nosana/ \
       nosana/nosana-node \
          --network $SOL_NET_ENV \
          --podman http://localhost:8080  \
