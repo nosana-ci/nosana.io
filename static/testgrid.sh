@@ -81,7 +81,7 @@
     
     # If podman/node are already running, stop it.
     docker rm --force podman nosana-node &>/dev/null
-
+    kill -9 `pidof podman` &>/dev/null
     if [[ $WSL2 == true ]]; then
       if ! check_cmd podman; then
         log_err "🧯 Podman is not installed. Please install Podman first."
@@ -109,6 +109,21 @@
       # Start Podman
       podman system service --time 0 tcp:0.0.0.0:8080&
 
+      sleep 5 # wait for podman to start
+
+      log_std "🔥 Starting Nosana-Node..."
+      # Start Nosana-Node
+      docker run \
+        --pull=always \
+        --name nosana-node \
+        --network host  \
+        --interactive \
+        --volume ~/.nosana/:/root/.nosana/ \
+        nosana/nosana-node \
+          --network $SOL_NET_ENV \
+          --podman http://$(ip addr show eth0 | grep -oP '(?<=inet\s)\d+(\.\d+){3}'):8080 \
+          join-test-grid    
+
     else
       log_std "🔎 Checking if Nvidia Container Toolkit is configured.."
       if docker run --gpus all nvidia/cuda:11.0.3-base-ubuntu18.04 nvidia-smi &>/dev/null; then
@@ -130,23 +145,22 @@
         -e ENABLE_GPU=true \
         -p 8080:8080 \
         nosana/podman podman system service --time 0 tcp:0.0.0.0:8080
-    fi
-    
-    sleep 5 # wait for podman to start
 
-    log_std "🔥 Starting Nosana-Node..."
-    # Start Nosana-Node
-    docker run \
-      --gpus=all \
-      --pull=always \
-      --name nosana-node \
-      --network host  \
-      --interactive \
-      --volume ~/.nosana/:/root/.nosana/ \
-      nosana/nosana-node \
-         --network $SOL_NET_ENV \
-         --podman http://localhost:8080  \
-         join-test-grid
+      sleep 5 # wait for podman to start
+
+      log_std "🔥 Starting Nosana-Node..."
+      # Start Nosana-Node
+      docker run \
+        --pull=always \
+        --name nosana-node \
+        --network host  \
+        --interactive \
+        --volume ~/.nosana/:/root/.nosana/ \
+        nosana/nosana-node \
+          --network $SOL_NET_ENV \
+          --podman http://localhost:8080  \
+          join-test-grid        
+    fi
   }
 
   # shell swag
