@@ -8,34 +8,34 @@
           </div>
           <div class="px-5">
             <h2 class="subtitle is-3 has-text-centered">
-            12/10/2023 → 1/10/2024
+              12/10/2023 → 1/10/2024
             </h2>
             <ul>
               <li>
-              Up to 250,000 $NOS tokens in rewards
+                Up to 250,000 $NOS tokens in rewards
               </li>
               <li>
-              Validate our GPU grid with a variety of GPU devices
+                Validate our GPU grid with a variety of GPU devices
               </li>
               <li>
-              Fine-tune the process and instructions of installing and upgrading nodes
+                Fine-tune the process and instructions of installing and upgrading nodes
               </li>
               <li>
-              Benchmark performance of various AI algorithms on the Nosana network
+                Benchmark performance of various AI algorithms on the Nosana network
               </li>
               <li>
-              Bootstrap the network with an initial supply of GPUs
+                Bootstrap the network with an initial supply of GPUs
               </li>
             </ul>
-              <p class="block has-text-centered">
-                <a
-                  href="#"
-                  class="mr-3 button is-accent is-wide"
-                  disabled
-                >
-                  <b>Registrations open on 12/1/2023</b>
-                </a>
-              </p>
+            <p class="block has-text-centered">
+              <a
+                target="_blank"
+                href="https://forms.gle/d6Copk6W4TAMDY5n8"
+                class="mr-3 button is-accent is-wide"
+              >
+                <b>Register for Nosana Test Grid</b>
+              </a>
+            </p>
           </div>
         </div>
       </div>
@@ -46,7 +46,7 @@
           </div>
           <div class="px-5">
             <h2 class="subtitle is-3 has-text-centered">
-            Feb 2024
+              Feb 2024
             </h2>
           </div>
         </div>
