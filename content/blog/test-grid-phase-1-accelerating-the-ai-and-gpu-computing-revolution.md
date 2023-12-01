@@ -20,16 +20,16 @@ A system with a minimum of 4GB RAM and a supported NVIDIA GPU is required. The r
 
 ### Step 1: Installation and Setup
 > * Install the necessary software for the Nosana Node on your system.
-> * Follow the provided instructions for installing the Nosana Node on your operating system in our comprehensive guide. We support Windows (WSL2) and Linux users. 
+> * Follow the provided instructions for installing the Nosana Node on your operating system in our [comprehensive guide](https://docs.nosana.io/nodes/testgrid.html). We support Windows (WSL2) and Linux users. 
 > * Now you are prepared for the next steps in the registration process.
 
 ### Step 2: Generating the Registration Code
 > * Run the script mentioned in the guide to run the Test Grid registration task on your system.
 > * After this, you will receive a unique registration code that you will need to paste into the form later on.
-> * Make sure to make a backup of your node's private key, as mentioned in the guide. This is the account that is granted access to the Test Grid and will be receiving the rewards.
+> * Make sure to make a backup of your node's private key, as mentioned in the [guide](https://docs.nosana.io/nodes/testgrid.html). This is the account that is granted access to the Test Grid and will be receiving the rewards.
 
 ### Step 3: Registration Process
-> * Utilize the generated registration code to fill out the registration form.
+> * Utilize the generated registration code to fill out the [registration form](https://forms.gle/d6Copk6W4TAMDY5n8).
 > * Complete the remaining fields of the form so we know where to reach you, and leave valuable feedback to the Nosana team if needed. 
 > * Submit the completed registration form to initiate the registration process. 
 
@@ -47,6 +47,6 @@ Follow these steps diligently to ensure a smooth integration process and success
 
 ### Join the AI Revolution
 
-This groundbreaking project awaits your participation. By joining Nosana's Test Grid, you contribute significantly to the future of AI technology. We invite you to embark on this path of technological advancement and innovation in AI. Join our Discord server, where you can connect directly with the technical team. 
+This groundbreaking project awaits your participation. By joining Nosana's Test Grid, you contribute significantly to the future of AI technology. We invite you to embark on this path of technological advancement and innovation in AI. Join our [Discord server](https://discord.gg/Nosana), where you can connect directly with the technical team. 
 
 We look forward to seeing you on the grid!
