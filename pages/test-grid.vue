@@ -3,19 +3,19 @@
     <section class="section">
       <div class="container">
         <h1 class="title site-title is-spaced has-limited-width mt-6" style="width: 800px">
-        Incentivized<br/>GPU Test Grid
+          Incentivized<br>GPU Test Grid
         </h1>
         <div class="columns mt-5">
           <div class="column is-5" data-aos="fade-up">
             <h2 class="subtitle">
-            A multi-phase test grid for developers, data scientists, and AI enthusiasts.
+              A multi-phase test grid for developers, data scientists, and AI enthusiasts.
             </h2>
             <div class="has-limited-width-small mt-4">
               <p class="block">
-               Join us as an early adopter and build the foundation for the world's biggest
-               GPU-compute grid. With a total prize pool of 3
-               million $NOS tokens, this program is our way of recognizing and rewarding the contributions of our
-               community as we work together to make AI more accessible and powerful than ever before.
+                Join us as an early adopter and build the foundation for the world's biggest
+                GPU-compute grid. With a total prize pool of 3
+                million $NOS tokens, this program is our way of recognizing and rewarding the contributions of our
+                community as we work together to make AI more accessible and powerful than ever before.
               </p>
               <p class="block">
                 <a
@@ -37,14 +37,15 @@
 
         <div class="mt-6 py-6 has-text-centered has-background-gradient">
           <h2 class="title mb-6" data-aos="fade-right">
-          Be an Early Adopter
+            Be an Early Adopter
           </h2>
           <p class="has-limited-width is-horizontal-centered">
-          By joining the Test Grid you will be at the frontier of powering the AI revolution. The Test Grid is
-          split into multiple phases, each designed to thoroughly evaluate specific
-          aspects of our GPU-compute grid. As we progress through the phases, we will gradually introduce new features,
-          expand hardware support, and enable more AI models to be run. This phased approach ensures that
-          we are gathering comprehensive feedback and addressing any potential issues before we move to the mainnet.
+            By joining the Test Grid you will be at the frontier of powering the AI revolution. The Test Grid is
+            split into multiple phases, each designed to thoroughly evaluate specific
+            aspects of our GPU-compute grid.
+            As we progress through the phases, we will gradually introduce new features,
+            expand hardware support, and enable more AI models to be run. This phased approach ensures that
+            we are gathering comprehensive feedback and addressing any potential issues before we move to the mainnet.
           </p>
         </div>
       </div>
@@ -74,58 +75,71 @@
               <tbody>
                 <tr data-aos="fade-in" data-aos-delay="100">
                   <td class="py-2">
-                    NVIDIA GTX 4090
+                    NVIDIA RTX 4090
                   </td>
                   <td class="py-2">
-                    NVIDIA GTX 4080
+                    NVIDIA RTX 4080
                   </td>
                   <td class="py-2">
-                    NVIDIA GTX 4070Ti
+                    NVIDIA RTX 4070Ti
                   </td>
                   <td class="py-2">
-                    NVIDIA GTX 4070
+                    NVIDIA RTX 4070
                   </td>
                 </tr>
                 <tr data-aos="fade-in" data-aos-delay="200">
                   <td class="py-2">
-                    NVIDA GTX 3090Ti
+                    NVIDIA RTX 4060Ti
                   </td>
                   <td class="py-2">
-                    NVIDA GTX 4090
+                    NVIDIA RTX 4060
                   </td>
                   <td class="py-2">
-                    NVIDA GTX 3080Ti
+                    NVIDA RTX 3090Ti
                   </td>
                   <td class="py-2">
-                    NVIDA GTX 3080
+                    NVIDA RTX 3090
                   </td>
                 </tr>
                 <tr data-aos="fade-in" data-aos-delay="300">
                   <td class="py-2">
-                    NVIDIA GTX 3060Ti
+                    NVIDA RTX 3080Ti
                   </td>
                   <td class="py-2">
-                    NVIDIA GTX 3060
+                    NVIDA RTX 3080
                   </td>
                   <td class="py-2">
-                    NVIDIA GTX A4000
+                    NVIDIA RTX 3070Ti
                   </td>
                   <td class="py-2">
-                    NVIDIA GTX A4500
+                    NVIDIA RTX 3070
                   </td>
                 </tr>
                 <tr data-aos="fade-in" data-aos-delay="400">
                   <td class="py-2">
-                    NVIDIA GTX A5000
+                    NVIDIA RTX 3060Ti
                   </td>
                   <td class="py-2">
-                    NVIDIA GTX A5500
+                    NVIDIA RTX 3060
                   </td>
                   <td class="py-2">
-                    NVIDIA GTX A6000
+                    NVIDIA RTX A4000
                   </td>
                   <td class="py-2">
+                    NVIDIA RTX A4500
                   </td>
+                </tr>
+                <tr data-aos="fade-in" data-aos-delay="500">
+                  <td class="py-2">
+                    NVIDIA RTX A5000
+                  </td>
+                  <td class="py-2">
+                    NVIDIA RTX A5500
+                  </td>
+                  <td class="py-2">
+                    NVIDIA RTX A6000
+                  </td>
+                  <td class="py-2"></td>
                 </tr>
               </tbody>
             </table>
@@ -166,31 +180,31 @@
           <div class="column is-one-third mt-6" data-aos="fade-up" data-aos-delay="200">
             <img src="~assets/img/icons/browser.svg" height="80">
             <p class="has-limited-width-smaller is-horizontal-centered">
-            Earn $NOS tokens for your participation (up to 250,000 NOS tokens available in Phase 1)
+              Earn $NOS tokens for your participation (up to 250,000 NOS tokens available in Phase 1)
             </p>
           </div>
           <div class="column is-one-third mt-6" data-aos="fade-up" data-aos-delay="400">
             <img src="~assets/img/icons/devops.svg" height="80">
             <p class="has-limited-width-smaller is-horizontal-centered">
-            Become fast-tracked as a GPU supplier for the mainnet release
+              Become fast-tracked as a GPU supplier for the mainnet release
             </p>
           </div>
           <div class="column is-one-third mt-6" data-aos="fade-up" data-aos-delay="600">
             <img src="~assets/img/icons/nodes.svg" height="80">
             <p class="has-limited-width-smaller is-horizontal-centered">
-            Support the advancement of decentralized AI
+              Support the advancement of decentralized AI
             </p>
           </div>
           <div class="column is-one-third mt-6" data-aos="fade-up" data-aos-delay="200">
             <img src="~assets/img/icons/chat-group.svg" height="80">
             <p class="has-limited-width-smaller is-horizontal-centered">
-            Be involved in the forefront of Nosana's development and connect directly with the team
+              Be involved in the forefront of Nosana's development and connect directly with the team
             </p>
           </div>
           <div class="column is-one-third mt-6" data-aos="fade-up" data-aos-delay="400">
             <img src="~assets/img/icons/server.svg" height="80">
             <p class="has-limited-width-smaller is-horizontal-centered">
-            Utilize your existing hardware for generating a passive income
+              Utilize your existing hardware for generating a passive income
             </p>
           </div>
         </div>
@@ -211,7 +225,7 @@ export default {
         { question: 'Do I need a blockchain wallet?', answer: 'For the registration you will need a Solana address to receive your access key NFT on.<br>When joining the test grid we recommend that you generate a new Solana keypair with a small amount of SOL for transaction fees. Instructions on how to do this will be included in the registration guide that will be available on 1-12-2024.' },
         { question: 'How do I know if I’m selected for the Test Grid?', answer: 'You will receive an email with instructions once you get selected for the Test Grid.<br>Did you submit your registration but did not receive an email? Our Test Grid is most likely oversubscribed, but we will onboard more participants as the Test Grid progresses.' },
         { question: 'What kinds of tests will I need to do?', answer: 'During the Incentivized GPU Testnet there will be a selection of markets running different workloads. The workload will include generic stress-tests, light workloads, and different AI-inference models.' },
-        { question: 'How much $NOS will I earn?', answer: 'The exact amount of NOS you can earn during this program will be shared when the registration opens. There are multiple ways you can earn rewards:<br><br>- Once your ran the benchmark job and get accepted, you will receive a base reward price<br>- For each workload you run you will receive a specific NOS reward<br>- There will be several challenges during the Test Grid that pay out additional rewards, some of which require KYC.' },
+        { question: 'How much $NOS will I earn?', answer: 'The exact amount of NOS you can earn during this program will be shared when the registration opens. There are multiple ways you can earn rewards:<br><br>- Once you run the benchmark job and get accepted, you will receive a base reward price<br>- For each workload you run you will receive a specific NOS reward<br>- There will be several challenges during the Test Grid that pay out additional rewards, some of which require KYC.' },
         { question: 'How long will Phase 1 last?', answer: 'It will run at least until the 10th of January - but can be extended based on the distributed rewards.' }
       ]
     };
