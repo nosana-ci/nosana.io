@@ -20,11 +20,10 @@
               <!--   Try it out now -->
               <!-- </a> -->
               <a
-                href="https://docs.nosana.io"
-                target="_blank"
+                href="https://nosana.io/test-grid"
                 class="ml-2 button is-accent is-wide"
               >
-                Explore the docs
+                Join the Test Grid
               </a>
             </div>
           </div>
