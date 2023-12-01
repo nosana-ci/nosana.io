@@ -19,11 +19,11 @@
               </p>
               <p class="block">
                 <a
-                  href="#"
+                  target="_blank"
+                  href="https://forms.gle/d6Copk6W4TAMDY5n8"
                   class="mr-3 button is-accent is-wide"
-                  disabled
                 >
-                  <b>Registrations open on 12/1/2023</b>
+                  <b>Register for Nosana Test Grid</b>
                 </a>
               </p>
             </div>
@@ -139,7 +139,7 @@
                   <td class="py-2">
                     NVIDIA RTX A6000
                   </td>
-                  <td class="py-2"></td>
+                  <td class="py-2" />
                 </tr>
               </tbody>
             </table>
