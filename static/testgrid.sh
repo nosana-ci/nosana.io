@@ -122,7 +122,7 @@
 
       log_std "🔥 Starting Nosana-Node..."
       # Start Nosana-Node
-      docker run \
+      docker run -d \
         --pull=always \
         --name nosana-node \
         --network host  \
@@ -132,6 +132,11 @@
           --network $SOL_NET_ENV \
           --podman http://$(ip addr show eth0 | grep -oP '(?<=inet\s)\d+(\.\d+){3}'):8080 \
           start --market $USER_NOS_MARKET_ADDRESS
+
+      log_std "Nosana Node running in background, attaching to logs to show status. You can close this window at any time."
+      log_std "To check logs run: docker logs -f nosana-node"
+
+      docker logs -f nosana-node
 
     else
       log_std "🔎 Checking if Nvidia Container Toolkit is configured.."
@@ -159,7 +164,7 @@
 
       log_std "🔥 Starting Nosana-Node..."
       # Start Nosana-Node
-      docker run \
+      docker run -d \
         --pull=always \
         --name nosana-node \
         --network host  \
@@ -169,6 +174,11 @@
           --network $SOL_NET_ENV \
           --podman http://localhost:8080  \
           start --market $USER_NOS_MARKET_ADDRESS
+
+      log_std "Nosana Node running in background, attaching to logs to show status. You can close this window at any time."
+      log_std "To check logs run: docker logs -f nosana-node"
+
+      docker logs -f nosana-node
     fi
   }
 
