@@ -5,18 +5,9 @@
 
 { # this ensures the entire script is downloaded
 
-  die () {
-    echo >&2 "$@"
-    exit 1
-  }
-
   main() {
     if ! check_cmd lsb_release; then
       log_err "🧯 Not running ubuntu."
-      exit 1;
-    fi
-    if [ "$1" = "" ]; then
-      log_err "🧯 Market argument required."
       exit 1;
     fi
     if cat /proc/version | grep -q 'WSL2'; then
@@ -36,9 +27,9 @@
     log_std "🔥 Initializing Nosana-Node."
 
     # read -rp "Which network: devnet or mainnet? (default: devnet) " SOL_NET_ENV
-    SOL_NET_ENV="${SOL_NET_ENV:=mainnet}"
-    # read -rp "Please enter Nosana Market Address: " USER_NOS_MARKET_ADDRESS
-    USER_NOS_MARKET_ADDRESS="${USER_NOS_MARKET_ADDRESS:=$1}"
+    SOL_NET_ENV="${SOL_NET_ENV:=devnet}"
+    # read -rp "Please enter Nosana Market Address: (default: 2kNSniTBsLCioSr4dgdZh6S1JKQc8cZQvxrPWkEn1ERj)" USER_NOS_MARKET_ADDRESS
+    USER_NOS_MARKET_ADDRESS="${USER_NOS_MARKET_ADDRESS:=2kNSniTBsLCioSr4dgdZh6S1JKQc8cZQvxrPWkEn1ERj}"
 
     # Make sure that the basics are installed
     downloader --check
@@ -122,7 +113,7 @@
 
       log_std "🔥 Starting Nosana-Node..."
       # Start Nosana-Node
-      docker run -d \
+      docker run \
         --pull=always \
         --name nosana-node \
         --network host  \
@@ -131,12 +122,7 @@
         nosana/nosana-node \
           --network $SOL_NET_ENV \
           --podman http://$(ip addr show eth0 | grep -oP '(?<=inet\s)\d+(\.\d+){3}'):8080 \
-          start --market $USER_NOS_MARKET_ADDRESS
-
-      log_std "Nosana Node running in background, attaching to logs to show status. You can close this window at any time."
-      log_std "To check logs run: docker logs -f nosana-node"
-
-      docker logs -f nosana-node
+          join-test-grid    
 
     else
       log_std "🔎 Checking if Nvidia Container Toolkit is configured.."
@@ -164,7 +150,7 @@
 
       log_std "🔥 Starting Nosana-Node..."
       # Start Nosana-Node
-      docker run -d \
+      docker run \
         --pull=always \
         --name nosana-node \
         --network host  \
@@ -173,12 +159,7 @@
         nosana/nosana-node \
           --network $SOL_NET_ENV \
           --podman http://localhost:8080  \
-          start --market $USER_NOS_MARKET_ADDRESS
-
-      log_std "Nosana Node running in background, attaching to logs to show status. You can close this window at any time."
-      log_std "To check logs run: docker logs -f nosana-node"
-
-      docker logs -f nosana-node
+          join-test-grid        
     fi
   }
 
