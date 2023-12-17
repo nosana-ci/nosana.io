@@ -17,7 +17,7 @@ In response, we’re introducing an innovative, sustainable solution. We’re cr
 Our strategy emphasizes the efficient utilization of existing resources. By tapping into idle GPUs on personal computers and small-scale servers, we unlock a vast, untapped resource. We envision that this will not only provide a much-needed boost to GPU availability but also encourage a culture of resource efficiency, which is crucial in our transition to a more sustainable future.
 
 <div style="width: 60%; margin: 0 auto;">
-<img alt="The Environmental Impact of Centralized Data Centers" src="/img/green_tech.png />
+<img alt="The Environmental Impact of Centralized Data Centers" src="/img/green_tech.png" />
 </div>
 
 ### The Environmental Impact of Centralized Data Centers
