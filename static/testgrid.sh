@@ -89,6 +89,13 @@
     fi
     
     # If podman/node are already running, stop it.
+    if [ $(docker ps -a --format {{.Names}} -f name=nosana-node) ]; then
+      if [ ! -d "logs" ]; then
+        mkdir logs
+      fi
+      docker logs nosana-node >& logs/nosana-node-$(date +%m-%d-%y:%H:%M:%S).log
+    fi
+
     docker rm --force podman nosana-node &>/dev/null
     kill -9 `pidof podman` &>/dev/null
     if [[ $WSL2 == true ]]; then
