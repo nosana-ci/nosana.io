@@ -22,7 +22,7 @@ This transition isn't merely a business decision; it's a commitment to pushing t
 Throughout 2023, Nosana laid the foundation for a future where a decentralized community governs AI inference. Our team attended and spoke at several events, including EthCC Paris, Solana Hacker House, and most recently Solana Breakpoint, to name a few. Beyond attending these larger conferences, we also organized and attended meetups, hackathons, and other gatherings, enabling us to connect with the Nosana community and gain a deeper understanding of their needs and aspirations. These interactions were undoubtedly a highlight of the year! 
 
 <div style="width: 60%; margin: 0 auto;">
-<img alt="Machine Learning vs Deep Learning" src="/img/IMG_2680(1).jpg" />
+<img alt="Machine Learning vs Deep Learning" src="/img/IMG_2680 (1).jpg" />
 </div>
 
 ### Incentivized Public Test Grid
