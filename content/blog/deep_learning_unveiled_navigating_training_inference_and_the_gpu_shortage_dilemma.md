@@ -2,7 +2,7 @@
 title: "Deep Learning Unveiled: Navigating Training, Inference, and the GPU Shortage Dilemma"
 description: "Right now this field is facing a big problem: there aren't enough GPUs"
 img: /img/learning_inference.png
-createdAt: '2023-01-11'
+createdAt: '2024-01-11'
 ---
 Deep learning is one of the most important technologies in the rapidly changing field of artificial intelligence (AI). It drives new ideas in many areas. But right now, this field is facing a big problem: there aren't enough GPUs. This is affecting both training and inference, which are very important parts of AI growth. Innovative blockchain-based solutions like our GPU-compute grid are appearing, providing options that can be scaled up and are cost-effective.
 
