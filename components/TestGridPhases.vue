@@ -8,7 +8,7 @@
           </div>
           <div class="px-5">
             <h2 class="subtitle is-3 has-text-centered">
-              12/10/2023 → 1/10/2024
+              12/10/2023 → 1/31/2024
             </h2>
             <ul>
               <li>
