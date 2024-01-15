@@ -122,7 +122,7 @@
         log_err "🧯 Nvidia Container Toolkit is not configured."
         log_err "🔋 Please follow configuration instructions here: https://docs.nosana.io/nodes/testgrid-windows.html#configure-the-nvidia-container-toolkit "
         log_err "🧯 If Nvidia Container Toolkit has been re-configured."
-        log_err "🔋 Please removed unused podman resources to ensure ensure free disk space. If you DO NOT use podman for any other use then run podman system prune. If you do require podman then please manually remove unused images and volumns."
+        log_err "🔋 Please removed unused podman resources. If you DO NOT use podman for anything outside of Nosana, simply run 'podman system prune' or else please manually remove unused podman images and volumes."
         exit 1
       fi
 
@@ -144,7 +144,7 @@
         log_err "🧯 Nvidia Container Toolkit is not configured."
         log_err "🔋 Please follow configuration instructions here: https://docs.nosana.io/nodes/testgrid-ubuntu.html#linux-configure-the-nvidia-container-toolkit "
         log_err "🧯 If Nvidia Container Toolkit has been re-configured."
-        log_err "🔋 Please removed unused podman resources to ensure ensure free disk space. If you DO NOT use podman for any other use then run 'podman system prune' or else manually remove unused images and volumns."
+        log_err "🔋 Please removed unused podman resources. If you DO NOT use podman for anything outside of Nosana, simply run 'podman system prune' or else please manually remove unused podman images and volumes."
         exit 1
       fi
       
@@ -182,13 +182,14 @@
 
     if [[ $NOSANA_NODE_VERBOSE == true ]]; then
       NOSANA_NODE_ARGS+=(-v);
+      log_std "🔥 Starting Nosana-Node with verbose logging..."
+    else
+      log_std "🔥 Starting Nosana-Node..."
     fi
 
     NOSANA_NODE_ARGS+=(
       start --market "$USER_NOS_MARKET_ADDRESS"
     )
-
-    log_std "🔥 Starting Nosana-Node..."
 
     docker run -d \
       --pull=always \
