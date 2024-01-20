@@ -19,13 +19,12 @@
               <!-- <a href="https://app.nosana.io" target="_blank" class="button is-accent mr-2"> -->
               <!--   Try it out now -->
               <!-- </a> -->
-              <a
-                href="https://docs.nosana.io"
-                target="_blank"
+              <nuxt-link
+                to="/test-grid"
                 class="ml-2 button is-accent is-wide"
               >
-                Explore the docs
-              </a>
+                Join the Test Grid
+              </nuxt-link>
             </div>
           </div>
           <!-- <div class="column yaml-bg">
