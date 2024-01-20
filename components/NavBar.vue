@@ -110,7 +110,7 @@
                   <i class="fab fa-twitter mr-2" aria-hidden="true" />
                   <span>Twitter</span>
                 </a>
-                <a href="https://discord.gg/nosana" target="_blank" class="navbar-item">
+                <a href="https://https://discord.gg/nosana-ai" target="_blank" class="navbar-item">
                   <i class="fab fa-discord mr-2" aria-hidden="true" />
                   <span>Discord</span>
                 </a>

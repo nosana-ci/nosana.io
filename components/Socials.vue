@@ -17,7 +17,7 @@ export default {
           icon: 'twitter'
         },
         {
-          link: 'https://discord.gg/nosana',
+          link: 'https://https://discord.gg/nosana-ai',
           icon: 'discord'
         },
         {
