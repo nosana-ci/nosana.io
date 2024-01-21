@@ -47,6 +47,6 @@ Follow these steps diligently to ensure a smooth integration process and success
 
 ### Join the AI Revolution
 
-This groundbreaking project awaits your participation. By joining Nosana's Test Grid, you contribute significantly to the future of AI technology. We invite you to embark on this path of technological advancement and innovation in AI. Join our [Discord server](https://discord.gg/Nosana), where you can connect directly with the technical team. 
+This groundbreaking project awaits your participation. By joining Nosana's Test Grid, you contribute significantly to the future of AI technology. We invite you to embark on this path of technological advancement and innovation in AI. Join our [Discord server](https://discord.gg/Nosana-ai), where you can connect directly with the technical team. 
 
 We look forward to seeing you on the grid!

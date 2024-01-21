@@ -41,4 +41,4 @@ Training and inference have a synergistic relationship. The effectiveness of inf
 
 The investigation of deep learning training versus inference, together with the difficulties faced by the GPU shortage, highlights a watershed point in AI development. The introduction of blockchain-based solutions such as our GPU-compute grid is more than just a reaction to these issues; it is a forward-thinking approach that has the potential to reshape the landscape of AI development. Scalable, accessible, and cost-effective computational resources are critical for the advancement of technology, which in turn allows AI to advance, and we need a level playing field to stimulate innovation across all industries. 
 
-Want to learn more? Visit our [Discord server](https://discord.gg/Nosana) to understand how you can get involved in what we're doing. 
+Want to learn more? Visit our [Discord server](https://discord.gg/Nosana-ai) to understand how you can get involved in what we're doing. 
