@@ -16,7 +16,7 @@ The introduction of NVIDIA's new generation of hardware at GTC 2023 demonstrated
 NVIDIA's latest H100 GPUs, based on the Hopper architecture, exemplify this advancement. They are integrated into the NVIDIA DGX H100 platform, which provides an immense 32 petaFLOPS of compute performance. This platform is also accessible in the cloud through partners like Oracle, Microsoft, and Amazon Web Services, indicating a shift towards more scalable and flexible AI computing resources​​.
 NVIDIA has introduced specialized hardware like the NVIDIA L4, a low-profile accelerator for AI and graphics capable of running models and encoding video up to 120 times faster than CPU-based platforms. The NVIDIA L40, another variant, is tailored for AI-powered image generation, underscoring the diverse applications of these new GPUs. Also, the NVIDIA H100 NVL is a special chip for real-time large language model (LLM) inference. It is made to work with huge LLMs like ChatGPT and can make inferences up to 12 times faster than with older models.
 
-<div style="width: 60%; margin: 0 auto;">
+<div style="width: 100%; margin: 0 auto;">
 <img alt="NVIDIA GeForce RTX 4090" src="/img/4090.png" />
 </div>
 
@@ -26,7 +26,7 @@ These developments in GPU technology are transforming AI inference, making it fa
 
 Healthcare: AI inference is transforming medical diagnostics, enabling early disease identification and improving patient outcomes. Trained deep learning models analyze medical images, real-time patient vital signs, and electronic health records, providing invaluable insights for clinical decision-making and medical research.
 
-<div style="width: 60%; margin: 0 auto;">
+<div style="width: 100%; margin: 0 auto;">
 <img alt="Trained deep learning models analyze medical images." src="/img/chip.png" />
 </div>
 
