@@ -98,20 +98,9 @@ forms, and our team organized a Discord Live session to delve deeper
 into discussions on additional feedback. Undoubtedly, these
 interactions have been the most valuable aspects of our experience.
 
-- **Making the network more robust** During the Test Grid, there were
-cases where compute jobs could not be finalized due to external
-factors. The causes ranged from malfunctioning RPC nodes and
-congestion on Solana to GPU reliability. The Nosana software will be
-adapted to be more resilient when finalizing executed compute jobs, so
-nodes will not miss out on payments.
+- **Making the network more robust** During the Test Grid, there were cases where compute jobs could not be finalized due to external factors. The causes ranged from malfunctioning RPC nodes and congestion on Solana to GPU reliability. The Nosana software will be adapted to be more resilient when finalizing executed compute jobs, so nodes will not miss out on payments.
 
-- **Allow more flexible GPU setups** At several occasions,
-participants requested more flexibility when it comes to upgrading and
-switching GPUs. Some users with advanced multi-GPU setups could only
-contribute one GPU at a time. Others upgraded their GPU to maximize
-income or wanted to switch between different GPU models during the
-day. We intend to support all these scenarios in future versions of
-Nosana.
+- **Allow more flexible GPU setups** At several occasions, participants requested more flexibility when it comes to upgrading and switching GPUs. Some users with advanced multi-GPU setups could only contribute one GPU at a time. Others upgraded their GPU to maximize income or wanted to switch between different GPU models during the day. We intend to support all these scenarios in future versions of Nosana.
 
 <div style="width: 75%; margin: 0 auto;">
 <img alt="User feedback " src="/img/test-grid-feedback.png" />
