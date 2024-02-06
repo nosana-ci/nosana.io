@@ -86,7 +86,7 @@ Total job duration: 35,773.7 hours (or 1,490.6 days)
 Audio hours transcribed: 158,260.3 hours (or 6,594.2 days)
 Images generated: 935,097
 
-<div style="width: 75%; margin: 0 auto;">
+<div style="width: 100%; margin: 0 auto;">
 <img alt="AI-Inference workload log " src="/img/test-grid-inference-log.png" />
 </div>
 
@@ -113,7 +113,7 @@ income or wanted to switch between different GPU models during the
 day. We intend to support all these scenarios in future versions of
 Nosana.
 
-<div style="width: 100%; margin: 0 auto;">
+<div style="width: 75%; margin: 0 auto;">
 <img alt="User feedback " src="/img/test-grid-feedback.png" />
 </div>
 
