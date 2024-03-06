@@ -13,9 +13,8 @@
             <div class="has-limited-width-small mt-4">
               <p class="block">
                 Join us as an early adopter and build the foundation for the world's biggest
-                GPU-compute grid. With a total prize pool of 3
-                million $NOS tokens, this program is our way of recognizing and rewarding the contributions of our
-                community as we work together to make AI more accessible and powerful than ever before.
+                GPU-compute grid. We're working to make AI more accessible and powerful than ever before.
+                <br>
               </p>
               <p class="block">
                 <a
@@ -23,7 +22,25 @@
                   href="https://forms.gle/d6Copk6W4TAMDY5n8"
                   class="mr-3 button is-accent is-wide"
                 >
-                  <b>Register for Nosana Test Grid</b>
+                  <b>Become A Node On The Test Grid</b>
+                </a>
+              </p>
+            </div>
+            <div class="has-limited-width-small mt-4">
+              <p class="block">
+                The aim of our GPU compute grid is to provide a scalable, cost-efficient solution 
+                for AI computations, foster market innovation and meet the growing 
+                demand for advanced, energy-efficient GPUs. Register to take part 
+                and access complimentary, on-demand compute.
+                <br>
+              </p>
+              <p class="block">
+                <a
+                  target="_blank"
+                  href="https://forms.gle/QrqDokeC4eEjpEZa8"
+                  class="mr-3 button is-accent is-wide"
+                >
+                  <b>Get Access To GPU Power</b>
                 </a>
               </p>
             </div>

@@ -36,7 +36,7 @@
     <div class="px-6 m-2 py-4 has-radius has-text-centered">
       <small
         class="is-size-7"
-      ><span style="font-family: monospace">©</span> NOSANA 2023</small>
+      ><span style="font-family: monospace">©</span> NOSANA 2024</small>
     </div>
   </footer>
 </template>
