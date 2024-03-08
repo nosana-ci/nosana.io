@@ -28,10 +28,7 @@
             </div>
             <div class="has-limited-width-small mt-4">
               <p class="block">
-                The aim of our GPU compute grid is to provide a scalable, cost-efficient solution 
-                for AI computations, foster market innovation and meet the growing 
-                demand for advanced, energy-efficient GPUs. Register to take part 
-                and access complimentary, on-demand compute.
+                The aim of our GPU compute grid is to provide a scalable, cost-efficient solution for AI computations, foster market innovation and meet the growing demand for advanced, energy-efficient GPUs. Register to take part and access complimentary, on-demand compute.
                 <br>
               </p>
               <p class="block">
