@@ -27,14 +27,9 @@
                 Bootstrap the network with an initial supply of GPUs
               </li>
             </ul>
-            <p class="block has-text-centered">
-              <a
-                target="_blank"
-                href="https://forms.gle/d6Copk6W4TAMDY5n8"
-                class="mr-3 button is-accent is-wide"
-              >
-                <b>Register for Nosana Test Grid</b>
-              </a>
+            <p class="block has-text-centered has-text-weight-bold">
+              Test Grid Phase 1 is now successfully completed,
+              we thank all of our participants, and welcome them to Phase 2
             </p>
           </div>
         </div>
@@ -46,8 +41,31 @@
           </div>
           <div class="px-5">
             <h2 class="subtitle is-3 has-text-centered">
-              Feb 2024
+              Q2 2024
             </h2>
+            <ul>
+              <li>
+                Scaling up GPU grid capacity to 1000+ nodes, with automated node onboarding.
+              </li>
+              <li>
+                Focused testing on our improved node with enhanced functionality.
+              </li>
+              <li>
+                Onboarding and provision of real demand from selected projects and companies.
+              </li>
+              <li>
+                Ongoing performance testing and node monitoring.
+              </li>
+            </ul>
+            <p class="block has-text-centered">
+              <a
+                target="_blank"
+                href="https://forms.gle/QrqDokeC4eEjpEZa8"
+                class="mr-3 button is-accent is-wide"
+              >
+                <b>Get access to GPU Power</b>
+              </a>
+            </p>
           </div>
         </div>
       </div>
@@ -85,11 +103,11 @@ export default {
   position: relative;
   padding-bottom: 60px;
   margin-top: 5rem !important;
-  &:last-child {
-    .title, h2, ul {
-      mask-image: linear-gradient(to bottom, black 0%, transparent 100%);
-    }
-  }
+//  &:last-child {
+//    .title, h2, ul {
+//      mask-image: linear-gradient(to bottom, black 0%, transparent 100%);
+//    }
+//  }
   &:before {
     content: '';
     position: absolute;

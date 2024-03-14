@@ -83,7 +83,7 @@
             Requirements
           </h2>
           <p class="has-limited-width-small is-horizontal-centered">
-            During the first phase of the Test Grid you will require an NVIDIA GPU with CUDA.
+            During the first two phases of the Test Grid you will require an NVIDIA GPU with CUDA.
             The following list of models will be supported, other cards will be reviewed.
           </p>
           <div class="table-container mt-3">
@@ -237,12 +237,12 @@ export default {
     return {
       faqs: [
         { question: 'My GPU model is not listed above, can I still join?', answer: 'The list of GPU models is not exhaustive. If you have a different model you can still register for the Test Grid, your GPU will then be reviewed and potentially added to the grid (if not now, then in a later phase).' },
-        { question: 'How do I register for the Test Grid?', answer: 'The registration involves 2 steps:<br> - Registering your GPU hardware on the Nosana Network <br> - Filling out an application form.<br> An in-depth tutorial on this will be released when the Test Grid opens on 1-12-2024 ' },
-        { question: 'Do I need a blockchain wallet?', answer: 'For the registration you will need a Solana address to receive your access key NFT on.<br>When joining the test grid we recommend that you generate a new Solana keypair with a small amount of SOL for transaction fees. Instructions on how to do this will be included in the registration guide that will be available on 1-12-2024.' },
+        { question: 'How do I register for the Test Grid?', answer: 'The registration involves 2 steps:<br> - Registering your GPU hardware on the Nosana Network <br> - Filling out an application form.<br> In-depth tutorial can be found here: <a href="https://docs.nosana.io/nodes/testgrid.html" target="_blank">https://docs.nosana.io/nodes/testgrid.html</a>' },
+        { question: 'Do I need a blockchain wallet?', answer: 'For the registration you will need a Solana address to receive your access key NFT on.<br>When joining the test grid we recommend that you generate a new Solana keypair with a small amount of SOL for transaction fees. Instructions on how to do this can be found in the <a href="https://docs.nosana.io/nodes/testgrid.html" target="_blank">Registration guide</a>.' },
         { question: 'How do I know if I’m selected for the Test Grid?', answer: 'You will receive an email with instructions once you get selected for the Test Grid.<br>Did you submit your registration but did not receive an email? Our Test Grid is most likely oversubscribed, but we will onboard more participants as the Test Grid progresses.' },
-        { question: 'What kinds of tests will I need to do?', answer: 'During the Incentivized GPU Testnet there will be a selection of markets running different workloads. The workload will include generic stress-tests, light workloads, and different AI-inference models.' },
+        { question: 'What kinds of tests will I need to do?', answer: 'During the Incentivized GPU Test Grid there will be a selection of markets running various AI workloads.  These workloads may include generic stress and performance test, light workloads, and more robust workloads for higher powered GPU’s.' },
         { question: 'How much $NOS will I earn?', answer: 'The exact amount of NOS you can earn during this program will be shared when the registration opens. There are multiple ways you can earn rewards:<br><br>- Once you run the benchmark job and get accepted, you will receive a base reward price<br>- For each workload you run you will receive a specific NOS reward<br>- There will be several challenges during the Test Grid that pay out additional rewards, some of which require KYC.' },
-        { question: 'How long will Phase 1 last?', answer: 'It will run at least until the 10th of January - but can be extended based on the distributed rewards.' }
+        { question: 'How long will Phase 2 last?', answer: 'Phase 2 is expected to run until the beginning of July 2024 - but can be extended based on the distributed rewards' }
       ]
     };
   }
