@@ -41,11 +41,11 @@
           </div>
           <div class="px-5">
             <h2 class="subtitle is-3 has-text-centered">
-              Q2 2024
+              April - June 2024
             </h2>
             <ul>
               <li>
-                Scaling up GPU grid capacity to 1000+ nodes, with automated node onboarding.
+                Scale up our GPU grid capacity to 1000+ nodes, with automated node onboarding.
               </li>
               <li>
                 Focused testing on our improved node with enhanced functionality.
