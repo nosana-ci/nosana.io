@@ -19,6 +19,9 @@
       log_err "🧯 Market argument required."
       exit 1;
     fi
+    if [[ $2 == "verbose" ]]; then
+      NOSANA_NODE_VERBOSE=true
+    fi
     if cat /proc/version | grep -q 'WSL2'; then
       WSL2=true
     fi
@@ -89,6 +92,13 @@
     fi
     
     # If podman/node are already running, stop it.
+    if [ $(docker ps -a --format {{.Names}} -f name=nosana-node) ]; then
+      if [ ! -d "logs" ]; then
+        mkdir logs
+      fi
+      docker logs nosana-node >& logs/nosana-node-$(date +%m-%d-%y:%H:%M:%S).log
+    fi
+
     docker rm --force podman nosana-node &>/dev/null
     kill -9 `pidof podman` &>/dev/null
     if [[ $WSL2 == true ]]; then
@@ -111,6 +121,8 @@
       else
         log_err "🧯 Nvidia Container Toolkit is not configured."
         log_err "🔋 Please follow configuration instructions here: https://docs.nosana.io/nodes/testgrid-windows.html#configure-the-nvidia-container-toolkit "
+        log_err "🧯 If Nvidia Container Toolkit has been re-configured."
+        log_err "🔋 Please removed unused podman resources. If you DO NOT use podman for anything outside of Nosana, simply run 'podman system prune' or else please manually remove unused podman images and volumes."
         exit 1
       fi
 
@@ -122,21 +134,7 @@
 
       log_std "🔥 Starting Nosana-Node..."
       # Start Nosana-Node
-      docker run -d \
-        --pull=always \
-        --name nosana-node \
-        --network host  \
-        --interactive \
-        --volume ~/.nosana/:/root/.nosana/ \
-        nosana/nosana-node \
-          --network $SOL_NET_ENV \
-          --podman http://$(ip addr show eth0 | grep -oP '(?<=inet\s)\d+(\.\d+){3}'):8080 \
-          start --market $USER_NOS_MARKET_ADDRESS
-
-      log_std "Nosana Node running in background, attaching to logs to show status. You can close this window at any time."
-      log_std "To check logs run: docker logs -f nosana-node"
-
-      docker logs -f nosana-node
+      nosana_run_cmd
 
     else
       log_std "🔎 Checking if Nvidia Container Toolkit is configured.."
@@ -145,10 +143,12 @@
       else
         log_err "🧯 Nvidia Container Toolkit is not configured."
         log_err "🔋 Please follow configuration instructions here: https://docs.nosana.io/nodes/testgrid-ubuntu.html#linux-configure-the-nvidia-container-toolkit "
+        log_err "🧯 If Nvidia Container Toolkit has been re-configured."
+        log_err "🔋 Please removed unused podman resources. If you DO NOT use podman for anything outside of Nosana, simply run 'podman system prune' or else please manually remove unused podman images and volumes."
         exit 1
       fi
-
-      log_std "🔥 Starting podman in docker..."
+      
+      log_std "🔥 Starting podman..."
       # Start Podman in docker
       docker run -d \
         --pull=always \
@@ -162,24 +162,48 @@
 
       sleep 5 # wait for podman to start
 
-      log_std "🔥 Starting Nosana-Node..."
       # Start Nosana-Node
-      docker run -d \
-        --pull=always \
-        --name nosana-node \
-        --network host  \
-        --interactive \
-        --volume ~/.nosana/:/root/.nosana/ \
-        nosana/nosana-node \
-          --network $SOL_NET_ENV \
-          --podman http://localhost:8080  \
-          start --market $USER_NOS_MARKET_ADDRESS
+      nosana_run_cmd
 
-      log_std "Nosana Node running in background, attaching to logs to show status. You can close this window at any time."
-      log_std "To check logs run: docker logs -f nosana-node"
-
-      docker logs -f nosana-node
     fi
+  }
+
+  # Build nosana run command
+  nosana_run_cmd() {
+    NOSANA_NODE_ARGS=(
+      --network "$SOL_NET_ENV"
+    )
+
+    if [[ $WSL2 == true ]]; then
+      NOSANA_NODE_ARGS+=(--podman "http://$(ip addr show eth0 | grep -oP '(?<=inet\s)\d+(\.\d+){3}'):8080")
+    else 
+      NOSANA_NODE_ARGS+=(--podman http://localhost:8080)
+    fi
+
+    if [[ $NOSANA_NODE_VERBOSE == true ]]; then
+      NOSANA_NODE_ARGS+=(-v);
+      log_std "🔥 Starting Nosana-Node with verbose logging..."
+    else
+      log_std "🔥 Starting Nosana-Node..."
+    fi
+
+    NOSANA_NODE_ARGS+=(
+      start --market "$USER_NOS_MARKET_ADDRESS"
+    )
+
+    docker run -d \
+      --pull=always \
+      --name nosana-node \
+      --network host  \
+      --interactive \
+      --volume ~/.nosana/:/root/.nosana/ \
+      nosana/nosana-node \
+        ${NOSANA_NODE_ARGS[@]}
+
+    log_std "Nosana Node running in background, attaching to logs to show status. You can close this window at any time."
+    log_std "To check logs run: docker logs -f nosana-node"
+
+    docker logs -f nosana-node
   }
 
   # shell swag
@@ -240,6 +264,7 @@
       err "Unknown downloader" # should not reach here
     fi
   }
+  
 
   main "$@"
 
