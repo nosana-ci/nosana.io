@@ -13,7 +13,7 @@ export default {
     return {
       socials: [
         {
-          link: 'https://twitter.com/nosana_ci',
+          link: 'https://twitter.com/nosana_ai',
           icon: 'twitter'
         },
         {
