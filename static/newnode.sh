@@ -122,23 +122,18 @@
 
       log_std "🔥 Starting Nosana-Node..."
       # Start Nosana-Node
-      docker run -d \
+      docker run \
         --pull=always \
         --name nosana-node \
         --network host  \
-        --interactive \
+        --interactive -t \
         --volume ~/.nosana/:/root/.nosana/ \
-        nosana/nosana-cli \
+        nosana/nosana-cli nosana node start $USER_NOS_MARKET_ADDRESS \
           --network $SOL_NET_ENV \
           --podman http://$(ip addr show eth0 | grep -oP '(?<=inet\s)\d+(\.\d+){3}'):8080 \
-          --rpc https://rpc.ironforge.network/mainnet?apiKey=01HSGSY23DXCE3SWPGQK5H4XPT \
-          start --market $USER_NOS_MARKET_ADDRESS
-
-      log_std "Nosana Node running in background, attaching to logs to show status. You can close this window at any time."
-      log_std "To check logs run: docker logs -f nosana-node"
-
-      docker logs -f nosana-node
-
+          --rpc https://rpc.ironforge.network/mainnet?apiKey=01HSGSY23DXCE3SWPGQK5H4XPT
+      log_std "\nNosana Node finished"
+      
     else
       log_std "🔎 Checking if Nvidia Container Toolkit is configured.."
       if docker run --gpus all nvidia/cuda:11.0.3-base-ubuntu18.04 nvidia-smi &>/dev/null; then
@@ -165,11 +160,11 @@
 
       log_std "🔥 Starting Nosana-Node..."
       # Start Nosana-Node
-      docker run -d \
+      docker run  \
         --pull=always \
         --name nosana-node \
         --network host  \
-        --interactive \
+        --interactive -t \
         --volume ~/.nosana/:/root/.nosana/ \
         nosana/nosana-cli \
           --network $SOL_NET_ENV \
@@ -177,10 +172,7 @@
           --rpc https://rpc.ironforge.network/mainnet?apiKey=01HSGSY23DXCE3SWPGQK5H4XPT \
           start --market $USER_NOS_MARKET_ADDRESS
 
-      log_std "Nosana Node running in background, attaching to logs to show status. You can close this window at any time."
-      log_std "To check logs run: docker logs -f nosana-node"
-
-      docker logs -f nosana-node
+      log_std "\nNosana Node finished."
     fi
   }
 
