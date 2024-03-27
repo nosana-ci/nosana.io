@@ -116,7 +116,7 @@
 
       log_std "🔥 Starting podman..."
       # Start Podman
-      podman system service --time 0 tcp:0.0.0.0:8080&
+      { podman system service --time 0 tcp:0.0.0.0:8080 & } 2> podman.log
 
       sleep 5 # wait for podman to start
 
