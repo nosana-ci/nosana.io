@@ -166,11 +166,10 @@
         --network host  \
         --interactive -t \
         --volume ~/.nosana/:/root/.nosana/ \
-        nosana/nosana-cli \
+        nosana/nosana-cli nosana node start $USER_NOS_MARKET_ADDRESS \
           --network $SOL_NET_ENV \
           --podman http://localhost:8080  \
-          --rpc https://rpc.ironforge.network/mainnet?apiKey=01HSGSY23DXCE3SWPGQK5H4XPT \
-          start --market $USER_NOS_MARKET_ADDRESS
+          --rpc https://rpc.ironforge.network/mainnet?apiKey=01HSGSY23DXCE3SWPGQK5H4XPT
 
       log_std "\nNosana Node finished."
     fi
