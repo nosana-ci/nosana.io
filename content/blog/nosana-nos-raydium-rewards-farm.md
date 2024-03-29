@@ -32,4 +32,4 @@ After the transaction is confirmed, you should be staked and now earning $NOS on
 That's it. You should be able to receive $NOS Rewards from Raydium's Ecosystem Farm if you follow the steps in this article.
 
 ### Who's in the pool? 
-Let us know if you've made a splash in the liquidity pool in the comments section below. Join our [Telegram](https://t.me/NosanaCompute) or [Discord](https://discord.gg/Nosana) server to stay up-to-date on our latest developments and news updates.
+Let us know if you've made a splash in the liquidity pool in the comments section below. Join our [Telegram](https://t.me/NosanaCompute) or [Discord](https://discord.gg/nosana-ai) server to stay up-to-date on our latest developments and news updates.

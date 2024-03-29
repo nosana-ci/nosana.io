@@ -13,11 +13,11 @@ export default {
     return {
       socials: [
         {
-          link: 'https://twitter.com/nosana_ci',
+          link: 'https://twitter.com/nosana_ai',
           icon: 'twitter'
         },
         {
-          link: 'https://discord.gg/nosana',
+          link: 'https://discord.gg/nosana-ai',
           icon: 'discord'
         },
         {

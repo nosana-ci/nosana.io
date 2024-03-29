@@ -122,7 +122,7 @@
         </div>
         <div class="has-text-centered mt-6 pt-6" data-aos="zoom-in">
           <a
-            href="https://discord.gg/nosana"
+            href="https://discord.gg/nosana-ai"
             target="_blank"
             class="button is-accent is-outlined is-wide"
           >

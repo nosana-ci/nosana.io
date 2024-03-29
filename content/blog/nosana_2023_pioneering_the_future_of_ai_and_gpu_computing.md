@@ -55,4 +55,4 @@ Thank you for a fantastic 2023, and here's to an even brighter 2024.
 ______
 
 For more details, visit Nosana's [roadmap](https://docs.nosana.io/about/roadmap.html), which outlines the plans and milestones for the near future. 
-Join us on our journey by heading to our [Discord server](https://discord.gg/Nosana) and discovering how you can participate in our GPU compute grid.
+Join us on our journey by heading to our [Discord server](https://discord.gg/Nosana-ai) and discovering how you can participate in our GPU compute grid.

@@ -32,6 +32,6 @@ The Test Grid Phase 1 is a virtual event that starts on December 10th and runs u
 
 Here are the next steps you should take to stay updated:
 
-* Join our [Telegram](https://t.me/NosanaCompute) chat and [Discord](https://discord.gg/Nosana) server
+* Join our [Telegram](https://t.me/NosanaCompute) chat and [Discord](https://discord.gg/nosana-ai) server
 * Ensure you are signed up for updates [HERE](https://forms.gle/2t2eam3f6CTGoosXA)
 * Share this article with your friends and colleagues!
