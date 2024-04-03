@@ -39,11 +39,14 @@ Additionally, a small number of successful registrants had issues with their GPU
 
 Glad you asked! As mentioned earlier, Phase 2 focuses on two key areas: extensively testing the enhanced Node V2 and expanding the variety of AI jobs. To ensure the new node's functionality and capacity before onboarding major AI projects, we'll conduct a phased testing approach in April.
 
-    + **Initial Testing of Node V2:** Already in progress, with a select group of Phase 1 testers trying out the new node in a special market created for this purpose. This preliminary test runs through the second week of April.
+#### **Initial Testing of Node V2:** 
+Already in progress, with a select group of Phase 1 testers trying out the new node in a special market created for this purpose. This preliminary test runs through the second week of April.
 
-    + **Load Testing of Node V2:**  On April 15th, we’ll start expanding testing to include all Phase 1 testers, ensuring the node’s functions and capacity are optimal, including the adjustments made to overcome Solana’s congestion issues. This intensive testing phase is essential before we bring over 1000 new nodes onto the grid and will last about two weeks.
+#### **Load Testing of Node V2:**  
+On April 15th, we’ll start expanding testing to include all Phase 1 testers, ensuring the node’s functions and capacity are optimal, including the adjustments made to overcome Solana’s congestion issues. This intensive testing phase is essential before we bring over 1000 new nodes onto the grid and will last about two weeks.
 
-    + **Onboarding:**  The date that **everyone** is waiting for — assuming the initial tests with a smaller sample size go wel— we will begin onboarding on approximately April 29th. With over 1000 nodes accepted, the development team tackled this head-on, and now, our onboarding process has been fully automated. If you’re registered and accepted for Phase 2, starting your node will automatically grant you the requisite access token and place you into the correct market, ready to run jobs.
+#### **Onboarding:**  
+The date that **everyone** is waiting for — assuming the initial tests with a smaller sample size go wel— we will begin onboarding on approximately April 29th. With over 1000 nodes accepted, the development team tackled this head-on, and now, our onboarding process has been fully automated. If you’re registered and accepted for Phase 2, starting your node will automatically grant you the requisite access token and place you into the correct market, ready to run jobs.
 
 Before introducing real-world AI projects, we want to ensure our grid is ready, targeting the first project onboarding for May 15th. This gives us ample time to identify and fix any lingering issues with the node before these projects begin providing inference jobs to the grid.
 
