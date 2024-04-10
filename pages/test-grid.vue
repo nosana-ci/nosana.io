@@ -22,7 +22,7 @@
                   href="https://forms.gle/d6Copk6W4TAMDY5n8"
                   class="mr-3 button is-accent is-wide"
                 >
-                  <b>Become A Node On The Test Grid</b>
+                  <b>Registrations are closed at this time.</b>
                 </a>
               </p>
             </div>
