@@ -18,6 +18,9 @@ Our core team is heading to Solana Hacker House Dubai edition to connect with bu
 * [R3al World @Token2049 Dubai](https://lu.ma/68zx260s) April 17
 * [DePIN2049](https://lu.ma/DePIN2049) April 18
 * [Decentralized Dialogues: Exploring AI and Decentralized Governance in Token2049](https://lu.ma/decentralized-dialogues-token2049) April 19
+    Jesse will be speaking at:
+        * Keynote Speech 5 by Nosana, 4: 20 PM - 4:40 PM
+        * Panel Discussion: Web3 Future Perspectives and Challenges with guests ZMQ, Animoca Brands, OKX Ventures, Outlier Ventures, and Nosana
 * [TRGC Infracon: AI Compute Edition](https://lu.ma/TRGC-Infracon-AI) April 19
 * [Arts DAO Fest](https://artsdaofest.com/) April 20-21
 
