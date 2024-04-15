@@ -128,11 +128,10 @@
 
       log_std "🔥 Starting podman..."
       # Start Podman
-      podman system service --time 0 tcp:0.0.0.0:8080&
+      { podman system service --time 0 tcp:0.0.0.0:8080 & } 2> podman.log
 
       sleep 5 # wait for podman to start
 
-      log_std "🔥 Starting Nosana-Node..."
       # Start Nosana-Node
       nosana_run_cmd
 
@@ -171,8 +170,10 @@
   # Build nosana run command
   nosana_run_cmd() {
     NOSANA_NODE_ARGS=(
-      --network "$SOL_NET_ENV"
+      node start "$USER_NOS_MARKET_ADDRESS"
     )
+    NOSANA_NODE_ARGS+=(--network "$SOL_NET_ENV")
+    NOSANA_NODE_ARGS+=(--rpc https://rpc.ironforge.network/mainnet?apiKey=01HV99468J2988SZ8P9J5RAM43)
 
     if [[ $WSL2 == true ]]; then
       NOSANA_NODE_ARGS+=(--podman "http://$(ip addr show eth0 | grep -oP '(?<=inet\s)\d+(\.\d+){3}'):8080")
@@ -181,29 +182,22 @@
     fi
 
     if [[ $NOSANA_NODE_VERBOSE == true ]]; then
-      NOSANA_NODE_ARGS+=(-v);
+      NOSANA_NODE_ARGS+=(--log trace);
       log_std "🔥 Starting Nosana-Node with verbose logging..."
     else
       log_std "🔥 Starting Nosana-Node..."
     fi
 
-    NOSANA_NODE_ARGS+=(
-      start --market "$USER_NOS_MARKET_ADDRESS"
-    )
-
-    docker run -d \
+    docker run \
       --pull=always \
       --name nosana-node \
       --network host  \
-      --interactive \
+      --interactive -t \
       --volume ~/.nosana/:/root/.nosana/ \
-      nosana/nosana-node \
+      nosana/nosana-cli nosana \
         ${NOSANA_NODE_ARGS[@]}
 
-    log_std "Nosana Node running in background, attaching to logs to show status. You can close this window at any time."
-    log_std "To check logs run: docker logs -f nosana-node"
-
-    docker logs -f nosana-node
+    log_std "\nNosana Node finished"
   }
 
   # shell swag

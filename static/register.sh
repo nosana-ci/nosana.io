@@ -6,6 +6,8 @@
 { # this ensures the entire script is downloaded
 
   main() {
+    log_err "🧯 Registrations currently closed, come back later."
+    exit 1;
     if ! check_cmd lsb_release; then
       log_err "🧯 Not running ubuntu."
       exit 1;
