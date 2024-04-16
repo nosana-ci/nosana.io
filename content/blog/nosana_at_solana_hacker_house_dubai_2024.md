@@ -16,13 +16,11 @@ Our core team is heading to Solana Hacker House Dubai edition to connect with bu
 * [Disrupt with DePIN](https://lu.ma/disrupt-depin-dubai) - Token 2049 April 16
 * [R3al World @Token2049 Dubai](https://lu.ma/68zx260s) April 17
 * [OFR Dubai | Singularity: AI X Crypto Convergence](https://lu.ma/ofr.dubai?utm_source=ep-ZadsfhFvm2) April 17
-* [Aethir DePIN Day Dubai](https://lu.ma/AethirDepinDayDubai) April 18
-    Jesse will be speaking at:
-        * AI Panel at 2:00 alongside Nick Emmons from Allora, Julian Peh from Kip Protocol, and Tomaz Levaki from Origin Trail
-* [Decentralized Dialogues: Exploring AI and Decentralized Governance in Token2049](https://lu.ma/decentralized-dialogues-token2049) April 19
-    Jesse will be speaking at:
-        * Keynote Speech 5 by Nosana, 4: 20 PM - 4:40 PM
-        * Panel Discussion: Web3 Future Perspectives and Challenges with guests ZMQ, Animoca Brands, OKX Ventures, Outlier Ventures, and Nosana
+* [Aethir DePIN Day Dubai](https://lu.ma/AethirDepinDayDubai) April 18. <br>Jesse will be speaking at:
+    * AI Panel at 2:00 alongside Nick Emmons from Allora, Julian Peh from Kip Protocol, and Tomaz Levaki from Origin Trail
+* [Decentralized Dialogues: Exploring AI and Decentralized Governance in Token2049](https://lu.ma/decentralized-dialogues-token2049) April 19<br>Jesse will be speaking at:
+    * Keynote Speech 5 by Nosana, 4: 20 PM - 4:40 PM
+    * Panel Discussion: Web3 Future Perspectives and Challenges with guests ZMQ, Animoca Brands, OKX Ventures, Outlier Ventures, and Nosana
 * [TRGC Infracon: AI Compute Edition](https://lu.ma/TRGC-Infracon-AI) April 19
 * [Arts DAO Fest](https://artsdaofest.com/) April 20
 
