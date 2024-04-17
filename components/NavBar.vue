@@ -112,7 +112,7 @@
                 <nuxt-link class="navbar-item" to="/blog" exact-active-class="is-active">
                   Blog
                 </nuxt-link>
-                <a href="https://twitter.com/nosana_ci" target="_blank" class="navbar-item">
+                <a href="https://twitter.com/nosana_ai" target="_blank" class="navbar-item">
                   <i class="fab fa-twitter mr-2" aria-hidden="true" />
                   <span>Twitter</span>
                 </a>
