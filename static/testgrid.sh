@@ -15,10 +15,10 @@
       log_err "🧯 Not running ubuntu."
       exit 1;
     fi
-    if [ "$1" = "" ]; then
-      log_err "🧯 Market argument required."
-      exit 1;
-    fi
+    # if [ "$1" = "" ]; then
+    #   log_err "🧯 Market argument required."
+    #   exit 1;
+    # fi
     if [[ $2 == "verbose" ]]; then
       NOSANA_NODE_VERBOSE=true
     fi
@@ -170,7 +170,7 @@
   # Build nosana run command
   nosana_run_cmd() {
     NOSANA_NODE_ARGS=(
-      node start "$USER_NOS_MARKET_ADDRESS"
+      node start
     )
     NOSANA_NODE_ARGS+=(--network "$SOL_NET_ENV")
     NOSANA_NODE_ARGS+=(--rpc https://rpc.ironforge.network/mainnet?apiKey=01HV99468J2988SZ8P9J5RAM43)
