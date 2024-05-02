@@ -96,7 +96,7 @@
       if [ ! -d "logs" ]; then
         mkdir logs
       fi
-      docker logs nosana-node >& logs/nosana-node-$(date +%m-%d-%y:%H:%M:%S).log
+      docker logs nosana-node >& logs/nosana-node.log
     fi
 
     docker rm --force podman nosana-node &>/dev/null
