@@ -157,7 +157,7 @@
         --privileged \
         -e ENABLE_GPU=true \
         -p 8080:8080 \
-        nosana/podman podman system service --time 0 tcp:0.0.0.0:8080
+        nosana/podman:latest podman system service --time 0 tcp:0.0.0.0:8080
 
       sleep 5 # wait for podman to start
 
@@ -194,7 +194,7 @@
       --network host  \
       --interactive -t \
       --volume ~/.nosana/:/root/.nosana/ \
-      nosana/nosana-cli nosana \
+      nosana/nosana-cli:latest nosana \
         ${NOSANA_NODE_ARGS[@]}
 
     log_std "\nNosana Node finished"
