@@ -173,7 +173,6 @@
       node start
     )
     NOSANA_NODE_ARGS+=(--network "$SOL_NET_ENV")
-    NOSANA_NODE_ARGS+=(--rpc https://rpc.ironforge.network/mainnet?apiKey=01HV99468J2988SZ8P9J5RAM43)
 
     if [[ $WSL2 == true ]]; then
       NOSANA_NODE_ARGS+=(--podman "http://$(ip addr show eth0 | grep -oP '(?<=inet\s)\d+(\.\d+){3}'):8080")
