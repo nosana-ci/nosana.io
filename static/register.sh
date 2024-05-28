@@ -6,8 +6,6 @@
 { # this ensures the entire script is downloaded
 
   main() {
-    log_err "🧯 Registrations currently closed, come back later."
-    exit 1;
     if ! check_cmd lsb_release; then
       log_err "🧯 Not running ubuntu."
       exit 1;
@@ -29,7 +27,7 @@
     log_std "🔥 Initializing Nosana-Node."
 
     # read -rp "Which network: devnet or mainnet? (default: devnet) " SOL_NET_ENV
-    SOL_NET_ENV="${SOL_NET_ENV:=devnet}"
+    SOL_NET_ENV="${SOL_NET_ENV:=mainnet}"
     # read -rp "Please enter Nosana Market Address: (default: 2kNSniTBsLCioSr4dgdZh6S1JKQc8cZQvxrPWkEn1ERj)" USER_NOS_MARKET_ADDRESS
     USER_NOS_MARKET_ADDRESS="${USER_NOS_MARKET_ADDRESS:=2kNSniTBsLCioSr4dgdZh6S1JKQc8cZQvxrPWkEn1ERj}"
 
@@ -119,12 +117,12 @@
         --pull=always \
         --name nosana-node \
         --network host  \
-        --interactive \
+        --interactive -t \
         --volume ~/.nosana/:/root/.nosana/ \
-        nosana/nosana-node \
+        nosana/nosana-cli:latest nosana \
+          node join-test-grid \
           --network $SOL_NET_ENV \
           --podman http://$(ip addr show eth0 | grep -oP '(?<=inet\s)\d+(\.\d+){3}'):8080 \
-          join-test-grid    
 
     else
       log_std "🔎 Checking if Nvidia Container Toolkit is configured.."
@@ -156,12 +154,13 @@
         --pull=always \
         --name nosana-node \
         --network host  \
-        --interactive \
+        --interactive -t \
         --volume ~/.nosana/:/root/.nosana/ \
-        nosana/nosana-node \
+        nosana/nosana-cli:latest nosana \
+          node join-test-grid \
           --network $SOL_NET_ENV \
           --podman http://localhost:8080  \
-          join-test-grid        
+
     fi
   }
 
