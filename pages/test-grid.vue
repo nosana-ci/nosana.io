@@ -158,7 +158,8 @@
                   <td class="py-2">
                     NVIDIA A100
                   </td>
-                <tr data-aos="fade-in" data-aos-delay+"500">
+                </tr>
+                <tr data-aos="fade-in" data-aos-delay="500">
                   <td class="py-2">
                     NVIDIA A400
                   </td>
