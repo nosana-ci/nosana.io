@@ -155,6 +155,17 @@
                   <td class="py-2">
                     NVIDIA RTX A6000
                   </td>
+                  <td class="py-2">
+                    NVIDIA A100
+                  </td>
+                </tr>
+                <tr data-aos="fade-in" data-aos-delay="500">
+                  <td class="py-2">
+                    NVIDIA A400
+                  </td>
+                  <td class="py-2">
+                    NVIDIA H100
+                  </td>
                   <td class="py-2" />
                 </tr>
               </tbody>
