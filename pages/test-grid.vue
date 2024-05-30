@@ -161,7 +161,7 @@
                 </tr>
                 <tr data-aos="fade-in" data-aos-delay="500">
                   <td class="py-2">
-                    NVIDIA A400
+                    NVIDIA A40
                   </td>
                   <td class="py-2">
                     NVIDIA H100
