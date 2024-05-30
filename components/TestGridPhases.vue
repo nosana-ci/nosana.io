@@ -41,7 +41,7 @@
           </div>
           <div class="px-5">
             <h2 class="subtitle is-3 has-text-centered">
-              April - June 2024
+              April - July 2024
             </h2>
             <ul>
               <li>
