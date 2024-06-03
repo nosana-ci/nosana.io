@@ -19,10 +19,10 @@
               <p class="block">
                 <a
                   target="_blank"
-                  href="https://forms.gle/d6Copk6W4TAMDY5n8"
+                  href="https://docs.nosana.io/nodes/testgrid.html#nosana-node"
                   class="mr-3 button is-accent is-wide"
                 >
-                  <b>Registrations are closed at this time.</b>
+                  <b>Register for Test Grid</b>
                 </a>
               </p>
             </div>
