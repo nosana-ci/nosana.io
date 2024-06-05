@@ -15,10 +15,6 @@
       log_err "🧯 Not running ubuntu."
       exit 1;
     fi
-    # if [ "$1" = "" ]; then
-    #   log_err "🧯 Market argument required."
-    #   exit 1;
-    # fi
     if [[ $2 == "verbose" ]]; then
       NOSANA_NODE_VERBOSE=true
     fi
@@ -40,8 +36,6 @@
 
     # read -rp "Which network: devnet or mainnet? (default: devnet) " SOL_NET_ENV
     SOL_NET_ENV="${SOL_NET_ENV:=mainnet}"
-    # read -rp "Please enter Nosana Market Address: " USER_NOS_MARKET_ADDRESS
-    USER_NOS_MARKET_ADDRESS="${USER_NOS_MARKET_ADDRESS:=$1}"
 
     # Make sure that the basics are installed
     downloader --check

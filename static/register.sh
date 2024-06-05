@@ -5,10 +5,18 @@
 
 { # this ensures the entire script is downloaded
 
+  die () {
+    echo >&2 "$@"
+    exit 1
+  }
+
   main() {
     if ! check_cmd lsb_release; then
       log_err "🧯 Not running ubuntu."
       exit 1;
+    fi
+    if [[ $2 == "verbose" ]]; then
+      NOSANA_NODE_VERBOSE=true
     fi
     if cat /proc/version | grep -q 'WSL2'; then
       WSL2=true
@@ -28,8 +36,6 @@
 
     # read -rp "Which network: devnet or mainnet? (default: devnet) " SOL_NET_ENV
     SOL_NET_ENV="${SOL_NET_ENV:=mainnet}"
-    # read -rp "Please enter Nosana Market Address: (default: 2kNSniTBsLCioSr4dgdZh6S1JKQc8cZQvxrPWkEn1ERj)" USER_NOS_MARKET_ADDRESS
-    USER_NOS_MARKET_ADDRESS="${USER_NOS_MARKET_ADDRESS:=2kNSniTBsLCioSr4dgdZh6S1JKQc8cZQvxrPWkEn1ERj}"
 
     # Make sure that the basics are installed
     downloader --check
@@ -102,12 +108,14 @@
       else
         log_err "🧯 Nvidia Container Toolkit is not configured."
         log_err "🔋 Please follow configuration instructions here: https://docs.nosana.io/nodes/testgrid-windows.html#configure-the-nvidia-container-toolkit "
+        log_err "🧯 If Nvidia Container Toolkit has been re-configured."
+        log_err "🔋 Please removed unused podman resources. If you DO NOT use podman for anything outside of Nosana, simply run 'podman system prune' or else please manually remove unused podman images and volumes."
         exit 1
       fi
 
       log_std "🔥 Starting podman..."
       # Start Podman
-      podman system service --time 0 tcp:0.0.0.0:8080&
+      { podman system service --time 0 tcp:0.0.0.0:8080 & } 2> podman.log
 
       sleep 5 # wait for podman to start
 
@@ -131,6 +139,8 @@
       else
         log_err "🧯 Nvidia Container Toolkit is not configured."
         log_err "🔋 Please follow configuration instructions here: https://docs.nosana.io/nodes/testgrid-ubuntu.html#linux-configure-the-nvidia-container-toolkit "
+        log_err "🧯 If Nvidia Container Toolkit has been re-configured."
+ 	      log_err "🔋 Please removed unused podman resources. If you DO NOT use podman for anything outside of Nosana, simply run 'podman system prune' or else please manually remove unused podman images and volumes."
         exit 1
       fi
 
