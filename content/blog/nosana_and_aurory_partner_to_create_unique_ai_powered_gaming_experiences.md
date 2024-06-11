@@ -1,7 +1,7 @@
 ---
 title: "Nosana and Aurory Partner to Create Unique AI-powered Gaming Experiences"
 description: "Nosana is excited to announce a new partnership with Aurory to use the power of AI to create even better gaming experiences."
-img: /img/aurory.jpeg
+img: /img/NosanaXAuroryBlog.jpg
 createdAt: '2024-06-11'
 ---
 The world of gaming is changing rapidly, driven by advancements in blockchain technology and artificial intelligence (AI). Leading this exciting change is Aurory, a Web3 gaming studio known for its free-to-play games. Nosana is excited to announce a new partnership with Aurory to use the power of AI to create even better gaming experiences. Nosana will use its decentralized compute network to integrate AI into Aurory's games, offering players something truly special.
