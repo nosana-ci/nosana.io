@@ -8,7 +8,7 @@ The world of gaming is changing rapidly, driven by advancements in blockchain te
 
 ### Nosana and Aurory Team Up
 
-Aurory is working on new ways to enhance the gaming experience by integrating AI capabilities into their games, starting with their flagship title, Seekers of Tokane. The game, set in the captivating universe of Aurory, combines exploration, battles, player interactions, and strategy. Aurory aims to enhance the player experience by introducing AI-powered non-player characters (NPCs) that can engage with players, providing lore and backstory about the game world.
+[Aurory](https://aurory.io/) is working on new ways to enhance the gaming experience by integrating AI capabilities into their games, starting with their flagship title, Seekers of Tokane. The game, set in the captivating universe of Aurory, combines exploration, battles, player interactions, and strategy. Aurory aims to enhance the player experience by introducing AI-powered non-player characters (NPCs) that can engage with players, providing lore and backstory about the game world.
 
 To make this happen, Aurory has partnered with Nosana, which specializes in decentralized computing. Built on the Solana blockchain, Nosana's network of GPU nodes offers a cost-effective way to run AI models. This lets Aurory use advanced AI, like chatbots, without needing expensive infrastructure.
 

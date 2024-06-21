@@ -13,7 +13,7 @@
                 Want in? Great! We just so happen to be looking for new team members.
               </p>
               <p class="block">
-                <a class="button is-accent is-wide" target="_blank" href="https://www.linkedin.com/company/nosana/jobs/">
+                <a class="button is-accent is-wide" target="_blank" href="https://wellfound.com/company/nosana">
                   <b>View opportunities</b>
                 </a>
               </p>
