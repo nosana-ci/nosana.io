@@ -10,7 +10,7 @@ Let’s dive into this collaboration.
 
 ## The Nosana and Matrix One Integration
 
-Matrix One, a rapidly growing AI avatar platform, has recently experienced a surge in user demand, boasting 6,000 daily active users and 60,000 signed-up users on their platform, avatar.one. Currently, Matrix One primarily uses text-to-text generation with Llama 2 and is planning an integration with Llama 3, which will also focus on text-to-text generation. As a decentralized platform, they seek a more reliable decentralized compute solution to power their core services and experiment with newer models.
+[Matrix One](https://www.matrix.one/), a rapidly growing AI avatar platform, has recently experienced a surge in user demand, boasting 6,000 daily active users and 60,000 signed-up users on their platform, avatar.one. Currently, Matrix One primarily uses text-to-text generation with Llama 2 and is planning an integration with Llama 3, which will also focus on text-to-text generation. As a decentralized platform, they seek a more reliable decentralized compute solution to power their core services and experiment with newer models.
 
 Matrix One identified Nosana as a viable option to address these needs. By leveraging its vast network of NVIDIA nodes, Matrix One will utilize Nosana's 4090 GPUs to meet specific workload and performance requirements.
 
