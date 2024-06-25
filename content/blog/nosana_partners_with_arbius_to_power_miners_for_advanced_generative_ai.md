@@ -1,5 +1,5 @@
 ---
-title: "Nosana Partners with Arbius to Power Mners for Advanced Generative AI"
+title: "Nosana Partners with Arbius to Power Miners for Advanced Generative AI"
 description: "Nosana's GPU network will fuel Arbius miners, empowering them to tackle complex generative AI tasks."
 img: /img/NosanaXArbiusBlog.jpg
 createdAt: '2024-06-25'
