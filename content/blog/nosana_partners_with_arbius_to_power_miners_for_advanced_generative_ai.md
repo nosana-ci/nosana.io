@@ -1,5 +1,5 @@
 ---
-title: "Nosana Partners with Arbius to Power Mners for Advanced Generative AI"
+title: "Nosana Partners with Arbius to Power Miners for Advanced Generative AI"
 description: "Nosana's GPU network will fuel Arbius miners, empowering them to tackle complex generative AI tasks."
 img: /img/NosanaXArbiusBlog.jpg
 createdAt: '2024-06-25'
@@ -14,7 +14,7 @@ Phase 2 of [Nosana's](https://nosana.io/) test grid focuses on expanding the var
 ### What the Main Focus Will Be
 During the second phase of the test grid, Arbius will be deploying state of the art open-source AI models such as Meta’s Llama 3 400b. This collaborative effort not only benefits Arbius, but also contributes to the advancement of open-source AI tools, and fosters a spirit of community within the developer ecosystem, creating a shared AI economy for all.
 
-While Nosana provides the perfect platform to access H100/Blackwell GPUs for Arbius users, the actual mining process itself happens on the Arbius network. Arbius has a detailed guide available that explains how to mine on their platform.
+While Nosana provides the perfect platform to access H100/Blackwell GPUs for Arbius users, the actual mining process itself happens on the Arbius network. Arbius has a detailed [guide](https://docs.arbius.ai/mining) available that explains how to mine on their platform.
 
 ### A Shared Vision: Democratizing AI Together
 Both Nosana and Arbius share a core belief: AI should be accessible to everyone. By combining Arbius' decentralized network with Nosana's extensive GPU marketplace, we are creating a powerful ecosystem that empowers users and dismantles the entry barriers in the AI world. Arbius' user-controlled design prevents monopolies, and their permissionless access approach allows anyone to interact with AI models freely. Similarly, Nosana's decentralized approach gives users direct access to GPU nodes that scale with their computational needs as required, all while ensuring high levels of security to protect sensitive data and intellectual property.
