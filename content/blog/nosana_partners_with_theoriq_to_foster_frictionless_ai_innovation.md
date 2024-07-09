@@ -1,5 +1,5 @@
 ---
-title: "Nosana Partners with Theoriq to Unlock AI Innovation"
+title: "Nosana Partners with Theoriq to Foster Frictionless AI Innovation"
 description: "Power your latest AI invention with just a flick of a switch."
 img: /img/theoriq_blog.jpg
 createdAt: '2024-07-09'
