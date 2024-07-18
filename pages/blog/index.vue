@@ -53,7 +53,7 @@
           </nuxt-link>
         </client-only>
       </div>
-      <div v-else>
+      <div v-else-if="loadedPosts">
         <p class="px-5 my-6">No posts found</p>
       </div>
       <pagination
@@ -83,43 +83,13 @@ export default {
       'news', 'product', 'AI & ML', 'events'
     ]
   }),
-  async fetch () {
-    console.log('params in fetch', this.$route.query);
-    this.currentPage = this.$route.query && this.$route.query.page ? parseInt(this.$route.query.page) : 1;
-    const allArticles = await this.$content('blog').where({
-      ...(this.$route.query && this.$route.query.tag && this.$route.query.tag.length > 0) &&
-        { tags: { $containsAny: this.$route.query.tag } }
-    }).search(this.$route.query.search).fetch();
-
-    this.totalArticles = allArticles.length;
-    const lastPage = Math.ceil(this.totalArticles / this.perPage);
-    const lastPageCount = this.totalArticles % this.perPage === 0 ? this.perPage : this.totalArticles % this.perPage;
-    const skipNumber = () => {
-      if (this.currentPage === 1) {
-        return 0;
-      }
-      if (this.currentPage === lastPage) {
-        return this.totalArticles - lastPageCount;
-      }
-      return (this.currentPage - 1) * this.perPage;
-    };
-
-    const blogs = await this.$content('blog')
-      .only(['title', 'createdAt', 'description', 'img', 'slug', 'author', 'tags'])
-      .limit(this.perPage)
-      .skip(skipNumber())
-      .where({
-        ...(this.$route.query && this.$route.query.tag && this.$route.query.tag.length > 0) &&
-          { tags: { $containsAny: this.$route.query.tag } }
-      })
-      .sortBy('createdAt', 'desc')
-      .search(this.$route.query.search)
-      .fetch();
-    this.blogs = blogs;
-    this.loadedPosts = true;
-  },
   watch: {
-    '$route.query': '$fetch',
+    '$route.query': {
+      handler () {
+        this.fetchBlogs();
+      },
+      immediate: true
+    },
     search: {
       handler: function (value) {
         this.$router.push({ path: this.$route.fullPath, query: { search: value } });
@@ -127,6 +97,7 @@ export default {
     }
   },
   created () {
+    // this.$router.replace({ query: null });
     console.log('params', this.$route.query);
     let tag = this.$route.query && this.$route.query.tag ? this.$route.query.tag : null;
     if (tag && !Array.isArray(tag)) {
@@ -153,6 +124,41 @@ export default {
     formatDate (date) {
       const options = { year: 'numeric', month: 'long', day: 'numeric' };
       return new Date(date).toLocaleDateString('en', options);
+    },
+    async fetchBlogs () {
+      console.log('params in fetch', this.$route.query);
+      this.currentPage = this.$route.query && this.$route.query.page ? parseInt(this.$route.query.page) : 1;
+      const allArticles = await this.$content('blog').where({
+        ...(this.$route.query && this.$route.query.tag && this.$route.query.tag.length > 0) &&
+        { tags: { $containsAny: this.$route.query.tag } }
+      }).search(this.$route.query.search).fetch();
+
+      this.totalArticles = allArticles.length;
+      const lastPage = Math.ceil(this.totalArticles / this.perPage);
+      const lastPageCount = this.totalArticles % this.perPage === 0 ? this.perPage : this.totalArticles % this.perPage;
+      const skipNumber = () => {
+        if (this.currentPage === 1) {
+          return 0;
+        }
+        if (this.currentPage === lastPage) {
+          return this.totalArticles - lastPageCount;
+        }
+        return (this.currentPage - 1) * this.perPage;
+      };
+
+      const blogs = await this.$content('blog')
+        .only(['title', 'createdAt', 'description', 'img', 'slug', 'author', 'tags'])
+        .limit(this.perPage)
+        .skip(skipNumber())
+        .where({
+          ...(this.$route.query && this.$route.query.tag && this.$route.query.tag.length > 0) &&
+          { tags: { $containsAny: this.$route.query.tag } }
+        })
+        .sortBy('createdAt', 'desc')
+        .search(this.$route.query.search)
+        .fetch();
+      this.blogs = blogs;
+      this.loadedPosts = true;
     }
   }
 };
