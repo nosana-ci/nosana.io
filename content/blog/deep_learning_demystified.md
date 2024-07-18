@@ -3,6 +3,8 @@ title: "Deep Learning Demystified"
 description: A Comprehensive Guide to GPU-Accelerated Data Science
 img: /img/deep_learning1.png
 createdAt: '2023-12-28'
+tags:
+  - AI & ML
 ---
 ## The Evolution of Machine Learning and the Rise of Deep Learning
 In the vast realm of data science, the evolution of machine learning has been remarkable, shaping the way we solve challenges and unravel insights from complex datasets. From humble beginnings, relying on human-defined classifiers, to the present era of massive data influx from various sources, the need for more sophisticated techniques became evident. This paved the way for deep learning, a revolutionary approach that automates feature extraction through intricate deep neural networks (DNNs).

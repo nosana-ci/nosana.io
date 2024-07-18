@@ -3,6 +3,8 @@ title: "Test Grid Phase 1: Accelerating the AI and GPU Computing Revolution"
 description: "The launch of our Test Grid represents a significant moment in AI and GPU-compute technology"
 img: /img/registration.png
 createdAt: '2023-12-01'
+tags:
+  - product
 ---
 ### Opening Doors to AI and GPU Computing
 

@@ -3,6 +3,8 @@ title: "Exploring the Distinctions Between GPUs and CPUs"
 description: "Initially devised for graphics rendering in gaming and animation, GPUs now find applications well beyond their initial scope."
 img: /img/gpuvscpu.png
 createdAt: '2024-01-30'
+tags:
+  - AI & ML
 ---
 A CPU, or central processing unit, serves as the primary computational hub in a server, handling diverse computing tasks crucial for the operation of the operating system and applications. In comparison, a graphics processing unit (GPU) is a specialized hardware component designed to efficiently execute intricate mathematical operations in parallel, outperforming a general-purpose CPU. Initially devised for graphics rendering in gaming and animation, GPUs now find applications well beyond their initial scope.
 

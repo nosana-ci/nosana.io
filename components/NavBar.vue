@@ -1,7 +1,7 @@
 <template>
   <div>
     <nav
-      class="navbar is-transparent"
+      class="navbar is-transparent py-1"
       role="navigation"
       aria-label="main navigation"
     >
@@ -60,7 +60,7 @@
               </div>
             </div> -->
             <div class="navbar-item has-dropdown is-hoverable" @click="mobileMenu = false">
-              <a class="navbar-link">
+              <a class="navbar-link is-arrowless">
                 <div>Info</div>
               </a>
               <div class="navbar-dropdown is-boxed">
@@ -103,7 +103,7 @@
             </div> -->
             <div class="navbar-item has-dropdown is-hoverable" @click="mobileMenu = false">
               <a
-                class="navbar-link"
+                class="navbar-link is-arrowless"
                 exact-active-class="is-active"
               >
                 <div>Community</div>
@@ -131,7 +131,7 @@
             </div>
             <div class="navbar-item has-dropdown is-hoverable" @click="mobileMenu = false">
               <a
-                class="navbar-link"
+                class="navbar-link is-arrowless"
                 exact-active-class="is-active"
               >
                 <div>Company</div>
@@ -233,17 +233,6 @@ export default {
         }
       }
 
-      &:after {
-        display: block;
-        width: 0;
-        height: 2px;
-        position: absolute;
-        transition: width 0.5s;
-        bottom: 10px;
-        background: $secondary;
-        content: "";
-      }
-
       &.is-active {
         color: $primary;
         font-weight: 700;
@@ -337,6 +326,27 @@ export default {
   }
 }
 
+.light-mode {
+  .navbar {
+    background: rgba(0, 0, 0, 0.7);
+    @media screen and (max-width: 1023px) {
+      .navbar-burger {
+        color: #fff;
+      }
+    }
+  }
+}
+
+.light-mode {
+  .navbar {
+    .navbar-menu {
+      .navbar-item .navbar-link {
+        color: #fff;
+      }
+    }
+  }
+}
+
 @media screen and (max-width: 1023px) {
   .navbar {
     .navbar-menu {
@@ -348,6 +358,14 @@ export default {
         }
       }
     }
+  }
+}
+@media screen and (min-width: 1024px) {
+  .navbar > .container .navbar-brand, .container > .navbar .navbar-brand {
+    margin-left: 0;
+  }
+  .navbar > .container .navbar-menu, .container > .navbar .navbar-menu {
+    margin-right: 0;
   }
 }
 </style>

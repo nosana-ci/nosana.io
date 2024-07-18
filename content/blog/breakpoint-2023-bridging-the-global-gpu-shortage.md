@@ -3,6 +3,8 @@ title: "BreakPoint 2023: Bridging the Global GPU Shortage"
 description: We're building the world's largest decentralized compute grid by directly connecting GPUs and AI users
 img: /img/breakpointbanner.png
 createdAt: '2023-11-09'
+tags:
+  - events
 ---
 Breakpoint is behind us, and what a time we had. This was an incredible event, with all the fantastic people from the Solana ecosystem on one campus. A big shout-out to the Solana team for organizing such an excellent conference in the rough Dutch autumn weather. We were very excited that both of our founders were invited to speak at the event. Jesse was able to give a workshop on our tooling in front of a packed audience, and Sjoerd was invited onto the big stage to give a major presentation about our pivot. As we would like to share this excitement with a broader audience, this article provides a summary of the presentation, including pictures and commentary. As Nosana is accelerating towards its release, please join us in [Discord](https://discord.gg/nosana-ai) and [Telegram](https://t.me/NosanaCompute) to stay up to date.
 

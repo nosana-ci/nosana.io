@@ -3,6 +3,8 @@ title: "Nosana's Strategic APY Adjustment for Balanced Growth and Stability"
 description: "Aligning Long-term Success with Sustainable Rewards"
 img: /img/adjustment.png
 createdAt: '2024-01-12'
+tags:
+  - news
 ---
 The evolving landscape of cryptocurrency often calls for shifts, agility, and strategic vision. Keeping these values at the forefront, we're introducing modifications to our staking annual percentage yield (APY). These adjustments are in line with Nosana’s dedication to enduring growth, empowering our users, and securing long-term stability.
 

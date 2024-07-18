@@ -3,6 +3,8 @@ title: "Test Grid Phase 2 Update"
 description: "An update on our plans for Test Grid Phase 2"
 img: /img/phase2_update.jpg
 createdAt: '2024-04-03'
+tags:
+  - product
 ---
 Many members of our community have been anxiously awaiting an update on our plans for Test Grid Phase 2 —  and we’re excited to share them with you!
 

@@ -3,6 +3,8 @@ title: "Nosana Partners with Matrix One to Power the Future of AI Avatars"
 description: "Nosana is proud to join forces with Matrix One to leverage Nosana's global compute network and fuel the growing demands of Matrix One's platform."
 img: /img/NosanaXMatrixBlog.jpg
 createdAt: '2024-06-04'
+tags:
+  - news
 ---
 The landscape of human-computer interaction is evolving rapidly. At the forefront of this transformation is Matrix One, a decentralized platform that empowers users to create and interact with AI-powered avatars. With a rapidly expanding user base, Matrix One is pushing the boundaries of what's possible in the realm of AI avatars.
 Nosana is proud to join forces with Matrix One in this exciting journey. This collaboration will leverage Nosana's global compute network to fuel the ever-growing demands of Matrix One's platform.

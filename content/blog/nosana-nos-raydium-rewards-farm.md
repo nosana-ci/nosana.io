@@ -3,6 +3,8 @@ title: "Nosana's $NOS Rewards Farm on Raydium!"
 description: "Are you ready to expand your $NOS stack? Let's get started!"
 img: /img/nos_raydium.png
 createdAt: '2023-11-15'
+tags:
+  - news
 ---
 Our $NOS Farm opens on Raydium Thursday, November 16th, at 17:00 UTC. This means users can provide liquidity to the trading pair in return for incentives.
 

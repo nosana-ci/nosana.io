@@ -3,6 +3,8 @@ title: "Nosana Launches Incentivized Public Test Grid with 3 Million $NOS"
 description: "A multi-phase program that will further power the AI revolution."
 img: /img/itg2.png
 createdAt: '2023-11-17'
+tags:
+  - news
 ---
 In our recent announcement, we unveiled a pivotal shift in Nosana's direction, signaling a transition to a massive GPU-compute grid for AI inference.
 

@@ -3,6 +3,8 @@ title: "Nosana Partners with AlphaNeural to Democratize AI Model Development"
 description: "AlphaNeural's platform will leverage Nosana's high-performance GPU infrastructure."
 img: /img/NosanaXAlphaBlog.jpg
 createdAt: '2024-06-18'
+tags:
+  - news
 ---
 Nosana is thrilled to announce a new partnership with [AlphaNeural](https://alphaneural.io/), a company building a groundbreaking decentralized marketplace for AI models and datasets. AlphaNeural's vision is to create a platform where users can share, collaborate, and be rewarded for their contributions to the ever-evolving world of artificial intelligence.
 

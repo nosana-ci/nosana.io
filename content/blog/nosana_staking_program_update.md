@@ -3,6 +3,8 @@ title: "Nosana Staking Program Update"
 description: "To ensure the network's continued success and long-term potential, we're implementing a key update to our staking program."
 img: /img/staking_update.jpg
 createdAt: '2024-05-21'
+tags:
+  - product
 ---
 Since the launch of our staking program in August 2022, the Nosana Network has experienced significant growth in stakers, thanks to our incredible community. To ensure the network's continued success and long-term potential, we're implementing a key update to our staking program, effective today, May 21st, 2024.
 
