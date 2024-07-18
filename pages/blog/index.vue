@@ -84,6 +84,7 @@ export default {
     ]
   }),
   async fetch () {
+    console.log('params in fetch', this.$route.query);
     this.currentPage = this.$route.query && this.$route.query.page ? parseInt(this.$route.query.page) : 1;
     const allArticles = await this.$content('blog').where({
       ...(this.$route.query && this.$route.query.tag && this.$route.query.tag.length > 0) &&
@@ -125,11 +126,18 @@ export default {
       }
     }
   },
-  mounted () {
-    const url = new URL(window.location.href);
-    const params = new URLSearchParams(url.search);
-    this.activeTag = params && params.getAll('tag') ? params.getAll('tag') : [];
-    this.search = params && params.get('search') ? params.get('search') : null;
+  created () {
+    console.log('params', this.$route.query);
+    let tag = this.$route.query && this.$route.query.tag ? this.$route.query.tag : null;
+    if (tag && !Array.isArray(tag)) {
+      tag = [tag];
+    }
+    console.log('tag', tag);
+    this.activeTag = this.$route.query && tag
+      ? tag
+      : [];
+    console.log('activeTag', this.activeTag);
+    this.search = this.$route.query && this.$route.query.search ? this.$route.query.search : null;
   },
   colorMode: 'light',
   methods: {
