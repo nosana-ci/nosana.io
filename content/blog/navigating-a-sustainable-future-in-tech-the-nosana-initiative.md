@@ -3,6 +3,8 @@ title: "Navigating a Sustainable Future in Tech: The Nosana Initiative"
 description: Addressing the GPU Shortage with a Sustainable Lens
 img: /img/sustainable_computing.png
 createdAt: '2023-12-15'
+tags:
+  - product
 ---
 ### The Global GPU Shortage: A Complex Challenge
 

@@ -3,6 +3,8 @@ title: "Nosana's New Direction: AI Inference"
 description: GPU-compute grid for AI inference
 img: /img/browser_node.png
 createdAt: '2023-10-13'
+tags:
+  - product
 ---
 Today, we’re excited to share a significant update about the future of Nosana. After careful consideration, we’ve decided to pivot away from CI/CD services. Instead, Nosana will now focus on providing a massive GPU-compute grid for AI inference.
 

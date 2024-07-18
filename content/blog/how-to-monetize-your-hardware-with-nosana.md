@@ -3,6 +3,8 @@ title: "Unlock the Earning Potential of Your GPU: How to Monetize Your Hardware 
 description: "If you have an underutilized GPU gathering dust, it's time to turn it into a source of revenue"
 img: /img/nosana_hardware.png
 createdAt: '2023-11-28'
+tags:
+  - news
 ---
 If you have an underutilized GPU gathering dust, it's time to turn it into a source of revenue. Our GPU monetization solution offers a unique opportunity to earn passive income with your GPU. Contributing your GPU's processing power to our innovative GPU Test Grid opens the door to cryptocurrency rewards, transforming your hardware into a profitable asset.
 

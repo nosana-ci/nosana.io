@@ -3,6 +3,8 @@ title: "An In-depth Exploration of AI Inference: From Concept to Real-world Appl
 description: "In this third chapter of the Nosana Edu series, we'll break down how AI inference works, explore its fundamental concepts, and discuss how it's impacting businesses and industries."
 img: /img/know_inference.png
 createdAt: '2024-01-24'
+tags:
+  - AI & ML
 ---
 ### How AI Inference Works
 

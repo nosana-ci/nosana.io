@@ -20,7 +20,7 @@ $custom-colors: (
   "accent":($accent, $accent-invert),
 );
 
-$text: $primary;
+$text: #333333;
 
 $link: $accent;
 $link-hover: lighten($accent, 20%);

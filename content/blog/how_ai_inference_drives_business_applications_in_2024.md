@@ -3,6 +3,8 @@ title: "How AI Inference Drives Business Applications in 2024"
 description: AI inference bridges the gap between complex AI models and their practical use cases. 
 img: /img/use_cases.png
 createdAt: '2024-03-08'
+tags:
+  - AI & ML
 ---
 ***AI inference, the process of applying trained AI models to real-world data, plays an important role in numerous applications across diverse industries. This article explores the concept of AI inference, its functionalities, and its impact on various sectors, including entertainment, business, agriculture, healthcare, and even security.***
 

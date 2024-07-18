@@ -39,5 +39,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-
+a {
+  color: white !important;
+}
 </style>

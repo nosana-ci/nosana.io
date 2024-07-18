@@ -3,6 +3,8 @@ title: "Testing the First GPU Grid for AI Inference"
 description: Nosana has successfully tested the first decentralized GPU grid developed and customized for AI inference workloads. 
 img: /img/test-grid-blog-banner.png
 createdAt: '2024-02-05'
+tags:
+  - product
 ---
 
 The first phase of the Nosana Test Grid has concluded. We want to give

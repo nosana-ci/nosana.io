@@ -3,6 +3,8 @@ title: "Nosana Partners with Theoriq to Foster Frictionless AI Innovation"
 description: "Power your latest AI invention with just a flick of a switch."
 img: /img/theoriq_blog.jpg
 createdAt: '2024-07-09'
+tags:
+  - news
 ---
 We're excited to share our partnership with [Theoriq](https://www.theoriq.ai/), connecting their innovative AI solutions with our scalable compute resources. By leveraging Nosana’s infrastructure, Theoriq can decentralize AI resource allocation, pushing the boundaries of AI development with greater efficiency, flexibility, and affordability. 
 

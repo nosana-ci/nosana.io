@@ -3,6 +3,8 @@ title: "Nosana at Solana Hacker House Dubai 2024"
 description: "Our core team is heading to Solana Hacker House Dubai edition to connect with builders and innovators in the DePIN and AI sector."
 img: /img/hackerhouse2024.jpg
 createdAt: '2024-04-09'
+tags:
+  - events
 ---
 Our core team is heading to Solana Hacker House Dubai edition to connect with builders and innovators in the DePIN and AI sector.
 
