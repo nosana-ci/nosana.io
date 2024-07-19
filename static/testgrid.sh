@@ -143,11 +143,17 @@
       
       log_std "🔥 Starting podman..."
       # Start Podman in docker
+
+      if ! docker volume ls | grep podman-cache > /dev/null 2>&1; then
+        docker volume create podman-cache > /dev/null 2>&1
+      fi
+
       docker run -d \
         --pull=always \
         --gpus=all \
         --name podman \
         --device /dev/fuse \
+        --mount source=podman-cache,target=/var/lib/containers \
         --privileged \
         -e ENABLE_GPU=true \
         -p 8080:8080 \
