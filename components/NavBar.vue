@@ -328,7 +328,7 @@ export default {
 
 .light-mode {
   .navbar {
-    background: rgba(0, 0, 0, 0.7);
+    background: #010c04;
     @media screen and (max-width: 1023px) {
       .navbar-burger {
         color: #fff;

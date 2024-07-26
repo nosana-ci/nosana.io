@@ -34,13 +34,13 @@
             :to="{ name: 'blog-slug', params: { slug: blog.slug } }"
           >
             <div
-              class="p-4"
+              class="p-4 post-wrapper"
               style="min-height: 432px"
             >
               <img
                 :src="blog.thumbnail ? blog.thumbnail : blog.img"
                 style="height: 270px; object-fit: cover;"
-                class="has-radius-big"
+                class="has-radius-big blog-image"
               >
               <p v-if="blog.author" class="has-text-black is-size-7">
                 By {{ blog.author }}
@@ -98,16 +98,13 @@ export default {
   },
   created () {
     // this.$router.replace({ query: null });
-    console.log('params', this.$route.query);
     let tag = this.$route.query && this.$route.query.tag ? this.$route.query.tag : null;
     if (tag && !Array.isArray(tag)) {
       tag = [tag];
     }
-    console.log('tag', tag);
     this.activeTag = this.$route.query && tag
       ? tag
       : [];
-    console.log('activeTag', this.activeTag);
     this.search = this.$route.query && this.$route.query.search ? this.$route.query.search : null;
   },
   colorMode: 'light',
@@ -195,6 +192,14 @@ export default {
       opacity: 1; /* Firefox */
     }
   }
+}
 
+@media screen and (max-width: 1023px) {
+  .blog-image {
+    height: 220px !important;
+  }
+  .post-wrapper {
+    padding: 0 !important;
+  }
 }
 </style>
