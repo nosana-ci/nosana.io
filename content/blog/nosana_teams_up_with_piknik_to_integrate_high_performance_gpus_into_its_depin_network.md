@@ -1,7 +1,7 @@
 ---
 title: "Nosana Teams Up With PiKNik to Integrate High-performance GPUs Into Its DePIN Network"
 description: "Discover how Nosana's new partnership with PiKNiK brings powerful Nvidia A5000 multi-GPU setups to our decentralized GPU marketplace, unlocking top-tier computing resources for a wide range of applications."
-img: /img/NosanaPiKNikBlog.jpg
+img: /img/NosanaPiKNiKBlog.jpg
 createdAt: '2024-07-30'
 tags:
   - news
