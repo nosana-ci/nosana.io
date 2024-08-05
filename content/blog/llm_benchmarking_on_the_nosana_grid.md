@@ -7,7 +7,7 @@ tags:
   - AI & ML
 ---
 ### Intro
-The Nosana grid contains about X nodes with various hardware configurations, which are actively running AI models. At the start of the Nosana test phase, these nodes have mostly been running image generation or transcription jobs through Stable Diffusion and Whisper. Although these jobs are suitable to make sure nodes are functioning properly, they do not provide any additional benefit from an AI use case perspective.
+The Nosana grid contains about two thousand nodes with various hardware configurations, which are actively running AI models. At the start of the Nosana test phase, these nodes have mostly been running image generation or transcription jobs through Stable Diffusion and Whisper. Although these jobs are suitable to make sure nodes are functioning properly, they do not provide any additional benefit from an AI use case perspective.
 
 So to make the best use of the nodes until the launch of the mainnet, at the beginning of 2024 we started looking for opportunities to run jobs that would be useful to the Nosana community. As Large Language Models (LLMS) are projected to be the center pillar of Nosana’s AI demand in the foreseeable future, we decided to hire a dedicated AI specialist team to start working on a large-scale LLM Benchmarking project on the Nosana grid. This project aims to provide information that will help clients make better informed decisions, help the Nosana team implement a fairer market system, and contribute valuable information to the LLM research community. In this blogpost, we will go over the required fundamentals to understand how benchmarking works, and then show how we can use the results of the benchmarks to create fair markets.
 
