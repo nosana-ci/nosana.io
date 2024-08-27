@@ -5,12 +5,12 @@
 //@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&display=swap');
 //@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 $family-sans-serif: 'Space Grotesk', sans-serif;
-$family-headers: 'Space Mono', monospace;
+$family-headers: 'Space Grotesk', sans-serif;
 
 // Colors
 $primary: #1c282a;
 $secondary: #20cf8d;
-$accent: #5FFF00;
+$accent: #10E80C;
 
 $secondary-invert: findColorInvert($secondary) !default;
 $accent-invert: findColorInvert($accent) !default;
@@ -20,7 +20,12 @@ $custom-colors: (
   "accent":($accent, $accent-invert),
 );
 
-$text: #333333;
+$text: #000;
+$black: #000;
+$grey-dark: #333;
+$grey: #666;
+$grey-light: #999;
+$grey-lightest: #f9f9f9;
 
 $link: $accent;
 $link-hover: lighten($accent, 20%);

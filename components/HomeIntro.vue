@@ -2,12 +2,12 @@
   <div>
     <section class="section home-block">
       <div class="container">
-        <div class="columns mt-6 mt-mobile-0">
-          <div class="column is-5 has-background-black-blur-false">
+        <div class="columns is-centered mt-6 mt-mobile-0">
+          <div class="column is-8 has-text-centered has-background-black-blur-false">
             <h1 class="title is-spaced site-title">
               Powering the AI revolution
             </h1>
-            <div class="has-limited-width-small py-2">
+            <div class="py-2">
               <p class="block">
                 The most cost-effective GPU grid, with zero lock-in.
                 Developed and customized for AI inference workloads.
@@ -15,21 +15,7 @@
                 Powered by Solana and the $NOS token.
               </p>
             </div>
-            <div class="mt-5">
-              <!-- <a href="https://app.nosana.io" target="_blank" class="button is-accent mr-2"> -->
-              <!--   Try it out now -->
-              <!-- </a> -->
-              <nuxt-link
-                to="/test-grid"
-                class="ml-2 button is-accent is-wide"
-              >
-                Join the Test Grid
-              </nuxt-link>
-            </div>
           </div>
-          <!-- <div class="column yaml-bg">
-            <yaml-preview class="yaml-preview" />
-          </div> -->
         </div>
       </div>
       <img src="~assets/img/swirls-02_animated.svg" class="ring">

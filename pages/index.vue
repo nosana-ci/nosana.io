@@ -8,13 +8,13 @@
         <div class="columns my-6 py-6 is-vcentered">
           <div class="column is-6" data-aos="fade-right">
             <h2 class="title is-2">
-              Open Compute for All
+              Powering the AI revolution.
             </h2>
-            <p class="mb-5 has-limited-width-small">
-              Our decentralized GPU grid represents a revolutionary paradigm shift in the world of computing.
-              By harnessing the latent power of idle GPUs globally,
-              our compute grid provides on-demand access to GPU resources
-              that is both cost-effective but highly efficient.
+            <p class="mb-5">
+              The most cost-effective GPU grid, with zero lock-in. Developed and
+              customized for AI inference workloads. Consumers, miners, and
+              businesses can monetize their idle hardware by becoming a Nosana
+              Node. Powered by Solana and the $NOS token.
             </p>
             <!-- <nuxt-link
               to="/platform"
@@ -28,7 +28,10 @@
           </div>
         </div>
         <div class="columns my-6 py-6 is-vcentered">
-          <div class="column is-6 px-0 video-frame has-radius" data-aos="fade-right">
+          <div
+            class="column is-6 px-0 video-frame has-radius"
+            data-aos="fade-right"
+          >
             <video autoplay muted @ended="onVideoEnd">
               <source src="~assets/img/pipeline-video.mp4" type="video/mp4">
             </video>
@@ -38,12 +41,13 @@
               Unrivaled power, for 85% less
             </h2>
             <p class="mb-5 has-limited-width-small">
-              With costs up to 85% lower than traditional public clouds,
-              Nosana offers a game-changing solution for organizations and individuals
-              seeking massive compute power without breaking the bank.
-              Our decentralized approach gives users direct access to GPU nodes
-              that scale with their computational needs as required, all while ensuring high
-              levels of security to protect sensitive data and intellectual property.
+              With costs up to 85% lower than traditional public clouds, Nosana
+              offers a game-changing solution for organizations and individuals
+              seeking massive compute power without breaking the bank. Our
+              decentralized approach gives users direct access to GPU nodes that
+              scale with their computational needs as required, all while
+              ensuring high levels of security to protect sensitive data and
+              intellectual property.
             </p>
             <!-- <nuxt-link
               to="/product"
@@ -59,12 +63,13 @@
               Put your idle compute power to work
             </h2>
             <p class="mb-5 has-limited-width-small">
-              Join the Nosana Network, put your idle GPU to work,
-              and earn 10-15x more than what traditional crypto mining pools offer.
-              Nosana empowers anyone with spare compute to contribute their idle processing power to our GPU grid.
-              By doing so you will make a significant
-              impact on the advancement of AI projects, all while earning substantial rewards.
-              Welcome to a new era of peer-to-peer computational power sharing.
+              Join the Nosana Network, put your idle GPU to work, and earn
+              10-15x more than what traditional crypto mining pools offer.
+              Nosana empowers anyone with spare compute to contribute their idle
+              processing power to our GPU grid. By doing so you will make a
+              significant impact on the advancement of AI projects, all while
+              earning substantial rewards. Welcome to a new era of peer-to-peer
+              computational power sharing.
             </p>
             <!-- <nuxt-link
               to="/product"
@@ -86,9 +91,10 @@
               Environment-friendly alternative
             </h2>
             <p class="mb-5 has-limited-width-small">
-              With the world's data centers consuming more power than the entire UK and contributing to greenhouse
-              gas emissions, it is time for a change. Nosana utilizes the spare compute of the masses,
-              providing an eco-friendly alternative to using big datacenters.
+              With the world's data centers consuming more power than the entire
+              UK and contributing to greenhouse gas emissions, it is time for a
+              change. Nosana utilizes the spare compute of the masses, providing
+              an eco-friendly alternative to using big datacenters.
             </p>
             <!-- <nuxt-link
               to="/product"
@@ -106,19 +112,15 @@
 
 <script>
 export default {
-  components: {
-  },
+  components: {},
   data () {
     return {
       amount: 1500,
       days: 100
     };
   },
-  colorMode: 'dark',
-  mounted () {
-  },
-  destroyed () {
-  },
+  mounted () {},
+  destroyed () {},
   methods: {
     onVideoEnd (event) {
       setTimeout(() => {
@@ -137,10 +139,10 @@ video {
 }
 
 .video-frame {
-  background-image: url('~assets/img/video-frame.svg');
+  background-image: url("~assets/img/video-frame.svg");
   background-size: 101%;
   background-repeat: no-repeat;
-  border: 1px solid #343D36;
+  border: 1px solid #343d36;
   background-position: top left;
 }
 
