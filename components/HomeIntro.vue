@@ -3,8 +3,8 @@
     <section class="section home-block">
       <div class="container">
         <div class="columns is-centered mt-6 mt-mobile-0">
-          <div class="column is-8 has-text-centered has-background-black-blur-false">
-            <h1 class="title is-spaced site-title">
+          <div class="column is-8 pt-6 has-text-centered has-background-black-blur-false has-text-white">
+            <h1 class="title pt-6 is-spaced site-title has-text-white">
               Powering the AI revolution
             </h1>
             <div class="py-2">
@@ -18,7 +18,6 @@
           </div>
         </div>
       </div>
-      <img src="~assets/img/swirls-02_animated.svg" class="ring">
     </section>
   </div>
 </template>
@@ -27,8 +26,13 @@
 @import "bulma/sass/utilities/mixins";
 .home-block {
   position: relative;
-  min-height: 80vh;
+  min-height: 660px;
   overflow: hidden;
+  background-image: url('~assets/img/home/bg.svg');
+  margin-top : -5rem;
+  background-size: cover;
+  background-position: bottom;
+  // box-shadow: inset 0 0 0 1000px rgba(0,0,0,.2);
 }
 .ring {
   position: absolute;
@@ -55,23 +59,6 @@
   }
 }
 
-.yaml-bg {
-  background-image: url("~assets/img/home/preview-bg.png");
-  background-size: 100% 100%;
-  background-repeat: no-repeat;
-  background-position: center;
-  padding: 5.7rem 6.2rem;
-
-  @media screen and (max-width: $tablet) {
-    background-image: none;
-    padding: 8px;
-  }
-}
-.yaml-preview {
-  margin-top: 18px;
-  margin-left: 3px;
-  box-shadow: 0px 0px 50px 0px rgba(95,255,0,0.5);
-}
 @media screen and (max-width: $tablet) {
   .button {
     margin-left: 0 !important;

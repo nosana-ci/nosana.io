@@ -1,7 +1,7 @@
 <template>
   <div>
     <nav
-      class="navbar is-transparent py-1"
+      class="navbar is-transparent py-1 is-fixed-top"
       role="navigation"
       aria-label="main navigation"
     >
@@ -328,7 +328,7 @@ export default {
 
 .light-mode {
   .navbar {
-    background: #010c04;
+    background: rgba(0, 0, 0, 0.7);
     @media screen and (max-width: 1023px) {
       .navbar-burger {
         color: #fff;

@@ -5,10 +5,14 @@
 @import 'dark-mode';
 @import 'bulma/sass/utilities/mixins';
 
-@media screen and (min-width: 1408px) {
+@media screen and (min-width: 1390px) {
   .container:not(.is-max-desktop):not(.is-max-widescreen) {
-      max-width: 1440px;
+      max-width: 1390px;
   }
+}
+
+.title {
+  font-weight: 700;
 }
 
 html, body {
@@ -54,13 +58,21 @@ a.is-underlined {
   opacity: .65;
 }
 
-.site-title {
-  font-size: 60px;
-  font-family: $family-headers;
-}
-
 .title.is-1 {
   line-height: 1.25;
+}
+
+.site-title {
+  line-height: 80px;
+  font-size: 62px;
+}
+
+.title.is-2 {
+  line-height: 48px;
+}
+
+.title.is-3 {
+  line-height: 33px;
 }
 
 .has-background-gradient {

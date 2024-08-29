@@ -1,111 +1,120 @@
 <template>
   <div>
     <home-intro />
-    <!-- <partners /> -->
-    <section class="section">
+    <section class="section has-background-black has-text-white">
       <div class="container mb-6 pb-6">
-        <!-- text blocks -->
-        <div class="columns my-6 py-6 is-vcentered">
+        <h2 class="title py-6 site-title has-text-white">
+          Unlocking Global GPU Potential<br>
+          Revolutionizing Computing,<br>
+          One Decentralized Grid at a Time!
+        </h2>
+        <div class="columns my-6 py-6">
           <div class="column is-6" data-aos="fade-right">
-            <h2 class="title is-2">
-              Powering the AI revolution.
-            </h2>
-            <p class="mb-5">
-              The most cost-effective GPU grid, with zero lock-in. Developed and
-              customized for AI inference workloads. Consumers, miners, and
-              businesses can monetize their idle hardware by becoming a Nosana
-              Node. Powered by Solana and the $NOS token.
+            <h3 class="title is-2 has-text-white">
+              Nosana Test Grid
+            </h3>
+            <h4 class="title is-3 has-text-white">
+              A multi-phase test grid for developers, data scientists, and AI
+              enthusiasts.
+            </h4>
+            <p class="mb-5 is-4 is-size-4">
+              Join us as an early adopter and build the foundation for the
+              world's biggest GPU-compute grid. We're working to make AI more
+              accessible and powerful than ever before.
             </p>
-            <!-- <nuxt-link
-              to="/platform"
-              class="button mt-2 is-accent is-outlined is-wide"
-            >
-              Explore
-            </nuxt-link> -->
+            <a href="/test-grid" class="has-text-accent">
+              Go to Nosana Test Grid <i class="pl-1 fas fa-chevron-right" />
+            </a>
           </div>
           <div class="column is-6" data-aos="fade-left">
-            <img src="~assets/img/home/nodes.png">
-          </div>
-        </div>
-        <div class="columns my-6 py-6 is-vcentered">
-          <div
-            class="column is-6 px-0 video-frame has-radius"
-            data-aos="fade-right"
-          >
-            <video autoplay muted @ended="onVideoEnd">
-              <source src="~assets/img/pipeline-video.mp4" type="video/mp4">
-            </video>
-          </div>
-          <div class="column is-5 is-offset-1" data-aos="fade-left">
-            <h2 class="title is-2">
-              Unrivaled power, for 85% less
-            </h2>
-            <p class="mb-5 has-limited-width-small">
-              With costs up to 85% lower than traditional public clouds, Nosana
-              offers a game-changing solution for organizations and individuals
-              seeking massive compute power without breaking the bank. Our
-              decentralized approach gives users direct access to GPU nodes that
-              scale with their computational needs as required, all while
-              ensuring high levels of security to protect sensitive data and
-              intellectual property.
+            <h3 class="title is-2 has-text-white">
+              Nosana Explorer
+            </h3>
+            <h4 class="title is-3 has-text-white">
+              Explore and interact with various aspects of the Nosana ecosystem.
+            </h4>
+            <p class="mb-5 is-size-4">
+              Display real-time statistics and metrics about the Nosana network,
+              including metrics like network hash rate, active nodes, and
+              computational power contributed to the decentralized GPU grid.
             </p>
-            <!-- <nuxt-link
-              to="/product"
-              class="button mt-2 is-accent is-outlined is-wide"
+            <a
+              href="https://explorer.nosana.io"
+              target="_blank"
+              class="has-text-accent"
             >
-              Explore
-            </nuxt-link> -->
-          </div>
-        </div>
-        <div class="columns my-6 py-6 is-vcentered">
-          <div class="column is-6" data-aos="fade-right">
-            <h2 class="title is-2">
-              Put your idle compute power to work
-            </h2>
-            <p class="mb-5 has-limited-width-small">
-              Join the Nosana Network, put your idle GPU to work, and earn
-              10-15x more than what traditional crypto mining pools offer.
-              Nosana empowers anyone with spare compute to contribute their idle
-              processing power to our GPU grid. By doing so you will make a
-              significant impact on the advancement of AI projects, all while
-              earning substantial rewards. Welcome to a new era of peer-to-peer
-              computational power sharing.
-            </p>
-            <!-- <nuxt-link
-              to="/product"
-              class="button mt-2 is-accent is-outlined is-wide"
-            >
-              Explore
-            </nuxt-link> -->
-          </div>
-          <div class="column is-6" data-aos="fade-left">
-            <img src="~assets/img/home/compute.png">
-          </div>
-        </div>
-        <div class="columns my-6 py-6 is-vcentered">
-          <div class="column is-6" data-aos="fade-right">
-            <img src="~assets/img/home/environment.png">
-          </div>
-          <div class="column is-5 is-offset-1" data-aos="fade-left">
-            <h2 class="title is-2">
-              Environment-friendly alternative
-            </h2>
-            <p class="mb-5 has-limited-width-small">
-              With the world's data centers consuming more power than the entire
-              UK and contributing to greenhouse gas emissions, it is time for a
-              change. Nosana utilizes the spare compute of the masses, providing
-              an eco-friendly alternative to using big datacenters.
-            </p>
-            <!-- <nuxt-link
-              to="/product"
-              class="button mt-2 is-accent is-outlined is-wide"
-            >
-               Explore
-            </nuxt-link> -->
+              Go to Nosana Explorer<i class="pl-1 fas fa-chevron-right" />
+            </a>
           </div>
         </div>
       </div>
-      <connect />
+    </section>
+    <section class="py-6">
+      <div class="container py-6">
+        <h3 class="title is-2 py-6 mb-6">
+          Revolutionizing Computing with Decentralized GPU Grids,<br>Cost-Effective
+          Efficiency and Seamless Monetization.
+        </h3>
+        <div class="columns is-multiline">
+          <div class="is-4 column">
+            <h4 class="title is-3">
+              Decentralized GPU Grid <br>
+              <span class="has-text-grey-light">on-demand access</span>
+            </h4>
+            <p>
+              Allowing users to harness idle GPU resources globally.This grid
+              provides on-demand access to computational power for various
+              tasks, particularly AI inference workloads.
+            </p>
+          </div>
+          <div class="is-4 column">
+            <h4 class="title is-3">
+              Cost-Effective<br><span class="has-text-grey-light">60-98% less per month</span>
+            </h4>
+            <p>
+              Offering users efficient access to computational resources without
+              incurring high expenses. This affordability makes it an attractive
+              option for individuals, businesses, and miners looking to leverage
+              computing power.
+            </p>
+          </div>
+          <div class="is-4 column">
+            <h4 class="title is-3">
+              Zero Lock-In <br><span class="has-text-grey-light">99.99%+ uptime</span>
+            </h4>
+            <p>
+              Meaning they are not bound to long-term contracts or commitments.
+              This flexibility allows users to access computational resources as
+              needed without being tied to specific terms or conditions.
+            </p>
+          </div>
+          <div class="is-4 column mt-6">
+            <h4 class="title is-3">
+              Monetization Opportunity<br><span class="has-text-grey-light">platform for users</span>
+            </h4>
+            <p>
+              This enables individuals, businesses, and miners to earn rewards
+              by contributing their idle GPU resources to the decentralized
+              grid.
+            </p>
+          </div>
+          <div class="is-4 column mt-6">
+            <h4 class="title is-3">
+              Powered by Solana <br><span class="has-text-grey-light">$NOS Token</span>
+            </h4>
+            <p>
+              The $NOS token serves various functions, including facilitating
+              transactions, incentivizing participation, and potentially
+              governing the platform.
+            </p>
+          </div>
+          <div class="is-4 mt-6 column is-flex is-align-items-center">
+            <a href="/about" class="has-text-accent has-text-weight-semibold">
+              More about Nosana <i class="pl-1 fas fa-chevron-right" />
+            </a>
+          </div>
+        </div>
+      </div>
     </section>
   </div>
 </template>

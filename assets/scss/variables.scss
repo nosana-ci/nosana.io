@@ -20,7 +20,7 @@ $custom-colors: (
   "accent":($accent, $accent-invert),
 );
 
-$text: #000;
+$text: rgba(51, 51, 51, 1);
 $black: #000;
 $grey-dark: #333;
 $grey: #666;
@@ -62,3 +62,8 @@ $box-background-color: #021207;
 $label-weight: 400;
 
 $background-gradient: linear-gradient(180deg, rgba(18,54,3,1) 0%, rgba(10,10,10,0) 35%);
+
+$size-2: 38px;
+$size-3: 26px;
+$size-4: 20px;
+$size-5: 18px;
