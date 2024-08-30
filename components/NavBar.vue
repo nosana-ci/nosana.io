@@ -10,11 +10,7 @@
           <nuxt-link class="navbar-item" to="/">
             <img
               class="logo"
-              :src="
-                $colorMode.value === 'dark'
-                  ? require('@/assets/img/Nosana_Logo_horizontal_color_white.svg')
-                  : require('@/assets/img/Nosana_Logo_horizontal_color_white.svg')
-              "
+              src="~/assets/img/Nosana_Logo_horizontal_color_white.svg"
             >
           </nuxt-link>
 
@@ -40,25 +36,6 @@
         >
           <div class="navbar-start" />
           <div class="navbar-end is-align-items-center">
-            <!-- <div class="navbar-item has-dropdown is-hoverable" @click="mobileMenu = false">
-              <a
-                class="navbar-link"
-                exact-active-class="is-active"
-              >
-                <div>Product</div>
-              </a>
-              <div class="navbar-dropdown is-boxed">
-                <nuxt-link class="navbar-item" to="/product" exact-active-class="is-active">
-                  Get Started
-                </nuxt-link>
-                <nuxt-link class="navbar-item" to="/product/containers" exact-active-class="is-active">
-                  Container-Support
-                </nuxt-link>
-                <nuxt-link class="navbar-item" to="/product/multisig" exact-active-class="is-active">
-                  Multisig
-                </nuxt-link>
-              </div>
-            </div> -->
             <div class="navbar-item has-dropdown is-hoverable" @click="mobileMenu = false">
               <a class="navbar-link is-arrowless">
                 <div>Info</div>
@@ -76,31 +53,6 @@
                 </a>
               </div>
             </div>
-            <!-- <div class="navbar-item has-dropdown is-hoverable" @click="mobileMenu = false">
-              <a
-                class="navbar-link"
-                exact-active-class="is-active"
-              >
-                <div>Decentralized Network</div>
-              </a>
-              <div class="navbar-dropdown is-boxed">
-                <nuxt-link class="navbar-item" to="/platform" exact-active-class="is-active">
-                  Private Beta
-                </nuxt-link>
-                <nuxt-link class="navbar-item" to="/network/vision" exact-active-class="is-active">
-                  Vision
-                </nuxt-link>
-                <nuxt-link class="navbar-item" to="/token" exact-active-class="is-active">
-                  The NOS Token
-                </nuxt-link>
-                <nuxt-link class="navbar-item" to="/stake" exact-active-class="is-active">
-                  Staking & Rewards
-                </nuxt-link>
-                <nuxt-link class="navbar-item" to="/network/cpu" exact-active-class="is-active">
-                  Contribute CPU
-                </nuxt-link>
-              </div>
-            </div> -->
             <div class="navbar-item has-dropdown is-hoverable" @click="mobileMenu = false">
               <a
                 class="navbar-link is-arrowless"
@@ -124,9 +76,6 @@
                   <i class="fab fa-telegram mr-2" aria-hidden="true" />
                   <span>Telegram</span>
                 </a>
-                <!-- <nuxt-link class="navbar-item" to="/nft" exact-active-class="is-active">
-                  Nosana NFT
-                </nuxt-link> -->
               </div>
             </div>
             <div class="navbar-item has-dropdown is-hoverable" @click="mobileMenu = false">
@@ -137,45 +86,11 @@
                 <div>Company</div>
               </a>
               <div class="navbar-dropdown is-boxed">
-                <!-- <nuxt-link class="navbar-item" to="/partner" exact-active-class="is-active">
-                  Nosana Partner Program
-                  <span class="icon ml-3">
-                    <i class="fas fa-chevron-down" />
-                  </span>
-                </nuxt-link>
-                <div class="ml-2">
-                  <nuxt-link class="navbar-item" to="/partner/technology" exact-active-class="is-active">
-                    > Technology Partnership
-                  </nuxt-link>
-                  <nuxt-link class="navbar-item" to="/partner/network" exact-active-class="is-active">
-                    > Network Partnership
-                  </nuxt-link>
-                  <nuxt-link class="navbar-item" to="/partner/portfolio" exact-active-class="is-active">
-                    > Portfolio Partnership
-                  </nuxt-link>
-                </div> -->
                 <nuxt-link class="navbar-item" to="/team" exact-active-class="is-active">
                   Team page
                 </nuxt-link>
-                <!-- <nuxt-link class="navbar-item" to="/brand" exact-active-class="is-active">
-                  Brand page
-                </nuxt-link> -->
               </div>
             </div>
-            <!-- <div
-              class="navbar-item"
-              exact-active-class="is-active"
-              @click="mobileMenu = false"
-            >
-              <a
-                target="_blank"
-                href="https://testnet.nosana.io"
-                class="button is-accent is-outlined px-5 is-wide"
-                exact-active-class="is-active"
-              >
-                <div>Get started</div>
-              </a>
-            </div> -->
           </div>
         </div>
       </div>

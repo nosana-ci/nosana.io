@@ -1,14 +1,23 @@
 <template>
   <div>
-    <a v-for="social in socials" :key="social.icon" :href="social.link" target="_blank" class="subtitle is-5 mx-2">
+    <a
+      v-for="social in socials"
+      :key="social.icon"
+      :class="{ dark: dark }"
+      :href="social.link"
+      target="_blank"
+      class="subtitle is-5 mx-2"
+    >
       <i :class="'fab fa-' + social.icon" />
     </a>
   </div>
 </template>
 
 <script>
-
 export default {
+  props: {
+    dark: Boolean
+  },
   data () {
     return {
       socials: [
@@ -41,5 +50,8 @@ export default {
 <style lang="scss" scoped>
 a {
   color: white !important;
+  &.dark {
+    color: black !important;
+  }
 }
 </style>

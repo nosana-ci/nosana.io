@@ -1,43 +1,90 @@
 <template>
   <footer class="footer py-5 px-4">
     <div class="container">
-      <nav class="navbar is-transparent" role="navigation" aria-label="main navigation">
+      <nav
+        class="is-transparent"
+        role="navigation"
+        aria-label="main navigation"
+      >
         <div class="container">
-          <div id="navbar" class="navbar-menu">
-            <div class="navbar-start is-horizontal-centered">
-              <nuxt-link class="navbar-item" to="/" exact-active-class="is-active">
-                <div>Home</div>
-              </nuxt-link>
-              <!-- <nuxt-link class="navbar-item" to="/earn" exact-active-class="is-active">
-                <div>Earn</div>
-              </nuxt-link> -->
-              <a target="_blank" href="https://docs.nosana.io" class="navbar-item" to="/docs" exact-active-class="is-active">
-                <div>Docs</div>
-              </a>
-              <!-- <nuxt-link class="navbar-item" to="/blog" exact-active-class="is-active">
-                <div>Blog</div>
-              </nuxt-link> -->
-              <nuxt-link class="navbar-item" to="/team" exact-active-class="is-active">
-                <div>Team</div>
-              </nuxt-link>
-              <!-- <nuxt-link class="navbar-item" to="/faq" exact-active-class="is-active">
-                <div>FAQ</div>
-              </nuxt-link> -->
-              <nuxt-link class="navbar-item" to="/contact" exact-active-class="is-active">
-                <div>Contact</div>
-              </nuxt-link>
+          <div class="columns py-5">
+            <div class="column is-7">
+              <img
+                src="~/assets/img/Nosana_Logo_horizontal_color_white.svg"
+                class="logo mb-1"
+                style="height: 40px"
+              />
+              <socials class="mb-4" />
+            </div>
+            <div class="column is-5">
+              <div class="columns">
+                <div class="column is-4">
+                  <h4>Product</h4>
+                  <nuxt-link
+                    class="navbar-item"
+                    to="/"
+                    exact-active-class="is-active"
+                  >
+                    <div>Home</div>
+                  </nuxt-link>
+                  <a
+                    target="_blank"
+                    href="https://docs.nosana.io"
+                    class="navbar-item"
+                    to="/docs"
+                    exact-active-class="is-active"
+                  >
+                    <div>Docs</div>
+                  </a>
+                </div>
+                <div class="column is-4">
+                  <h4>Product</h4>
+                  <nuxt-link
+                    class="navbar-item"
+                    to="/"
+                    exact-active-class="is-active"
+                  >
+                    <div>Home</div>
+                  </nuxt-link>
+                  <a
+                    target="_blank"
+                    href="https://docs.nosana.io"
+                    class="navbar-item"
+                    to="/docs"
+                    exact-active-class="is-active"
+                  >
+                    <div>Docs</div>
+                  </a>
+                </div>
+                <div class="column is-4">
+                  <h4>Product</h4>
+                  <nuxt-link
+                    class="navbar-item"
+                    to="/"
+                    exact-active-class="is-active"
+                  >
+                    <div>Home</div>
+                  </nuxt-link>
+                  <a
+                    target="_blank"
+                    href="https://docs.nosana.io"
+                    class="navbar-item"
+                    to="/docs"
+                    exact-active-class="is-active"
+                  >
+                    <div>Docs</div>
+                  </a>
+                </div>
+              </div>
             </div>
           </div>
         </div>
       </nav>
-      <div class="px-5 m-2 py-4 has-radius has-text-centered">
-        <socials class="mb-4" />
-        <img src="~/assets/img/footer-logo.svg" class="logo" style="height: 20px">
-      </div>
-      <div class="px-6 m-2 py-4 has-radius has-text-centered">
-        <small
-          class="is-size-7"
-        ><span style="font-family: monospace">©</span> NOSANA 2024</small>
+      <div class="py-4 has-radius">
+        <small class="is-size-7"
+          >© Nosana Network 2024 The Nosana Network Authors Documentation
+          Distributed under CC BY 4.0</small
+        >
       </div>
     </div>
   </footer>

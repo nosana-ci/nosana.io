@@ -9,7 +9,7 @@ $family-headers: 'Space Grotesk', sans-serif;
 
 // Colors
 $primary: #1c282a;
-$secondary: #20cf8d;
+$secondary: #10E80C;
 $accent: #10E80C;
 
 $secondary-invert: findColorInvert($secondary) !default;
@@ -25,7 +25,7 @@ $black: #000;
 $grey-dark: #333;
 $grey: #666;
 $grey-light: #999;
-$grey-lightest: #f9f9f9;
+$grey-lighter: #f9f9f9;
 
 $link: $accent;
 $link-hover: lighten($accent, 20%);
