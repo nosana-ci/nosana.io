@@ -1,14 +1,14 @@
 <template>
-  <div>
+  <div class="is-flex is-align-items-center">
     <a
       v-for="social in socials"
       :key="social.icon"
-      :class="{ dark: dark }"
       :href="social.link"
       target="_blank"
-      class="subtitle is-5 mx-2"
+      class="mr-5"
     >
-      <i :class="'fab fa-' + social.icon" />
+      <img v-if="dark" :src="social.icon">
+      <img v-else :src="social.iconLight">
     </a>
   </div>
 </template>
@@ -23,23 +23,28 @@ export default {
       socials: [
         {
           link: 'https://twitter.com/nosana_ai',
-          icon: 'twitter'
-        },
-        {
-          link: 'https://discord.gg/nosana-ai',
-          icon: 'discord'
+          icon: require('@/assets/img/icons/x.svg'),
+          iconLight: require('@/assets/img/icons/x-light.svg')
         },
         {
           link: 'https://t.me/NosanaCompute',
-          icon: 'telegram'
-        },
-        {
-          link: 'https://nosana.medium.com/',
-          icon: 'medium'
+          icon: require('@/assets/img/icons/telegram.svg'),
+          iconLight: require('@/assets/img/icons/telegram-light.svg')
         },
         {
           link: 'https://github.com/nosana-ci',
-          icon: 'github'
+          icon: require('@/assets/img/icons/github.svg'),
+          iconLight: require('@/assets/img/icons/github-light.svg')
+        },
+        {
+          link: 'https://discord.gg/nosana-ai',
+          icon: require('@/assets/img/icons/discord.svg'),
+          iconLight: require('@/assets/img/icons/discord-light.svg')
+        },
+        {
+          link: 'https://nosana.medium.com/',
+          icon: require('@/assets/img/icons/medium.svg'),
+          iconLight: require('@/assets/img/icons/medium-light.svg')
         }
       ]
     };
@@ -52,6 +57,9 @@ a {
   color: white !important;
   &.dark {
     color: black !important;
+  }
+  img {
+    width: 24px;
   }
 }
 </style>

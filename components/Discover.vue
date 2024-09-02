@@ -1,7 +1,7 @@
 <template>
   <div v-if="blogs && blogs.length > 0" class="section">
     <div class="container">
-      <h2 class="title mb-5 mt-5 has-text-black px-3">
+      <h2 class="title is-2 mb-5 mt-5 has-text-black px-3">
         {{ title }}
       </h2>
       <div class="columns mt-5 mb-6 is-multiline">
@@ -25,7 +25,7 @@
               <p v-if="relatedBlog.author" class="has-text-black is-size-7">
                 By {{ relatedBlog.author }}
               </p>
-              <h3 class="title is-5 mt-2 mb-3">
+              <h3 class="title is-3 mt-2 mb-3">
                 {{ relatedBlog.title }}
               </h3>
               <p style="color: #666">
