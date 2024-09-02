@@ -12,7 +12,7 @@
             class="column is-one-third"
             :to="{ name: 'blog-slug', params: { slug: relatedBlog.slug } }"
           >
-            <div class="p-4" style="min-height: 432px">
+            <div class="py-4" style="min-height: 432px">
               <img
                 :src="
                   relatedBlog.thumbnail

@@ -8,7 +8,7 @@
               Powering the AI revolution
             </h1>
             <div class="py-2">
-              <p class="block">
+              <p class="block has-limited-width-big is-size-5" style="margin: 0 auto;">
                 The most cost-effective GPU grid, with zero lock-in.
                 Developed and customized for AI inference workloads.
                 Consumers, miners, and businesses can monetize their idle hardware by becoming a Nosana Node.
@@ -32,14 +32,6 @@
   margin-top : -5rem;
   background-size: cover;
   background-position: bottom;
-  // box-shadow: inset 0 0 0 1000px rgba(0,0,0,.2);
-}
-.ring {
-  position: absolute;
-  top: 0px;
-  right: 0;
-  height: 100%;
-  width: auto;
 }
 
 @include touch {
@@ -49,13 +41,6 @@
   }
   .mt-mobile-0 {
     margin-top: 0 !important;
-  }
-
-  .ring {
-    position: relative;
-    top: 0;
-    width: 100%;
-    right: -25px;
   }
 }
 

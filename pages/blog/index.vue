@@ -1,7 +1,7 @@
 <template>
   <section class="section">
     <div class="container">
-      <div class="filters mt-4 mb-0 px-4 is-flex is-justify-content-space-between">
+      <div class="filters mt-4 mb-0 is-flex is-justify-content-space-between">
         <div class="tags are-medium">
           <span
             :class="{'is-active': activeTag && activeTag.length === 0 }"
@@ -34,7 +34,7 @@
             :to="{ name: 'blog-slug', params: { slug: blog.slug } }"
           >
             <div
-              class="p-4 post-wrapper"
+              class="py-4 post-wrapper"
               style="min-height: 432px"
             >
               <img
