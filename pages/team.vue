@@ -132,7 +132,7 @@
           </div>
           <div class="column is-6" data-aos="fade-left">
             <h3 class="title is-2">
-              The team
+              Who we're looking for
             </h3>
             <h4 class="title is-3">
               Meet the Brilliant Minds Fueling Nosana's Vision
@@ -166,11 +166,7 @@ export default {
 <style lang="scss" scoped>
 
 .intro {
-  position: relative;
-  min-height: 660px;
-  overflow: hidden;
   background-image: url("~assets/img/team/bg.svg");
-  margin-top: -5rem;
   background-size: cover;
   background-position: bottom;
 }
