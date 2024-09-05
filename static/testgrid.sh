@@ -193,7 +193,7 @@
       --network host  \
       --interactive -t \
       --volume ~/.nosana/:/root/.nosana/ \
-      nosana/nosana-cli:latest nosana \
+      nosana/nosana-cli:latest \
         ${NOSANA_NODE_ARGS[@]}
 
     log_std "\nNosana Node finished"
