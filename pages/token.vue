@@ -147,7 +147,55 @@
     </section>
     <!-- Staking calc -->
     <section class="section my-6">
-
+      <staking-calculator />
+    </section>
+    <section class="section">
+      <div class="container">
+        <div class="columns">
+          <div class="column is-4">
+            <h3 class="title is-2">Buying $NOS</h3>
+            <h4 class="title is-3">
+              NOS is available on the following exchanges.
+            </h4>
+          </div>
+          <div class="column is-8 mb-6">
+            <div class="columns is-multiline">
+              <div class="column is-6">
+                <div
+                  class="has-background-grey-lighter
+                  has-radius column py-6 is-flex is-align-items-center is-justify-content-center"
+                >
+                  <img src="~assets/img/exchanges/mexc.svg" class="my-4" />
+                </div>
+              </div>
+              <div class="column is-6">
+                <div
+                  class="has-background-grey-lighter
+                  has-radius column py-6 is-flex is-align-items-center is-justify-content-center"
+                >
+                  <img src="~assets/img/exchanges/mexc.svg" class="my-4"/>
+                </div>
+              </div>
+              <div class="column is-6">
+                <div
+                  class="has-background-grey-lighter
+                  has-radius column py-6 is-flex is-align-items-center is-justify-content-center"
+                >
+                  <img src="~assets/img/exchanges/mexc.svg" class="my-4"/>
+                </div>
+              </div>
+              <div class="column is-6">
+                <div
+                  class="has-background-grey-lighter
+                  has-radius column py-6 is-flex is-align-items-center is-justify-content-center"
+                >
+                  <img src="~assets/img/exchanges/mexc.svg" class="my-4"/>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
   </div>
 </template>

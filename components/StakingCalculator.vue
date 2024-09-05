@@ -1,66 +1,5 @@
 <template>
   <div>
-    <div class="field">
-      <label class="label">Add NOS:</label>
-      <div class="control columns is-variable is-5 mb-5 is-multiline">
-        <div
-          class="is-flex is-align-items-center column"
-          style="min-width: 200px"
-        >
-          <input
-            v-model="amount"
-            class="input is-medium"
-            required
-            min="1"
-            :max="balance"
-            step="0.1"
-            type="number"
-            placeholder="0"
-          >
-          <span class="ml-2 has-text-grey">NOS</span>
-        </div>
-        <div class="column is-narrow">
-          <div class="buttons is-centered">
-            <a
-              class="button is-primary is-outlined mr-2"
-              :disabled="balance === null ? true : null"
-              @click="
-                balance !== null ? (amount = parseInt(balance / 2)) : null
-              "
-            >
-              HALF
-            </a>
-            <a
-              class="button is-primary is-outlined"
-              :disabled="balance === null ? true : null"
-              @click="balance !== null ? (amount = balance) : null"
-            >
-              MAX
-            </a>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="field">
-      <label class="label">Unstake period of:</label>
-      <div class="control columns is-variable is-5 mb-5 is-multiline">
-        <div class="is-flex is-align-items-center column is-narrow">
-          <input
-            v-model="unstakeDays"
-            required
-            class="input has-text-centered is-medium"
-            type="number"
-            :min="unstakeDays"
-            step="1"
-            :max="365"
-            placeholder="0"
-          >
-          <span class="ml-2 has-text-grey">Days</span>
-        </div>
-      </div>
-    </div>
-
     <div class="container">
       <div class="columns">
         <div class="column is-4">
@@ -85,65 +24,109 @@
           </a>
         </div>
         <div class="column is-8">
-          <div v-if="!activeStake" class="columns">
-            <div class="column is-6">
-              <div class="box">
-                <label class="label">Expected daily NOS rewards</label>
-                <div class="is-size-1 has-text-black">
-                  <ICountUp
-                    v-if="expectedRewards !== null"
-                    :end-val="Number(expectedRewards)"
-                  />
-                  <span v-else>-</span>
-                </div>
-              </div>
-            </div>
-            <div class="column is-6">
-              <div class="box">
-                <label class="label">Staked NOS</label>
-                <div class="is-size-1 has-text-black">
-                  <ICountUp v-if="amount !== null" :end-val="amount" />
-                  <span v-else>-</span>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div v-if="!activeStake" class="columns">
-            <div class="column is-4">
-              <div class="box">
-                <label class="label">xNOS Score</label>
-                <div class="is-size-2 has-text-black">
-                  <ICountUp v-if="xNOS !== null" :end-val="xNOS" />
-                  <span v-else>-</span>
-                </div>
-              </div>
-            </div>
-            <div class="column is-4">
-              <div class="box">
-                <label class="label">Multiplier</label>
-                <div class="is-size-2 has-text-black">
-                  <ICountUp :end-val="multiplier" :decimal-places="2">
-                    <template #prefix>
-                      <span>x</span>
-                    </template>
-                  </ICountUp>
-                </div>
-              </div>
-            </div>
-            <div class="column is-4">
-              <div class="box">
-                <label class="label">APY</label>
-                <div class="is-size-2 has-text-black">
-                  <ICountUp
-                    v-if="APY !== null"
-                    :end-val="APY"
-                    :decimal-places="1"
+          <div class="has-background-grey-lighter has-radius p-6">
+            <div class="columns">
+              <div class="field column is-6">
+                <label class="label">$NOS amount</label>
+                <div class="is-flex is-align-items-center">
+                  <input
+                    v-model="amount"
+                    class="input is-medium"
+                    required
+                    min="1"
+                    step="0.1"
+                    type="number"
+                    placeholder="0"
                   >
-                    <template #suffix>
-                      <span>%</span>
-                    </template>
-                  </ICountUp>
-                  <span v-else>-</span>
+                  <span class="ml-2 has-text-grey">NOS</span>
+                </div>
+              </div>
+
+              <div class="field column is-6">
+                <label class="label">Unstake period of:</label>
+                <div class="control mb-5 is-multiline">
+                  <div class="is-flex is-align-items-center">
+                    <input
+                      v-model="unstakeDays"
+                      required
+                      class="input has-text-centered is-medium"
+                      type="number"
+                      :min="unstakeDays"
+                      step="1"
+                      :max="365"
+                      placeholder="0"
+                    >
+                    <span class="ml-2 has-text-grey">Days</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="columns is-multiline">
+              <div class="column is-6">
+                <div class="box">
+                  <label class="label">Expected daily NOS rewards</label>
+                  <div class="is-size-1 has-text-black">
+                    <ICountUp
+                      v-if="expectedRewards !== null"
+                      :end-val="expectedRewards"
+                      :options="{
+                        decimalPlaces: 2,
+                      }"
+                    />
+                    <span v-else>-</span>
+                  </div>
+                </div>
+              </div>
+              <div class="column is-6">
+                <div class="box">
+                  <label class="label">Staked NOS</label>
+                  <div class="is-size-1 has-text-black">
+                    <ICountUp
+                      v-if="amount !== null"
+                      :end-val="Number(amount)"
+                    />
+                    <span v-else>-</span>
+                  </div>
+                </div>
+              </div>
+              <div class="column is-4">
+                <div class="box">
+                  <label class="label">xNOS Score</label>
+                  <div class="is-size-2 has-text-black">
+                    <ICountUp v-if="xNOS !== null" :end-val="Number(xNOS)" />
+                    <span v-else>-</span>
+                  </div>
+                </div>
+              </div>
+              <div class="column is-4">
+                <div class="box">
+                  <label class="label">Multiplier</label>
+                  <div class="is-size-2 has-text-black">
+                    <ICountUp
+                      :end-val="Number(multiplier)"
+                      :options="{
+                        decimalPlaces: 2,
+                        prefix: 'x',
+                      }"
+                    />
+                  </div>
+                </div>
+              </div>
+              <div class="column is-4">
+                <div class="box">
+                  <label class="label">APY</label>
+                  <div class="is-size-2 has-text-black">
+                    <div v-if="APY !== null">
+                      <ICountUp
+                        :end-val="Number(APY)"
+                        :options="{
+                          decimalPlaces: 2,
+                          suffix: '%',
+                        }"
+                      />
+                    </div>
+                    <span v-else>-</span>
+                  </div>
                 </div>
               </div>
             </div>
@@ -154,15 +137,9 @@
   </div>
 </template>
 <script>
-import { Client } from '@nosana/sdk';
 import ICountUp from 'vue-countup-v2';
+const BN = require('bn.js');
 const SECONDS_PER_DAY = 24 * 60 * 60;
-
-const nosana = new Client({
-  solana: {
-    network: 'mainnet'
-  }
-});
 
 export default {
   components: {
@@ -183,7 +160,7 @@ export default {
       const multiplier = unstakeTime / multiplierSeconds;
       return multiplier + 1;
     },
-    xnos () {
+    xNOS () {
       const formAmount = this.amount ? this.amount : 0;
       return formAmount * this.multiplier;
     },
@@ -200,18 +177,16 @@ export default {
       if (!this.stakeTotals || !this.poolInfo) {
         return null;
       }
-      let totalXnos = parseFloat(this.stakeTotals.xnos);
-      if (this.activeStake.value && this.activeStake.value.amount) {
-        totalXnos -= this.activeStake.amount;
-      }
+      const totalXnos = parseFloat(this.stakeTotals.xnos);
+      const emission = new BN(this.poolInfo.emission, 16).toNumber();
       return (
         ((this.xNOS * 1e6) / (totalXnos + this.xNOS * 1e6)) *
-        ((this.poolInfo.emission.toNumber() / 1e6) * 60 * 60 * 24)
+        ((emission / 1e6) * 60 * 60 * 24)
       );
     }
   },
   mounted () {
-    this.getRewardsAndPoolInfo();
+    this.getPoolInfo();
     this.getStakeTotals();
   },
   methods: {
@@ -225,10 +200,13 @@ export default {
         console.error(error);
       }
     },
-    async getRewardsAndPoolInfo () {
+    async getPoolInfo () {
       try {
-        this.poolInfo = await nosana.value.stake.getPoolInfo();
-        console.log('poolInfo', this.poolInfo);
+        // https://dashboard.k8s.prd.nos.ci/api/stake/pool-info
+        const response = await fetch(
+          'http://localhost:3000/api/stake/pool-info'
+        );
+        this.poolInfo = await response.json();
       } catch (e) {
         console.error('cant fetch rewards info', e);
       }
@@ -237,73 +215,6 @@ export default {
 };
 </script>
 <style scoped lang="scss">
-.stake-block {
-  border-radius: 4px;
-  height: 100%;
-}
-
-.unstaked {
-  max-width: 500px;
-  width: 100%;
-  text-align: center;
-  margin: 0 auto;
-}
-
-.tabs ul {
-  border-bottom-width: 0px;
-  li {
-    width: 50%;
-    font-size: 18px;
-    a {
-      margin-bottom: 0;
-    }
-    &.is-active {
-      background-color: transparent !important;
-    }
-    &.is-inactive {
-      opacity: .4;
-      a {
-        cursor: not-allowed;
-        &:hover {
-          color: $text;
-        }
-      }
-    }
-  }
-}
-
-.scores {
-  min-width: fit-content;
-  h2 {
-    font-family: $family-sans-serif;
-  }
-  p {
-    font-size: 14px;
-  }
-  .box {
-    border: none;
-  }
-}
-@media only screen and (max-width: 1618px) {
-  .first-stake {
-    > div {
-      display:flex;
-      justify-content: center;
-      flex-wrap:wrap;
-      align-items: center;
-      .box {
-        margin: 5px 10px !important;
-      }
-    }
-  }
-}
-
-.balances {
-  .balance {
-    border-left: 1px solid $grey-dark;
-  }
-}
-
 form {
   button {
     width: 100%;
@@ -313,18 +224,15 @@ form {
   }
   input[type="number"]::-webkit-outer-spin-button,
   input[type="number"]::-webkit-inner-spin-button {
-      -webkit-appearance: none;
-      margin: 0;
+    -webkit-appearance: none;
+    margin: 0;
   }
   input[type="number"] {
-      -moz-appearance: textfield;
+    -moz-appearance: textfield;
   }
   .buttons button {
     width: 45px;
     height: 22px;
-  }
-  .amount-logo {
-    border-right: 1px solid $grey-darker;
   }
 }
 </style>
