@@ -166,7 +166,7 @@
         --network host  \
         --interactive -t \
         --volume ~/.nosana/:/root/.nosana/ \
-        nosana/nosana-cli:latest nosana \
+        nosana/nosana-cli:latest \
           node join-test-grid \
           --network $SOL_NET_ENV \
           --podman http://localhost:8080  \
