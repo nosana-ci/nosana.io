@@ -40,7 +40,9 @@ $subtitle-family: $family-headers;
 
 $body-line-height: 1.7;
 $button-padding-horizontal: 1.7em;
-$button-text-color: $accent;
+$button-border-color: $text;
+$button-text-hover-color: $text;
+$button-static-background-color: transparent;
 
 $dark-mode-background: #010C04;
 
