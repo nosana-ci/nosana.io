@@ -202,7 +202,7 @@
 
 <style lang="scss" scoped>
 .intro {
-  background-image: url("~assets/img/team/bg.svg");
+  background-image: url("~assets/img/bg-token.svg");
   background-size: cover;
   background-position: bottom;
 }
