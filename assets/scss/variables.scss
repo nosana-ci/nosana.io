@@ -5,12 +5,12 @@
 //@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&display=swap');
 //@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 $family-sans-serif: 'Space Grotesk', sans-serif;
-$family-headers: 'Space Mono', monospace;
+$family-headers: 'Space Grotesk', sans-serif;
 
 // Colors
 $primary: #1c282a;
-$secondary: #20cf8d;
-$accent: #5FFF00;
+$secondary: #10E80C;
+$accent: #10E80C;
 
 $secondary-invert: findColorInvert($secondary) !default;
 $accent-invert: findColorInvert($accent) !default;
@@ -20,7 +20,12 @@ $custom-colors: (
   "accent":($accent, $accent-invert),
 );
 
-$text: $primary;
+$text: rgba(51, 51, 51, 1);
+$black: #000;
+$grey-dark: #333;
+$grey: #666;
+$grey-light: #999;
+$grey-lighter: #f9f9f9;
 
 $link: $accent;
 $link-hover: lighten($accent, 20%);
@@ -35,15 +40,15 @@ $subtitle-family: $family-headers;
 
 $body-line-height: 1.7;
 $button-padding-horizontal: 1.7em;
-$button-text-color: $accent;
+$button-border-color: $text;
+$button-text-hover-color: $text;
+$button-static-background-color: transparent;
 
 $dark-mode-background: #010C04;
 
 $navbar-height: 5rem;
 $control-border-width: 2px;
 $footer-background-color: transparent;
-$input-background-color: rgba($accent, 0.08);
-$input-color: white;
 
 $border: $accent;
 $tabs-link-hover-border-bottom-color: $accent;
@@ -52,8 +57,19 @@ $tabs-link-color: white;
 $tabs-link-hover-color: $accent;
 $tabs-link-active-color: $accent;
 $navbar-dropdown-item-hover-color: $link;
-$box-color: white;
-$box-background-color: #021207;
 $label-weight: 400;
 
+$input-background-color: $white-ter;
+$input-border-color: $white-ter;
+$input-shadow: none;
+$input-focus-box-shadow-color: rgba($secondary, 0.25);
+$box-shadow: none;
+$box-padding: 1.6rem;
+
 $background-gradient: linear-gradient(180deg, rgba(18,54,3,1) 0%, rgba(10,10,10,0) 35%);
+
+$size-2: 38px;
+$size-3: 26px;
+$size-4: 20px;
+$size-5: 18px;
+$column-gap: 24px;

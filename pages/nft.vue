@@ -9,8 +9,7 @@
             </h1>
             <div class="has-limited-width-small mt-4">
               <p class="block">
-                You’re probably familiar with NFTs – you know, unique digital collectibles.
-                Now, we’ve got our very own collection,
+                We’ve got our very own collection,
                 consisting of 850 Burner Phone NTFs that exist on the Solana Blockchain.
                 Think of a Burner Phone NFT as your very own network membership card.
                 It even comes with owner-only perks,
@@ -78,11 +77,10 @@
               Coming to a street near you
             </h2>
             <p class="block">
-              Our Burner Phone vending machines will soon hit the (digital) streets.
+              Our Burner Phone vending machines has hit the (digital) streets.
               To celebrate, we’ve held a mint pass lottery and have distributed
-              50 mint passes – which can be used to mint a Burner Phone in our NFT vending machine.
-              You can read about our first lottery
-              [here.](https://nosana.medium.com/nosana-mint-pass-lottery-3298a3c70c89)
+              50 mint passes already – which can be used to mint a Burner Phone in our NFT vending machine.
+              You can read about our first lottery <a href="https://nosana.medium.com/nosana-mint-pass-lottery-3298a3c70c89" target="_blank">here</a>
             </p>
           </div>
           <div class="column is-5 is-offset-2" data-aos="zoom-in">
@@ -108,17 +106,13 @@
             </h2>
             <p class="block">
               <ul>
-                <li>Guaranteed early access to our incentivized testnet during phase 2</li>
                 <li>Access to an exclusive Discord channel where you can vote on future rewards and new properties</li>
-                <li>Free virtual representation of your NFT, to be used in future metaverses</li>
-                <li>3D-printed figurine of your NFT</li>
-                <li>Upgrade to a 3D burner phone model in the future</li>
+                <li>Free access and drinks at Nosana hosted events</li>
                 <li>Access to exclusive merch throughout the year – burner phones with certain properties only</li>
                 <li>
                   One-of-a-kind reward-boosting utility when mainnet goes live
                   – for a limited number of burner phones only, details to come
                 </li>
-                <li>Access to the Nosana Workbench – details to come</li>
               </ul>
             </p>
           </div>
@@ -163,7 +157,7 @@
                     Silver: pay little $NOS fees when posting new jobs; a lifetime platform discount.
                   </li>
                   <li class="gold">
-                    Gold: pay **zero** $NOS fees when posting new jobs; a lifetime platform discount.
+                    Gold: pay <b>zero</b> $NOS fees when posting new jobs; a lifetime platform discount.
                   </li>
                 </ul>
               </p>
@@ -190,14 +184,14 @@
             </div>
           </div>
         </div>
-        <div class="columns mt-6 is-vcentered">
+        <!-- <div class="columns mt-6 is-vcentered">
           <div class="column is-7">
             <img src="~assets/img/tower_animated.svg">
           </div>
           <div class="column is-5">
             <roadmap-nft />
           </div>
-        </div>
+        </div> -->
         <div class="columns mt-6 is-vcentered">
           <div class="column is-4 is-offset-2 has-text-centered">
             <a href="https://nftsolana.io/" target="_blank"><img src="~assets/img/nftsolcalender.png" style="height: 70px;"></a>

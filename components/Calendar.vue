@@ -131,7 +131,6 @@ td {
   min-width: 156px;
   height: 130px;
   border-color: $grey;
-  background-color: $box-background-color;
   cursor: default !important;
   &:before {
     margin-top: 40px !important;

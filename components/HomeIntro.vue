@@ -2,33 +2,19 @@
   <div>
     <section class="section home-block">
       <div class="container">
-        <div class="columns mt-6 mt-mobile-0" style="min-height: 60vh">
-          <div class="column has-background-black-blur-false">
-            <h1 class="title is-spaced site-title">
-              Trustless CI/CD<br>
-              for Web3.
+        <div class="columns is-centered mt-6 mt-mobile-0">
+          <div class="column is-8 pt-6 has-text-centered has-background-black-blur-false has-text-white">
+            <h1 class="title pt-6 is-spaced site-title has-text-white">
+              Powering the AI revolution
             </h1>
-            <div class="has-limited-width-small py-2">
-              <p class="block">
-                Nosana is a decentralized engine running continuous integration.
-                Providing extra resilience, security and privacy to your build with the power of blockchain technology.
+            <div class="py-2">
+              <p class="block has-limited-width-big is-size-5" style="margin: 0 auto;">
+                The most cost-effective GPU grid, with zero lock-in.
+                Developed and customized for AI inference workloads.
+                Consumers, miners, and businesses can monetize their idle hardware by becoming a Nosana Node.
+                Powered by Solana and the $NOS token.
               </p>
             </div>
-            <div class="mt-5">
-              <a href="https://app.nosana.io" target="_blank" class="button is-accent mr-2">
-                Try it out now
-              </a>
-              <a
-                href="https://docs.nosana.io"
-                target="_blank"
-                class="ml-2 button is-outlined is-accent is-wide"
-              >
-                Explore the docs
-              </a>
-            </div>
-          </div>
-          <div class="column yaml-bg">
-            <yaml-preview class="yaml-preview" />
           </div>
         </div>
       </div>
@@ -38,23 +24,26 @@
 
 <style lang="scss" scoped>
 @import "bulma/sass/utilities/mixins";
-.yaml-bg {
-  background-image: url("~assets/img/home/preview-bg.png");
-  background-size: 100% 100%;
-  background-repeat: no-repeat;
-  background-position: center;
-  padding: 5.7rem 6.2rem;
+.home-block {
+  position: relative;
+  min-height: 660px;
+  overflow: hidden;
+  background-image: url('~assets/img/home/bg.svg');
+  margin-top : -5rem;
+  background-size: cover;
+  background-position: bottom;
+}
 
-  @media screen and (max-width: $tablet) {
-    background-image: none;
-    padding: 8px;
+@include touch {
+  .home-block {
+    min-height: auto;
+    padding-bottom: 0;
+  }
+  .mt-mobile-0 {
+    margin-top: 0 !important;
   }
 }
-.yaml-preview {
-  margin-top: 18px;
-  margin-left: 3px;
-  box-shadow: 0px 0px 50px 0px rgba(95,255,0,0.5);
-}
+
 @media screen and (max-width: $tablet) {
   .button {
     margin-left: 0 !important;

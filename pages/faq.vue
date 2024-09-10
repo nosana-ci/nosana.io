@@ -64,7 +64,7 @@
           </div>
           <div class="mt-6">
             <a
-              href="https://discord.gg/nosana"
+              href="https://discord.gg/nosana-ai"
               target="_blank"
               class="subtitle is-1 px-4"
               style="background: rgba(0, 0, 0, 0.6)"

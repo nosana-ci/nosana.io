@@ -10,7 +10,7 @@ tags:
 ---
 
 - Website
-    - New homepage with yaml pipeline previews
+    - New homepage with YAML pipeline previews
     - Content updates
     - Demo video platform + product page
     - Private beta page
@@ -19,13 +19,13 @@ tags:
     - Default pipeline templates
     - Design updates
     - Add community tier
-    - Github only login
+    - GitHub only login
     - Rework job page
     - Streaming logs with color support
     - Manual trigger/rerun jobs
     - Global and scoped secrets
     - Manage pipeline for multiple branches
-    - Improve add new github repo flow
+    - Improve add new GitHub repo flow
 - Node
     - JSON flow for jobs
     - Node endpoint (for logs)

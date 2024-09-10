@@ -2,7 +2,7 @@ html {
   transition: background 0.2s;
   &.dark-mode {
     //background-image: url('~assets/img/bg-1.jpg');
-    background: #010C04;
+    background: #010c04;
     body {
       color: rgba($text-invert, 1);
     }
@@ -15,7 +15,14 @@ html {
         color: $text;
       }
     }
-    .title, .subtitle, h1, h2, h3, h4, h5, h6 {
+    .title,
+    .subtitle,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
       color: white;
     }
     .label {
@@ -65,12 +72,13 @@ html {
     .content blockquote {
       background-color: $dark-mode-background;
       border-left: 3px solid $accent;
-      font-size: 24px;
-  }
+      font-size: 1.1em;
+    }
     .table {
       background-color: $dark-mode-background;
       color: white;
-      thead td, thead th {
+      thead td,
+      thead th {
         color: white;
       }
     }

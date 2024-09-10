@@ -1,6 +1,9 @@
 export default {
   // Target: https://go.nuxtjs.dev/config-target
   target: 'static',
+  server: {
+    port: 3001
+  },
   generate: {
     fallback: true,
     async routes () {
@@ -19,6 +22,9 @@ export default {
     htmlAttrs: {
       lang: 'en'
     },
+    bodyAttrs: {
+      class: 'has-navbar-fixed-top'
+    },
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
@@ -26,12 +32,12 @@ export default {
       {
         hid: 'og:title',
         property: 'og:title',
-        content: 'Nosana Network'
+        content: 'Nosana - The Future of GPU Compute'
       },
       {
         hid: 'og:description',
         property: 'og:description',
-        content: 'The Nosana Network will be the leading provider of decentralized CPU-based Dev(Ops) solutions, revolutionizing the development process of Metaverse projects.'
+        content: 'The most cost-effective GPU grid, with zero lock-in. Developed and customized for AI inference workloads. Consumers, miners, and businesses can monetize their idle hardware by becoming a Nosana Node. Powered by Solana and the $NOS token.'
       },
       {
         hid: 'og:image',
@@ -66,8 +72,7 @@ export default {
     { src: '~/plugins/countdown.js', mode: 'client' },
     { src: '~/plugins/aos', mode: 'client' },
     { src: '~/plugins/carousel.js', mode: 'client' },
-    { src: '~/plugins/calendly.js', mode: 'client' },
-    { src: '~/plugins/zoho.js', mode: 'client' }
+    { src: '~/plugins/calendly.js', mode: 'client' }
   ],
 
   // Auto import components: https://go.nuxtjs.dev/config-components

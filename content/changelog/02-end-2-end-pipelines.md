@@ -13,18 +13,18 @@ tags:
     - Changelog page/section
 - Platform
     - Separate jobs and commits: allows for multiple jobs per commit
-    - Migration path from old Github flow to new Github flow
+    - Migration path from old GitHub flow to new GitHub flow
     - Result log improvements
         - auto-scroll log window improvements
-        - increase log-window height
-        - foldable side-panels
+        - increase log window height
+        - foldable side panels
     - Support for job triggers on pull requests
     - Show README for default pipeline templates
-    - Convert yaml to json flow in backend
+    - Convert YAML to JSON flow in backend
     - Multisig Squads pipeline + nosana-cli
-    - Docker-in-docker support
+    - Docker-in-Docker support
 - Node
-    - Clean-up steps: clean container images after job completes
+    - Clean up steps: clean container images after job completes
     - Add node health checks every loop
     - Run pipelines locally (with node cli)
     - Brew package to install the node

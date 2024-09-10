@@ -1,211 +1,262 @@
 <template>
   <div>
     <home-intro />
-    <!-- <partners /> -->
-    <section class="section has-background-gradient">
-      <div class="container">
-        <div class="columns is-variable is-8 has-text-centered py-5">
-          <div class="column is-one-third" data-aos="fade-up" data-aos-delay="200">
-            <div class="px-4 py-5">
-              <img src="~assets/img/icons/develop.svg" style="height: 42px;">
-              <h2 class="title is-4 my-3">
-                Product
-              </h2>
-              <p class="mb-3">
-                Identify and fix errors quickly with our CI Solution<br><br>
-              </p>
-              <nuxt-link to="/product">
-                Explore
-              </nuxt-link>
+    <section class="section has-background-black has-text-white">
+      <div class="container mb-6 pb-6">
+        <h2 class="title py-6 site-title has-text-white">
+          Unlocking Global GPU Potential<br>
+          Revolutionizing Computing,<br>
+          One Decentralized Grid at a Time!
+        </h2>
+        <div class="columns my-6 py-6">
+          <div class="column is-6" data-aos="fade-right">
+            <h3 class="title is-2 has-text-white">
+              Nosana Test Grid
+            </h3>
+            <h4 class="title is-3 has-text-white">
+              A multi-phase test grid for developers, data scientists, and AI
+              enthusiasts.
+            </h4>
+            <p class="mb-5 is-4 is-size-4">
+              Join us as an early adopter and build the foundation for the
+              world's biggest GPU-compute grid. We're working to make AI more
+              accessible and powerful than ever before.
+            </p>
+            <a href="/test-grid" class="has-text-accent">
+              Go to Nosana Test Grid <i class="pl-1 fas fa-chevron-right" />
+            </a>
+          </div>
+          <div class="column is-6" data-aos="fade-left">
+            <h3 class="title is-2 has-text-white">
+              Nosana Explorer
+            </h3>
+            <h4 class="title is-3 has-text-white">
+              Explore and interact with various aspects of the Nosana ecosystem.
+            </h4>
+            <p class="mb-5 is-size-4">
+              Display real-time statistics and metrics about the Nosana network,
+              including metrics like network hash rate, active nodes, and
+              computational power contributed to the decentralized GPU grid.
+            </p>
+            <a
+              href="https://explorer.nosana.io"
+              target="_blank"
+              class="has-text-accent"
+            >
+              Go to Nosana Explorer<i class="pl-1 fas fa-chevron-right" />
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="py-6">
+      <div class="container py-6 mb-6">
+        <h3 class="title is-2 py-6 mb-6">
+          Revolutionizing Computing with Decentralized GPU Grids,<br>Cost-Effective
+          Efficiency and Seamless Monetization.
+        </h3>
+        <div class="columns is-multiline">
+          <div class="is-4 column">
+            <h4 class="title is-3">
+              Decentralized GPU Grid <br>
+              <span class="has-text-grey-light">on-demand access</span>
+            </h4>
+            <p>
+              Allowing users to harness idle GPU resources globally.This grid
+              provides on-demand access to computational power for various
+              tasks, particularly AI inference workloads.
+            </p>
+          </div>
+          <div class="is-4 column">
+            <h4 class="title is-3">
+              Cost-Effective<br><span class="has-text-grey-light">60-98% less per month</span>
+            </h4>
+            <p>
+              Offering users efficient access to computational resources without
+              incurring high expenses. This affordability makes it an attractive
+              option for individuals, businesses, and miners looking to leverage
+              computing power.
+            </p>
+          </div>
+          <div class="is-4 column">
+            <h4 class="title is-3">
+              Zero Lock-In <br><span class="has-text-grey-light">99.99%+ uptime</span>
+            </h4>
+            <p>
+              Meaning they are not bound to long-term contracts or commitments.
+              This flexibility allows users to access computational resources as
+              needed without being tied to specific terms or conditions.
+            </p>
+          </div>
+          <div class="is-4 column mt-6">
+            <h4 class="title is-3">
+              Monetization Opportunity<br><span class="has-text-grey-light">platform for users</span>
+            </h4>
+            <p>
+              This enables individuals, businesses, and miners to earn rewards
+              by contributing their idle GPU resources to the decentralized
+              grid.
+            </p>
+          </div>
+          <div class="is-4 column mt-6">
+            <h4 class="title is-3">
+              Powered by Solana <br><span class="has-text-grey-light">$NOS Token</span>
+            </h4>
+            <p>
+              The $NOS token serves various functions, including facilitating
+              transactions, incentivizing participation, and potentially
+              governing the platform.
+            </p>
+          </div>
+          <div class="is-4 mt-6 column is-flex is-align-items-center">
+            <a href="/about" class="has-text-accent has-text-weight-semibold">
+              More about Nosana <i class="pl-1 fas fa-chevron-right" />
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Network Summary -->
+    <section class="py-6 has-background-grey-lighter">
+      <div class="container py-6 mb-6">
+        <h3 class="title is-2 pt-3 mb-6">
+          Network Summary
+        </h3>
+        <div class="columns is-multiline">
+          <div class="is-3 column">
+            <div class="has-background-white p-5">
+              <div class="has-text-grey-light mt-1">
+                USD spent (24h)
+              </div>
+              <h4 class="title is-2 pt-2 is-flex mb-1">
+                $1.44K
+                <span
+                  class="has-text-secondary ml-3 is-size-6 has-text-weight-medium"
+                >
+                  <i class="fas fa-arrow-up pl-1 pr-1" />45.33%
+                </span>
+              </h4>
             </div>
           </div>
-          <div class="column is-one-third " data-aos="fade-up" data-aos-delay="400">
-            <div class="px-4 py-5">
-              <img src="~assets/img/home/planet.svg" style="height: 42px;">
-              <h2 class="title is-4 my-3">
-                Decentralized Network
-              </h2>
-              <p class="mb-3">
-                Learn more why you should put the power of the world’s first decentralized CI service to work
-              </p>
-              <nuxt-link to="/platform">
-                Explore
-              </nuxt-link>
+          <div class="is-3 column">
+            <div class="has-background-white p-5">
+              <div class="has-text-grey-light mt-1">
+                USD spent (24h)
+              </div>
+              <h4 class="title is-2 pt-2 is-flex mb-1">
+                $1.44K
+                <span
+                  class="has-text-secondary ml-3 is-size-6 has-text-weight-medium"
+                >
+                  <i class="fas fa-arrow-up pl-1 pr-1" />45.33%
+                </span>
+              </h4>
             </div>
           </div>
-          <div class="column is-one-third " data-aos="fade-up" data-aos-delay="600">
-            <div class="px-4 py-5">
-              <img src="~assets/img/icons/token.svg" style="height: 42px;">
-              <h2 class="title is-4 my-3">
-                Contact us
-              </h2>
-              <p class="mb-3">
-                We’re always open to explore new opportunities.<br><br>
-              </p>
-              <nuxt-link to="/contact">
-                Explore
-              </nuxt-link>
+          <div class="is-3 column">
+            <div class="has-background-white p-5">
+              <div class="has-text-grey-light mt-1">
+                USD spent (24h)
+              </div>
+              <h4 class="title is-2 pt-2 is-flex mb-1">
+                $1.44K
+                <span
+                  class="has-text-secondary ml-3 is-size-6 has-text-weight-medium"
+                >
+                  <i class="fas fa-arrow-up pl-1 pr-1" />45.33%
+                </span>
+              </h4>
+            </div>
+          </div>
+          <div class="is-3 column">
+            <div class="has-background-white p-5">
+              <div class="has-text-grey-light mt-1">
+                USD spent (24h)
+              </div>
+              <h4 class="title is-2 pt-2 is-flex mb-1">
+                $1.44K
+                <span
+                  class="has-text-secondary ml-3 is-size-6 has-text-weight-medium"
+                >
+                  <i class="fas fa-arrow-up pl-1 pr-1" />45.33%
+                </span>
+              </h4>
             </div>
           </div>
         </div>
       </div>
     </section>
-    <section class="section">
-      <div class="container mb-6 pb-6">
-        <!-- text blocks -->
+    <!-- Discover -->
+    <Discover title="Discover what's happening on Nosana" :blogs="blogs" />
+    <section class="has-background-grey-lighter" style="overflow: hidden;">
+      <div class="container py-6 ">
         <div class="columns my-6 py-6">
-          <div class="column is-6" data-aos="fade-right">
-            <h2 class="title is-2">
-              Robust and resilient
-            </h2>
-            <p class="mb-5 has-limited-width-small">
-              We refuse to build in environments with a single point of failure,
-              vulnerabilities and weak spots. Our network is designed to
-              ensure that in the event of a node going offline or is malicious,
-              the workload is seamlessly passed to other nodes, keeping everything running safely.
-              A network that’s better protected against outages and cyberattacks.
+          <div class="column is-4 py-6 my-6" data-aos="fade-right">
+            <h3 class="title is-2">
+              Nosana Community
+            </h3>
+            <p class="mb-5 is-size-4">
+              Nosana is supported by a radically open community. As a free
+              public service, the network source code is open-source and
+              available to everyone.
             </p>
-            <nuxt-link
-              to="/platform"
-              class="button mt-2 is-accent is-outlined is-wide"
-            >
-              Explore
-            </nuxt-link>
+            <socials class="mb-4 pt-3" dark />
           </div>
-          <div class="column is-6" data-aos="fade-left">
-            <img src="~assets/img/home/robust.svg">
-          </div>
-        </div>
-        <div class="columns my-6 py-6">
-          <div class="column is-6 px-0 video-frame has-radius" data-aos="fade-right">
-            <video autoplay muted @ended="onVideoEnd">
-              <source src="~assets/img/pipeline-video.mp4" type="video/mp4">
-            </video>
-          </div>
-          <div class="column is-5 is-offset-1" data-aos="fade-left">
-            <h2 class="title is-2">
-              Transparent and secure
-            </h2>
-            <p class="mb-5 has-limited-width-small">
-              We prioritize both transparency and security.
-              A decentralized network allows for increased trust and visibility,
-              as all users have access to the same information and can verify its accuracy.
-              Combined with our advanced security measures, including our state-of-the-art secret manager,
-              you can rest assured that your information is protected at all times.
-            </p>
-            <nuxt-link
-              to="/product"
-              class="button mt-2 is-accent is-outlined is-wide"
-            >
-              Explore
-            </nuxt-link>
-          </div>
-        </div>
-        <div class="columns my-6 py-6">
-          <div class="column is-6" data-aos="fade-right">
-            <h2 class="title is-2">
-              In control of your own compute
-            </h2>
-            <p class="mb-5 has-limited-width-small">
-              Plug in your own devices to compute your pipelines and/or let your designated community
-              contribute compute.
-              The ability to self-host means that you retain full ownership and control of your data.
-              Saying no to third-party access eliminates the dangers of data mining, routine surveillance,
-              and the risk of vendor-side malicious insiders.
-            </p>
-            <nuxt-link
-              to="/product"
-              class="button mt-2 is-accent is-outlined is-wide"
-            >
-              Explore
-            </nuxt-link>
-          </div>
-          <div class="column is-6" data-aos="fade-left">
-            <img src="~assets/img/home/control.svg">
-          </div>
-        </div>
-        <div class="columns my-6 py-6">
-          <div class="column is-6" data-aos="fade-right">
-            <img src="~assets/img/home/environment.svg">
-          </div>
-          <div class="column is-5 is-offset-1" data-aos="fade-left">
-            <h2 class="title is-2">
-              Environment-friendly alternative
-            </h2>
-            <p class="mb-5 has-limited-width-small">
-              With the world's data centers consuming more power than the entire UK and contributing to greenhouse
-              gas emissions,it's time for a change. Our CI engine utilizes the spare compute of the masses,
-              providing an eco-friendly alternative to using big datacenters.
-            </p>
-            <nuxt-link
-              to="/product"
-              class="button mt-2 is-accent is-outlined is-wide"
-            >
-              Explore
-            </nuxt-link>
+          <div class="column is-8">
+            <img src="~assets/img/home/tweets.svg" class="tweet-image">
           </div>
         </div>
       </div>
-      <connect />
     </section>
   </div>
 </template>
 
 <script>
 export default {
-  components: {
-  },
+  components: {},
   data () {
     return {
       amount: 1500,
-      days: 100
+      days: 100,
+      blogs: []
     };
   },
-  colorMode: 'dark',
   mounted () {
+    this.fetchBlogs();
   },
-  destroyed () {
-  },
+  destroyed () {},
   methods: {
     onVideoEnd (event) {
       setTimeout(() => {
         event.target.play();
       }, 2000);
+    },
+    async fetchBlogs () {
+      const blogs = await this.$content('blog')
+        .only([
+          'title',
+          'createdAt',
+          'description',
+          'img',
+          'slug',
+          'author',
+          'tags'
+        ])
+        .limit(3)
+        .sortBy('createdAt', 'desc')
+        .search(this.$route.query.search)
+        .fetch();
+      this.blogs = blogs;
+      this.loadedPosts = true;
     }
   }
 };
 </script>
 
 <style lang="scss" scoped>
-@import "bulma/sass/utilities/mixins";
-video {
-  height: auto;
-  width: 100%;
-}
-
-.video-frame {
-  background-image: url('~assets/img/video-frame.svg');
-  background-size: 101%;
-  background-repeat: no-repeat;
-  border: 1px solid #343D36;
-  background-position: top left;
-}
-
-@keyframes moveX {
-  0% {
-    left: 10%;
-  }
-  100% {
-    left: 90%;
-  }
-}
-@keyframes moveY {
-  0% {
-    top: 10%;
-  }
-
-  100% {
-    top: 90%;
-  }
+.tweet-image {
+  position: absolute;
+  top: 0;
+  bottom: 0;
 }
 </style>

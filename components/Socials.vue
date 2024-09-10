@@ -1,36 +1,50 @@
 <template>
-  <div>
-    <a v-for="social in socials" :key="social.icon" :href="social.link" target="_blank" class="subtitle is-5 mx-2">
-      <i :class="'fab fa-' + social.icon" />
+  <div class="is-flex is-align-items-center">
+    <a
+      v-for="social in socials"
+      :key="social.icon"
+      :href="social.link"
+      target="_blank"
+      class="mr-5"
+    >
+      <img v-if="dark" :src="social.icon">
+      <img v-else :src="social.iconLight">
     </a>
   </div>
 </template>
 
 <script>
-
 export default {
+  props: {
+    dark: Boolean
+  },
   data () {
     return {
       socials: [
         {
-          link: 'https://twitter.com/nosana_ci',
-          icon: 'twitter'
+          link: 'https://twitter.com/nosana_ai',
+          icon: require('@/assets/img/icons/x.svg'),
+          iconLight: require('@/assets/img/icons/x-light.svg')
         },
         {
-          link: 'https://discord.gg/nosana',
-          icon: 'discord'
-        },
-        {
-          link: 'https://t.me/NosanaCI',
-          icon: 'telegram'
-        },
-        {
-          link: 'https://nosana.medium.com/',
-          icon: 'medium'
+          link: 'https://t.me/NosanaCompute',
+          icon: require('@/assets/img/icons/telegram.svg'),
+          iconLight: require('@/assets/img/icons/telegram-light.svg')
         },
         {
           link: 'https://github.com/nosana-ci',
-          icon: 'github'
+          icon: require('@/assets/img/icons/github.svg'),
+          iconLight: require('@/assets/img/icons/github-light.svg')
+        },
+        {
+          link: 'https://discord.gg/nosana-ai',
+          icon: require('@/assets/img/icons/discord.svg'),
+          iconLight: require('@/assets/img/icons/discord-light.svg')
+        },
+        {
+          link: 'https://nosana.medium.com/',
+          icon: require('@/assets/img/icons/medium.svg'),
+          iconLight: require('@/assets/img/icons/medium-light.svg')
         }
       ]
     };
@@ -39,5 +53,13 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-
+a {
+  color: white !important;
+  &.dark {
+    color: black !important;
+  }
+  img {
+    width: 24px;
+  }
+}
 </style>

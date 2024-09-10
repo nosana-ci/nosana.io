@@ -1,57 +1,52 @@
 <template>
-  <section class="section">
-    <div class="container">
-      <article class="content blog">
-        <div class="columns is-centered">
-          <div class="column is-3">
-            <nuxt-link to="/blog">
-              &lt; All blogs
-            </nuxt-link>
-            <ul style="position: sticky; top: 20px">
-              <li
-                v-for="link of blog.toc"
-                :key="link.id"
-                :class="{ 'ml-0': link.depth === 2, 'ml-4': link.depth === 3 }"
-              >
-                <a @click="scrollTo(link.id)">
-                  {{ link.text }}
-                </a>
-              </li>
-            </ul>
+  <div>
+    <section class="section">
+      <div class="container mb-6">
+        <article class="content blog">
+          <div class="columns is-centered">
+            <div class="column is-9">
+              <p class="is-size-7 mt-3 mb-0">
+                {{ formatDate(blog.createdAt) }} <span v-if="blog.author">{{ blog.author }}</span>
+              </p>
+              <h1 class="mb-5 mt-0 has-text-black">{{ blog.title }}</h1>
+              <img
+                class="has-radius-big header-image-blog"
+                :src="blog.img"
+                style="width: 100%; object-fit: cover;">
+              <div style="max-width: 900px; width: 100%; margin: 0 auto;">
+                <h2 class="mb-5 has-text-black mt-6 description">{{ blog.description }}</h2>
+                <nuxt-content :document="blog" />
+                <h3 class="mt-6 has-text-black">Share on</h3>
+                <div class="is-flex">
+                  <a target="_blank" class="share-link" :href="`https://twitter.com/intent/tweet?url=https://nosana.io${$route.fullPath}&text=${blog.title}`">
+                    <img src="~/assets/img/icons/x.svg" style="height: 22px">
+                  </a>
+                  <a target="_blank" class="share-link" :href="`https://t.me/share/url?url=https://nosana.io${$route.fullPath}&text=${blog.title}`">
+                    <img src="~/assets/img/icons/telegram.svg" class="ml-3" style="height: 22px">
+                  </a>
+                </div>
+              </div>
+            </div>
           </div>
-          <div class="column is-6">
-            <!-- <div
-              style="height: 350px; width: 100%"
-              :style="{ 'background-image': `url('${blog.img}')` }"
-              class="has-background-image"
-            /> -->
-            <img :src="blog.img" style="width: 100%; height: auto;">
-            <h1>{{ blog.title }}</h1>
-            <p class="has-text-accent">
-              <span v-if="blog.author">By <b>{{ blog.author }} </b>
-              </span>
-              <span>- Article created:
-                <b>{{ formatDate(blog.createdAt) }}</b></span>
-            </p>
-            <nuxt-content :document="blog" />
-          </div>
-          <div class="column is-3">
-&nbsp;
-          </div>
-        </div>
-      </article>
-    </div>
-  </section>
+        </article>
+      </div>
+    </section>
+    <Discover class="has-background-light" title="Read more about what's happening on Nosana" :blogs="blogs" />
+  </div>
 </template>
 
 <script>
 import Prism from '~/plugins/prism';
 export default {
-  colorMode: 'dark',
+  colorMode: 'light',
   async asyncData ({ $content, params }) {
     const blog = await $content('blog', params.slug).fetch();
-
-    return { blog };
+    const blogs = await $content('blog')
+      .only(['title', 'createdAt', 'description', 'img', 'slug', 'author', 'tags'])
+      .sortBy('createdAt', 'desc')
+      .where({ title: { $ne: blog.title } })
+      .limit(3).fetch();
+    return { blog, blogs };
   },
   head () {
     return {
@@ -124,7 +119,31 @@ export default {
 </script>
 
 <style lang="scss">
+.share-link {
+  transition: all .2s ease;
+  &:hover {
+    margin-top: -3px;
+  }
+}
 .blog {
+  a {
+    color: #04DE00;
+  }
+  h1 {
+    font-size: 46px;
+    line-height: 56px;
+    @media screen and (max-width: 1023px) {
+      font-size: 30px;
+      line-height: 40px;
+    }
+  }
+  h2 {
+    line-height: 40px;
+  }
+  h1,h2,h3,h4,h5,h6 {
+    color: black;
+    font-weight: 700;
+  }
   .number {
     align-items: initial;
     display: inline;
@@ -274,6 +293,16 @@ div.code-toolbar {
     >.toolbar {
       opacity: 1;
     }
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .header-image-blog {
+    height: auto !important;
+    margin-bottom: 0;
+  }
+  .description {
+    margin-top: 20px !important;
   }
 }
 </style>

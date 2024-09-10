@@ -3,12 +3,12 @@
     <div class="has-limited-width p-6">
       <div class="p-3">
         <h2 class="title is-4">
-          Connect to get started
+          Join the movement
         </h2>
-        Ready to optimize your workflow with our decentralized CI service?<br>
-        Connect with our app to get started.
+        Ready to contribute your compute power to the grid?<br>
+        Join our Discord and read the documentation to be fully prepared.
         <p class="mt-4">
-          <a href="https://app.nosana.io" target="_blank" class="is-underlined"><strong class="has-text-accent">Try it out now &nbsp;&nbsp;↘</strong></a>
+          <a href="https://docs.nosana.io" target="_blank" class="is-underlined"><strong class="has-text-accent">Explore the docs &nbsp;&nbsp;↘</strong></a>
         </p>
       </div>
     </div>
