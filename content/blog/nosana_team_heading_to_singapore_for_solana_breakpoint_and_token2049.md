@@ -10,7 +10,7 @@ tags:
 
 ### **Connect with the Nosana team:**
 
-* [**AI Powered Summit with Akash Networ.**k](https://lu.ma/AIPowered) \- Sep 17   
+* [**AI Powered Summit with Akash Network**](https://lu.ma/AIPowered) \- Sep 17   
   Jesse will be speaking on a panel about Advancements and Implications for Distributed Learning Systems.
   <div style="width: 100%; margin: 0 auto;">
 <img alt="Advancements and Implications for Distributed Learning Systems" src="/img/panel.png" />
