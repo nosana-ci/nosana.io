@@ -4,13 +4,18 @@
       <div class="title is-2 mt-5">
         Brand Assets
       </div>
-      <p class="has-limited-width is-size-3 has-text-weight-semibold" style="color: #999;">
+      <p
+        class="has-limited-width is-size-3 has-text-weight-semibold"
+        style="color: #999"
+      >
         This is the brand kit of Nosana. This style guide includes logo use and
         colors.
       </p>
-      <div class="columns mt-5 is-multiline">
+      <div class="columns mt-5 mb-6 is-multiline">
         <div class="column has-text-centered is-one-third">
-          <div class="has-radius has-background-grey-lighter">
+          <div
+            class="has-radius has-background-grey-lighter is-align-content-center"
+          >
             <img src="~assets/img/logotype.svg">
           </div>
           <div class="is-flex is-justify-content-space-between mt-2">
@@ -18,7 +23,7 @@
               Logotype
             </div>
             <a
-              class="is-size-7 ml-5 has-text-accent has-text-weight-semibold"
+              class="ml-5 has-text-accent has-text-weight-semibold"
               target="_blank"
               href="/img/logotype.svg"
               download
@@ -26,7 +31,9 @@
           </div>
         </div>
         <div class="column has-text-centered is-one-third">
-          <div class="has-radius has-background-grey-lighter">
+          <div
+            class="has-radius has-background-grey-lighter is-align-content-center"
+          >
             <img src="~assets/img/logomark.svg">
           </div>
           <div class="is-flex is-justify-content-space-between mt-2">
@@ -34,7 +41,7 @@
               Logomark
             </div>
             <a
-              class="is-size-7 ml-5 has-text-accent has-text-weight-semibold"
+              class="ml-5 has-text-accent has-text-weight-semibold"
               target="_blank"
               href="/img/logomark.svg"
               download
@@ -42,7 +49,9 @@
           </div>
         </div>
         <div class="column has-text-centered is-one-third">
-          <div class="has-radius has-background-grey-lighter">
+          <div
+            class="has-radius has-background-grey-lighter is-align-content-center"
+          >
             <img src="~assets/img/wordmark.svg">
           </div>
           <div class="is-flex is-justify-content-space-between mt-2">
@@ -50,7 +59,7 @@
               Wordmark
             </div>
             <a
-              class="is-size-7 ml-5 has-text-accent has-text-weight-semibold"
+              class="ml-5 has-text-accent has-text-weight-semibold"
               target="_blank"
               href="/img/wordmark.svg"
               download
@@ -58,7 +67,9 @@
           </div>
         </div>
         <div class="column has-text-centered is-one-half">
-          <div class="has-radius has-background-grey-lighter">
+          <div
+            class="has-radius has-background-grey-lighter is-align-content-center"
+          >
             <img src="~assets/img/safezone1.svg">
           </div>
           <div class="is-flex is-justify-content-space-between mt-2">
@@ -66,7 +77,7 @@
               Safezone
             </div>
             <a
-              class="is-size-7 ml-5 has-text-accent has-text-weight-semibold"
+              class="ml-5 has-text-accent has-text-weight-semibold"
               target="_blank"
               href="/img/safezone1.svg"
               download
@@ -74,7 +85,9 @@
           </div>
         </div>
         <div class="column has-text-centered is-one-half">
-          <div class="has-radius has-background-grey-lighter">
+          <div
+            class="has-radius has-background-grey-lighter is-align-content-center"
+          >
             <img src="~assets/img/safezone2.svg">
           </div>
           <div class="is-flex is-justify-content-space-between mt-2">
@@ -82,7 +95,7 @@
               Safezone
             </div>
             <a
-              class="is-size-7 ml-5 has-text-accent has-text-weight-semibold"
+              class=" ml-5 has-text-accent has-text-weight-semibold"
               target="_blank"
               href="/img/safezone2.svg"
               download
@@ -90,66 +103,123 @@
           </div>
         </div>
       </div>
-      <div class="color">
-        <div class="menu-label my-0">
-          <small>accent</small>
+
+      <div class="columns mt-6">
+        <div class="column is-half is-flex">
+          <div class="color pr-3">
+            <div
+              style="background: #10E80C;"
+              class="has-radius color-square"
+            >
+              <div class="is-flex is-justify-content-space-between p-4" style="width: 100%">
+                <div>
+                  Primary color<br>
+                  <span class="has-text-white">Neon Green</span>
+                </div>
+                <div>
+                  <br>
+                  #10E80C
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="color pl-3">
+            <div
+              style="background: #000;"
+              class="has-radius color-square has-text-white"
+            >
+              <div class="is-flex is-justify-content-space-between p-4" style="width: 100%">
+                <div>
+                  Primary color<br>
+                  <span style="color: rgba(255, 255, 255, 0.6)">Midnight Black</span>
+                </div>
+                <div>
+                  <br>
+                  #000000
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-        <div
-          style="background: #5fff00"
-          class="has-radius color-square has-text-black is-size-4"
-          @click="copyToClipboard('#5FFF00')"
-        >
-          <i class="far fa-copy" />
-        </div>
-        <div class="menu-label my-0">
-          <small class="has-text-weight-normal">HEX</small> #5FFF00
-        </div>
-        <div class="menu-label my-0">
-          <small class="has-text-weight-normal">RGB</small>(95, 255, 0)
+        <div class="column is-half is-flex is-flex-wrap-wrap">
+          <div class="color small pr-3">
+            <div
+              style="background: #F9F9F9;"
+              class="has-radius color-square"
+            >
+              <div class="is-flex is-justify-content-space-between p-4" style="width: 100%">
+                <div>
+                  Secondary color<br>
+                  <span class="has-text-grey-light">Light Grey</span>
+                </div>
+                <div>
+                  <br>
+                  #F9F9F9
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="color small pl-3">
+            <div
+              style="background: #999;"
+              class="has-radius color-square has-text-white"
+            >
+              <div class="is-flex is-justify-content-space-between p-4" style="width: 100%">
+                <div>
+                  Secondary color<br>
+                  <span class="has-text-white">Light Grey 02</span>
+                </div>
+                <div>
+                  <br>
+                  #999999
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="color small pr-3 mt-5">
+            <div
+              style="background: #666;"
+              class="has-radius color-square"
+            >
+              <div class="is-flex is-justify-content-space-between p-4 has-text-white" style="width: 100%">
+                <div>
+                  Secondary color<br>
+                  <span class="has-text-grey-light">Dark Grey</span>
+                </div>
+                <div>
+                  <br>
+                  #666666
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="color small pl-3 mt-5">
+            <div
+              style="background: #333;"
+              class="has-radius color-square has-text-white"
+            >
+              <div class="is-flex is-justify-content-space-between p-4" style="width: 100%">
+                <div>
+                  Secondary color<br>
+                  <span class="has-text-grey-light">Dark Grey 02</span>
+                </div>
+                <div>
+                  <br>
+                  #333333
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
-      <div class="color">
-        <div class="menu-label my-0">
-          <small>background</small>
-        </div>
-        <div
-          style="background: #010c04; border: 1px solid white"
-          class="has-radius color-square has-text-white is-size-4"
-          @click="copyToClipboard('#010c04')"
-        >
-          <i class="far fa-copy" />
-        </div>
-        <div class="menu-label my-0">
-          <small class="has-text-weight-normal">HEX</small> #010c04
-        </div>
-        <div class="menu-label my-0">
-          <small class="has-text-weight-normal">RGB</small> (1, 12, 4)
-        </div>
-      </div>
-      <div class="color">
-        <div class="menu-label my-0">
-          <small>text</small>
-        </div>
-        <div
-          style="background: white"
-          class="has-radius color-square has-text-black is-size-4"
-          @click="copyToClipboard('#FFFFFF')"
-        >
-          <i class="far fa-copy" />
-        </div>
-        <div class="menu-label my-0">
-          <small class="has-text-weight-normal">HEX</small> #FFFFFF
-        </div>
-        <div class="menu-label my-0">
-          <small class="has-text-weight-normal">RGB</small> (255, 255, 255)
-        </div>
+      <div class="subtitle is-6 mb-6 has-text-weight-semibold">
+        Nosana Main colors
       </div>
     </div>
   </section>
 </template>
 
 <script>
-
 export default {
   name: 'Brand',
   colorMode: 'light',
@@ -180,35 +250,16 @@ export default {
 <style lang="scss" scoped>
 .color {
   display: inline-block;
-  margin-right: 25px;
-  min-width: 65px;
-  &.color-small {
-    margin-right: 10px;
-
-    .color-square {
-      width: 50px;
-      height: 50px;
-    }
-    .color-text {
-      line-height: 14px;
-    }
-  }
+  width: 50%;
   .color-square {
-    width: 100px;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    cursor: pointer;
-    i {
-      opacity: 0;
-      transition: 0.2s;
+    align-items: flex-end;
+    height: 300px;
+  }
+  &.small {
+    .color-square {
+      height: 138px;
     }
-    &:hover {
-      i {
-        opacity: 1;
-      }
-    }
-    height: 100px;
   }
 }
 
