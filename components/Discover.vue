@@ -1,7 +1,7 @@
 <template>
   <div v-if="blogs && blogs.length > 0" class="section">
     <div class="container">
-      <h2 class="title is-2 mb-5 mt-5 has-text-black px-3">
+      <h2 class="title is-2 mb-5 mt-5 has-text-black">
         {{ title }}
       </h2>
       <div class="columns mt-5 mb-6 is-multiline">

@@ -49,7 +49,7 @@
         </div>
       </div>
     </section>
-    <section class="py-6">
+    <section class="section py-6">
       <div class="container py-6 mb-6">
         <h3 class="title is-2 py-6 mb-6">
           Revolutionizing Computing with Decentralized GPU Grids,<br>Cost-Effective
@@ -117,7 +117,7 @@
       </div>
     </section>
     <!-- Network Summary -->
-    <section class="py-6 has-background-grey-lighter">
+    <section class="section py-6 has-background-grey-lighter">
       <div class="container py-6 mb-6">
         <h3 class="title is-2 pt-3 mb-6">
           Network Summary
@@ -188,7 +188,7 @@
     </section>
     <!-- Discover -->
     <Discover title="Discover what's happening on Nosana" :blogs="blogs" />
-    <section class="has-background-grey-lighter" style="overflow: hidden;">
+    <section class="section has-background-grey-lighter" style="overflow: hidden;">
       <div class="container py-6 ">
         <div class="columns my-6 py-6">
           <div class="column is-4 py-6 my-6" data-aos="fade-right">

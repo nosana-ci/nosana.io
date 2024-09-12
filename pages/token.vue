@@ -70,7 +70,7 @@
         </div>
       </div>
     </section>
-    <section class="py-6 has-background-grey-lighter">
+    <section class="py-6 has-background-grey-lighter" id="stats">
       <div class="container py-6 mb-6">
         <h3 class="title is-2 pt-3 mb-6">Trusted by our Community</h3>
         <div class="columns is-multiline">

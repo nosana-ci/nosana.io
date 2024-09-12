@@ -37,59 +37,66 @@
           <div class="navbar-start" />
           <div class="navbar-end is-align-items-center">
             <div class="navbar-item has-dropdown is-hoverable" @click="mobileMenu = false">
+              <a
+                class="navbar-link is-arrowless"
+                exact-active-class="is-active"
+              >
+                <div>Product</div>
+              </a>
+              <div class="navbar-dropdown is-boxed">
+                <nuxt-link class="navbar-item" to="/test-grid" exact-active-class="is-active">
+                  Test Grid
+                </nuxt-link>
+                <a href="https://explorer.nosana.io/" target="_blank" class="navbar-item">
+                  <span>Explorer</span>
+                </a>
+              </div>
+            </div>
+            <div class="navbar-item has-dropdown is-hoverable" @click="mobileMenu = false">
+              <a
+                class="navbar-link is-arrowless"
+                exact-active-class="is-active"
+              >
+                <div>Network</div>
+              </a>
+              <div class="navbar-dropdown is-boxed">
+                <nuxt-link class="navbar-item" to="/token#stats" exact-active-class="is-active">
+                  Nosana Stats
+                </nuxt-link>
+                <nuxt-link class="navbar-item" to="/team" exact-active-class="is-active">
+                  About Nosana
+                </nuxt-link>
+                <nuxt-link class="navbar-item" to="/token" exact-active-class="is-active">
+                  $NOS Token
+                </nuxt-link>
+              </div>
+            </div>
+            <div class="navbar-item has-dropdown is-hoverable" @click="mobileMenu = false">
               <a class="navbar-link is-arrowless">
-                <div>Info</div>
+                <div>Resources</div>
               </a>
               <div class="navbar-dropdown is-boxed">
                 <a href="https://docs.nosana.io" target="_blank" class="navbar-item">
                   <span>Docs</span>
                 </a>
-                <a href="https://github.com/nosana-ci" target="_blank" class="navbar-item">
-                  <!-- <i class="fab fa-github mr-2" aria-hidden="true" /> -->
-                  <span>GitHub</span>
-                </a>
+                <nuxt-link class="navbar-item" to="/blog" exact-active-class="is-active">
+                  <span>Blog</span>
+                </nuxt-link>
                 <a href="https://app.nosana.io/stake/" target="_blank" class="navbar-item">
                   <span>Staking</span>
                 </a>
+                <nuxt-link class="navbar-item" to="/support" exact-active-class="is-active">
+                  <span>Support</span>
+                </nuxt-link>
+                <nuxt-link class="navbar-item" to="/brand" exact-active-class="is-active">
+                  <span>Brand Assets</span>
+                </nuxt-link>
               </div>
             </div>
             <div class="navbar-item has-dropdown is-hoverable" @click="mobileMenu = false">
-              <a
-                class="navbar-link is-arrowless"
-                exact-active-class="is-active"
-              >
-                <div>Community</div>
+              <a class="button is-secondary is-size-6">
+                Call to action
               </a>
-              <div class="navbar-dropdown is-boxed">
-                <nuxt-link class="navbar-item" to="/blog" exact-active-class="is-active">
-                  Blog
-                </nuxt-link>
-                <a href="https://twitter.com/nosana_ai" target="_blank" class="navbar-item">
-                  <i class="fab fa-twitter mr-2" aria-hidden="true" />
-                  <span>Twitter</span>
-                </a>
-                <a href="https://discord.gg/nosana-ai" target="_blank" class="navbar-item">
-                  <i class="fab fa-discord mr-2" aria-hidden="true" />
-                  <span>Discord</span>
-                </a>
-                <a href="https://t.me/NosanaCompute" target="_blank" class="navbar-item">
-                  <i class="fab fa-telegram mr-2" aria-hidden="true" />
-                  <span>Telegram</span>
-                </a>
-              </div>
-            </div>
-            <div class="navbar-item has-dropdown is-hoverable" @click="mobileMenu = false">
-              <a
-                class="navbar-link is-arrowless"
-                exact-active-class="is-active"
-              >
-                <div>Company</div>
-              </a>
-              <div class="navbar-dropdown is-boxed">
-                <nuxt-link class="navbar-item" to="/team" exact-active-class="is-active">
-                  Team page
-                </nuxt-link>
-              </div>
             </div>
           </div>
         </div>
