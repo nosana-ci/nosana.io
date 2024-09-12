@@ -28,7 +28,7 @@
               <h3 class="title is-3 mt-2 mb-3">
                 {{ relatedBlog.title }}
               </h3>
-              <p style="color: #666">
+              <p class="is-size-5" style="color: #666">
                 {{ relatedBlog.description }}
               </p>
             </div>

@@ -61,7 +61,7 @@
               Decentralized GPU Grid <br>
               <span class="has-text-grey-light">on-demand access</span>
             </h4>
-            <p>
+            <p class="is-size-5">
               Allowing users to harness idle GPU resources globally.This grid
               provides on-demand access to computational power for various
               tasks, particularly AI inference workloads.
@@ -71,7 +71,7 @@
             <h4 class="title is-3">
               Cost-Effective<br><span class="has-text-grey-light">60-98% less per month</span>
             </h4>
-            <p>
+            <p class="is-size-5">
               Offering users efficient access to computational resources without
               incurring high expenses. This affordability makes it an attractive
               option for individuals, businesses, and miners looking to leverage
@@ -82,7 +82,7 @@
             <h4 class="title is-3">
               Zero Lock-In <br><span class="has-text-grey-light">99.99%+ uptime</span>
             </h4>
-            <p>
+            <p class="is-size-5">
               Meaning they are not bound to long-term contracts or commitments.
               This flexibility allows users to access computational resources as
               needed without being tied to specific terms or conditions.
@@ -92,7 +92,7 @@
             <h4 class="title is-3">
               Monetization Opportunity<br><span class="has-text-grey-light">platform for users</span>
             </h4>
-            <p>
+            <p class="is-size-5">
               This enables individuals, businesses, and miners to earn rewards
               by contributing their idle GPU resources to the decentralized
               grid.
@@ -102,14 +102,14 @@
             <h4 class="title is-3">
               Powered by Solana <br><span class="has-text-grey-light">$NOS Token</span>
             </h4>
-            <p>
+            <p class="is-size-5">
               The $NOS token serves various functions, including facilitating
               transactions, incentivizing participation, and potentially
               governing the platform.
             </p>
           </div>
           <div class="is-4 mt-6 column is-flex is-align-items-center">
-            <a href="/about" class="has-text-accent has-text-weight-semibold">
+            <a href="/about" class="has-text-accent has-text-weight-semibold is-size-5">
               More about Nosana <i class="pl-1 fas fa-chevron-right" />
             </a>
           </div>

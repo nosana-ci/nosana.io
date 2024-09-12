@@ -45,10 +45,10 @@
               <p v-if="blog.author" class="has-text-black is-size-7">
                 By {{ blog.author }}
               </p>
-              <h3 class="title is-5 mt-2 mb-3">
+              <h3 class="title is-3 mt-2 mb-3">
                 {{ blog.title }}
               </h3>
-              <p style="color: #666">{{ blog.description }}</p>
+              <p class="is-size-5" style="color: #666">{{ blog.description }}</p>
             </div>
           </nuxt-link>
         </client-only>
