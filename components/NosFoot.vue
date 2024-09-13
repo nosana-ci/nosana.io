@@ -11,60 +11,58 @@
             <div class="column is-7">
               <img
                 src="~/assets/img/Nosana_Logo_horizontal_color_white.svg"
-                class="logo mb-1"
-                style="height: 40px"
-              />
+                class="logo mb-2"
+                style="height: 40px; margin-left: -5px"
+              >
               <socials class="mb-4" />
             </div>
             <div class="column is-5">
               <div class="columns">
                 <div class="column is-4">
-                  <h4>Product</h4>
+                  <h4 class="title is-4 mb-3 has-text-white">
+                    Product
+                  </h4>
                   <nuxt-link
                     class="navbar-item"
-                    to="/"
+                    to="/test-grid"
                     exact-active-class="is-active"
                   >
-                    <div>Home</div>
+                    <div>Text Grid</div>
                   </nuxt-link>
                   <a
                     target="_blank"
-                    href="https://docs.nosana.io"
+                    href="https://explorer.nosana.io"
                     class="navbar-item"
                     to="/docs"
                     exact-active-class="is-active"
                   >
-                    <div>Docs</div>
+                    <div>Explorer</div>
                   </a>
                 </div>
                 <div class="column is-4">
-                  <h4>Product</h4>
+                  <h4 class="title is-4 mb-3 has-text-white">
+                    Network
+                  </h4>
                   <nuxt-link
                     class="navbar-item"
-                    to="/"
+                    to="/team"
                     exact-active-class="is-active"
                   >
-                    <div>Home</div>
+                    <div>About Nosana</div>
                   </nuxt-link>
-                  <a
+                  <nuxt-link
                     target="_blank"
-                    href="https://docs.nosana.io"
                     class="navbar-item"
-                    to="/docs"
+                    to="/token"
                     exact-active-class="is-active"
                   >
-                    <div>Docs</div>
-                  </a>
+                    <div>$NOS Token</div>
+                  </nuxt-link>
                 </div>
                 <div class="column is-4">
-                  <h4>Product</h4>
-                  <nuxt-link
-                    class="navbar-item"
-                    to="/"
-                    exact-active-class="is-active"
-                  >
-                    <div>Home</div>
-                  </nuxt-link>
+                  <h4 class="title is-4 mb-3 has-text-white">
+                    Resources
+                  </h4>
                   <a
                     target="_blank"
                     href="https://docs.nosana.io"
@@ -74,6 +72,13 @@
                   >
                     <div>Docs</div>
                   </a>
+                  <nuxt-link
+                    class="navbar-item"
+                    to="/"
+                    exact-active-class="is-active"
+                  >
+                    <div>Blog</div>
+                  </nuxt-link>
                 </div>
               </div>
             </div>
@@ -81,10 +86,8 @@
         </div>
       </nav>
       <div class="py-4 has-radius">
-        <small class="is-size-7"
-          >© Nosana Network 2024 The Nosana Network Authors Documentation
-          Distributed under CC BY 4.0</small
-        >
+        <small class="is-size-7 has-text-white">© Nosana Network 2024 The Nosana Network Authors Documentation
+          Distributed under CC BY 4.0</small>
       </div>
     </div>
   </footer>
@@ -99,8 +102,12 @@
     }
     .navbar-item {
       color: white;
+      padding: 4px 0px;
       &:hover {
         background: transparent;
+      }
+      &.is-active {
+        background: transparent !important;
       }
     }
   }

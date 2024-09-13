@@ -60,9 +60,6 @@
                 <div>Network</div>
               </a>
               <div class="navbar-dropdown is-boxed">
-                <nuxt-link class="navbar-item" to="/token#stats" exact-active-class="is-active">
-                  Nosana Stats
-                </nuxt-link>
                 <nuxt-link class="navbar-item" to="/team" exact-active-class="is-active">
                   About Nosana
                 </nuxt-link>
