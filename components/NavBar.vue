@@ -7,7 +7,7 @@
     >
       <div class="container">
         <div class="navbar-brand">
-          <nuxt-link class="navbar-item" to="/">
+          <nuxt-link class="navbar-item p-0 logo-top" to="/">
             <img
               class="logo"
               src="~/assets/img/Nosana_Logo_horizontal_color_white.svg"
@@ -135,6 +135,16 @@ export default {
       &.is-active,
       &:hover {
         color: $primary;
+      }
+    }
+    @media screen and (max-width: $tablet) {
+      padding: 0 10px !important;
+      .logo-top {
+        width: 100%;
+        justify-content: center;
+      }
+      .navbar-burger {
+        margin-left: -40px;
       }
     }
   }

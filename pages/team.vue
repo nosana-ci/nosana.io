@@ -170,4 +170,9 @@ export default {
   background-size: cover;
   background-position: bottom;
 }
+@media screen and (max-width: $tablet) {
+  .columns.mt-6, .columns.my-6 {
+    margin-top: 0 !important;
+  }
+}
 </style>

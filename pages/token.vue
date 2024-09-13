@@ -70,7 +70,7 @@
         </div>
       </div>
     </section>
-    <section class="py-6 has-background-grey-lighter" id="stats">
+    <section class="network-summary section py-6 has-background-grey-lighter" id="stats">
       <div class="container py-6 mb-6">
         <h3 class="title is-2 pt-3 mb-6">Trusted by our Community</h3>
         <div class="columns is-multiline">
@@ -205,5 +205,20 @@
   background-image: url("~assets/img/bg-token.svg");
   background-size: cover;
   background-position: bottom;
+}
+@media screen and (max-width: $tablet) {
+  .columns.mt-6.pt-6 {
+    margin-top: 0 !important;
+  }
+  .has-radius.p-6 {
+    padding-left: 24px !important;
+    padding-right: 24px !important;
+  }
+  .network-summary {
+    text-align: center;
+    .is-flex {
+      justify-content: center;
+    }
+  }
 }
 </style>

@@ -117,7 +117,7 @@
       </div>
     </section>
     <!-- Network Summary -->
-    <section class="section py-6 has-background-grey-lighter">
+    <section class="section py-6 has-background-grey-lighter network-summary">
       <div class="container py-6 mb-6">
         <h3 class="title is-2 pt-3 mb-6">
           Network Summary
@@ -188,7 +188,7 @@
     </section>
     <!-- Discover -->
     <Discover title="Discover what's happening on Nosana" :blogs="blogs" />
-    <section class="section has-background-grey-lighter" style="overflow: hidden;">
+    <section class="has-background-grey-lighter px-5 tweet-section" style="overflow: hidden;">
       <div class="container py-6 ">
         <div class="columns my-6 py-6">
           <div class="column is-4 py-6 my-6" data-aos="fade-right">
@@ -258,5 +258,31 @@ export default {
   position: absolute;
   top: 0;
   bottom: 0;
+  @media screen and (max-width: $tablet) {
+    position: relative;
+  }
+}
+@media screen and (max-width: $tablet) {
+  .tweet-section {
+    .columns {
+      padding-top: 0 !important;
+      padding-bottom: 0 !important;
+      margin-top: 0 !important;
+      margin-bottom: 0 !important;
+    }
+    .column.my-6 {
+      margin-top: 0 !important;
+      margin-bottom: 0 !important;
+    }
+  }
+  .column.mt-6 {
+    margin-top: 0 !important;
+  }
+  .network-summary {
+    text-align: center;
+    .is-flex {
+      justify-content: center;
+    }
+  }
 }
 </style>

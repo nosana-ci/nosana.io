@@ -37,7 +37,7 @@
 @include touch {
   .home-block {
     min-height: auto;
-    padding-bottom: 0;
+    padding-top: 80px;
   }
   .mt-mobile-0 {
     margin-top: 0 !important;

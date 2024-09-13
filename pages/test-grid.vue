@@ -115,81 +115,83 @@
 
     <section class="section mt-5">
       <div class="container">
-        <div class="mt-6 pt-6 column is-10 is-horizontal-centered">
-          <h3 class="title is-2">
-            Requirements
-          </h3>
-          <p class="has-limited-width-big mb-6">
-            During the first two phases of the Test Grid you will require an
-            NVIDIA GPU with CUDA. The following list of models will be
-            supported, other cards will be reviewed.
-          </p>
-          <div class="is-flex is-flex-wrap-wrap">
-            <div class="gpu-type">
-              NVIDIA RTX 4090
-            </div>
-            <div class="gpu-type">
-              NVIDIA RTX 4080
-            </div>
-            <div class="gpu-type">
-              NVIDIA RTX 4070Ti
-            </div>
-            <div class="gpu-type">
-              NVIDIA RTX 4070
-            </div>
-            <div class="gpu-type">
-              NVIDIA RTX 4060Ti
-            </div>
-            <div class="gpu-type">
-              NVIDIA RTX 4060
-            </div>
-            <div class="gpu-type">
-              NVIDA RTX 3090Ti
-            </div>
-            <div class="gpu-type">
-              NVIDA RTX 3090
-            </div>
-            <div class="gpu-type">
-              NVIDA RTX 3080Ti
-            </div>
-            <div class="gpu-type">
-              NVIDA RTX 3080
-            </div>
-            <div class="gpu-type">
-              NVIDIA RTX 3070Ti
-            </div>
-            <div class="gpu-type">
-              NVIDIA RTX 3070
-            </div>
-            <div class="gpu-type">
-              NVIDIA RTX 3060Ti
-            </div>
-            <div class="gpu-type">
-              NVIDIA RTX 3060
-            </div>
-            <div class="gpu-type">
-              NVIDIA RTX A4000
-            </div>
-            <div class="gpu-type">
-              NVIDIA RTX A4500
-            </div>
-            <div class="gpu-type">
-              NVIDIA RTX A5000
-            </div>
-            <div class="gpu-type">
-              NVIDIA RTX A5500
-            </div>
-            <div class="gpu-type">
-              NVIDIA RTX A6000
-            </div>
-            <div class="gpu-type">
-              NVIDIA A100
-            </div>
-            <div class="gpu-type">
-              NVIDIA A40
-            </div>
-            <div class="gpu-type">
-              NVIDIA H100
+        <div class="columns">
+          <div class="mt-6 pt-6 column is-10 is-horizontal-centered">
+            <h3 class="title is-2">
+              Requirements
+            </h3>
+            <p class="has-limited-width-big mb-6">
+              During the first two phases of the Test Grid you will require an
+              NVIDIA GPU with CUDA. The following list of models will be
+              supported, other cards will be reviewed.
+            </p>
+            <div class="is-flex is-flex-wrap-wrap">
+              <div class="gpu-type">
+                NVIDIA RTX 4090
+              </div>
+              <div class="gpu-type">
+                NVIDIA RTX 4080
+              </div>
+              <div class="gpu-type">
+                NVIDIA RTX 4070Ti
+              </div>
+              <div class="gpu-type">
+                NVIDIA RTX 4070
+              </div>
+              <div class="gpu-type">
+                NVIDIA RTX 4060Ti
+              </div>
+              <div class="gpu-type">
+                NVIDIA RTX 4060
+              </div>
+              <div class="gpu-type">
+                NVIDA RTX 3090Ti
+              </div>
+              <div class="gpu-type">
+                NVIDA RTX 3090
+              </div>
+              <div class="gpu-type">
+                NVIDA RTX 3080Ti
+              </div>
+              <div class="gpu-type">
+                NVIDA RTX 3080
+              </div>
+              <div class="gpu-type">
+                NVIDIA RTX 3070Ti
+              </div>
+              <div class="gpu-type">
+                NVIDIA RTX 3070
+              </div>
+              <div class="gpu-type">
+                NVIDIA RTX 3060Ti
+              </div>
+              <div class="gpu-type">
+                NVIDIA RTX 3060
+              </div>
+              <div class="gpu-type">
+                NVIDIA RTX A4000
+              </div>
+              <div class="gpu-type">
+                NVIDIA RTX A4500
+              </div>
+              <div class="gpu-type">
+                NVIDIA RTX A5000
+              </div>
+              <div class="gpu-type">
+                NVIDIA RTX A5500
+              </div>
+              <div class="gpu-type">
+                NVIDIA RTX A6000
+              </div>
+              <div class="gpu-type">
+                NVIDIA A100
+              </div>
+              <div class="gpu-type">
+                NVIDIA A40
+              </div>
+              <div class="gpu-type">
+                NVIDIA H100
+              </div>
             </div>
           </div>
         </div>
@@ -197,25 +199,27 @@
     </section>
     <section class="section">
       <div class="container">
-        <div class="column is-10 is-horizontal-centered mb-6">
-          <h3 class="title is-2">
-            Frequently asked questions
-          </h3>
-          <accordion>
-            <accordion-item v-for="faq in faqs" :key="faq.question">
-              <!-- This slot will handle the title/header of the accordion and is the part you click on -->
-              <template slot="accordion-trigger">
-                <h3 class="title is-3 mb-0 has-text-weight-semibold">
-                  {{ faq.question }}
-                </h3>
-              </template>
-              <!-- This slot will handle all the content that is passed to the accordion -->
-              <template slot="accordion-content">
-                <!-- eslint-disable vue/no-v-html -->
-                <span v-html="faq.answer" />
-              </template>
-            </accordion-item>
-          </accordion>
+        <div class="columns">
+          <div class="column is-10 is-horizontal-centered mb-6">
+            <h3 class="title is-2">
+              Frequently asked questions
+            </h3>
+            <accordion>
+              <accordion-item v-for="faq in faqs" :key="faq.question">
+                <!-- This slot will handle the title/header of the accordion and is the part you click on -->
+                <template slot="accordion-trigger">
+                  <h3 class="title is-3 mb-0 has-text-weight-semibold">
+                    {{ faq.question }}
+                  </h3>
+                </template>
+                <!-- This slot will handle all the content that is passed to the accordion -->
+                <template slot="accordion-content">
+                  <!-- eslint-disable vue/no-v-html -->
+                  <span v-html="faq.answer" />
+                </template>
+              </accordion-item>
+            </accordion>
+          </div>
         </div>
       </div>
     </section>
@@ -276,6 +280,20 @@ export default {
   background-position: bottom;
 }
 
+@media screen and (max-width: $tablet) {
+  .columns.my-6.pt-6 {
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+    padding-top: 0 !important
+  }
+  .mt-5 {
+    margin-top: 0 !important;
+  }
+  .has-radius.p-6 {
+    padding-left: 24px !important;
+    padding-right: 24px !important;
+  }
+}
 .gpu-type {
   font-size: 20px;
   font-weight: 500;
@@ -284,5 +302,8 @@ export default {
   margin: 0px 10px 18px;
   border-bottom: 2px solid black;
   text-align: center;
+  @media screen and (max-width: $tablet) {
+    width: calc(50% - 20px);
+  }
 }
 </style>

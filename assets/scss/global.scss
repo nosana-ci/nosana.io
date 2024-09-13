@@ -210,6 +210,18 @@ a.card {
 @include touch {
   .site-title, .title.is-1 {
     font-size: 40px;
+    line-height: 50px;
+  }
+  .section {
+    .site-title, .title.is-1, .title.is-2 {
+      padding: 0 !important;
+    }
+    .container.mb-6 {
+      margin-bottom: 0 !important;
+    }
+    .container.pb-6 {
+      padding-bottom: 0 !important;
+    }
   }
 }
 
@@ -227,4 +239,13 @@ a.card {
   min-height: 660px;
   overflow: hidden;
   margin-top: -5rem;
+}
+@include touch {
+  .intro {
+    min-height: auto;
+    padding-top: 80px;
+    .columns {
+      margin-top: 0 !important;
+    }
+  }
 }

@@ -15,7 +15,7 @@
                 <p class="mb-5 is-size-5 p-2" style="color: #666">
                   Explore, discuss, and report technical issues on our GitHub
                   repository. Our community actively collaborates to resolve
-                  problems and provide assistance.
+                  problems and provide assistance.<br>
                   <a href="#" class="button mt-4">
                     <img src="~/assets/img/icons/github.svg" style="width: 16px; margin-right: 8px;">Github Issues
                   </a>
@@ -30,7 +30,7 @@
                 <p class="mb-5 is-size-5 p-2" style="color: #666">
                   Explore, discuss, and report technical issues on our GitHub
                   repository. Our community actively collaborates to resolve
-                  problems and provide assistance.
+                  problems and provide assistance.<br>
                   <a href="#" class="button mt-4">
                     <img src="~/assets/img/icons/discord.svg" style="width: 18px; margin-right: 8px;">Discord
                   </a>
@@ -45,7 +45,7 @@
                 <p class="mb-5 is-size-5 p-2" style="color: #666">
                   Explore, discuss, and report technical issues on our GitHub
                   repository. Our community actively collaborates to resolve
-                  problems and provide assistance.
+                  problems and provide assistance.<br>
                   <a href="#" class="button mt-4">
                     <img src="~/assets/img/icons/github.svg" style="width: 16px; margin-right: 8px;">Github Discussion
                   </a>
@@ -59,25 +59,27 @@
 
     <section class="section has-background-grey-lighter">
       <div class="container">
-        <div class="column is-10 is-horizontal-centered mb-6">
-          <h3 class="title is-2">
-            Frequently asked questions
-          </h3>
-          <accordion>
-            <accordion-item v-for="faq in faqs" :key="faq.question">
-              <!-- This slot will handle the title/header of the accordion and is the part you click on -->
-              <template slot="accordion-trigger">
-                <h3 class="title is-3 mb-0 has-text-weight-semibold">
-                  {{ faq.question }}
-                </h3>
-              </template>
-              <!-- This slot will handle all the content that is passed to the accordion -->
-              <template slot="accordion-content">
-                <!-- eslint-disable vue/no-v-html -->
-                <span v-html="faq.answer" />
-              </template>
-            </accordion-item>
-          </accordion>
+        <div class="columns">
+          <div class="column is-10 is-horizontal-centered mb-6">
+            <h3 class="title is-2">
+              Frequently asked questions
+            </h3>
+            <accordion>
+              <accordion-item v-for="faq in faqs" :key="faq.question">
+                <!-- This slot will handle the title/header of the accordion and is the part you click on -->
+                <template slot="accordion-trigger">
+                  <h3 class="title is-3 mb-0 has-text-weight-semibold">
+                    {{ faq.question }}
+                  </h3>
+                </template>
+                <!-- This slot will handle all the content that is passed to the accordion -->
+                <template slot="accordion-content">
+                  <!-- eslint-disable vue/no-v-html -->
+                  <span v-html="faq.answer" />
+                </template>
+              </accordion-item>
+            </accordion>
+          </div>
         </div>
       </div>
     </section>
@@ -136,6 +138,19 @@ export default {
   &:hover {
     background-color: #f9f9f9;
     color: #333 !important;
+  }
+}
+@media screen and (max-width: $tablet) {
+  .columns.my-6 {
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+  }
+  .mt-5 {
+    margin-top: 0 !important;
+  }
+  .has-radius.p-6 {
+    padding-left: 24px !important;
+    padding-right: 24px !important;
   }
 }
 </style>

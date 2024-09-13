@@ -49,7 +49,7 @@
                     <input
                       v-model="unstakeDays"
                       required
-                      class="input has-text-centered is-medium"
+                      class="input is-medium"
                       type="number"
                       :min="unstakeDays"
                       step="1"
@@ -233,6 +233,11 @@ form {
   .buttons button {
     width: 45px;
     height: 22px;
+  }
+}
+@media screen and (max-width: $tablet) {
+  .p-6 {
+    padding: 1.5rem !important;
   }
 }
 </style>

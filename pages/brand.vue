@@ -255,6 +255,10 @@ export default {
     display: flex;
     align-items: flex-end;
     height: 300px;
+    @media screen and (max-width: $tablet) {
+      height: 150px;
+      font-size: 11px;
+    }
   }
   &.small {
     .color-square {
