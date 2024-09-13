@@ -94,21 +94,19 @@
 </template>
 
 <style lang="scss" scoped>
-.light-mode {
-  .footer {
+.footer {
+  background-color: black;
+  .navbar-menu {
     background-color: black;
-    .navbar-menu {
-      background-color: black;
+  }
+  .navbar-item {
+    color: white;
+    padding: 4px 0px;
+    &:hover {
+      background: transparent;
     }
-    .navbar-item {
-      color: white;
-      padding: 4px 0px;
-      &:hover {
-        background: transparent;
-      }
-      &.is-active {
-        background: transparent !important;
-      }
+    &.is-active {
+      background: transparent !important;
     }
   }
 }

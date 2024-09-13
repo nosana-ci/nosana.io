@@ -82,7 +82,7 @@ export default {
   buildModules: [
     // https://go.nuxtjs.dev/eslint
     '@nuxtjs/eslint-module',
-    '@nuxtjs/color-mode',
+    // '@nuxtjs/color-mode',
     '@nuxtjs/google-analytics',
     '@nuxtjs/svg',
     '@nuxtjs/moment'

@@ -199,6 +199,11 @@
     </section>
   </div>
 </template>
+<script>
+export default {
+  colorMode: 'light'
+};
+</script>
 
 <style lang="scss" scoped>
 .intro {

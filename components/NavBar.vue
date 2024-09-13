@@ -1,7 +1,7 @@
 <template>
   <div>
     <nav
-      class="navbar is-transparent py-1 is-fixed-top"
+      class="navbar py-1 is-fixed-top"
       role="navigation"
       aria-label="main navigation"
       :class="{ 'menu-expanded': mobileMenu }"
@@ -180,105 +180,20 @@ export default {
     }
   }
 }
-.dark-mode {
-  .navbar-burger {
-    color: $white;
-  }
 
-  .navbar-dropdown {
-    background: $primary;
-    border-top-color: $primary;
-    @media screen and (max-width: $tablet) {
-      background: none;
-    }
-  }
-
-  .navbar-menu {
-    .navbar-link {
-      color: $white;
-
-      @media screen and (max-width: $tablet) {
-        &:not(.is-arrowless) {
-          padding-right: 0.75rem;
-        }
-      }
-
-      &:after {
-        border-color: $white;
-      }
-
-      &.is-active,
-      &:hover {
-        color: white;
-
-        &:after {
-          border-color: white;
-        }
-      }
-    }
-
-    .navbar-item {
-      color: $white;
-
-      &:after {
-        background: white;
-      }
-
-      &.is-active,
-      &:hover {
-        color: white;
-      }
-
-      &.dapps .navbar-item:hover {
-        background-color: rgba(0, 0, 0, 0.3) !important;
-      }
-    }
-  }
-
-  .navbar-brand {
-    .navbar-item {
-      color: white;
-
-      &.is-active,
-      &:hover {
-        color: white;
-      }
-    }
-  }
+.navbar {
+  background: rgba(0, 0, 0, 0.7);
   @media screen and (max-width: 1023px) {
-    .navbar {
-      .navbar-menu {
-        background-color: $dark-mode-background;
-        .navbar-item {
-          color: white;
-          &.is-active,
-          &:hover {
-            background-color: $dark-mode-background;
-            color: white;
-          }
-        }
-      }
+    .navbar-burger {
+      color: #fff;
     }
   }
 }
 
-.light-mode {
-  .navbar {
-    background: rgba(0, 0, 0, 0.7);
-    @media screen and (max-width: 1023px) {
-      .navbar-burger {
-        color: #fff;
-      }
-    }
-  }
-}
-
-.light-mode {
-  .navbar {
-    .navbar-menu {
-      .navbar-item .navbar-link {
-        color: #fff;
-      }
+.navbar {
+  .navbar-menu {
+    .navbar-item .navbar-link {
+      color: #fff;
     }
   }
 }

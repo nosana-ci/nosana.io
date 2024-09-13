@@ -213,6 +213,7 @@
 
 <script>
 export default {
+  colorMode: 'light',
   components: {},
   data () {
     return {
