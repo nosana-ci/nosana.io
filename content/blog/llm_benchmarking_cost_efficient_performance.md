@@ -1,7 +1,7 @@
 ---
 title: "LLM Benchmarking: Cost Efficient Performance"
 description: "Explore Nosana's latest benchmarking insights, revealing a compelling comparison between consumer-grade and enterprise GPUs in cost-efficient LLM inference performance."
-img: /img/NosanaBreakpoint2024Blog.jpg
+img: /img/LLM-Benchmarking-blog06.jpg
 createdAt: '2024-09-13'
 tags:
   - AI & ML
