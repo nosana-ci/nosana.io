@@ -79,7 +79,7 @@
           mainnet.
         </p>
         <div class="columns mt-6">
-          <div class="column is-6">
+          <div class="column is-6" data-aos="fade-right">
             <h3 class="title is-2 mb-2 has-text-white">
               Phase 1
             </h3>
@@ -94,7 +94,7 @@
               complimentary, on-demand compute.
             </p>
           </div>
-          <div class="column is-6">
+          <div class="column is-6" data-aos="fade-left">
             <h3 class="title is-2 mb-2 has-text-white">
               Phase 1
             </h3>
@@ -120,12 +120,12 @@
             <h3 class="title is-2">
               Requirements
             </h3>
-            <p class="has-limited-width-big mb-6">
+            <p class="has-limited-width-big mb-6" data-aos="fade-in">
               During the first two phases of the Test Grid you will require an
               NVIDIA GPU with CUDA. The following list of models will be
               supported, other cards will be reviewed.
             </p>
-            <div class="is-flex is-flex-wrap-wrap">
+            <div class="is-flex is-flex-wrap-wrap" data-aos="fade-in">
               <div class="gpu-type">
                 NVIDIA RTX 4090
               </div>

@@ -11,6 +11,7 @@
             :key="relatedBlog.slug"
             class="column is-one-third"
             :to="{ name: 'blog-slug', params: { slug: relatedBlog.slug } }"
+            data-aos="fade-in"
           >
             <div class="py-4" style="min-height: 432px">
               <img

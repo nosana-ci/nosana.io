@@ -32,7 +32,7 @@
           the heartbeat of the Nosana ecosystem.
         </h2>
         <div class="columns mt-6 pt-6">
-          <div class="column is-4" data-aos="fade-right">
+          <div class="column is-4" data-aos="fade-in">
             <h3 class="title is-2">Security</h3>
             <h4 class="title is-3">
               Driven by a passion for revolutionizing the world
@@ -44,7 +44,7 @@
               security of the network.
             </p>
           </div>
-          <div class="column is-4" data-aos="fade-right">
+          <div class="column is-4" data-aos="fade-in" data-aos-delay="100">
             <h3 class="title is-2">Governance</h3>
             <h4 class="title is-3">
               Driven by a passion for revolutionizing the world
@@ -56,7 +56,7 @@
               inflation rate and take rates.
             </p>
           </div>
-          <div class="column is-4" data-aos="fade-right">
+          <div class="column is-4" data-aos="fade-in" data-aos-delay="200">
             <h3 class="title is-2">Incentivization</h3>
             <h4 class="title is-3">
               Driven by a passion for revolutionizing the world
@@ -74,7 +74,7 @@
       <div class="container py-6 mb-6">
         <h3 class="title is-2 pt-3 mb-6">Trusted by our Community</h3>
         <div class="columns is-multiline">
-          <div class="is-3 column">
+          <div class="is-3 column" data-aos="fade-in">
             <div class="has-background-white p-5">
               <div class="has-text-grey-light mt-1">USD value staked</div>
               <h4 class="title is-2 pt-2 is-flex mb-1">
@@ -87,43 +87,43 @@
               </h4>
             </div>
           </div>
-          <div class="is-3 column">
+          <div class="is-3 column" data-aos="fade-in" data-aos-delay="100">
             <div class="has-background-white p-5">
               <div class="has-text-grey-light mt-1">NOS stakers</div>
               <h4 class="title is-2 pt-2 is-flex mb-1">$1.44K</h4>
             </div>
           </div>
-          <div class="is-3 column">
+          <div class="is-3 column" data-aos="fade-in" data-aos-delay="200">
             <div class="has-background-white p-5">
               <div class="has-text-grey-light mt-1">NOS staked</div>
               <h4 class="title is-2 pt-2 is-flex mb-1">$1.44K</h4>
             </div>
           </div>
-          <div class="is-3 column">
+          <div class="is-3 column" data-aos="fade-in" data-aos-delay="300">
             <div class="has-background-white p-5">
               <div class="has-text-grey-light mt-1">% Total supply staked</div>
               <h4 class="title is-2 pt-2 is-flex mb-1">$1.44K</h4>
             </div>
           </div>
-          <div class="is-3 column">
+          <div class="is-3 column" data-aos="fade-in" data-aos-delay="400">
             <div class="has-background-white p-5">
               <div class="has-text-grey-light mt-1">Circulating supply</div>
               <h4 class="title is-2 pt-2 is-flex mb-1">$1.44K</h4>
             </div>
           </div>
-          <div class="is-3 column">
+          <div class="is-3 column" data-aos="fade-in" data-aos-delay="500">
             <div class="has-background-white p-5">
               <div class="has-text-grey-light mt-1">Market Cap</div>
               <h4 class="title is-2 pt-2 is-flex mb-1">$1.44K</h4>
             </div>
           </div>
-          <div class="is-3 column">
+          <div class="is-3 column" data-aos="fade-in" data-aos-delay="600">
             <div class="has-background-white p-5">
               <div class="has-text-grey-light mt-1">Price</div>
               <h4 class="title is-2 pt-2 is-flex mb-1">$1.44K</h4>
             </div>
           </div>
-          <div class="is-3 column">
+          <div class="is-3 column" data-aos="fade-in" data-aos-delay="700">
             <div class="has-background-white p-5">
               <div class="has-text-grey-light mt-1">Volume (24h)</div>
               <h4 class="title is-2 pt-2 is-flex mb-1">$1.44K</h4>
@@ -160,7 +160,7 @@
           </div>
           <div class="column is-8 mb-6">
             <div class="columns is-multiline">
-              <div class="column is-6">
+              <div class="column is-6" data-aos="fade-in">
                 <div
                   class="has-background-grey-lighter
                   has-radius column py-6 is-flex is-align-items-center is-justify-content-center"
@@ -168,7 +168,7 @@
                   <img src="~assets/img/exchanges/mexc.svg" class="my-4" />
                 </div>
               </div>
-              <div class="column is-6">
+              <div class="column is-6" data-aos="fade-in" data-aos-delay="200">
                 <div
                   class="has-background-grey-lighter
                   has-radius column py-6 is-flex is-align-items-center is-justify-content-center"
@@ -176,7 +176,7 @@
                   <img src="~assets/img/exchanges/mexc.svg" class="my-4"/>
                 </div>
               </div>
-              <div class="column is-6">
+              <div class="column is-6" data-aos="fade-in" data-aos-delay="400">
                 <div
                   class="has-background-grey-lighter
                   has-radius column py-6 is-flex is-align-items-center is-justify-content-center"
@@ -184,7 +184,7 @@
                   <img src="~assets/img/exchanges/mexc.svg" class="my-4"/>
                 </div>
               </div>
-              <div class="column is-6">
+              <div class="column is-6" data-aos="fade-in" data-aos-delay="600">
                 <div
                   class="has-background-grey-lighter
                   has-radius column py-6 is-flex is-align-items-center is-justify-content-center"

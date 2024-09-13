@@ -7,7 +7,7 @@
         </h2>
         <div class="columns">
           <div class="columns my-6 pt-6">
-            <div class="column is-4" data-aos="fade-right">
+            <div class="column is-4" data-aos="fade-in">
               <div class="has-radius p-5" style="background-color: #f7f7f7">
                 <h4 class="title is-4 p-2 mb-2">
                   Github Issues
@@ -16,13 +16,13 @@
                   Explore, discuss, and report technical issues on our GitHub
                   repository. Our community actively collaborates to resolve
                   problems and provide assistance.<br>
-                  <a href="#" class="button mt-4">
+                  <a href="https://github.com/nosana-ci" target="_blank" class="button mt-4">
                     <img src="~/assets/img/icons/github.svg" style="width: 16px; margin-right: 8px;">Github Issues
                   </a>
                 </p>
               </div>
             </div>
-            <div class="column is-4" data-aos="fade-left">
+            <div class="column is-4" data-aos="fade-in">
               <div class="has-radius p-5" style="background-color: #f7f7f7">
                 <h4 class="title is-4 p-2 mb-2">
                   Ask the Community
@@ -31,13 +31,13 @@
                   Explore, discuss, and report technical issues on our GitHub
                   repository. Our community actively collaborates to resolve
                   problems and provide assistance.<br>
-                  <a href="#" class="button mt-4">
+                  <a href="https://discord.gg/nosana-ai" target="_blank" class="button mt-4">
                     <img src="~/assets/img/icons/discord.svg" style="width: 18px; margin-right: 8px;">Discord
                   </a>
                 </p>
               </div>
             </div>
-            <div class="column is-4" data-aos="fade-left">
+            <div class="column is-4" data-aos="fade-in">
               <div class="has-radius p-5" style="background-color: #f7f7f7">
                 <h4 class="title is-4 p-2 mb-2">
                   GitHub Discussion
@@ -46,7 +46,7 @@
                   Explore, discuss, and report technical issues on our GitHub
                   repository. Our community actively collaborates to resolve
                   problems and provide assistance.<br>
-                  <a href="#" class="button mt-4">
+                  <a href="https://github.com/nosana-ci" target="_blank" class="button mt-4">
                     <img src="~/assets/img/icons/github.svg" style="width: 16px; margin-right: 8px;">Github Discussion
                   </a>
                 </p>

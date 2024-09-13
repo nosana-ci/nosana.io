@@ -56,7 +56,7 @@
           Efficiency and Seamless Monetization.
         </h3>
         <div class="columns is-multiline">
-          <div class="is-4 column">
+          <div class="is-4 column" data-aos="fade-in">
             <h4 class="title is-3">
               Decentralized GPU Grid <br>
               <span class="has-text-grey-light">on-demand access</span>
@@ -67,7 +67,7 @@
               tasks, particularly AI inference workloads.
             </p>
           </div>
-          <div class="is-4 column">
+          <div class="is-4 column" data-aos="fade-in" data-aos-delay="100">
             <h4 class="title is-3">
               Cost-Effective<br><span class="has-text-grey-light">60-98% less per month</span>
             </h4>
@@ -78,7 +78,7 @@
               computing power.
             </p>
           </div>
-          <div class="is-4 column">
+          <div class="is-4 column" data-aos="fade-in" data-aos-delay="200">
             <h4 class="title is-3">
               Zero Lock-In <br><span class="has-text-grey-light">99.99%+ uptime</span>
             </h4>
@@ -88,7 +88,7 @@
               needed without being tied to specific terms or conditions.
             </p>
           </div>
-          <div class="is-4 column mt-6">
+          <div class="is-4 column mt-6" data-aos="fade-in" data-aos-delay="300">
             <h4 class="title is-3">
               Monetization Opportunity<br><span class="has-text-grey-light">platform for users</span>
             </h4>
@@ -98,7 +98,7 @@
               grid.
             </p>
           </div>
-          <div class="is-4 column mt-6">
+          <div class="is-4 column mt-6" data-aos="fade-in" data-aos-delay="400">
             <h4 class="title is-3">
               Powered by Solana <br><span class="has-text-grey-light">$NOS Token</span>
             </h4>
@@ -109,7 +109,7 @@
             </p>
           </div>
           <div class="is-4 mt-6 column is-flex is-align-items-center">
-            <a href="/about" class="has-text-accent has-text-weight-semibold is-size-5">
+            <a href="/team" class="has-text-accent has-text-weight-semibold is-size-5">
               More about Nosana <i class="pl-1 fas fa-chevron-right" />
             </a>
           </div>
@@ -123,7 +123,7 @@
           Network Summary
         </h3>
         <div class="columns is-multiline">
-          <div class="is-3 column">
+          <div class="is-3 column" data-aos="fade-in" data-aos-delay="100">
             <div class="has-background-white p-5">
               <div class="has-text-grey-light mt-1">
                 USD spent (24h)
@@ -138,7 +138,7 @@
               </h4>
             </div>
           </div>
-          <div class="is-3 column">
+          <div class="is-3 column" data-aos="fade-in" data-aos-delay="200">
             <div class="has-background-white p-5">
               <div class="has-text-grey-light mt-1">
                 USD spent (24h)
@@ -153,7 +153,7 @@
               </h4>
             </div>
           </div>
-          <div class="is-3 column">
+          <div class="is-3 column" data-aos="fade-in" data-aos-delay="300">
             <div class="has-background-white p-5">
               <div class="has-text-grey-light mt-1">
                 USD spent (24h)
@@ -168,7 +168,7 @@
               </h4>
             </div>
           </div>
-          <div class="is-3 column">
+          <div class="is-3 column" data-aos="fade-in" data-aos-delay="400">
             <div class="has-background-white p-5">
               <div class="has-text-grey-light mt-1">
                 USD spent (24h)
