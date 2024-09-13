@@ -4,6 +4,7 @@
       class="navbar is-transparent py-1 is-fixed-top"
       role="navigation"
       aria-label="main navigation"
+      :class="{ 'menu-expanded': mobileMenu }"
     >
       <div class="container">
         <div class="navbar-brand">
@@ -90,7 +91,7 @@
                 </nuxt-link>
               </div>
             </div>
-            <div class="navbar-item has-dropdown is-hoverable" @click="mobileMenu = false">
+            <div class="navbar-item" @click="mobileMenu = false">
               <a class="button is-secondary is-size-6">
                 Call to action
               </a>
@@ -117,6 +118,12 @@ export default {
 .navbar {
   &.is-transparent {
     background: transparent;
+  }
+
+  @media screen and (max-width: $tablet) {
+    &.menu-expanded {
+      background-color: black !important;
+    }
   }
 
   .logo {
@@ -279,11 +286,19 @@ export default {
 @media screen and (max-width: 1023px) {
   .navbar {
     .navbar-menu {
+      background-color: black;
       .navbar-item {
-        color: black;
+        color: #fff;
         &.is-active,
         &:hover {
           color: black;
+        }
+        .navbar-dropdown {
+            .navbar-item {
+              &:hover {
+                background-color: $grey;
+              }
+            }
         }
       }
     }
