@@ -226,5 +226,10 @@ export default {
   .navbar > .container .navbar-menu, .container > .navbar .navbar-menu {
     margin-right: 0;
   }
+  .navbar .navbar-menu .navbar-item {
+    &:hover a.navbar-link {
+      background-color: transparent !important;
+    }
+  }
 }
 </style>

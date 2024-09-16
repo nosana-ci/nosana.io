@@ -28,12 +28,14 @@
     <section class="section">
       <div class="container mb-6 pb-6">
         <h2 class="title pt-6 site-title mb-0">
-          Introducing the $NOS Token,<br />
+          Introducing the $NOS Token,<br>
           the heartbeat of the Nosana ecosystem.
         </h2>
         <div class="columns mt-6 pt-6">
           <div class="column is-4" data-aos="fade-in">
-            <h3 class="title is-2">Security</h3>
+            <h3 class="title is-2">
+              Security
+            </h3>
             <h4 class="title is-3">
               Driven by a passion for revolutionizing the world
             </h4>
@@ -45,7 +47,9 @@
             </p>
           </div>
           <div class="column is-4" data-aos="fade-in" data-aos-delay="100">
-            <h3 class="title is-2">Governance</h3>
+            <h3 class="title is-2">
+              Governance
+            </h3>
             <h4 class="title is-3">
               Driven by a passion for revolutionizing the world
             </h4>
@@ -57,7 +61,9 @@
             </p>
           </div>
           <div class="column is-4" data-aos="fade-in" data-aos-delay="200">
-            <h3 class="title is-2">Incentivization</h3>
+            <h3 class="title is-2">
+              Incentivization
+            </h3>
             <h4 class="title is-3">
               Driven by a passion for revolutionizing the world
             </h4>
@@ -70,63 +76,53 @@
         </div>
       </div>
     </section>
-    <section class="network-summary section py-6 has-background-grey-lighter" id="stats">
+    <section
+      id="stats"
+      class="network-summary section py-6 has-background-grey-lighter"
+    >
       <div class="container py-6 mb-6">
-        <h3 class="title is-2 pt-3 mb-6">Trusted by our Community</h3>
+        <h3 class="title is-2 pt-3 mb-6">
+          Trusted by our Community
+        </h3>
         <div class="columns is-multiline">
           <div class="is-3 column" data-aos="fade-in">
             <div class="has-background-white p-5">
-              <div class="has-text-grey-light mt-1">USD value staked</div>
+              <div class="has-text-grey-light mt-1">
+                Stakers
+              </div>
               <h4 class="title is-2 pt-2 is-flex mb-1">
-                $1.44K
-                <span
-                  class="has-text-secondary ml-3 is-size-6 has-text-weight-medium"
-                >
-                  <i class="fas fa-arrow-up pl-1 pr-1" />45.33%
-                </span>
+                {{ numberOfStakers ? numberOfStakers : "..." }}
+              </h4>
+            </div>
+          </div>
+          <div class="is-3 column" data-aos="fade-in">
+            <div class="has-background-white p-5">
+              <div class="has-text-grey-light mt-1">
+                USD value staked
+              </div>
+              <h4 class="title is-2 pt-2 is-flex mb-1">
+                ...
               </h4>
             </div>
           </div>
           <div class="is-3 column" data-aos="fade-in" data-aos-delay="100">
             <div class="has-background-white p-5">
-              <div class="has-text-grey-light mt-1">NOS stakers</div>
-              <h4 class="title is-2 pt-2 is-flex mb-1">$1.44K</h4>
+              <div class="has-text-grey-light mt-1">
+                NOS Marketcap
+              </div>
+              <h4 class="title is-2 pt-2 is-flex mb-1">
+                ${{ marketCap ? marketCap.toLocaleString() : "..." }}
+              </h4>
             </div>
           </div>
           <div class="is-3 column" data-aos="fade-in" data-aos-delay="200">
             <div class="has-background-white p-5">
-              <div class="has-text-grey-light mt-1">NOS staked</div>
-              <h4 class="title is-2 pt-2 is-flex mb-1">$1.44K</h4>
-            </div>
-          </div>
-          <div class="is-3 column" data-aos="fade-in" data-aos-delay="300">
-            <div class="has-background-white p-5">
-              <div class="has-text-grey-light mt-1">% Total supply staked</div>
-              <h4 class="title is-2 pt-2 is-flex mb-1">$1.44K</h4>
-            </div>
-          </div>
-          <div class="is-3 column" data-aos="fade-in" data-aos-delay="400">
-            <div class="has-background-white p-5">
-              <div class="has-text-grey-light mt-1">Circulating supply</div>
-              <h4 class="title is-2 pt-2 is-flex mb-1">$1.44K</h4>
-            </div>
-          </div>
-          <div class="is-3 column" data-aos="fade-in" data-aos-delay="500">
-            <div class="has-background-white p-5">
-              <div class="has-text-grey-light mt-1">Market Cap</div>
-              <h4 class="title is-2 pt-2 is-flex mb-1">$1.44K</h4>
-            </div>
-          </div>
-          <div class="is-3 column" data-aos="fade-in" data-aos-delay="600">
-            <div class="has-background-white p-5">
-              <div class="has-text-grey-light mt-1">Price</div>
-              <h4 class="title is-2 pt-2 is-flex mb-1">$1.44K</h4>
-            </div>
-          </div>
-          <div class="is-3 column" data-aos="fade-in" data-aos-delay="700">
-            <div class="has-background-white p-5">
-              <div class="has-text-grey-light mt-1">Volume (24h)</div>
-              <h4 class="title is-2 pt-2 is-flex mb-1">$1.44K</h4>
+              <div class="has-text-grey-light mt-1">
+                NOS Price
+              </div>
+              <h4 class="title is-2 pt-2 is-flex mb-1">
+                ${{ nosPrice ? nosPrice : '...'}}
+              </h4>
             </div>
           </div>
         </div>
@@ -134,7 +130,9 @@
     </section>
     <section class="section py-6 my-6">
       <div class="container">
-        <h3 class="title is-2">Nosana Ecosystem</h3>
+        <h3 class="title is-2">
+          Nosana Ecosystem
+        </h3>
         <p class="mb-6 is-4 is-size-4 has-limited-width-big">
           Nosana is an ongoing effort to bring new token features and utility to
           Nosana and the NOS token. These features will generate value for the
@@ -142,7 +140,7 @@
           growth and development, a wide range of currency options for lease
           settlement, and much more.
         </p>
-        <img class="mt-6" src="~assets/img/ecosystem.svg" style="width: 100%" />
+        <img class="mt-6" src="~assets/img/ecosystem.svg" style="width: 100%">
       </div>
     </section>
     <!-- Staking calc -->
@@ -153,7 +151,9 @@
       <div class="container">
         <div class="columns">
           <div class="column is-4">
-            <h3 class="title is-2">Buying $NOS</h3>
+            <h3 class="title is-2">
+              Buying $NOS
+            </h3>
             <h4 class="title is-3">
               NOS is available on the following exchanges.
             </h4>
@@ -165,7 +165,7 @@
                   class="has-background-grey-lighter
                   has-radius column py-6 is-flex is-align-items-center is-justify-content-center"
                 >
-                  <img src="~assets/img/exchanges/mexc.svg" class="my-4" />
+                  <img src="~assets/img/exchanges/mexc.svg" class="my-4">
                 </div>
               </div>
               <div class="column is-6" data-aos="fade-in" data-aos-delay="200">
@@ -173,7 +173,7 @@
                   class="has-background-grey-lighter
                   has-radius column py-6 is-flex is-align-items-center is-justify-content-center"
                 >
-                  <img src="~assets/img/exchanges/mexc.svg" class="my-4"/>
+                  <img src="~assets/img/exchanges/mexc.svg" class="my-4">
                 </div>
               </div>
               <div class="column is-6" data-aos="fade-in" data-aos-delay="400">
@@ -181,7 +181,7 @@
                   class="has-background-grey-lighter
                   has-radius column py-6 is-flex is-align-items-center is-justify-content-center"
                 >
-                  <img src="~assets/img/exchanges/mexc.svg" class="my-4"/>
+                  <img src="~assets/img/exchanges/mexc.svg" class="my-4">
                 </div>
               </div>
               <div class="column is-6" data-aos="fade-in" data-aos-delay="600">
@@ -189,7 +189,7 @@
                   class="has-background-grey-lighter
                   has-radius column py-6 is-flex is-align-items-center is-justify-content-center"
                 >
-                  <img src="~assets/img/exchanges/mexc.svg" class="my-4"/>
+                  <img src="~assets/img/exchanges/mexc.svg" class="my-4">
                 </div>
               </div>
             </div>
@@ -201,7 +201,51 @@
 </template>
 <script>
 export default {
-  colorMode: 'light'
+  colorMode: 'light',
+  data () {
+    return {
+      marketCap: null,
+      nosPrice: null,
+      numberOfStakers: null
+    };
+  },
+  mounted () {
+    this.getNosPrice();
+    this.getNosMarketCap();
+    this.getNosStakers();
+  },
+  methods: {
+    async getNosPrice () {
+      try {
+        const response = await fetch(
+          'https://api.coingecko.com/api/v3/simple/price?ids=nosana&vs_currencies=usd'
+        );
+        this.nosPrice = (await response.json()).nosana.usd;
+      } catch (error) {
+        console.error(error);
+      }
+    },
+    async getNosMarketCap () {
+      try {
+        const response = await fetch(
+          'https://api.coingecko.com/api/v3/coins/nosana'
+        );
+        this.marketCap = (await response.json()).market_data.market_cap.usd;
+      } catch (error) {
+        console.error(error);
+      }
+    },
+    async getNosStakers () {
+      try {
+        const response = await fetch(
+          'https://backend.k8s.prd.nos.ci/stake/leaderboards'
+        );
+        this.numberOfStakers = (await response.json()).stakes.pagination.total;
+      } catch (error) {
+        console.error(error);
+      }
+    }
+  }
 };
 </script>
 

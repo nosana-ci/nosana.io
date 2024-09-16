@@ -204,7 +204,7 @@ export default {
       try {
         // https://dashboard.k8s.prd.nos.ci/api/stake/pool-info
         const response = await fetch(
-          'http://localhost:3000/api/stake/pool-info'
+          'https://dashboard.k8s.prd.nos.ci/api/stake/pool-info'
         );
         this.poolInfo = await response.json();
       } catch (e) {

@@ -1,5 +1,5 @@
 <template>
-  <footer class="footer py-5 px-4">
+  <footer class="footer py-6 px-4">
     <div class="container">
       <nav
         class="is-transparent"
@@ -13,15 +13,13 @@
                 src="~/assets/img/Nosana_Logo_horizontal_color_white.svg"
                 class="logo mb-2"
                 style="height: 40px; margin-left: -5px"
-              >
+              />
               <socials class="mb-4" />
             </div>
             <div class="column is-5">
               <div class="columns">
                 <div class="column is-4">
-                  <h4 class="title is-4 mb-3 has-text-white">
-                    Product
-                  </h4>
+                  <h4 class="title is-4 mb-3 has-text-white">Product</h4>
                   <nuxt-link
                     class="navbar-item"
                     to="/test-grid"
@@ -40,9 +38,7 @@
                   </a>
                 </div>
                 <div class="column is-4">
-                  <h4 class="title is-4 mb-3 has-text-white">
-                    Network
-                  </h4>
+                  <h4 class="title is-4 mb-3 has-text-white">Network</h4>
                   <nuxt-link
                     class="navbar-item"
                     to="/team"
@@ -60,9 +56,7 @@
                   </nuxt-link>
                 </div>
                 <div class="column is-4">
-                  <h4 class="title is-4 mb-3 has-text-white">
-                    Resources
-                  </h4>
+                  <h4 class="title is-4 mb-3 has-text-white">Resources</h4>
                   <a
                     target="_blank"
                     href="https://docs.nosana.io"
@@ -79,6 +73,29 @@
                   >
                     <div>Blog</div>
                   </nuxt-link>
+                  <a
+                    target="_blank"
+                    href="https://app.nosana.io/stake"
+                    class="navbar-item"
+                    to="/docs"
+                    exact-active-class="is-active"
+                  >
+                    <div>Staking</div>
+                  </a>
+                  <nuxt-link
+                    class="navbar-item"
+                    to="/support"
+                    exact-active-class="is-active"
+                  >
+                    <div>Support</div>
+                  </nuxt-link>
+                  <nuxt-link
+                    class="navbar-item"
+                    to="/support"
+                    exact-active-class="is-active"
+                  >
+                    <div>Brand Assets</div>
+                  </nuxt-link>
                 </div>
               </div>
             </div>
@@ -86,8 +103,10 @@
         </div>
       </nav>
       <div class="py-4 has-radius">
-        <small class="is-size-7 has-text-white">© Nosana Network 2024 The Nosana Network Authors Documentation
-          Distributed under CC BY 4.0</small>
+        <small class="is-size-7 has-text-white"
+          >© Nosana Network 2024 The Nosana Network Authors Documentation
+          Distributed under CC BY 4.0</small
+        >
       </div>
     </div>
   </footer>

@@ -188,7 +188,7 @@
     </section>
     <!-- Discover -->
     <Discover title="Discover what's happening on Nosana" :blogs="blogs" />
-    <section class="has-background-grey-lighter px-5 tweet-section" style="overflow: hidden;">
+    <section class="section py-0 has-background-grey-lighter tweet-section" style="overflow: hidden;">
       <div class="container py-6 ">
         <div class="columns my-6 py-6">
           <div class="column is-4 py-6 my-6" data-aos="fade-right">
