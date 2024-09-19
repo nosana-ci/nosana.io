@@ -29,7 +29,7 @@
                   </nuxt-link>
                   <a
                     target="_blank"
-                    href="https://explorer.nosana.com"
+                    href="https://dashboard.nosana.com"
                     class="navbar-item"
                     to="/docs"
                     exact-active-class="is-active"
