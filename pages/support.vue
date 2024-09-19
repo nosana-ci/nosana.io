@@ -3,21 +3,19 @@
     <section class="section mt-5">
       <div class="container">
         <h2 class="title is-2 mt-5 mb-0">
-          Welcome to the Nosana Nework! Get the support you need
+          Your Hub for Solutions
         </h2>
         <div class="columns">
           <div class="columns my-6 pt-6">
             <div class="column is-4" data-aos="fade-in">
               <div class="has-radius p-5" style="background-color: #f7f7f7">
                 <h4 class="title is-4 p-2 mb-2">
-                  Github Issues
+                  Get 1-on-1 Support
                 </h4>
                 <p class="mb-5 is-size-5 p-2" style="color: #666">
-                  Explore, discuss, and report technical issues on our GitHub
-                  repository. Our community actively collaborates to resolve
-                  problems and provide assistance.<br>
-                  <a href="https://github.com/nosana-ci" target="_blank" class="button mt-4">
-                    <img src="~/assets/img/icons/github.svg" style="width: 16px; margin-right: 8px;">Github Issues
+                  Receive prompt, personalized support for staking or wallet issues from our dedicated support team.<br>
+                  <a href="https://discord.gg/KFNu8Skx8T" target="_blank" class="button mt-4">
+                    <img src="~/assets/img/icons/discord.svg" style="width: 16px; margin-right: 8px;">Support
                   </a>
                 </p>
               </div>
@@ -25,29 +23,27 @@
             <div class="column is-4" data-aos="fade-in">
               <div class="has-radius p-5" style="background-color: #f7f7f7">
                 <h4 class="title is-4 p-2 mb-2">
-                  Ask the Community
+                  GitHub
                 </h4>
                 <p class="mb-5 is-size-5 p-2" style="color: #666">
-                  Explore, discuss, and report technical issues on our GitHub
-                  repository. Our community actively collaborates to resolve
-                  problems and provide assistance.<br>
+                  We pride ourselves on being open-source. Visit our GitHub repository to contribute,
+                  build, and report technical issues.<br>
+                  <a href="https://github.com/nosana-ci" target="_blank" class="button mt-4">
+                    <img src="~/assets/img/icons/github.svg" style="width: 18px; margin-right: 8px;">GitHub
+                  </a>
+                </p>
+              </div>
+            </div>
+            <div class="column is-4" data-aos="fade-in">
+              <div class="has-radius p-5" style="background-color: #f7f7f7">
+                <h4 class="title is-4 p-2 mb-2">
+                  Connect
+                </h4>
+                <p class="mb-5 is-size-5 p-2" style="color: #666">
+                  Bringing people together from around the globe.
+                  Our server is where you can connect with others, chat, and interact with team members.<br>
                   <a href="https://discord.gg/nosana-ai" target="_blank" class="button mt-4">
-                    <img src="~/assets/img/icons/discord.svg" style="width: 18px; margin-right: 8px;">Discord
-                  </a>
-                </p>
-              </div>
-            </div>
-            <div class="column is-4" data-aos="fade-in">
-              <div class="has-radius p-5" style="background-color: #f7f7f7">
-                <h4 class="title is-4 p-2 mb-2">
-                  GitHub Discussion
-                </h4>
-                <p class="mb-5 is-size-5 p-2" style="color: #666">
-                  Explore, discuss, and report technical issues on our GitHub
-                  repository. Our community actively collaborates to resolve
-                  problems and provide assistance.<br>
-                  <a href="https://github.com/nosana-ci" target="_blank" class="button mt-4">
-                    <img src="~/assets/img/icons/github.svg" style="width: 16px; margin-right: 8px;">Github Discussion
+                    <img src="~/assets/img/icons/discord.svg" style="width: 16px; margin-right: 8px;">Discord
                   </a>
                 </p>
               </div>
@@ -62,7 +58,7 @@
         <div class="columns">
           <div class="column is-10 is-horizontal-centered mb-6">
             <h3 class="title is-2">
-              Frequently asked questions
+              Frequently Asked Questions
             </h3>
             <accordion>
               <accordion-item v-for="faq in faqs" :key="faq.question">
@@ -93,39 +89,39 @@ export default {
     return {
       faqs: [
         {
-          question: 'My GPU model is not listed above, can I still join?',
+          question: 'What is Nosana?',
           answer:
-            'The list of GPU models is not exhaustive. If you have a different model you can still register for the Test Grid, your GPU will then be reviewed and potentially added to the grid (if not now, then in a later phase).'
+            'Nosana is a peer-to-peer compute marketplace that offers on-demand GPU access for AI projects. It connects AI companies and developers with a global network of compute providers, enabling efficient and scalable computing solutions.'
         },
         {
-          question: 'How do I register for the Test Grid?',
+          question: 'What is the contract address of Nosana’s token and the max supply?',
           answer:
-            'Follow the in-depth tutorial found here: <a href="https://docs.nosana.io/nodes/testgrid.html" target="_blank">https://docs.nosana.io/nodes/testgrid.html</a> to register your GPU hardware on the Nosana Network. This involves installing the Nosana node on your computer. It will take some technical knowledge for you to do this. This means knowing how to use the command line and run Docker containers. If you are unable to complete this setup on your own, then unfortunately, you are not eligible for this phase of the Test Grid.'
+            'The contract address is <code>nosXBVoaCTtYdLvKY6Csb4AC8JCdQKKAaWYtx2ZMoo7</code>, and the total fixed supply is 100,000,000 $NOS. For detailed information and tokenomics, please refer to <a href="https://docs.nosana.com/" target="_blank">our docs</a>'
         },
         {
-          question: 'Do I need a blockchain wallet?',
+          question: 'How does the staking program work?',
           answer:
-            'No, the Nosana Node will create one for you. You will be required to send it a small amount of SOL to operate as a node. If you wish to use your own keypair file, and have the necessary knowledge to do this, please refer to the advanced documentation in the tutorial to use your own keypair with the Nosana Node.'
+            'When you stake NOS, you select an unstake duration ranging from 14 to 365 days. Your tokens are staked indefinitely, and you earn rewards during this period. When you initiate the unstake process, your chosen unstake duration begins. Once unstaked, you stop earning rewards, and your staked tokens are released to you linearly over the duration you selected. You can claim your released tokens at any time. Once you choose an unstake duration for your wallet, it cannot be changed. If you lose access to your wallet or it gets compromised, we cannot assist with token recovery. Please ensure you practice wallet safety to protect your stake. The staking APY is dynamic and depends on your stake, unstake duration, and other stakers in the reward pool. To view the current APY, stake your tokens, and claim rewards, visit our Staking Dashboard.'
         },
         {
-          question: 'How do I know if I’m selected for the Test Grid?',
+          question: 'I need help with staking or another issue. How do I get assistance?',
           answer:
-            'We will selectively onboard new participants into the Test Grid based on market requirements and ability of your hardware to run advanced AI models. All nodes selected for onboarding will be announced in our Discord server only. Please join our Discord server here: <a href="https://discord.gg/Nosana-AI" target="_blank">https://discord.gg/Nosana-AI</a> to receive updates.'
+            'For support with staking, claiming $NOS, or any other personal issue, please join our Discord server and open a support ticket. You can access our help and support section <a href="https://discord.gg/nosana-ai" target="_blank">here</a>. This link provides access to the support channel and temporary membership to the server.'
         },
         {
-          question: 'What kinds of tests will I need to do?',
+          question: 'I need to connect with the team about a partnership, collaboration, listing, proposal, or job offer. Who should I contact?',
           answer:
-            'During the Incentivized GPU Test Grid there will be a selection of markets running various AI workloads.  These workloads may include generic stress and performance test, light workloads, and more robust workloads for higher powered GPU’s.'
+            'Please email us at team@nosana.io. We monitor this inbox closely and will respond promptly.'
         },
         {
-          question: 'How much $NOS will I earn?',
+          question: 'I received an airdrop of $aNOS; is this legitimate?',
           answer:
-            'The exact amount of NOS you can earn during this program will be shared when the registration opens. There are multiple ways you can earn rewards:<br><br>- Once you run the benchmark job and get accepted, you will receive a base reward price<br>- For each workload you run you will receive a specific NOS reward<br>- There will be several challenges during the Test Grid that pay out additional rewards, some of which require KYC.'
+            'No, $aNOS is not affiliated with us, and we do not conduct airdrops. Please verify the contract address. Our $NOS token has the contract address <code>nosXBVoaCTtYdLvKY6Csb4AC8JCdQKKAaWYtx2ZMoo7</code>.'
         },
         {
-          question: 'How long will Phase 2 last?',
+          question: 'What wallets are compatible with $NOS? Can I use my Ledger?',
           answer:
-            'Phase 2 is expected to run through July 2024 - but can be extended based on the distributed rewards.'
+            'We recommend <a href="https://phantom.app/" target="_blank">Phantom</a> and <a href="https://solflare.com/" target="_blank">Solflare</a>. You can use your Ledger device by connecting it to Phantom or Solflare and performing transactions within the wallet, confirming on your Ledger device.'
         }
       ]
     };
