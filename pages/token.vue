@@ -95,7 +95,7 @@
               Buying $NOS
             </h3>
             <h4 class="title is-3">
-              NOS is available on the following exchanges.
+              NOS is available on the following exchanges
             </h4>
           </div>
           <div class="column is-8 mb-6">

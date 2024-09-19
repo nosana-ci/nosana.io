@@ -94,7 +94,7 @@
             <p class="mb-5 is-4 is-size-5">
               Our blockchain expert. 10+ years in the crypto industry with
               experience developing funded companies at executive level
-              leadership roles. Studied A.I. at Amsterdam University. Passion
+              leadership roles. Studied AI at Amsterdam University. Passion
               for a decentralized world.
             </p>
             <a href="https://www.linkedin.com/in/jesse-eisses-9760ab48/" target="_blank" class="has-text-accent">

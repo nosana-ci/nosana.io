@@ -50,6 +50,11 @@ export default {
           link: 'https://www.linkedin.com/company/nosana',
           icon: require('@/assets/img/icons/linkedin.svg'),
           iconLight: require('@/assets/img/icons/linkedin-light.svg')
+        },
+        {
+          link: 'https://www.youtube.com/@NosanaAI',
+          icon: require('@/assets/img/icons/youtube.svg'),
+          iconLight: require('@/assets/img/icons/youtube-light.svg')
         }
       ]
     };
