@@ -4,46 +4,43 @@
     <section class="section has-background-black has-text-white">
       <div class="container mb-6 pb-6">
         <h2 class="title py-6 site-title has-text-white">
-          Unlocking Global GPU Potential<br>
-          Revolutionizing Computing,<br>
-          One Decentralized Grid at a Time!
+          Access AI Compute Power or Monetize Your GPU Resources
         </h2>
         <div class="columns my-6 py-6">
           <div class="column is-6" data-aos="fade-right">
             <h3 class="title is-2 has-text-white">
-              Nosana Test Grid
+              Start Earning with Your GPUs
             </h3>
             <h4 class="title is-3 has-text-white">
-              A multi-phase test grid for developers, data scientists, and AI
-              enthusiasts.
+              Rent out your unused compute and earn while supporting the future
+              of AI innovation.
             </h4>
             <p class="mb-5 is-4 is-size-4">
-              Join us as an early adopter and build the foundation for the
-              world's biggest GPU-compute grid. We're working to make AI more
-              accessible and powerful than ever before.
+              Join Nosana’s global network and turn your idle hardware into a
+              valuable asset, supporting cutting-edge AI projects while earning
+              revenue. Seamless integration and flexible options make it easy to
+              start.
             </p>
             <a href="/test-grid" class="has-text-accent">
-              Go to Nosana Test Grid <i class="pl-1 fas fa-chevron-right" />
+              Start Earning <i class="pl-1 fas fa-chevron-right" />
             </a>
           </div>
           <div class="column is-6" data-aos="fade-left">
             <h3 class="title is-2 has-text-white">
-              Nosana Explorer
+              GPU Power for Your AI Needs
             </h3>
             <h4 class="title is-3 has-text-white">
-              Explore and interact with various aspects of the Nosana ecosystem.
+              Access a global GPU network for your AI inference jobs, at
+              unbeatable prices.
             </h4>
             <p class="mb-5 is-size-4">
-              Display real-time statistics and metrics about the Nosana network,
-              including metrics like network hash rate, active nodes, and
-              computational power contributed to the decentralized GPU grid.
+              Nosana’s global network offers on-demand compute power with
+              dynamic pricing, so you can scale your AI models and run complex
+              tasks efficiently. Focus on your innovations without the burden of
+              managing infrastructure.
             </p>
-            <a
-              href="https://explorer.nosana.io"
-              target="_blank"
-              class="has-text-accent"
-            >
-              Go to Nosana Explorer<i class="pl-1 fas fa-chevron-right" />
+            <a href="/test-grid" class="has-text-accent">
+              Get Started <i class="pl-1 fas fa-chevron-right" />
             </a>
           </div>
         </div>
@@ -52,64 +49,66 @@
     <section class="section py-6">
       <div class="container py-6 mb-6">
         <h3 class="title is-2 py-6 mb-6">
-          Revolutionizing Computing with Decentralized GPU Grids,<br>Cost-Effective
-          Efficiency and Seamless Monetization.
+          On-Demand Compute for Everyone<br>
+          From AI Startups and Research Labs to Grad Students
         </h3>
         <div class="columns is-multiline">
           <div class="is-4 column" data-aos="fade-in">
             <h4 class="title is-3">
-              Decentralized GPU Grid <br>
-              <span class="has-text-grey-light">on-demand access</span>
+              On-Demand <br>
+              <span class="has-text-grey-light">Worldwide GPU Access</span>
             </h4>
             <p class="is-size-5">
-              Allowing users to harness idle GPU resources globally.This grid
-              provides on-demand access to computational power for various
-              tasks, particularly AI inference workloads.
+              Nosana’s decentralized infrastructure connects you to thousands of
+              GPUs across the globe, offering scalable, on-demand compute power
+              wherever you are.
             </p>
           </div>
           <div class="is-4 column" data-aos="fade-in" data-aos-delay="100">
             <h4 class="title is-3">
-              Cost-Effective<br><span class="has-text-grey-light">60-98% less per month</span>
+              Specialized<br><span class="has-text-grey-light">Optimized for AI Inference</span>
             </h4>
             <p class="is-size-5">
-              Offering users efficient access to computational resources without
-              incurring high expenses. This affordability makes it an attractive
-              option for individuals, businesses, and miners looking to leverage
-              computing power.
+              Leverage high-performance GPUs specifically tuned for AI inference
+              tasks, ensuring efficiency and speed for your projects.
             </p>
           </div>
           <div class="is-4 column" data-aos="fade-in" data-aos-delay="200">
             <h4 class="title is-3">
-              Zero Lock-In <br><span class="has-text-grey-light">99.99%+ uptime</span>
+              Flexible<br><span class="has-text-grey-light">Scalable Compute Resources</span>
             </h4>
             <p class="is-size-5">
-              Meaning they are not bound to long-term contracts or commitments.
-              This flexibility allows users to access computational resources as
-              needed without being tied to specific terms or conditions.
+              With dynamic pricing and job-matching, scale compute resources
+              easily, while GPU providers effortlessly monetize their hardware.
+              Ideal for any business size.
             </p>
           </div>
           <div class="is-4 column mt-6" data-aos="fade-in" data-aos-delay="300">
             <h4 class="title is-3">
-              Monetization Opportunity<br><span class="has-text-grey-light">platform for users</span>
+              Sustainable<br><span class="has-text-grey-light">Eco-conscious Compute
+              </span>
             </h4>
             <p class="is-size-5">
-              This enables individuals, businesses, and miners to earn rewards
-              by contributing their idle GPU resources to the decentralized
-              grid.
+              By tapping into idle consumer GPUs, Nosana minimizes energy waste
+              and supports a greener future, providing robust computing power
+              for your AI needs.
             </p>
           </div>
           <div class="is-4 column mt-6" data-aos="fade-in" data-aos-delay="400">
             <h4 class="title is-3">
-              Powered by Solana <br><span class="has-text-grey-light">$NOS Token</span>
+              Secure<br><span class="has-text-grey-light">Advanced Security & Privacy</span>
             </h4>
             <p class="is-size-5">
-              The $NOS token serves various functions, including facilitating
-              transactions, incentivizing participation, and potentially
-              governing the platform.
+              Nosana protects your AI workloads with end-to-end encryption and
+              blockchain transparency, adding layers of security that
+              centralized systems can't match.
             </p>
           </div>
           <div class="is-4 mt-6 column is-flex is-align-items-center">
-            <a href="/team" class="has-text-accent has-text-weight-semibold is-size-5">
+            <a
+              href="/team"
+              class="has-text-accent has-text-weight-semibold is-size-5"
+            >
               More about Nosana <i class="pl-1 fas fa-chevron-right" />
             </a>
           </div>
@@ -123,63 +122,43 @@
           Network Summary
         </h3>
         <div class="columns is-multiline">
+          <div class="is-3 column" data-aos="fade-in">
+            <div class="has-background-white p-5">
+              <div class="has-text-grey-light mt-1">
+                Stakers
+              </div>
+              <h4 class="title is-2 pt-2 is-flex mb-1">
+                {{ numberOfStakers ? numberOfStakers : "..." }}
+              </h4>
+            </div>
+          </div>
+          <div class="is-3 column" data-aos="fade-in">
+            <div class="has-background-white p-5">
+              <div class="has-text-grey-light mt-1">
+                USD value staked
+              </div>
+              <h4 class="title is-2 pt-2 is-flex mb-1">
+                ...
+              </h4>
+            </div>
+          </div>
           <div class="is-3 column" data-aos="fade-in" data-aos-delay="100">
             <div class="has-background-white p-5">
               <div class="has-text-grey-light mt-1">
-                USD spent (24h)
+                NOS Marketcap
               </div>
               <h4 class="title is-2 pt-2 is-flex mb-1">
-                $1.44K
-                <span
-                  class="has-text-secondary ml-3 is-size-6 has-text-weight-medium"
-                >
-                  <i class="fas fa-arrow-up pl-1 pr-1" />45.33%
-                </span>
+                ${{ marketCap ? marketCap.toLocaleString() : "..." }}
               </h4>
             </div>
           </div>
           <div class="is-3 column" data-aos="fade-in" data-aos-delay="200">
             <div class="has-background-white p-5">
               <div class="has-text-grey-light mt-1">
-                USD spent (24h)
+                NOS Price
               </div>
               <h4 class="title is-2 pt-2 is-flex mb-1">
-                $1.44K
-                <span
-                  class="has-text-secondary ml-3 is-size-6 has-text-weight-medium"
-                >
-                  <i class="fas fa-arrow-up pl-1 pr-1" />45.33%
-                </span>
-              </h4>
-            </div>
-          </div>
-          <div class="is-3 column" data-aos="fade-in" data-aos-delay="300">
-            <div class="has-background-white p-5">
-              <div class="has-text-grey-light mt-1">
-                USD spent (24h)
-              </div>
-              <h4 class="title is-2 pt-2 is-flex mb-1">
-                $1.44K
-                <span
-                  class="has-text-secondary ml-3 is-size-6 has-text-weight-medium"
-                >
-                  <i class="fas fa-arrow-up pl-1 pr-1" />45.33%
-                </span>
-              </h4>
-            </div>
-          </div>
-          <div class="is-3 column" data-aos="fade-in" data-aos-delay="400">
-            <div class="has-background-white p-5">
-              <div class="has-text-grey-light mt-1">
-                USD spent (24h)
-              </div>
-              <h4 class="title is-2 pt-2 is-flex mb-1">
-                $1.44K
-                <span
-                  class="has-text-secondary ml-3 is-size-6 has-text-weight-medium"
-                >
-                  <i class="fas fa-arrow-up pl-1 pr-1" />45.33%
-                </span>
+                ${{ nosPrice ? nosPrice : "..." }}
               </h4>
             </div>
           </div>
@@ -188,8 +167,11 @@
     </section>
     <!-- Discover -->
     <Discover title="Discover what's happening on Nosana" :blogs="blogs" />
-    <section class="section py-0 has-background-grey-lighter tweet-section" style="overflow: hidden;">
-      <div class="container py-6 ">
+    <section
+      class="section py-0 has-background-grey-lighter tweet-section"
+      style="overflow: hidden"
+    >
+      <div class="container py-6">
         <div class="columns my-6 py-6">
           <div class="column is-4 py-6 my-6" data-aos="fade-right">
             <h3 class="title is-2">
@@ -219,11 +201,17 @@ export default {
     return {
       amount: 1500,
       days: 100,
-      blogs: []
+      blogs: [],
+      marketCap: null,
+      nosPrice: null,
+      numberOfStakers: null
     };
   },
   mounted () {
     this.fetchBlogs();
+    this.getNosPrice();
+    this.getNosMarketCap();
+    this.getNosStakers();
   },
   destroyed () {},
   methods: {
@@ -249,6 +237,36 @@ export default {
         .fetch();
       this.blogs = blogs;
       this.loadedPosts = true;
+    },
+    async getNosPrice () {
+      try {
+        const response = await fetch(
+          'https://api.coingecko.com/api/v3/simple/price?ids=nosana&vs_currencies=usd'
+        );
+        this.nosPrice = (await response.json()).nosana.usd;
+      } catch (error) {
+        console.error(error);
+      }
+    },
+    async getNosMarketCap () {
+      try {
+        const response = await fetch(
+          'https://api.coingecko.com/api/v3/coins/nosana'
+        );
+        this.marketCap = (await response.json()).market_data.market_cap.usd;
+      } catch (error) {
+        console.error(error);
+      }
+    },
+    async getNosStakers () {
+      try {
+        const response = await fetch(
+          'https://backend.k8s.prd.nos.ci/stake/leaderboards'
+        );
+        this.numberOfStakers = (await response.json()).stakes.pagination.total;
+      } catch (error) {
+        console.error(error);
+      }
     }
   }
 };

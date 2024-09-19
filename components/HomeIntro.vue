@@ -3,16 +3,20 @@
     <section class="section home-block">
       <div class="container">
         <div class="columns is-centered mt-6 mt-mobile-0">
-          <div class="column is-8 pt-6 has-text-centered has-background-black-blur-false has-text-white">
+          <div
+            class="column is-8 pt-6 has-text-centered has-background-black-blur-false has-text-white"
+          >
             <h1 class="title pt-6 is-spaced site-title has-text-white">
-              Powering the AI revolution
+              Where AI Meets Decentralized Compute
             </h1>
             <div class="py-2">
-              <p class="block has-limited-width-big is-size-5" style="margin: 0 auto;">
-                The most cost-effective GPU grid, with zero lock-in.
-                Developed and customized for AI inference workloads.
-                Consumers, miners, and businesses can monetize their idle hardware by becoming a Nosana Node.
-                Powered by Solana and the $NOS token.
+              <p
+                class="block has-limited-width-big is-size-5"
+                style="margin: 0 auto"
+              >
+                Nosana is your go-to marketplace for AI inference. Enjoy
+                seamless access and scalability without long-term contracts or
+                bottlenecks—just the compute power you need, when you need it.
               </p>
             </div>
           </div>
@@ -28,10 +32,9 @@
   position: relative;
   min-height: 660px;
   overflow: hidden;
-  background-image: url('~assets/img/home/bg.svg');
-  margin-top : -5rem;
+  background-image: url("~assets/img/home/bg.jpg");
+  margin-top: -5rem;
   background-size: cover;
-  background-position: bottom;
 }
 
 @include touch {

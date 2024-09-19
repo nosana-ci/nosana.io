@@ -245,7 +245,7 @@ export default {
         {
           question: 'Do I need a blockchain wallet?',
           answer:
-            'No, the Nosana Node will create one for you. You will be required to send it a small amount of SOL to operate as a node. If you wish to use your own keypair file, and have the necessary knowledge to do this, please refer to the advanced documentation in the tutorial to use your own keypair with the Nosana Node.'
+            'No, the Nosana Node will create one for you. You’ll need to maintain a small SOL balance to operate as a node and provide a minimum NOS stake to ensure the security of the Nosana Test Grid. If you prefer to use your own keypair file and have the necessary expertise, please refer to the advanced documentation in the tutorial for guidance on using your own keypair with the Nosana Node.'
         },
         {
           question: 'How do I know if I’m selected for the Test Grid?',
@@ -263,9 +263,13 @@ export default {
             'The exact amount of NOS you can earn during this program will be shared when the registration opens. There are multiple ways you can earn rewards:<br><br>- Once you run the benchmark job and get accepted, you will receive a base reward price<br>- For each workload you run you will receive a specific NOS reward<br>- There will be several challenges during the Test Grid that pay out additional rewards, some of which require KYC.'
         },
         {
-          question: 'How long will Phase 2 last?',
+          question: 'How long will Phase 3 last?',
           answer:
-            'Phase 2 is expected to run through July 2024 - but can be extended based on the distributed rewards.'
+            'Phase 3 will begin on September 30, 2024, and will end on December 10, 2024, marking one year since the start of our testing phase.'
+        },
+        {
+          question: 'When is the Nosana Mainnet Launch?',
+          answer: 'The Nosana Mainnet is set to launch on January 14, 2025. This will mark the transition from our test grid to full-scale commercial deployment, providing enhanced features and capabilities for both GPU providers and clients.'
         }
       ]
     };
