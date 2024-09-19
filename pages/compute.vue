@@ -83,19 +83,24 @@
 
     <section class="section mt-5 has-background-black has-text-white timeline">
       <div class="container py-6">
-        <h3 class="title is-2 has-text-white">
-          From Test Grid to Mainnet
-        </h3>
-        <p class="is-size-5">
-          Since launching our Test Grid, Nosana has continuously refined its decentralized compute platform,
-          gathering insights from real-world AI projects to enhance our infrastructure.
-          Our phased approach allowed us to scale, test, and optimize for AI inference workloads,
-          preparing the network for broader use.
-        </p>
+        <div class="columns">
+          <div class="mt-6 pt-6 column is-10 is-horizontal-centered">
+            <h3 class="title is-2 has-text-white">
+              From Test Grid to Mainnet
+            </h3>
+            <p class="is-size-5 has-limited-width-big ">
+              Since launching our Test Grid, Nosana has continuously refined its decentralized compute platform,
+              gathering insights from real-world AI projects to enhance our infrastructure.
+              Our phased approach allowed us to scale, test, and optimize for AI inference workloads,
+              preparing the network for broader use.
+            </p>
+          </div>
+        </div>
+
         <div class="columns mt-6 is-multiline">
-          <div class="column is-6" data-aos="fade-right">
+          <div class="column roadmap-item is-completed is-6 is-offset-3" data-aos="fade-up">
             <h3 class="title is-2 mb-2 has-text-white">
-              Phase 1: Initial Rollout
+              Phase 1
             </h3>
             <h4 class="title is-3 has-text-white">
               December 2024 - March 2024
@@ -108,9 +113,9 @@
               </ul>
             </p>
           </div>
-          <div class="column is-6" data-aos="fade-left">
+          <div class="column roadmap-item is-completed is-6 is-offset-3" data-aos="fade-up">
             <h3 class="title is-2 mb-2 has-text-white">
-              Phase 2: Expansion and Refinement
+              Phase 2
             </h3>
             <h4 class="title is-3 has-text-white">
               April 2024 - September 2024
@@ -131,9 +136,9 @@
               </ul>
             </p>
           </div>
-          <div class="column is-6" data-aos="fade-right">
+          <div class="column roadmap-item is-6 is-offset-3" data-aos="fade-up">
             <h3 class="title is-2 mb-2 has-text-white">
-              Phase 3: Advanced Features and Optimization
+              Phase 3
             </h3>
             <h4 class="title is-3 has-text-white">
               September 2024 - December 2024
@@ -158,7 +163,7 @@
               </ul>
             </p>
           </div>
-          <div class="column is-6" data-aos="fade-left">
+          <div class="column roadmap-item is-6 is-offset-3" data-aos="fade-up">
             <h3 class="title is-2 mb-2 has-text-white">
               Mainnet Launch
             </h3>
@@ -363,7 +368,43 @@ export default {
   background-image: url("~assets/img/bg-test-grid.svg");
 }
 
+.roadmap-item {
+  &.is-completed {
+    &:before {
+      background: $secondary;
+    }
+  }
+  &:before {
+    content: "";
+    position: absolute;
+    left: -30px;
+    margin-left: auto;
+    margin-right: auto;
+    top: 35px;
+    height: 25px;
+    width: 25px;
+    border-radius: 100%;
+
+    border: 2px solid $secondary;
+  }
+  &:after {
+    content: "";
+    position: absolute;
+    left: -18px;
+    margin-left: auto;
+    margin-right: auto;
+    top: 60px;
+    height: calc(100% - 25px);
+    width: 2px;
+    border-radius: 100%;
+    background: $secondary;
+  }
+}
+
 @media screen and (max-width: $tablet) {
+  .roadmap-item {
+    margin-left: 50px;
+  }
   .columns.my-6.pt-6 {
     margin-top: 0 !important;
     margin-bottom: 0 !important;
