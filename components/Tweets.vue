@@ -162,7 +162,7 @@ blockquote {
   animation-timing-function: linear;
 }
 .reverse {
-  animation: marquee-up 72s infinite alternate;
+  animation: marquee-up 90s infinite alternate;
   animation-direction: alternate-reverse;
   animation-timing-function: linear;
 }
