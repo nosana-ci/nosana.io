@@ -81,7 +81,7 @@
         <h3 class="title is-2 pt-3 mb-6">
           Trusted by our Community
         </h3>
-        <NetworkSummary :extended="false" />
+        <NetworkSummary :extended="true" />
       </div>
     </section>
     <!-- Staking calc -->
