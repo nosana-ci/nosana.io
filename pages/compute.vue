@@ -15,7 +15,8 @@
                 class="block has-limited-width-big is-size-5"
                 style="margin: 0 auto"
               >
-                Unlocking the Future of AI with Seamless, On-Demand GPU Access
+                Register your AI project today to access on-demand compute power,
+                or become a provider and rent your idle hardware through our global compute network.
               </p>
             </div>
           </div>
@@ -25,8 +26,7 @@
     <section class="section mt-5">
       <div class="container">
         <h2 class="title py-6 site-title">
-          Register your AI project today to access on-demand compute power,
-          or become a provider and rent your idle hardware through our global compute network.
+          Unlocking the Future of AI with Seamless, On-Demand GPU Access
         </h2>
         <div class="columns">
           <div class="columns my-6 pt-6">
@@ -36,9 +36,9 @@
                   Monetize Your GPUs
                 </h3>
                 <h4 class="title is-3">
-                  Incentivized Test Grid - On-Demand GPU
+                  Rent out your unused compute
                 </h4>
-                <p class="mb-5 is-4 is-size-4">
+                <p class="mb-5 is-4 is-size-5">
                   Transform your idle compute resources into revenue while
                   contributing to AI advancements. Join Nosana’s worldwide
                   network and convert unused hardware into a profitable asset,
@@ -59,16 +59,16 @@
                   Access Compute for Your AI
                 </h3>
                 <h4 class="title is-3">
-                  Nosana Test Grid Phase 2 Waitlist Registration
+                  On-demand compute, unbeatable prices
                 </h4>
-                <p class="mb-5 is-size-4">
+                <p class="mb-5 is-size-5">
                   Tap into a worldwide network for your AI inference needs at
                   competitive rates. Nosana provides on-demand compute power
                   with real-time pricing, allowing you to scale your AI models
                   and execute complex tasks efficiently.
                 </p>
                 <a
-                  href="#"
+                  href="https://forms.gle/SnF1GnQPANpcAKUj6"
                   target="_blank"
                   class="has-text-accent has-text-weight-semibold"
                 >
@@ -179,7 +179,7 @@
                   Access to all advanced features: Nosana Console, Client SDK, Dynamic Pricing,
                 </li>
                 <li>
-                  Advanced Job-to-Node Matching, and Unrestricted GPU Grid Access.
+                  Advanced Job-to-Node Matching and Unrestricted GPU Grid Access.
                 </li>
                 <li>
                   Full access to Nosana's decentralized GPU network for scalable AI operations.
@@ -365,7 +365,7 @@ export default {
 
 <style lang="scss" scoped>
 .bg-scroll {
-  background-image: url("~assets/img/bg-test-grid.svg");
+  background-image: url("~assets/img/bg-compute.jpg");
 }
 
 .roadmap-item {

@@ -25,7 +25,7 @@
                     to="/compute"
                     exact-active-class="is-active"
                   >
-                    <div>Text Grid</div>
+                    <div>Compute Marketplace</div>
                   </nuxt-link>
                   <a
                     target="_blank"
@@ -56,7 +56,7 @@
                   </nuxt-link>
                   <a
                     target="_blank"
-                    href="https://app.nosana.com/stake"
+                    href="https://dashboard.nosana.com/stake"
                     class="navbar-item"
                     to="/docs"
                     exact-active-class="is-active"

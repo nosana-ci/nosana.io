@@ -11,20 +11,7 @@
 export default {
   data () {
     return {
-      exchanges: [
-        {
-          link: 'https://www.gate.io/trade/NOS_USDT',
-          image: require('@/assets/img/exchanges/gate.svg')
-        },
-        {
-          link: 'https://www.mexc.com/exchange/NOS_USDT',
-          image: require('@/assets/img/exchanges/mexc.svg')
-        },
-        {
-          link: 'https://raydium.io/swap/',
-          image: require('@/assets/img/exchanges/raydium.svg')
-        }
-      ]
+      exchanges: []
     };
   }
 };

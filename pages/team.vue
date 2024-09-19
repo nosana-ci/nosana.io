@@ -156,7 +156,7 @@ export default {
 
 <style lang="scss" scoped>
 .bg-scroll {
-  background-image: url("~assets/img/team/bg.svg");
+  background-image: url("~assets/img/bg-about.jpg");
 }
 @media screen and (max-width: $tablet) {
   .columns.mt-6,

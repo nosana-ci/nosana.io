@@ -81,7 +81,7 @@
         <h3 class="title is-2 pt-3 mb-6">
           Trusted by our Community
         </h3>
-        <NetworkSummary />
+        <NetworkSummary :extended="false" />
       </div>
     </section>
     <!-- Staking calc -->
@@ -100,38 +100,46 @@
             </h4>
           </div>
           <div class="column is-8 mb-6">
-            <div class="columns is-multiline">
+            <div class="columns is-multiline exchanges">
               <div class="column is-6" data-aos="fade-in">
-                <div
-                  class="has-background-grey-lighter has-radius column
-                  py-6 is-flex is-align-items-center is-justify-content-center"
-                >
-                  <img src="~assets/img/exchanges/mexc.svg" class="my-4">
-                </div>
+                <a href="https://bingx.com/en/spot/NOSUSDT/" target="_blank">
+                  <img src="~assets/img/exchanges/BingX.png">
+                </a>
               </div>
               <div class="column is-6" data-aos="fade-in" data-aos-delay="200">
-                <div
-                  class="has-background-grey-lighter has-radius column
-                  py-6 is-flex is-align-items-center is-justify-content-center"
-                >
-                  <img src="~assets/img/exchanges/mexc.svg" class="my-4">
-                </div>
+                <a href="https://bitvavo.com/en/nosana" target="_blank">
+                  <img src="~assets/img/exchanges/Bitvavo.png">
+                </a>
               </div>
               <div class="column is-6" data-aos="fade-in" data-aos-delay="400">
-                <div
-                  class="has-background-grey-lighter has-radius
-                  column py-6 is-flex is-align-items-center is-justify-content-center"
-                >
-                  <img src="~assets/img/exchanges/mexc.svg" class="my-4">
-                </div>
+                <a href="https://crypto.com/exchange/trade/NOS_USD" target="_blank">
+                  <img src="~assets/img/exchanges/Crypto.png">
+                </a>
               </div>
               <div class="column is-6" data-aos="fade-in" data-aos-delay="600">
-                <div
-                  class="has-background-grey-lighter has-radius
-                  column py-6 is-flex is-align-items-center is-justify-content-center"
-                >
-                  <img src="~assets/img/exchanges/mexc.svg" class="my-4">
-                </div>
+                <a href="https://www.gate.io/trade/NOS_USDT" target="_blank">
+                  <img src="~assets/img/exchanges/Gate.png">
+                </a>
+              </div>
+              <div class="column is-6" data-aos="fade-in">
+                <a href="https://jup.ag/swap/USDC-NOS" target="_blank">
+                  <img src="~assets/img/exchanges/Jupiter.png">
+                </a>
+              </div>
+              <div class="column is-6" data-aos="fade-in" data-aos-delay="200">
+                <a href="https://www.kraken.com/learn/buy-nosana-nos" target="_blank">
+                  <img src="~assets/img/exchanges/Kraken.png">
+                </a>
+              </div>
+              <div class="column is-6" data-aos="fade-in" data-aos-delay="400">
+                <a href="https://www.mexc.com/exchange/NOS_USDT" target="_blank">
+                  <img src="~assets/img/exchanges/Mexc.png">
+                </a>
+              </div>
+              <div class="column is-6" data-aos="fade-in" data-aos-delay="600">
+                <a href="https://raydium.io/swap/" target="_blank">
+                  <img src="~assets/img/exchanges/Raydium.png">
+                </a>
               </div>
             </div>
           </div>
@@ -154,8 +162,22 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+.exchanges {
+  a {
+    display: flex;
+    overflow: hidden;
+    border-radius: 10px;
+    img {
+      height: 100%;
+      transition: all .2s ease;
+    }
+    &:hover img {
+      transform: scale(1.15);
+    }
+  }
+}
 .bg-scroll {
-  background-image: url("~assets/img/bg-token.svg");
+  background-image: url("~assets/img/bg-token.jpg");
 }
 @media screen and (max-width: $tablet) {
   .columns.mt-6.pt-6 {

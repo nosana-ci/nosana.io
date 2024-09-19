@@ -15,7 +15,7 @@
               Rent out your unused compute and earn while supporting the future
               of AI innovation.
             </h4>
-            <p class="mb-5 is-4 is-size-4">
+            <p class="mb-5 is-4 is-size-5" style="color: #ccc;">
               Join Nosana’s global network and turn your idle hardware into a
               valuable asset, supporting cutting-edge AI projects while earning
               revenue. Seamless integration and flexible options make it easy to
@@ -33,7 +33,7 @@
               Access a global GPU network for your AI inference jobs, at
               unbeatable prices.
             </h4>
-            <p class="mb-5 is-size-4">
+            <p class="mb-5 is-size-5" style="color: #ccc;">
               Nosana’s global network offers on-demand compute power with
               dynamic pricing, so you can scale your AI models and run complex
               tasks efficiently. Focus on your innovations without the burden of
