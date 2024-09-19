@@ -13,7 +13,7 @@
                 class="has-radius-big header-image-blog"
                 :src="blog.img"
                 style="width: 100%; object-fit: cover;">
-              <div style="max-width: 900px; width: 100%; margin: 0 auto;">
+              <div>
                 <h2 class="mb-5 has-text-black mt-6 description">{{ blog.description }}</h2>
                 <nuxt-content :document="blog" />
                 <h3 class="mt-6 has-text-black">Share on</h3>

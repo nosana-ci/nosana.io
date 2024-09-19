@@ -84,21 +84,6 @@
         <NetworkSummary />
       </div>
     </section>
-    <section class="section py-6 my-6">
-      <div class="container">
-        <h3 class="title is-2">
-          Nosana Ecosystem
-        </h3>
-        <p class="mb-6 is-4 is-size-4 has-limited-width-big">
-          Nosana is an ongoing effort to bring new token features and utility to
-          Nosana and the NOS token. These features will generate value for the
-          network by funding critical incentive pools that will support network
-          growth and development, a wide range of currency options for lease
-          settlement, and much more.
-        </p>
-        <img class="mt-6" src="~assets/img/ecosystem.svg" style="width: 100%">
-      </div>
-    </section>
     <!-- Staking calc -->
     <section class="section my-6">
       <staking-calculator />

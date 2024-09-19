@@ -45,7 +45,7 @@
                   supporting innovative AI projects with ease.
                 </p>
                 <a
-                  href="https://docs.nosana.come/nodes/testgrid.html"
+                  href="https://docs.nosana.com/nodes/testgrid.html"
                   target="_blank"
                   class="has-text-accent has-text-weight-semibold"
                 >
