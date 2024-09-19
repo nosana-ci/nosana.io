@@ -2,7 +2,7 @@
   <div class="marquee" style="height:500px">
     <div class="animate-marquee py-5">
       <a class="box has-radius-big mb-6" href="https://x.com/arbius_ai/status/1805637343283437728" target="_blank">
-        <div class="is-flex is-align-items-center">
+        <div class="is-flex is-align-items-center is-flex-wrap-wrap">
           <img src="~assets/img/tweets/1.png" class="avatar mr-3">
           <h2 class="title">
             Arbius
@@ -15,7 +15,7 @@
         </div>
       </a>
       <a class="box has-radius-big mb-6" href="https://x.com/ledger_top/status/1829186345820098753" target="_blank">
-        <div class="is-flex is-align-items-center">
+        <div class="is-flex is-align-items-center is-flex-wrap-wrap">
           <img src="~assets/img/tweets/2.png" class="avatar mr-3">
           <h2 class="title">
             Top Ledger
@@ -31,7 +31,7 @@
         </div>
       </a>
       <a class="box has-radius-big mb-6" href="https://x.com/mangomarkets/status/1805613261154664838" target="_blank">
-        <div class="is-flex is-align-items-center">
+        <div class="is-flex is-align-items-center is-flex-wrap-wrap">
           <img src="~assets/img/tweets/3.jpg" class="avatar mr-3">
           <h2 class="title">
             Mango
@@ -45,7 +45,7 @@
         </div>
       </a>
       <a class="box has-radius-big mb-6" href="https://x.com/Shwetas_2710/status/1800413010403758368" target="_blank">
-        <div class="is-flex is-align-items-center">
+        <div class="is-flex is-align-items-center is-flex-wrap-wrap">
           <img src="~assets/img/tweets/4.jpg" class="avatar mr-3">
           <h2 class="title">
             Shweta Gupta
@@ -60,7 +60,7 @@
         </div>
       </a>
       <a class="box has-radius-big mb-6" href=" https://x.com/chemxbeats/status/1803067610071810311" target="_blank">
-        <div class="is-flex is-align-items-center">
+        <div class="is-flex is-align-items-center is-flex-wrap-wrap">
           <img src="~assets/img/tweets/5.jpg" class="avatar mr-3">
           <h2 class="title">
             Chem X
@@ -75,7 +75,7 @@
     </div>
     <div class="animate-marquee reverse py-5">
       <a class="box has-radius-big mb-6" href="https://x.com/Jamiroquai_Jr/status/1835280851644596361" target="_blank">
-        <div class="is-flex is-align-items-center">
+        <div class="is-flex is-align-items-center is-flex-wrap-wrap">
           <img src="~assets/img/tweets/6.jpg" class="avatar mr-3">
           <h2 class="title">
             SatoshiShan
@@ -89,7 +89,7 @@
         </div>
       </a>
       <a class="box has-radius-big mb-6" href="https://x.com/ergon50/status/1829187263181512954" target="_blank">
-        <div class="is-flex is-align-items-center">
+        <div class="is-flex is-align-items-center is-flex-wrap-wrap">
           <img src="~assets/img/tweets/7.jpg" class="avatar mr-3">
           <h2 class="title">
             Nitin Shukla
@@ -104,7 +104,7 @@
         </div>
       </a>
       <a class="box has-radius-big mb-6" href="https://x.com/tesser4ctor/status/1812914424065462333" target="_blank">
-        <div class="is-flex is-align-items-center">
+        <div class="is-flex is-align-items-center is-flex-wrap-wrap">
           <img src="~assets/img/tweets/8.jpg" class="avatar mr-3">
           <h2 class="title">
             Tesseract
@@ -119,7 +119,7 @@
         </div>
       </a>
       <a class="box has-radius-big mb-6" href="https://x.com/joestrangeq/status/1835934228942344383?s=46&t=Tw9ZoFuDT9OAFK7b8MKS1w" target="_blank">
-        <div class="is-flex is-align-items-center">
+        <div class="is-flex is-align-items-center is-flex-wrap-wrap">
           <img src="~assets/img/tweets/9.jpg" class="avatar mr-3">
           <h2 class="title">
             Joseph Page
@@ -134,6 +134,21 @@
           <p class="mt-4 subtitle has-text-weight-bold">@swetas_2710 - 17 sep. 2024</p>
         </div>
       </a>
+      <a class="box has-radius-big mb-6" href="https://x.com/BanklessHQ/status/1780234842367545815" target="_blank">
+        <div class="is-flex is-align-items-center is-flex-wrap-wrap">
+          <img src="~assets/img/tweets/10.jpg" class="avatar mr-3">
+          <h2 class="title">
+            Bankless
+          </h2>
+        </div>
+        <div class="mt-4">
+          <p class="has-text-black is-size-4">
+            Nosana could be a game-changer for startups & researchers seeking affordable AI computing resources.
+          </p>
+          <p class="mt-4 subtitle has-text-weight-bold">@BanklessHQ - 16 apr. 2024</p>
+        </div>
+      </a>
+      <br><br>
     </div>
   </div>
 </template>
@@ -162,9 +177,7 @@ blockquote {
   animation-timing-function: linear;
 }
 .reverse {
-  animation: marquee-up 90s infinite alternate;
   animation-direction: alternate-reverse;
-  animation-timing-function: linear;
 }
 @keyframes marquee-up {
   0% {
