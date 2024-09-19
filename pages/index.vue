@@ -132,19 +132,24 @@
     >
       <div class="container py-6">
         <div class="columns my-6 py-6">
-          <div class="column is-4 py-6 my-6" data-aos="fade-right">
+          <div
+            class="column is-4 py-6 my-6  has-background-grey-lighter"
+            style="position: relative; z-index: 1;"
+            data-aos="fade-right"
+          >
             <h3 class="title is-2">
               Nosana Community
             </h3>
             <p class="mb-5 is-size-4">
-              Nosana is supported by a radically open community. As a free
-              public service, the network source code is open-source and
-              available to everyone.
+              Nosana is powered by a dynamic and open community.
+              As a public service, our network’s source code is fully open-source and accessible to all.
+              This openness invites collaboration and innovation,
+              with every contribution helping to shape the future of Nosana.
             </p>
             <socials class="mb-4 pt-3" dark />
           </div>
           <div class="column is-8">
-            <img src="~assets/img/home/tweets.svg" class="tweet-image">
+            <tweets />
           </div>
         </div>
       </div>
