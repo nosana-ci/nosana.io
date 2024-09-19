@@ -103,7 +103,7 @@
               Phase 1
             </h3>
             <h4 class="title is-3 has-text-white">
-              December 2024 - March 2024
+              December 2023 - March 2024
             </h4>
             <p class="mb-5 is-4 is-size-4">
               <ul class="ml-5">
@@ -176,10 +176,10 @@
                   Transition to full-scale commercial deployment.
                 </li>
                 <li>
-                  Access to all advanced features: Nosana Console, Client SDK, Dynamic Pricing,
+                  Access to all advanced features: Nosana Console, Client SDK, dynamic pricing,
                 </li>
                 <li>
-                  Advanced Job-to-Node Matching and Unrestricted GPU Grid Access.
+                  Advanced job-to-node matching and unrestricted GPU grid access.
                 </li>
                 <li>
                   Full access to Nosana's decentralized GPU network for scalable AI operations.
@@ -200,7 +200,7 @@
             </h3>
             <p class="has-limited-width-big mb-6" data-aos="fade-in">
               Nosana empowers anyone with spare compute resources to contribute their idle
-              processing power to our network.To participate, you'll need:
+              processing power to our network. To participate, you'll need:
               <ul class="ml-5">
                 <li>Internet connection</li>
                 <li>RAM: 4GB+</li>
@@ -284,7 +284,7 @@
         <div class="columns">
           <div class="column is-10 is-horizontal-centered mb-6">
             <h3 class="title is-2">
-              Frequently asked questions
+              Frequently Asked Questions
             </h3>
             <accordion>
               <accordion-item v-for="faq in faqs" :key="faq.question">
@@ -353,7 +353,7 @@ export default {
             'Phase 3 will begin on September 30, 2024, and will end on December 10, 2024, marking one year since the start of our testing phase.'
         },
         {
-          question: 'When is the Nosana Mainnet Launch?',
+          question: 'When is the Nosana Mainnet launch?',
           answer:
             'The Nosana Mainnet is set to launch on January 14, 2025. This will mark the transition from our test grid to full-scale commercial deployment, providing enhanced features and capabilities for both GPU providers and clients.'
         }

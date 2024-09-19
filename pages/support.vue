@@ -40,7 +40,6 @@
                   Connect
                 </h4>
                 <p class="mb-5 is-size-5 p-2" style="color: #666">
-                  Bringing people together from around the globe.
                   Our server is where you can connect with others, chat, and interact with team members.<br>
                   <a href="https://discord.gg/nosana-ai" target="_blank" class="button mt-4">
                     <img src="~/assets/img/icons/discord.svg" style="width: 16px; margin-right: 8px;">Discord
@@ -101,12 +100,12 @@ export default {
         {
           question: 'How does the staking program work?',
           answer:
-            'When you stake NOS, you select an unstake duration ranging from 14 to 365 days. Your tokens are staked indefinitely, and you earn rewards during this period. When you initiate the unstake process, your chosen unstake duration begins. Once unstaked, you stop earning rewards, and your staked tokens are released to you linearly over the duration you selected. You can claim your released tokens at any time. Once you choose an unstake duration for your wallet, it cannot be changed. If you lose access to your wallet or it gets compromised, we cannot assist with token recovery. Please ensure you practice wallet safety to protect your stake. The staking APY is dynamic and depends on your stake, unstake duration, and other stakers in the reward pool. To view the current APY, stake your tokens, and claim rewards, visit our Staking Dashboard.'
+            'When you stake NOS, you select an unstake duration ranging from 14 to 365 days. Your tokens are staked indefinitely, and you earn rewards during this period. When you initiate the unstake process, your chosen unstake duration begins. Once unstaked, you stop earning rewards, and your staked tokens are released to you linearly over the duration you selected. You can claim your released tokens at any time. Once you choose an unstake duration for your wallet, it cannot be changed. If you lose access to your wallet or it gets compromised, we cannot assist with token recovery. Please ensure you practice wallet safety to protect your stake. The staking APY is dynamic and depends on your stake, unstake duration, and other stakers in the reward pool. To view the current APY, stake your tokens, and claim rewards, visit our <a href="https://dashboard.nosana.com/stake" target="_blank">Staking Dashboard</a>.'
         },
         {
           question: 'I need help with staking or another issue. How do I get assistance?',
           answer:
-            'For support with staking, claiming $NOS, or any other personal issue, please join our Discord server and open a support ticket. You can access our help and support section <a href="https://discord.gg/nosana-ai" target="_blank">here</a>. This link provides access to the support channel and temporary membership to the server.'
+            'For support with staking, claiming $NOS, or any other personal issue, please join our Discord server and open a support ticket. You can access our help and support section <a href="https://discord.gg/KFNu8Skx8T" target="_blank">here</a>.'
         },
         {
           question: 'I need to connect with the team about a partnership, collaboration, listing, proposal, or job offer. Who should I contact?',

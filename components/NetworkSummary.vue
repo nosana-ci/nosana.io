@@ -1,6 +1,6 @@
 <template>
   <div class="columns is-multiline">
-    <div class="is-3 column" data-aos="fade-in">
+    <div class="is-3 column">
       <div class="has-background-white p-5">
         <div class="has-text-grey-light mt-1">
           Stakers
@@ -10,6 +10,7 @@
             v-if="numberOfStakers"
             :end-val="numberOfStakers"
             :options="{
+              enableScrollSpy: true,
               decimalPlaces: 0,
             }"
           />
@@ -17,7 +18,7 @@
         </h4>
       </div>
     </div>
-    <div class="is-3 column" data-aos="fade-in">
+    <div class="is-3 column">
       <div class="has-background-white p-5">
         <div class="has-text-grey-light mt-1">
           USD value staked
@@ -27,6 +28,7 @@
             v-if="usdStake"
             :end-val="usdStake"
             :options="{
+              enableScrollSpy: true,
               decimalPlaces: 0,
               prefix: '$',
             }"
@@ -35,7 +37,7 @@
         </h4>
       </div>
     </div>
-    <div class="is-3 column" data-aos="fade-in" data-aos-delay="100">
+    <div class="is-3 column">
       <div class="has-background-white p-5">
         <div class="has-text-grey-light mt-1">
           NOS Marketcap
@@ -45,6 +47,7 @@
             v-if="marketCap"
             :end-val="marketCap"
             :options="{
+              enableScrollSpy: true,
               decimalPlaces: 0,
               prefix: '$',
             }"
@@ -53,7 +56,7 @@
         </h4>
       </div>
     </div>
-    <div class="is-3 column" data-aos="fade-in" data-aos-delay="200">
+    <div class="is-3 column">
       <div class="has-background-white p-5">
         <div class="has-text-grey-light mt-1">
           NOS Price
@@ -63,6 +66,7 @@
             v-if="nosPrice"
             :end-val="nosPrice"
             :options="{
+              enableScrollSpy: true,
               decimalPlaces: 2,
               prefix: '$',
             }"
@@ -85,7 +89,7 @@
         </h4>
       </div>
     </div>
-    <div v-if="extended" class="is-3 column" data-aos="fade-in">
+    <div v-if="extended" class="is-3 column">
       <div class="has-background-white p-5">
         <div class="has-text-grey-light mt-1">
           Volume (24h)
@@ -95,6 +99,7 @@
             v-if="volume"
             :end-val="volume"
             :options="{
+              enableScrollSpy: true,
               decimalPlaces: 0,
               prefix: '$',
             }"
@@ -103,7 +108,7 @@
         </h4>
       </div>
     </div>
-    <div v-if="extended" class="is-3 column" data-aos="fade-in">
+    <div v-if="extended" class="is-3 column">
       <div class="has-background-white p-5">
         <div class="has-text-grey-light mt-1">
           Circulating Supply
@@ -113,6 +118,7 @@
             v-if="circulatingSupply"
             :end-val="circulatingSupply"
             :options="{
+              enableScrollSpy: true,
               decimalPlaces: 0,
             }"
           />
@@ -123,8 +129,6 @@
     <div
       v-if="extended"
       class="is-3 column"
-      data-aos="fade-in"
-      data-aos-delay="100"
     >
       <div class="has-background-white p-5">
         <div class="has-text-grey-light mt-1">
@@ -135,6 +139,7 @@
             v-if="totalSupply"
             :end-val="totalSupply"
             :options="{
+              enableScrollSpy: true,
               decimalPlaces: 0,
             }"
           />
@@ -145,8 +150,6 @@
     <div
       v-if="extended"
       class="is-3 column"
-      data-aos="fade-in"
-      data-aos-delay="200"
     >
       <div class="has-background-white p-5">
         <div class="has-text-grey-light mt-1">
@@ -157,6 +160,7 @@
             v-if="fullyDilutedMarketCap"
             :end-val="fullyDilutedMarketCap"
             :options="{
+              enableScrollSpy: true,
               decimalPlaces: 0,
             }"
           />

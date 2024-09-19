@@ -77,7 +77,7 @@
                   </a>
                   <nuxt-link
                     class="navbar-item"
-                    to="/"
+                    to="/blog"
                     exact-active-class="is-active"
                   >
                     <div>Blog</div>
@@ -91,7 +91,7 @@
                   </nuxt-link>
                   <nuxt-link
                     class="navbar-item"
-                    to="/support"
+                    to="/brand"
                     exact-active-class="is-active"
                   >
                     <div>Brand Assets</div>

@@ -15,8 +15,9 @@
                 class="block has-limited-width-big is-size-5"
                 style="margin: 0 auto"
               >
-                Introducing the $NOS token, the heartbeat of the Nosana
-                ecosystem
+                NOS is the native token of the Nosana Network, facilitating the
+                economic incentives of the network, the provisioning of governance and
+                assurance of security.
               </p>
             </div>
           </div>
@@ -26,9 +27,7 @@
     <section class="section">
       <div class="container mb-6 pb-6">
         <h2 class="title pt-6 site-title mb-0">
-          NOS is the native token of the Nosana Network, facilitating the
-          economic incentives of the network, the provisioning of governance and
-          assurance of security.
+          Introducing the $NOS token,<br> the heartbeat of the Nosana ecosystem
         </h2>
         <div class="columns mt-6 pt-6">
           <div class="column is-4" data-aos="fade-in">
@@ -102,8 +101,13 @@
           <div class="column is-8 mb-6">
             <div class="columns is-multiline exchanges">
               <div class="column is-6" data-aos="fade-in">
-                <a href="https://bingx.com/en/spot/NOSUSDT/" target="_blank">
-                  <img src="~assets/img/exchanges/BingX.png">
+                <a href="https://crypto.com/exchange/trade/NOS_USD" target="_blank">
+                  <img src="~assets/img/exchanges/Crypto.png">
+                </a>
+              </div>
+              <div class="column is-6" data-aos="fade-in" data-aos-delay="100">
+                <a href="https://www.kraken.com/learn/buy-nosana-nos" target="_blank">
+                  <img src="~assets/img/exchanges/Kraken.png">
                 </a>
               </div>
               <div class="column is-6" data-aos="fade-in" data-aos-delay="200">
@@ -111,34 +115,29 @@
                   <img src="~assets/img/exchanges/Bitvavo.png">
                 </a>
               </div>
+              <div class="column is-6" data-aos="fade-in" data-aos-delay="300">
+                <a href="https://raydium.io/swap/" target="_blank">
+                  <img src="~assets/img/exchanges/Raydium.png">
+                </a>
+              </div>
               <div class="column is-6" data-aos="fade-in" data-aos-delay="400">
-                <a href="https://crypto.com/exchange/trade/NOS_USD" target="_blank">
-                  <img src="~assets/img/exchanges/Crypto.png">
-                </a>
-              </div>
-              <div class="column is-6" data-aos="fade-in" data-aos-delay="600">
-                <a href="https://www.gate.io/trade/NOS_USDT" target="_blank">
-                  <img src="~assets/img/exchanges/Gate.png">
-                </a>
-              </div>
-              <div class="column is-6" data-aos="fade-in">
                 <a href="https://jup.ag/swap/USDC-NOS" target="_blank">
                   <img src="~assets/img/exchanges/Jupiter.png">
                 </a>
               </div>
-              <div class="column is-6" data-aos="fade-in" data-aos-delay="200">
-                <a href="https://www.kraken.com/learn/buy-nosana-nos" target="_blank">
-                  <img src="~assets/img/exchanges/Kraken.png">
+              <div class="column is-6" data-aos="fade-in" data-aos-delay="500">
+                <a href="https://www.gate.io/trade/NOS_USDT" target="_blank">
+                  <img src="~assets/img/exchanges/Gate.png">
                 </a>
               </div>
-              <div class="column is-6" data-aos="fade-in" data-aos-delay="400">
+              <div class="column is-6" data-aos="fade-in" data-aos-delay="600">
                 <a href="https://www.mexc.com/exchange/NOS_USDT" target="_blank">
                   <img src="~assets/img/exchanges/Mexc.png">
                 </a>
               </div>
-              <div class="column is-6" data-aos="fade-in" data-aos-delay="600">
-                <a href="https://raydium.io/swap/" target="_blank">
-                  <img src="~assets/img/exchanges/Raydium.png">
+              <div class="column is-6" data-aos="fade-in" data-aos-delay="700">
+                <a href="https://bingx.com/en/spot/NOSUSDT/" target="_blank">
+                  <img src="~assets/img/exchanges/BingX.png">
                 </a>
               </div>
             </div>

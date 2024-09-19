@@ -4,7 +4,7 @@
     <section class="section has-background-black has-text-white">
       <div class="container mb-6 pb-6">
         <h2 class="title py-6 site-title has-text-white">
-          Access AI Compute Power or Monetize Your GPU Resources
+          Access AI Compute Power<br> or Monetize Your GPU Resources
         </h2>
         <div class="columns my-6 py-6">
           <div class="column is-6" data-aos="fade-right">
