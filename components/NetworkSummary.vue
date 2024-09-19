@@ -6,7 +6,14 @@
           Stakers
         </div>
         <h4 class="title is-2 pt-2 is-flex mb-1">
-          {{ numberOfStakers ? numberOfStakers : "..." }}
+          <ICountUp
+            v-if="numberOfStakers"
+            :end-val="numberOfStakers"
+            :options="{
+              decimalPlaces: 0,
+            }"
+          />
+          <span v-else>...</span>
         </h4>
       </div>
     </div>
@@ -16,7 +23,15 @@
           USD value staked
         </div>
         <h4 class="title is-2 pt-2 is-flex mb-1">
-          ...
+          <ICountUp
+            v-if="usdStake"
+            :end-val="usdStake"
+            :options="{
+              decimalPlaces: 0,
+              prefix: '$',
+            }"
+          />
+          <span v-else>...</span>
         </h4>
       </div>
     </div>
@@ -26,7 +41,15 @@
           NOS Marketcap
         </div>
         <h4 class="title is-2 pt-2 is-flex mb-1">
-          ${{ marketCap ? marketCap.toLocaleString() : "..." }}
+          <ICountUp
+            v-if="marketCap"
+            :end-val="marketCap"
+            :options="{
+              decimalPlaces: 0,
+              prefix: '$',
+            }"
+          />
+          <span v-else>...</span>
         </h4>
       </div>
     </div>
@@ -36,54 +59,50 @@
           NOS Price
         </div>
         <h4 class="title is-2 pt-2 is-flex mb-1">
-          ${{ nosPrice ? nosPrice.toFixed(2) : "..." }}
+          <ICountUp
+            v-if="nosPrice"
+            :end-val="nosPrice"
+            :options="{
+              decimalPlaces: 2,
+              prefix: '$',
+            }"
+          />
+          <span v-else>...</span>
         </h4>
       </div>
     </div>
   </div>
 </template>
 <script>
+import ICountUp from 'vue-countup-v2';
 export default {
+  components: { ICountUp },
   colorMode: 'light',
   data () {
     return {
       marketCap: null,
       nosPrice: null,
-      numberOfStakers: null
+      numberOfStakers: null,
+      usdStake: null
     };
   },
   mounted () {
-    this.getNosPrice();
-    this.getNosMarketCap();
-    this.getNosStakers();
+    this.getStatistics();
   },
   methods: {
-    async getNosPrice () {
+    async getStatistics () {
       try {
         const response = await fetch(
-          'https://api.coingecko.com/api/v3/simple/price?ids=nosana&vs_currencies=usd'
+          'https://dashboard.k8s.prd.nos.ci/api/stats/'
         );
-        this.nosPrice = (await response.json()).nosana.usd;
-      } catch (error) {
-        console.error(error);
-      }
-    },
-    async getNosMarketCap () {
-      try {
-        const response = await fetch(
-          'https://api.coingecko.com/api/v3/coins/nosana'
-        );
-        this.marketCap = (await response.json()).market_data.market_cap.usd;
-      } catch (error) {
-        console.error(error);
-      }
-    },
-    async getNosStakers () {
-      try {
-        const response = await fetch(
-          'https://backend.k8s.prd.nos.ci/stake/leaderboards'
-        );
-        this.numberOfStakers = (await response.json()).stakes.pagination.total;
+        const data = await response.json();
+        console.log('data', data[0]);
+        if (data[0]) {
+          this.nosPrice = data[0].price;
+          this.marketCap = data[0].marketCap;
+          this.numberOfStakers = data[0].stakers;
+          this.usdStake = data[0].usdValueStaked;
+        }
       } catch (error) {
         console.error(error);
       }
