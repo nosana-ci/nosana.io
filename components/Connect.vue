@@ -8,7 +8,7 @@
         Ready to contribute your compute power to the grid?<br>
         Join our Discord and read the documentation to be fully prepared.
         <p class="mt-4">
-          <a href="https://docs.nosana.io" target="_blank" class="is-underlined"><strong class="has-text-accent">Explore the docs &nbsp;&nbsp;↘</strong></a>
+          <a href="https://docs.nosana.com" target="_blank" class="is-underlined"><strong class="has-text-accent">Explore the docs &nbsp;&nbsp;↘</strong></a>
         </p>
       </div>
     </div>

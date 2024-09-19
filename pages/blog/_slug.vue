@@ -31,7 +31,7 @@
         </article>
       </div>
     </section>
-    <Discover class="has-background-light" title="Read more about what's happening on Nosana" :blogs="blogs" />
+    <Discover class="has-background-light" title="Catch Up on Nosana’s Recent News" :blogs="blogs" />
   </div>
 </template>
 

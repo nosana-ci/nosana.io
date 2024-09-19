@@ -8,15 +8,14 @@
             class="column is-8 pt-6 has-text-centered has-background-black-blur-false has-text-white"
           >
             <h1 class="title pt-6 is-spaced site-title has-text-white">
-              Incentivized GPU Test Grid
+              Nosana Compute Network
             </h1>
             <div class="py-2">
               <p
                 class="block has-limited-width-big is-size-5"
                 style="margin: 0 auto"
               >
-                A multi-phase test grid for developers, data scientists and AI
-                enthusiasts.
+                Unlocking the Future of AI with Seamless, On-Demand GPU Access
               </p>
             </div>
           </div>
@@ -25,38 +24,56 @@
     </section>
     <section class="section mt-5">
       <div class="container">
+        <h2 class="title py-6 site-title">
+          Register your AI project today to access on-demand compute power,
+          or become a provider and rent your idle hardware through our global compute network.
+        </h2>
         <div class="columns">
           <div class="columns my-6 pt-6">
             <div class="column is-6" data-aos="fade-right">
-              <div class="has-radius p-6" style="background-color: #F7F7F7;">
+              <div class="has-radius p-6" style="background-color: #f7f7f7">
                 <h3 class="title is-2">
-                  Register GPU Test Grid
+                  Monetize Your GPUs
                 </h3>
                 <h4 class="title is-3">
                   Incentivized Test Grid - On-Demand GPU
                 </h4>
                 <p class="mb-5 is-4 is-size-4">
-                  The aim of our GPU compute grid is to provide a scalable,
-                  cost-efficient solution for AI computations, foster market
-                  innovation and meet the growing demand for advanced,
-                  energy-efficient GPUs. Register to take part and access
-                  complimentary, on-demand compute.
+                  Transform your idle compute resources into revenue while
+                  contributing to AI advancements. Join Nosana’s worldwide
+                  network and convert unused hardware into a profitable asset,
+                  supporting innovative AI projects with ease.
                 </p>
+                <a
+                  href="https://docs.nosana.come/nodes/testgrid.html"
+                  target="_blank"
+                  class="has-text-accent has-text-weight-semibold"
+                >
+                  Become a Provider <i class="pl-1 fas fa-chevron-right" />
+                </a>
               </div>
             </div>
             <div class="column is-6" data-aos="fade-left">
-              <div class="has-radius p-6" style="background-color: #F7F7F7;">
+              <div class="has-radius p-6" style="background-color: #f7f7f7">
                 <h3 class="title is-2">
-                  Join Test Grid Phase 2!
+                  Access Compute for Your AI
                 </h3>
                 <h4 class="title is-3">
                   Nosana Test Grid Phase 2 Waitlist Registration
                 </h4>
                 <p class="mb-5 is-size-4">
-                  Join us as an early adopter and build the foundation for the
-                  world's biggest GPU-compute grid. We're working to make AI more
-                  accessible and powerful than ever before.
+                  Tap into a worldwide network for your AI inference needs at
+                  competitive rates. Nosana provides on-demand compute power
+                  with real-time pricing, allowing you to scale your AI models
+                  and execute complex tasks efficiently.
                 </p>
+                <a
+                  href="#"
+                  target="_blank"
+                  class="has-text-accent has-text-weight-semibold"
+                >
+                  Connect with us <i class="pl-1 fas fa-chevron-right" />
+                </a>
               </div>
             </div>
           </div>
@@ -64,67 +81,126 @@
       </div>
     </section>
 
-    <section class="section mt-5 has-background-black has-text-white">
+    <section class="section mt-5 has-background-black has-text-white timeline">
       <div class="container py-6">
         <h3 class="title is-2 has-text-white">
-          Be an Early Adopter
+          From Test Grid to Mainnet
         </h3>
         <p class="is-size-5">
-          By joining the Test Grid you will be at the frontier of powering the
-          AI revolution. The Test Grid is split into multiple phases, each
-          designed to thoroughly evaluate specific aspects of our GPU-compute
-          grid. As we progress through the phases, we will gradually introduce
-          new features, expand hardware support, and enable more AI models to be
-          run. This phased approach ensures that we are gathering comprehensive
-          feedback and addressing any potential issues before we move to the
-          mainnet.
+          Since launching our Test Grid, Nosana has continuously refined its decentralized compute platform,
+          gathering insights from real-world AI projects to enhance our infrastructure.
+          Our phased approach allowed us to scale, test, and optimize for AI inference workloads,
+          preparing the network for broader use.
         </p>
-        <div class="columns mt-6">
+        <div class="columns mt-6 is-multiline">
           <div class="column is-6" data-aos="fade-right">
             <h3 class="title is-2 mb-2 has-text-white">
-              Phase 1
+              Phase 1: Initial Rollout
             </h3>
             <h4 class="title is-3 has-text-white">
-              12/10/2023 → 01/31/2024
+              December 2024 - March 2024
             </h4>
             <p class="mb-5 is-4 is-size-4">
-              The aim of our GPU compute grid is to provide a scalable,
-              cost-efficient solution for AI computations, foster market
-              innovation and meet the growing demand for advanced,
-              energy-efficient GPUs. Register to take part and access
-              complimentary, on-demand compute.
+              <ul class="ml-5">
+                <li>Launched Test Grid with core functionalities.</li>
+                <li>Early adopter onboarding and initial performance metrics.</li>
+                <li>Community engagement and feedback collection.</li>
+              </ul>
             </p>
           </div>
           <div class="column is-6" data-aos="fade-left">
             <h3 class="title is-2 mb-2 has-text-white">
-              Phase 1
+              Phase 2: Expansion and Refinement
             </h3>
             <h4 class="title is-3 has-text-white">
-              12/10/2023 → 01/31/2024
+              April 2024 - September 2024
             </h4>
             <p class="mb-5 is-4 is-size-4">
-              The aim of our GPU compute grid is to provide a scalable,
-              cost-efficient solution for AI computations, foster market
-              innovation and meet the growing demand for advanced,
-              energy-efficient GPUs. Register to take part and access
-              complimentary, on-demand compute.
+              <ul class="ml-5">
+                <li>Scaled grid capacity to 1000+ nodes with automated onboarding.</li>
+                <li>Focused testing of enhanced node functionality.                </li>
+                <li>
+                  Onboarding real demand from selected projects.
+                </li>
+                <li>
+                  Continuous performance evaluation and node monitoring.
+                </li>
+                <li>
+                  Tapped into GPU network providers across 60+ countries.
+                </li>
+              </ul>
+            </p>
+          </div>
+          <div class="column is-6" data-aos="fade-right">
+            <h3 class="title is-2 mb-2 has-text-white">
+              Phase 3: Advanced Features and Optimization
+            </h3>
+            <h4 class="title is-3 has-text-white">
+              September 2024 - December 2024
+            </h4>
+            <p class="mb-5 is-4 is-size-4">
+              <ul class="ml-5">
+                <li>
+                  Introduced advanced job-to-node matching for optimal performance.
+                </li>
+                <li>
+                  Launched updated Nosana Console for improved AI inference management.
+                </li>
+                <li>
+                  Released the Client SDK for seamless project integration.
+                </li>
+                <li>
+                  Implemented dynamic pricing for fair and efficient resource allocation.
+                </li>
+                <li>
+                  Expanded access to Nosana’s decentralized GPU network.
+                </li>
+              </ul>
+            </p>
+          </div>
+          <div class="column is-6" data-aos="fade-left">
+            <h3 class="title is-2 mb-2 has-text-white">
+              Mainnet Launch
+            </h3>
+            <h4 class="title is-3 has-text-white">
+              January 14, 2025
+            </h4>
+            <p class="mb-5 is-4 is-size-4">
+              <ul class="ml-5">
+                <li>
+                  Transition to full-scale commercial deployment.
+                </li>
+                <li>
+                  Access to all advanced features: Nosana Console, Client SDK, Dynamic Pricing,
+                </li>
+                <li>
+                  Advanced Job-to-Node Matching, and Unrestricted GPU Grid Access.
+                </li>
+                <li>
+                  Full access to Nosana's decentralized GPU network for scalable AI operations.
+                </li>
+              </ul>
             </p>
           </div>
         </div>
       </div>
     </section>
 
-    <section class="section mt-5">
+    <section class="section mt-5 timeline">
       <div class="container">
         <div class="columns">
           <div class="mt-6 pt-6 column is-10 is-horizontal-centered">
             <h3 class="title is-2">
-              Requirements
+              Hardware Requirements
             </h3>
             <p class="has-limited-width-big mb-6" data-aos="fade-in">
-              During the first two phases of the Test Grid you will require an
-              NVIDIA GPU with CUDA. The following list of models will be
-              supported, other cards will be reviewed.
+              Nosana empowers anyone with spare compute resources to contribute their idle
+              processing power to our network.To participate, you'll need:
+              <ul class="ml-5">
+                <li>Internet connection</li>
+                <li>RAM: 4GB+</li>
+                <li>One of the following NVIDIA GPUs:</li>
+              </ul>
             </p>
             <div class="is-flex is-flex-wrap-wrap" data-aos="fade-in">
               <div class="gpu-type">
@@ -273,7 +349,8 @@ export default {
         },
         {
           question: 'When is the Nosana Mainnet Launch?',
-          answer: 'The Nosana Mainnet is set to launch on January 14, 2025. This will mark the transition from our test grid to full-scale commercial deployment, providing enhanced features and capabilities for both GPU providers and clients.'
+          answer:
+            'The Nosana Mainnet is set to launch on January 14, 2025. This will mark the transition from our test grid to full-scale commercial deployment, providing enhanced features and capabilities for both GPU providers and clients.'
         }
       ]
     };
@@ -290,7 +367,7 @@ export default {
   .columns.my-6.pt-6 {
     margin-top: 0 !important;
     margin-bottom: 0 !important;
-    padding-top: 0 !important
+    padding-top: 0 !important;
   }
   .mt-5 {
     margin-top: 0 !important;
@@ -311,5 +388,10 @@ export default {
   @media screen and (max-width: $tablet) {
     width: calc(50% - 20px);
   }
+}
+
+.timeline ul {
+  list-style-type: disc;
+  list-style-position: inside;
 }
 </style>

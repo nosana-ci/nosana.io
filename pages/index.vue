@@ -21,7 +21,7 @@
               revenue. Seamless integration and flexible options make it easy to
               start.
             </p>
-            <nuxt-link to="/test-grid" class="has-text-accent">
+            <nuxt-link to="/compute" class="has-text-accent">
               Start Earning <i class="pl-1 fas fa-chevron-right" />
             </nuxt-link>
           </div>
@@ -39,7 +39,7 @@
               tasks efficiently. Focus on your innovations without the burden of
               managing infrastructure.
             </p>
-            <nuxt-link to="/test-grid" class="has-text-accent">
+            <nuxt-link to="/compute" class="has-text-accent">
               Get Started <i class="pl-1 fas fa-chevron-right" />
             </nuxt-link>
           </div>
@@ -125,7 +125,7 @@
       </div>
     </section>
     <!-- Discover -->
-    <Discover title="Discover what's happening on Nosana" :blogs="blogs" />
+    <Discover title="Catch Up on Nosana’s Recent News" :blogs="blogs" />
     <section
       class="section py-0 has-background-grey-lighter tweet-section"
       style="overflow: hidden"

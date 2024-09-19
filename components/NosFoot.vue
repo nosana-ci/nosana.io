@@ -22,14 +22,14 @@
                   <h4 class="title is-4 mb-3 has-text-white">Product</h4>
                   <nuxt-link
                     class="navbar-item"
-                    to="/test-grid"
+                    to="/compute"
                     exact-active-class="is-active"
                   >
                     <div>Text Grid</div>
                   </nuxt-link>
                   <a
                     target="_blank"
-                    href="https://explorer.nosana.io"
+                    href="https://explorer.nosana.com"
                     class="navbar-item"
                     to="/docs"
                     exact-active-class="is-active"
@@ -54,12 +54,21 @@
                   >
                     <div>$NOS Token</div>
                   </nuxt-link>
+                  <a
+                    target="_blank"
+                    href="https://app.nosana.com/stake"
+                    class="navbar-item"
+                    to="/docs"
+                    exact-active-class="is-active"
+                  >
+                    <div>Staking</div>
+                  </a>
                 </div>
                 <div class="column is-4">
                   <h4 class="title is-4 mb-3 has-text-white">Resources</h4>
                   <a
                     target="_blank"
-                    href="https://docs.nosana.io"
+                    href="https://docs.nosana.com"
                     class="navbar-item"
                     to="/docs"
                     exact-active-class="is-active"
@@ -73,15 +82,6 @@
                   >
                     <div>Blog</div>
                   </nuxt-link>
-                  <a
-                    target="_blank"
-                    href="https://app.nosana.io/stake"
-                    class="navbar-item"
-                    to="/docs"
-                    exact-active-class="is-active"
-                  >
-                    <div>Staking</div>
-                  </a>
                   <nuxt-link
                     class="navbar-item"
                     to="/support"

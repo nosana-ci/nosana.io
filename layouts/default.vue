@@ -18,7 +18,7 @@ export default {
       link: [
         {
           rel: 'canonical',
-          href: 'https://nosana.io' + this.$route.path
+          href: 'https://nosana.com' + this.$route.path
         }
       ]
     };

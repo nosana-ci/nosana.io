@@ -45,10 +45,10 @@
                 <div>Product</div>
               </a>
               <div class="navbar-dropdown is-boxed">
-                <nuxt-link class="navbar-item" to="/test-grid" exact-active-class="is-active">
-                  Test Grid
+                <nuxt-link class="navbar-item" to="/compute" exact-active-class="is-active">
+                  Compute Marketplace
                 </nuxt-link>
-                <a href="https://explorer.nosana.io/" target="_blank" class="navbar-item">
+                <a href="https://explorer.nosana.com/" target="_blank" class="navbar-item">
                   <span>Explorer</span>
                 </a>
               </div>
@@ -67,6 +67,9 @@
                 <nuxt-link class="navbar-item" to="/token" exact-active-class="is-active">
                   $NOS Token
                 </nuxt-link>
+                <a href="https://app.nosana.com/stake/" target="_blank" class="navbar-item">
+                  <span>Staking</span>
+                </a>
               </div>
             </div>
             <div class="navbar-item has-dropdown is-hoverable" @click="mobileMenu = false">
@@ -74,15 +77,12 @@
                 <div>Resources</div>
               </a>
               <div class="navbar-dropdown is-boxed">
-                <a href="https://docs.nosana.io" target="_blank" class="navbar-item">
+                <a href="https://docs.nosana.com" target="_blank" class="navbar-item">
                   <span>Docs</span>
                 </a>
                 <nuxt-link class="navbar-item" to="/blog" exact-active-class="is-active">
                   <span>Blog</span>
                 </nuxt-link>
-                <a href="https://app.nosana.io/stake/" target="_blank" class="navbar-item">
-                  <span>Staking</span>
-                </a>
                 <nuxt-link class="navbar-item" to="/support" exact-active-class="is-active">
                   <span>Support</span>
                 </nuxt-link>
@@ -92,9 +92,9 @@
               </div>
             </div>
             <div class="navbar-item" @click="mobileMenu = false">
-              <a class="button is-secondary is-size-6">
-                Call to action
-              </a>
+              <nuxt-link to="/compute" class="button is-secondary is-size-6">
+                Get Access
+              </nuxt-link>
             </div>
           </div>
         </div>
