@@ -1,24 +1,22 @@
 <template>
   <div>
     <section class="section intro">
+      <BackgroundParallax />
       <div class="container">
         <div class="columns is-centered mt-6 mt-mobile-0">
           <div
             class="column is-8 pt-6 has-text-centered has-background-black-blur-false has-text-white"
           >
             <h1 class="title pt-6 is-spaced site-title has-text-white">
-              The $NOS Token
+              NOS token
             </h1>
             <div class="py-2">
               <p
                 class="block has-limited-width-big is-size-5"
                 style="margin: 0 auto"
               >
-                Designed to fuel decentralized computing, $NOS empowers users to
-                access computational resources, participate in governance, and
-                unlock monetization opportunities within the platform. Join the
-                revolution and harness the power of $NOS to shape the future of
-                computing.
+                Introducing the $NOS token, the heartbeat of the Nosana
+                ecosystem
               </p>
             </div>
           </div>
@@ -28,8 +26,9 @@
     <section class="section">
       <div class="container mb-6 pb-6">
         <h2 class="title pt-6 site-title mb-0">
-          Introducing the $NOS Token,<br>
-          the heartbeat of the Nosana ecosystem.
+          NOS is the native token of the Nosana Network, facilitating the
+          economic incentives of the network, the provisioning of governance and
+          assurance of security.
         </h2>
         <div class="columns mt-6 pt-6">
           <div class="column is-4" data-aos="fade-in">
@@ -37,13 +36,12 @@
               Security
             </h3>
             <h4 class="title is-3">
-              Driven by a passion for revolutionizing the world
+              Secured by Proof of Stake
             </h4>
             <p class="mb-5 is-4 is-size-4">
-              Nosana Network is secured by a Proof-of-Stake (PoS) blockchain,
-              and NOS is used to secure the network by staking. Staking NOS
-              provides a passive income stream for stakers, and increases the
-              security of the network.
+              NOS is an SPL-compliant digital asset on the Solana blockchain,
+              and NOS is used to secure the Nosana Network via staking.
+              Stakers earn NOS rewards while providing the collateral to ensure the security of the network.
             </p>
           </div>
           <div class="column is-4" data-aos="fade-in" data-aos-delay="100">
@@ -51,26 +49,25 @@
               Governance
             </h3>
             <h4 class="title is-3">
-              Driven by a passion for revolutionizing the world
+              Community Supported and Run
             </h4>
             <p class="mb-5 is-4 is-size-4">
-              Nosana Network is community-owned and all aspects of the network
-              are governed by NOS holders. NOS holders can vote on proposals to
-              improve the network and manage critical parameters such as
-              inflation rate and take rates.
+              The Nosana Network will function as a completely decentralized organization.
+              All aspects of the network will be governed by NOS token holders.
+              NOS holders will in the future be able to vote on changes and improvements to the network.
             </p>
           </div>
           <div class="column is-4" data-aos="fade-in" data-aos-delay="200">
             <h3 class="title is-2">
-              Incentivization
+              Value and Incentives
             </h3>
             <h4 class="title is-3">
               Driven by a passion for revolutionizing the world
             </h4>
             <p class="mb-5 is-4 is-size-4">
-              NOS provides a default mechanism to store and exchange value, and
-              acts as a reserve currency in Solana multi-currency and
-              multi-chain ecosystem.
+              NOS is a digital asset, and facilitates the store and exchange of value within the Nosana ecosystem.
+              It provides the utility in our network facilitating,
+              among other things, node reward payments, staking emissions, and incentive programs.
             </p>
           </div>
         </div>
@@ -84,48 +81,7 @@
         <h3 class="title is-2 pt-3 mb-6">
           Trusted by our Community
         </h3>
-        <div class="columns is-multiline">
-          <div class="is-3 column" data-aos="fade-in">
-            <div class="has-background-white p-5">
-              <div class="has-text-grey-light mt-1">
-                Stakers
-              </div>
-              <h4 class="title is-2 pt-2 is-flex mb-1">
-                {{ numberOfStakers ? numberOfStakers : "..." }}
-              </h4>
-            </div>
-          </div>
-          <div class="is-3 column" data-aos="fade-in">
-            <div class="has-background-white p-5">
-              <div class="has-text-grey-light mt-1">
-                USD value staked
-              </div>
-              <h4 class="title is-2 pt-2 is-flex mb-1">
-                ...
-              </h4>
-            </div>
-          </div>
-          <div class="is-3 column" data-aos="fade-in" data-aos-delay="100">
-            <div class="has-background-white p-5">
-              <div class="has-text-grey-light mt-1">
-                NOS Marketcap
-              </div>
-              <h4 class="title is-2 pt-2 is-flex mb-1">
-                ${{ marketCap ? marketCap.toLocaleString() : "..." }}
-              </h4>
-            </div>
-          </div>
-          <div class="is-3 column" data-aos="fade-in" data-aos-delay="200">
-            <div class="has-background-white p-5">
-              <div class="has-text-grey-light mt-1">
-                NOS Price
-              </div>
-              <h4 class="title is-2 pt-2 is-flex mb-1">
-                ${{ nosPrice ? nosPrice : '...'}}
-              </h4>
-            </div>
-          </div>
-        </div>
+        <NetworkSummary />
       </div>
     </section>
     <section class="section py-6 my-6">
@@ -162,32 +118,32 @@
             <div class="columns is-multiline">
               <div class="column is-6" data-aos="fade-in">
                 <div
-                  class="has-background-grey-lighter
-                  has-radius column py-6 is-flex is-align-items-center is-justify-content-center"
+                  class="has-background-grey-lighter has-radius column
+                  py-6 is-flex is-align-items-center is-justify-content-center"
                 >
                   <img src="~assets/img/exchanges/mexc.svg" class="my-4">
                 </div>
               </div>
               <div class="column is-6" data-aos="fade-in" data-aos-delay="200">
                 <div
-                  class="has-background-grey-lighter
-                  has-radius column py-6 is-flex is-align-items-center is-justify-content-center"
+                  class="has-background-grey-lighter has-radius column
+                  py-6 is-flex is-align-items-center is-justify-content-center"
                 >
                   <img src="~assets/img/exchanges/mexc.svg" class="my-4">
                 </div>
               </div>
               <div class="column is-6" data-aos="fade-in" data-aos-delay="400">
                 <div
-                  class="has-background-grey-lighter
-                  has-radius column py-6 is-flex is-align-items-center is-justify-content-center"
+                  class="has-background-grey-lighter has-radius
+                  column py-6 is-flex is-align-items-center is-justify-content-center"
                 >
                   <img src="~assets/img/exchanges/mexc.svg" class="my-4">
                 </div>
               </div>
               <div class="column is-6" data-aos="fade-in" data-aos-delay="600">
                 <div
-                  class="has-background-grey-lighter
-                  has-radius column py-6 is-flex is-align-items-center is-justify-content-center"
+                  class="has-background-grey-lighter has-radius
+                  column py-6 is-flex is-align-items-center is-justify-content-center"
                 >
                   <img src="~assets/img/exchanges/mexc.svg" class="my-4">
                 </div>
@@ -200,60 +156,21 @@
   </div>
 </template>
 <script>
+import BackgroundParallax from '../components/BackgroundParallax.vue';
+import NetworkSummary from '../components/NetworkSummary.vue';
+
 export default {
   colorMode: 'light',
-  data () {
-    return {
-      marketCap: null,
-      nosPrice: null,
-      numberOfStakers: null
-    };
-  },
-  mounted () {
-    this.getNosPrice();
-    this.getNosMarketCap();
-    this.getNosStakers();
-  },
-  methods: {
-    async getNosPrice () {
-      try {
-        const response = await fetch(
-          'https://api.coingecko.com/api/v3/simple/price?ids=nosana&vs_currencies=usd'
-        );
-        this.nosPrice = (await response.json()).nosana.usd;
-      } catch (error) {
-        console.error(error);
-      }
-    },
-    async getNosMarketCap () {
-      try {
-        const response = await fetch(
-          'https://api.coingecko.com/api/v3/coins/nosana'
-        );
-        this.marketCap = (await response.json()).market_data.market_cap.usd;
-      } catch (error) {
-        console.error(error);
-      }
-    },
-    async getNosStakers () {
-      try {
-        const response = await fetch(
-          'https://backend.k8s.prd.nos.ci/stake/leaderboards'
-        );
-        this.numberOfStakers = (await response.json()).stakes.pagination.total;
-      } catch (error) {
-        console.error(error);
-      }
-    }
+  components: {
+    NetworkSummary,
+    BackgroundParallax
   }
 };
 </script>
 
 <style lang="scss" scoped>
-.intro {
+.bg-scroll {
   background-image: url("~assets/img/bg-token.svg");
-  background-size: cover;
-  background-position: bottom;
 }
 @media screen and (max-width: $tablet) {
   .columns.mt-6.pt-6 {

@@ -1,6 +1,7 @@
 <template>
   <div>
     <section class="section home-block">
+      <BackgroundParallax />
       <div class="container">
         <div class="columns is-centered mt-6 mt-mobile-0">
           <div
@@ -25,16 +26,24 @@
     </section>
   </div>
 </template>
+<script>
+import BackgroundParallax from './BackgroundParallax.vue';
 
+export default {
+  components: { BackgroundParallax }
+};
+</script>
 <style lang="scss" scoped>
 @import "bulma/sass/utilities/mixins";
 .home-block {
   position: relative;
   min-height: 660px;
   overflow: hidden;
-  background-image: url("~assets/img/home/bg.jpg");
   margin-top: -5rem;
-  background-size: cover;
+}
+
+.bg-scroll {
+  background-image: url("~assets/img/home/bg.jpg");
 }
 
 @include touch {

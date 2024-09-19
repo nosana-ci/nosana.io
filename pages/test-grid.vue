@@ -1,6 +1,7 @@
 <template>
   <div>
     <section class="section intro">
+      <BackgroundParallax />
       <div class="container">
         <div class="columns is-centered mt-6 mt-mobile-0">
           <div
@@ -227,8 +228,11 @@
 </template>
 
 <script>
+import BackgroundParallax from '../components/BackgroundParallax.vue';
+
 export default {
   colorMode: 'light',
+  components: { BackgroundParallax },
   data () {
     return {
       faqs: [
@@ -278,10 +282,8 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.intro {
+.bg-scroll {
   background-image: url("~assets/img/bg-test-grid.svg");
-  background-size: cover;
-  background-position: bottom;
 }
 
 @media screen and (max-width: $tablet) {
