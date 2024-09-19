@@ -30,18 +30,20 @@
           <nuxt-link
             v-for="blog of blogs"
             :key="blog.slug"
-            class="column is-one-third"
+            class="column is-one-third blog-item"
             :to="{ name: 'blog-slug', params: { slug: blog.slug } }"
           >
             <div
               class="py-4 post-wrapper"
               style="min-height: 432px"
             >
-              <img
-                :src="blog.thumbnail ? blog.thumbnail : blog.img"
-                style="height: 270px; object-fit: cover;"
-                class="has-radius-big blog-image"
-              >
+              <div class="blog-img has-radius-big" style="height: 270px">
+                <img
+                  :src="blog.thumbnail ? blog.thumbnail : blog.img"
+                  style="height: 100%; width: 100%; object-fit: cover;"
+                  class="blog-image"
+                >
+              </div>
               <p v-if="blog.author" class="has-text-black is-size-7">
                 By {{ blog.author }}
               </p>
@@ -195,7 +197,7 @@ export default {
 }
 
 @media screen and (max-width: 1023px) {
-  .blog-image {
+  .blog-img {
     height: 220px !important;
   }
   .post-wrapper {

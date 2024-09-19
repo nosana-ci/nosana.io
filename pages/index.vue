@@ -21,9 +21,9 @@
               revenue. Seamless integration and flexible options make it easy to
               start.
             </p>
-            <a href="/test-grid" class="has-text-accent">
+            <nuxt-link to="/test-grid" class="has-text-accent">
               Start Earning <i class="pl-1 fas fa-chevron-right" />
-            </a>
+            </nuxt-link>
           </div>
           <div class="column is-6" data-aos="fade-left">
             <h3 class="title is-2 has-text-white">
@@ -39,9 +39,9 @@
               tasks efficiently. Focus on your innovations without the burden of
               managing infrastructure.
             </p>
-            <a href="/test-grid" class="has-text-accent">
+            <nuxt-link to="/test-grid" class="has-text-accent">
               Get Started <i class="pl-1 fas fa-chevron-right" />
-            </a>
+            </nuxt-link>
           </div>
         </div>
       </div>
@@ -105,12 +105,12 @@
             </p>
           </div>
           <div class="is-4 mt-6 column is-flex is-align-items-center">
-            <a
-              href="/team"
+            <nuxt-link
+              to="/team"
               class="has-text-accent has-text-weight-semibold is-size-5"
             >
               More about Nosana <i class="pl-1 fas fa-chevron-right" />
-            </a>
+            </nuxt-link>
           </div>
         </div>
       </div>

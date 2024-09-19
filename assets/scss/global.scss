@@ -258,3 +258,15 @@ a.card {
   max-width: 100%;
   background-position: center;
 }
+
+.blog-item {
+  .blog-img {
+    overflow: hidden;
+  }
+  img {
+    transition: all .3s ease;
+  }
+  &:hover img {
+    transform: scale(1.05);
+  }
+}

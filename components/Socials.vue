@@ -45,6 +45,11 @@ export default {
           link: 'https://nosana.medium.com/',
           icon: require('@/assets/img/icons/medium.svg'),
           iconLight: require('@/assets/img/icons/medium-light.svg')
+        },
+        {
+          link: 'https://www.linkedin.com/company/nosana',
+          icon: require('@/assets/img/icons/linkedin.svg'),
+          iconLight: require('@/assets/img/icons/linkedin-light.svg')
         }
       ]
     };

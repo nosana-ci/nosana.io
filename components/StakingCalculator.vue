@@ -20,7 +20,7 @@
             target="_blank"
             class="has-text-accent has-text-weight-semibold"
           >
-            Go to Staking Dashboard<i class="pl-1 fas fa-chevron-right" />
+            Go to the Staking Dashboard<i class="pl-1 fas fa-chevron-right" />
           </a>
         </div>
         <div class="column is-8">
