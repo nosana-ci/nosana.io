@@ -134,6 +134,21 @@
           <p class="mt-4 subtitle has-text-weight-bold">@swetas_2710 - 17 sep. 2024</p>
         </div>
       </a>
+      <a class="box has-radius-big mb-6" href="https://x.com/BanklessHQ/status/1780234842367545815" target="_blank">
+        <div class="is-flex is-align-items-center is-flex-wrap-wrap">
+          <img src="~assets/img/tweets/10.jpg" class="avatar mr-3">
+          <h2 class="title">
+            Bankless
+          </h2>
+        </div>
+        <div class="mt-4">
+          <p class="has-text-black is-size-4">
+            Nosana could be a game-changer for startups & researchers seeking affordable AI computing resources.
+          </p>
+          <p class="mt-4 subtitle has-text-weight-bold">@BanklessHQ - 16 apr. 2024</p>
+        </div>
+      </a>
+      <br><br>
     </div>
   </div>
 </template>
@@ -162,9 +177,7 @@ blockquote {
   animation-timing-function: linear;
 }
 .reverse {
-  animation: marquee-up 90s infinite alternate;
   animation-direction: alternate-reverse;
-  animation-timing-function: linear;
 }
 @keyframes marquee-up {
   0% {
