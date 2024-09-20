@@ -1,95 +1,144 @@
 <template>
   <div>
-    <section class="section">
+    <section class="section intro">
+      <BackgroundParallax />
       <div class="container">
-        <h1 class="title site-title is-spaced has-limited-width mt-6" data-aos="fade-up">
-          Join us
-        </h1>
-        <div class="columns mt-5">
-          <div class="column is-7" data-aos="fade-up">
-            <div class="has-limited-width-small mt-4">
-              <p class="block">
-                At Nosana, we’re on a mission to democratize the established cloud computing industry.
-                Want in? Great! We just so happen to be looking for new team members.
-              </p>
-              <p class="block">
-                <a class="button is-accent is-wide" target="_blank" href="https://wellfound.com/company/nosana">
-                  <b>View opportunities</b>
-                </a>
+        <div class="columns is-centered mt-6 mt-mobile-0">
+          <div
+            class="column is-8 pt-6 has-text-centered has-background-black-blur-false has-text-white"
+          >
+            <h1 class="title pt-6 is-spaced site-title has-text-white">
+              About Us
+            </h1>
+            <div class="py-2">
+              <p
+                class="block has-limited-width-big is-size-5"
+                style="margin: 0 auto"
+              >
+                At Nosana, we believe in the power of decentralized computing to drive the future of AI.
+                Our platform transforms idleGPU resources into a global network of on-demand compute power,
+                supporting a wide range of AI applications from startups to research labs.
               </p>
             </div>
-          </div>
-        </div>
-        <div class="column is-8 is-offset-4 mt-0" data-aos="fade-left">
-          <img src="~assets/img/team.png">
-        </div>
-        <div class="has-text-centered mt-6 py-6">
-          <h1 class="title is-spaced is-1 has-text-weight-semibold">
-            About the<br>Nosana team
-          </h1>
-          <p class="has-limited-width-small is-horizontal-centered">
-            We’re made up of very different people, but we all have a strong technical background in blockchain
-            and infrastructure engineering. And we’re united by our drive for disruption. Using decentralized
-            technologies, we’re making cloud computing a safer place where people are free from the clutches of Big Tech
-            corporations.
-          </p>
-        </div>
-        <div class="columns py-6 is-vcentered">
-          <div class="column is-5" data-aos="fade-right">
-            <h2 class="title is-2">
-              Work from anywhere
-            </h2>
-            <h3 class="subtitle">
-              A global network of people
-            </h3>
-            <p class="block">
-              Development is a round-the-clock job. With our team working from different time zones,
-              there’s always Nosana people building, iterating, and innovating.
-              But even more importantly, this allows for a healthier work-life balance.
-            </p>
-          </div>
-          <div class="column is-5 is-offset-2" data-aos="zoom-in">
-            <img src="~assets/img/globe_animated.svg">
-          </div>
-        </div>
-        <div class="columns is-vcentered">
-          <div class="column is-offset-7 is-5" data-aos="fade-left">
-            <h2 class="title is-2">
-              Who we’re looking for
-            </h2>
-            <p class="block">
-              Developers, marketers, content creators, community moderators, designers: we’d love to have you.
-              And if your title isn’t on that list but you’re passionate about our mission:
-              we’d love to have you as well!
-            </p>
-            <p class="block">
-              <a class="button is-accent is-wide is-outlined" target="_blank" href="https://www.linkedin.com/company/nosana/jobs/">
-                <b>Open application</b>
-              </a>
-            </p>
           </div>
         </div>
       </div>
     </section>
     <section class="section">
-      <div class="container is-max-widescreen">
-        <h1 class="title has-text-centered mt-6">
-          Get to know us better
-        </h1>
-        <div class="columns is-multiline is-variable is-8">
-          <div v-for="person in team" :key="person.name" class="column is-6">
-            <div class="px-2 mt-6">
-              <img
-                :src="require(`@/assets/img/team/${person.image ? person.image : person.name}.png`)"
-                style="max-width:112px;"
-              >
-              <h2 class="subtitle is-5 mt-2 mb-4">
-                {{ person.name }}
-              </h2>
-              <p>
-                {{ person.description }}
-              </p>
-            </div>
+      <div class="container mb-6 pb-6">
+        <h2 class="title pt-6 site-title mb-0">
+          Driving Innovation, Empowering Global Computing
+        </h2>
+        <div class="columns mt-6 pt-6">
+          <div class="column is-6" data-aos="fade-right">
+            <h3 class="title is-2">
+              About Nosana
+            </h3>
+            <h4 class="title is-3">
+              Revolutionizing the World of Computing
+            </h4>
+            <p class="mb-5 is-4 is-size-4">
+              Nosana is a peer-to-peer compute marketplace that offers on-demand GPU access for AI projects.
+              It connects AI companies and developers with a global network of compute providers,
+              enabling efficient and scalable computing solutions.
+            </p>
+          </div>
+          <div class="column is-6" data-aos="fade-left">
+            <h3 class="title is-2">
+              Our Vision
+            </h3>
+            <h4 class="title is-3">
+              Redefining Access to Innovation
+            </h4>
+            <p class="mb-5 is-size-4">
+              We envision a world where compute resources are a public utility—accessible,
+              decentralized, and permissionless. We’re driven by the belief that innovation can change the
+              future of computing, creating new opportunities for people and businesses everywhere.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section py-6 has-background-black">
+      <div class="container">
+        <h4 class="title is-3 my-6 has-text-white">
+          Meet the Heart of Nosana
+        </h4>
+        <div class="columns has-text-white mb-6">
+          <div class="column is-6" data-aos="fade-right">
+            <img
+              src="~assets/img/team/team-sjoerd.jpg"
+              class="mb-5 has-radius"
+            >
+            <h3 class="title is-3 has-text-white mb-3">
+              Sjoerd <br><span class="has-text-weight-light">Co-Founder</span>
+            </h3>
+            <p class="mb-5 is-4 is-size-5">
+              Our code guru. C++, Kubernetes, Rust, Python. You name it, he
+              knows it. 10+ years in crypto and corporate industry with
+              experience developing funded companies at executive level
+              leadership roles.
+            </p>
+            <a href="https://www.linkedin.com/in/sjoerd-dijkstra/" target="blank" class="has-text-accent">
+              Connect <i class="pl-1 fas fa-chevron-right" />
+            </a>
+          </div>
+          <div class="column is-6" data-aos="fade-left">
+            <img
+              src="~assets/img/team/team-jesse.jpg"
+              class="mb-5 has-radius"
+            >
+            <h3 class="title is-3 has-text-white mb-3">
+              Jesse <br><span class="has-text-weight-light">Co-Founder</span>
+            </h3>
+            <p class="mb-5 is-4 is-size-5">
+              Our blockchain expert. 10+ years in the crypto industry with
+              experience developing funded companies at executive level
+              leadership roles. Studied AI at Amsterdam University. Passion
+              for a decentralized world.
+            </p>
+            <a href="https://www.linkedin.com/in/jesse-eisses-9760ab48/" target="_blank" class="has-text-accent">
+              Connect <i class="pl-1 fas fa-chevron-right" />
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section">
+      <div class="container mb-6">
+        <div class="columns my-6 py-6">
+          <div class="column is-6" data-aos="fade-right">
+            <h3 class="title is-2">
+              Work from Anywhere
+            </h3>
+            <h4 class="title is-3">
+              A Global Team, Always Innovating
+            </h4>
+            <p class="mb-5 is-4 is-size-4">
+              Nosana is a truly global network. With team members spread across multiple time zones,
+              we’re constantly building and innovating around the clock. More than just making progress 24/7,
+              this setup helps us maintain a healthier work-life balance for everyone on the team.
+            </p>
+          </div>
+          <div class="column is-6" data-aos="fade-left">
+            <h3 class="title is-2">
+              Who We’re Looking For
+            </h3>
+            <h4 class="title is-3">
+              Join Our Team
+            </h4>
+            <p class="mb-5 is-size-4">
+              Developers, marketers, content creators, community moderators, designers —
+              we’re always looking for passionate individuals to join our team.
+              If you don’t see your role listed but believe in what we’re building, we’d love to hear from you!
+            </p>
+            <a
+              href="https://www.linkedin.com/company/nosana/jobs/"
+              target="_blank"
+              class="has-text-accent has-text-weight-semibold"
+            >
+              Careers<i class="pl-1 fas fa-chevron-right" />
+            </a>
           </div>
         </div>
       </div>
@@ -98,67 +147,21 @@
 </template>
 
 <script>
+import BackgroundParallax from '../components/BackgroundParallax.vue';
 export default {
-  colorMode: 'dark',
-  data () {
-    return {
-      team: [
-        {
-          name: 'Sjoerd',
-          description: 'Our code guru. C++, Kubernetes, Rust, Python. You name it, he knows it. 10+ years in crypto and corporate industry with experience developing funded companies at executive level leadership roles. Studied A.I. at Amsterdam University. Digital native since birth and a passionate kitesurfer.'
-        },
-        {
-          name: 'Jesse',
-          description: 'Our blockchain expert. 10+ years in the crypto industry with experience developing funded companies at executive level leadership roles. Studied A.I. at Amsterdam University. Passion for a decentralized world.'
-        },
-        {
-          name: 'Wesley',
-          description: 'Our marketing wizard. 7+ years experience with building brands, leading teams & working with a wide range of marketing budgets. In charge of developing the strategy for Nosana advertising and branding, as well as customer outreach. Studied a Double Psychology major at Amsterdam University with a post-master degree in Digital Marketing & Strategy. Passion for gaming.'
-        },
-        {
-          name: 'Rochelle',
-          description: 'Our spider in the web. Currently leads social platform development and handles most platform communication between the team & community. Performance coach with 15+ years of people management and a passion for building out decentralized community platforms that work.'
-        },
-        {
-          name: 'Laurens',
-          description: 'Our mathematical genius and allround developer. Hailing from a far-off galaxy, he’s programming our planet and turning us all into mathematical equations. An accomplished time traveler, many of you may recognize him by his former name, Archimedes, the father of mathematics.'
-        },
-        {
-          name: 'Nahil',
-          description: 'Our graphic design extraordinaire. Using traditional art tools and computer software to communicate ideas, he develops the overall layout and production design for everything we do.'
-        },
-        {
-          name: 'David',
-          description: 'Our software developer who is proficient in various programming languages and frameworks. He’s also a pro at agile methodologies and best practices for software development. David enjoys breaking things apart to figure out how they work. When he is not coding, David likes to be outdoors rock climbing, hiking, and spending time with friends.'
-        },
-        {
-          name: 'Sean',
-          description: 'Sean is an accomplished entrepreneur who loves to create value and impact through his ventures. He’s an active advisor, mentor, community builder, and coach who supports aspiring and established entrepreneurs in their journeys. He shares his insights and expertise on topics such as innovation, leadership, growth, and sustainability. Sean enjoys traveling, reading, and spending time with his family and friends.'
-        },
-        {
-          name: 'Michalina',
-          description: 'Our junior graphic designer has a knack for creating eye-catching visuals. Whether it’s an element, flyer, or a social media post image, Michalina always delivers stunning designs that capture attention and convey the message. In her spare time, she enjoys playing a wide range of board games with friends.'
-        },
-        {
-          name: 'Bourjois',
-          description: 'Our business development lead and strategic advisor. Bourjois is passionate about Web3 and blockchain technologies and how they can transform the way we do business. He has a strong background in business operations, project management, and stakeholder relations. He enjoys collaborating with diverse teams and building long-term partnerships. In his free time, he is a hoop master who dish, swish, and assist.'
-        },
-        {
-          name: 'Jaïr',
-          description: 'Our software developer who turns ideas into reality. Jaïr has a passion for coding and building innovative solutions that make a difference. He’s also adept at working in agile teams and following best practices for software quality and security. Jaïr loves to learn new things and explore new possibilities with his code. In his free time, Jaïr likes to go to concerts and play football.',
-          image: 'Jair'
-        }
-      ]
-    };
-  }
+  colorMode: 'light',
+  components: { BackgroundParallax }
 };
 </script>
 
 <style lang="scss" scoped>
-.teams-background {
-  background-image: url("~assets/img/Team-Hero-BG.png");
-  min-height: 100vh;
-  margin-top: -80px;
-  padding-top: 110px;
+.bg-scroll {
+  background-image: url("~assets/img/bg-about.jpg");
+}
+@media screen and (max-width: $tablet) {
+  .columns.mt-6,
+  .columns.my-6 {
+    margin-top: 0 !important;
+  }
 }
 </style>

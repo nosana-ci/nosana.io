@@ -1,164 +1,237 @@
 <template>
   <div>
     <home-intro />
-    <!-- <partners /> -->
-    <section class="section">
+    <section class="section has-background-black has-text-white">
       <div class="container mb-6 pb-6">
-        <!-- text blocks -->
-        <div class="columns my-6 py-6 is-vcentered">
+        <h2 class="title py-6 site-title has-text-white">
+          Access AI Compute Power<br> or Monetize Your GPU Resources
+        </h2>
+        <div class="columns my-6 py-6">
           <div class="column is-6" data-aos="fade-right">
-            <h2 class="title is-2">
-              Open Compute for All
-            </h2>
-            <p class="mb-5 has-limited-width-small">
-              Our decentralized GPU grid represents a revolutionary paradigm shift in the world of computing.
-              By harnessing the latent power of idle GPUs globally,
-              our compute grid provides on-demand access to GPU resources
-              that is both cost-effective but highly efficient.
+            <h3 class="title is-2 has-text-white">
+              Start Earning with Your GPUs
+            </h3>
+            <h4 class="title is-3 has-text-white">
+              Rent out your unused compute and earn while supporting the future
+              of AI innovation.
+            </h4>
+            <p class="mb-5 is-4 is-size-5" style="color: #ccc;">
+              Join Nosana’s global network and turn your idle hardware into a
+              valuable asset, supporting cutting-edge AI projects while earning
+              revenue. Seamless integration and flexible options make it easy to
+              start.
             </p>
-            <!-- <nuxt-link
-              to="/platform"
-              class="button mt-2 is-accent is-outlined is-wide"
-            >
-              Explore
-            </nuxt-link> -->
+            <nuxt-link to="/compute" class="has-text-accent">
+              Start Earning <i class="pl-1 fas fa-chevron-right" />
+            </nuxt-link>
           </div>
           <div class="column is-6" data-aos="fade-left">
-            <img src="~assets/img/home/nodes.png">
-          </div>
-        </div>
-        <div class="columns my-6 py-6 is-vcentered">
-          <div class="column is-6 px-0 video-frame has-radius" data-aos="fade-right">
-            <video autoplay muted @ended="onVideoEnd">
-              <source src="~assets/img/pipeline-video.mp4" type="video/mp4">
-            </video>
-          </div>
-          <div class="column is-5 is-offset-1" data-aos="fade-left">
-            <h2 class="title is-2">
-              Unrivaled power, for 85% less
-            </h2>
-            <p class="mb-5 has-limited-width-small">
-              With costs up to 85% lower than traditional public clouds,
-              Nosana offers a game-changing solution for organizations and individuals
-              seeking massive compute power without breaking the bank.
-              Our decentralized approach gives users direct access to GPU nodes
-              that scale with their computational needs as required, all while ensuring high
-              levels of security to protect sensitive data and intellectual property.
+            <h3 class="title is-2 has-text-white">
+              GPU Power for Your AI Needs
+            </h3>
+            <h4 class="title is-3 has-text-white">
+              Access a global GPU network for your AI inference jobs, at
+              unbeatable prices.
+            </h4>
+            <p class="mb-5 is-size-5" style="color: #ccc;">
+              Nosana’s global network offers on-demand compute power with
+              dynamic pricing, so you can scale your AI models and run complex
+              tasks efficiently. Focus on your innovations without the burden of
+              managing infrastructure.
             </p>
-            <!-- <nuxt-link
-              to="/product"
-              class="button mt-2 is-accent is-outlined is-wide"
-            >
-              Explore
-            </nuxt-link> -->
-          </div>
-        </div>
-        <div class="columns my-6 py-6 is-vcentered">
-          <div class="column is-6" data-aos="fade-right">
-            <h2 class="title is-2">
-              Put your idle compute power to work
-            </h2>
-            <p class="mb-5 has-limited-width-small">
-              Join the Nosana Network, put your idle GPU to work,
-              and earn 10-15x more than what traditional crypto mining pools offer.
-              Nosana empowers anyone with spare compute to contribute their idle processing power to our GPU grid.
-              By doing so you will make a significant
-              impact on the advancement of AI projects, all while earning substantial rewards.
-              Welcome to a new era of peer-to-peer computational power sharing.
-            </p>
-            <!-- <nuxt-link
-              to="/product"
-              class="button mt-2 is-accent is-outlined is-wide"
-            >
-              Explore
-            </nuxt-link> -->
-          </div>
-          <div class="column is-6" data-aos="fade-left">
-            <img src="~assets/img/home/compute.png">
-          </div>
-        </div>
-        <div class="columns my-6 py-6 is-vcentered">
-          <div class="column is-6" data-aos="fade-right">
-            <img src="~assets/img/home/environment.png">
-          </div>
-          <div class="column is-5 is-offset-1" data-aos="fade-left">
-            <h2 class="title is-2">
-              Environment-friendly alternative
-            </h2>
-            <p class="mb-5 has-limited-width-small">
-              With the world's data centers consuming more power than the entire UK and contributing to greenhouse
-              gas emissions, it is time for a change. Nosana utilizes the spare compute of the masses,
-              providing an eco-friendly alternative to using big datacenters.
-            </p>
-            <!-- <nuxt-link
-              to="/product"
-              class="button mt-2 is-accent is-outlined is-wide"
-            >
-               Explore
-            </nuxt-link> -->
+            <nuxt-link to="/compute" class="has-text-accent">
+              Get Started <i class="pl-1 fas fa-chevron-right" />
+            </nuxt-link>
           </div>
         </div>
       </div>
-      <connect />
+    </section>
+    <section class="section py-6">
+      <div class="container py-6 mb-6">
+        <h3 class="title is-2 py-6 mb-6">
+          On-Demand Compute for Everyone<br>
+          From AI Startups and Research Labs to Grad Students
+        </h3>
+        <div class="columns is-multiline">
+          <div class="is-4 column" data-aos="fade-in">
+            <h4 class="title is-3">
+              On-Demand <br>
+              <span class="has-text-grey-light">Worldwide GPU Access</span>
+            </h4>
+            <p class="is-size-5">
+              Nosana’s decentralized infrastructure connects you to thousands of
+              GPUs across the globe, offering scalable, on-demand compute power
+              wherever you are.
+            </p>
+          </div>
+          <div class="is-4 column" data-aos="fade-in" data-aos-delay="100">
+            <h4 class="title is-3">
+              Specialized<br><span class="has-text-grey-light">Optimized for AI Inference</span>
+            </h4>
+            <p class="is-size-5">
+              Leverage high-performance GPUs specifically tuned for AI inference
+              tasks, ensuring efficiency and speed for your projects.
+            </p>
+          </div>
+          <div class="is-4 column" data-aos="fade-in" data-aos-delay="200">
+            <h4 class="title is-3">
+              Flexible<br><span class="has-text-grey-light">Scalable Compute Resources</span>
+            </h4>
+            <p class="is-size-5">
+              With dynamic pricing and job-matching, scale compute resources
+              easily, while GPU providers effortlessly monetize their hardware.
+              Ideal for any business size.
+            </p>
+          </div>
+          <div class="is-4 column mt-6" data-aos="fade-in" data-aos-delay="300">
+            <h4 class="title is-3">
+              Sustainable<br><span class="has-text-grey-light">Eco-conscious Compute
+              </span>
+            </h4>
+            <p class="is-size-5">
+              By tapping into idle consumer GPUs, Nosana minimizes energy waste
+              and supports a greener future, providing robust computing power
+              for your AI needs.
+            </p>
+          </div>
+          <div class="is-4 column mt-6" data-aos="fade-in" data-aos-delay="400">
+            <h4 class="title is-3">
+              Secure<br><span class="has-text-grey-light">Advanced Security & Privacy</span>
+            </h4>
+            <p class="is-size-5">
+              Nosana protects your AI workloads with end-to-end encryption and
+              blockchain transparency, adding layers of security that
+              centralized systems can't match.
+            </p>
+          </div>
+          <div class="is-4 mt-6 column is-flex is-align-items-center">
+            <nuxt-link
+              to="/team"
+              class="has-text-accent has-text-weight-semibold is-size-5"
+            >
+              More about Nosana <i class="pl-1 fas fa-chevron-right" />
+            </nuxt-link>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Network Summary -->
+    <section class="section py-6 has-background-grey-lighter network-summary">
+      <div class="container py-6 mb-6">
+        <h3 class="title is-2 pt-3 mb-6">
+          Network Summary
+        </h3>
+        <NetworkSummary />
+      </div>
+    </section>
+    <!-- Discover -->
+    <Discover title="Catch Up on Nosana’s Recent News" :blogs="blogs" />
+    <section
+      class="section py-0 has-background-grey-lighter tweet-section"
+      style="overflow: hidden"
+    >
+      <div class="container py-6">
+        <div class="columns my-6 py-6">
+          <div
+            class="column is-4 py-6 my-6  has-background-grey-lighter"
+            style="position: relative; z-index: 1;"
+            data-aos="fade-right"
+          >
+            <h3 class="title is-2">
+              Nosana Community
+            </h3>
+            <p class="mb-5 is-size-4">
+              Nosana is powered by a dynamic and open community.
+              As a public service, our network’s source code is fully open-source and accessible to all.
+              This openness invites collaboration and innovation,
+              with every contribution helping to shape the future of Nosana.
+            </p>
+            <socials class="mb-4 pt-3" dark />
+          </div>
+          <div class="column is-8">
+            <tweets />
+          </div>
+        </div>
+      </div>
     </section>
   </div>
 </template>
 
 <script>
+import NetworkSummary from '../components/NetworkSummary.vue';
+
 export default {
-  components: {
-  },
+  colorMode: 'light',
+  components: { NetworkSummary },
   data () {
     return {
       amount: 1500,
-      days: 100
+      days: 100,
+      blogs: []
     };
   },
-  colorMode: 'dark',
   mounted () {
+    this.fetchBlogs();
   },
-  destroyed () {
-  },
+  destroyed () {},
   methods: {
     onVideoEnd (event) {
       setTimeout(() => {
         event.target.play();
       }, 2000);
+    },
+    async fetchBlogs () {
+      const blogs = await this.$content('blog')
+        .only([
+          'title',
+          'createdAt',
+          'description',
+          'img',
+          'slug',
+          'author',
+          'tags'
+        ])
+        .limit(3)
+        .sortBy('createdAt', 'desc')
+        .search(this.$route.query.search)
+        .fetch();
+      this.blogs = blogs;
+      this.loadedPosts = true;
     }
   }
 };
 </script>
 
 <style lang="scss" scoped>
-@import "bulma/sass/utilities/mixins";
-video {
-  height: auto;
-  width: 100%;
-}
-
-.video-frame {
-  background-image: url('~assets/img/video-frame.svg');
-  background-size: 101%;
-  background-repeat: no-repeat;
-  border: 1px solid #343D36;
-  background-position: top left;
-}
-
-@keyframes moveX {
-  0% {
-    left: 10%;
-  }
-  100% {
-    left: 90%;
+.tweet-image {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  @media screen and (max-width: $tablet) {
+    position: relative;
   }
 }
-@keyframes moveY {
-  0% {
-    top: 10%;
+@media screen and (max-width: $tablet) {
+  .tweet-section {
+    .columns {
+      padding-top: 0 !important;
+      padding-bottom: 0 !important;
+      margin-top: 0 !important;
+      margin-bottom: 0 !important;
+    }
+    .column.my-6 {
+      margin-top: 0 !important;
+      margin-bottom: 0 !important;
+    }
   }
-
-  100% {
-    top: 90%;
+  .column.mt-6 {
+    margin-top: 0 !important;
+  }
+  .network-summary {
+    text-align: center;
+    .is-flex {
+      justify-content: center;
+    }
   }
 }
 </style>

@@ -8,15 +8,22 @@
               <p class="is-size-7 mt-3 mb-0">
                 {{ formatDate(blog.createdAt) }} <span v-if="blog.author">{{ blog.author }}</span>
               </p>
-              <h1 class="mb-5 mt-0 has-text-black">{{ blog.title }}</h1>
+              <h1 class="mb-5 mt-0 has-text-black">
+                {{ blog.title }}
+              </h1>
               <img
                 class="has-radius-big header-image-blog"
                 :src="blog.img"
-                style="width: 100%; object-fit: cover;">
-              <div style="max-width: 900px; width: 100%; margin: 0 auto;">
-                <h2 class="mb-5 has-text-black mt-6 description">{{ blog.description }}</h2>
+                style="width: 100%; object-fit: cover;"
+              >
+              <div>
+                <h2 class="mb-5 has-text-black mt-6 description">
+                  {{ blog.description }}
+                </h2>
                 <nuxt-content :document="blog" />
-                <h3 class="mt-6 has-text-black">Share on</h3>
+                <h3 class="mt-6 has-text-black">
+                  Share on
+                </h3>
                 <div class="is-flex">
                   <a target="_blank" class="share-link" :href="`https://twitter.com/intent/tweet?url=https://nosana.io${$route.fullPath}&text=${blog.title}`">
                     <img src="~/assets/img/icons/x.svg" style="height: 22px">
@@ -31,39 +38,7 @@
         </article>
       </div>
     </section>
-    <div v-if="blogs && blogs.length > 0" class="has-background-light section">
-      <div class="container">
-        <h2 class="title mb-5 mt-5 has-text-black px-3">Read more about what's happening on Nosana</h2>
-        <div class="columns mt-5 mb-6 is-multiline">
-          <client-only>
-            <nuxt-link
-              v-for="relatedBlog of blogs"
-              :key="relatedBlog.slug"
-              class="column is-one-third"
-              :to="{ name: 'blog-slug', params: { slug: relatedBlog.slug } }"
-            >
-              <div
-                class="p-4"
-                style="min-height: 432px"
-              >
-                <img
-                  :src="relatedBlog.thumbnail ? relatedBlog.thumbnail : relatedBlog.img"
-                  style="height: 270px; object-fit: cover;"
-                  class="has-radius-big"
-                >
-                <p v-if="relatedBlog.author" class="has-text-black is-size-7">
-                  By {{ relatedBlog.author }}
-                </p>
-                <h3 class="title is-5 mt-2 mb-3">
-                  {{ relatedBlog.title }}
-                </h3>
-                <p style="color: #666">{{ relatedBlog.description }}</p>
-              </div>
-            </nuxt-link>
-          </client-only>
-        </div>
-      </div>
-    </div>
+    <Discover class="has-background-light" title="Catch Up on Nosana’s Recent News" :blogs="blogs" />
   </div>
 </template>
 

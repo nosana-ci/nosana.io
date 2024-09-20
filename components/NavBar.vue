@@ -1,20 +1,17 @@
 <template>
   <div>
     <nav
-      class="navbar is-transparent py-1"
+      class="navbar py-1 is-fixed-top"
       role="navigation"
       aria-label="main navigation"
+      :class="{ 'menu-expanded': mobileMenu }"
     >
       <div class="container">
         <div class="navbar-brand">
-          <nuxt-link class="navbar-item" to="/">
+          <nuxt-link class="navbar-item p-0 logo-top" to="/">
             <img
               class="logo"
-              :src="
-                $colorMode.value === 'dark'
-                  ? require('@/assets/img/Nosana_Logo_horizontal_color_white.svg')
-                  : require('@/assets/img/Nosana_Logo_horizontal_color_white.svg')
-              "
+              src="~/assets/img/Nosana_Logo_horizontal_color_white.svg"
             >
           </nuxt-link>
 
@@ -40,142 +37,65 @@
         >
           <div class="navbar-start" />
           <div class="navbar-end is-align-items-center">
-            <!-- <div class="navbar-item has-dropdown is-hoverable" @click="mobileMenu = false">
+            <div class="navbar-item has-dropdown is-hoverable" @click="mobileMenu = false">
               <a
-                class="navbar-link"
+                class="navbar-link is-arrowless"
                 exact-active-class="is-active"
               >
                 <div>Product</div>
               </a>
               <div class="navbar-dropdown is-boxed">
-                <nuxt-link class="navbar-item" to="/product" exact-active-class="is-active">
-                  Get Started
+                <nuxt-link class="navbar-item" to="/compute" exact-active-class="is-active">
+                  Compute Marketplace
                 </nuxt-link>
-                <nuxt-link class="navbar-item" to="/product/containers" exact-active-class="is-active">
-                  Container-Support
-                </nuxt-link>
-                <nuxt-link class="navbar-item" to="/product/multisig" exact-active-class="is-active">
-                  Multisig
-                </nuxt-link>
+                <a href="https://dashboard.nosana.com/" target="_blank" class="navbar-item">
+                  <span>Explorer</span>
+                </a>
               </div>
-            </div> -->
+            </div>
             <div class="navbar-item has-dropdown is-hoverable" @click="mobileMenu = false">
-              <a class="navbar-link is-arrowless">
-                <div>Info</div>
+              <a
+                class="navbar-link is-arrowless"
+                exact-active-class="is-active"
+              >
+                <div>Network</div>
               </a>
               <div class="navbar-dropdown is-boxed">
-                <a href="https://docs.nosana.io" target="_blank" class="navbar-item">
-                  <span>Docs</span>
-                </a>
-                <a href="https://github.com/nosana-ci" target="_blank" class="navbar-item">
-                  <!-- <i class="fab fa-github mr-2" aria-hidden="true" /> -->
-                  <span>GitHub</span>
-                </a>
-                <a href="https://app.nosana.io/stake/" target="_blank" class="navbar-item">
+                <nuxt-link class="navbar-item" to="/team" exact-active-class="is-active">
+                  About Nosana
+                </nuxt-link>
+                <nuxt-link class="navbar-item" to="/token" exact-active-class="is-active">
+                  $NOS Token
+                </nuxt-link>
+                <a href="https://explorer.nosana.io/stake/" target="_blank" class="navbar-item">
                   <span>Staking</span>
                 </a>
               </div>
             </div>
-            <!-- <div class="navbar-item has-dropdown is-hoverable" @click="mobileMenu = false">
-              <a
-                class="navbar-link"
-                exact-active-class="is-active"
-              >
-                <div>Decentralized Network</div>
-              </a>
-              <div class="navbar-dropdown is-boxed">
-                <nuxt-link class="navbar-item" to="/platform" exact-active-class="is-active">
-                  Private Beta
-                </nuxt-link>
-                <nuxt-link class="navbar-item" to="/network/vision" exact-active-class="is-active">
-                  Vision
-                </nuxt-link>
-                <nuxt-link class="navbar-item" to="/token" exact-active-class="is-active">
-                  The NOS Token
-                </nuxt-link>
-                <nuxt-link class="navbar-item" to="/stake" exact-active-class="is-active">
-                  Staking & Rewards
-                </nuxt-link>
-                <nuxt-link class="navbar-item" to="/network/cpu" exact-active-class="is-active">
-                  Contribute CPU
-                </nuxt-link>
-              </div>
-            </div> -->
             <div class="navbar-item has-dropdown is-hoverable" @click="mobileMenu = false">
-              <a
-                class="navbar-link is-arrowless"
-                exact-active-class="is-active"
-              >
-                <div>Community</div>
+              <a class="navbar-link is-arrowless">
+                <div>Resources</div>
               </a>
               <div class="navbar-dropdown is-boxed">
+                <a href="https://docs.nosana.com" target="_blank" class="navbar-item">
+                  <span>Docs</span>
+                </a>
                 <nuxt-link class="navbar-item" to="/blog" exact-active-class="is-active">
-                  Blog
+                  <span>Blog</span>
                 </nuxt-link>
-                <a href="https://twitter.com/nosana_ai" target="_blank" class="navbar-item">
-                  <i class="fab fa-twitter mr-2" aria-hidden="true" />
-                  <span>Twitter</span>
-                </a>
-                <a href="https://discord.gg/nosana-ai" target="_blank" class="navbar-item">
-                  <i class="fab fa-discord mr-2" aria-hidden="true" />
-                  <span>Discord</span>
-                </a>
-                <a href="https://t.me/NosanaCompute" target="_blank" class="navbar-item">
-                  <i class="fab fa-telegram mr-2" aria-hidden="true" />
-                  <span>Telegram</span>
-                </a>
-                <!-- <nuxt-link class="navbar-item" to="/nft" exact-active-class="is-active">
-                  Nosana NFT
-                </nuxt-link> -->
+                <nuxt-link class="navbar-item" to="/support" exact-active-class="is-active">
+                  <span>Support</span>
+                </nuxt-link>
+                <nuxt-link class="navbar-item" to="/brand" exact-active-class="is-active">
+                  <span>Brand Assets</span>
+                </nuxt-link>
               </div>
             </div>
-            <div class="navbar-item has-dropdown is-hoverable" @click="mobileMenu = false">
-              <a
-                class="navbar-link is-arrowless"
-                exact-active-class="is-active"
-              >
-                <div>Company</div>
-              </a>
-              <div class="navbar-dropdown is-boxed">
-                <!-- <nuxt-link class="navbar-item" to="/partner" exact-active-class="is-active">
-                  Nosana Partner Program
-                  <span class="icon ml-3">
-                    <i class="fas fa-chevron-down" />
-                  </span>
-                </nuxt-link>
-                <div class="ml-2">
-                  <nuxt-link class="navbar-item" to="/partner/technology" exact-active-class="is-active">
-                    > Technology Partnership
-                  </nuxt-link>
-                  <nuxt-link class="navbar-item" to="/partner/network" exact-active-class="is-active">
-                    > Network Partnership
-                  </nuxt-link>
-                  <nuxt-link class="navbar-item" to="/partner/portfolio" exact-active-class="is-active">
-                    > Portfolio Partnership
-                  </nuxt-link>
-                </div> -->
-                <nuxt-link class="navbar-item" to="/team" exact-active-class="is-active">
-                  Team page
-                </nuxt-link>
-                <!-- <nuxt-link class="navbar-item" to="/brand" exact-active-class="is-active">
-                  Brand page
-                </nuxt-link> -->
-              </div>
+            <div class="navbar-item" @click="mobileMenu = false">
+              <nuxt-link to="/compute" class="button is-secondary is-size-6">
+                Get Access
+              </nuxt-link>
             </div>
-            <!-- <div
-              class="navbar-item"
-              exact-active-class="is-active"
-              @click="mobileMenu = false"
-            >
-              <a
-                target="_blank"
-                href="https://testnet.nosana.io"
-                class="button is-accent is-outlined px-5 is-wide"
-                exact-active-class="is-active"
-              >
-                <div>Get started</div>
-              </a>
-            </div> -->
           </div>
         </div>
       </div>
@@ -200,6 +120,12 @@ export default {
     background: transparent;
   }
 
+  @media screen and (max-width: $tablet) {
+    &.menu-expanded {
+      background-color: black !important;
+    }
+  }
+
   .logo {
     height: 38px;
     max-width: none;
@@ -213,6 +139,16 @@ export default {
       &.is-active,
       &:hover {
         color: $primary;
+      }
+    }
+    @media screen and (max-width: $tablet) {
+      padding: 0 10px !important;
+      .logo-top {
+        width: 100%;
+        justify-content: center;
+      }
+      .navbar-burger {
+        margin-left: -40px;
       }
     }
   }
@@ -244,105 +180,20 @@ export default {
     }
   }
 }
-.dark-mode {
-  .navbar-burger {
-    color: $white;
-  }
 
-  .navbar-dropdown {
-    background: $primary;
-    border-top-color: $primary;
-    @media screen and (max-width: $tablet) {
-      background: none;
-    }
-  }
-
-  .navbar-menu {
-    .navbar-link {
-      color: $white;
-
-      @media screen and (max-width: $tablet) {
-        &:not(.is-arrowless) {
-          padding-right: 0.75rem;
-        }
-      }
-
-      &:after {
-        border-color: $white;
-      }
-
-      &.is-active,
-      &:hover {
-        color: white;
-
-        &:after {
-          border-color: white;
-        }
-      }
-    }
-
-    .navbar-item {
-      color: $white;
-
-      &:after {
-        background: white;
-      }
-
-      &.is-active,
-      &:hover {
-        color: white;
-      }
-
-      &.dapps .navbar-item:hover {
-        background-color: rgba(0, 0, 0, 0.3) !important;
-      }
-    }
-  }
-
-  .navbar-brand {
-    .navbar-item {
-      color: white;
-
-      &.is-active,
-      &:hover {
-        color: white;
-      }
-    }
-  }
+.navbar {
+  background: rgba(0, 0, 0, 0.7);
   @media screen and (max-width: 1023px) {
-    .navbar {
-      .navbar-menu {
-        background-color: $dark-mode-background;
-        .navbar-item {
-          color: white;
-          &.is-active,
-          &:hover {
-            background-color: $dark-mode-background;
-            color: white;
-          }
-        }
-      }
+    .navbar-burger {
+      color: #fff;
     }
   }
 }
 
-.light-mode {
-  .navbar {
-    background: #010c04;
-    @media screen and (max-width: 1023px) {
-      .navbar-burger {
-        color: #fff;
-      }
-    }
-  }
-}
-
-.light-mode {
-  .navbar {
-    .navbar-menu {
-      .navbar-item .navbar-link {
-        color: #fff;
-      }
+.navbar {
+  .navbar-menu {
+    .navbar-item .navbar-link {
+      color: #fff;
     }
   }
 }
@@ -350,11 +201,19 @@ export default {
 @media screen and (max-width: 1023px) {
   .navbar {
     .navbar-menu {
+      background-color: black;
       .navbar-item {
-        color: black;
+        color: #fff;
         &.is-active,
         &:hover {
           color: black;
+        }
+        .navbar-dropdown {
+            .navbar-item {
+              &:hover {
+                background-color: $grey;
+              }
+            }
         }
       }
     }
@@ -366,6 +225,11 @@ export default {
   }
   .navbar > .container .navbar-menu, .container > .navbar .navbar-menu {
     margin-right: 0;
+  }
+  .navbar .navbar-menu .navbar-item {
+    &:hover a.navbar-link {
+      background-color: transparent !important;
+    }
   }
 }
 </style>

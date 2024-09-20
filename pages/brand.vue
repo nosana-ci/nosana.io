@@ -1,459 +1,232 @@
 <template>
   <section class="section">
     <div class="container">
-      <div class="title is-2">
-        Brand Kit
+      <div class="title is-2 mt-5">
+        Brand Assets
       </div>
-      <p class="has-limited-width-small has-text-justified block">
+      <p
+        class="has-limited-width is-size-3 has-text-weight-semibold"
+        style="color: #999"
+      >
         This is the brand kit of Nosana. This style guide includes logo use and
         colors.
       </p>
-      <div class="subtitle is-4 mt-6">
-        <span class="has-text-accent">01</span> Logo
-      </div>
-      <div class="mb-5">
-        Use of the Nosana logo
-      </div>
-      <div class="columns">
-        <div class="column is-one-quarter has-text-centered">
-          <div class="has-border has-radius p-5">
-            <img src="~assets/img/Nosana_Logo_horizontal_color_white.svg">
+      <div class="columns mt-5 mb-6 is-multiline">
+        <div class="column has-text-centered is-one-third">
+          <div
+            class="has-radius has-background-grey-lighter is-align-content-center"
+          >
+            <img src="~assets/img/logotype.svg">
           </div>
-          <div class="subtitle is-6 mb-0">
-            Logo Horizontal Color White
+          <div class="is-flex is-justify-content-space-between mt-2">
+            <div class="subtitle is-6 mb-0 has-text-weight-semibold">
+              Logotype
+            </div>
+            <a
+              class="ml-5 has-text-accent has-text-weight-semibold"
+              target="_blank"
+              href="/img/logotype.svg"
+              download
+            >Download</a>
           </div>
-          <a
-            class="is-size-7 has-text-accent"
-            target="_blank"
-            href="/img/Nosana_Logo_horizontal_color_white.svg"
-            download
-          >.svg</a>
-          <a
-            class="is-size-7 ml-5 has-text-accent"
-            target="_blank"
-            href="/img/Nosana_Logo_horizontal_color_white.png"
-            download
-          >.png</a>
         </div>
-        <div class="column is-one-quarter has-text-centered">
-          <div class="has-border has-radius p-5">
-            <img src="~assets/img/Nosana_Logo_horizontal_white.svg">
+        <div class="column has-text-centered is-one-third">
+          <div
+            class="has-radius has-background-grey-lighter is-align-content-center"
+          >
+            <img src="~assets/img/logomark.svg">
           </div>
-          <div class="subtitle is-6 mb-0">
-            Logo Horizontal White
+          <div class="is-flex is-justify-content-space-between mt-2">
+            <div class="subtitle is-6 mb-0 has-text-weight-semibold">
+              Logomark
+            </div>
+            <a
+              class="ml-5 has-text-accent has-text-weight-semibold"
+              target="_blank"
+              href="/img/logomark.svg"
+              download
+            >Download</a>
           </div>
-          <a
-            class="is-size-7 has-text-accent"
-            target="_blank"
-            href="/img/Nosana_Logo_horizontal_white.svg"
-            download
-          >.svg</a>
-          <a
-            class="is-size-7 ml-5 has-text-accent"
-            target="_blank"
-            href="/img/Nosana_Logo_horizontal_white.png"
-            download
-          >.png</a>
         </div>
-        <div class="column is-one-quarter has-text-centered">
-          <div class="has-border has-radius p-5 has-background-white">
-            <img src="~assets/img/Nosana_Logo_horizontal_color_black.svg">
+        <div class="column has-text-centered is-one-third">
+          <div
+            class="has-radius has-background-grey-lighter is-align-content-center"
+          >
+            <img src="~assets/img/wordmark.svg">
           </div>
-          <div class="subtitle is-6 mb-0">
-            Logo Horizontal Color Black
+          <div class="is-flex is-justify-content-space-between mt-2">
+            <div class="subtitle is-6 mb-0 has-text-weight-semibold">
+              Wordmark
+            </div>
+            <a
+              class="ml-5 has-text-accent has-text-weight-semibold"
+              target="_blank"
+              href="/img/wordmark.svg"
+              download
+            >Download</a>
           </div>
-          <a
-            class="is-size-7 has-text-accent"
-            target="_blank"
-            href="/img/Nosana_Logo_horizontal_color_black.svg"
-            download
-          >.svg</a>
-          <a
-            class="is-size-7 ml-5 has-text-accent"
-            target="_blank"
-            href="/img/Nosana_Logo_horizontal_color_black.png"
-            download
-          >.png</a>
         </div>
-        <div class="column is-one-quarter has-text-centered">
-          <div class="has-border has-radius p-5 has-background-white">
-            <img src="~assets/img/Nosana_Logo_horizontal_black.svg">
+        <div class="column has-text-centered is-one-half">
+          <div
+            class="has-radius has-background-grey-lighter is-align-content-center"
+          >
+            <img src="~assets/img/safezone1.svg">
           </div>
-          <div class="subtitle is-6 mb-0">
-            Logo Horizontal Black
+          <div class="is-flex is-justify-content-space-between mt-2">
+            <div class="subtitle is-6 mb-0 has-text-weight-semibold">
+              Safezone
+            </div>
+            <a
+              class="ml-5 has-text-accent has-text-weight-semibold"
+              target="_blank"
+              href="/img/safezone1.svg"
+              download
+            >Download</a>
           </div>
-          <a
-            class="is-size-7 has-text-accent"
-            target="_blank"
-            href="/img/Nosana_Logo_horizontal_black.svg"
-            download
-          >.svg</a>
-          <a
-            class="is-size-7 ml-5 has-text-accent"
-            target="_blank"
-            href="/img/Nosana_Logo_horizontal_black.png"
-            download
-          >.png</a>
         </div>
-      </div>
-      <div class="columns">
-        <div class="column is-one-quarter has-text-centered">
-          <div class="has-border has-radius p-5">
-            <img src="~assets/img/Nosana_Logo_vertical_color_white.svg">
+        <div class="column has-text-centered is-one-half">
+          <div
+            class="has-radius has-background-grey-lighter is-align-content-center"
+          >
+            <img src="~assets/img/safezone2.svg">
           </div>
-          <div class="subtitle is-6 mb-0">
-            Logo Vertical Color White
+          <div class="is-flex is-justify-content-space-between mt-2">
+            <div class="subtitle is-6 mb-0 has-text-weight-semibold">
+              Safezone
+            </div>
+            <a
+              class=" ml-5 has-text-accent has-text-weight-semibold"
+              target="_blank"
+              href="/img/safezone2.svg"
+              download
+            >Download</a>
           </div>
-          <a
-            class="is-size-7 has-text-accent"
-            target="_blank"
-            href="/img/Nosana_Logo_vertical_color_white.svg"
-            download
-          >.svg</a>
-          <a
-            class="is-size-7 ml-5 has-text-accent"
-            target="_blank"
-            href="/img/Nosana_Logo_vertical_color_white.png"
-            download
-          >.png</a>
-        </div>
-        <div class="column is-one-quarter has-text-centered">
-          <div class="has-border has-radius p-5">
-            <img src="~assets/img/Nosana_Logo_vertical_white.svg">
-          </div>
-          <div class="subtitle is-6 mb-0">
-            Logo Vertical White
-          </div>
-          <a
-            class="is-size-7 has-text-accent"
-            target="_blank"
-            href="/img/Nosana_Logo_vertical_white.svg"
-            download
-          >.svg</a>
-          <a
-            class="is-size-7 ml-5 has-text-accent"
-            target="_blank"
-            href="/img/Nosana_Logo_vertical_white.png"
-            download
-          >.png</a>
-        </div>
-        <div class="column is-one-quarter has-text-centered">
-          <div class="has-border has-radius p-5 has-background-white">
-            <img src="~assets/img/Nosana_Logo_vertical_color_black.svg">
-          </div>
-          <div class="subtitle is-6 mb-0">
-            Logo Vertical Color Black
-          </div>
-          <a
-            class="is-size-7 has-text-accent"
-            target="_blank"
-            href="/img/Nosana_Logo_vertical_color_black.svg"
-            download
-          >.svg</a>
-          <a
-            class="is-size-7 ml-5 has-text-accent"
-            target="_blank"
-            href="/img/Nosana_Logo_vertical_color_black.png"
-            download
-          >.png</a>
-        </div>
-        <div class="column is-one-quarter has-text-centered">
-          <div class="has-border has-radius p-5 has-background-white">
-            <img src="~assets/img/Nosana_Logo_vertical_black.svg">
-          </div>
-          <div class="subtitle is-6 mb-0">
-            Logo Vertical Black
-          </div>
-          <a
-            class="is-size-7 has-text-accent"
-            target="_blank"
-            href="/img/Nosana_Logo_vertical_black.svg"
-            download
-          >.svg</a>
-          <a
-            class="is-size-7 ml-5 has-text-accent"
-            target="_blank"
-            href="/img/Nosana_Logo_vertical_black.png"
-            download
-          >.png</a>
         </div>
       </div>
-      <div class="columns">
-        <div class="column is-one-quarter has-text-centered">
-          <div class="has-border has-radius p-5">
-            <img src="~assets/img/Nosana_Logomark_color.svg">
-          </div>
-          <div class="subtitle is-6 mb-0">
-            Logomark Color
-          </div>
-          <a
-            class="is-size-7 has-text-accent"
-            target="_blank"
-            href="/img/Nosana_Logomark_color.svg"
-            download
-          >.svg</a>
-          <a
-            class="is-size-7 ml-5 has-text-accent"
-            target="_blank"
-            href="/img/Nosana_Logomark_color.png"
-            download
-          >.png</a>
-        </div>
-        <div class="column is-one-quarter has-text-centered">
-          <div class="has-border has-radius p-5">
-            <img src="~assets/img/Nosana_Logomark_white.svg">
-          </div>
-          <div class="subtitle is-6 mb-0">
-            Logomark White
-          </div>
-          <a
-            class="is-size-7 has-text-accent"
-            target="_blank"
-            href="/img/Nosana_Logomark_white.svg"
-            download
-          >.svg</a>
-          <a
-            class="is-size-7 ml-5 has-text-accent"
-            target="_blank"
-            href="/img/Nosana_Logomark_white.png"
-            download
-          >.png</a>
-        </div>
-        <div class="column is-one-quarter has-text-centered">
-          <div class="has-border has-radius p-5 has-background-white">
-            <img src="~assets/img/Nosana_Logomark_black.svg">
-          </div>
-          <div class="subtitle is-6 mb-0">
-            Logomark Black
-          </div>
-          <a
-            class="is-size-7 has-text-accent"
-            target="_blank"
-            href="/img/Nosana_Logomark_black.svg"
-            download
-          >.svg</a>
-          <a
-            class="is-size-7 ml-5 has-text-accent"
-            target="_blank"
-            href="/img/Nosana_Logomark_black.png"
-            download
-          >.png</a>
-        </div>
-        <div class="column is-one-quarter has-text-centered">
-          <div class="has-border has-radius p-5 has-background-white">
-            <img src="~assets/img/NOS_logo.png">
-          </div>
-          <div class="subtitle is-6 mb-0">
-            NOS Token Logo
-          </div>
-          <a
-            class="is-size-7 has-text-accent"
-            target="_blank"
-            href="/img/NOS_logo.png"
-            download
-          >.png</a>
-        </div>
-      </div>
-      <div class="subtitle is-4 mt-6">
-        <span class="has-text-accent">02</span> Color Pallete
-      </div>
-      <div class="color">
-        <div class="menu-label my-0">
-          <small>accent</small>
-        </div>
-        <div
-          style="background: #5fff00"
-          class="has-radius color-square has-text-black is-size-4"
-          @click="copyToClipboard('#5FFF00')"
-        >
-          <i class="far fa-copy" />
-        </div>
-        <div class="menu-label my-0">
-          <small class="has-text-weight-normal">HEX</small> #5FFF00
-        </div>
-        <div class="menu-label my-0">
-          <small class="has-text-weight-normal">RGB</small>(95, 255, 0)
-        </div>
-      </div>
-      <div class="color">
-        <div class="menu-label my-0">
-          <small>background</small>
-        </div>
-        <div
-          style="background: #010c04; border: 1px solid white"
-          class="has-radius color-square has-text-white is-size-4"
-          @click="copyToClipboard('#010c04')"
-        >
-          <i class="far fa-copy" />
-        </div>
-        <div class="menu-label my-0">
-          <small class="has-text-weight-normal">HEX</small> #010c04
-        </div>
-        <div class="menu-label my-0">
-          <small class="has-text-weight-normal">RGB</small> (1, 12, 4)
-        </div>
-      </div>
-      <div class="color">
-        <div class="menu-label my-0">
-          <small>text</small>
-        </div>
-        <div
-          style="background: white"
-          class="has-radius color-square has-text-black is-size-4"
-          @click="copyToClipboard('#FFFFFF')"
-        >
-          <i class="far fa-copy" />
-        </div>
-        <div class="menu-label my-0">
-          <small class="has-text-weight-normal">HEX</small> #FFFFFF
-        </div>
-        <div class="menu-label my-0">
-          <small class="has-text-weight-normal">RGB</small> (255, 255, 255)
-        </div>
-      </div>
-      <br><br>
-      <div class="subtitle is-4 mt-6">
-        <span class="has-text-accent">03</span> Buttons
-      </div>
-      <div class="subtitle is-5">
-        All buttons styles used for Nosana
-      </div>
-      <button class="button is-accent">
-        <span v-if="example">{{ example }}</span><span v-else>Solid</span>
-      </button>
-      <button class="button is-accent is-active ml-2">
-        <span v-if="example">{{ example }}</span><span v-else>Hover</span>
-      </button>
-      <br><br>
-      <button class="button is-accent is-outlined">
-        <span v-if="example">{{ example }}</span><span v-else>Outlined</span>
-      </button>
-      <button class="button is-accent is-outlined is-hovered ml-2">
-        <span v-if="example">{{ example }}</span><span v-else>Hover</span>
-      </button>
-      <br><br>
-      <div class="buttons">
-        <button class="button is-accent is-small">
-          <span v-if="example">{{ example }}</span><span v-else>Small</span>
-        </button>
-        <button class="button is-accent mx-2">
-          <span v-if="example">{{ example }}</span><span v-else>Normal</span>
-        </button>
-        <button class="button is-accent mx-2 is-medium">
-          <span v-if="example">{{ example }}</span><span v-else>Medium</span>
-        </button>
-        <button class="button is-accent mx-2 is-large">
-          <span v-if="example">{{ example }}</span><span v-else>Large</span>
-        </button>
-      </div>
-      <button class="button is-accent is-loading">
-        <span v-if="example">{{ example }}</span><span v-else>Loading</span>
-      </button>
-      <button class="button is-accent" disabled>
-        <span v-if="example">{{ example }}</span><span v-else>Disabled</span>
-      </button>
-      <br><br>
 
-      <div class="subtitle is-4 mt-6">
-        <span class="has-text-accent">04</span> Typography
+      <div class="columns mt-6">
+        <div class="column is-half is-flex">
+          <div class="color pr-3">
+            <div
+              style="background: #10E80C;"
+              class="has-radius color-square"
+            >
+              <div class="is-flex is-justify-content-space-between p-4" style="width: 100%">
+                <div>
+                  Primary color<br>
+                  <span class="has-text-white">Neon Green</span>
+                </div>
+                <div>
+                  <br>
+                  #10E80C
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="color pl-3">
+            <div
+              style="background: #000;"
+              class="has-radius color-square has-text-white"
+            >
+              <div class="is-flex is-justify-content-space-between p-4" style="width: 100%">
+                <div>
+                  Primary color<br>
+                  <span style="color: rgba(255, 255, 255, 0.6)">Midnight Black</span>
+                </div>
+                <div>
+                  <br>
+                  #000000
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="column is-half is-flex is-flex-wrap-wrap">
+          <div class="color small pr-3">
+            <div
+              style="background: #F9F9F9;"
+              class="has-radius color-square"
+            >
+              <div class="is-flex is-justify-content-space-between p-4" style="width: 100%">
+                <div>
+                  Secondary color<br>
+                  <span class="has-text-grey-light">Light Grey</span>
+                </div>
+                <div>
+                  <br>
+                  #F9F9F9
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="color small pl-3">
+            <div
+              style="background: #999;"
+              class="has-radius color-square has-text-white"
+            >
+              <div class="is-flex is-justify-content-space-between p-4" style="width: 100%">
+                <div>
+                  Secondary color<br>
+                  <span class="has-text-white">Light Grey 02</span>
+                </div>
+                <div>
+                  <br>
+                  #999999
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="color small pr-3 mt-5">
+            <div
+              style="background: #666;"
+              class="has-radius color-square"
+            >
+              <div class="is-flex is-justify-content-space-between p-4 has-text-white" style="width: 100%">
+                <div>
+                  Secondary color<br>
+                  <span class="has-text-grey-light">Dark Grey</span>
+                </div>
+                <div>
+                  <br>
+                  #666666
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="color small pl-3 mt-5">
+            <div
+              style="background: #333;"
+              class="has-radius color-square has-text-white"
+            >
+              <div class="is-flex is-justify-content-space-between p-4" style="width: 100%">
+                <div>
+                  Secondary color<br>
+                  <span class="has-text-grey-light">Dark Grey 02</span>
+                </div>
+                <div>
+                  <br>
+                  #333333
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
-      <div class="subtitle is-5">
-        Below you will find the typography for Nosana. It includes a preview and
-        the css values that are used, like font-family, font-size, font-weight
-        and line-height etc.
-      </div>
-      <div>
-        - Header Font:
-        <a
-          href="https://fonts.google.com/specimen/Space+Mono"
-          target="_blank"
-        >Space Mono</a><br>
-        - Body Font:
-        <a
-          href="https://fonts.google.com/specimen/Space+Grotesk"
-          target="_blank"
-        >Space Grotesk</a>
-      </div>
-      <div class="table-container">
-        <table class="typography table">
-          <thead>
-            <tr>
-              <th class="text-left">
-                CSS
-              </th>
-              <th class="text-left">
-                Class
-              </th>
-              <th style="min-width: 300px" class="text-left">
-                Information
-              </th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td class="py-2">
-                <pre class="grey&#45;&#45;text">
-font-family: 'Space Mono', monospace;
-font-weight: 400;
-font-size: 32px;
-line-height: 1.125;</pre>
-              </td>
-              <td><code>.title</code></td>
-              <td class="title py-3">
-                Main Header H1
-              </td>
-            </tr>
-            <tr>
-              <td class="py-2">
-                <pre class="grey&#45;&#45;text">
-font-family: 'Space Mono', monospace;
-font-weight: 400;
-font-size: 20px;
-line-height: 1.25;</pre>
-              </td>
-              <td><code>.subtitle</code></td>
-              <td class="subtitle py-3">
-                SubHeading H2 <b>Bolder</b>
-              </td>
-            </tr>
-            <tr>
-              <td class="py-2">
-                <pre class="grey&#45;&#45;text">
-font-family: 'Space Grotesk', sans-serif;
-font-size: 16px;
-font-weight: 400;</pre>
-              </td>
-              <td><code>body</code></td>
-              <td class="body-1 py-3">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Maecenas vitae scelerisque quam. Morbi blandit quam commodo
-                viverra malesuada. Duis quis tortor porta, tincidunt quam sed,
-                auctor lacus.
-              </td>
-            </tr>
-          </tbody>
-        </table>
+      <div class="subtitle is-6 mb-6 has-text-weight-semibold">
+        Nosana Main colors
       </div>
     </div>
-    <press class="mt-6" />
   </section>
 </template>
 
 <script>
-
 export default {
   name: 'Brand',
-  colorMode: 'dark',
+  colorMode: 'light',
   data () {
     return {
       example: null
     };
-  },
-  mounted () {
-    const hoverButtons = document.querySelectorAll('.hoverButton');
-    for (const hoverButton of hoverButtons) {
-      hoverButton.focus();
-    }
   },
   methods: {
     copyToClipboard (text) {
@@ -477,41 +250,26 @@ export default {
 <style lang="scss" scoped>
 .color {
   display: inline-block;
-  margin-right: 25px;
-  min-width: 65px;
-  &.color-small {
-    margin-right: 10px;
-
-    .color-square {
-      width: 50px;
-      height: 50px;
-    }
-    .color-text {
-      line-height: 14px;
+  width: 50%;
+  .color-square {
+    display: flex;
+    align-items: flex-end;
+    height: 300px;
+    @media screen and (max-width: $tablet) {
+      height: 150px;
+      font-size: 11px;
     }
   }
-  .color-square {
-    width: 100px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    cursor: pointer;
-    i {
-      opacity: 0;
-      transition: 0.2s;
+  &.small {
+    .color-square {
+      height: 138px;
     }
-    &:hover {
-      i {
-        opacity: 1;
-      }
-    }
-    height: 100px;
   }
 }
 
-.typography {
-  code {
-    white-space: nowrap;
+.has-text-centered.column {
+  .has-background-grey-lighter {
+    height: 200px;
   }
 }
 </style>

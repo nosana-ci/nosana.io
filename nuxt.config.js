@@ -19,6 +19,9 @@ export default {
     htmlAttrs: {
       lang: 'en'
     },
+    bodyAttrs: {
+      class: 'has-navbar-fixed-top'
+    },
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
@@ -76,9 +79,10 @@ export default {
   buildModules: [
     // https://go.nuxtjs.dev/eslint
     '@nuxtjs/eslint-module',
-    '@nuxtjs/color-mode',
+    // '@nuxtjs/color-mode',
     '@nuxtjs/google-analytics',
-    '@nuxtjs/svg'
+    '@nuxtjs/svg',
+    '@nuxtjs/moment'
   ],
   googleAnalytics: {
     id: 'UA-210322595-1'

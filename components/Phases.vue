@@ -25,7 +25,7 @@
             </ul>
             <p class="block has-text-centered">
               <a
-                href="https://app.nosana.io"
+                href="https://app.nosana.com"
                 class="button is-accent is-outlined has-text-weight-semibold"
                 target="_blank"
               >Get Started</a>

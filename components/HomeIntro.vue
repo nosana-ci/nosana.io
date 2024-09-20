@@ -1,91 +1,61 @@
 <template>
   <div>
     <section class="section home-block">
+      <BackgroundParallax />
       <div class="container">
-        <div class="columns mt-6 mt-mobile-0">
-          <div class="column is-5 has-background-black-blur-false">
-            <h1 class="title is-spaced site-title">
-              Powering the AI revolution
+        <div class="columns is-centered mt-6 mt-mobile-0">
+          <div
+            class="column is-8 pt-6 has-text-centered has-background-black-blur-false has-text-white"
+          >
+            <h1 class="title pt-6 is-spaced site-title has-text-white">
+              Where AI Meets Decentralized Compute
             </h1>
-            <div class="has-limited-width-small py-2">
-              <p class="block">
-                The most cost-effective GPU grid, with zero lock-in.
-                Developed and customized for AI inference workloads.
-                Consumers, miners, and businesses can monetize their idle hardware by becoming a Nosana Node.
-                Powered by Solana and the $NOS token.
+            <div class="py-2">
+              <p
+                class="block has-limited-width-big is-size-5"
+                style="margin: 0 auto"
+              >
+                Nosana is your go-to marketplace for AI inference. Enjoy
+                seamless access and scalability without long-term contracts or
+                bottlenecks—just the compute power you need, when you need it.
               </p>
             </div>
-            <div class="mt-5">
-              <!-- <a href="https://app.nosana.io" target="_blank" class="button is-accent mr-2"> -->
-              <!--   Try it out now -->
-              <!-- </a> -->
-              <nuxt-link
-                to="/test-grid"
-                class="ml-2 button is-accent is-wide"
-              >
-                Join the Test Grid
-              </nuxt-link>
-            </div>
           </div>
-          <!-- <div class="column yaml-bg">
-            <yaml-preview class="yaml-preview" />
-          </div> -->
         </div>
       </div>
-      <img src="~assets/img/swirls-02_animated.svg" class="ring">
     </section>
   </div>
 </template>
+<script>
+import BackgroundParallax from './BackgroundParallax.vue';
 
+export default {
+  components: { BackgroundParallax }
+};
+</script>
 <style lang="scss" scoped>
 @import "bulma/sass/utilities/mixins";
 .home-block {
   position: relative;
-  min-height: 80vh;
+  min-height: 660px;
   overflow: hidden;
+  margin-top: -5rem;
 }
-.ring {
-  position: absolute;
-  top: 0px;
-  right: 0;
-  height: 100%;
-  width: auto;
+
+.bg-scroll {
+  background-image: url("~assets/img/home/bg.jpg");
 }
 
 @include touch {
   .home-block {
     min-height: auto;
-    padding-bottom: 0;
+    padding-top: 80px;
   }
   .mt-mobile-0 {
     margin-top: 0 !important;
   }
-
-  .ring {
-    position: relative;
-    top: 0;
-    width: 100%;
-    right: -25px;
-  }
 }
 
-.yaml-bg {
-  background-image: url("~assets/img/home/preview-bg.png");
-  background-size: 100% 100%;
-  background-repeat: no-repeat;
-  background-position: center;
-  padding: 5.7rem 6.2rem;
-
-  @media screen and (max-width: $tablet) {
-    background-image: none;
-    padding: 8px;
-  }
-}
-.yaml-preview {
-  margin-top: 18px;
-  margin-left: 3px;
-  box-shadow: 0px 0px 50px 0px rgba(95,255,0,0.5);
-}
 @media screen and (max-width: $tablet) {
   .button {
     margin-left: 0 !important;

@@ -5,10 +5,14 @@
 @import 'dark-mode';
 @import 'bulma/sass/utilities/mixins';
 
-@media screen and (min-width: 1408px) {
+@media screen and (min-width: 1390px) {
   .container:not(.is-max-desktop):not(.is-max-widescreen) {
-      max-width: 1440px;
+      max-width: 1390px;
   }
+}
+
+.title {
+  font-weight: 700;
 }
 
 html, body {
@@ -30,6 +34,15 @@ a.is-underlined {
 }
 .input {
   border-width: 1px;
+}
+.has-limited-width-big {
+  width: 740px;
+  max-width: 100%;
+}
+
+.has-limited-width-bigger {
+  width: 950px;
+  max-width: 100%;
 }
 
 .has-limited-width {
@@ -54,13 +67,21 @@ a.is-underlined {
   opacity: .65;
 }
 
-.site-title {
-  font-size: 60px;
-  font-family: $family-headers;
-}
-
 .title.is-1 {
   line-height: 1.25;
+}
+
+.site-title {
+  line-height: 80px;
+  font-size: 62px;
+}
+
+.title.is-2 {
+  line-height: 48px;
+}
+
+.title.is-3 {
+  line-height: 36px;
 }
 
 .has-background-gradient {
@@ -159,7 +180,7 @@ a.card {
 }
 
 .button {
-  height: 3em;
+  height: 2.6em;
   &.is-wide {
     min-width: 140px;
   }
@@ -186,24 +207,21 @@ a.card {
   box-shadow: 0px 0px 40px -5px rgba($accent, 0.7);
 }
 
-.box {
-  position: relative;
-  &:before {
-    content: '';
-    position: absolute;
-    top: 0; right: 0; bottom: 0; left: 0;
-    z-index: -1;
-    margin: -1px;
-    border-radius: inherit;
-    background: linear-gradient(to bottom, $accent, #051707);
-  }
-  &.fade-border {
-    border: none;
-  }
-}
 @include touch {
   .site-title, .title.is-1 {
     font-size: 40px;
+    line-height: 50px;
+  }
+  .section {
+    .site-title, .title.is-1, .title.is-2 {
+      padding: 0 !important;
+    }
+    .container.mb-6 {
+      margin-bottom: 0 !important;
+    }
+    .container.pb-6 {
+      padding-bottom: 0 !important;
+    }
   }
 }
 
@@ -214,4 +232,41 @@ a.card {
 .page-enter,
 .page-leave-to {
   opacity: 0;
+}
+
+.intro {
+  position: relative;
+  min-height: 660px;
+  overflow: hidden;
+  margin-top: -5rem;
+}
+@include touch {
+  .intro {
+    min-height: auto;
+    padding-top: 80px;
+    .columns {
+      margin-top: 0 !important;
+    }
+  }
+}
+
+.bg-scroll {
+  background-size: cover;
+  position: absolute;
+  top: 0; bottom: 0; left: 0; right: 0;
+  height: 100%;
+  max-width: 100%;
+  background-position: center;
+}
+
+.blog-item {
+  .blog-img {
+    overflow: hidden;
+  }
+  img {
+    transition: all .3s ease;
+  }
+  &:hover img {
+    transform: scale(1.05);
+  }
 }

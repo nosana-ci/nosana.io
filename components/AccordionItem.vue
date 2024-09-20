@@ -6,7 +6,7 @@
     >
       <!-- This slot will handle the title/header of the accordion and is the part you click on -->
       <slot name="accordion-trigger" />
-      <span class="is-size-3 has-text-accent" style="line-height: 1">
+      <span class="is-size-2" style="line-height: 1">
         <span v-if="visible">-</span>
         <span v-else>+</span>
       </span>
@@ -20,7 +20,7 @@
       @after-leave="end"
     >
       <div v-show="visible" class="accordion__content">
-        <ul>
+        <ul class="py-5 has-text-grey-dark">
           <!-- This slot will handle all the content that is passed to the accordion -->
           <slot name="accordion-content" />
         </ul>
@@ -67,24 +67,15 @@ export default {
 <style lang="scss" scoped>
 .accordion__item {
   cursor: pointer;
-  padding: 10px 20px 10px 40px;
-  border-bottom: 1px solid $accent;
+  padding: 23px 0;
+  border-bottom: 1px solid #999999;
   position: relative;
   transition: background-color 0.2s ease;
-  &:hover {
-    background-color: rgba($accent, 0.08);
-  }
 }
 
 .accordion__trigger {
   display: flex;
   justify-content: space-between;
-  &.accordion__trigger_active {
-    color: $accent;
-    > * {
-      color: $accent;
-    }
-  }
 }
 
 .accordion-enter-active,

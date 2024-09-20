@@ -1,7 +1,7 @@
 <template>
   <section class="section">
     <div class="container">
-      <div class="filters mt-4 mb-0 px-4 is-flex is-justify-content-space-between">
+      <div class="filters mt-4 mb-0 is-flex is-justify-content-space-between">
         <div class="tags are-medium">
           <span
             :class="{'is-active': activeTag && activeTag.length === 0 }"
@@ -30,25 +30,27 @@
           <nuxt-link
             v-for="blog of blogs"
             :key="blog.slug"
-            class="column is-one-third"
+            class="column is-one-third blog-item"
             :to="{ name: 'blog-slug', params: { slug: blog.slug } }"
           >
             <div
-              class="p-4 post-wrapper"
+              class="py-4 post-wrapper"
               style="min-height: 432px"
             >
-              <img
-                :src="blog.thumbnail ? blog.thumbnail : blog.img"
-                style="height: 270px; object-fit: cover;"
-                class="has-radius-big blog-image"
-              >
+              <div class="blog-img has-radius-big" style="height: 270px">
+                <img
+                  :src="blog.thumbnail ? blog.thumbnail : blog.img"
+                  style="height: 100%; width: 100%; object-fit: cover;"
+                  class="blog-image"
+                >
+              </div>
               <p v-if="blog.author" class="has-text-black is-size-7">
                 By {{ blog.author }}
               </p>
-              <h3 class="title is-5 mt-2 mb-3">
+              <h3 class="title is-3 mt-2 mb-3">
                 {{ blog.title }}
               </h3>
-              <p style="color: #666">{{ blog.description }}</p>
+              <p class="is-size-5" style="color: #666">{{ blog.description }}</p>
             </div>
           </nuxt-link>
         </client-only>
@@ -195,7 +197,7 @@ export default {
 }
 
 @media screen and (max-width: 1023px) {
-  .blog-image {
+  .blog-img {
     height: 220px !important;
   }
   .post-wrapper {
