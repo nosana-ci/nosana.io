@@ -16,7 +16,7 @@
                 :src="blog.img"
                 style="width: 100%; object-fit: cover;"
               >
-              <div>
+              <div style="max-width: 900px; width: 100%; margin: 0 auto;">
                 <h2 class="mb-5 has-text-black mt-6 description">
                   {{ blog.description }}
                 </h2>
