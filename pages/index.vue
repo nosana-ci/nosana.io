@@ -218,6 +218,7 @@ export default {
       padding-bottom: 0 !important;
       margin-top: 0 !important;
       margin-bottom: 0 !important;
+      overflow: hidden;
     }
     .column.my-6 {
       margin-top: 0 !important;

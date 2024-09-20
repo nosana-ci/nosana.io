@@ -56,3 +56,10 @@ export default {
   }
 };
 </script>
+<style>
+@media screen and (max-width: 1300px) {
+  .blog-img {
+    height: 220px !important;
+  }
+}
+</style>

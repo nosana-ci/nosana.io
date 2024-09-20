@@ -175,6 +175,31 @@ blockquote {
 .animate-marquee {
   animation: marquee-up 90s infinite alternate;
   animation-timing-function: linear;
+  @media screen and (max-width: $tablet) {
+    margin: 0px !important;
+    &:first-child {
+      margin-right: 7px !important;
+    }
+    &:last-child {
+      margin-left: 7px !important;
+    }
+    p, .subtitle {
+      font-size: 15px !important;
+    }
+    a {
+      padding: 20px;
+    }
+    .title {
+      font-size: 16px !important;
+      margin-top: 8px;
+    }
+    .avatar {
+      height: 50px; width: 50px;
+    }
+    .box {
+      margin-bottom: 15px !important;
+    }
+  }
 }
 .reverse {
   animation-direction: alternate-reverse;
