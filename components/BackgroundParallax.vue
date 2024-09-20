@@ -15,8 +15,9 @@ export default {
       const scrollY = window.scrollY;
       const maxBackgroundSize = 120;
       const backgroundSize = scrollY / (maxBackgroundSize - 100);
+      const size = (100 + backgroundSize) / 100 < 1 ? 1 : (100 + backgroundSize) / 100;
       this.$refs.bgScroll.style.transform =
-          'scale(' + (100 + backgroundSize) / 100 + ')';
+          'scale(' + size + ')';
     }
   }
 };
