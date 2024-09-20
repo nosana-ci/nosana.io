@@ -48,7 +48,7 @@
                 <nuxt-link class="navbar-item" to="/compute" exact-active-class="is-active">
                   Compute Marketplace
                 </nuxt-link>
-                <a href="https://explorer.nosana.com/" target="_blank" class="navbar-item">
+                <a href="https://dashboard.nosana.com/" target="_blank" class="navbar-item">
                   <span>Explorer</span>
                 </a>
               </div>
