@@ -25,16 +25,16 @@ export default {
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: 'Next Gen CI/CD' },
+      { hid: 'description', name: 'description', content: 'Where AI Meets Decentralized Compute' },
       {
         hid: 'og:title',
         property: 'og:title',
-        content: 'Nosana - The Future of GPU Compute'
+        content: 'Nosana - Where AI Meets Decentralized Compute'
       },
       {
         hid: 'og:description',
         property: 'og:description',
-        content: 'The most cost-effective GPU grid, with zero lock-in. Developed and customized for AI inference workloads. Consumers, miners, and businesses can monetize their idle hardware by becoming a Nosana Node. Powered by Solana and the $NOS token.'
+        content: 'Nosana is your go-to marketplace for AI inference. Enjoy seamless access and scalability without long-term contracts or bottlenecks—just the compute power you need, when you need it.'
       },
       {
         hid: 'og:image',
