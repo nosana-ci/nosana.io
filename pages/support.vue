@@ -2,11 +2,11 @@
   <div>
     <section class="section mt-5">
       <div class="container">
-        <h2 class="title is-2 mt-5 mb-0">
+        <h2 class="title is-2 mb-0">
           Your Hub for Solutions
         </h2>
         <div class="columns">
-          <div class="columns my-6 pt-6">
+          <div class="columns my-6 pt-5">
             <div class="column is-4" data-aos="fade-in">
               <div class="has-radius p-5" style="background-color: #f7f7f7">
                 <h4 class="title is-4 p-2 mb-2">
