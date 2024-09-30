@@ -32,7 +32,7 @@ The tooling and visibility of Nosana’s network has proven to be an important e
 
 ### Main Grid
 
-As Test Grid Phase 3 is the final phase of testing, we are excited to share that Nosana’s Main Grid will launch on **January 14, 2024**. The Main Grid will mark a special moment in Nosana’s history, where the powers of the first decentralzied GPU grid will become available to everyone.
+As Test Grid Phase 3 is the final phase of testing, we are excited to share that Nosana’s Main Grid will launch on **January 14, 2025**. The Main Grid will mark a special moment in Nosana’s history, where the powers of the first decentralzied GPU grid will become available to everyone.
 
 The release of Main Grid enables us to expand the ecosystem and attract a broader range of projects. Nosana will also host its first global hackathon, inviting developers and startups to explore new applications for AI inference on its decentralized GPU grid.
 
