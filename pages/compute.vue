@@ -68,7 +68,7 @@
                   and execute complex tasks efficiently.
                 </p>
                 <a
-                  href="https://forms.gle/SnF1GnQPANpcAKUj6"
+                  href="https://docs.google.com/forms/d/e/1FAIpQLSdfh5RIw2hWa1vnXhRUA4QIGADhBMkAHnpjqoNCHbrdF283cg/viewform"
                   target="_blank"
                   class="has-text-accent has-text-weight-semibold"
                 >
