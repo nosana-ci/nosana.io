@@ -46,7 +46,6 @@
                 </p>
                 <a
                   href="https://docs.nosana.com/nodes/testgrid.html"
-                  target="_blank"
                   class="has-text-accent has-text-weight-semibold"
                 >
                   Become a Provider <i class="pl-1 fas fa-chevron-right" />

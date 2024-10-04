@@ -73,7 +73,6 @@
                     Resources
                   </h4>
                   <a
-                    target="_blank"
                     href="https://docs.nosana.com"
                     class="navbar-item"
                     to="/docs"

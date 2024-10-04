@@ -77,7 +77,7 @@
                 <div>Resources</div>
               </a>
               <div class="navbar-dropdown is-boxed">
-                <a href="https://docs.nosana.com" target="_blank" class="navbar-item">
+                <a href="https://docs.nosana.com" class="navbar-item">
                   <span>Docs</span>
                 </a>
                 <nuxt-link class="navbar-item" to="/blog" exact-active-class="is-active">
