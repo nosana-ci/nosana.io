@@ -37,7 +37,7 @@
               class="py-4 post-wrapper"
               style="min-height: 432px"
             >
-              <div class="blog-img has-radius-big" style="height: 270px">
+              <div class="blog-img has-radius-big">
                 <img
                   :src="blog.thumbnail ? blog.thumbnail : blog.img"
                   style="height: 100%; width: 100%; object-fit: cover;"
@@ -50,13 +50,17 @@
               <h3 class="title is-3 mt-2 mb-3">
                 {{ blog.title }}
               </h3>
-              <p class="is-size-5" style="color: #666">{{ blog.description }}</p>
+              <p class="is-size-5" style="color: #666">
+                {{ blog.description }}
+              </p>
             </div>
           </nuxt-link>
         </client-only>
       </div>
       <div v-else-if="loadedPosts">
-        <p class="px-5 my-6">No posts found</p>
+        <p class="px-5 my-6">
+          No posts found
+        </p>
       </div>
       <pagination
         v-if="blogs && blogs.length > 0 && Math.ceil(parseInt(totalArticles) / perPage) > 1"
@@ -195,11 +199,11 @@ export default {
     }
   }
 }
+.blog-img {
+  aspect-ratio: 5 / 3;
+}
 
 @media screen and (max-width: 1300px) {
-  .blog-img {
-    height: 220px !important;
-  }
   .post-wrapper {
     padding: 0 !important;
   }
