@@ -199,10 +199,6 @@ export default {
     }
   }
 }
-.blog-img {
-  aspect-ratio: 5 / 3;
-}
-
 @media screen and (max-width: 1300px) {
   .post-wrapper {
     padding: 0 !important;

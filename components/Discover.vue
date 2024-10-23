@@ -14,7 +14,7 @@
             data-aos="fade-in"
           >
             <div class="py-4" style="min-height: 432px">
-              <div class="blog-img has-radius-big" style="height: 270px">
+              <div class="blog-img has-radius-big">
                 <img
                   :src="
                     relatedBlog.thumbnail
@@ -56,10 +56,3 @@ export default {
   }
 };
 </script>
-<style>
-@media screen and (max-width: 1300px) {
-  .blog-img {
-    height: 220px !important;
-  }
-}
-</style>

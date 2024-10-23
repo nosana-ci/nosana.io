@@ -1,13 +1,13 @@
 /* Import the rest of Bulma */
-@import '../../node_modules/bulma';
-@import '../../node_modules/@creativebulma/bulma-tooltip';
-@import '../../node_modules/atropos/atropos.scss';
-@import 'dark-mode';
-@import 'bulma/sass/utilities/mixins';
+@import "../../node_modules/bulma";
+@import "../../node_modules/@creativebulma/bulma-tooltip";
+@import "../../node_modules/atropos/atropos.scss";
+@import "dark-mode";
+@import "bulma/sass/utilities/mixins";
 
 @media screen and (min-width: 1390px) {
   .container:not(.is-max-desktop):not(.is-max-widescreen) {
-      max-width: 1390px;
+    max-width: 1390px;
   }
 }
 
@@ -15,7 +15,8 @@
   font-weight: 700;
 }
 
-html, body {
+html,
+body {
   max-width: 100%;
   overflow-x: hidden;
 }
@@ -64,7 +65,7 @@ a.is-underlined {
 
 .is-disabled {
   cursor: not-allowed !important;
-  opacity: .65;
+  opacity: 0.65;
 }
 
 .title.is-1 {
@@ -85,11 +86,16 @@ a.is-underlined {
 }
 
 .has-background-gradient {
-  background: linear-gradient(180deg, rgba(10, 35, 4, 0.4) 0%, #010C04 100%);
+  background: linear-gradient(180deg, rgba(10, 35, 4, 0.4) 0%, #010c04 100%);
 }
 .has-background-gradient-accent {
   background: linear-gradient(180deg, rgba($accent, 0) 0%, $accent 100%);
-  background: linear-gradient(360deg, rgba(95, 255, 0, 0.3) -32.97%, rgba(95, 255, 0, 0.9) -32.96%, rgba(95, 255, 0, 0) 50.14%);
+  background: linear-gradient(
+    360deg,
+    rgba(95, 255, 0, 0.3) -32.97%,
+    rgba(95, 255, 0, 0.9) -32.96%,
+    rgba(95, 255, 0, 0) 50.14%
+  );
 }
 
 .has-text-shadow {
@@ -144,7 +150,6 @@ a.card {
       border: 1px solid $primary;
       color: $primary;
       background: none;
-
     }
   }
   &.is-white {
@@ -208,12 +213,15 @@ a.card {
 }
 
 @include touch {
-  .site-title, .title.is-1 {
+  .site-title,
+  .title.is-1 {
     font-size: 40px;
     line-height: 50px;
   }
   .section {
-    .site-title, .title.is-1, .title.is-2 {
+    .site-title,
+    .title.is-1,
+    .title.is-2 {
       padding: 0 !important;
     }
     .container.mb-6 {
@@ -253,7 +261,10 @@ a.card {
 .bg-scroll {
   background-size: cover;
   position: absolute;
-  top: 0; bottom: 0; left: 0; right: 0;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
   height: 100%;
   max-width: 100%;
   background-position: center;
@@ -262,9 +273,10 @@ a.card {
 .blog-item {
   .blog-img {
     overflow: hidden;
+    aspect-ratio: 5 / 3;
   }
   img {
-    transition: all .3s ease;
+    transition: all 0.3s ease;
   }
   &:hover img {
     transform: scale(1.05);
