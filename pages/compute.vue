@@ -135,7 +135,7 @@
               </ul>
             </p>
           </div>
-          <div class="column roadmap-item is-6 is-offset-3" data-aos="fade-up">
+          <div class="column roadmap-item is-completed is-6 is-offset-3" data-aos="fade-up">
             <h3 class="title is-2 mb-2 has-text-white">
               Phase 3
             </h3>

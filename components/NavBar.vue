@@ -92,9 +92,12 @@
               </div>
             </div>
             <div class="navbar-item" @click="mobileMenu = false">
-              <nuxt-link to="/compute" class="button is-secondary is-size-6">
-                Get Access
-              </nuxt-link>
+              <a
+                href="https://calendar.app.google/4VdsFrfyzukV5mbD6"
+                target="_blank"
+                class="button is-secondary is-size-6">
+                Book a Demo
+              </a>
             </div>
           </div>
         </div>
