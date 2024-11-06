@@ -212,8 +212,8 @@
       --interactive -t \
       --volume ~/.nosana/:/root/.nosana/ \
       -e CLI_VERSION=${PRE_RELEASE} \
-      nosana/nosana-cli:latest -V
-        # ${NOSANA_NODE_ARGS[@]}
+      nosana/nosana-cli:latest \
+        ${NOSANA_NODE_ARGS[@]}
 
     log_std "\nNosana Node finished"
   }
