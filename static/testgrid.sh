@@ -4,20 +4,34 @@
 # This script will start Nosana-Node and register for the Nosana Test Grid.
 
 { # this ensures the entire script is downloaded
-
   die () {
     echo >&2 "$@"
     exit 1
   }
 
+  handle_options() {
+    for var in "$@"; do
+      case $var in
+        --pre-release)
+          PRE_RELEASE="next"
+          ;;
+        --verbose)
+          NOSANA_NODE_VERBOSE=true
+          ;; 
+        esac
+          shift
+    done
+  }
+
   main() {
+    PRE_RELEASE=""
+    handle_options "$@"
+
     if ! check_cmd lsb_release; then
       log_err "🧯 Not running ubuntu."
       exit 1;
     fi
-    if [[ $2 == "verbose" ]]; then
-      NOSANA_NODE_VERBOSE=true
-    fi
+
     if cat /proc/version | grep -q 'WSL2'; then
       WSL2=true
     fi
@@ -187,14 +201,19 @@
       log_std "🔥 Starting Nosana-Node..."
     fi
 
+    if [[ $PRE_RELEASE == "next" ]]; then
+      log_err "WARNING: Users may experience bugs and instabilty when running a pre-released version."
+    fi
+
     docker run \
       --pull=always \
       --name nosana-node \
       --network host  \
       --interactive -t \
       --volume ~/.nosana/:/root/.nosana/ \
-      nosana/nosana-cli:latest \
-        ${NOSANA_NODE_ARGS[@]}
+      -e CLI_VERSION=${PRE_RELEASE} \
+      nosana/nosana-cli:latest -V
+        # ${NOSANA_NODE_ARGS[@]}
 
     log_std "\nNosana Node finished"
   }
