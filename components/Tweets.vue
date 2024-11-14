@@ -131,7 +131,7 @@
             There's no second best. Mega-chad team that only knows shipping.
             Glad to see the fruit of their labor start to pay out!
           </p>
-          <p class="mt-4 subtitle has-text-weight-bold">@swetas_2710 - 17 sep. 2024</p>
+          <p class="mt-4 subtitle has-text-weight-bold">@JoeStrangeQ - 17 sept. 2024</p>
         </div>
       </a>
       <a class="box has-radius-big mb-6" href="https://x.com/BanklessHQ/status/1780234842367545815" target="_blank">
