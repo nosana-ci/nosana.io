@@ -91,14 +91,14 @@
                 </nuxt-link>
               </div>
             </div>
-            <div class="navbar-item" @click="mobileMenu = false">
+            <!-- <div class="navbar-item" @click="mobileMenu = false">
               <a
                 href="https://calendar.app.google/4VdsFrfyzukV5mbD6"
                 target="_blank"
                 class="button is-secondary is-size-6">
                 Book a Demo
               </a>
-            </div>
+            </div> -->
           </div>
         </div>
       </div>
