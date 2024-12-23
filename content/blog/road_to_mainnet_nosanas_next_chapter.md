@@ -15,8 +15,7 @@ After months of hard work and improvements, we’re thrilled to announce that th
 A year ago, we launched the Nosana Test Grid with the support of 3 million $NOS tokens, encouraging participation and contributions through a three-phase rollout:
 
 - **Phase 1:** Onboarded the first NVIDIA GPUs to the platform, launched the Nosana Dashboard, and began processing workloads for Compute Renters.
-- Phase 2: Over 1,000 GPU Providers joined as we expanded registration and implemented testing protocols. We also tackled Solana network congestion to improve scalability.
-    - **Phase 2:** Over 1,000 GPU Providers joined as we expanded registration and implemented testing protocols. We also tackled Solana network congestion to improve scalability.
+- **Phase 2:** Over 1,000 GPU Providers joined as we expanded registration and implemented testing protocols. We also tackled Solana network congestion to improve scalability.
 - **Phase 3:** Introduced staking for GPU Providers, tested pricing models for both GPU Providers and Compute Renters, and improved the Nosana CLI, SDK, and benchmarking suite for enhanced security and reliability.
 
 Feedback from GPU Providers and Compute Renters played a crucial role in shaping Nosana into a robust platform for AI workloads.
