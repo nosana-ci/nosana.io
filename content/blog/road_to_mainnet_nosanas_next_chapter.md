@@ -6,8 +6,6 @@ createdAt: '2024-12-23'
 tags:
   - product
 ---
-### **Road to Mainnet: Nosana’s Next Chapter**
-
 After months of hard work and improvements, we’re thrilled to announce that the Nosana Test Grid is wrapping up, and the Nosana Mainnet is just around the corner! This milestone means the Test Grid has reached a production-ready state. Let’s take a moment to reflect on what we’ve accomplished and look ahead to what’s next.
 
 ### **Looking Back: A Year of Progress**
