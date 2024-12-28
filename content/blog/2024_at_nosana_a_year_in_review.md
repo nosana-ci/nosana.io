@@ -1,5 +1,5 @@
 ---
-title: "20024 at Nosana: A Year In Review"
+title: "2024 at Nosana: A Year In Review"
 description: With the Mainnet launch just weeks away, it feels like the right time to reflect on the milestones that have defined 2024. 
 img: /img/Nosana2024Blog1050x630.jpg
 createdAt: '2024-12-27'
