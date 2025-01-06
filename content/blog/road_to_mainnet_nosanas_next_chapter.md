@@ -1,7 +1,7 @@
 ---
 title: "Road to Mainnet: Nosana's Next Chapter"
 description: The Nosana Test Grid is now production-ready, paving the way for the upcoming launch of the Nosana Mainnet. 
-img: /img/MainnetBlog1050x630.jpg
+img: /img/mainnet_blog.jpg
 createdAt: '2024-12-23'
 tags:
   - product
