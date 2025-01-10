@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Quick-Start Nosana-Node
-# This script will start Nosana-Node and register for the Nosana Test Grid.
+# This script will start Nosana-Node and register for the Nosana Grid.
 
 { # this ensures the entire script is downloaded
   die () {
