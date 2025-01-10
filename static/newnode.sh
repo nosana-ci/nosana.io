@@ -94,12 +94,12 @@
     if [[ $WSL2 == true ]]; then
       if ! check_cmd podman; then
         log_err "🧯 Podman is not installed. Please install Podman first."
-        log_err "🔋 Please follow installation instructions here: https://docs.nosana.io/nodes/testgrid-windows.html#podman"
+        log_err "🔋 Please follow installation instructions here: https://docs.nosana.io/nodes/grid-windows.html#podman"
         exit 1
       else
         if ! podman --version | grep -q 'version 4.'; then
           log_err "🧯 Podman is not the right version, need version >4.1"
-          log_err "🔋 Please follow installation instructions here: https://docs.nosana.io/nodes/testgrid-windows.html#podman "
+          log_err "🔋 Please follow installation instructions here: https://docs.nosana.io/nodes/grid-windows.html#podman "
           exit 1
         fi
         log_std "✅ Podman v4 is installed. "
@@ -110,7 +110,7 @@
         log_std "✅ Nvidia Container Toolkit configured. "
       else
         log_err "🧯 Nvidia Container Toolkit is not configured."
-        log_err "🔋 Please follow configuration instructions here: https://docs.nosana.io/nodes/testgrid-windows.html#configure-the-nvidia-container-toolkit "
+        log_err "🔋 Please follow configuration instructions here: https://docs.nosana.io/nodes/grid-windows.html#configure-the-nvidia-container-toolkit "
         exit 1
       fi
 
@@ -140,7 +140,7 @@
         log_std "✅ Nvidia Container Toolkit configured. "
       else
         log_err "🧯 Nvidia Container Toolkit is not configured."
-        log_err "🔋 Please follow configuration instructions here: https://docs.nosana.io/nodes/testgrid-ubuntu.html#linux-configure-the-nvidia-container-toolkit "
+        log_err "🔋 Please follow configuration instructions here: https://docs.nosana.io/nodes/grid-ubuntu.html#linux-configure-the-nvidia-container-toolkit "
         exit 1
       fi
 

@@ -45,7 +45,7 @@
                   supporting innovative AI projects with ease.
                 </p>
                 <a
-                  href="https://docs.nosana.com/nodes/testgrid.html"
+                  href="https://docs.nosana.com/nodes/grid.html"
                   class="has-text-accent has-text-weight-semibold"
                 >
                   Become a Provider <i class="pl-1 fas fa-chevron-right" />
@@ -324,7 +324,7 @@ export default {
         {
           question: 'How do I register for the Test Grid?',
           answer:
-            'Follow the in-depth tutorial found here: <a href="https://docs.nosana.io/nodes/testgrid.html" target="_blank">https://docs.nosana.io/nodes/testgrid.html</a> to register your GPU hardware on the Nosana Network. This involves installing the Nosana node on your computer. It will take some technical knowledge for you to do this. This means knowing how to use the command line and run Docker containers. If you are unable to complete this setup on your own, then unfortunately, you are not eligible for this phase of the Test Grid.'
+            'Follow the in-depth tutorial found here: <a href="https://docs.nosana.io/nodes/grid.html" target="_blank">https://docs.nosana.io/nodes/grid.html</a> to register your GPU hardware on the Nosana Network. This involves installing the Nosana node on your computer. It will take some technical knowledge for you to do this. This means knowing how to use the command line and run Docker containers. If you are unable to complete this setup on your own, then unfortunately, you are not eligible for this phase of the Test Grid.'
         },
         {
           question: 'Do I need a blockchain wallet?',
