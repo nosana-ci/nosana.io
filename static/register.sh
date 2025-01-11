@@ -128,7 +128,7 @@
         --interactive -t \
         --volume ~/.nosana/:/root/.nosana/ \
         nosana/nosana-cli:latest \
-          node join-test-grid \
+          node join \
           --network $SOL_NET_ENV \
           --podman http://$(ip addr show eth0 | grep -oP '(?<=inet\s)\d+(\.\d+){3}'):8080 \
 
@@ -167,7 +167,7 @@
         --interactive -t \
         --volume ~/.nosana/:/root/.nosana/ \
         nosana/nosana-cli:latest \
-          node join-test-grid \
+          node join \
           --network $SOL_NET_ENV \
           --podman http://localhost:8080  \
 
