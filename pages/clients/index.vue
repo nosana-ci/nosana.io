@@ -38,9 +38,14 @@
       <div class="container mb-6 pb-6">
         <div class="columns mt-6 pt-6">
           <div class="column is-4" data-aos="fade-in">
-            <h3 class="title is-2">
-              The GPU Problem for AI Startups.
-            </h3>
+            <div class="is-flex mb-5">
+              <div class="mr-3" style="width: 90px; background-color: #F7F7F7;">
+                &nbsp;
+              </div>
+              <h3 class="title is-2">
+                The GPU Problem<br> for AI Startups.
+              </h3>
+            </div>
             <p class="mb-5 is-4 is-size-4">
               AI startups struggle with the high costs of traditional GPU
               providers, which strain budgets and limit innovation. Scalability
@@ -210,6 +215,7 @@
                         end-val="534.45"
                         :options="{
                           enableScrollSpy: true,
+                          decimalPlaces: 2
                         }"
                       />
                     </h4>
@@ -218,10 +224,10 @@
               </div>
 
               <nuxt-link
-                to="#"
+                to="/clients/sogni"
                 class="has-text-accent has-text-weight-semibold is-size-5"
               >
-                Read the full Sogni Ai Use Case <i class="pl-1 fas fa-chevron-right" />
+                Read the full Sogni AI Use Case <i class="pl-1 fas fa-chevron-right" />
               </nuxt-link>
             </div>
           </div>
@@ -232,7 +238,7 @@
       </div>
     </section>
 
-    <section class="network-summary section py-6 has-background-grey-lighter">
+    <section class="section py-6 has-background-grey-lighter">
       <div class="container py-6 mb-6 has-text-centered">
         <h3 class="title is-2 pt-3 mb-2">
           Try Nosana for free
@@ -241,13 +247,13 @@
           No commitments. Scale your AI startup today.
         </h3>
         <div class="buttons is-flex is-justify-content-center mt-6">
-          <button class="button is-black is-medium"
+          <button class="button is-black is-medium mr-3"
             style="max-width: 300px; width: 100%"
           >
             Get started free trial
           </button>
           <button
-            class="button is-black is-medium"
+            class="button is-black is-medium ml-3"
             style="max-width: 300px; width: 100%"
           >
             Contact sales
