@@ -8,18 +8,24 @@
             class="column is-8 pt-6 has-text-centered has-background-black-blur-false has-text-white"
           >
             <h1 class="title pt-6 is-spaced site-title has-text-white">
-              Where AI Meets Decentralized Compute
+              Affordable GPU Rental for<br> AI Inference at Scale
             </h1>
             <div class="py-2">
               <p
                 class="block has-limited-width-big is-size-5"
                 style="margin: 0 auto"
               >
-                Nosana is your go-to marketplace for AI inference. Enjoy
-                seamless access and scalability without long-term contracts or
-                bottlenecks—just the compute power you need, when you need it.
+                Nosana is your go-to GPU marketplace for AI inference.
+                Save up to 6x on compute costs and scale your AI workloads effortlessly.
               </p>
             </div>
+            <nuxt-link
+              to="/clients"
+              class="button is-white is-medium mt-5"
+              style="max-width: 350px; width: 100%"
+            >
+              Get Started
+            </nuxt-link>
           </div>
         </div>
       </div>

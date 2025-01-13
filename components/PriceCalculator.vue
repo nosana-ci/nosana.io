@@ -1,7 +1,7 @@
 <template>
   <div class="px-3">
     <h3 class="title is-3 pt-4">
-      See how much you can save with Nosana?
+      Adjust parameters like GPU type, hours, and quantity to see how much you’ll save:
     </h3>
     <div class="columns">
       <div class="column is-half">
@@ -101,15 +101,17 @@
             </div>
           </div>
           <a
-            href="https://dashboard.nosana.com/jobs/template"
+            href="https://dashboard.nosana.com/"
             target="_blank"
             class="button is-black is-medium is-fullwidth mt-5"
           >
-            Deploy now
+            See all GPUs
           </a>
         </div>
       </div>
     </div>
+    <hr>
+    todo
   </div>
 </template>
 

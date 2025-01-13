@@ -7,26 +7,20 @@
             class="column is-10 has-text-centered has-background-black-blur-false"
           >
             <h1 class="title is-spaced site-title">
-              Turn GPUs into Earnings with Nosana
+              AI innovation happens on Nosana
             </h1>
             <div class="py-2">
               <p class="block is-size-3" style="margin: 0 auto">
-                Join the decentralized network powering the future of AI.
-                Monetize your GPU resources effortlessly and contribute to
-                groundbreaking innovation.
+                Focus more on running ML models and less on managing
+                infrastructure with seamless GPU workload deployment.
               </p>
               <div class="buttons is-flex is-justify-content-center mt-6">
                 <button
-                  class="button is-black is-medium mr-2"
+                  class="button is-black is-medium"
                   style="max-width: 350px; width: 100%"
+                  @click="getStartedModal = true"
                 >
-                  Start earning now
-                </button>
-                <button
-                  class="button is-black is-outlined is-medium ml-2"
-                  style="max-width: 350px; width: 100%"
-                >
-                  Learn how it works
+                  Get Started for Free
                 </button>
               </div>
             </div>
@@ -39,54 +33,57 @@
         <div class="columns mt-6 pt-6">
           <div class="column is-4" data-aos="fade-in">
             <div class="is-flex mb-5">
-              <div class="mr-3 grey-title-block" style="flex: 0 0 90px; width: 90px; background-color: #F7F7F7;">
+              <div
+                class="mr-3 grey-title-block"
+                style="flex: 0 0 90px; width: 90px; background-color: #f7f7f7"
+              >
                 &nbsp;
               </div>
-              <h3 class="title is-2">
-                The GPU Problem<br> for AI Startups.
+              <h3 class="title is-2 py-4">
+                Seamless
               </h3>
             </div>
             <p class="mb-5 is-4 is-size-4">
-              AI startups struggle with the high costs of traditional GPU
-              providers, which strain budgets and limit innovation. Scalability
-              and resource availability are often inadequate, causing delays in
-              accessing the computing power needed for growth. Additionally.
+              Select from a library of over 20 ready-made
+              <a
+                href="https://dashboard.nosana.com/jobs/templates"
+                target="_blank"
+              >templates</a>
+              or use your own custom container to suit your requirements.
             </p>
           </div>
           <div class="column is-4" data-aos="fade-in" data-aos-delay="100">
             <div class="is-flex mb-5">
-              <div class="mr-3 grey-title-block flex-1" style="flex: 0 0 90px; background-color: #F7F7F7;">
+              <div
+                class="mr-3 grey-title-block flex-1"
+                style="flex: 0 0 90px; background-color: #f7f7f7"
+              >
                 &nbsp;
               </div>
-              <h3 class="title is-2">
-                Nosana offers the solution.
+              <h3 class="title is-2 py-4">
+                On-Demand
               </h3>
             </div>
             <p class="mb-5 is-4 is-size-4">
-              Nosana provides GPU access designed specifically for AI startups,
-              delivering a scalable and cost-effective alternative to
-              traditional providers. With flexible pricing and seamless
-              integration, Nosana empowers startups to access the computing
-              power they need, when they need it, without breaking their
-              budgets.
+              Rent available GPUs effortlessly and scale your workloads
+              seamlessly to meet your needs.
             </p>
           </div>
           <div class="column is-4" data-aos="fade-in" data-aos-delay="200">
             <div class="is-flex mb-5">
-              <div class="mr-3 grey-title-block" style="flex: 0 0 90px; width: 90px; background-color: #F7F7F7;">
+              <div
+                class="mr-3 grey-title-block"
+                style="flex: 0 0 90px; width: 90px; background-color: #f7f7f7"
+              >
                 &nbsp;
               </div>
-              <h3 class="title is-2">
-                Nosana offers the solution.
+              <h3 class="title is-2 py-4">
+                Cost-Efficient
               </h3>
             </div>
             <p class="mb-5 is-4 is-size-4">
-              At Nosana, we believe in open access compute, so you can bring
-              your own AI model from Hugging Face and your own Docker image from
-              any registry to get the job done. Network security, validation and
-              peer to peer transactions are built in from the ground up. For a
-              better understanding of all features, take a look at the Nosana
-              feature set and pricing page.
+              With transparent pay-as-you-go pricing, you only pay for what you
+              use—never for unused resources.
             </p>
           </div>
         </div>
@@ -136,7 +133,7 @@
         <div class="columns py-6 is-align-items-center">
           <div class="column is-5">
             <h3 class="title is-2">
-              Why AI Startups Choose Nosana
+              Key Features for AI Innovators
             </h3>
             <accordion>
               <accordion-item v-for="faq in faqs" :key="faq.question">
@@ -154,9 +151,15 @@
               </accordion-item>
             </accordion>
           </div>
-          <div class="column is-7 py-0 px-6" style="height: auto; align-self: stretch;">
-            <div class="has-background-black has-radius-big p-6 is-flex is-align-items-center" style="height: 100%;">
-              <img src="~/assets/img/dashboard.jpeg" alt="Dashboard" />
+          <div
+            class="column is-7 py-0 px-6"
+            style="height: auto; align-self: stretch"
+          >
+            <div
+              class="has-background-black has-radius-big p-6 is-flex is-align-items-center"
+              style="height: 100%"
+            >
+              <img src="~/assets/img/dashboard.jpeg" alt="Dashboard">
             </div>
           </div>
         </div>
@@ -166,12 +169,9 @@
     <section class="section py-6 has-background-grey-lighter">
       <div class="container py-6 mb-6">
         <h3 class="title is-2 pt-3">
-          Usage Pricing
+          Price Calculator
         </h3>
-        <p>
-          Estimate your costs by selecting the resources you need. <br>
-          Adjust CPU, memory, storage, and other parameters to get a detailed cost breakdown.
-        </p>
+        <p>Estimate your costs by selecting the resources you need.</p>
 
         <div class="has-background-white has-radius mt-6 p-5">
           <PriceCalculator />
@@ -182,22 +182,31 @@
     <section class="section py-6">
       <div class="container py-6 mb-6">
         <h3 class="title is-1 pt-3">
-          Business Case
+          Client Use Case
         </h3>
         <h3 class="title is-2">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+          Web3 AI startup Sogni uses Nosana’s GPUs to power next-gen art tools.
         </h3>
 
         <div class="columns">
           <div class="column is-6">
             <div class="mt-6">
               <p>Use case</p>
-              <img src="~/assets/img/sogni-logo.svg" alt="Sogni" class="mt-3 mb-5" />
+              <img
+                src="~/assets/img/sogni-logo.svg"
+                alt="Sogni"
+                class="mt-3 mb-5"
+              >
               <p class="is-size-3 mb-3 has-text-weight-semibold has-text-black">
-                "Using Nosana, we not only reduced costs but also gained the ability to handle peak computational
-                loads without sacrificing speed or quality,"
+                "Hosting 100+ state-of-the-art image generation models on Nosana
+                has been seamless. The reliability of their decentralized GPUs
+                and the flexibility of their framework make them our go-to
+                partner for scaling creative tools."
               </p>
-              <p>[Name, Title, Sogni AI]</p>
+              <p>
+                Mark Ledford, Founder and CTO,
+                <a href="https://www.sogni.ai/" target="_blank">Sogni AI</a>
+              </p>
 
               <div class="columns my-5">
                 <div class="is-6 column">
@@ -225,7 +234,7 @@
                         :end-val="534.45"
                         :options="{
                           enableScrollSpy: true,
-                          decimalPlaces: 2
+                          decimalPlaces: 2,
                         }"
                       />
                     </h4>
@@ -237,12 +246,17 @@
                 to="/clients/sogni"
                 class="has-text-accent has-text-weight-semibold is-size-5"
               >
-                Read the full Sogni AI Use Case <i class="pl-1 fas fa-chevron-right" />
+                Read the story
+                <i class="pl-1 fas fa-chevron-right" />
               </nuxt-link>
             </div>
           </div>
           <div class="column is-6">
-            <img class="has-radius-big" src="~/assets/img/sogni-graphic.jpeg" alt="Sogni Graphic" />
+            <img
+              class="has-radius-big"
+              src="~/assets/img/sogni-graphic.jpeg"
+              alt="Sogni Graphic"
+            >
           </div>
         </div>
       </div>
@@ -251,26 +265,74 @@
     <section class="section py-6 has-background-grey-lighter">
       <div class="container py-6 mb-6 has-text-centered">
         <h3 class="title is-2 pt-3 mb-2">
-          Try Nosana for free
+          Start shaping the future with Nosana, today.
         </h3>
         <h3 class="title is-3 mb-0 has-text-weight-semibold">
-          No commitments. Scale your AI startup today.
+          No Limits. Only Possibilities.
         </h3>
         <div class="buttons is-flex is-justify-content-center mt-6">
-          <button class="button is-black is-medium mr-3"
+          <button
+            class="button is-black is-medium mr-3"
             style="max-width: 300px; width: 100%"
+            @click="getStartedModal = true"
           >
-            Get started free trial
+            Get Started for Free
           </button>
           <button
             class="button is-black is-medium ml-3"
             style="max-width: 300px; width: 100%"
+            @click="requestDemoModal = true"
           >
-            Contact sales
+            Request Demo
           </button>
         </div>
       </div>
     </section>
+
+    <!-- Get Started modal -->
+    <div class="modal" :class="{ 'is-active': getStartedModal }">
+      <div class="modal-background" @click="getStartedModal = false" />
+      <!-- Calendly inline widget begin -->
+      <div
+        class="calendly-inline-widget"
+        data-url="https://calendly.com/d/cmt6-k7v-hmc"
+        style="max-width: 450px; width: 100%; height: 700px"
+      />
+      <script
+        type="text/javascript"
+        src="https://assets.calendly.com/assets/external/widget.js"
+        async
+      ></script>
+      <!-- Calendly inline widget end -->
+      <button
+        class="modal-close is-large"
+        aria-label="close"
+        @click="getStartedModal = false"
+      />
+    </div>
+
+    <!-- Request demo modal -->
+    <div class="modal" :class="{ 'is-active': requestDemoModal }">
+      <div class="modal-background" @click="requestDemoModal = false" />
+      <!-- Calendly inline widget begin -->
+      <div
+        class="calendly-inline-widget"
+        data-url="https://calendly.com/d/crn4-74f-2wm"
+        style="min-width: 450px; height: 700px"
+      />
+      <script
+        type="text/javascript"
+        src="https://assets.calendly.com/assets/external/widget.js"
+        async
+      ></script>
+      <!-- Calendly inline widget end -->
+
+      <button
+        class="modal-close is-large"
+        aria-label="close"
+        @click="requestDemoModal = false"
+      />
+    </div>
   </div>
 </template>
 <script>
@@ -283,23 +345,28 @@ export default {
     return {
       faqs: [
         {
-          question: 'Cost-efficient decentralized GPUs',
+          question: 'Cost-Efficient GPU Rental',
           answer:
-            'Build apps with industry-leading AI services and models using a unified API.'
+            'Save up to <b>6x</b> on compute costs compared to traditional providers. Nosana’s GPU marketplace ensures affordable pricing without compromising performance.'
         },
         {
-          question: 'Real-time scalability for peak demand',
-          answer: '-'
+          question: 'Scalable and On-Demand Compute',
+          answer:
+            'Access GPU resources in real time, with no delays or bottlenecks. Nosana’s network dynamically scales to meet your workload needs, supporting growth and peak demand effortlessly.'
         },
         {
-          question: 'Seamless Docker integration',
-          answer: '-'
+          question: 'Decentralized and Secure Infrastructure',
+          answer:
+            'Leverage Nosana’s transparent and secure decentralized network. Built-in validation and peer-to-peer transactions ensure reliability and security for your AI inference workloads.'
         },
         {
-          question: 'Transparent pay-as-you-go pricing',
-          answer: '-'
+          question: 'Seamless Integration with AI Workflows',
+          answer:
+            'Deploy faster with Docker-ready infrastructure. Bring your own AI models (e.g., Hugging Face) and Docker images from any registry to streamline your AI workflows.'
         }
-      ]
+      ],
+      getStartedModal: false,
+      requestDemoModal: false
     };
   }
 };
