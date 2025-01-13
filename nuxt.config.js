@@ -1,15 +1,15 @@
 // Return array of script for Google Analytics in production
-function getGtags() {
+function getGtags () {
   if (process.env.NODE_ENV === 'production') {
     return [{
       src: 'https://www.googletagmanager.com/gtag/js?id=G-HNDP62SH8M'
     }, {
-      type:'text/javascript',
+      type: 'text/javascript',
       innerHTML: `window.dataLayer = window.dataLayer || [];
 function gtag(){dataLayer.push(arguments);}
 gtag('js', new Date());
 gtag('config', 'G-HNDP62SH8M');`
-    }]
+    }];
   } else {
     return [];
   }
