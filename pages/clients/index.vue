@@ -96,7 +96,7 @@
     <section class="section has-background-black has-text-white">
       <div class="container py-6">
         <div class="columns py-6 is-align-items-center">
-          <div class="column is-8 is-flex has-justify-content-center">
+          <div class="column is-7 is-flex has-justify-content-center">
             <iframe
               src="https://www.youtube-nocookie.com/embed/36HUBr4i1ZA?si=kP4bBc-OI7kxmlAc"
               title="Nosana"
