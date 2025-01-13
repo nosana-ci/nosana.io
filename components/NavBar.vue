@@ -42,11 +42,14 @@
                 class="navbar-link is-arrowless"
                 exact-active-class="is-active"
               >
-                <div>Product</div>
+                <div>GPU Marketplace</div>
               </a>
               <div class="navbar-dropdown is-boxed">
-                <nuxt-link class="navbar-item" to="/compute" exact-active-class="is-active">
-                  Compute Marketplace
+                <nuxt-link class="navbar-item" to="/hosts" exact-active-class="is-active">
+                  Become a GPU host
+                </nuxt-link>
+                <nuxt-link class="navbar-item" to="/clients" exact-active-class="is-active">
+                  Deploy AI workloads
                 </nuxt-link>
                 <a href="https://explorer.nosana.io/" target="_blank" class="navbar-item">
                   <span>Explorer</span>

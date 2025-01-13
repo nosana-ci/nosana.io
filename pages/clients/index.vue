@@ -4,9 +4,9 @@
       <div class="container">
         <div class="columns is-centered mt-6 mt-mobile-0">
           <div
-            class="column is-10 pt-6 has-text-centered has-background-black-blur-false"
+            class="column is-10 has-text-centered has-background-black-blur-false"
           >
-            <h1 class="title pt-6 is-spaced site-title">
+            <h1 class="title is-spaced site-title">
               Turn GPUs into Earnings with Nosana
             </h1>
             <div class="py-2">

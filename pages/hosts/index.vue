@@ -279,10 +279,13 @@
 
     <section class="section py-6 has-background-black has-text-white">
       <div class="container py-6 mb-6">
-        <h3 class="title is-2 mb-6 has-text-white">
+        <h3 class="title is-2 mb-5 has-text-white">
           How much can you earn?
         </h3>
         <p>Maximize the value of your hardware without extra effort.</p>
+        <div class="has-background-white has-text-black has-radius p-5 mt-6">
+          <earnings-calculator v-if="nosPrice" :nos-price="nosPrice" />
+        </div>
       </div>
     </section>
 

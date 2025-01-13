@@ -127,7 +127,7 @@ export default {
   computed: {
     estimatedPrice () {
       if (this.gpuPrices) {
-        const pricePerHour = this.gpuPrices[this.gpuType];
+        const pricePerHour = this.gpuPrices[this.gpuType] * 1.1;
         const hours =
           this.durationType === 'days' ? this.amount * 24 : this.amount;
         return pricePerHour * this.numberOfGPUs * hours;
@@ -166,7 +166,6 @@ export default {
           }
         });
         this.gpuPrices = pricePerGpu;
-        console.log('data', pricePerGpu);
       } catch (error) {
         console.error(error);
       }
