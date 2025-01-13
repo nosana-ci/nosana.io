@@ -39,7 +39,7 @@
         <div class="columns mt-6 pt-6">
           <div class="column is-4" data-aos="fade-in">
             <div class="is-flex mb-5">
-              <div class="mr-3" style="width: 90px; background-color: #F7F7F7;">
+              <div class="mr-3 grey-title-block" style="flex: 0 0 90px; width: 90px; background-color: #F7F7F7;">
                 &nbsp;
               </div>
               <h3 class="title is-2">
@@ -54,9 +54,14 @@
             </p>
           </div>
           <div class="column is-4" data-aos="fade-in" data-aos-delay="100">
-            <h3 class="title is-2">
-              Nosana offers the solution.
-            </h3>
+            <div class="is-flex mb-5">
+              <div class="mr-3 grey-title-block flex-1" style="flex: 0 0 90px; background-color: #F7F7F7;">
+                &nbsp;
+              </div>
+              <h3 class="title is-2">
+                Nosana offers the solution.
+              </h3>
+            </div>
             <p class="mb-5 is-4 is-size-4">
               Nosana provides GPU access designed specifically for AI startups,
               delivering a scalable and cost-effective alternative to
@@ -67,9 +72,14 @@
             </p>
           </div>
           <div class="column is-4" data-aos="fade-in" data-aos-delay="200">
-            <h3 class="title is-2">
-              Nosana offers the solution.
-            </h3>
+            <div class="is-flex mb-5">
+              <div class="mr-3 grey-title-block" style="flex: 0 0 90px; width: 90px; background-color: #F7F7F7;">
+                &nbsp;
+              </div>
+              <h3 class="title is-2">
+                Nosana offers the solution.
+              </h3>
+            </div>
             <p class="mb-5 is-4 is-size-4">
               At Nosana, we believe in open access compute, so you can bring
               your own AI model from Hugging Face and your own Docker image from
@@ -163,8 +173,8 @@
           Adjust CPU, memory, storage, and other parameters to get a detailed cost breakdown.
         </p>
 
-        <div class="has-background-white mt-6 p-5">
-          Calculator
+        <div class="has-background-white has-radius mt-6 p-5">
+          <PriceCalculator />
         </div>
       </div>
     </section>
@@ -197,7 +207,7 @@
                     </div>
                     <h4 class="title is-2 pt-2 is-flex mb-1">
                       <ICountUp
-                        end-val="31783"
+                        :end-val="31783"
                         :options="{
                           enableScrollSpy: true,
                         }"
@@ -212,7 +222,7 @@
                     </div>
                     <h4 class="title is-2 pt-2 is-flex mb-1">
                       <ICountUp
-                        end-val="534.45"
+                        :end-val="534.45"
                         :options="{
                           enableScrollSpy: true,
                           decimalPlaces: 2
@@ -265,8 +275,9 @@
 </template>
 <script>
 import ICountUp from 'vue-countup-v2';
+import PriceCalculator from '../../components/PriceCalculator.vue';
 export default {
-  components: { ICountUp },
+  components: { ICountUp, PriceCalculator },
   colorMode: 'light',
   data () {
     return {
@@ -296,6 +307,9 @@ export default {
 
 <style lang="scss" scoped>
 @media screen and (max-width: $tablet) {
+  .grey-title-block {
+    display: none;
+  }
   .columns.my-6.pt-6 {
     margin-top: 0 !important;
     margin-bottom: 0 !important;

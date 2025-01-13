@@ -71,7 +71,7 @@
               </div>
               <h4 class="title is-2 pt-2 is-flex mb-1">
                 <ICountUp
-                  end-val="31783"
+                  :end-val="31783"
                   :options="{
                     enableScrollSpy: true,
                   }"
@@ -86,7 +86,7 @@
               </div>
               <h4 class="title is-2 pt-2 is-flex mb-1">
                 <ICountUp
-                  end-val="534.45"
+                  :end-val="534.45"
                   :options="{
                     enableScrollSpy: true,
                     decimalPlaces: 2,
@@ -102,7 +102,7 @@
               </div>
               <h4 class="title is-2 pt-2 is-flex mb-1">
                 <ICountUp
-                  end-val="24"
+                  :end-val="24"
                   :options="{
                     enableScrollSpy: true,
                     decimalPlaces: 0,
@@ -118,11 +118,11 @@
               </div>
               <h4 class="title is-2 pt-2 is-flex mb-1">
                 <ICountUp
-                  end-val="2"
+                  :end-val="2"
                   :options="{
                     enableScrollSpy: true,
-                    decimalPlaces: 2,
-                    suffix: 'sec',
+                    decimalPlaces: 0,
+                    suffix: ' sec',
                   }"
                 />
               </h4>
