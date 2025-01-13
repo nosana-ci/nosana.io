@@ -22,13 +22,13 @@ A system with a minimum of 4GB RAM and a supported NVIDIA GPU is required. The r
 
 ### Step 1: Installation and Setup
 > * Install the necessary software for the Nosana Node on your system.
-> * Follow the provided instructions for installing the Nosana Node on your operating system in our [comprehensive guide](https://docs.nosana.io/nodes/testgrid.html). We support Windows (WSL2) and Linux users. 
+> * Follow the provided instructions for installing the Nosana Node on your operating system in our [comprehensive guide](https://docs.nosana.io/nodes/grid.html). We support Windows (WSL2) and Linux users. 
 > * Now you are prepared for the next steps in the registration process.
 
 ### Step 2: Generating the Registration Code
 > * Run the script mentioned in the guide to run the Test Grid registration task on your system.
 > * After this, you will receive a unique registration code that you will need to paste into the form later on.
-> * Make sure to make a backup of your node's private key, as mentioned in the [guide](https://docs.nosana.io/nodes/testgrid.html). This is the account that is granted access to the Test Grid and will be receiving the rewards.
+> * Make sure to make a backup of your node's private key, as mentioned in the [guide](https://docs.nosana.io/nodes/grid.html). This is the account that is granted access to the Test Grid and will be receiving the rewards.
 
 ### Step 3: Registration Process
 > * Utilize the generated registration code to fill out the [registration form](https://forms.gle/d6Copk6W4TAMDY5n8).

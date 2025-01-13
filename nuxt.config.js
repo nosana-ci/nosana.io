@@ -1,3 +1,20 @@
+// Return array of script for Google Analytics in production
+function getGtags () {
+  if (process.env.NODE_ENV === 'production') {
+    return [{
+      src: 'https://www.googletagmanager.com/gtag/js?id=G-HNDP62SH8M'
+    }, {
+      type: 'text/javascript',
+      innerHTML: `window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-HNDP62SH8M');`
+    }];
+  } else {
+    return [];
+  }
+}
+
 export default {
   // Target: https://go.nuxtjs.dev/config-target
   target: 'static',
@@ -21,7 +38,10 @@ export default {
     },
     bodyAttrs: {
       class: 'has-navbar-fixed-top'
+
     },
+    script: [].concat(getGtags()),
+    __dangerouslyDisableSanitizers: ['script'],
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
@@ -80,13 +100,9 @@ export default {
     // https://go.nuxtjs.dev/eslint
     '@nuxtjs/eslint-module',
     // '@nuxtjs/color-mode',
-    '@nuxtjs/google-analytics',
     '@nuxtjs/svg',
     '@nuxtjs/moment'
   ],
-  googleAnalytics: {
-    id: 'UA-210322595-1'
-  },
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [

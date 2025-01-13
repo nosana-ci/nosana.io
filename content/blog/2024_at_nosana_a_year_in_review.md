@@ -75,7 +75,7 @@ We’re excited to keep building a more accessible, decentralized future for AI 
 
 Turn your unused GPU power into a revenue stream. Whether you’re running a single GPU or managing a fleet, Nosana makes it easy to onboard, start earning, and grow your presence in our decentralized GPU marketplace.
 
-👉 [Register as a GPU Provider](https://docs.nosana.com/nodes/testgrid.html) and start earning with AI inference jobs in the Community Market!
+👉 [Register as a GPU Provider](https://docs.nosana.com/nodes/grid.html) and start earning with AI inference jobs in the Community Market!
 
 **For Compute Renters**
 

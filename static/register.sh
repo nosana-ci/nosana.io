@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Quick-Start Nosana-Node
-# This script will start Nosana-Node and register for the Nosana Test Grid.
+# This script will start Nosana-Node and register for the Nosana Grid.
 
 { # this ensures the entire script is downloaded
 
@@ -91,12 +91,12 @@
     if [[ $WSL2 == true ]]; then
       if ! check_cmd podman; then
         log_err "🧯 Podman is not installed. Please install Podman first."
-        log_err "🔋 Please follow installation instructions here: https://docs.nosana.io/nodes/testgrid-windows.html#podman"
+        log_err "🔋 Please follow installation instructions here: https://docs.nosana.io/nodes/grid-windows.html#podman"
         exit 1
       else
         if ! podman --version | grep -q 'version 4.'; then
           log_err "🧯 Podman is not the right version, need version >4.1"
-          log_err "🔋 Please follow installation instructions here: https://docs.nosana.io/nodes/testgrid-windows.html#podman "
+          log_err "🔋 Please follow installation instructions here: https://docs.nosana.io/nodes/grid-windows.html#podman "
           exit 1
         fi
         log_std "✅ Podman v4 is installed. "
@@ -107,7 +107,7 @@
         log_std "✅ Nvidia Container Toolkit configured. "
       else
         log_err "🧯 Nvidia Container Toolkit is not configured."
-        log_err "🔋 Please follow configuration instructions here: https://docs.nosana.io/nodes/testgrid-windows.html#configure-the-nvidia-container-toolkit "
+        log_err "🔋 Please follow configuration instructions here: https://docs.nosana.io/nodes/grid-windows.html#configure-the-nvidia-container-toolkit "
         log_err "🧯 If Nvidia Container Toolkit has been re-configured."
         log_err "🔋 Please removed unused podman resources. If you DO NOT use podman for anything outside of Nosana, simply run 'podman system prune' or else please manually remove unused podman images and volumes."
         exit 1
@@ -128,7 +128,7 @@
         --interactive -t \
         --volume ~/.nosana/:/root/.nosana/ \
         nosana/nosana-cli:latest \
-          node join-test-grid \
+          node join \
           --network $SOL_NET_ENV \
           --podman http://$(ip addr show eth0 | grep -oP '(?<=inet\s)\d+(\.\d+){3}'):8080 \
 
@@ -138,7 +138,7 @@
         log_std "✅ Nvidia Container Toolkit configured. "
       else
         log_err "🧯 Nvidia Container Toolkit is not configured."
-        log_err "🔋 Please follow configuration instructions here: https://docs.nosana.io/nodes/testgrid-ubuntu.html#linux-configure-the-nvidia-container-toolkit "
+        log_err "🔋 Please follow configuration instructions here: https://docs.nosana.io/nodes/grid-ubuntu.html#linux-configure-the-nvidia-container-toolkit "
         log_err "🧯 If Nvidia Container Toolkit has been re-configured."
  	      log_err "🔋 Please removed unused podman resources. If you DO NOT use podman for anything outside of Nosana, simply run 'podman system prune' or else please manually remove unused podman images and volumes."
         exit 1
@@ -167,7 +167,7 @@
         --interactive -t \
         --volume ~/.nosana/:/root/.nosana/ \
         nosana/nosana-cli:latest \
-          node join-test-grid \
+          node join \
           --network $SOL_NET_ENV \
           --podman http://localhost:8080  \
 

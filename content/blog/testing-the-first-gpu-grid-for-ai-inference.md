@@ -41,7 +41,7 @@ geographical distribution.
 During the first stop in the Test Grid application, users had to
 download the [Nosana Node](https://github.com/nosana-ci/nosana-node)
 software, follow the [node configuration
-guide](https://docs.nosana.io/nodes/testgrid.html), run a [benchmark
+guide](https://docs.nosana.io/nodes/grid.html), run a [benchmark
 job](http://explorer.nosana.io/jobs/GUhQsFv2Dd6UUAgpcHpVCncodCHQMADGCJqvB6m6CdMe?network=devnet),
 and use the results to submit the Test Grid application form. A total
 of 442 nodes went through this process and provided an abundance of

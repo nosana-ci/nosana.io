@@ -76,4 +76,4 @@ Nosana empowers anyone with spare compute to contribute their idle processing po
 
 Ready to contribute your compute power to the grid? 
 
-Learn more [docs.nosana.io/nodes/testgrid](https://docs.nosana.io/nodes/testgrid.html)
+Learn more [docs.nosana.io/nodes/grid](https://docs.nosana.io/nodes/grid.html)
