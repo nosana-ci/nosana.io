@@ -16,7 +16,7 @@
                 style="margin: 0 auto"
               >
                 Register your AI project today to access on-demand compute power,
-                or become a provider and rent your idle hardware through our global compute network.
+                or become a host and rent your idle hardware through our GPU Marketplace.
               </p>
             </div>
           </div>
@@ -67,7 +67,7 @@
                   and execute complex tasks efficiently.
                 </p>
                 <a
-                  href="https://docs.google.com/forms/d/e/1FAIpQLSdfh5RIw2hWa1vnXhRUA4QIGADhBMkAHnpjqoNCHbrdF283cg/viewform"
+                  href="https://calendly.com/d/cmt6-k7v-hmc"
                   target="_blank"
                   class="has-text-accent has-text-weight-semibold"
                 >
