@@ -18,7 +18,6 @@
                 <button
                   class="button is-black is-medium"
                   style="max-width: 350px; width: 100%"
-                  data-aos="fade-in"
                   @click="getStartedModal = true"
                 >
                   Get Started for Free
