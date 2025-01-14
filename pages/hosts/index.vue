@@ -281,14 +281,15 @@
             data-aos="fade-right"
           >
             <h3 class="title is-2">
-              Success Stories
+              Nosana Community
             </h3>
             <p class="mb-5 is-size-4">
-              See how others are thriving with Nosana
+              Nosana is powered by a dynamic and open community.
+              As a public service, our network’s source code is fully open-source and accessible to all.
+              This openness invites collaboration and innovation,
+              with every contribution helping to shape the future of Nosana.
             </p>
-            <button class="button is-black is-medium mt-5" style="width: 100%">
-              Join now
-            </button>
+            <socials class="mb-4 pt-3" dark />
           </div>
           <div class="column is-8">
             <tweets-host />
@@ -300,27 +301,27 @@
     <section class="section py-6 bottom-c2a">
       <div class="container py-6">
         <h3 class="title is-1 pt-6">
-          Ready to Join the GPU Revolution?
+          Join Today!
         </h3>
         <h3 class="title is-2">
-          It takes less than 10 minutes to start earning with Nosana.
+          Whether you’re running GPUs in a qualified datacenter or have one at home, Nosana makes it simple to join.
         </h3>
         <div class="buttons is-flex mt-6 mb-6">
           <a
-            href="https://docs.nosana.io/nodes/grid.html"
+            href="https://docs.nosana.io/hosts/grid.html"
             target="_blank"
             class="button is-black is-medium mr-2"
             style="max-width: 350px; width: 100%"
           >
-            Sign Up Now
+            Become a Host
           </a>
           <a
             target="_blank"
-            href="https://docs.nosana.io/nodes/grid.html"
+            href="mailto: sales@nosana.io"
             class="button is-black is-outlined is-medium ml-2"
             style="max-width: 350px; width: 100%"
           >
-            Learn more
+            Contact Us
           </a>
         </div>
       </div>

@@ -248,13 +248,13 @@
                 </div>
               </div>
 
-              <nuxt-link
+              <!-- <nuxt-link
                 to="/clients/sogni"
                 class="has-text-accent has-text-weight-semibold is-size-5"
               >
                 Read the story
                 <i class="pl-1 fas fa-chevron-right" />
-              </nuxt-link>
+              </nuxt-link> -->
             </div>
           </div>
           <div class="column is-6">
