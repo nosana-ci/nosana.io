@@ -162,6 +162,7 @@
             :options="{
               enableScrollSpy: true,
               decimalPlaces: 0,
+              prefix: '$',
             }"
           />
           <span v-else>...</span>

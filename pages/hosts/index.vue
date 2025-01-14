@@ -118,7 +118,7 @@
                   :end-val="3000"
                   :options="{
                     enableScrollSpy: true,
-                    suffix: '+'
+                    suffix: '+',
                   }"
                 />
                 <span v-else>...</span>
@@ -216,7 +216,8 @@
                   class="has-color-text is-size-6 has-text-weight-normal pt-2"
                   style="line-height: 25px"
                 >
-                  Get paid for every second your GPUs are used by Nosana Clients.
+                  Get paid for every second your GPUs are used by Nosana
+                  Clients.
                 </p>
               </li>
               <li data-aos="fade-in">
@@ -241,16 +242,15 @@
             </a>
           </div>
           <div
-            class="column is-8 iframe-column is-flex has-justify-content-center p-6"
+            class="column is-7 iframe-column is-flex has-justify-content-center p-6"
           >
             <iframe
-              src="https://www.youtube-nocookie.com/embed/36HUBr4i1ZA?si=kP4bBc-OI7kxmlAc"
+              src="https://drive.google.com/file/d/1Kt34cufsZs3zKuXbkhgRB59TBp1ulriS/preview"
               title="Nosana"
               frameborder="0"
               allow="accelerometer; autoplay; clipboard-write;
               encrypted-media; gyroscope; picture-in-picture; web-share"
               referrerpolicy="strict-origin-when-cross-origin"
-              allowfullscreen
             />
           </div>
         </div>

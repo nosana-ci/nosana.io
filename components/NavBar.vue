@@ -51,7 +51,7 @@
                 <nuxt-link class="navbar-item" to="/clients" exact-active-class="is-active">
                   Deploy AI workloads
                 </nuxt-link>
-                <a href="https://explorer.nosana.io/" target="_blank" class="navbar-item">
+                <a href="https://dashboard.nosana.com/" target="_blank" class="navbar-item">
                   <span>Explorer</span>
                 </a>
               </div>
@@ -70,7 +70,7 @@
                 <nuxt-link class="navbar-item" to="/token" exact-active-class="is-active">
                   $NOS Token
                 </nuxt-link>
-                <a href="https://explorer.nosana.io/stake/" target="_blank" class="navbar-item">
+                <a href="https://dashboard.nosana.com/stake/" target="_blank" class="navbar-item">
                   <span>Staking</span>
                 </a>
               </div>

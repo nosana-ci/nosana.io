@@ -33,12 +33,12 @@
       <div class="container mb-6 pb-6">
         <div class="columns mt-6 pt-6">
           <div class="column is-4" data-aos="fade-in">
-            <div class="is-flex mb-5">
+            <div class="is-flex mb-5 is-align-items-center">
               <div
-                class="mr-3 grey-title-block"
-                style="flex: 0 0 90px; width: 90px; background-color: #f7f7f7"
+                class="mr-3 grey-title-block has-radius p-2 is-flex is-align-items-center is-justify-content-center"
+                style="flex: 0 0 80px; background-color: #f9f9f9"
               >
-                &nbsp;
+                <img style="width: 100%; height: auto;" src="~assets/img/icons/seamless.png">
               </div>
               <h3 class="title is-2 py-4">
                 Seamless
@@ -54,12 +54,12 @@
             </p>
           </div>
           <div class="column is-4" data-aos="fade-in" data-aos-delay="100">
-            <div class="is-flex mb-5">
+            <div class="is-flex mb-5 is-align-items-center">
               <div
-                class="mr-3 grey-title-block flex-1"
-                style="flex: 0 0 90px; background-color: #f7f7f7"
+                class="mr-3 grey-title-block has-radius is-flex p-2 is-align-items-center is-justify-content-center"
+                style="flex: 0 0 80px; background-color: #f9f9f9;"
               >
-                &nbsp;
+                <img style="width: 100%; height: auto;" src="~assets/img/icons/on-demand.png">
               </div>
               <h3 class="title is-2 py-4">
                 On-Demand
@@ -71,12 +71,12 @@
             </p>
           </div>
           <div class="column is-4" data-aos="fade-in" data-aos-delay="200">
-            <div class="is-flex mb-5">
+            <div class="is-flex mb-5 is-align-items-center">
               <div
-                class="mr-3 grey-title-block"
-                style="flex: 0 0 90px; width: 90px; background-color: #f7f7f7"
+                class="mr-3 grey-title-block has-radius p-2 is-flex is-align-items-center is-justify-content-center"
+                style="flex: 0 0 80px; background-color: #f9f9f9"
               >
-                &nbsp;
+                <img style="width: 100%; height: auto;" src="~assets/img/icons/cost-efficient.png">
               </div>
               <h3 class="title is-2 py-4">
                 Cost-Efficient
@@ -104,16 +104,17 @@
           </div>
           <div class="column is-5">
             <h3 class="title is-2 has-text-white">
-              How Nosana works
+              How Nosana Works
             </h3>
             <h4 class="title is-3 has-text-white">
-              Everything you need to build and scale
+              Everything You Need to Build and Scale
             </h4>
             <p class="mb-5 is-size-4">
-              There has never been a more exciting time in technology. We are
-              experiencing one of the most significant shifts in history, where
-              AI is creating entirely new ways to solve problems, engage
-              customers, and work more efficiently.
+              We’re at the forefront of a technological revolution.
+              AI is transforming the way we solve problems, connect with customers, and
+              increase efficiency—pushing the boundaries of what’s possible.
+              Nosana is here to provide the tools and infrastructure you need to build, scale,
+              and thrive in this new era of innovation.
             </p>
             <a
               href="mailto: sales@nosana.io"
