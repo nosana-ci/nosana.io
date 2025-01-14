@@ -94,14 +94,14 @@
                 </nuxt-link>
               </div>
             </div>
-            <!-- <div class="navbar-item" @click="mobileMenu = false">
+            <div class="navbar-item" @click="mobileMenu = false">
               <a
-                href="https://calendar.app.google/4VdsFrfyzukV5mbD6"
+                href="https://dashboard.nosana.com/"
                 target="_blank"
                 class="button is-secondary is-size-6">
-                Book a Demo
+                Dashboard
               </a>
-            </div> -->
+            </div>
           </div>
         </div>
       </div>

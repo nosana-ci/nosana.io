@@ -8,7 +8,7 @@
       <div class="column is-half">
         <div class="field is-fullwidth mb-6">
           <label class="label">What <b>GPU type</b> you have?</label>
-          <div class="control is-fullwidth" v-if="gpuPrices">
+          <div v-if="gpuPrices" class="control is-fullwidth">
             <div class="select is-fullwidth">
               <select v-model="selectedGpu">
                 <option
@@ -48,7 +48,7 @@
               <li>Minimum internet connection: 100MB/s download and 50MB/s upload</li>
               <li>RAM: 12GB+</li>
               <li>Storage: 256GB+ SSD</li>
-              <li>One of the following NVIDIA GPUs: todo see list</li>
+              <li>One of the following NVIDIA GPUs: <a @click="gpuListModal = true">see list</a></li>
             </ul>
           </p>
         </div>
@@ -96,6 +96,29 @@
         </div>
       </div>
     </div>
+    <!-- Get Started modal -->
+    <div class="modal" :class="{ 'is-active': gpuListModal }">
+      <div class="modal-background" @click="gpuListModal = false" />
+      <div class="modal-card">
+        <header class="modal-card-head">
+          <p class="modal-card-title">Supported GPU Types</p>
+          <button class="delete" aria-label="close" @click="gpuListModal = false"></button>
+        </header>
+        <section class="modal-card-body">
+          <div class="is-flex is-flex-wrap-wrap">
+            <div v-for="gpu in gpuTypes" v-bind:key="gpu" class="gpu-type">
+              {{ gpu }}
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+    <!-- Calendly inline widget end -->
+    <button
+      class="modal-close is-large"
+      aria-label="close"
+      @click="gpuListModal = false"
+    />
   </div>
 </template>
 
@@ -111,7 +134,32 @@ export default {
     return {
       gpuPrices: null,
       selectedGpu: 'NVIDIA GeForce RTX 4090',
-      availableHours: 0
+      availableHours: 0,
+      gpuListModal: false,
+      gpuTypes: [
+        'NVIDIA RTX 4090',
+        'NVIDIA RTX 4080',
+        'NVIDIA RTX 4070 Ti',
+        'NVIDIA RTX 4070',
+        'NVIDIA RTX 4060 Ti',
+        'NVIDIA RTX 4060',
+        'NVIDA RTX 3090 Ti',
+        'NVIDA RTX 3090',
+        'NVIDA RTX 3080 Ti',
+        'NVIDA RTX 3080',
+        'NVIDIA RTX 3070 Ti',
+        'NVIDIA RTX 3070',
+        'NVIDIA RTX 3060 Ti',
+        'NVIDIA RTX 3060',
+        'NVIDIA RTX A4000',
+        'NVIDIA RTX A4500',
+        'NVIDIA RTX A5000',
+        'NVIDIA RTX A5500',
+        'NVIDIA RTX A6000',
+        'NVIDIA A100',
+        'NVIDIA A40',
+        'NVIDIA H100'
+      ]
     };
   },
   computed: {
@@ -169,7 +217,16 @@ export default {
 };
 </script>
 
-<style scoped>
+<style scoped lang="scss">
+.modal-card-head {
+  border-bottom: 0;
+}
+.gpu-type {
+  width: 100%;
+  display: block;
+  padding: 10px 5px;
+  border-bottom: 1px solid #D9D9D9;
+}
 .slider {
   width: 100%;
 }

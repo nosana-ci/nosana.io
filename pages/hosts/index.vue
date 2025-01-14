@@ -113,15 +113,15 @@
                 GPUs Connected
               </div>
               <h4 class="title is-2 pt-2 is-flex mb-1">
-                todo
-                <!-- <ICountUp
+                <ICountUp
                   v-if="true"
-                  :end-val="0"
+                  :end-val="3000"
                   :options="{
                     enableScrollSpy: true,
+                    suffix: '+'
                   }"
                 />
-                <span v-else>...</span> -->
+                <span v-else>...</span>
               </h4>
             </div>
           </div>
@@ -150,12 +150,12 @@
               </div>
               <h4 class="title is-2 pt-2 is-flex mb-1">
                 <ICountUp
-                  v-if="valueEarned && nosPrice"
-                  :end-val="valueEarned * nosPrice"
+                  v-if="valueEarned"
+                  :end-val="valueEarned"
                   :options="{
                     enableScrollSpy: true,
                     decimalPlaces: 0,
-                    prefix: '$',
+                    suffix: ' NOS',
                   }"
                 />
                 <span v-else>...</span>

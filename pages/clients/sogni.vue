@@ -62,7 +62,7 @@
     <section class="section py-6 has-background-grey-lighter network-summary">
       <div class="container py-6 mb-6">
         <h3 class="title is-3 pt-3 mb-6">
-          Nosana Results after the first 8 weeks:
+          Nosana Results:
         </h3>
         <div class="columns is-multiline">
           <div class="is-4 column" data-aos="fade-in">
