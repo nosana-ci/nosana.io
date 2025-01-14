@@ -28,13 +28,13 @@
           <div class="control">
             <input
               v-model="availableHours"
-              class="slider"
+              class="slider has-output-tooltip"
               type="range"
               min="0"
               max="744"
             >
           </div>
-          <p>{{ availableHours }} hours</p>
+          <p style="margin-top: -5px;" class="has-text-centered">{{ availableHours }} hours</p>
         </div>
 
         <div>
@@ -218,6 +218,9 @@ export default {
 </script>
 
 <style scoped lang="scss">
+input[type="range"] {
+  accent-color: black;
+}
 .modal-card-head {
   border-bottom: 0;
 }

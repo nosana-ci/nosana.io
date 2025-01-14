@@ -37,7 +37,7 @@
 
         <div class="field pt-2">
           <label class="label mb-3">How many <b>days / hours</b> do you need?</label>
-          <div class="is-flex">
+          <div class="is-flex is-align-items-baseline">
             <div
               class="control mr-5 is-flex is-align-items-center"
               style="width: 200px"
@@ -55,7 +55,6 @@
             </div>
             <div class="control" style="width: 100%">
               <div class="field">
-                <p>{{ amount }} {{ durationType }}</p>
                 <input
                   v-model.number="amount"
                   class="slider"
@@ -63,6 +62,7 @@
                   min="1"
                   :max="durationType === 'hours' ? 24 : 30"
                 >
+                <p style="margin-top: -5px;" class="has-text-centered">{{ amount }} {{ durationType }}</p>
               </div>
             </div>
           </div>
@@ -177,5 +177,8 @@ export default {
 <style scoped lang="scss">
 .slider {
   width: 100%;
+}
+input[type="range"] {
+  accent-color: black;
 }
 </style>

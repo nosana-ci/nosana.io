@@ -18,8 +18,8 @@
                 <button
                   class="button is-black is-medium"
                   style="max-width: 350px; width: 100%"
-                  @click="getStartedModal = true"
                   data-aos="fade-in"
+                  @click="getStartedModal = true"
                 >
                   Get Started for Free
                 </button>
@@ -96,13 +96,10 @@
         <div class="columns py-6 is-align-items-center">
           <div class="column is-7 is-flex has-justify-content-center">
             <iframe
-              src="https://www.youtube-nocookie.com/embed/36HUBr4i1ZA?si=kP4bBc-OI7kxmlAc"
-              title="Nosana"
-              frameborder="0"
+              src="https://drive.google.com/file/d/1GDH2OR21X6jhzxY7qg17UuTqKe6d5MEW/preview"
               allow="accelerometer; autoplay; clipboard-write;
               encrypted-media; gyroscope; picture-in-picture; web-share"
               referrerpolicy="strict-origin-when-cross-origin"
-              allowfullscreen
             />
           </div>
           <div class="column is-5">
@@ -271,12 +268,16 @@
       </div>
     </section>
 
-    <section class="section py-6 has-background-grey-lighter">
+    <section class="section py-6 bottom-section has-background-grey-lighter">
       <div class="container py-6 mb-6 has-text-centered">
         <h3 class="title is-2 pt-3 mb-2" data-aos="fade-in">
           Start shaping the future with Nosana, today.
         </h3>
-        <h3 class="title is-3 mb-0 has-text-weight-semibold" data-aos="fade-in" data-aos-delay="100">
+        <h3
+          class="title is-3 mb-0 has-text-weight-semibold"
+          data-aos="fade-in"
+          data-aos-delay="100"
+        >
           No Limits. Only Possibilities.
         </h3>
         <div class="buttons is-flex is-justify-content-center mt-6">
@@ -421,6 +422,9 @@ export default {
   }
   button {
     margin: 0 !important;
+  }
+  .bottom-section button {
+    margin-bottom: 0.3rem !important;
   }
 }
 iframe {
