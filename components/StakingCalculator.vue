@@ -16,7 +16,7 @@
             decentralized computing revolution with Nosana.
           </p>
           <a
-            href="https://explorer.nosana.io/stake/"
+            href="https://dashboard.nosana.com/stake/"
             target="_blank"
             class="has-text-accent has-text-weight-semibold"
           >

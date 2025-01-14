@@ -12,17 +12,14 @@
               Start Earning with Your GPUs
             </h3>
             <h4 class="title is-3 has-text-white">
-              Rent out your unused compute and earn while supporting the future
-              of AI innovation.
+              List your idle GPUs and earn while supporting the future of AI innovation.
             </h4>
             <p class="mb-5 is-4 is-size-5" style="color: #ccc;">
-              Join Nosana’s global network and turn your idle hardware into a
-              valuable asset, supporting cutting-edge AI projects while earning
-              revenue. Seamless integration and flexible options make it easy to
-              start.
+              Join Nosana’s global network and unlock a new income opportunity with your GPU hardware.
+              We connect you with clients and offer easy-to-use tools to simplify hosting.
             </p>
-            <nuxt-link to="/compute" class="has-text-accent">
-              Start Earning <i class="pl-1 fas fa-chevron-right" />
+            <nuxt-link to="/hosts" class="has-text-accent">
+              Start Hosting <i class="pl-1 fas fa-chevron-right" />
             </nuxt-link>
           </div>
           <div class="column is-6" data-aos="fade-left">
@@ -39,7 +36,7 @@
               tasks efficiently. Focus on your innovations without the burden of
               managing infrastructure.
             </p>
-            <nuxt-link to="/compute" class="has-text-accent">
+            <nuxt-link to="/clients" class="has-text-accent">
               Get Started <i class="pl-1 fas fa-chevron-right" />
             </nuxt-link>
           </div>
@@ -49,7 +46,7 @@
     <section class="section py-6">
       <div class="container py-6 mb-6">
         <h3 class="title is-2 py-6 mb-6">
-          On-Demand Compute for Everyone<br>
+          On-Demand GPU Compute for Everyone<br>
           From AI Startups and Research Labs to Grad Students
         </h3>
         <div class="columns is-multiline">
@@ -106,10 +103,10 @@
           </div>
           <div class="is-4 mt-6 column is-flex is-align-items-center">
             <nuxt-link
-              to="/team"
+              to="/clients"
               class="has-text-accent has-text-weight-semibold is-size-5"
             >
-              More about Nosana <i class="pl-1 fas fa-chevron-right" />
+              Deploy AI Workloads <i class="pl-1 fas fa-chevron-right" />
             </nuxt-link>
           </div>
         </div>

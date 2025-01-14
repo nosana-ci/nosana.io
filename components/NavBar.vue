@@ -42,13 +42,16 @@
                 class="navbar-link is-arrowless"
                 exact-active-class="is-active"
               >
-                <div>Product</div>
+                <div>GPU Marketplace</div>
               </a>
               <div class="navbar-dropdown is-boxed">
-                <nuxt-link class="navbar-item" to="/compute" exact-active-class="is-active">
-                  Compute Marketplace
+                <nuxt-link class="navbar-item" to="/hosts" exact-active-class="is-active">
+                  Become a GPU host
                 </nuxt-link>
-                <a href="https://explorer.nosana.io/" target="_blank" class="navbar-item">
+                <nuxt-link class="navbar-item" to="/clients" exact-active-class="is-active">
+                  Deploy AI workloads
+                </nuxt-link>
+                <a href="https://dashboard.nosana.com/" target="_blank" class="navbar-item">
                   <span>Explorer</span>
                 </a>
               </div>
@@ -67,7 +70,7 @@
                 <nuxt-link class="navbar-item" to="/token" exact-active-class="is-active">
                   $NOS Token
                 </nuxt-link>
-                <a href="https://explorer.nosana.io/stake/" target="_blank" class="navbar-item">
+                <a href="https://dashboard.nosana.com/stake/" target="_blank" class="navbar-item">
                   <span>Staking</span>
                 </a>
               </div>
@@ -91,14 +94,14 @@
                 </nuxt-link>
               </div>
             </div>
-            <!-- <div class="navbar-item" @click="mobileMenu = false">
+            <div class="navbar-item" @click="mobileMenu = false">
               <a
-                href="https://calendar.app.google/4VdsFrfyzukV5mbD6"
+                href="https://dashboard.nosana.com/"
                 target="_blank"
                 class="button is-secondary is-size-6">
-                Book a Demo
+                Dashboard
               </a>
-            </div> -->
+            </div>
           </div>
         </div>
       </div>
