@@ -79,7 +79,7 @@
             </h4>
             <p class="is-size-5">
               With dynamic pricing and job-matching, scale compute resources
-              easily, while GPU providers effortlessly monetize their hardware.
+              easily, while Hosts effortlessly monetize their hardware.
               Ideal for any business size.
             </p>
           </div>
