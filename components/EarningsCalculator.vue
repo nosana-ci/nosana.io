@@ -111,14 +111,14 @@
             </div>
           </div>
         </section>
+        <button
+          class="modal-close is-large"
+          aria-label="close"
+          @click="gpuListModal = false"
+        />
       </div>
     </div>
     <!-- Calendly inline widget end -->
-    <button
-      class="modal-close is-large"
-      aria-label="close"
-      @click="gpuListModal = false"
-    />
   </div>
 </template>
 

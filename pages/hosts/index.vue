@@ -245,11 +245,9 @@
             class="column is-7 iframe-column is-flex has-justify-content-center p-6"
           >
             <iframe
-              src="https://drive.google.com/file/d/1Kt34cufsZs3zKuXbkhgRB59TBp1ulriS/preview"
-              title="Nosana"
+              src="https://www.youtube-nocookie.com/embed/RVik-mh0wWY"
               frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write;
-              encrypted-media; gyroscope; picture-in-picture; web-share"
+              allow="accelerometer; autoplay; encrypted-media; gyroscope;"
               referrerpolicy="strict-origin-when-cross-origin"
             />
           </div>
@@ -284,10 +282,11 @@
               Nosana Community
             </h3>
             <p class="mb-5 is-size-4">
-              Nosana is powered by a dynamic and open community.
-              As a public service, our network’s source code is fully open-source and accessible to all.
-              This openness invites collaboration and innovation,
-              with every contribution helping to shape the future of Nosana.
+              Nosana is powered by a dynamic and open community. As a public
+              service, our network’s source code is fully open-source and
+              accessible to all. This openness invites collaboration and
+              innovation, with every contribution helping to shape the future of
+              Nosana.
             </p>
             <socials class="mb-4 pt-3" dark />
           </div>
@@ -304,7 +303,8 @@
           Join Today!
         </h3>
         <h3 class="title is-2">
-          Whether you’re running GPUs in a qualified datacenter or have one at home, Nosana makes it simple to join.
+          Whether you’re running GPUs in a qualified datacenter or have one at
+          home, Nosana makes it simple to join.
         </h3>
         <div class="buttons is-flex mt-6 mb-6">
           <a

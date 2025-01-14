@@ -37,26 +37,28 @@
         >
           <div class="navbar-start" />
           <div class="navbar-end is-align-items-center">
-            <div class="navbar-item has-dropdown is-hoverable" @click="mobileMenu = false">
-              <a
+            <div class="navbar-item is-hoverable" @click="mobileMenu = false">
+              <nuxt-link
                 class="navbar-link is-arrowless"
+                to="/hosts"
                 exact-active-class="is-active"
               >
-                <div>GPU Marketplace</div>
-              </a>
-              <div class="navbar-dropdown is-boxed">
-                <nuxt-link class="navbar-item" to="/hosts" exact-active-class="is-active">
-                  Become a GPU host
-                </nuxt-link>
-                <nuxt-link class="navbar-item" to="/clients" exact-active-class="is-active">
-                  Deploy AI workloads
-                </nuxt-link>
-                <!-- <a href="https://dashboard.nosana.com/" target="_blank" class="navbar-item">
-                  <span>Explorer</span>
-                </a> -->
-              </div>
+                <div>Hosting</div>
+              </nuxt-link>
             </div>
-            <div class="navbar-item has-dropdown is-hoverable" @click="mobileMenu = false">
+            <div class="navbar-item" @click="mobileMenu = false">
+              <nuxt-link
+                class="navbar-link is-arrowless"
+                to="/clients"
+                exact-active-class="is-active"
+              >
+                <div>Deploy AI Workloads</div>
+              </nuxt-link>
+            </div>
+            <div
+              class="navbar-item has-dropdown is-hoverable"
+              @click="mobileMenu = false"
+            >
               <a
                 class="navbar-link is-arrowless"
                 exact-active-class="is-active"
@@ -64,18 +66,33 @@
                 <div>Network</div>
               </a>
               <div class="navbar-dropdown is-boxed">
-                <nuxt-link class="navbar-item" to="/team" exact-active-class="is-active">
+                <nuxt-link
+                  class="navbar-item"
+                  to="/team"
+                  exact-active-class="is-active"
+                >
                   About Nosana
                 </nuxt-link>
-                <nuxt-link class="navbar-item" to="/token" exact-active-class="is-active">
+                <nuxt-link
+                  class="navbar-item"
+                  to="/token"
+                  exact-active-class="is-active"
+                >
                   $NOS Token
                 </nuxt-link>
-                <a href="https://dashboard.nosana.com/stake/" target="_blank" class="navbar-item">
+                <a
+                  href="https://dashboard.nosana.com/stake/"
+                  target="_blank"
+                  class="navbar-item"
+                >
                   <span>Staking</span>
                 </a>
               </div>
             </div>
-            <div class="navbar-item has-dropdown is-hoverable" @click="mobileMenu = false">
+            <div
+              class="navbar-item has-dropdown is-hoverable"
+              @click="mobileMenu = false"
+            >
               <a class="navbar-link is-arrowless">
                 <div>Resources</div>
               </a>
@@ -83,13 +100,25 @@
                 <a href="https://docs.nosana.com" class="navbar-item">
                   <span>Docs</span>
                 </a>
-                <nuxt-link class="navbar-item" to="/blog" exact-active-class="is-active">
+                <nuxt-link
+                  class="navbar-item"
+                  to="/blog"
+                  exact-active-class="is-active"
+                >
                   <span>Blog</span>
                 </nuxt-link>
-                <nuxt-link class="navbar-item" to="/support" exact-active-class="is-active">
+                <nuxt-link
+                  class="navbar-item"
+                  to="/support"
+                  exact-active-class="is-active"
+                >
                   <span>Support</span>
                 </nuxt-link>
-                <nuxt-link class="navbar-item" to="/brand" exact-active-class="is-active">
+                <nuxt-link
+                  class="navbar-item"
+                  to="/brand"
+                  exact-active-class="is-active"
+                >
                   <span>Brand Assets</span>
                 </nuxt-link>
               </div>
@@ -98,7 +127,8 @@
               <a
                 href="https://dashboard.nosana.com/"
                 target="_blank"
-                class="button is-secondary is-size-6">
+                class="button is-secondary is-size-6"
+              >
                 Dashboard
               </a>
             </div>
@@ -200,6 +230,13 @@ export default {
   .navbar-menu {
     .navbar-item .navbar-link {
       color: #fff;
+      &:focus {
+        background: transparent;
+      }
+      &.is-active {
+        background: transparent;
+        text-decoration: underline;
+      }
     }
   }
 }
@@ -215,21 +252,23 @@ export default {
           color: black;
         }
         .navbar-dropdown {
-            .navbar-item {
-              &:hover {
-                background-color: $grey;
-              }
+          .navbar-item {
+            &:hover {
+              background-color: $grey;
             }
+          }
         }
       }
     }
   }
 }
 @media screen and (min-width: 1024px) {
-  .navbar > .container .navbar-brand, .container > .navbar .navbar-brand {
+  .navbar > .container .navbar-brand,
+  .container > .navbar .navbar-brand {
     margin-left: 0;
   }
-  .navbar > .container .navbar-menu, .container > .navbar .navbar-menu {
+  .navbar > .container .navbar-menu,
+  .container > .navbar .navbar-menu {
     margin-right: 0;
   }
   .navbar .navbar-menu .navbar-item {

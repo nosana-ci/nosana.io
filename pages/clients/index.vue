@@ -125,15 +125,14 @@
               Nosana is here to provide the tools and infrastructure you need to
               build, scale, and thrive in this new era of innovation.
             </p>
-            <a
-              href="mailto: sales@nosana.io"
-              target="_blank"
+            <button
               class="button is-white is-medium"
               style="max-width: 350px; width: 100%"
               data-aos="fade-in"
+              @click="requestDemoModal = true"
             >
-              Contact us for a demo
-            </a>
+              Request a Demo
+            </button>
           </div>
         </div>
       </div>
@@ -305,7 +304,7 @@
             style="max-width: 300px; width: 100%"
             @click="requestDemoModal = true"
           >
-            Request Demo
+            Request a Demo
           </button>
         </div>
       </div>
