@@ -22,7 +22,7 @@
               </p>
               <div class="buttons is-flex is-justify-content-center mt-6">
                 <a
-                  href="https://docs.nosana.io/hosts/grid.html"
+                  href="https://docs.nosana.com/hosts/grid.html"
                   target="_blank"
                   class="button is-white is-medium mr-2"
                   style="max-width: 350px; width: 100%"
@@ -89,7 +89,7 @@
           </div>
           <div class="is-4 mt-6 column is-flex is-align-items-center">
             <a
-              href="https://docs.nosana.io/hosts/grid.html"
+              href="https://docs.nosana.com/hosts/grid.html"
               target="_blank"
               class="button is-white is-medium mr-2"
               style="width: 100%"
@@ -232,7 +232,7 @@
             </ol>
 
             <a
-              href="https://docs.nosana.io/hosts/grid.html"
+              href="https://docs.nosana.com/hosts/grid.html"
               target="_blank"
               class="button is-black is-medium mt-5"
               style="width: 100%"
@@ -308,7 +308,7 @@
         </h3>
         <div class="buttons is-flex mt-6 mb-6">
           <a
-            href="https://docs.nosana.io/hosts/grid.html"
+            href="https://docs.nosana.com/hosts/grid.html"
             target="_blank"
             class="button is-black is-medium mr-2"
             style="max-width: 350px; width: 100%"

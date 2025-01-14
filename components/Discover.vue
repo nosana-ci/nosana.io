@@ -42,7 +42,7 @@
           to="/blog"
           class="has-text-accent has-text-weight-semibold is-size-5"
         >
-          More blog posts <i class="pl-1 fas fa-chevron-right" />
+          More Posts <i class="pl-1 fas fa-chevron-right" />
         </nuxt-link>
       </div>
     </div>

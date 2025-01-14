@@ -21,7 +21,7 @@
     <div class="is-3 column">
       <div class="has-background-white p-5">
         <div class="has-text-grey-light mt-1">
-          USD value staked
+          USD Value Staked
         </div>
         <h4 class="title is-2 pt-2 is-flex mb-1">
           <ICountUp

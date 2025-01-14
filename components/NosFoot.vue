@@ -36,7 +36,7 @@
                   >
                     <div>Deploy AI workloads</div>
                   </nuxt-link>
-                  <a
+                  <!-- <a
                     target="_blank"
                     href="https://dashboard.nosana.com/"
                     class="navbar-item"
@@ -44,7 +44,7 @@
                     exact-active-class="is-active"
                   >
                     <div>Explorer</div>
-                  </a>
+                  </a> -->
                 </div>
                 <div class="column is-4">
                   <h4 class="title is-4 mb-3 has-text-white">

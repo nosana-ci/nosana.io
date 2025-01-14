@@ -12,7 +12,7 @@
             <div class="py-2">
               <p class="block is-size-3" style="margin: 0 auto">
                 Focus more on running ML models and less on managing
-                infrastructure with seamless GPU workload deployment.
+                infrastructure with seamless GPU workload deployments.
               </p>
               <div class="buttons is-flex is-justify-content-center mt-6">
                 <button
@@ -38,7 +38,10 @@
                 class="mr-3 grey-title-block has-radius p-2 is-flex is-align-items-center is-justify-content-center"
                 style="flex: 0 0 80px; background-color: #f9f9f9"
               >
-                <img style="width: 100%; height: auto;" src="~assets/img/icons/seamless.png">
+                <img
+                  style="width: 100%; height: auto"
+                  src="~assets/img/icons/seamless.png"
+                >
               </div>
               <h3 class="title is-2 py-4">
                 Seamless
@@ -57,9 +60,12 @@
             <div class="is-flex mb-5 is-align-items-center">
               <div
                 class="mr-3 grey-title-block has-radius is-flex p-2 is-align-items-center is-justify-content-center"
-                style="flex: 0 0 80px; background-color: #f9f9f9;"
+                style="flex: 0 0 80px; background-color: #f9f9f9"
               >
-                <img style="width: 100%; height: auto;" src="~assets/img/icons/on-demand.png">
+                <img
+                  style="width: 100%; height: auto"
+                  src="~assets/img/icons/on-demand.png"
+                >
               </div>
               <h3 class="title is-2 py-4">
                 On-Demand
@@ -76,7 +82,10 @@
                 class="mr-3 grey-title-block has-radius p-2 is-flex is-align-items-center is-justify-content-center"
                 style="flex: 0 0 80px; background-color: #f9f9f9"
               >
-                <img style="width: 100%; height: auto;" src="~assets/img/icons/cost-efficient.png">
+                <img
+                  style="width: 100%; height: auto"
+                  src="~assets/img/icons/cost-efficient.png"
+                >
               </div>
               <h3 class="title is-2 py-4">
                 Cost-Efficient
@@ -96,9 +105,9 @@
         <div class="columns py-6 is-align-items-center">
           <div class="column is-7 is-flex has-justify-content-center">
             <iframe
-              src="https://drive.google.com/file/d/1GDH2OR21X6jhzxY7qg17UuTqKe6d5MEW/preview"
-              allow="accelerometer; autoplay; clipboard-write;
-              encrypted-media; gyroscope; picture-in-picture; web-share"
+              src="https://www.youtube-nocookie.com/embed/uu3NmxldpWQ"
+              frameborder="0"
+              allow="accelerometer; autoplay; encrypted-media; gyroscope;"
               referrerpolicy="strict-origin-when-cross-origin"
             />
           </div>
@@ -110,11 +119,11 @@
               Everything You Need to Build and Scale
             </h4>
             <p class="mb-5 is-size-4">
-              We’re at the forefront of a technological revolution.
-              AI is transforming the way we solve problems, connect with customers, and
-              increase efficiency—pushing the boundaries of what’s possible.
-              Nosana is here to provide the tools and infrastructure you need to build, scale,
-              and thrive in this new era of innovation.
+              We’re at the forefront of a technological revolution. AI is
+              transforming the way we solve problems, connect with customers,
+              and increase efficiency—pushing the boundaries of what’s possible.
+              Nosana is here to provide the tools and infrastructure you need to
+              build, scale, and thrive in this new era of innovation.
             </p>
             <a
               href="mailto: sales@nosana.io"

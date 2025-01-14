@@ -51,9 +51,9 @@
                 <nuxt-link class="navbar-item" to="/clients" exact-active-class="is-active">
                   Deploy AI workloads
                 </nuxt-link>
-                <a href="https://dashboard.nosana.com/" target="_blank" class="navbar-item">
+                <!-- <a href="https://dashboard.nosana.com/" target="_blank" class="navbar-item">
                   <span>Explorer</span>
-                </a>
+                </a> -->
               </div>
             </div>
             <div class="navbar-item has-dropdown is-hoverable" @click="mobileMenu = false">
