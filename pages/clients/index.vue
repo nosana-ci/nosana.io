@@ -19,6 +19,7 @@
                   class="button is-black is-medium"
                   style="max-width: 350px; width: 100%"
                   @click="getStartedModal = true"
+                  data-aos="fade-in"
                 >
                   Get Started for Free
                 </button>
@@ -117,12 +118,15 @@
               AI is creating entirely new ways to solve problems, engage
               customers, and work more efficiently.
             </p>
-            <button
+            <a
+              href="mailto: sales@nosana.io"
+              target="_blank"
               class="button is-white is-medium"
               style="max-width: 350px; width: 100%"
+              data-aos="fade-in"
             >
               Contact us for a demo
-            </button>
+            </a>
           </div>
         </div>
       </div>
@@ -174,7 +178,7 @@
         <p>Estimate your costs by selecting the resources you need.</p>
 
         <div class="has-background-white has-radius mt-6 p-5">
-          <PriceCalculator />
+          <PriceCalculator data-aos="fade-in" />
         </div>
       </div>
     </section>
@@ -194,6 +198,7 @@
               <p>Use case</p>
               <img
                 src="~/assets/img/sogni-logo.svg"
+                data-aos="fade-in"
                 alt="Sogni"
                 class="mt-3 mb-5"
               >
@@ -209,7 +214,7 @@
               </p>
 
               <div class="columns my-5">
-                <div class="is-6 column">
+                <div class="is-6 column" data-aos="fade-right">
                   <div class="has-background-grey-lighter p-5">
                     <div class="has-text-grey-light mt-1">
                       Generated Images
@@ -224,7 +229,7 @@
                     </h4>
                   </div>
                 </div>
-                <div class="is-6 column">
+                <div class="is-6 column" data-aos="fade-left">
                   <div class="has-background-grey-lighter p-5">
                     <div class="has-text-grey-light mt-1">
                       Compute hours provided
@@ -256,6 +261,7 @@
               class="has-radius-big"
               src="~/assets/img/sogni-graphic.jpeg"
               alt="Sogni Graphic"
+              data-aos="fade-in"
             >
           </div>
         </div>
@@ -264,21 +270,23 @@
 
     <section class="section py-6 has-background-grey-lighter">
       <div class="container py-6 mb-6 has-text-centered">
-        <h3 class="title is-2 pt-3 mb-2">
+        <h3 class="title is-2 pt-3 mb-2" data-aos="fade-in">
           Start shaping the future with Nosana, today.
         </h3>
-        <h3 class="title is-3 mb-0 has-text-weight-semibold">
+        <h3 class="title is-3 mb-0 has-text-weight-semibold" data-aos="fade-in" data-aos-delay="100">
           No Limits. Only Possibilities.
         </h3>
         <div class="buttons is-flex is-justify-content-center mt-6">
           <button
             class="button is-black is-medium mr-3"
+            data-aos="fade-right"
             style="max-width: 300px; width: 100%"
             @click="getStartedModal = true"
           >
             Get Started for Free
           </button>
           <button
+            data-aos="fade-left"
             class="button is-black is-medium ml-3"
             style="max-width: 300px; width: 100%"
             @click="requestDemoModal = true"

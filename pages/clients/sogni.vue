@@ -30,6 +30,7 @@
               <button
                 class="button is-white is-medium mt-5"
                 style="max-width: 390px; width: 100%"
+                data-aos="fade-in"
               >
                 Get started with Nosana
               </button>
@@ -135,7 +136,7 @@
     <section class="section py-6">
       <div class="container py-6 my-6">
         <div class="columns is-centered">
-          <div class="column is-5">
+          <div class="column is-5" data-aos="fade-left">
             <h4 class="title is-4">
               AI Inference at Scale
             </h4>
@@ -149,7 +150,7 @@
               the ever changing requirements.
             </p>
           </div>
-          <div class="column is-5">
+          <div class="column is-5" data-aos="fade-right">
             <p class="is-size-3 mb-5 has-text-weight-semibold has-text-black">
               "Using Nosana, we not only reduced costs but also gained the
               ability to handle peak computational loads without sacrificing
@@ -168,43 +169,46 @@
             <h4 class="title is-2 mb-6">
               Challenges Faced By Sogni AI
             </h4>
-            <h4 class="title is-4">
+            <h4 class="title is-4" data-aos="fade-in">
               High Costs of Cloud GPU Services
             </h4>
-            <p>
+            <p data-aos="fade-in">
               Cloud Compute only provides access to high end GPUs which have
               been show to be over kill for image generation, driving up
               operational expenses.
             </p>
             <hr
+              data-aos="fade-in"
               style="
                 background-color: #999999;
                 height: 1px;
                 margin: 2.5rem 0px !important;
               "
             >
-            <h4 class="title is-4">
+            <h4 class="title is-4" data-aos="fade-in">
               Scaling Limitations
             </h4>
-            <p>
+            <p data-aos="fade-in">
               Traditional solutions are challenging for GPUs quick GPU scaling
               due to the storage requirments.
             </p>
             <hr
+              data-aos="fade-in"
               style="
                 background-color: #999999;
                 height: 1px;
                 margin: 2.5rem 0px !important;
               "
             >
-            <h4 class="title is-4">
+            <h4 class="title is-4" data-aos="fade-in">
               Inefficiencies in Utilization
             </h4>
-            <p>
+            <p data-aos="fade-in">
               Sogni AI often faced underutilised resources or bottlenecks in its
               pipelines.
             </p>
             <hr
+              data-aos="fade-in"
               style="
                 background-color: #999999;
                 height: 1px;

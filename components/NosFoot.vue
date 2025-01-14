@@ -24,10 +24,17 @@
                   </h4>
                   <nuxt-link
                     class="navbar-item"
-                    to="/compute"
+                    to="/hosts"
                     exact-active-class="is-active"
                   >
-                    <div>Compute Marketplace</div>
+                    <div>Become a GPU host</div>
+                  </nuxt-link>
+                  <nuxt-link
+                    class="navbar-item"
+                    to="/clients"
+                    exact-active-class="is-active"
+                  >
+                    <div>Deploy AI workloads</div>
                   </nuxt-link>
                   <a
                     target="_blank"

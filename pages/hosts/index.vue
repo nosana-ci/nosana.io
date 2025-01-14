@@ -212,7 +212,7 @@
               Earn in 4 simple steps
             </h3>
             <ol class="title is-3 ml-6 mt-5">
-              <li class="mb-3 pt-3">
+              <li class="mb-3 pt-3" data-aos="fade-in" data-aos-delay="100">
                 <strong>Register and verify</strong>
                 <p
                   class="has-color-text is-size-6 has-text-weight-normal pt-2"
@@ -221,7 +221,7 @@
                   Create an account and verify your hardware.
                 </p>
               </li>
-              <li class="mb-3">
+              <li class="mb-3" data-aos="fade-in">
                 <strong>List Your GPUs</strong>
                 <p
                   class="has-color-text is-size-6 has-text-weight-normal pt-2"
@@ -231,7 +231,7 @@
                   availability.
                 </p>
               </li>
-              <li class="mb-3">
+              <li class="mb-3" data-aos="fade-in">
                 <strong>Start Earning</strong>
                 <p
                   class="has-color-text is-size-6 has-text-weight-normal pt-2"
@@ -241,7 +241,7 @@
                   task completed.
                 </p>
               </li>
-              <li>
+              <li data-aos="fade-in">
                 <strong>Track Earnings</strong>
                 <p
                   class="has-color-text is-size-6 has-text-weight-normal pt-2"
@@ -258,11 +258,12 @@
               target="_blank"
               class="button is-black is-medium mt-5"
               style="width: 100%"
+              data-aos="fade-in"
             >
               Join and start earning today
             </a>
           </div>
-          <div class="column is-8 is-flex has-justify-content-center p-6">
+          <div class="column is-8 iframe-column is-flex has-justify-content-center p-6">
             <iframe
               src="https://www.youtube-nocookie.com/embed/36HUBr4i1ZA?si=kP4bBc-OI7kxmlAc"
               title="Nosana"
@@ -317,7 +318,7 @@
       </div>
     </section>
 
-    <section class="section py-6">
+    <section class="section py-6 bottom-c2a">
       <div class="container py-6">
         <h3 class="title is-1 pt-6">
           Ready to Join the GPU Revolution?
@@ -417,6 +418,20 @@ iframe {
   }
 }
 @media screen and (max-width: $tablet) {
+  .container.py-6 {
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+  }
+  .intro, .bottom-c2a {
+    .button {
+      margin-left: 0 !important;
+      margin-right: 0 !important;
+    }
+  }
+  .iframe-column {
+    padding: 1.5rem !important;
+    padding-bottom: 0 !important;
+  }
   .tweet-section {
     .columns {
       padding-top: 0 !important;
