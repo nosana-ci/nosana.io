@@ -11,7 +11,7 @@
               src="~/assets/img/sogni-logo-white.svg"
               alt="Sogni"
               class="mt-3"
-            >
+            />
             <h1
               style="font-size: 2.7rem"
               class="title pt-5 is-spaced has-text-white"
@@ -23,9 +23,9 @@
                 class="block has-limited-width-big is-size-5"
                 style="margin: 0 auto"
               >
-                “Using Nosana, we not only reduced costs but also gained the
+                "Using Nosana, we not only reduced costs but also gained the
                 ability to handle peak computational loads without sacrificing
-                speed or quality,”
+                speed or quality,"
               </p>
               <button
                 class="button is-white is-medium mt-5"
@@ -45,7 +45,7 @@
         <div class="columns is-centered">
           <div class="column is-10">
             <h3 class="title is-2 mb-5" style="line-height: 50px">
-              Sogni AI: Revolutionizing Gen AI Creative Tools<br>
+              Sogni AI: Revolutionizing Gen AI Creative Tools<br />
               with Nosana’s GPU Power
             </h3>
             <p>
@@ -65,45 +65,28 @@
           Nosana Results after the first 8 weeks:
         </h3>
         <div class="columns is-multiline">
-          <div class="is-3 column">
+          <div class="is-4 column" data-aos="fade-in">
             <div class="has-background-white p-5">
-              <div class="has-text-grey-light mt-1">
-                Generated images
-              </div>
+              <div class="has-text-grey-light mt-1">Generated Images</div>
               <h4 class="title is-2 pt-2 is-flex mb-1">
                 <ICountUp
-                  :end-val="31783"
+                  v-if="imagesGenerated"
+                  :end-val="imagesGenerated"
                   :options="{
                     enableScrollSpy: true,
                   }"
                 />
+                <span v-else>...</span>
               </h4>
             </div>
           </div>
-          <div class="is-3 column">
+          <div class="is-4 column" data-aos="fade-in" data-aos-delay="200">
             <div class="has-background-white p-5">
-              <div class="has-text-grey-light mt-1">
-                Compute hours provided
-              </div>
+              <div class="has-text-grey-light mt-1">Compute hours provided</div>
               <h4 class="title is-2 pt-2 is-flex mb-1">
                 <ICountUp
-                  :end-val="534.45"
-                  :options="{
-                    enableScrollSpy: true,
-                    decimalPlaces: 2,
-                  }"
-                />
-              </h4>
-            </div>
-          </div>
-          <div class="is-3 column">
-            <div class="has-background-white p-5">
-              <div class="has-text-grey-light mt-1">
-                Nodes
-              </div>
-              <h4 class="title is-2 pt-2 is-flex mb-1">
-                <ICountUp
-                  :end-val="24"
+                  v-if="computeHours"
+                  :end-val="computeHours"
                   :options="{
                     enableScrollSpy: true,
                     decimalPlaces: 0,
@@ -112,18 +95,15 @@
               </h4>
             </div>
           </div>
-          <div class="is-3 column">
+          <div class="is-4 column" data-aos="fade-in" data-aos-delay="400">
             <div class="has-background-white p-5">
-              <div class="has-text-grey-light mt-1">
-                Average batch generation
-              </div>
+              <div class="has-text-grey-light mt-1">Nodes</div>
               <h4 class="title is-2 pt-2 is-flex mb-1">
                 <ICountUp
-                  :end-val="2"
+                  :end-val="26"
                   :options="{
                     enableScrollSpy: true,
                     decimalPlaces: 0,
-                    suffix: ' sec',
                   }"
                 />
               </h4>
@@ -137,9 +117,7 @@
       <div class="container py-6 my-6">
         <div class="columns is-centered">
           <div class="column is-5" data-aos="fade-left">
-            <h4 class="title is-4">
-              AI Inference at Scale
-            </h4>
+            <h4 class="title is-4">AI Inference at Scale</h4>
             <p class="pr-6">
               Sogni AI is constantly striving to ensure they keep up with the
               pace of development within the image generation sector, as new
@@ -166,9 +144,7 @@
       <div class="container py-6 my-6">
         <div class="columns is-centered">
           <div class="column is-10">
-            <h4 class="title is-2 mb-6">
-              Challenges Faced By Sogni AI
-            </h4>
+            <h4 class="title is-2 mb-6">Challenges Faced By Sogni AI</h4>
             <h4 class="title is-4" data-aos="fade-in">
               High Costs of Cloud GPU Services
             </h4>
@@ -184,10 +160,8 @@
                 height: 1px;
                 margin: 2.5rem 0px !important;
               "
-            >
-            <h4 class="title is-4" data-aos="fade-in">
-              Scaling Limitations
-            </h4>
+            />
+            <h4 class="title is-4" data-aos="fade-in">Scaling Limitations</h4>
             <p data-aos="fade-in">
               Traditional solutions are challenging for GPUs quick GPU scaling
               due to the storage requirments.
@@ -199,7 +173,7 @@
                 height: 1px;
                 margin: 2.5rem 0px !important;
               "
-            >
+            />
             <h4 class="title is-4" data-aos="fade-in">
               Inefficiencies in Utilization
             </h4>
@@ -214,7 +188,7 @@
                 height: 1px;
                 margin-top: 2.5rem !important;
               "
-            >
+            />
           </div>
         </div>
       </div>
@@ -224,9 +198,7 @@
       <div class="container py-6 my-6">
         <div class="columns is-centered">
           <div class="column is-10">
-            <h4 class="title is-2 mb-6">
-              Solutions Delivered by Nosana
-            </h4>
+            <h4 class="title is-2 mb-6">Solutions Delivered by Nosana</h4>
             <p>
               Nosana’s decentralized GPU platform enabled Sogni AI to tap into a
               global network of available GPUs. Key implementations included:
@@ -242,9 +214,7 @@
                 costs by 70% compared to centralized cloud providers.
               </li>
             </ul>
-            <h4 class="title is-3 mt-6 mb-5">
-              Impact of Nosana on Sogni AI
-            </h4>
+            <h4 class="title is-3 mt-6 mb-5">Impact of Nosana on Sogni AI</h4>
             <ol
               class="ml-6 mb-5 mt-4 has-text-black has-text-weight-semibold pr-6"
             >
@@ -282,7 +252,27 @@ export default {
   colorMode: 'light',
   components: { BackgroundParallax, ICountUp },
   data () {
-    return {};
+    return {
+      imagesGenerated: null,
+      computeHours: null
+    };
+  },
+  mounted () {
+    this.getSogniData();
+  },
+  methods: {
+    async getSogniData () {
+      try {
+        const response = await fetch(
+          'https://socket.sogni.ai/api/v1/analytics/lifetime'
+        );
+        const data = await response.json();
+        this.imagesGenerated = data.jobCompleteWorker;
+        this.computeHours = data.renderSecCompleteWorker / 3600;
+      } catch (error) {
+        console.error(error);
+      }
+    }
   }
 };
 </script>

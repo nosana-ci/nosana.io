@@ -8,33 +8,34 @@
             class="column is-10 pt-6 has-text-centered has-background-black-blur-false has-text-white"
           >
             <h1 class="title pt-6 is-spaced site-title has-text-white">
-              Turn GPUs into Earnings with Nosana
+              Turn Your GPUs Into Profit
             </h1>
             <div class="py-2">
               <p
                 class="block has-limited-width-big is-size-5"
                 style="margin: 0 auto"
               >
-                Join the decentralized network powering the future of AI.
-                Monetize your GPU resources effortlessly and contribute to
-                groundbreaking innovation.
+                Whether your GPUs are in a data center or at home, Nosana offers
+                simple onboarding and tools to monetize your resources. By
+                connecting to our global network, you can monetize your GPUs
+                while supporting cutting-edge AI innovation.
               </p>
               <div class="buttons is-flex is-justify-content-center mt-6">
                 <a
-                  href="https://docs.nosana.io/nodes/grid.html"
+                  href="https://docs.nosana.io/hosts/grid.html"
                   target="_blank"
                   class="button is-white is-medium mr-2"
                   style="max-width: 350px; width: 100%"
                 >
-                  Start earning now
+                  Get Started
                 </a>
                 <a
-                  href="https://docs.nosana.io/nodes/grid.html"
+                  href="mailto: sales@nosana.io"
                   target="_blank"
                   class="button is-white is-outlined is-medium ml-2"
                   style="max-width: 350px; width: 100%"
                 >
-                  Learn how it works
+                  Contact Us
                 </a>
               </div>
             </div>
@@ -51,65 +52,44 @@
           <div class="is-4 column" data-aos="fade-in">
             <h4 class="title is-3 has-text-white">
               Passive Income <br>
-              <span class="has-text-grey-light">Connect your hardware in minutes with our intuitive
-                platform</span>
+              <span class="has-text-grey-light">Generate consistent earnings from otherwise unused
+                hardware.</span>
             </h4>
-            <p class="is-size-5">
-              Nosana’s decentralized infrastructure connects you to thousands of
-              GPUs across the globe, offering scalable, on-demand compute power
-              wherever you are.
-            </p>
           </div>
           <div class="is-4 column" data-aos="fade-in">
             <h4 class="title is-3 has-text-white">
-              Simple Setup <br>
-              <span class="has-text-grey-light">Connect your hardware in minutes with our intuitive
-                platform</span>
+              Global Clientele <br>
+              <span class="has-text-grey-light">Connect to a global network of AI startups, researchers, and
+                businesses effortlessly.</span>
             </h4>
-            <p class="is-size-5">
-              Nosana’s decentralized infrastructure connects you to thousands of
-              GPUs across the globe, offering scalable, on-demand compute power
-              wherever you are.
-            </p>
           </div>
           <div class="is-4 column" data-aos="fade-in" data-aos-delay="100">
             <h4 class="title is-3 has-text-white">
-              Real-Time Metrics <br>
-              <span class="has-text-grey-light">Track usage and earnings with complete transparancy</span>
+              Fast Onboarding <br>
+              <span class="has-text-grey-light">Track performance, earnings, and contributions with full
+                transparency.
+              </span>
             </h4>
-            <p class="is-size-5">
-              Leverage high-performance GPUs specifically tuned for AI inference
-              tasks, ensuring efficiency and speed for your projects.
-            </p>
           </div>
           <div class="is-4 column" data-aos="fade-in" data-aos-delay="200">
             <h4 class="title is-3 has-text-white">
-              Flexible Availability<br>
-              <span class="has-text-grey-light">Set your own schedules and pricing to maximize control</span>
+              Real-Time Metrics<br>
+              <span class="has-text-grey-light">Track performance, earnings, and contributions with full
+                transparency.</span>
             </h4>
-            <p class="is-size-5">
-              With dynamic pricing and job-matching, scale compute resources
-              easily, while GPU providers effortlessly monetize their hardware.
-              Ideal for any business size.
-            </p>
           </div>
           <div class="is-4 column" data-aos="fade-in" data-aos-delay="300">
             <h4 class="title is-3 has-text-white">
               Support Innovation<br>
               <span class="has-text-grey-light">
-                Help AI startups achieve breakthroughs by providing critical
-                infrastructure
+                Help AI startups and organizations innovate without focusing on
+                infrastructure.
               </span>
             </h4>
-            <p class="is-size-5">
-              By tapping into idle consumer GPUs, Nosana minimizes energy waste
-              and supports a greener future, providing robust computing power
-              for your AI needs.
-            </p>
           </div>
           <div class="is-4 mt-6 column is-flex is-align-items-center">
             <a
-              href="https://docs.nosana.io/nodes/grid.html"
+              href="https://docs.nosana.io/hosts/grid.html"
               target="_blank"
               class="button is-white is-medium mr-2"
               style="width: 100%"
@@ -209,26 +189,25 @@
         <div class="columns py-6 is-align-items-center">
           <div class="column is-5">
             <h3 class="title is-2">
-              Earn in 4 simple steps
+              Get Started and Start Earning in 4 Steps
             </h3>
             <ol class="title is-3 ml-6 mt-5">
               <li class="mb-3 pt-3" data-aos="fade-in" data-aos-delay="100">
-                <strong>Register and verify</strong>
+                <strong>Install the Nosana Node</strong>
                 <p
                   class="has-color-text is-size-6 has-text-weight-normal pt-2"
                   style="line-height: 25px"
                 >
-                  Create an account and verify your hardware.
+                  Set up your Node and connect to the Nosana Network.
                 </p>
               </li>
               <li class="mb-3" data-aos="fade-in">
-                <strong>List Your GPUs</strong>
+                <strong>Register and Verify</strong>
                 <p
                   class="has-color-text is-size-6 has-text-weight-normal pt-2"
                   style="line-height: 25px"
                 >
-                  Connect your GPUs to the Nosana network and set your
-                  availability.
+                  Join the network and verify your hardware.
                 </p>
               </li>
               <li class="mb-3" data-aos="fade-in">
@@ -237,24 +216,22 @@
                   class="has-color-text is-size-6 has-text-weight-normal pt-2"
                   style="line-height: 25px"
                 >
-                  AI startups use your GPUs for jobs, and you earn for every
-                  task completed.
+                  Get paid for every second your GPUs are used by Nosana Clients.
                 </p>
               </li>
               <li data-aos="fade-in">
-                <strong>Track Earnings</strong>
+                <strong>Track Performance</strong>
                 <p
                   class="has-color-text is-size-6 has-text-weight-normal pt-2"
                   style="line-height: 25px"
                 >
-                  Monitor usage, earnings, and payments in your personalized
-                  dashboard.
+                  Monitor performance and payments in your dashboard.
                 </p>
               </li>
             </ol>
 
             <a
-              href="https://docs.nosana.io/nodes/grid.html"
+              href="https://docs.nosana.io/hosts/grid.html"
               target="_blank"
               class="button is-black is-medium mt-5"
               style="width: 100%"
@@ -263,7 +240,9 @@
               Join and start earning today
             </a>
           </div>
-          <div class="column is-8 iframe-column is-flex has-justify-content-center p-6">
+          <div
+            class="column is-8 iframe-column is-flex has-justify-content-center p-6"
+          >
             <iframe
               src="https://www.youtube-nocookie.com/embed/36HUBr4i1ZA?si=kP4bBc-OI7kxmlAc"
               title="Nosana"
@@ -422,7 +401,8 @@ iframe {
     padding-top: 0 !important;
     padding-bottom: 0 !important;
   }
-  .intro, .bottom-c2a {
+  .intro,
+  .bottom-c2a {
     .button {
       margin-left: 0 !important;
       margin-right: 0 !important;

@@ -45,8 +45,9 @@
             Nosana empowers anyone with spare compute resources to contribute their idle processing power to
             our network. To participate, you'll need:
             <ul class="mt-4 ml-3">
-              <li>Internet connection</li>
-              <li>RAM: 4GB+</li>
+              <li>Minimum internet connection: 100MB/s download and 50MB/s upload</li>
+              <li>RAM: 12GB+</li>
+              <li>Storage: 256GB+ SSD</li>
               <li>One of the following NVIDIA GPUs: todo see list</li>
             </ul>
           </p>

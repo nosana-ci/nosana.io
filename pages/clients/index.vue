@@ -221,11 +221,13 @@
                     </div>
                     <h4 class="title is-2 pt-2 is-flex mb-1">
                       <ICountUp
-                        :end-val="31783"
+                        v-if="imagesGenerated"
+                        :end-val="imagesGenerated"
                         :options="{
                           enableScrollSpy: true,
                         }"
                       />
+                      <span v-else>...</span>
                     </h4>
                   </div>
                 </div>
@@ -236,12 +238,13 @@
                     </div>
                     <h4 class="title is-2 pt-2 is-flex mb-1">
                       <ICountUp
-                        :end-val="534.45"
+                        v-if="computeHours"
+                        :end-val="computeHours"
                         :options="{
                           enableScrollSpy: true,
-                          decimalPlaces: 2,
                         }"
                       />
+                      <span v-else>...</span>
                     </h4>
                   </div>
                 </div>
@@ -374,8 +377,27 @@ export default {
         }
       ],
       getStartedModal: false,
-      requestDemoModal: false
+      requestDemoModal: false,
+      imagesGenerated: null,
+      computeHours: null
     };
+  },
+  mounted () {
+    this.getSogniData();
+  },
+  methods: {
+    async getSogniData () {
+      try {
+        const response = await fetch(
+          'https://socket.sogni.ai/api/v1/analytics/lifetime'
+        );
+        const data = await response.json();
+        this.imagesGenerated = data.jobCompleteWorker;
+        this.computeHours = data.renderSecCompleteWorker / 3600;
+      } catch (error) {
+        console.error(error);
+      }
+    }
   }
 };
 </script>

@@ -69,7 +69,7 @@
         </div>
       </div>
 
-      <div class="column is-half">
+      <div class="column is-half mb-5">
         <div class="box has-background-grey-lighter">
           <div class="is-flex is-align-items-center mb-4">
             <p>Estimated price with</p>
@@ -101,7 +101,7 @@
             </div>
           </div>
           <a
-            href="https://dashboard.nosana.com/"
+            href="https://dashboard.nosana.com/markets"
             target="_blank"
             class="button is-black is-medium is-fullwidth mt-5"
           >
@@ -110,8 +110,6 @@
         </div>
       </div>
     </div>
-    <hr>
-    todo
   </div>
 </template>
 
