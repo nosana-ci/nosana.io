@@ -179,7 +179,7 @@
 
     <section class="section py-6 has-background-grey-lighter">
       <div class="container py-6 mb-6">
-        <h3 class="title is-2 pt-3">
+        <h3 class="title is-2 pt-3" id="calculator">
           Price Calculator
         </h3>
         <p>Estimate your costs by selecting the resources you need.</p>
