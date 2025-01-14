@@ -29,7 +29,7 @@ The updated Nosana dashboard shows real-time Premium Market availability and let
 
 
 ## Partnerships That Drive Innovation
-Over the past year, we’ve partnered with companies that demonstrate the flexibility of Nosana’s decentralized GPU network. Matrix One, PiKNiK, and Sogni.AI are just a few of the organizations using our platform for tasks like AI-powered avatars, enterprise cloud infrastructure, and stable diffusion processing. These partnerships prove that sharing GPU resources can solve real problems across industries.
+Over the past year, we’ve partnered with companies that demonstrate the flexibility of Nosana’s decentralized GPU network. [Matrix One](https://nosana.com/blog/nosana_partners_with_matrix_one_to_power_the_future_of_ai_avatars/), [PiKNiK](https://nosana.com/blog/nosana_teams_up_with_piknik_to_integrate_high_performance_gpus_into_its_depin_network/), and [Sogni.AI](https://nosana.com/blog/nosana_partners_with_sogni_ai_to_empower_creativity_through_ai_powered_art_generation/) are just a few of the organizations using our platform for tasks like AI-powered avatars, enterprise cloud infrastructure, and stable diffusion processing. These partnerships prove that sharing GPU resources can solve real problems across industries.
 
 ## A New Chapter for AI Innovation
 By breaking down the cost and access barriers that have slowed AI innovation, businesses, researchers, and individuals can now access the GPU resources they need without relying on centralized providers. At Nosana, we believe in a future with no limits, only possibilities—and we’re excited to see how a decentralized approach to AI compute will make that future a reality.
