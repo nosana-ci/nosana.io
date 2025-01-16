@@ -114,7 +114,7 @@
               </h3>
               <p>
                 Nosana’s infrastructure made Sogni’s platform up to
-                <b>176 times</b> faster
+                <b>176 times</b> faster.
               </p>
             </div>
           </div>
