@@ -428,6 +428,10 @@ ul {
     margin-top: 0 !important;
     line-height: 60px !important;
   }
+  .button.mr-3, .button.ml-3 {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+  }
 }
 
 p a {
