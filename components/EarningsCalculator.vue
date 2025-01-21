@@ -185,7 +185,7 @@ export default {
     async getMarkets () {
       try {
         const response = await fetch(
-          'https://dashboard.k8s.prd.nos.ci/api/markets/?marketType=PREMIUM'
+          'https://dashboard.k8s.prd.nos.ci/api/markets/?type=PREMIUM'
         );
         const data = await response.json();
         const excludeMarkets = [
