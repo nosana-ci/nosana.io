@@ -6,10 +6,6 @@ createdAt: '2025-01-23'
 tags:
   - news
 ---
-# **Ocada uses Nosana to power its AI agents on Solana, transforming blockchain user experience**
-
-**Nosana’s partnership with Ocada is unlocking a new era of AI-powered blockchain innovation—from automated trading and security analysis to transforming and simplifying the blockchain user experience.**
-
 ## **Introduction**
 
 Ocada, built on Solana like Nosana, is revolutionizing blockchain interaction through **AI agents**—autonomous programs that act on users’ behalf without ongoing human intervention. These agents plan, execute tasks, and access external tools or data sources in real time.
@@ -86,4 +82,4 @@ This is just the start of a **new era** in decentralized AI. Stay tuned as Nosan
 
 *Whether you need accessible GPU compute or want to scale your AI workloads, we’re here to help.*
 
-**CTA: [Talk to us.](https://calendly.com/d/cqxc-9nr-9s5)**
+**[Talk to us.](https://calendly.com/d/cqxc-9nr-9s5)**
